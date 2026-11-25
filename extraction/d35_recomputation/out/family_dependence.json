@@ -1,0 +1,141 @@
+{
+ "rows": 521,
+ "papers": 29,
+ "sign_counts": {
+  "+": 398,
+  "=": 42,
+  "-": 81
+ },
+ "t1_unmapped_rows": 3,
+ "rows_linked_to_records": 518,
+ "confirmed": {
+  "pairs": 220,
+  "same_sign": 0.5955,
+  "rank_gap": 0.2939,
+  "perm_same_sign_mean": 0.5851,
+  "p_same_sign": 0.4069,
+  "perm_rank_gap_mean": 0.3398,
+  "p_rank_gap": 0.0102,
+  "informative_papers": 7,
+  "informative_rows": 189,
+  "pairs_by_paper": {
+   "CBHSID": 10,
+   "FW-SMOTE": 112,
+   "GDO": 67,
+   "Loyalty-SMOTE": 1,
+   "NBU": 26,
+   "RACOG / wRACOG": 1,
+   "SMOM": 3
+  },
+  "without_FW-SMOTE": {
+   "pairs": 108,
+   "same_sign": 0.6389,
+   "rank_gap": 0.2787,
+   "perm_same_sign_mean": 0.6016,
+   "p_same_sign": 0.3002,
+   "perm_rank_gap_mean": 0.3444,
+   "p_rank_gap": 0.0086
+  }
+ },
+ "t1": {
+  "pairs": 262,
+  "same_sign": 0.6107,
+  "rank_gap": 0.289,
+  "perm_same_sign_mean": 0.603,
+  "p_same_sign": 0.4223,
+  "perm_rank_gap_mean": 0.3404,
+  "p_rank_gap": 0.0024,
+  "informative_papers": 11,
+  "informative_rows": 282,
+  "pairs_by_paper": {
+   "CBHSID": 10,
+   "DGOT": 4,
+   "FW-SMOTE": 118,
+   "GDO": 73,
+   "GOIO": 14,
+   "Loyalty-SMOTE": 2,
+   "NBU": 28,
+   "OREM-M": 2,
+   "RACOG / wRACOG": 1,
+   "RSMOTE": 1,
+   "SMOM": 9
+  },
+  "without_FW-SMOTE": {
+   "pairs": 144,
+   "same_sign": 0.6597,
+   "rank_gap": 0.2685,
+   "perm_same_sign_mean": 0.6307,
+   "p_same_sign": 0.3011,
+   "perm_rank_gap_mean": 0.3443,
+   "p_rank_gap": 0.0004
+  },
+  "leave_one_paper_out": {
+   "CBHSID": {
+    "pairs": 252,
+    "rank_gap": 0.2831,
+    "perm_rank_gap_mean": 0.3407,
+    "p_rank_gap": 0.001
+   },
+   "FW-SMOTE": {
+    "pairs": 144,
+    "rank_gap": 0.2685,
+    "perm_rank_gap_mean": 0.3441,
+    "p_rank_gap": 0.0005
+   },
+   "GDO": {
+    "pairs": 189,
+    "rank_gap": 0.2959,
+    "perm_rank_gap_mean": 0.3399,
+    "p_rank_gap": 0.0225
+   },
+   "GOIO": {
+    "pairs": 248,
+    "rank_gap": 0.298,
+    "perm_rank_gap_mean": 0.3395,
+    "p_rank_gap": 0.012
+   },
+   "NBU": {
+    "pairs": 234,
+    "rank_gap": 0.2928,
+    "perm_rank_gap_mean": 0.3399,
+    "p_rank_gap": 0.0075
+   },
+   "SMOM": {
+    "pairs": 253,
+    "rank_gap": 0.2868,
+    "perm_rank_gap_mean": 0.3399,
+    "p_rank_gap": 0.0015
+   }
+  }
+ },
+ "t1_by_minority_sharing": {
+  "different_minority": {
+   "pairs": 260,
+   "rank_gap": 0.2896,
+   "null_mean": 0.3404,
+   "p": 0.0027,
+   "papers": [
+    "CBHSID",
+    "DGOT",
+    "FW-SMOTE",
+    "GDO",
+    "GOIO",
+    "Loyalty-SMOTE",
+    "NBU",
+    "OREM-M",
+    "RACOG / wRACOG",
+    "RSMOTE",
+    "SMOM"
+   ]
+  },
+  "shared_minority": {
+   "pairs": 2,
+   "rank_gap": 0.2083,
+   "null_mean": 0.3469,
+   "p": 0.2345,
+   "papers": [
+    "NBU"
+   ]
+  }
+ }
+}

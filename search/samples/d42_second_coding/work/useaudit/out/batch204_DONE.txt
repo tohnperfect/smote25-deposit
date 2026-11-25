@@ -1,0 +1,12 @@
+d42 useaudit batch 204 (blind second coder): DONE
+n=52, fulltext=0 (all 52 coded from title and abstract), application=50 (no=2), inside_folds stated=0, before-split=0 (inside_folds and test_balanced na for all, abstract only)
+validation: internal 18, external 2, nr 30, na 2; confidence: high 25, medium 22, low 5
+
+Least sure:
+- R06579 (is_application=no): SMOTE inside a bagging ensemble with k-NN, presented as "our proposed model" and compared with k-NN plus plain SMOTE; own by the letter of Rule B, but could be read as a classifier pipeline (yes).
+- R05434 (is_application=no): searches the best SMOTE balance ratio jointly with L1-SVM feature selection; coded own as "a search for how much to oversample"; the main framing is feature selection for SRAM yield analysis.
+- R05299: title (perovskite solar cells) does not match the abstract (credit card fraud); coded from the abstract.
+- R06457: garbled abstract; unnamed "oversampling system" read as a pipeline step (application), not an own method.
+- R06379 (no abstract, title only) and R06678: resamplers and learners not named (other).
+- Borderline domain calls: R02100 (smart-building comfort, other), R20806 (construction risk, industry), R02274 (flood tweets, social), R01639 (embankments, transport).
+- Some abstracts hint at the resampling order (R03509 and R04257 suggest SMOTE before CV or splitting; R02561 class counts suggest SMOTE on all 93 images; R18088 and R02826 say training only), but inside_folds is FT-only, so these are recorded in the notes only.

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite the paper, and these files with their DOI."
+title: "SMOTE25: data and code for \"SMOTE 25 Years of Magic: What Has Been Done, What the Evidence Shows, and Whom It Reached\""
+type: dataset
+doi: 10.5281/zenodo.24212321
+repository-code: "https://github.com/tohnperfect/smote25-deposit"
+license: CC-BY-4.0
+authors:
+  - family-names: "Intharah"
+    given-names: "Thanapong"
+    affiliation: "Khon Kaen University"
+    orcid: "https://orcid.org/0000-0003-0965-680X"
+  - family-names: "Makjaroen"
+    given-names: "Pharamut"
+    affiliation: "Khon Kaen University"
+  - family-names: "Thawarorit"
+    given-names: "Kanvara"
+    affiliation: "Khon Kaen University"
+  - family-names: "Chaingam"
+    given-names: "Supawit"
+    affiliation: "Khon Kaen University"
+preferred-citation:
+  type: article
+  title: "SMOTE 25 Years of Magic: What Has Been Done, What the Evidence Shows, and Whom It Reached"
+  authors:
+    - family-names: "Intharah"
+      given-names: "Thanapong"
+    - family-names: "Makjaroen"
+      given-names: "Pharamut"
+    - family-names: "Thawarorit"
+      given-names: "Kanvara"
+    - family-names: "Chaingam"
+      given-names: "Supawit"

@@ -1,0 +1,25 @@
+{
+ "data_key": "SMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Private",
+  "Other"
+ ],
+ "crit": "Nine datasets that 'vary extensively in their size and class proportions, thus offering different domains for SMOTE'; Satimage reduced to two classes 'as was done in (Provost et al., 1998)'; Forest Cover reduced to two classes because the system 'currently works for binary classes'.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "prior-work",
+  "method-target"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Pages are printed JAIR pages (321-357; pdf p.14 = 334). Text says 'summarized in Table 5.2' but the table is 'Table 2: Dataset distribution' (p.334), which prints only majority and minority counts (no feature counts, no IR). minority_rule coded 'explicit target listed' because the minority is described per dataset (positive diabetes cases, class 1 of Phoneme, active compounds, oil slicks, calcifications, 'very interesting' can region, Cottonwood/Willow via the Table 2 counts); for Satimage it is a rule, 'the smallest class as the minority class' (Provost et al., 1998), so 'smallest class vs rest' applies to that one dataset only. The general selection reason is diversity; prior-work and method-target in basis come from data-preparation reasons for single datasets: Satimage collapsed 'as was done in (Provost et al., 1998)' (and Oil 'is used in their paper (Kubat et al., 1998)'), Forest Cover cut to two classes because the system works for binary classes; drop them if basis should cover dataset choice only. No dataset list is said to be reused, hence benchmark_inherited_from 'not stated in paper'. Domain needs are described for Pima and Mammography but not given as reasons for choosing the data (application not coded). Can (p.334) 'was generated from the Can ExodusII data' with the crushed region 'marked as \"very interesting\"': coded as a partner's (Sandia) dataset under Private, not as Synthetic/Generated; adjudicator may disagree. E-state provided by Steven Eschrich, Oil by Robert Holte (Private); Phoneme from the ELENA ftp site and Mammography from the authors' lab web page (Other); Pima, Adult, Satimage, Forest Cover cite Blake & Merz (UCI). For Adult only the continuous features were kept for SMOTE (no origin category). No link to the binarised Satimage/Forest Cover data (the USF link is for Mammography), so modified_data_released 'no'. Forest Cover row: the paper prints 581,012 samples and 7 classes for the original data only; the total of the two extracted classes is not printed. Labels 'Synthetic data' in Figs 4-5 denote SMOTE samples, not a synthetic dataset."
+}

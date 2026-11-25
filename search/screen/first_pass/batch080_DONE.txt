@@ -1,0 +1,12 @@
+batch 080: 200 of 200 records done; include 35, unsure 20, exclude 145
+no records remain
+
+Look at these first:
+- Codebook does not settle: R05190 is marked RETRACTED but otherwise meets I1-I3 (SMOTE-PSOEV). Included with low confidence.
+- Low-confidence unsure: R19405 (class-conditional DCGAN for crop images; new or applied, and aimed at data scarcity more than imbalance); R20631 (two-stage NTL detector, SMOTE only in stage 2 to cut synthetic data: a multiclass scheme or plain use?); R02291 (ADASYN for multi-label AMP types; labelling of synthetic multi-label instances is raised but not explained); R00815 (online ELM with under/over-sampling options); R00552 (oversampling ensembles, synthetic not stated, Korean-language venue); R13355 (grey wolf optimisation of samples after sampling); R21967 (ChatGPT minority reviews in a shared task); R19111 ("novel Dual-Balanced SMOTE" for class and gender).
+- Abstract says nothing on whether oversampling is synthetic: R04153 WOOLASVM is unsure, but R19453 GDDSAD (oversampling inside AdaBoost) and R06514 (bidirectional sampling) are included with medium confidence. Check that these are treated alike.
+- Borderline excludes (medium): R15341 (ADASYN rates tuned by SSA, treated as tuning); R14247 ("Stratified SMOTE" incorporated in an IDS framework); R17361 (KNN imputation + CBLOF + SVMSMOTE pipeline); R09508 (existing sparse autoencoder used for augmentation); R20982 (compares distance metrics inside SMOTE, coded E-COMPARE); R05686 (adversarial cost-sensitive classifier, E-NOGEN).
+- Borderline includes (medium): R00084 (SMOTE on Biased-SVM support vectors), R00292 (SMOTE plus random subspace), R00640 (OVA/OVO + SMOTE on MapReduce), R04824 (improved SMOTE inside a credit-risk model), R09953 (oversampling of noise-purified time series), R19226 (LLM feature-guided text augmentation), R02854 (search-based augmentation feeding PGGAN), R18469 (diffusion samples used unlabeled for pretraining).
+- Possible non-English full text although the record says en: R00084 (likely Chinese journal), R10048 (Korean J. Applied Statistics), R00552 (Korean venue).
+- Rule-based unsure: R17110 CSM-SMOTE and R18111 CR-SMOTE (I2 not stated); R21537 (diffusion augmentation for covariate shift) and R11523 (generator for survival calibration and privacy) are U-other because they serve another purpose.
+- Front matter tagged in scope: R22293 (hybrid VAE-Transformer multiclass oversampling), R04053 (deep oversampling for acne), R00451 (SMOTE with ensemble filtering).

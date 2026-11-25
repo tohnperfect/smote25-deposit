@@ -1,0 +1,23 @@
+{
+ "data_key": "CBHSID",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL"
+ ],
+ "crit": "The datasets are chosen based on the class imbalance ratio; the imbalance ratio of the selected datasets ranges from 1.38 to 41.4; the selected datasets are considered as benchmark and widely used in the literature as summarized by [29].",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "mean-size or IR threshold",
+ "modified_data_released": "n.a.",
+ "notes": "Table 1 (pdf p.8, printed 118646) prints only #features, #classes and IR (no #instances, no minority counts). Binarised sets (Yeast1, Vehicle1, Glass6, Yeast3-6) carry KEEL two-class file names and KEEL is named as a source; the paper never says the authors binarised anything, hence binarised_by=repository (inferred from names + stated source). Four multi-class sets kept native (Penbased 10, Contraceptive 3, Dermatology 6, Thyroid 3 classes). minority_rule: the method's own mean-size threshold (mu = |D|/#classes) defines minority vs majority for all datasets; for the KEEL two-class sets the split is otherwise repository-defined. [29] is a review (Spelmen & Porkodi 2018) cited only for the popularity claim, not as the source of the list, so benchmark_inherited_from not stated. Inclusion of multi-class data matches the method's stated scope (binary and multi-class) but no explicit selection reason is given for that, so method-target not coded. Table 3 first row is printed 'River' (Table 1 says 'Liver'). CBHSID cells printed with a space before the ± sign (e.g. '0.9656 ±0.012'). Tables 1 and 3 are images in the text layer; values read from the rendered PDF pages 8-9."
+}

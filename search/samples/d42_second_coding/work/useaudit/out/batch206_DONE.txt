@@ -1,0 +1,14 @@
+d42 useaudit batch 206 (blind second coder): DONE
+n=10, fulltext=10, abstract=0, application=9 (no: R03578, software library paper)
+inside_folds: stated=6, before-split=2 (R12886, R04586), nr=1 (R06252), na=1
+test_balanced: no=6, yes=2 (R12886, R04586), nr=1, na=1
+vs_none: yes=7, no=2; vs_weights: yes=1 (R06703), no=8
+confidence: high=5, medium=5
+
+Codes I was least sure of:
+- R02506 is_application=yes: plain GAN plus a controller that targets weak classes and keeps generated batches only if the IDS improves; coded as screening of an unchanged generator (B2), but the loop could be read as an own allocation/search for how much to oversample (then "no").
+- R06252 inside_folds=nr, test_balanced=nr: SMOTE sits in the data-collection stage before the model and Table 1 treats "Framingham Datasets (SMOTe)" as a dataset (hints before-split), but the reported counts (2688 per class, total 7,328) are inconsistent, so no clean arithmetic basis.
+- R02989 inside_folds=stated: explicit "only used on the learning parts of the cross-validation process", yet Fig. 1/Sect. 3.3 describe WEKA-style SMOTE plus randomisation as data preparation.
+- R04586 resampler=SMOTE;undersampling: undersampling to 1:1 is decoded from a garbled paragraph; before-split/test_balanced=yes rest on arithmetic (ACC vs SE/SP gives about 50% fraud in evaluation data); stakes=individual (card fraud) is a judgment call.
+- R04381 stakes=other and domain=other for speech emotion recognition; inside_folds=stated rests on "samples from the training set" plus per-class arithmetic; FAU Aibo school-based split coded internal.
+- R02484 domain=education (e-learning feedback; could be software). R02989 domain=transport, stakes=individual.

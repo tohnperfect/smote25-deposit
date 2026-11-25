@@ -1,0 +1,9 @@
+{
+ "task": "iris6",
+ "source": "author-kmeans",
+ "n": 108,
+ "n_min": 8,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 4
+}

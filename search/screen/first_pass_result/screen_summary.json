@@ -1,0 +1,65 @@
+{
+ "records_screened": 22426,
+ "batches_missing": [],
+ "decisions": {
+  "exclude": 17771,
+  "unsure": 1874,
+  "include": 2781
+ },
+ "codes": {
+  "E1": 14011,
+  "E-LANG": 645,
+  "U-new-or-applied": 1186,
+  "E-NOGEN": 901,
+  "I1-new-variant": 1143,
+  "I1-other": 320,
+  "E-COMPARE": 1615,
+  "I1-generative": 710,
+  "I1-hybrid": 491,
+  "U-other": 549,
+  "E-REVIEW": 407,
+  "E2": 192,
+  "I1-multiclass": 117
+ },
+ "confidence": {
+  "exclude/high": 16204,
+  "exclude/low": 49,
+  "exclude/medium": 1518,
+  "include/high": 1864,
+  "include/low": 17,
+  "include/medium": 900,
+  "unsure/high": 107,
+  "unsure/low": 441,
+  "unsure/medium": 1326
+ },
+ "by_year_band": {
+  "2002-2017/exclude": 644,
+  "2002-2017/include": 343,
+  "2002-2017/unsure": 168,
+  "2018-2022/exclude": 3028,
+  "2018-2022/include": 808,
+  "2018-2022/unsure": 421,
+  "2023-2026/exclude": 14099,
+  "2023-2026/include": 1630,
+  "2023-2026/unsure": 1285
+ },
+ "pilot_random_400": {
+  "n": 400,
+  "agreement": 0.958,
+  "kappa": 0.859,
+  "differences": {
+   "include->unsure": 6,
+   "exclude->unsure": 6,
+   "unsure->include": 2,
+   "unsure->exclude": 3
+  }
+ },
+ "known_smote_family_35": {
+  "n": 35,
+  "included": 32,
+  "unsure": 3,
+  "excluded": []
+ },
+ "codebook": "SCREENING_CODEBOOK.md v1.1 (the pilot used v1)",
+ "seed_batches": 20261112
+}

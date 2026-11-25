@@ -1,0 +1,22 @@
+{
+ "data_key": "QC-SMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "Other"
+ ],
+ "crit": "'the 30 real-world binary imbalanced datasets used in the VS-SMOTE benchmark'; 'Using this benchmark allows direct comparison against a recent space-quality-aware SMOTE variant'; the datasets 'cover a broad range of domains' and IR from 1.82 to 32.73, a range that 'is important because oversampling behaviour often changes substantially between moderate and extreme imbalance'.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "VS-SMOTE benchmark: [24] Qiu et al., 2025, 'Vs-smote: Leveraging high-value spaces to balance noise control and data diversity for class imbalanced learning', Neurocomputing 131321",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "n.a.",
+ "notes": "Preprint ('Preprint submitted to Elsevier', pages 'Page N of 12'). The paper names no repository (no KEEL/UCI anywhere); sources coded 'Other' = the VS-SMOTE benchmark [24]. The dataset names are KEEL-style two-class split files (glass-0-1-2-3_vs_4-5-6, yeast-0-5-6-7-9_vs_4, shuttle-c0-vs-c4), so KEEL is the likely origin but it is not stated. Binarised = ready-made two-class splits used as in the benchmark; no own modification, no minority class named beyond the file names. Table 1 prints only ID, name and IR (no size, features or minority counts). Results caveat: 'The non-QC-SMOTE columns are retained from the published benchmark, while the QC-SMOTE column is obtained from our reproduced runs' (p.8), i.e. the SMOTE results are copied from the VS-SMOTE paper. IR regimes (<5, 5-15, >=15) are used for analysis only, not for selection. No code or data link found."
+}

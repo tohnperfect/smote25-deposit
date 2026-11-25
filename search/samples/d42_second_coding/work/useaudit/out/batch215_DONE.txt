@@ -1,0 +1,15 @@
+d42 useaudit batch 215: blind second coding complete (8 of 8 records, batch order kept).
+
+Counts
+n=8; source fulltext=8, abstract=0; is_application yes=8, no=0
+inside_folds: stated=3 (R02261, R12745, R02988), before-split=3 (R18227, R12857, R11193), nr=2 (R01572, R18816)
+test_balanced: yes=3 (R18227, R12857, R11193), no=3 (R02261, R12745, R02988), nr=2 (R01572, R18816)
+vs_none yes=5, no=3; vs_weights yes=1, no=7; calibration yes=0; validation internal=8
+confidence high=3, medium=5, low=0
+
+Least sure
+- R18227 (T2DM, ADASYN): before-split/test_balanced=yes rest only on rule D: the test confusion matrix is exactly 500/500 although the paper calls the data imbalanced; ADASYN placement is never stated, and a balanced test sample is the alternative. The 'independent testing' is coded internal.
+- R02261 (Alzheimer MRI): stated. Sec. II.B says oversampling applies after the train/test split and the test folder keeps natural counts, but the flowchart text says the split follows preprocessing. Oversampling is rotated/flipped copies, coded random-oversampling.
+- R12745 (bank account fraud): stated is based on 'NearMiss-resampled training set' and on count arithmetic (8,272 + 2,757 = 11,029 frauds); the text says 80/20 but the counts fit 75/25. vs_weights=yes because tuned and default thresholds are compared, both after SMOTENC.
+- R18816 (card fraud): inside_folds nr and test_balanced nr. The stratified split comes before 'SMOTE implementation' in the outline, but the Table 2 metrics imply 3-7% test fraud for baseline and SMOTE alike, which fits neither a natural (0.17%) nor a balanced test set. stakes coded individual.
+- R01572 (PMNet point clouds): is_application yes (flip-augmentation oversampling as a side experiment, standard augmentation under B2), resampler other, domain environment, modality mixed; inside_folds and test_balanced nr.

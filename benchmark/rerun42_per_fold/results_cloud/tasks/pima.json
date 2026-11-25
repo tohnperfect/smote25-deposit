@@ -1,0 +1,9 @@
+{
+ "task": "pima",
+ "source": "KEEL(keel_ds)",
+ "n": 768,
+ "n_min": 268,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 8
+}

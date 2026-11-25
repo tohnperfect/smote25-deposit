@@ -1,0 +1,13 @@
+{
+ "papers": 75,
+ "median": 179,
+ "at_least_100": 47,
+ "to_2009": {
+  "papers": 17,
+  "median": 1921
+ },
+ "from_2021": {
+  "papers": 23,
+  "median": 27
+ }
+}

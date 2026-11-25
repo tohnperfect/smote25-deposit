@@ -1,0 +1,11 @@
+batch 108: 200 of 200 records done; include 34, unsure 16, exclude 150
+no records remain
+
+Look at these first:
+- Low-confidence includes and unsures: R13896 (include; 'Dynamic Seasonal SMOTE' is named as new in a water-quality system but never described), R03093 (unsure; adaptive DE replaces PSO, unclear whether it tunes SMOTE or the network), R01114 (unsure; t-SNE segmentation plus synthetic sampling for radar HRRP, unclear whether the sampling is new).
+- Low-confidence excludes, all with no abstract and domain-application titles (E1): R19828, R18217, R09819, R07271. No-abstract unsure: R03611, R06442 (titles about handling imbalance, could be applied or new).
+- Probably includes held back by the codebook: unsure U-other because I2 is not stated in the abstract: R09036 (improved G-SMOTE, multiclass), R17605 (BP-SMOTE), R17022 (ES-SMOTE). Unsure U-no-abstract with method-like titles: R05910 (boundary-distance/local-density oversampling), R11753 (class-balanced diffusion model).
+- Language checks: R02632 excluded E-LANG because the record says zh, but the English abstract describes an in-scope GA sample generator for NER. R13569 was included (DBSCAN+CGAN oversampler); the record says English, but the title has a Chinese parallel title and the venue is a Chinese journal.
+- Cases the codebook does not settle: R03230 (include I1-other; converts binary features to numerical ones before SMOTE, a change of representation rather than of generation), R08320 (exclude E-NOGEN; BALANCER recommends which augmentation method to use, plus a 720-dataset comparison), R10842 (include I1-other; conditioned mixup-style embedding augmentation compared with ROS), R03650 (include; seq2seq kNN that also works as an oversampler), R00765 (include I1-multiclass; BBO, oversampling type not stated, possibly random oversampling), R14217 (include; BS-GAN hybrid of a GAN and Borderline-SMOTE, an edge of clarification 3), R06880 (exclude E1; a standard VAE used as an oversampler on one medical dataset).
+- Clarification 3 unsures (existing generator combined with a step, presented as new): R10932, R20565, R07449, R03909, R19715, R16266, R09591.
+- Front matter: R15943 excluded E-REVIEW and tagged front-matter-in-scope (it lists 'BGDSO: A New Synthetic Oversampling Method...').

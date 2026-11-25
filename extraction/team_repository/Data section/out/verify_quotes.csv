@@ -1,0 +1,77 @@
+﻿key,found,page,ratio
+ENN (Wilson),no pdf text,,
+Tomek Links,no pdf text,,
+AdaBoost,no pdf text,,
+OSS,not found,,0.0
+SHRINK,exact,p.10,1.0
+SMOTE,exact,p.13,1.0
+SMOTEBoost,exact,p.6,1.0
+SMOTE-ENN / SMOTE-Tomek,not found,,0.0
+Borderline-SMOTE,exact,p.6,1.0
+Cluster-SMOTE,exact,p.1,1.0
+Global-CS (AAAI),partial,p.3,0.5
+COG-OS,partial,p.4,0.5
+ADASYN,exact,p.3,1.0
+LS,exact,p.1,1.0
+ClusterCentroids,not found,,0.0
+EasyEnsemble / BalanceCascade,exact,p.4,1.0
+Safe-Level-SMOTE,exact,p.6,1.0
+Global-CS (journal),exact,p.7,1.0
+RAMOBoost,exact,p.7,1.0
+RUSBoost,exact,p.5,1.0
+SPIDER2,exact,p.7,1.0
+DSRBF / Static-SMOTE,exact,p.7,1.0
+INOS,exact,p.7,1.0
+OVO-SMOTE,exact,p.2,1.0
+MWMOTE,exact,p.13,1.0
+RACOG / wRACOG,not found,,0.0
+RBBoost / Random Balance,exact,p.6,1.0
+SCUT,exact,p.4,1.0
+SMOTE-IPF,exact,p.7,1.0
+SplitBal,exact,p.5,1.0
+A-SUWO,exact,p.45,1.0
+CGMOS,exact,p.4,1.0
+MDO,partial,p.8,0.5
+SMOM,partial,p.8,0.5
+AMDO,partial,p.6,0.5
+OBU,exact,p.6,1.0
+ROS (Buda),partial,p.3,0.5
+k-means SMOTE,exact,p.14,1.0
+CTGAN / TVAE,exact,p.7,1.0
+G-SMOTE,exact,p.18,1.0
+GAMO,exact,p.5,1.0
+RBO,exact,p.6,1.0
+SOUP,partial,p.7,0.5
+AB-SMOTE,exact,p.4,1.0
+DLexiBoost,partial,p.10,0.5
+MBS,exact,p.7,1.0
+MC-CCR,exact,p.7,1.0
+MC-RBO,partial,p.7,0.5
+NBU,exact,p.16,1.0
+SPE,exact,p.6,1.0
+EMDO,exact,p.14,1.0
+HDE,exact,p.3,1.0
+RSMOTE,partial,p.12,0.67
+Survey: SMOTE Review,no pdf text,,
+CBHSID,exact,p.8,1.0
+FW-SMOTE,exact,p.6,1.0
+GDO,partial,p.7,0.5
+KNNOR,not found,p.11,0.33
+SHSampler,exact,p.5,1.0
+SOS,exact,p.2,1.0
+SVDD-WSMOTE,exact,p.22,1.0
+Survey: Stop Oversampling,exact,p.9,1.0
+GLOS,exact,p.9,1.0
+NROMM,partial,p.1,0.75
+OREM-M,partial,p.11,0.5
+GMMSampling,exact,p.11,1.0
+MC-MBRC,exact,p.9,1.0
+MKC-SMOTE,exact,p.5,1.0
+CISO,exact,p.15,1.0
+GDHS,exact,p.7,1.0
+GOIO,exact,p.6,1.0
+MC-NCLWO,partial,p.9,0.5
+MLOS,exact,p.8,1.0
+DGOT,partial,p.7,0.75
+Loyalty-SMOTE,exact,p.1,1.0
+QC-SMOTE,exact,p.8,1.0

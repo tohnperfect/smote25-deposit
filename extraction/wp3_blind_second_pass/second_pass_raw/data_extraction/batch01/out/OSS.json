@@ -1,0 +1,27 @@
+{
+ "data_key": "OSS",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Private"
+ ],
+ "crit": "Two groups of domains. (1) Data 'from two major projects that originally motivated this research: oil-spill detection and sleep classification. They represent very difficult learning tasks because the information provided by the given attributes is insufficient for successful classification'; for the oil data 'the positives are rare, and the domains perfectly fit the problem definition from Section 1'. (2) UCI files, used because 'we also followed the common practice of the machine-learning community ... so that other researchers can replicate the experiments and double-check our results'. Introduction: oil-spill experience 'supplemented by experiments from other domains with similar characteristics, including three benchmark domains'.",
+ "crit_type": "own reason",
+ "basis": [
+  "application",
+  "difficulty",
+  "method-target",
+  "popularity",
+  "replicability"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Class-resized"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "The text layer of this PDF is unreadable (Type 3 font encoding); everything was read from the PDF page images (pdf p.1-8, no printed page numbers). Seven two-class files (Table 3, pdf p.5): oil1, oil2 (oil-spill project, authors' own data), kr, br (sleep classification data owned by the Department of Medical Informatics, TU Graz, used with permission; 'The negative examples are known to belong to several different subclasses'), and g7, vw0, veh1 (UCI, binarised by the authors as one selected class vs the other classes). 'Class-resized' coded because the authors randomly discarded 'some examples' in g7 and veh1 so that class counts divide by k; the paper does not say which class lost examples and the aim was stratification, not raising the IR (adjudicator may prefer Undersampled or no code). 'popularity' coded from 'followed the common practice of the machine-learning community' for the UCI files. The oil data are said to come from Kubat, Holte and Matwin (1997) and the sleep data from Kubat, Pfurtscheller and Flotzinger (1994); these are data provenance (the authors' own earlier projects), not a reused benchmark list, so benchmark_inherited_from = not stated. No data or code availability statement. Table 3 prints #pos and #neg but no total size and no IR; caption says 'each domain has only two classes'."
+}

@@ -1,0 +1,10 @@
+batch 099: 200 of 200 records done; include 20, unsure 19, exclude 161
+no records remain
+
+Look at these first:
+- Low confidence (unsure): R16562 (BIRCH oversampling in a sensor-network IDS; the Chinese journal may publish in Chinese although metadata says English); R18977 (HVAC faults simulated from physics models of similar equipment for transfer learning; it is unclear whether simulation counts as a generator of synthetic minority examples).
+- Cases the codebook does not settle: R17549 (mixup-style feature-space mixing with class-balanced sampling, unsure); R00607 (multilabel random oversampling that clones instances, excluded E-NOGEN); R17639 (LLM-generated synthetic samples for an imbalanced task that is regression, excluded E2); R19285 (local vs centralised SMOTE in federated learning, excluded E1); R01963 (relation between misclassification cost and oversampling ratio, no algorithm, excluded E-COMPARE); R22405 (subgroup-targeted resampling study, excluded E-COMPARE).
+- Medium-confidence includes: R07060 (BROOD adds labelled out-of-distribution points, not strictly minority examples); R08999 and R03490 (existing parts combined, but cluster-guided or feature-space generation counted as a change); R02399 (1-D DCGAN, new or adapted); R10135 (mostly theory of LLM oversampling); R00085 (2008, no venue given, check I3).
+- I2 not stated in the abstract: R20853 (OT-SMOTE), R21486 (FP-SMOTE), R21624 (SC-SMOTE). All three are Zenodo preprints that look like one series and cite only theoretical analysis.
+- Excluded only for language but otherwise in scope: R03319 (WD-RBO, Chinese), R03333 (DB-SMOTE, Chinese), R07194 (clustered SMOTE-ENN scheme, Indonesian), R16895 (probabilistic SMOTE variants, Spanish).
+- No abstract, excluded on title alone (medium): R16457, R13791, R04798, R10293.

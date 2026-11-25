@@ -1,0 +1,27 @@
+{
+ "data_key": "CTGAN / TVAE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Kaggle",
+  "Image",
+  "Synthetic"
+ ],
+ "crit": "A common benchmark is built because prior methods 'neither employed the same datasets nor were evaluated under similar metrics'. Simulated data: 'a data oracle S to represent a known joint distribution' (so likelihood fitness can be computed); Grid and Ring generated following [21]; '4 well known Bayesian networks'. Real data: '6 commonly used machine learning datasets from UCI ... with features and label columns in a tabular form'; credit from Kaggle; MNIST binarized 'to mimic high dimensional binary data'.",
+ "crit_type": "own reason",
+ "basis": [
+  "method-target",
+  "analytic",
+  "popularity",
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "Only the Grid and Ring Gaussian-mixture oracles: 'We followed procedures found in [21]' ([21] = Srivastava et al., VEEGAN, NeurIPS 2017); otherwise not stated in paper",
+ "origin": [
+  "Natural",
+  "Generated"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "not defined",
+ "modified_data_released": "n.a.",
+ "notes": "Text says '6 commonly used machine learning datasets from UCI' but lists only 5 (adult, census, covertype, intrusion, news); credit is from Kaggle and MNIST (MNIST28, MNIST12) from LeCun's site, coded as Image. MNIST 'binarized' means pixel values made binary (and resized to 12x12 for MNIST12), not a two-class reduction, so not coded Binarised. Bayesian-network oracles use structures from bnlearn repository (footnote 3); the data are sampled by the authors (coded Synthetic/Generated). The paper's imbalance focus is on imbalanced categorical columns; no minority class is ever defined for the classification datasets (covertype, intrusion, mnist are multiclass), hence 'not defined'. news is a regression task. Supp Table 1 prints #train/test sizes (e.g. 10k/10k) and column counts split into #C/#B/#M, no total feature count, no class counts, no minority size or IR. Benchmark code is released at https://github.com/DAI-Lab/SDGym (p.2 footnote)."
+}

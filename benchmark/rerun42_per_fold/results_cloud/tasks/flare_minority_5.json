@@ -1,0 +1,9 @@
+{
+ "task": "flare [minority: 5]",
+ "source": "UCI++",
+ "n": 1389,
+ "n_min": 51,
+ "rows_dropped": 0,
+ "n_categorical": 2,
+ "d_used": 20
+}

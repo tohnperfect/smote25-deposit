@@ -1,0 +1,148 @@
+paper,metric,is_rule_A_metric,dataset,smote,old_variant,old_value,new_variant,new_value,source,old_result,new_result,changed
+NBU,G-mean,True,Wisconsin,96.66,NB-Comm,97.12,NB-Basic,97.12,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Pima,60.02,NB-Comm,55.24,NB-Basic,47.5,other_variants NB-Basic,loss,loss,no
+NBU,G-mean,True,Glass0,68.14,NB-Comm,73.19,NB-Basic,67.76,other_variants NB-Basic,win,loss,yes
+NBU,G-mean,True,Vehicle1,48.93,NB-Comm,55.92,NB-Basic,40,other_variants NB-Basic,win,loss,yes
+NBU,G-mean,True,Vehicle0,84.07,NB-Comm,87.16,NB-Basic,85.82,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Ecoli1,70.11,NB-Comm,87.67,NB-Basic,91.82,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,New-thyroid1,75.59,NB-Comm,95.74,NB-Basic,82.13,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,New-thyroid2,100,NB-Comm,95.74,NB-Basic,95.74,other_variants NB-Basic,loss,loss,no
+NBU,G-mean,True,Ecoli2,83.67,NB-Comm,94.02,NB-Basic,94.02,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Segmemt0,97.54,NB-Comm,94,NB-Basic,87.58,other_variants NB-Basic,loss,loss,no
+NBU,G-mean,True,Yeast3,67.68,NB-Comm,91.08,NB-Basic,90.66,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Ecoli3,52.55,NB-Comm,94.87,NB-Basic,92.2,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Yeast2vs4,62.9,NB-Comm,81.83,NB-Basic,86.98,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Vowel0,84.98,NB-Comm,99.72,NB-Basic,94.28,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Glass2,57.74,NB-Comm,73.96,NB-Basic,73.96,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Yeast1vs7,0,NB-Comm,51.64,NB-Basic,57.9,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Glass4,70.71,NB-Comm,70.71,NB-Basic,70.71,other_variants NB-Basic,tie,tie,no
+NBU,G-mean,True,Ecoli4,100,NB-Comm,100,NB-Basic,99.2,other_variants NB-Basic,tie,loss,yes
+NBU,G-mean,True,Page-blocks13vs2,100,NB-Comm,97.7,NB-Basic,97.7,other_variants NB-Basic,loss,loss,no
+NBU,G-mean,True,Abalone09-18,35.1,NB-Comm,64.5,NB-Basic,56.35,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Glass5,0,NB-Comm,0,NB-Basic,0,other_variants NB-Basic,tie,tie,no
+NBU,G-mean,True,Yeast4,54.29,NB-Comm,84.29,NB-Basic,81.42,other_variants NB-Basic,win,win,no
+NBU,G-mean,True,Ecoli0137vs26,100,NB-Comm,100,NB-Basic,98.13,other_variants NB-Basic,tie,loss,yes
+NBU,G-mean,True,Yeast6,75.46,NB-Comm,74.54,NB-Basic,90.97,other_variants NB-Basic,loss,win,yes
+NBU,Sensitivity,False,Wisconsin,97.87,NB-Comm,100,NB-Basic,100,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Pima,43.4,NB-Comm,92.45,NB-Basic,98.11,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Glass0,50,NB-Comm,71.43,NB-Basic,85.71,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Vehicle1,25.58,NB-Comm,95.35,NB-Basic,100,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Vehicle0,71.79,NB-Comm,100,NB-Basic,100,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Ecoli1,53.33,NB-Comm,93.33,NB-Basic,100,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,New-thyroid1,57.14,NB-Comm,100,NB-Basic,71.43,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,New-thyroid2,100,NB-Comm,100,NB-Basic,100,other_variants NB-Basic,tie,tie,no
+NBU,Sensitivity,False,Ecoli2,70,NB-Comm,90,NB-Basic,90,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Segmemt0,95.38,NB-Comm,100,NB-Basic,100,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Yeast3,46.88,NB-Comm,100,NB-Basic,96.88,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Ecoli3,28.57,NB-Comm,100,NB-Basic,100,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Yeast2vs4,40,NB-Comm,70,NB-Basic,80,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Vowel0,72.22,NB-Comm,100,NB-Basic,88.89,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Glass2,33.33,NB-Comm,66.67,NB-Basic,66.67,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Yeast1vs7,0,NB-Comm,33.33,NB-Basic,50,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Glass4,50,NB-Comm,50,NB-Basic,50,other_variants NB-Basic,tie,tie,no
+NBU,Sensitivity,False,Ecoli4,100,NB-Comm,100,NB-Basic,100,other_variants NB-Basic,tie,tie,no
+NBU,Sensitivity,False,Page-blocks13vs2,100,NB-Comm,100,NB-Basic,100,other_variants NB-Basic,tie,tie,no
+NBU,Sensitivity,False,Abalone09-18,12.5,NB-Comm,50,NB-Basic,50,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Glass5,0,NB-Comm,0,NB-Basic,0,other_variants NB-Basic,tie,tie,no
+NBU,Sensitivity,False,Yeast4,30,NB-Comm,80,NB-Basic,80,other_variants NB-Basic,win,win,no
+NBU,Sensitivity,False,Ecoli0137vs26,100,NB-Comm,100,NB-Basic,100,other_variants NB-Basic,tie,tie,no
+NBU,Sensitivity,False,Yeast6,57.14,NB-Comm,57.14,NB-Basic,85.71,other_variants NB-Basic,tie,win,yes
+NBU,Precision,False,Wisconsin,92.06,NB-Comm,91.77,NB-Basic,91.18,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Pima,57.77,NB-Comm,81.13,NB-Basic,91.33,other_variants NB-Basic,win,win,no
+NBU,Precision,False,Glass0,77.29,NB-Comm,69.57,NB-Basic,76.36,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Vehicle1,57.96,NB-Comm,69.37,NB-Basic,72.39,other_variants NB-Basic,win,win,no
+NBU,Precision,False,Vehicle0,93.44,NB-Comm,66,NB-Basic,64.03,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Ecoli1,66.91,NB-Comm,69.05,NB-Basic,72.49,other_variants NB-Basic,win,win,no
+NBU,Precision,False,New-thyroid1,100,NB-Comm,76.89,NB-Basic,75.31,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,New-thyroid2,100,NB-Comm,76.54,NB-Basic,74.01,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Ecoli2,100,NB-Comm,91.41,NB-Basic,94.21,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Segmemt0,98.43,NB-Comm,65.29,NB-Basic,52.22,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Yeast3,71.79,NB-Comm,52.58,NB-Basic,57.27,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Ecoli3,49.92,NB-Comm,56.68,NB-Basic,50.22,other_variants NB-Basic,win,win,no
+NBU,Precision,False,Yeast2vs4,80.21,NB-Comm,69.04,NB-Basic,68.85,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Vowel0,100,NB-Comm,96.1,NB-Basic,100,other_variants NB-Basic,loss,tie,yes
+NBU,Precision,False,Glass2,100,NB-Comm,31.9,NB-Basic,44.07,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Yeast1vs7,0,NB-Comm,15.44,NB-Basic,17.91,other_variants NB-Basic,win,win,no
+NBU,Precision,False,Glass4,100,NB-Comm,100,NB-Basic,100,other_variants NB-Basic,tie,tie,no
+NBU,Precision,False,Ecoli4,100,NB-Comm,100,NB-Basic,82.62,other_variants NB-Basic,tie,loss,yes
+NBU,Precision,False,Page-blocks13vs2,100,NB-Comm,63.57,NB-Basic,62.09,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Abalone09-18,34.29,NB-Comm,21.62,NB-Basic,14.85,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Glass5,0,NB-Comm,0,NB-Basic,0,other_variants NB-Basic,tie,tie,no
+NBU,Precision,False,Yeast4,37.92,NB-Comm,24.22,NB-Basic,19.63,other_variants NB-Basic,loss,loss,no
+NBU,Precision,False,Ecoli0137vs26,100,NB-Comm,100,NB-Basic,47.93,other_variants NB-Basic,tie,loss,yes
+NBU,Precision,False,Yeast6,79.96,NB-Comm,35.37,NB-Basic,42.41,other_variants NB-Basic,loss,loss,no
+NBU,F1-score,False,Wisconsin,94.85,NB-Comm,94.95,NB-Basic,94.95,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,Pima,49.46,NB-Comm,57.99,NB-Basic,57.14,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,Glass0,60.87,NB-Comm,64.52,NB-Basic,61.54,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,Vehicle1,35.48,NB-Comm,48.81,NB-Basic,45.03,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,Vehicle0,81.16,NB-Comm,71.56,NB-Basic,69.64,other_variants NB-Basic,loss,loss,no
+NBU,F1-score,False,Ecoli1,59.26,NB-Comm,73.68,NB-Basic,78.95,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,New-thyroid1,72.73,NB-Comm,82.35,NB-Basic,71.43,other_variants NB-Basic,win,loss,yes
+NBU,F1-score,False,New-thyroid2,100,NB-Comm,82.35,NB-Basic,82.35,other_variants NB-Basic,loss,loss,no
+NBU,F1-score,False,Ecoli2,82.35,NB-Comm,90,NB-Basic,90,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,Segmemt0,96.88,NB-Comm,73.86,NB-Basic,58.56,other_variants NB-Basic,loss,loss,no
+NBU,F1-score,False,Yeast3,56.6,NB-Comm,58.72,NB-Basic,60.19,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,Ecoli3,36.36,NB-Comm,70,NB-Basic,60.87,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,Yeast2vs4,53.33,NB-Comm,66.67,NB-Basic,69.57,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,Vowel0,83.87,NB-Comm,97.3,NB-Basic,94.12,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,Glass2,50,NB-Comm,33.33,NB-Basic,33.33,other_variants NB-Basic,loss,loss,no
+NBU,F1-score,False,Yeast1vs7,0,NB-Comm,16,NB-Basic,16.22,other_variants NB-Basic,win,win,no
+NBU,F1-score,False,Glass4,66.67,NB-Comm,66.67,NB-Basic,66.67,other_variants NB-Basic,tie,tie,no
+NBU,F1-score,False,Ecoli4,100,NB-Comm,100,NB-Basic,88.89,other_variants NB-Basic,tie,loss,yes
+NBU,F1-score,False,Page-blocks13vs2,100,NB-Comm,71.43,NB-Basic,71.43,other_variants NB-Basic,loss,loss,no
+NBU,F1-score,False,Abalone09-18,18.18,NB-Comm,22.86,NB-Basic,12.9,other_variants NB-Basic,win,loss,yes
+NBU,F1-score,False,Glass5,0,NB-Comm,0,NB-Basic,0,other_variants NB-Basic,tie,tie,no
+NBU,F1-score,False,Yeast4,33.33,NB-Comm,32,NB-Basic,23.88,other_variants NB-Basic,loss,loss,no
+NBU,F1-score,False,Ecoli0137vs26,100,NB-Comm,100,NB-Basic,50,other_variants NB-Basic,tie,loss,yes
+NBU,F1-score,False,Yeast6,66.67,NB-Comm,42.11,NB-Basic,52.17,other_variants NB-Basic,loss,loss,no
+RACOG,Sensitivity,False,prompting,0.5971,wRACOG,0.6826,RACOG,0.693,racog_alt,win,win,no
+RACOG,Sensitivity,False,abalone,0.9482,wRACOG,0.9733,RACOG,0.9231,racog_alt,win,loss,yes
+RACOG,Sensitivity,False,car,1.00,wRACOG,1.00,RACOG,1.00,racog_alt,tie,tie,no
+RACOG,Sensitivity,False,nursery,1.00,wRACOG,1.00,RACOG,1.00,racog_alt,tie,tie,no
+RACOG,Sensitivity,False,letter,0.9248,wRACOG,0.9143,RACOG,0.9221,racog_alt,loss,loss,no
+RACOG,Sensitivity,False,connect-4,0.62,wRACOG,0.986,RACOG,0.762,racog_alt,win,win,no
+RACOG,Sensitivity,False,ecoli1,0.9365,wRACOG,0.9882,RACOG,0.9098,racog_alt,win,loss,yes
+RACOG,Sensitivity,False,haberman,0.533,wRACOG,0.5,RACOG,0.5641,racog_alt,loss,win,yes
+RACOG,Sensitivity,False,yeast4,0.5873,wRACOG,0.7655,RACOG,0.7655,racog_alt,win,win,no
+RACOG,Sensitivity,False,yeast6,0.8,wRACOG,0.8571,RACOG,0.8571,racog_alt,win,win,no
+RACOG,G-mean,True,prompting,0.7317,wRACOG,0.7913,RACOG,0.7919,racog_alt,win,win,no
+RACOG,G-mean,True,abalone,0.8968,wRACOG,0.8621,RACOG,0.8844,racog_alt,loss,loss,no
+RACOG,G-mean,True,car,0.9622,wRACOG,0.9622,RACOG,0.9622,racog_alt,tie,tie,no
+RACOG,G-mean,True,nursery,0.976,wRACOG,0.9775,RACOG,0.9672,racog_alt,win,loss,yes
+RACOG,G-mean,True,letter,0.9424,wRACOG,0.9394,RACOG,0.9364,racog_alt,loss,loss,no
+RACOG,G-mean,True,connect-4,0.7372,wRACOG,0.585,RACOG,0.7877,racog_alt,loss,win,yes
+RACOG,G-mean,True,ecoli1,0.8888,wRACOG,0.8378,RACOG,0.875,racog_alt,loss,loss,no
+RACOG,G-mean,True,haberman,0.5032,wRACOG,0.00,RACOG,0.5586,racog_alt,loss,win,yes
+RACOG,G-mean,True,yeast4,0.7082,wRACOG,0.8106,RACOG,0.8082,racog_alt,win,win,no
+RACOG,G-mean,True,yeast6,0.8721,wRACOG,0.8999,RACOG,0.8853,racog_alt,win,win,no
+RACOG,AUC-ROC,False,prompting,0.8585,wRACOG,0.8857,RACOG,0.8896,racog_alt,win,win,no
+RACOG,AUC-ROC,False,abalone,0.8989,wRACOG,0.8707,RACOG,0.8864,racog_alt,loss,loss,no
+RACOG,AUC-ROC,False,car,0.963,wRACOG,0.963,RACOG,0.963,racog_alt,tie,tie,no
+RACOG,AUC-ROC,False,nursery,0.9763,wRACOG,0.9777,RACOG,0.9677,racog_alt,win,loss,yes
+RACOG,AUC-ROC,False,letter,0.9861,wRACOG,0.9861,RACOG,0.9856,racog_alt,tie,loss,yes
+RACOG,AUC-ROC,False,connect-4,0.7497,wRACOG,0.6672,RACOG,0.7884,racog_alt,loss,win,yes
+RACOG,AUC-ROC,False,ecoli1,0.8911,wRACOG,0.8534,RACOG,0.8759,racog_alt,loss,loss,no
+RACOG,AUC-ROC,False,haberman,0.5852,wRACOG,0.5,RACOG,0.5997,racog_alt,loss,win,yes
+RACOG,AUC-ROC,False,yeast4,0.7291,wRACOG,0.814,RACOG,0.8109,racog_alt,win,win,no
+RACOG,AUC-ROC,False,yeast6,0.8796,wRACOG,0.9037,RACOG,0.8885,racog_alt,win,win,no
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Pima,85.49,Smote+ENN,83.66,Smote+Tomek,84.46,"Table 4, pruned, Smote+Tomek (rendered page 7)",loss,loss,no
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,German,80.74,Smote+ENN,80.91,Smote+Tomek,81.75,"Table 4, pruned, Smote+Tomek (rendered page 7)",win,win,no
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Post-operative,55.66,Smote+ENN,59.83,Smote+Tomek,41.80,"Table 4, pruned, Smote+Tomek (rendered page 7)",win,loss,yes
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Haberman,72.23,Smote+ENN,76.38,Smote+Tomek,75.73,"Table 4, pruned, Smote+Tomek (rendered page 7)",win,win,no
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Splice-ie,98.46,Smote+ENN,97.97,Smote+Tomek,98.26,"Table 4, pruned, Smote+Tomek (rendered page 7)",loss,loss,no
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Splice-ei,98.92,Smote+ENN,98.85,Smote+Tomek,98.87,"Table 4, pruned, Smote+Tomek (rendered page 7)",loss,loss,no
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Vehicle,98.96,Smote+ENN,97.92,Smote+Tomek,98.96,"Table 4, pruned, Smote+Tomek (rendered page 7)",loss,tie,yes
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Letter-vowel,98.90,Smote+ENN,98.94,Smote+Tomek,98.90,"Table 4, pruned, Smote+Tomek (rendered page 7)",win,tie,yes
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,New-thyroid,98.91,Smote+ENN,99.22,Smote+Tomek,98.91,"Table 4, pruned, Smote+Tomek (rendered page 7)",win,tie,yes
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,E.Coli,95.49,Smote+ENN,95.29,Smote+Tomek,95.98,"Table 4, pruned, Smote+Tomek (rendered page 7)",loss,win,yes
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Satimage,95.43,Smote+ENN,95.67,Smote+Tomek,95.43,"Table 4, pruned, Smote+Tomek (rendered page 7)",win,tie,yes
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Flag,73.62,Smote+ENN,79.32,Smote+Tomek,79.30,"Table 4, pruned, Smote+Tomek (rendered page 7)",win,win,no
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Glass,91.40,Smote+ENN,92.90,Smote+Tomek,91.40,"Table 4, pruned, Smote+Tomek (rendered page 7)",win,tie,yes
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Letter-a,99.91,Smote+ENN,99.91,Smote+Tomek,99.91,"Table 4, pruned, Smote+Tomek (rendered page 7)",tie,tie,no
+SMOTE-ENN,"AUC (%) mean(std), 10-fold CV",True,Nursery,99.21,Smote+ENN,97.80,Smote+Tomek,99.27,"Table 4, pruned, Smote+Tomek (rendered page 7)",loss,win,yes
+SOS,Weighted F1,True,Default,0.561,Sub-VP,0.574,VE,0.571,"Table 2, VE",win,win,no
+SOS,Weighted F1,True,Shoppers,0.648,Sub-VP,0.673,VE,0.675,"Table 2, VE",win,win,no
+SOS,Weighted F1,True,Surgical,0.678,Sub-VP,0.714,VE,0.709,"Table 2, VE",win,win,no
+SOS,Weighted F1,True,WeatherAUS,0.674,Sub-VP,0.680,VE,0.672,"Table 2, VE",win,loss,yes
+SOS,Weighted F1,True,Buddy,0.584,Sub-VP,0.608,VE,0.607,"Table 2, VE",win,win,no
+SOS,Weighted F1,True,Satimage,0.846,Sub-VP,0.855,VE,0.854,"Table 2, VE",win,win,no

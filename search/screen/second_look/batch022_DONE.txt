@@ -1,0 +1,17 @@
+batch 022: 158 of 158 records done; include 22, unsure 46, exclude 90
+no records remain
+
+Look at these first
+1. Low-confidence excludes: R21182 (AFCM-SMOTE step in a pile-capacity pipeline; target looks like regression, unclear whether AFCM-SMOTE is the authors' own), R10105 (no abstract, SRF-KELM domain model), R04204 (titled a survey, but the abstract describes ensemble SVM with a SMOTE-IPF-like extension and names no evaluation), R17703 (no abstract, imbalance-aware ECG network).
+2. Low-confidence unsures, mostly domain papers whose resampling step is unnamed or only vaguely new: R03360, R18558, R14489, R12494, R07854, R04839, R08830, R08567, R13739, R06585. Also R12162 (no abstract), R11598 (RL agent picks among existing samplers) and R11272 (GAN-LSTM CPS detector, possibly anomaly detection only, E2).
+3. Borderline calls made one way or the other:
+   - Includes: R02786 (DCGAN oversampling of crash data reshaped to 2-D matrices; the plain GAN/AAE applications R03984, R12147, R03520 and R14797 were excluded E1), R00949 (GA auto-tuning of DBSM), R08722 (Ensemble-SMOTE aggregates SMOTE variants), R04438 (GEP-NB), R03011 (semi-supervised oversampling, unclear if synthetic), R09706 (feature-level oversampling inside a PolSAR model).
+   - Excludes: R17892 (comparison paper that includes a SMOTE-NC-CTGAN hybrid), R08186 (new cluster undersampling, then existing ADASYN/SMOTETomek), R01603 (local vs global distributed SMOTE analysis), R02857 (SMOTE tuned by grid search).
+4. Cases the codebook does not settle:
+   - Parameter tuning of SMOTE (GA, metaheuristic, grid or threshold search): R00949 include; R12494 and R02465 unsure; R02857 and R02283 E1. A rule would make these consistent.
+   - Informed replication with no synthetic data: R21754 (SVM slack-guided replication) excluded E-NOGEN; R01853 and R08830 unsure because the abstract does not say whether the oversampling is synthetic.
+   - Theses: R08923 (HOVER graph oversampling, typed as a journal article) and R03571 (arXiv thesis summarising 12 resampling papers) marked unsure; I3 has no thesis category.
+   - Erratum and comment: R18022 (erratum to an oversampling article, tagged front-matter-in-scope so the original can be checked) and R06828 (comment correcting a SMOTE theory paper) coded E-REVIEW for want of a better code.
+   - Clarification 1 taken literally for R17978 (3D bone diffusion model for virtual trials): unsure, but probably out of scope.
+   - Clarification 3 applied to combinations that are already named methods: R13406 (SMOTE plus ENN, i.e. SMOTE-ENN) and R01343 (A-SUWO plus NCL): unsure.
+5. Zenodo preprint series: seven new SMOTE variants reporting only theoretical analysis (R22038, R18193, R16056, R16709, R18203, R20853, R21494), all unsure U-other ("I2 not stated"). They share one abstract template and may come from one source.

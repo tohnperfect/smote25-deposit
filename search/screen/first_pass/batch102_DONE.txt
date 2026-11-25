@@ -1,0 +1,23 @@
+batch 102: 200 of 200 records done; include 25, unsure 11, exclude 164
+no records remain
+
+Check first:
+- Low-confidence unsure, all leaning exclude: R05589 (#25), a retracted CHD paper that uses an "optimized SMOTE"; R02340 (#70), a decomposition-based identity-management algorithm with a privacy angle; R21615 (#95), a "Borderline-SMOTE-based" balancing method whose description matches plain Borderline-SMOTE; R13739 (#101), an oversampling-based data-structuring step for gait data; R13362 (#175), SVM classifier chains with "adaptive SMOTE".
+- Borderline excludes the codebook does not settle:
+  - R05355 (#8), TOUS (Tomek links with random under- and oversampling). Coded E-NOGEN on the reading that random duplication is not synthetic generation.
+  - R19209 (#2), ExtenSO, which oversamples output values in GP semantic vectors. Coded E2 (regression-style); it could instead be clarification 1 (U-other).
+  - R00283 (#50), SwarmBoost. The language field says French, but the title and abstract are English and the content is in scope, so the language needs checking.
+  - R19889 (#60), LLaMA generation with dedup filtering, and R03248 (#71), Isolation Forest with SMOTE. Both coded E1 as domain pipelines; clarification 3 could make them unsure.
+- Medium-confidence includes:
+  - R00851 (#83), BAT/PSO tuning of SMOTE's amount and k. Unclear whether parameter optimisation counts as "changing how SMOTE is applied".
+  - R05757 (#35), IGAN. The abstract does not say how it differs from a standard GAN.
+  - R00404 (#48), SMOTE inside random subspaces. The venue is the Journal of Foshan University, so check the language.
+  - R14454 (#88), a data-equalisation model. The record says English but has a Ukrainian abstract.
+  - R09858 (#51), Gaussian noise upsampling in a single-dataset clinical paper.
+  - R16443 (#158), EVOS, and R16366 (#199), stream ensembles with adaptive oversampling.
+  - R00157 (#134), SMOTE inside Learn++.NSE, reported with only preliminary results.
+- Other notes:
+  - R19247 (#115), FC-SMOTE, is unsure under clarification 2 because the abstract reports only theoretical analysis.
+  - R01983 (#152) has no abstract; excluded E-COMPARE from its title alone.
+  - The codebook says nothing about retracted records: R04139 is excluded E1 and R05589 is unsure.
+  - The front-matter record R22291 lists R22338 (#178), which is in this batch and excluded E-COMPARE.

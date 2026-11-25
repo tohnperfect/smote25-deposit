@@ -1,0 +1,31 @@
+part,paper,group,entries,names,sets_stated,role,note
+A,G-SMOTE,published,2,2,,dataset entries,
+A,GMMSampling,published,4,4,,dataset entries,
+A,SVDD-WSMOTE,published,4,4,,dataset entries,
+A,SMOTE-IPF,published,30,30,,dataset entries,
+A,k-means SMOTE,published,15,15,,dataset entries,corrected 8 Nov (was not found)
+A,CTGAN / TVAE,published,7,7,,dataset entries,benchmark with 7 simulated datasets; corrected 8 Nov (was not found)
+A,SOUP,cited source,4,4,,dataset entries,
+A,Tomek Links,cited source,1,0,,dataset entries,
+A,NBU,code link only,1,1,,dataset entries,
+A,DLexiBoost,code link only,2,2,,dataset entries,
+A,GOIO,code link only,5,5,,dataset entries,
+A,SPE,code link only,1,1,,dataset entries,
+A,ADASYN,not found,1,1,,dataset entries,
+A,Borderline-SMOTE,not found,1,1,,dataset entries,
+A,ClusterCentroids,not found,5,5,,dataset entries,
+A,Global-CS (AAAI),not found,6,6,,dataset entries,
+A,Global-CS (journal),not found,6,6,,dataset entries,
+A,MWMOTE,not found,1,1,,dataset entries,
+A,SPIDER2,not found,24,24,,dataset entries,
+A,COG-OS,not found,4,4,,dataset entries,"illustration (Sec. 2.2, 3)"
+A,LS,not found,12,12,,dataset entries,side experiment on sampling levels
+A,MC-MBRC,on request,60,60,,dataset entries,side experiment (Exp. 2); code and data certified by Code Ocean
+A,NROMM,cited source,8,8,,dataset entries,"sets A-D of SVDD-WSMOTE (ref. [7]), which publishes them"
+A,RSMOTE,generator named,3,3,,dataset entries,"toy, moons, circles as in k-means SMOTE (ref. [10])"
+A,MDO,not found,1,1,,dataset entries,illustration (Figs. 4-5)
+A,MLOS,code link only,1,1,,dataset entries,illustration (Fig. 5)
+A,RBBoost / Random Balance,not found,1,1,,dataset entries,illustration (diversity study)
+A,GDO,not found,1,1,,dataset entries,illustration (Fig. 4)
+A,OREM-M,published,1,1,,dataset entries,
+A,OREM-M,not found,1,1,,dataset entries,simulated set of supp. Fig. S2; Toy: see ENTRY_GROUP

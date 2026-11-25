@@ -1,0 +1,26 @@
+{
+ "data_key": "SOUP",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Synthetic"
+ ],
+ "crit": "'19 diversified datasets': 15 real-world imbalanced UCI data sets 'representing a different number of classes, sizes and imbalance ratios, which have been used in the most related experimental studies (Fernandez et al., 2013; Galar et al., 2011; Seaz et al., 2016)'; some data modified by aggregating classes and assigning classes to minority (two cleveland variants), so datasets include 1 to 5 minority classes; 4 synthetic sets from Lango et al. (2017) (art1 easiest, art3/art4 more difficult); 'All the considered datasets represent different degrees of difficulty for learning standard classifiers.'",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "difficulty",
+  "method-target",
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "Lango et al. (2017) for the 4 synthetic datasets (art1-art4); the UCI datasets are said to have been used in Fernandez et al. (2013), Galar et al. (2011) and 'Seaz' [Saez] et al. (2016)",
+ "origin": [
+  "Natural",
+  "Class-merged",
+  "Generated"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Multiclass paper. Table 2 (p.776 = pdf p.8; rendered as a normal table and readable in the text) lists per dataset the minority and majority class names and their cardinalities only: no totals, features, class counts or IR. Class aggregation is stated generally ('some data'); only cleveland_2 (majority '0+1') visibly shows a merged class, other aggregated datasets are not identified. Synthetic art1-art4 come from Lango et al. (2017) (co-authors), coded Generated. The accompanying web page holds detailed results and the SOUP implementation; modified datasets are not mentioned, so modified_data_released = no. Citation typo 'Seaz et al., 2016'. Text says 15 real-world UCI sets, of which two are cleveland variants."
+}

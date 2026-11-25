@@ -1,0 +1,82 @@
+{
+ "useaudit": {
+  "items": 216,
+  "kept": 133,
+  "corrected": 83,
+  "chosen": {
+   "second": 82,
+   "first": 133,
+   "other": 1
+  },
+  "records_corrected": 58,
+  "by_field": {
+   "domain": {
+    "kept": 4,
+    "corrected": 5
+   },
+   "inside_folds": {
+    "kept": 1
+   },
+   "is_application": {
+    "corrected": 3
+   },
+   "learner": {
+    "kept": 15,
+    "corrected": 16
+   },
+   "measures": {
+    "corrected": 5,
+    "kept": 8
+   },
+   "modality": {
+    "corrected": 9,
+    "kept": 5
+   },
+   "resampler": {
+    "kept": 14,
+    "corrected": 12
+   },
+   "stakes": {
+    "corrected": 10,
+    "kept": 4
+   },
+   "test_balanced": {
+    "kept": 1,
+    "corrected": 2
+   },
+   "validation": {
+    "kept": 81,
+    "corrected": 21
+   }
+  },
+  "low_confidence": 28,
+  "spot_check_overrides": 0
+ },
+ "coverage": {
+  "items": 6,
+  "kept": 4,
+  "corrected": 2,
+  "chosen": {
+   "first": 4,
+   "second": 2
+  },
+  "records_corrected": 2,
+  "by_field": {
+   "eligible": {
+    "kept": 1
+   },
+   "exclusion": {
+    "kept": 1
+   },
+   "measures": {
+    "kept": 1,
+    "corrected": 2
+   },
+   "stat_test": {
+    "kept": 1
+   }
+  },
+  "low_confidence": 2,
+  "spot_check_overrides": 0
+ }
+}

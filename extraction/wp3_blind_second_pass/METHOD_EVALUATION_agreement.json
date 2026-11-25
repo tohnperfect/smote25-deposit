@@ -1,0 +1,66 @@
+{
+ "method": {
+  "class": {
+   "agreement": 0.909,
+   "kappa": 0.841,
+   "n": 11
+  },
+  "link": {
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "n": 11
+  },
+  "decision points": {
+   "agreement": 0.955,
+   "kappa": 0.909,
+   "n": 66
+  }
+ },
+ "evaluation": {
+  "plain SMOTE baseline": {
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "n": 15
+  },
+  "no-resampling baseline": {
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "n": 15
+  },
+  "resampling inside folds stated": {
+   "agreement": 0.867,
+   "kappa": 0.727,
+   "n": 15
+  },
+  "how settings were chosen": {
+   "agreement": 0.6,
+   "kappa": 0.427,
+   "n": 15
+  },
+  "code released": {
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "n": 15
+  },
+  "any statistical test": {
+   "agreement": 1.0,
+   "kappa": 1.0,
+   "n": 15
+  },
+  "a measure defined wrongly": {
+   "agreement": 0.867,
+   "kappa": 0.667,
+   "n": 15
+  },
+  "calibration measure reported": {
+   "agreement": 1.0,
+   "kappa": null,
+   "n": 15
+  },
+  "real datasets (n)": {
+   "agreement": 0.933,
+   "kappa": 0.928,
+   "n": 15
+  }
+ }
+}

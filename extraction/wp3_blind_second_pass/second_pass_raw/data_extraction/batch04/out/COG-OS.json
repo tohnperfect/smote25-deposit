@@ -1,0 +1,32 @@
+{
+ "data_key": "COG-OS",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "LibSVM",
+  "Text",
+  "Synthetic"
+ ],
+ "crit": "Benchmark data sets 'obtained from different application domains': eight 'well-known benchmark data sets from UCI' (six 'frequently used by the pattern recognition community'), 'high-dimensional document data sets' (k1b, la12), four LIBSVM binary sets; binary sets randomly sampled on the small class to create rare classes; multi-class imbalanced sets 'to validate the COG method'; KDD-CUP-99 for an application to network intrusion detection ('same source data as [17]'); five balanced sets 'with CV < 0.5' to show COG on balanced data; synthetic 2-D data for three concept scenarios.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "popularity",
+  "method-target",
+  "application",
+  "prior-work",
+  "threshold rule",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "[17] Joshi, Agarwal & Kumar, SIGMOD 2001 (PNrule): same KDD-CUP-99 source data and very similar pre-processing for the modified binary sets (probe binary, r2l binary) only; no inherited list for the other data sets",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Undersampled",
+  "Generated"
+ ],
+ "binarised_by": "both",
+ "minority_rule": "induced by authors",
+ "modified_data_released": "no",
+ "notes": "Minority rule is mixed: the six sampled binary sets (Table 3) get their rare class by authors' random sampling of the small class (ratio 0.20, 0.10 for splice, 0.05 for SVMguide1; class '1(rare)' in Table 7); the KDD sets name the rare class explicitly (probe, r2l; one-vs-rest of 5 classes); the multi-class sets (page-blocks, k1b, la12; Table 6) keep their native distribution and no minority is defined. Coded 'induced by authors' as the main rare-class setting. Only links are to original sources/tools, not to modified data. Table 2 header misspelt 'MinClassZize' and gives min/max class size and CV, never an IR. breast-w: 16 instances with missing data deleted. KDD test set: 18729 instances with labels absent from training deleted. The 22 KDD subclasses -> 4 attack classes + normal grouping is described as the source's, not stated as an author merge. Inconsistency: SVMguide1 rare class at ratio 0.05 is 53 instances in Table 3 (p.818) but 55 in Table 5 (p.819). binarised_by 'both': KDD probe/r2l binary sets binarised by the authors; splice is used as LIBSVM's ready-made two-class version (1000 instances, 483/517) of a multi-class splice-junction source, which the paper does not mention (adjudicator check, relies on knowing the source)."
+}

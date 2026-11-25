@@ -1,0 +1,22 @@
+{
+ "data_key": "Global-CS (AAAI)",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Synthetic"
+ ],
+ "crit": "Twenty multi-class data sets are used, the first ten without class imbalance and the remaining ten imbalanced (14 UCI, 6 synthetic); to see whether RESCALEnew works on imbalanced multi-class data, the pure class-imbalance experiment uses the ten imbalanced data sets. No other reason for the choice of data sets is given.",
+ "crit_type": "own reason",
+ "basis": [
+  "method-target"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Generated"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "not defined",
+ "modified_data_released": "n.a.",
+ "notes": "Cost-sensitive learning paper (RESCALEnew), not an oversampler; C4.5 is the only learner. All 20 data sets are multi-class with native class distributions (Table 2 prints the full class distribution); no binarisation, resizing or minority definition. The method-target reason is explicit only for the pure class-imbalance experiment (Table 6, ten imbalanced sets); for the cost-sensitive experiments (Tables 3-4) the paper only describes the balanced/imbalanced split of the 20 sets, without a reason. Synthetic sets syn-a..syn-f are balanced ([500*3] etc.). No IR column and no minority column in Table 2. No SMOTE comparison and no per-dataset SMOTE results. Quote for crit_type is rendered 'R ESCALEnew' in the text layer (small caps)."
+}

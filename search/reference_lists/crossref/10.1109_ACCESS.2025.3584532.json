@@ -1,0 +1,921 @@
+{
+ "status": "ok",
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     20
+    ]
+   ],
+   "date-time": "2026-11-20T02:37:20Z",
+   "timestamp": 1795142240792,
+   "version": "4.10.3"
+  },
+  "reference-count": 128,
+  "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       1,
+       1
+      ]
+     ],
+     "date-time": "2025-01-01T00:00:00Z",
+     "timestamp": 1735689600000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+   }
+  ],
+  "funder": [
+   {
+    "name": "Iraqi Prime Minister’s Office, the Higher Committee of Education and Development in Iraq (HCED), the Petroleum Technology Development Fund, Nigeria"
+   },
+   {
+    "DOI": "10.13039/501100004227",
+    "name": "NISCO U.K. Research Centre, School of Engineering, University of Leicester",
+    "doi-asserted-by": "publisher",
+    "id": [
+     {
+      "id": "10.13039/501100004227",
+      "id-type": "DOI",
+      "asserted-by": "publisher"
+     }
+    ]
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "IEEE Access"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "DOI": "10.1109/access.2025.3584532",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2025,
+     7,
+     1
+    ]
+   ],
+   "date-time": "2025-07-01T13:40:47Z",
+   "timestamp": 1751377247000
+  },
+  "page": "113838-113853",
+  "source": "Crossref",
+  "is-referenced-by-count": 52,
+  "title": [
+   "Emerging SMOTE and GAN Variants for Data Augmentation in Imbalance Machine Learning Tasks: A Review"
+  ],
+  "prefix": "10.1109",
+  "volume": "13",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0000-0001-8944-4940",
+    "authenticated-orcid": false,
+    "given": "Amadi G.",
+    "family": "Udu",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "School of Engineering, University of Leicester, Leicester, U.K."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0009-0009-9909-8055",
+    "authenticated-orcid": false,
+    "given": "Marwah T.",
+    "family": "Salman",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Engineering, University of Leicester, Leicester, U.K."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Maryam K.",
+    "family": "Ghalati",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Engineering, University of Leicester, Leicester, U.K."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1654-8877",
+    "authenticated-orcid": false,
+    "given": "Andrea",
+    "family": "Lecchini-Visintini",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Electronics and Computer Science, University of Southampton, Southampton, U.K."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-1125-5610",
+    "authenticated-orcid": false,
+    "given": "David R.",
+    "family": "Siddle",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Engineering, University of Leicester, Leicester, U.K."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0003-1244-0364",
+    "authenticated-orcid": false,
+    "given": "Hongbiao",
+    "family": "Dong",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "School of Engineering, University of Leicester, Leicester, U.K."
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "263",
+  "reference": [
+   {
+    "key": "ref1",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1142/s0218213022500373"
+   },
+   {
+    "key": "ref2",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.eswa.2021.114750"
+   },
+   {
+    "key": "ref3",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3233/shti240491"
+   },
+   {
+    "key": "ref4",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3233/shti240563"
+   },
+   {
+    "key": "ref5",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13040-024-00384-y"
+   },
+   {
+    "key": "ref6",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s41870-023-01463-9"
+   },
+   {
+    "key": "ref7",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tr.2024.3403660"
+   },
+   {
+    "key": "ref8",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s42417-023-01199-7"
+   },
+   {
+    "key": "ref9",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.measurement.2023.112709"
+   },
+   {
+    "key": "ref10",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ress.2024.110189"
+   },
+   {
+    "key": "ref11",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1002/mgea.6"
+   },
+   {
+    "key": "ref12",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/ma17112549"
+   },
+   {
+    "key": "ref13",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/access.2022.3212410"
+   },
+   {
+    "key": "ref14",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.neucom.2022.01.004"
+   },
+   {
+    "key": "ref15",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.asoc.2022.108628"
+   },
+   {
+    "key": "ref16",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tpami.2020.2981890"
+   },
+   {
+    "key": "ref17",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.patcog.2021.107965"
+   },
+   {
+    "key": "ref18",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.eswa.2020.113190"
+   },
+   {
+    "key": "ref19",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/control60310.2024.10531841"
+   },
+   {
+    "key": "ref20",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2024.121430"
+   },
+   {
+    "key": "ref21",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.conengprac.2024.106050"
+   },
+   {
+    "key": "ref22",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10462-023-10652-8"
+   },
+   {
+    "key": "ref23",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.knosys.2023.111272"
+   },
+   {
+    "key": "ref24",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00500-022-06768-8"
+   },
+   {
+    "key": "ref25",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s12652-022-04400-z"
+   },
+   {
+    "key": "ref26",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tsmcc.2011.2161285"
+   },
+   {
+    "key": "ref27",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s13748-016-0094-0"
+   },
+   {
+    "key": "ref28",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tai.2022.3160658"
+   },
+   {
+    "key": "ref29",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jcmds.2022.100054"
+   },
+   {
+    "key": "ref30",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jcmds.2022.100030"
+   },
+   {
+    "key": "ref31",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10462-024-10884-2"
+   },
+   {
+    "key": "ref32",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1093/jcde/qwae075"
+   },
+   {
+    "key": "ref33",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.eswa.2023.122778"
+   },
+   {
+    "key": "ref34",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s40537-019-0192-5"
+   },
+   {
+    "key": "ref35",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.asoc.2023.110415"
+   },
+   {
+    "key": "ref36",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/access.2025.3531662"
+   },
+   {
+    "key": "ref37",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41598-022-12574-x"
+   },
+   {
+    "key": "ref38",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.compbiomed.2021.104527"
+   },
+   {
+    "key": "ref39",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tkde.2008.239"
+   },
+   {
+    "key": "ref40",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-981-99-8141-0_42"
+   },
+   {
+    "key": "ref41",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jcmds.2022.100036"
+   },
+   {
+    "key": "ref42",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11042-018-6836-1"
+   },
+   {
+    "key": "ref43",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.eswa.2018.01.023"
+   },
+   {
+    "key": "ref44",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tpami.2019.2914680"
+   },
+   {
+    "key": "ref45",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/iwbf49977.2020.9107956"
+   },
+   {
+    "key": "ref46",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/electronics13122317"
+   },
+   {
+    "key": "ref47",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.patcog.2011.01.017"
+   },
+   {
+    "key": "ref48",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.knosys.2020.105922"
+   },
+   {
+    "key": "ref49",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.engappai.2020.104034"
+   },
+   {
+    "key": "ref50",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2013.07.007"
+   },
+   {
+    "key": "ref51",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s13042-022-01746-w"
+   },
+   {
+    "key": "ref52",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tkde.2017.2761347"
+   },
+   {
+    "key": "ref53",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00500-014-1291-z"
+   },
+   {
+    "key": "ref54",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1609/aaai.v35i11.17219"
+   },
+   {
+    "key": "ref55",
+    "first-page": "1",
+    "article-title": "Learning deep representation for mood classification in microblog",
+    "volume-title": "Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR)",
+    "author": "Huang"
+   },
+   {
+    "key": "ref56",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.neunet.2013.02.007"
+   },
+   {
+    "key": "ref57",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tnnls.2017.2771290"
+   },
+   {
+    "key": "ref58",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.5555/3122009.3122026"
+   },
+   {
+    "key": "ref59",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2019.07.070"
+   },
+   {
+    "key": "ref60",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1613/jair.1.11192"
+   },
+   {
+    "issue": "6",
+    "key": "ref61",
+    "doi-asserted-by": "crossref",
+    "first-page": "3413",
+    "DOI": "10.1016/j.jksuci.2021.01.014",
+    "article-title": "SMOTE-LOF for noise identification in imbalanced data classification",
+    "volume": "34",
+    "author": "Maulidevi",
+    "year": "2022",
+    "journal-title": "J. King Saud Univ. - Comput. Inf. Sci."
+   },
+   {
+    "key": "ref62",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s41870-024-02129-w"
+   },
+   {
+    "key": "ref63",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.neucom.2019.06.100"
+   },
+   {
+    "key": "ref64",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1504/ijkesdp.2011.039875"
+   },
+   {
+    "key": "ref65",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/1007730.1007735"
+   },
+   {
+    "key": "ref66",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/ijcnn.2008.4633969"
+   },
+   {
+    "key": "ref67",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/11538059_91"
+   },
+   {
+    "key": "ref68",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1049/rpg2.13091"
+   },
+   {
+    "key": "ref69",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00521-024-09439-x"
+   },
+   {
+    "key": "ref70",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1145/3422622"
+   },
+   {
+    "key": "ref71",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jjimei.2020.100004"
+   },
+   {
+    "key": "ref72",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s40537-024-00993-8"
+   },
+   {
+    "key": "ref73",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/access.2024.3454537"
+   },
+   {
+    "key": "ref74",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-642-01307-2_43"
+   },
+   {
+    "key": "ref75",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10115-011-0465-6"
+   },
+   {
+    "key": "ref76",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10489-020-01852-8"
+   },
+   {
+    "key": "ref77",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10489-024-05608-6"
+   },
+   {
+    "key": "ref78",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1631/fitee.2300278"
+   },
+   {
+    "key": "ref79",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.eswa.2023.121848"
+   },
+   {
+    "key": "ref80",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.7717/peerj-cs.2299"
+   },
+   {
+    "key": "ref81",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.32604/csse.2023.034373"
+   },
+   {
+    "key": "ref82",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.asoc.2024.112186"
+   },
+   {
+    "key": "ref83",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.asoc.2023.110986"
+   },
+   {
+    "key": "ref84",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.jrmge.2024.03.008"
+   },
+   {
+    "key": "ref85",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.caeai.2024.100222"
+   },
+   {
+    "key": "ref86",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41598-024-67550-4"
+   },
+   {
+    "key": "ref87",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10489-023-05030-4"
+   },
+   {
+    "key": "ref88",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10489-024-05644-2"
+   },
+   {
+    "key": "ref89",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10489-024-05754-x"
+   },
+   {
+    "key": "ref90",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10489-023-04650-0"
+   },
+   {
+    "key": "ref91",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.neucom.2020.02.081"
+   },
+   {
+    "key": "ref92",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00542-019-04566-1"
+   },
+   {
+    "key": "ref93",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s00357-024-09491-1"
+   },
+   {
+    "key": "ref94",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s11071-024-10073-4"
+   },
+   {
+    "key": "ref95",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1057/s41283-024-00150-8"
+   },
+   {
+    "key": "ref96",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/bdcc6020041"
+   },
+   {
+    "key": "ref97",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1186/s13634-022-00871-6"
+   },
+   {
+    "key": "ref98",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1080/23080477.2022.2152933"
+   },
+   {
+    "key": "ref99",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s41870-022-01115-4"
+   },
+   {
+    "key": "ref100",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tkde.2024.3443160"
+   },
+   {
+    "key": "ref101",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s41870-022-00943-8"
+   },
+   {
+    "key": "ref102",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.ins.2021.02.056"
+   },
+   {
+    "key": "ref103",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-031-68323-7_9"
+   },
+   {
+    "key": "ref104",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s42461-024-01060-9"
+   },
+   {
+    "key": "ref105",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tkde.2021.3130191"
+   },
+   {
+    "key": "ref106",
+    "first-page": "576",
+    "article-title": "Improved training of Wasserstein GANs",
+    "volume-title": "Proc. 31st Int. Conf. Neural Inf. Process. Syst. (NIPS)",
+    "author": "Gulrajani"
+   },
+   {
+    "key": "ref107",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/iccv.2017.304"
+   },
+   {
+    "key": "ref108",
+    "article-title": "Geometric GAN",
+    "volume-title": "arXiv:1705.02894",
+    "author": "Hyun Lim",
+    "year": "2017"
+   },
+   {
+    "key": "ref109",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s10489-024-05561-4"
+   },
+   {
+    "key": "ref110",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s42979-024-03227-z"
+   },
+   {
+    "key": "ref111",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.knosys.2022.109439"
+   },
+   {
+    "key": "ref112",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.rcim.2023.102577"
+   },
+   {
+    "key": "ref113",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.energy.2024.132906"
+   },
+   {
+    "key": "ref114",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.measurement.2023.113014"
+   },
+   {
+    "key": "ref115",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/s41870-024-01740-1"
+   },
+   {
+    "key": "ref116",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1007/978-3-030-03493-1_72"
+   },
+   {
+    "key": "ref117",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.asoc.2020.107033"
+   },
+   {
+    "key": "ref118",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tim.2024.3396853"
+   },
+   {
+    "key": "ref119",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.eswa.2024.125171"
+   },
+   {
+    "key": "ref120",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/tase.2024.3454418"
+   },
+   {
+    "key": "ref121",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/access.2022.3205337"
+   },
+   {
+    "key": "ref122",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.future.2022.01.026"
+   },
+   {
+    "key": "ref123",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/electronics12132851"
+   },
+   {
+    "key": "ref124",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1109/icmla58977.2023.00159"
+   },
+   {
+    "key": "ref125",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1023/a:1010920819831"
+   },
+   {
+    "key": "ref126",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1016/j.softx.2024.101877"
+   },
+   {
+    "key": "ref127",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.1038/s41598-024-53491-5"
+   },
+   {
+    "key": "ref128",
+    "doi-asserted-by": "publisher",
+    "DOI": "10.3390/su15097097"
+   }
+  ],
+  "container-title": [
+   "IEEE Access"
+  ],
+  "original-title": [],
+  "link": [
+   {
+    "URL": "http://xplorestaging.ieee.org/ielx8/6287639/10820123/11062634.pdf?arnumber=11062634",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     7,
+     9
+    ]
+   ],
+   "date-time": "2025-07-09T23:20:11Z",
+   "timestamp": 1752103211000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://ieeexplore.ieee.org/document/11062634/"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "references-count": 128,
+  "URL": "https://doi.org/10.1109/access.2025.3584532",
+  "relation": {
+   "has-part": [
+    {
+     "id-type": "doi",
+     "id": "https://doi.org/10.1109/access.2025.3584532/mm1",
+     "asserted-by": "subject"
+    }
+   ]
+  },
+  "ISSN": [
+   "2169-3536"
+  ],
+  "issn-type": [
+   {
+    "value": "2169-3536",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  }
+ }
+}

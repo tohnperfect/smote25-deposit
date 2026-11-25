@@ -1,0 +1,29 @@
+{
+ "data_key": "RSMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Synthetic"
+ ],
+ "crit": "27 real UCI data sets for binary classification: 9 'intrinsically imbalanced', 18 'artificially imbalanced to obtain higher imbalanced ratios'; all also run with 10/20/30% label noise 'to verify the effectiveness of our method for imbalanced learning with label noise'; eight multi-class UCI data sets 'to evaluate the performance of the proposed RSMOTE on more complex data sets'; synthetic 2-D toy, moons, circles 'in [10]' plus fourclass with an added outlier to show how oversamplers generate samples; 'diverse benchmark data sets, including binary and multi-class data sets with label noise'.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "difficulty",
+  "method-target",
+  "prior-work",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "[10] Douzas, Bacao & Last (k-means SMOTE): synthetic 2-D toy, moons and circles data sets only; not stated for the real data sets",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Undersampled",
+  "Noise-injected",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "not stated",
+ "modified_data_released": "no",
+ "notes": "Binarisation is never described: Table 2 prints only #Majority/#Minority, but several 'UCI' sources are canonical multi-class sets (iris 150 = 100/50, wine 178 = 107/71, letter, segment 1980/330, vehicle, ecoli, libra 288/72, avila, poker, mocap). Coded Binarised by authors (stated source is UCI, no ready-made two-class split mentioned) and minority_rule 'not stated' (no class named; the undersampled 'positive class' is never identified); adjudicator check, as this relies on knowing the sources are multi-class. All 27 binary sets are attributed to UCI although several carry LIBSVM-style names (svmguide1, svmguide3, codrna, mushrooms, splice). Table 2 sums do not add up (#Majority + #Minority vs #Sample) for breastcancer (444+44 vs 532), creditApproval (383+38 vs 459), votes (267+26 vs 320), splice (517+51 vs 620), codrna (39690+3969 vs 41674), mocap (46852+4685 vs 48023), poker (48828+4882 vs 49804), nomao (24621+2462 vs 25852). Label noise: minority labels flipped to majority, then the same number of majority labels flipped to minority (training set only, IR kept); multi-class labels flipped to any other class. Noise rate symbol prints as gamma in the PDF ('c' in the text file). Tables 3-4 report averages over five classifiers (Adaboost, LR, DT, KNN, GBDT); c = 0.1, 0.2 results in Appendix A/B. fourclass appears in the synthetic 2-D section with no source stated. Only code is released."
+}

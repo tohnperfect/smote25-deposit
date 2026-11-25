@@ -1,0 +1,11 @@
+batch 053: 200 of 200 records done; include 25, unsure 11, exclude 164
+no records remain
+
+Look at these first (no record was marked low confidence; these are the borderline calls and codebook gaps):
+- Unsure, codebook clarification 3 (existing generator + existing cleaning/selection step presented as new): R08976 (CTGAN + DBSCAN + KNN undersampling), R05610 (RBO + RBU), R05515 (Leader + SMOTE with a chosen ratio).
+- Unsure, cannot tell new vs applied: R03631 ("the improved SMOTE" in train delay paper), R09971 ("optimized SMOTE" in SgO-SCNN), R00914 (modified SVM ensemble with over/undersampling), R03321 (book chapter; "synthetic sampling" vs SMOTE), R11672 (no abstract; boundary-focused oversampling, also called a comparative study).
+- Unsure, other: R20135 (LT-SMOTE, I2 not stated in the abstract), R11047 (diffusion generator for imbalanced defect object detection, not plain classification), R00112 (2009 thesis proposing Naive Bayes Sampling; I3 doubtful since a thesis is not a journal/conference paper/preprint).
+- Borderline exclusions: R16358 (modified WGAN for drug response regression; coded E2, but clarification 1 could send it to unsure); R18041 (E-NOGEN) and R03883 (E1): proposed sampling built on random oversampling, so I treated it as duplication, not synthetic generation (the codebook does not cover this case); R17804 (SMOTE on transformer embeddings, coded E1); R02594 (two SMOTE workflows, coded E1).
+- Borderline includes (medium confidence): R12417 (dual-attention WGAN inside a fuel-cell fault diagnosis framework), R06835 (oversampler named but not described), R20695 (noise-aware QSMOTE built for robustness assessment), R21437 (RL-controlled ensemble sampling, vague abstract).
+- E-LANG records that are otherwise in scope: R06493 (Chinese, GAN oversampler tested on 36 UCI datasets), R04402 (Chinese, category-prior Mixup), R15190 (Chinese, EdgeTailor). Front matter with an in-scope title: R10306 (CARI 2024, "SMOTE in Stages for a Rice Dataset").
+- Document type does not match content: R19702 and R03279 are labelled Review but are primary studies, so I coded them on their content (E1).

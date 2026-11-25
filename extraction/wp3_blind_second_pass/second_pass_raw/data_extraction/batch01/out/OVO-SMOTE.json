@@ -1,0 +1,23 @@
+{
+ "data_key": "OVO-SMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL"
+ ],
+ "crit": "'We have selected a wide benchmark of 24 multiple-class data-sets from the KEEL data-set repository'; the real-world 'multiple-class imbalanced problems chosen for the experiments' are imbalanced by a rule taken from the authors' previous work: 'we consider a data-set to be imbalanced when one of its classes has a distribution of examples below 40% of the number of instances that belong to the majority class; that is, if the IR is higher than 1.5'. Selection further justified because base classifiers and plain OVO/OVA 'will obtain a low performance in many data-sets, thus justifying its selection for the experimental framework according to the IR data characteristic'.",
+ "crit_type": "own reason",
+ "basis": [
+  "method-target",
+  "threshold rule",
+  "prior-work",
+  "difficulty"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "not defined",
+ "modified_data_released": "n.a.",
+ "notes": "24 native multiclass KEEL data sets (Table 2, p.102; per-class counts Table 3, p.102). OVO/OVA binarisation is part of the learning methods studied, not a change to the data sets, so origin = Natural and binarised_by = n.a. The paper never names minority classes per data set: IR is defined in general terms as majority/minority (p.98) and the IR > 1.5 rule (one class below 40% of the majority) is a data-set inclusion threshold, so minority_rule = not defined (adjudicator may consider 'mean-size or IR threshold'). Only modification: instances with missing values removed in autos, cleveland, dermatology, post-operative (not one of the origin categories; if counted, the partitions are released at KEEL and on http://sci2s.ugr.es/multi-imbalanced/, which would make modified_data_released = yes). 'replicability' not coded because the KEEL availability sentence is about sharing partitions, not about why the data were chosen. Oddities: Wine is listed with IR 1.48 although the stated rule is IR higher than 1.5; Table 2 vs Table 3 class counts disagree for Satimage (#Cl. 7, six class counts), Shuttle (#Cl. 5, seven class counts) and Cleveland (#Cl. 5, six counts with 164 printed twice, C1 and C6). For the dataset rows, n_minority was taken as the smallest of the per-class counts printed in Table 3 (no minority count is printed as such; see CSV notes)."
+}

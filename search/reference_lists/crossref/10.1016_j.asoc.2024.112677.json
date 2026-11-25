@@ -1,0 +1,1207 @@
+{
+ "status": "ok",
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     20
+    ]
+   ],
+   "date-time": "2026-11-20T06:45:20Z",
+   "timestamp": 1795157120958,
+   "version": "4.10.3"
+  },
+  "reference-count": 100,
+  "publisher": "Elsevier BV",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2025-02-01T00:00:00Z",
+     "timestamp": 1738368000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2025-02-01T00:00:00Z",
+     "timestamp": 1738368000000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://www.elsevier.com/legal/tdmrep-license"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2025-02-01T00:00:00Z",
+     "timestamp": 1738368000000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-017"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2025-02-01T00:00:00Z",
+     "timestamp": 1738368000000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-037"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2025-02-01T00:00:00Z",
+     "timestamp": 1738368000000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-012"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2025-02-01T00:00:00Z",
+     "timestamp": 1738368000000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-029"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2025,
+       2,
+       1
+      ]
+     ],
+     "date-time": "2025-02-01T00:00:00Z",
+     "timestamp": 1738368000000
+    },
+    "content-version": "stm-asf",
+    "delay-in-days": 0,
+    "URL": "https://doi.org/10.15223/policy-004"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "elsevier.com",
+    "sciencedirect.com"
+   ],
+   "crossmark-restriction": true
+  },
+  "short-container-title": [
+   "Applied Soft Computing"
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2025,
+     2
+    ]
+   ]
+  },
+  "DOI": "10.1016/j.asoc.2024.112677",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2025,
+     1,
+     5
+    ]
+   ],
+   "date-time": "2025-01-05T01:02:32Z",
+   "timestamp": 1736038952000
+  },
+  "page": "112677",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 33,
+  "special_numbering": "C",
+  "title": [
+   "Deep generative approaches for oversampling in imbalanced data classification problems: A comprehensive review and comparative analysis"
+  ],
+  "prefix": "10.1016",
+  "volume": "170",
+  "author": [
+   {
+    "given": "Mozafar",
+    "family": "Hayaeian Shirvan",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-8968-6744",
+    "authenticated-orcid": false,
+    "given": "Mohammad Hossein",
+    "family": "Moattar",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mehdi",
+    "family": "Hosseinzadeh",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "78",
+  "reference": [
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib1",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.eswa.2020.114463",
+    "article-title": "On oversampling imbalanced data with deep conditional generative models",
+    "volume": "169",
+    "author": "Fajardo",
+    "year": "2021",
+    "journal-title": "Expert Syst. Appl."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib2",
+    "doi-asserted-by": "crossref",
+    "first-page": "464",
+    "DOI": "10.1016/j.eswa.2017.09.030",
+    "article-title": "Effective data generation for imbalanced learning using conditional generative adversarial networks",
+    "volume": "91",
+    "author": "Douzas",
+    "year": "2018",
+    "journal-title": "Expert Syst. Appl."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib3",
+    "article-title": "Oversampling based on generative adversarial networks to overcome imbalance data in predicting fraud insurance claim",
+    "volume": "49",
+    "author": "Nugraha",
+    "year": "2022",
+    "journal-title": "Kuwait J. Sci."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib4",
+    "doi-asserted-by": "crossref",
+    "unstructured": "N.V. Chawla, K.W. Bowyer, L.O. Hall, and W.P. Kegelmeyer, “SMOTE: Synthetic Minority Over-sampling Technique,” 2002.",
+    "DOI": "10.1613/jair.953"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib5",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.ins.2024.121280",
+    "article-title": "M2GDL: Multi-manifold guided dictionary learning based oversampling and data validation for highly imbalanced classification problems",
+    "volume": "682",
+    "author": "Feizi",
+    "year": "2024",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.asoc.2024.112677_bib6",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1186/s40537-023-00832-2",
+    "article-title": "A multi-manifold learning based instance weighting and under-sampling for imbalanced data classification problems",
+    "volume": "10",
+    "author": "Feizi",
+    "year": "2023",
+    "journal-title": "J. Big Data"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib7",
+    "doi-asserted-by": "crossref",
+    "first-page": "249",
+    "DOI": "10.1016/j.neunet.2018.07.011",
+    "article-title": "A systematic study of the class imbalance problem in convolutional neural networks",
+    "volume": "106",
+    "author": "Buda",
+    "year": "2018",
+    "journal-title": "Neural Netw."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib8",
+    "unstructured": "I.J. Goodfellow et al., “Generative Adversarial Networks,” Jun. 2014, [Online]. Available: 〈http://arxiv.org/abs/1406.2661〉."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib9",
+    "first-page": "123",
+    "article-title": "WiP: Generative Adversarial Network for Oversampling Data in Credit Card Fraud Detection",
+    "volume": "11952",
+    "author": "Gangwar",
+    "year": "2019"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib10",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.eswa.2022.116694",
+    "article-title": "OBGAN: Minority oversampling near borderline with generative adversarial networks",
+    "volume": "197",
+    "author": "Jo",
+    "year": "2022",
+    "journal-title": "Expert Syst. Appl."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib11",
+    "first-page": "60",
+    "article-title": "Optimizing AI for Mobile Malware Detection by Self-Built-Dataset GAN Oversampling and LGBM",
+    "author": "Dayan",
+    "year": "2023",
+    "journal-title": "Proc. 2023 IEEE Int. Conf. Cyber Secur. Resil., CSR 2023"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib12",
+    "unstructured": "D.P. Kingma and M. Welling, “Auto-Encoding Variational Bayes,” Dec. 2013, [Online]. Available: 〈http://arxiv.org/abs/1312.6114〉."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib13",
+    "first-page": "1104",
+    "article-title": "Oversampling for imbalanced time series classification based on generative adversarial networks",
+    "author": "Liu",
+    "year": "2018",
+    "journal-title": "2018 IEEE 4th Int. Conf. Comput. Commun., ICCC 2018"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib14",
+    "first-page": "1142",
+    "article-title": "A Multi-Objective Genetic GAN Oversampling: Application to Intelligent Transport Anomaly Detection",
+    "author": "Bouzeraib",
+    "year": "2020",
+    "journal-title": "Proc. - 2020 IEEE 22nd Int. Conf. High. Perform. Comput. Commun., IEEE 18th Int. Conf. Smart City IEEE 6th Int. Conf. Data Sci. Syst., HPCC-SmartCity-DSS 2020"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib15",
+    "doi-asserted-by": "crossref",
+    "first-page": "489",
+    "DOI": "10.1109/JSTARS.2023.3326963",
+    "article-title": "Permuted KPCA and SMOTE to Guide GAN-based oversampling for imbalanced HSI Classification",
+    "volume": "17",
+    "author": "Miftahushudur",
+    "year": "2024",
+    "journal-title": "IEEE J. Sel. Top. Appl. Earth Obs. Remote Sens"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib16",
+    "unstructured": "H. Ba, “Improving Detection of Credit Card Fraudulent Transactions using Generative Adversarial Networks,” Jul. 2019, [Online]. Available: 〈http://arxiv.org/abs/1907.03355〉."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib17",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.eswa.2020.113819",
+    "article-title": "Generative adversarial networks and markov random fields for oversampling very small training sets",
+    "volume": "163",
+    "author": "Salazar",
+    "year": "2021",
+    "journal-title": "Expert Syst. Appl."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib18",
+    "unstructured": "S. Barutcu, A.K. Katsaggelos, and D. Gürsoy, “A Deep Generative Approach to Oversampling in Ptychography,” Jul. 2022, [Online]. Available: 〈http://arxiv.org/abs/2207.14392〉."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.asoc.2024.112677_bib19",
+    "doi-asserted-by": "crossref",
+    "first-page": "22",
+    "DOI": "10.1051/epn:2008003",
+    "article-title": "Ptychography & lensless X-ray imaging",
+    "volume": "39",
+    "author": "Dierolf",
+    "year": "2008",
+    "journal-title": "Europhys. N."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.asoc.2024.112677_bib20",
+    "doi-asserted-by": "crossref",
+    "first-page": "399",
+    "DOI": "10.1109/JSTQE.2011.2157306",
+    "article-title": "Coherent x-ray diffraction imaging",
+    "volume": "18",
+    "author": "Miao",
+    "year": "2012",
+    "journal-title": "IEEE J. Sel. Top. Quantum Electron."
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.asoc.2024.112677_bib21",
+    "article-title": "Conditional variational autoencoder for prediction and feature recovery applied to intrusion detection in iot",
+    "volume": "17",
+    "author": "Lopez-Martin",
+    "year": "2017",
+    "journal-title": "Sens. (Switz. )"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib22",
+    "unstructured": "E. Choi, S. Biswal, B. Malin, J. Duke, W.F. Stewart, and J. Sun, “Generating Multi-label Discrete Patient Records using Generative Adversarial Networks,” Mar. 2017, [Online]. Available: 〈http://arxiv.org/abs/1703.06490〉."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib23",
+    "doi-asserted-by": "crossref",
+    "unstructured": "A. Salazar, L. Vergara, G. Safont New applications of an oversampling method based on generative adversarial networks Proc. - 2020 Int. Conf. Comput. Sci. Comput. Intell., CSCI 2020, in Proceedings - 2020 International Conference on Computational Science and Computational Intelligence, CSCI 2020, 2020, pp. 1699 – 1701. doi: 10.1109/CSCI51800.2020.00314.2020.",
+    "DOI": "10.1109/CSCI51800.2020.00314"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib24",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.measurement.2019.107377",
+    "article-title": "Machinery fault diagnosis with imbalanced data using deep generative adversarial networks",
+    "volume": "152",
+    "author": "Zhang",
+    "year": "2020",
+    "journal-title": "Measurement"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib25",
+    "unstructured": "M. Arjovsky and L. Bottou, “Towards Principled Methods for Training Generative Adversarial Networks,” Jan. 2017, [Online]. Available: 〈http://arxiv.org/abs/1701.04862〉."
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.asoc.2024.112677_bib26",
+    "first-page": "703",
+    "article-title": "Acwgan: an auxiliary classifier wasserstein gan-based oversampling approach for multi-class imbalanced learning",
+    "volume": "18",
+    "author": "Liao",
+    "year": "2022",
+    "journal-title": "Int. J. Innov. Comput., Inf. Control"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib27",
+    "unstructured": "K. Sohn, X. Yan, and H. Lee, “Learning Structured Output Representation using Deep Conditional Generative Models.”"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib28",
+    "article-title": "Data-driven fault detection of rotating machinery using synthetic oversampling and generative adversarial network",
+    "author": "Han",
+    "year": "2023",
+    "journal-title": "Proc. SPIE - Int. Soc. Opt. Eng."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib29",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.chemolab.2023.104775",
+    "article-title": "An ensemble oversampling method for imbalanced classification with prior knowledge via generative adversarial network",
+    "volume": "235",
+    "author": "Zhang",
+    "year": "2023",
+    "journal-title": "Chemom. Intell. Lab. Syst."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib30",
+    "unstructured": "R.D. Camino, R. State, and C.A. Hammerschmidt, “Oversampling Tabular Data with Deep Generative Models: Is it worth the effort?” [Online]. Available: 〈http://archive.ics.uci.edu/ml/datasets/adult〉."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib31",
+    "unstructured": "M. Mirza and S. Osindero, “Conditional Generative Adversarial Nets,” Nov. 2014, [Online]. Available: 〈http://arxiv.org/abs/1411.1784〉."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib32",
+    "doi-asserted-by": "crossref",
+    "first-page": "83680",
+    "DOI": "10.1109/ACCESS.2023.3302339",
+    "article-title": "Credit card fraud detection based on improved variational autoencoder generative adversarial network",
+    "volume": "11",
+    "author": "Ding",
+    "year": "2023",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib33",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1109/TGRS.2021.3052048",
+    "article-title": "Generative adversarial minority oversampling for spectral-spatial hyperspectral image classification",
+    "volume": "60",
+    "author": "Roy",
+    "year": "2022",
+    "journal-title": "IEEE Trans. Geosci. Remote Sens."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib34",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.patcog.2022.109240",
+    "article-title": "A proxy learning curve for the Bayes classifier",
+    "volume": "136",
+    "author": "Salazar",
+    "year": "2023",
+    "journal-title": "Pattern Recognit."
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.asoc.2024.112677_bib35",
+    "doi-asserted-by": "crossref",
+    "first-page": "1667",
+    "DOI": "10.1093/jamia/ocaa127",
+    "article-title": "Synthetic minority oversampling of vital statistics data with generative adversarial networks",
+    "volume": "27",
+    "author": "Koivu",
+    "year": "2020",
+    "journal-title": "J. Am. Med. Inform. Assoc."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib36",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Z. Wei, Y. Fu, W. Shi, D. ChenOversampling algorithm based on generative adversarial network in Proceedings of SPIE - The International Society for Optical Engineering, 2023, 10.1117/12.2684591.",
+    "DOI": "10.1117/12.2684591"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib37",
+    "doi-asserted-by": "crossref",
+    "unstructured": "A. Fernández, S. García, F. Herrera, and N.V. Chawla, “SMOTE for Learning from Imbalanced Data: Progress and Challenges, Marking the 15-year Anniversary,” 2018.",
+    "DOI": "10.1613/jair.1.11192"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib38",
+    "doi-asserted-by": "crossref",
+    "first-page": "220",
+    "DOI": "10.1016/j.eswa.2016.12.035",
+    "article-title": "Learning from class-imbalanced data: review of methods and applications",
+    "volume": "73",
+    "author": "Haixiang",
+    "year": "2017",
+    "journal-title": "Expert Syst. Appl."
+   },
+   {
+    "issue": "21",
+    "key": "10.1016/j.asoc.2024.112677_bib39",
+    "first-page": "1",
+    "article-title": "Exploiting generative adversarial networks as an oversampling method for fault diagnosis of an industrial robotic manipulator",
+    "volume": "10",
+    "author": "Pu",
+    "year": "2020",
+    "journal-title": "Appl. Sci. (Switz. )"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib40",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Y. Guo, G. Xiong, Z. Li, J. Shi, M. Cui, G. GouCombating imbalance in network traffic classification using gan based oversampling 2021 IFIP Netw. Conf., IFIP Netw. 2021, in 2021 IFIP Networking Conference, IFIP Networking 2021, 2021. doi: 10.23919/IFIPNetworking52078.2021.94727772021.",
+    "DOI": "10.23919/IFIPNetworking52078.2021.9472777"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib41",
+    "doi-asserted-by": "crossref",
+    "first-page": "97",
+    "DOI": "10.1016/j.knosys.2013.01.018",
+    "article-title": "Analysing the classification of imbalanced data-sets with multiple classes: Binarization techniques and ad-hoc approaches",
+    "volume": "42",
+    "author": "Fernández",
+    "year": "2013",
+    "journal-title": "Knowl. Based Syst."
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.asoc.2024.112677_bib42",
+    "doi-asserted-by": "crossref",
+    "first-page": "1263",
+    "DOI": "10.1109/TKDE.2008.239",
+    "article-title": "Learning from imbalanced data",
+    "volume": "21",
+    "author": "He",
+    "year": "2009",
+    "journal-title": "IEEE Trans. Knowl. Data Eng."
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.asoc.2024.112677_bib43",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1007/s10916-018-1154-8",
+    "article-title": "Distribution-sensitive unbalanced data oversampling method for medical diagnosis",
+    "volume": "43",
+    "author": "Han",
+    "year": "2019",
+    "journal-title": "J. Med Syst."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib44",
+    "unstructured": "J. Van Hulse, T.M. Khoshgoftaar, and A. Napolitano, “Experimental Perspectives on Learning from Imbalanced Data.”"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib45",
+    "author": "Galar",
+    "year": "2012",
+    "journal-title": "A Rev. Ensembles Cl. imbalance Probl.: Bagging-, Boost. -, Hybrid. -Based Approaches"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.asoc.2024.112677_bib46",
+    "doi-asserted-by": "crossref",
+    "first-page": "221",
+    "DOI": "10.1007/s13748-016-0094-0",
+    "article-title": "Learning from imbalanced data: open challenges and future directions",
+    "volume": "5",
+    "author": "Krawczyk",
+    "year": "2016",
+    "journal-title": "Prog. Artif. Intell."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.asoc.2024.112677_bib47",
+    "doi-asserted-by": "crossref",
+    "first-page": "20",
+    "DOI": "10.1145/1007730.1007735",
+    "article-title": "A study of the behavior of several methods for balancing machine learning training data",
+    "volume": "6",
+    "author": "Batista",
+    "year": "2004",
+    "journal-title": "SIGKDD Explor. Newsl."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib48",
+    "doi-asserted-by": "crossref",
+    "unstructured": "S. Ndichu, T. Ban, T. Takahashi, D. Inoue Security-Alert Screening with Oversampling Based on Conditional Generative Adversarial Networks Proc. - 2022 17th Asia Jt. Conf. Inf. Secur., AsiaJCIS 2022, in Proceedings - 2022 17th Asia Joint Conference on Information Security, AsiaJCIS 2022, 2022, pp. 1 – 7. doi: 10.1109/AsiaJCIS57030.2022.000112022.",
+    "DOI": "10.1109/AsiaJCIS57030.2022.00011"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib49",
+    "article-title": "Classification of imbalanced data by using the SMOTE algorithm and locally linear embedding",
+    "volume": "3",
+    "author": "Juanjuan",
+    "year": "2007"
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.asoc.2024.112677_bib50",
+    "doi-asserted-by": "crossref",
+    "first-page": "4263",
+    "DOI": "10.1109/TCYB.2016.2606104",
+    "article-title": "A noise-filtered under-sampling scheme for imbalanced classification",
+    "volume": "47",
+    "author": "Kang",
+    "year": "2017",
+    "journal-title": "IEEE Trans. Cyber"
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.asoc.2024.112677_bib51",
+    "doi-asserted-by": "crossref",
+    "first-page": "2402",
+    "DOI": "10.1109/TCYB.2014.2372060",
+    "article-title": "Diversified sensitivity-based undersampling for imbalance classification problems",
+    "volume": "45",
+    "author": "Ng",
+    "year": "2015",
+    "journal-title": "IEEE Trans. Cyber"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib52",
+    "doi-asserted-by": "crossref",
+    "unstructured": "H. Han, W.-Y. Wang, and B.-H. Mao, “Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning,” 2005.",
+    "DOI": "10.1007/11538059_91"
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.asoc.2024.112677_bib53",
+    "doi-asserted-by": "crossref",
+    "first-page": "136",
+    "DOI": "10.1007/s10618-011-0222-1",
+    "article-title": "Hellinger distance decision trees are robust and skew-insensitive",
+    "volume": "24",
+    "author": "Cieslak",
+    "year": "2011",
+    "journal-title": "Data Min. Knowl. Discov."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.asoc.2024.112677_bib54",
+    "doi-asserted-by": "crossref",
+    "first-page": "4",
+    "DOI": "10.1504/IJKESDP.2011.039875",
+    "article-title": "Borderline over-sampling for imbalanced data classification",
+    "volume": "3",
+    "author": "Nguyen",
+    "year": "2011",
+    "journal-title": "Int J. Knowl. Eng. Soft Data Parad."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib55",
+    "first-page": "1322",
+    "article-title": "ADASYN: Adaptive synthetic sampling approach for imbalanced learning",
+    "author": "He",
+    "year": "2008",
+    "journal-title": "Proc. Int. Jt. Conf. Neural Netw."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib56",
+    "doi-asserted-by": "crossref",
+    "first-page": "352",
+    "DOI": "10.1016/j.neucom.2019.06.100",
+    "article-title": "Smote-variants: a python implementation of 85 minority oversampling techniques",
+    "volume": "366",
+    "author": "Kovács",
+    "year": "2019",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib57",
+    "doi-asserted-by": "crossref",
+    "first-page": "106",
+    "DOI": "10.1186/1471-2105-14-106",
+    "article-title": "SMOTE for high-dimensional class-imbalanced data",
+    "volume": "14",
+    "author": "Blagus",
+    "year": "2013",
+    "journal-title": "BMC Bioinforma."
+   },
+   {
+    "issue": "1",
+    "key": "10.1016/j.asoc.2024.112677_bib58",
+    "doi-asserted-by": "crossref",
+    "first-page": "222",
+    "DOI": "10.1109/TKDE.2014.2324567",
+    "article-title": "RACOG and wRACOG: two probabilistic oversampling techniques",
+    "volume": "27",
+    "author": "Das",
+    "year": "2015",
+    "journal-title": "IEEE Trans. Knowl. Data Eng."
+   },
+   {
+    "issue": "11",
+    "key": "10.1016/j.asoc.2024.112677_bib59",
+    "doi-asserted-by": "crossref",
+    "first-page": "7327",
+    "DOI": "10.1109/TPAMI.2021.3116668",
+    "article-title": "Deep generative modelling: a comparative review of VAEs, GANs, normalizing flows, energy-based and autoregressive models",
+    "volume": "44",
+    "author": "Bond-Taylor",
+    "year": "2022",
+    "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib60",
+    "first-page": "2813",
+    "article-title": "Least squares generative adversarial networks",
+    "volume": "2017-October",
+    "author": "Mao",
+    "year": "2017",
+    "journal-title": "Proc. IEEE Int. Conf. Comput. Vis."
+   },
+   {
+    "issue": "7",
+    "key": "10.1016/j.asoc.2024.112677_bib61",
+    "doi-asserted-by": "crossref",
+    "first-page": "1967",
+    "DOI": "10.1109/TNNLS.2018.2875194",
+    "article-title": "Inverting the generator of a generative adversarial network",
+    "volume": "30",
+    "author": "Creswell",
+    "year": "2016",
+    "journal-title": "IEEE Trans. Neural Netw. Learn Syst."
+   },
+   {
+    "issue": "12",
+    "key": "10.1016/j.asoc.2024.112677_bib62",
+    "doi-asserted-by": "crossref",
+    "first-page": "3358",
+    "DOI": "10.1016/j.patcog.2007.04.009",
+    "article-title": "Cost-sensitive boosting for classification of imbalanced data",
+    "volume": "40",
+    "author": "Sun",
+    "year": "2007",
+    "journal-title": "Pattern Recognit."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib63",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Y.O. Lee, J. Jo, J. HwangApplication of deep neural network and generative adversarial network to industrial maintenance: A case study of induction motor fault detection Proc. - 2017 IEEE Int. Conf. Big Data, Big Data 2017, Vol. 2018-Jan., Proceedings - 2017 IEEE International Conference on Big Data, Big Data 2017, vol. 2018-January, pp. 3248–3253, Jul. 2017, doi: 10.1109/BIGDATA.2017.8258307.Jul. 2017, 3248325310.1109/BIGDATA.2017.8258307.",
+    "DOI": "10.1109/BigData.2017.8258307"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib64",
+    "doi-asserted-by": "crossref",
+    "first-page": "321",
+    "DOI": "10.1016/j.neucom.2018.09.013",
+    "article-title": "GAN-based synthetic medical image augmentation for increased CNN performance in liver lesion classification",
+    "volume": "321",
+    "author": "Frid-Adar",
+    "year": "2018",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib65",
+    "doi-asserted-by": "crossref",
+    "unstructured": "T. Zhou, W. Liu, C. Zhou, L. Chen GAN-based semi-supervised for imbalanced data classification 2018 4th Int. Conf. Inf. Manag., ICIM 2018; 2018 4th International Conference on Information Management, ICIM 2018, pp. 17–21, Jun. 2018, doi: 10.1109/INFOMAN.2018.8392662Jun. 2018, 172110.1109/INFOMAN.2018.8392662.",
+    "DOI": "10.1109/INFOMAN.2018.8392662"
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.asoc.2024.112677_bib66",
+    "doi-asserted-by": "crossref",
+    "first-page": "1287",
+    "DOI": "10.3233/IDA-220383",
+    "article-title": "Oversampling method based on GAN for tabular binary classification problems",
+    "volume": "27",
+    "author": "Yang",
+    "year": "2023",
+    "journal-title": "Intell. Data Anal."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib67",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.asoc.2019.105662",
+    "article-title": "An empirical comparison and evaluation of minority oversampling techniques on a large number of imbalanced datasets",
+    "volume": "83",
+    "author": "Kovács",
+    "year": "2019",
+    "journal-title": "Appl. Soft Comput."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib68",
+    "doi-asserted-by": "crossref",
+    "first-page": "23537",
+    "DOI": "10.1109/ACCESS.2019.2899467",
+    "article-title": "A parameter-free cleaning method for SMOTE in imbalanced classification",
+    "volume": "7",
+    "author": "Yan",
+    "year": "2019",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib69",
+    "doi-asserted-by": "crossref",
+    "first-page": "511",
+    "DOI": "10.1016/j.asoc.2014.05.023",
+    "article-title": "Preprocessing noisy imbalanced datasets using SMOTE enhanced with fuzzy rough prototype selection",
+    "volume": "22",
+    "author": "Verbiest",
+    "year": "2014",
+    "journal-title": "Appl. Soft Comput."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib70",
+    "doi-asserted-by": "crossref",
+    "first-page": "380",
+    "DOI": "10.1016/j.asoc.2018.12.024",
+    "article-title": "An alternative SMOTE oversampling strategy for high-dimensional datasets",
+    "volume": "76",
+    "author": "Maldonado",
+    "year": "2019",
+    "journal-title": "Appl. Soft Comput."
+   },
+   {
+    "issue": "9",
+    "key": "10.1016/j.asoc.2024.112677_bib71",
+    "doi-asserted-by": "crossref",
+    "first-page": "1947",
+    "DOI": "10.1109/TNNLS.2015.2461436",
+    "article-title": "Oversampling the minority class in the feature space",
+    "volume": "27",
+    "author": "Perez-Ortiz",
+    "year": "2016",
+    "journal-title": "IEEE Trans. Neural Netw. Learn Syst."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib72",
+    "doi-asserted-by": "crossref",
+    "first-page": "89694",
+    "DOI": "10.1109/ACCESS.2023.3306621",
+    "article-title": "Ensemble synthesized minority oversampling-based generative adversarial networks and random forest algorithm for credit card fraud detection",
+    "volume": "11",
+    "author": "Ghaleb",
+    "year": "2023",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib73",
+    "doi-asserted-by": "crossref",
+    "unstructured": "H. Tan, Tabular GAN-based oversampling of imbalanced time-to-event data for survival prediction 2023 8th Int. Conf. Cloud Comput. Big Data Anal., ICCCBDA 2023; in 2023 8th International Conference on Cloud Computing and Big Data Analytics, ICCCBDA 2023, 2023, pp. 376 – 380. doi: 10.1109/ICCCBDA56900.2023.101548832023.",
+    "DOI": "10.1109/ICCCBDA56900.2023.10154883"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib74",
+    "doi-asserted-by": "crossref",
+    "first-page": "232",
+    "DOI": "10.1007/978-3-030-79728-7_23",
+    "article-title": "Reduced CNN model for face image detection with gan oversampling",
+    "volume": "279",
+    "author": "Kim",
+    "year": "2022",
+    "journal-title": "Lect. Notes Netw. Syst."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib75",
+    "doi-asserted-by": "crossref",
+    "unstructured": "N. Abedzadeh, M. JacobsGANMCMCRO: A generative adversarial network markov chain Monte Carlo random oversampling algorithm for imbalance datasets; in International Conference on Web Information Systems and Technologies, WEBIST - Proceedings, 2023, pp. 587 – 594. doi: 10.5220/00122596000035842023.",
+    "DOI": "10.5220/0012259600003584"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib76",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1016/j.eswa.2019.05.006",
+    "article-title": "Oversampling method using outlier detectable generative adversarial network",
+    "volume": "133",
+    "author": "Oh",
+    "year": "2019",
+    "journal-title": "Expert Syst. Appl."
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.asoc.2024.112677_bib77",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1088/1361-6501/acad20",
+    "article-title": "Fault diagnosis of wind turbines with generative adversarial network-based oversampling method",
+    "volume": "34",
+    "author": "Yang",
+    "year": "2023",
+    "journal-title": "Meas. Sci. Technol."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib78",
+    "doi-asserted-by": "crossref",
+    "first-page": "85878",
+    "DOI": "10.1109/ACCESS.2023.3303509",
+    "article-title": "CTGAN-MOS: conditional generative adversarial network based minority-class-augmented oversampling scheme for imbalanced problems",
+    "volume": "11",
+    "author": "Majeed",
+    "year": "2023",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "4",
+    "key": "10.1016/j.asoc.2024.112677_bib79",
+    "doi-asserted-by": "crossref",
+    "first-page": "588",
+    "DOI": "10.1109/JAS.2017.7510583",
+    "article-title": "Generative adversarial networks: Introduction and outlook",
+    "volume": "4",
+    "author": "Wang",
+    "year": "2017",
+    "journal-title": "IEEE/CAA J. Autom. Sin."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib80",
+    "doi-asserted-by": "crossref",
+    "unstructured": "A. Anand, K. Gorde, J.R. Antony Moniz, N. Park, T. Chakraborty, B.-T. Chu Phishing URL detection with oversampling based on text generative adversarial networks Proc. - 2018 IEEE Int. Conf. Big Data, Big Data 2018; in Proceedings - 2018 IEEE International Conference on Big Data, Big Data 2018, 2018, pp. 1168–1177. doi: 10.1109/BigData.2018.86225472018.",
+    "DOI": "10.1109/BigData.2018.8622547"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib81",
+    "series-title": "2020 IEEE International Conference on Healthcare Informatics, ICHI 2020",
+    "article-title": "Biosignal Oversampling Using Wasserstein Generative Adversarial Network",
+    "author": "Munia",
+    "year": "2020"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib82",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.eswa.2021.114582",
+    "article-title": "Conditional Wasserstein GAN-based oversampling of tabular data for imbalanced learning",
+    "volume": "174",
+    "author": "Engelmann",
+    "year": "2021",
+    "journal-title": "Expert Syst. Appl."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib83",
+    "unstructured": "E. Nazari, P. Branco On oversampling via generative adversarial networks under different data difficulty factors; in Proceedings of Machine Learning Research, 2021, pp. 76 – 89. [Online]. Available: https://www.scopus.com/inward/record.uri?eid= 2-s2.0-85120163757&partnerID= 40&md5= 5f4e969e9bc436314021043f34fb39fc 2021, 7689([Online]. Available)."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib84",
+    "doi-asserted-by": "crossref",
+    "first-page": "326",
+    "DOI": "10.1016/j.neucom.2021.04.135",
+    "article-title": "SA-CGAN: An oversampling method based on single attribute guided conditional GAN for multi-class imbalanced learning",
+    "volume": "472",
+    "author": "Dong",
+    "year": "2022",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib85",
+    "unstructured": "J. Hao, C. Wang, H. Zhang, G. YangAnnealing Genetic GAN for Minority Oversampling 31st Br. Mach. Vis. Conf., BMVC 2020; in 31st British Machine Vision Conference, BMVC 20202020([Online]. Available:)."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib86",
+    "unstructured": "G. Mariani, F. Scheidegger, R. Istrate, C. Bekas, and C. Malossi, “BAGAN: Data Augmentation with Balancing GAN,” Mar. 2018, [Online]. Available: 〈http://arxiv.org/abs/1803.09655〉."
+   },
+   {
+    "issue": "5",
+    "key": "10.1016/j.asoc.2024.112677_bib87",
+    "doi-asserted-by": "crossref",
+    "first-page": "394",
+    "DOI": "10.1038/nphys896",
+    "article-title": "Keyhole coherent diffractive imaging",
+    "volume": "4",
+    "author": "Abbey",
+    "year": "2008",
+    "journal-title": "Nat. Phys."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib88",
+    "first-page": "9405",
+    "article-title": "Adversarially Regularized Autoencoders",
+    "volume": "13",
+    "author": "Zhao",
+    "year": "2017",
+    "journal-title": "35th Int. Conf. Mach. Learn., ICML 2018"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib89",
+    "article-title": "“Wasserstein Auto-Encoders,”",
+    "author": "Tolstikhin",
+    "year": "2017",
+    "journal-title": "Int. Conf. Learn. Represent."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib90",
+    "first-page": "577",
+    "article-title": "Adversarial Autoencoders",
+    "author": "Makhzani",
+    "year": "2015",
+    "journal-title": "Elem. Dimens. Reduct. Manifold Learn."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib91",
+    "author": "Arjovsky",
+    "year": "2017",
+    "journal-title": "Wasser. Gener. Advers. Netw."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib92",
+    "article-title": "A GAN and feature selection-based oversampling technique for intrusion detection",
+    "volume": "2021",
+    "author": "Liu",
+    "year": "2021",
+    "journal-title": "Secur. Commun. Netw."
+   },
+   {
+    "issue": "10",
+    "key": "10.1016/j.asoc.2024.112677_bib93",
+    "first-page": "2617",
+    "article-title": "Imbalanced corporate bond default modeling using generative adversarial networks oversampling techniques",
+    "volume": "42",
+    "author": "Yao",
+    "year": "2022",
+    "journal-title": "Xitong Gongcheng Lilun yu Shijian/Syst. Eng. Theory Pract."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib94",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.oregeorev.2023.105665",
+    "article-title": "Prospectivity modelling of critical mineral deposits using a generative adversarial network with oversampling and positive-unlabelled bagging",
+    "volume": "162",
+    "author": "Farahbakhsh",
+    "year": "2023",
+    "journal-title": "Ore Geol. Rev."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib95",
+    "doi-asserted-by": "crossref",
+    "DOI": "10.1016/j.ymssp.2020.107175",
+    "article-title": "Oversampling adversarial network for class-imbalanced fault diagnosis",
+    "volume": "149",
+    "author": "Zareapoor",
+    "year": "2021",
+    "journal-title": "Mech. Syst. Signal Process"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib96",
+    "first-page": "1695",
+    "article-title": "Generative Adversarial Minority Oversampling",
+    "volume": "2019-October",
+    "author": "Mullick",
+    "year": "2019"
+   },
+   {
+    "issue": "2",
+    "key": "10.1016/j.asoc.2024.112677_bib97",
+    "doi-asserted-by": "crossref",
+    "first-page": "212",
+    "DOI": "10.1109/LGRS.2017.2780890",
+    "article-title": "Semisupervised Hyperspectral Image Classification Based on Generative Adversarial Networks",
+    "volume": "15",
+    "author": "Zhan",
+    "year": "2018",
+    "journal-title": "IEEE Geosci. Remote Sens. Lett."
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib98",
+    "doi-asserted-by": "crossref",
+    "unstructured": "J. Kim, H. Park OA-GAN: Overfitting avoidance method of GAN oversampling based on xAI Int. Conf. Ubiquitous Future Netw., ICUFN; in International Conference on Ubiquitous and Future Networks, ICUFN, 2021, pp. 394 – 398. doi: 10.1109/ICUFN49451.2021.95285942021.",
+    "DOI": "10.1109/ICUFN49451.2021.9528594"
+   },
+   {
+    "key": "10.1016/j.asoc.2024.112677_bib99",
+    "doi-asserted-by": "crossref",
+    "unstructured": "J. Wang, L. Yao Unrolled GAN-based oversampling of credit card dataset for fraud detection 2022 IEEE, in 2022 IEEE International Conference on Artificial Intelligence and Computer Applications, ICAICA 2022, 2022, pp. 858 – 861. doi: 10.1109/ICAICA54878.2022.98444212022.",
+    "DOI": "10.1109/ICAICA54878.2022.9844421"
+   },
+   {
+    "issue": "3",
+    "key": "10.1016/j.asoc.2024.112677_bib100",
+    "first-page": "235",
+    "article-title": "Oversampling algorithm based on gradient penalty generative adversarial network",
+    "volume": "45",
+    "author": "Tao",
+    "year": "2023",
+    "journal-title": "Shanghai Ligong Daxue Xuebao/J. Univ. Shanghai Sci. Technol."
+   }
+  ],
+  "container-title": [
+   "Applied Soft Computing"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S1568494624014510?httpAccept=text/xml",
+    "content-type": "text/xml",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://api.elsevier.com/content/article/PII:S1568494624014510?httpAccept=text/plain",
+    "content-type": "text/plain",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2025,
+     2,
+     7
+    ]
+   ],
+   "date-time": "2025-02-07T17:19:24Z",
+   "timestamp": 1738948764000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1568494624014510"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2025,
+     2
+    ]
+   ]
+  },
+  "references-count": 100,
+  "alternative-id": [
+   "S1568494624014510"
+  ],
+  "URL": "https://doi.org/10.1016/j.asoc.2024.112677",
+  "relation": {},
+  "ISSN": [
+   "1568-4946"
+  ],
+  "issn-type": [
+   {
+    "value": "1568-4946",
+    "type": "print"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2025,
+     2
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "Elsevier",
+    "name": "publisher",
+    "label": "This article is maintained by"
+   },
+   {
+    "value": "Deep generative approaches for oversampling in imbalanced data classification problems: A comprehensive review and comparative analysis",
+    "name": "articletitle",
+    "label": "Article Title"
+   },
+   {
+    "value": "Applied Soft Computing",
+    "name": "journaltitle",
+    "label": "Journal Title"
+   },
+   {
+    "value": "https://doi.org/10.1016/j.asoc.2024.112677",
+    "name": "articlelink",
+    "label": "CrossRef DOI link to publisher maintained version"
+   },
+   {
+    "value": "article",
+    "name": "content_type",
+    "label": "Content Type"
+   },
+   {
+    "value": "© 2025 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+    "name": "copyright",
+    "label": "Copyright"
+   }
+  ],
+  "article-number": "112677"
+ }
+}

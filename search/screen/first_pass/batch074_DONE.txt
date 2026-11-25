@@ -1,0 +1,11 @@
+batch 074: 200 of 200 records done; include 28, unsure 13, exclude 159
+no records remain
+
+Look at first:
+- Low confidence: R21006 (no abstract; physics-informed casting defect model; unsure), R19324 (no abstract; LSTM Kp-index forecasting; excluded E1), R09614 (ECG: SMOTE plus a "novel waveform scaling augmentation"; is that an oversampler in scope?), R07802 (AdaBoost fraud paper using "Heron-Centroid SMOTE"; new or existing variant unknown), R00567 (PCA-based sampling; no evaluation named, unclear if it generates examples).
+- Standard generator inside a domain pipeline, no novelty claimed, excluded E1: R09052 (VAE, rock burst), R22272 (CGAN, IoT intrusion). Settle whether vanilla VAE/GAN oversampling in domain papers is E1.
+- Includes where an improved SMOTE is one component of a domain paper: R07820, R10718, R15196, R00596, R00998 ("SMOTE ASMO"), R01675 (EKSMOTE in stacking; may not be new here). Also R04546 (deep oversampling, generator type not stated), R02494 (one-point crossover generator), R08513 (graph GAN generating minority nodes), R02430 (DNOS: new denoising before ADASYN, read as "SMOTE with a new cleaning step").
+- No multi-label code in the codebook: R07527 (ML-RUSMOTE) and R00830 (ML-SMOTE) coded I1-other.
+- Clarification 1 (purpose other than imbalanced classification): R05838 (SMOTE for privacy-preserving anchor data), R09482 (MTGAN synthetic EHR, also targets uncommon diseases).
+- Excluded on language only, otherwise in scope: R05659 (ACGAN oversampler), R00065 (ASMOTE), R07727 (BAEGAN), all Chinese. Indonesian titles with language "en" (R20096, R09658, R14285) were excluded E1 on substance.
+- R02250 (ASSOM oversampler) extends the authors' earlier paper: E4 check at full text. R09289 has a garbled full-text abstract with no resampling content (E-NOGEN).

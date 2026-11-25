@@ -1,0 +1,81 @@
+{
+ "items": 82,
+ "groups": {
+  "must": 54,
+  "changed": 8,
+  "kept": 10,
+  "fill": 10
+ },
+ "frames": {
+  "changed": 8,
+  "kept": 71,
+  "agreed": 847
+ },
+ "seeds": {
+  "changed": 20261128,
+  "kept": 20261129,
+  "agreed": 20261130
+ },
+ "reviewers": {
+  "an author": {
+   "must": {
+    "agree": 54
+   },
+   "changed": {
+    "agree": 8
+   },
+   "kept": {
+    "agree": 10
+   },
+   "fill": {
+    "agree": 10
+   }
+  }
+ },
+ "totals": {
+  "an author": {
+   "agree": 82
+  }
+ },
+ "items_by_form": {
+  "Use audit": {
+   "must": 8,
+   "changed": 8,
+   "kept": 5,
+   "fill": 7
+  },
+  "Coverage sample": {
+   "must": 46,
+   "kept": 5,
+   "fill": 3
+  }
+ },
+ "decided_by_form": {
+  "Use audit": {
+   "must": {
+    "agree": 8
+   },
+   "changed": {
+    "agree": 8
+   },
+   "kept": {
+    "agree": 5
+   },
+   "fill": {
+    "agree": 7
+   }
+  },
+  "Coverage sample": {
+   "must": {
+    "agree": 46
+   },
+   "kept": {
+    "agree": 5
+   },
+   "fill": {
+    "agree": 3
+   }
+  }
+ },
+ "records_md5": "707931b96187087b4edc316d90aafb85"
+}

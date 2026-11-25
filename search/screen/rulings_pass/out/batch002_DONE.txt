@@ -1,0 +1,37 @@
+batch 002: 196 of 196 records done; own 155, existing-parts 35, unclear 6
+no records remain
+
+Records to look at first (all are calls that decide include or exclude; low confidence unless marked):
+1. Coded existing-parts, so excluded, but they could be read as own:
+   - R12833 (medium): a cGAN with spectral normalisation and self-attention, plus a quality gate. This is inconsistent with R04410 (CWGAN-GP plus CBAM) and R12377 (CycleGAN plus spectral normalisation and weight decay), which were coded own for similar added modules.
+   - R13297: GAVAE, a VAE-GAN hybrid.
+   - R09858: GNUS, a "novel" Gaussian-noise upsampling.
+   - R10818: GO-SMOTE, which is GMM sampling plus ENN.
+   - R15571: SynKGen, Gaussian perturbation in a kernel PCA space.
+   - R03492 and R18093: few-shot distribution calibration reused.
+   - R10074: existing oversamplers in the paper's own metric-learning space.
+   - R00906: MST partitions, then an unnamed oversampler.
+   - R06444: HardVis, user-steered under- and oversampling.
+   - R05440: cluster undersampling plus a tabular WGAN-GP.
+   - R19744: the abstract appears to be the GraphSMOTE abstract with the method renamed GraphBalance.
+2. Presented and compared, but excluded under B2 because of the generator kind: R06473 (SMOTE plus AWGN; AWGN was coded augmentation under the chain rule, and coding it classical would keep the record under B), R02399 (a 1-D DCGAN), R04819 (SVM-SMOTE plus a GAN).
+3. Coded own or unclear, so kept, on thin evidence:
+   - R04114: a standard GAN plus a novel undersampler; this may count as "generator plus filter".
+   - R04474: the oversampler may come from earlier work.
+   - R15103: a perplexity-based allocation.
+   - R01409: ADASYN applied to MIC-abstained samples.
+   - R11824: CADA; its adaptive part is not described.
+   - R17976: CoDSA; region-targeted standard generators.
+   - R16464: an undescribed "dynamic SMOTE".
+   - R19267: DiTTab may be new or standard.
+   - R04438: unclear, and presented is no.
+   - R05406: WECOI.
+4. Presented is borderline and decides the outcome: R09032 (RS-DAAL; coded yes, so it is kept under B).
+
+Coding conventions used in this batch:
+- An oversampler that is not named was coded generator none.
+- SMOTE in a plain autoencoder latent space was coded classical.
+- Gaussian noise sampling was coded statistical.
+- Intrusion, fraud and fault "detection" were coded as classification.
+- Unnamed "baselines" or "state-of-the-art" comparisons were coded compared no.
+- Tasks other than classification: R04357 segmentation, R06454 zero-shot, R11538 regression-as-classes, R19707 survival.

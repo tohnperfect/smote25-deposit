@@ -1,0 +1,14 @@
+batch 06: 54 of 54 decided {'exclude': 50, 'include': 2, 'unsure': 2}; all decided
+
+Read first (includes and unsure):
+- 33461687 include H-leakage: over-sampling before the train/test partition gives overly optimistic results (artificial data plus reproduced TPEHG preterm-birth studies). The abstract does not name the over-sampling method.
+- 26537827 include H-leakage: under/oversampling with incorrect cross-validation overestimates accuracy, more so for oversampling (real and simulated data). Method not named in the abstract.
+- 29398782 unsure (calibration): bagging with threshold-moving on the natural class distribution against bagging with under/oversampling; claims well-calibrated probabilities "contrary to the other resampling methods" but does not say calibration was measured for both arms.
+- 12693873 unsure (calibration): ANN with oversampling of pneumonia cases against other training strategies and logistic regression; calibration measured as mean square error, but only ROC areas are reported and the comparators' training is not described.
+
+Cases the codebook does not settle (my convention, for the team to check):
+- When several exclusion codes could apply, I used the first failing criterion in the order I1, I2, I3 (X-not-resampling, then X-no-comparison, then X-no-harm-measure).
+- 32667760: resampled models with calibration plot and Brier score are compared only with a noninformative constant model; read as no I2 comparison (X-no-comparison).
+- 30342683: mean calibration error is reported, but the only comparison is SMOTE against random undersampling; undersampling treated as resampling, so no I2 (X-no-comparison). A rule for oversampling-vs-undersampling calibration comparisons may be wanted.
+- 33829708 (SVM-SMOTE applied before the train/test split) and 24835229 (authors say SMOTE in the evaluation may have inflated performance) are leaky pipelines with no comparison: X-no-comparison. Possibly useful as illustrations, but not evidence under the rule.
+- 33682475, 29216923, 32559659: calibration appears only as a recalibration or post-processing step with no calibration result, so harms was left empty.

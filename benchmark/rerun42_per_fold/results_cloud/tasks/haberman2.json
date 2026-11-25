@@ -1,0 +1,9 @@
+{
+ "task": "haberman2",
+ "source": "author-kmeans",
+ "n": 265,
+ "n_min": 40,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 3
+}

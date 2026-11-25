@@ -1,0 +1,9 @@
+{
+ "task": "mammography",
+ "source": "jbrownlee-UCI",
+ "n": 11183,
+ "n_min": 260,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 6
+}

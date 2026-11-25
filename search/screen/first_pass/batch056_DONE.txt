@@ -1,0 +1,10 @@
+batch 056: 200 of 200 records done; include 24, unsure 14, exclude 162
+no records remain
+
+Look at these first:
+- Low-confidence calls: R12616 (include: "improved GAN" IDS, the improvement is not described and the name matches an earlier IGAN-IDS), R01632, R05549, R01905, R08365 (unsure: cannot tell whether the oversampler is new), R09617 (unsure: its "novel LORAS" may be the existing LoRAS oversampler).
+- Borderline includes: R02117 (SOUP: abstract does not say whether it synthesizes or replicates examples), R00525 (SMOTE inside bagging, close to existing SMOTEBagging), R01044 (CMTFSVM before SMOTE: is the cleaning step new?), R00297 (QMSVM: venue mostly publishes in Chinese, so check the language), R01895 (DSMOTE, but the record is a book chapter, so I3 is unclear), R11583 (CVAE plus ADASYN, two existing generators combined), R03105 (LR-SMOTE plus CCR variant).
+- Consistency check: R16744 (prompt-based GPT-2, include) versus R04006 (GPT-2/LSTM plus grammar check, unsure under clarification 3).
+- GAN papers excluded as E1 because a named generator is used unchanged: R04755, R12312, R06095, R03770. R13039 is unsure because the abstract does not say which GAN design it uses.
+- Borderline excludes: R00515 (plain SMOTE before a new ensemble, benchmarked against SMOTEBagging/SMOTEBoost), R20075 (joint tuning of SMOTE k), R10579 (SMOTE-ENN "hybridized"), R16259, R20814.
+- Not settled by the codebook: R21390 (reproduction study of OPeN pure-noise oversampling, coded E-COMPARE), R07124 (retracted), R03594 (Chinese, method otherwise in scope, coded E-LANG). R08218, R18131 and R17972 are U-other: their purposes are data sharing, augmentation of scarce data, and detection/segmentation. R14210, R14471 and R09256 have non-English titles but language=en; all three are excluded as E1 anyway.

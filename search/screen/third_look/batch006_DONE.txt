@@ -1,0 +1,15 @@
+batch 006: 200 of 200 records done; include 18, unsure 128, exclude 54
+no records remain
+
+Look at first:
+- Boundary includes under clarification 3 (method papers that pair an existing generator with a filter or seed selection): R19907 (SMOTE-IH, instance-hardness filter before SMOTE; a strict reading of clarification 3 would make it unsure), R10025 (SIRSYN), R12404 (DOFCM-SMOTE). R13938 (KSIPF) and R02070 (SSOMaj-SMOTE-SSOMin) are similar but built only from named existing parts, so I left them unsure.
+- Low-confidence includes based on thin abstracts: R17523, R22270, R12616, R20717, R00184, R10109, R02992, R21422. R21422 (optimal rebalancing ratio) is included; R02122 (optimal target proportion with resampling at random) is excluded E-NOGEN. The two cases need the same rule.
+- Possibly not in English: R10651 and R00279 are included but come from Chinese journals (R10651 has a Chinese title). R18199 is unsure and its language field says Turkish. R02805 is excluded E-LANG (the abstract is in Korean). R19411 is excluded E-COMPARE and has an Indonesian title.
+- Low-confidence excludes where it is unclear whether synthetic examples are generated: R08771, R00983, R09449, R10273, R04104. Also R03773: the whole paper is about VAE/CVAE oversampling, but I excluded it E1 because the generators are off the shelf.
+
+Cases the codebook does not settle:
+- The instructions allow unsure only for U-no-abstract and U-new-or-applied, but clarifications 1 and 2 require U-other. I followed the codebook. 26 records are coded "I2 not stated in the abstract"; most are 2026 Zenodo SMOTE-variant preprints that cite only theoretical analysis. Another 14 are generators built for another purpose.
+- No exclusion code covers failing I3 because of document type. R04831 (book chapter) and R09530 (PhD thesis) meet I1 and I2, so I left them unsure (U-other). R02609 is a tutorial-like chapter, so I excluded it as E-REVIEW.
+- SMOTE extended to regression (R00693, R01064, R16695) is excluded under E2. Clarification 1 would send these to unsure instead.
+- E1 names only SMOTE-family resamplers. I also used E1 for domain papers that apply an off-the-shelf GAN, WGAN, CVAE, CycleGAN or LLM as an oversampler (for example R06565, R02506, R21576, R18187, R20160).
+- I also used U-new-or-applied when the paper's own sampling method is described but the abstract does not say whether it synthesizes, replicates or only undersamples (for example R01649, R05664, R00374, R05577, R03101, R02607).

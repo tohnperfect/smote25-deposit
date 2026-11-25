@@ -1,0 +1,14 @@
+batch 037: 200 of 200 records done; include 33, unsure 11, exclude 156
+no records remain
+
+Look at these first:
+- Low confidence, no abstract (decided from the title alone): R16705, R19552, R17387 (E1); R19409 (E-COMPARE, GANs vs diffusion models for knee radiographs).
+- Unsure (11): R16808 (no abstract, GAN-augmented boosting); R08908, R03169, R11250, R05380, R01102, R03718 (cannot tell whether the resampling is new or applied); R06558, R17076 (existing ADASYN plus Tomek/ENN presented as new, clarification 3); R00374, R04620 (oversampling type or rate method unclear).
+- Codebook does not settle off-the-shelf generators used as the oversampler in domain papers. My rule: a named existing generator used unchanged = E1 (R15695 CTGAN); a generator design presented as the contribution = include (R04097, R06210, R13510 medium); in between = unsure (R08908). R13119 (GAN on BERT embeddings) was included at medium confidence although minority targeting is not stated.
+- Abstract does not say whether the oversampling is synthetic: R00374 (unsure), R02408 and R14467 (include, medium). These three should be decided together.
+- Other borderline includes: R06420 (role of the deep GMM unclear), R19311 (multi-label graph oversampler inside a GNN paper), R06523 (noise-removal module, novelty of the cleaning step), R12106 (evaluation stated only in general terms), R00403 (thin abstract).
+- R01672: excluded as E-LANG (Chinese), but the method (SVM_HS, iterative SMOTE near the SVM hyperplane) would otherwise meet I1.
+- R10688: E1 at medium confidence; it presents SMOTE-ENN inside cross-validation folds as a novel approach.
+- R12100: E-NOGEN at medium confidence; it oversamples the minority with real examples from related datasets, a case the codebook does not cover.
+- R06943: the title (power grid control) does not match the abstract (cost-sensitive neural networks); likely a metadata error. Excluded on both.
+- R20764: the language field is Indonesian but the abstract is English; coded E1 on content.

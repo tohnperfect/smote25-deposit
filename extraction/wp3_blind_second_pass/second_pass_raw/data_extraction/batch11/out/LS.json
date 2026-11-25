@@ -1,0 +1,27 @@
+{
+ "data_key": "LS",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "LibSVM",
+  "Other",
+  "Synthetic"
+ ],
+ "crit": "Artificial two-class radial datasets (skew 50:1000) built with three levels of minority density and three levels of class overlap to study 'the interaction between the density, relative overlap between the regions, and end ability to discriminate' and to show that optimal sampling levels differ locally; 20 real-world/UCI/LIBSVM datasets, of which 'several datasets were acquired from various real-world scenarios originally considered in [6]'; no further rationale for the real datasets.",
+ "crit_type": "own reason",
+ "basis": [
+  "analytic",
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "[6] Chawla, Bowyer, Hall, Kegelmeyer, SMOTE (JAIR 2002), for 'several' of the real-world datasets",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Class-merged",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "smallest class vs rest",
+ "modified_data_released": "no",
+ "notes": "No printed page numbers in this PDF; pages are pdf pages. Table 2 (pdf p.7) prints Examples, Features and MinClass (minority share in %), no IR ratio or class count. Compustat and Intrusion keep a natural train/test split, so their Examples and MinClass are printed as 'train/test' pairs (e.g. 10,358/3,258 and 4%/4%). The paper does not say which of the UCI datasets were multiclass and binarised. Letter: vowels merged into the minority class vs consonants (coded Class-merged). Intrusion is described as a 'subset' of KDD'99 (u2r vs normal) without saying how the subset was drawn; not coded as resized. Synthetic data: nine radial two-class configurations (Fig. 2, Table 1) plus the Fig. 3 combined example; Pima is used for the Fig. 4 illustration. Sources coded Other for KDD'99, Compustat (financial database), ELENA Phoneme, Oil [17], biological datasets [20] and other sets taken from [6]. No data availability statement."
+}

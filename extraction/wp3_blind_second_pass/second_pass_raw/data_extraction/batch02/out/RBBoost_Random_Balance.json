@@ -1,0 +1,27 @@
+{
+ "data_key": "RBBoost / Random Balance",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL",
+  "UCI",
+  "Other",
+  "Synthetic"
+ ],
+ "crit": "Real data: 'Two collections of data sets were used. The HDDT collection contains the binary imbalanced data sets used in [37]... The KEEL collection contains the binary imbalanced data sets from the repository of KEEL [38]'; abstract: '86 imbalanced data sets from two well known repositories'. Simulation: generated 2-D Gaussian data 'to gain more insight and support for our hypothesis that the Random Balance heuristic improves diversity in a way which leads to larger AUC'.",
+ "crit_type": "own reason",
+ "basis": [
+  "analytic",
+  "prior-work",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "[37] Cieslak, Hoens, Chawla, Kegelmeyer, 'Hellinger distance decision trees are robust and skew-insensitive', Data Min. Knowl. Discov. 24 (1) (2012) (HDDT collection, 20 data sets); KEEL collection taken from the KEEL imbalanced repository",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Generated"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "n.a.",
+ "notes": "86 real data sets: HDDT collection (20, Table 2, p.102) + KEEL collection (66, Table 3, p.103); both are ready-made two-class collections (KEEL names encode the class split; HDDT names do not, and the paper does not say which class is minority for them). Natural coded because the paper says many sets are 'available' in UCI (as well as 'modifications'); data sets such as pima, haberman, wisconsin appear under their own names. UCI counted as an upstream source only via that sentence. Tables print Examples, Attributes as (numeric/nominal) and IR; no class count and no minority count printed (all described as binary). Supplementary file contains only full result tables, no data set information. Illustrative simulation (two 2-D Gaussians, 450 vs 50; minority = generated second class) is the only analytic, own-reason element; Fig. 3 uses credit-g. No data modified by the authors, so modified_data_released = n.a."
+}

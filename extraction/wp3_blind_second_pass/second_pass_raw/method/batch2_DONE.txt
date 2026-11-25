@@ -1,0 +1,35 @@
+Method form, batch 2: DONE (blind second coder), 2026-11-11
+Output: method/batch2_filled.csv (5 rows, same columns and row order as batch2_to_fill.csv; every cell filled).
+Sources used: only /home/claude/work/blind2/papers/<safe>.txt and /home/claude/work/blind2/pdf/<safe>__*.pdf
+(PDF pages viewed: EMDO p. 12, RSMOTE pp. 402-403, Safe-Level-SMOTE p. 479). No first-coder codes, no online lookups.
+Page numbers are printed numbers (RSMOTE 397-428, Safe-Level-SMOTE 475-482, NROMM supplement as "supp. p.").
+
+Look at these first (least certain codes):
+1. M06 NROMM, link Core vs Partial. Inland and borderline seeds use SMOTE interpolation (p. 5; supp. Alg. 3),
+   but trapped seeds use a non-interpolating adaptive embedding (eqs. 2-4, p. 5). I coded Core (interpolation is the
+   main generator). Partial is defensible.
+2. M06 NROMM, category B+M with variants: binary algorithm (Alg. 1, p. 3) run on D1-D10 (Table 6, p. 10) and simulated
+   sets (supp. p. 16) = B; multiclass NROMM (supp. Alg. 6) on 20 KEEL sets with all classes kept (Table 2, p. 7) = M.
+   Seed selection coded n: all minority samples are seeds, typed I/B/T; only the allocation weights differ.
+3. M08 RSMOTE, neighbour choice coded y: "generate new samples within each cluster" (p. 402) implies same-cluster partners,
+   but p. 404 says the relative-density kNN are the same ones used for interpolation. nnarray's scope is not defined.
+   Also B+M: the multiclass extension balances each class to the largest class "with respect to class Y_s" (p. 414). It is
+   not stated whether heterogeneous neighbours come from Y_s only or from all classes. The binary sets' reduction from
+   multiclass sources is not described; I inferred it from the class counts in Table 2 (iris 100/50, wine 107/71, etc.).
+4. M10 Safe-Level-SMOTE, seed selection coded y: case 1 (seed and drawn neighbour both have safe level 0) generates
+   nothing (Fig. 1, p. 479). This could instead be read as a placement or allocation exception.
+5. M02 EMDO, link Partial: interpolation (modified Borderline-SMOTE, eq. 42) is used only in ellipsoids with purity < 0.9;
+   the main generator samples inside Mahalanobis ellipsoids. Eq. 42 as printed points away from x_l (sign issue).
+   Category M: in 5 of 9 Table 1 sets only one class qualifies for oversampling (flag per the rules).
+6. M04 KNNOR, allocation coded n although the text says denser seeds get "higher priority" (p. 6). Alg. 2 gives each kept
+   seed one point per pass. Eqs. 1 and 6-8 print the reversed sign (x + (x - x_near) alpha).
+
+C3 (removes or moves originals): y only for NROMM (majority cleaning in the binary version, overlap cleaning in the
+multiclass version). RSMOTE is n because noisy minority points are only skipped as seeds (p. 416 states that nothing is
+filtered from the original data).
+Adaptive k: n for all five. KNNOR (d, alpha) and EMDO (number of ellipsoids) adapt other parameters, not k.
+
+Process note: the coding-rules file's Google Drive tool and "compare with current record values" steps do not apply to
+this blind pass. The form gives no current values, so no comparison was made. The session's working directory was switched
+by the environment several times, once to a pkg03 path. All commands used absolute paths, and nothing outside blind2/blind3
+was read.

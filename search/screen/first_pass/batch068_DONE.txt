@@ -1,0 +1,12 @@
+batch 068: 200 of 200 records done; include 21, unsure 19, exclude 160
+no records remain
+
+Records to look at first:
+- Low confidence: R19448 (unsure; GNN paper that synthesises sensor-failure false positives), R10302 (unsure; Greek-titled thesis, language unclear, and the codebook has no exclusion code for theses), R14367 (unsure; GAN text augmentation inside a T5-CapsNet model).
+- Two similar cases got different calls. Each proposes a plain generator as its main contribution: R21126 (VAE, unsure) and R13275 (class-conditional GAN, include). Check them together; R21126 may deserve include.
+- Clarification 3 (existing generator plus a selection or cleaning step), all unsure: R03914, R10546, R00363, R02978, R03309, R17718. R03914 filters seeds by outlier detection, which is arguably new seed selection and could be an include. R05753 was included only because the abstract says "improved SMOTE"; the change is not described.
+- I2 doubtful: R01335 (G-SMOTE) and R20694 (NIS-SMOTE) are unsure because their abstracts name no evaluation. R20859 (OverNaN) was included, but its only evaluation is a demonstration on examples bundled with the software.
+- The codebook does not say whether non-synthetic (replication) oversamplers count. Three such methods were excluded as E-NOGEN: R14566 (RO-R), R02817 (clustering-based ROS ensemble), R06770 (stratified k-means sampling).
+- Two similar fusion methods got different calls: R03558 (ERC, fuses classifiers trained on under-, over- and hybrid-sampled data; unsure) and R09485 (MOEF, a multi-oversampling strategy with evidence fusion; include).
+- In-scope methods excluded only on language (E-LANG): R09100 (IProWSyn) and R01425 (ANBSC-SMOTE), both Chinese. R20705 is listed as zh but has an English abstract.
+- Other borderline includes: R16452 (MOOST, framed as anomaly detection but trained as a supervised classifier), R12049 (multi-label seed selection; the abstract does not say whether samples are synthetic or replicated), R01585 (3D spatial interpolation oversampler built for one domain, coded I1-other).

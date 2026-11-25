@@ -1,0 +1,9 @@
+{
+ "task": "wine [minority: 1]",
+ "source": "KEEL(keel_ds)",
+ "n": 178,
+ "n_min": 59,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 13
+}

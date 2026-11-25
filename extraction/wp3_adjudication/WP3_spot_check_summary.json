@@ -1,0 +1,107 @@
+{
+ "items": 80,
+ "groups": {
+  "must": 32,
+  "changed": 35,
+  "kept": 8,
+  "fill": 5
+ },
+ "frames": {
+  "changed": {
+   "Data extraction": 125,
+   "Data handling": 65,
+   "Method": 2,
+   "Evaluation": 8
+  },
+  "kept": 193
+ },
+ "seeds": {
+  "changed": 20261121,
+  "kept": 20261122,
+  "fill": 20261123
+ },
+ "reviewers": {
+  "an author": {
+   "must": {
+    "agree": 31,
+    "change": 1
+   },
+   "changed": {
+    "agree": 35
+   },
+   "kept": {
+    "agree": 8
+   },
+   "fill": {
+    "agree": 5
+   }
+  }
+ },
+ "totals": {
+  "an author": {
+   "agree": 79,
+   "change": 1
+  }
+ },
+ "items_by_group_form": {
+  "must": {
+   "Data handling": 27,
+   "Data extraction": 5
+  },
+  "changed": {
+   "Data extraction": 15,
+   "Data handling": 10,
+   "Method": 2,
+   "Evaluation": 8
+  },
+  "kept": {
+   "Data extraction": 7,
+   "Data handling": 1
+  },
+  "fill": {
+   "Data extraction": 5
+  }
+ },
+ "decided_by_group_form": {
+  "must": {
+   "Data handling": {
+    "agree": 26,
+    "change": 1
+   },
+   "Data extraction": {
+    "agree": 5
+   }
+  },
+  "changed": {
+   "Data extraction": {
+    "agree": 15
+   },
+   "Data handling": {
+    "agree": 10
+   },
+   "Method": {
+    "agree": 2
+   },
+   "Evaluation": {
+    "agree": 8
+   }
+  },
+  "kept": {
+   "Data extraction": {
+    "agree": 7
+   },
+   "Data handling": {
+    "agree": 1
+   }
+  },
+  "fill": {
+   "Data extraction": {
+    "agree": 5
+   }
+  }
+ },
+ "changes": [
+  "rel_RBO"
+ ],
+ "export": "smote25_wp3_check_2026-11-15.csv"
+}

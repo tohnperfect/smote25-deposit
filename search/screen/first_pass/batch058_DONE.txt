@@ -1,0 +1,9 @@
+batch 058: 200 of 200 records done; include 29, unsure 19, exclude 152
+no records remain
+
+Records to look at first:
+- Low-confidence unsure (abstract too vague to tell whether synthetic generation is new, or whether there is any): R00036, R04924, R00242, R06773, R20571, R13177, R02474, R12230, R01995, R16992 (clarification 1: CTGAN/LLM transaction generator built to create a dataset, not for minority oversampling; probably exclude).
+- Clarification 3 calls (existing generator + clustering/selection step presented as new, so unsure): R02569 (DBSCAN + WGAN-div), R09785 (Borderline-SMOTE + entropy-scored undersampling), R05319 (FCM + SMOTE), R13222 (cluster-guided ROS/SMOTE), R13835, R09597, R09786. Domain pipelines that only apply ADASYN+ENN or outlier removal + SMOTE were coded E1, not unsure: R12604, R02405 (medium).
+- Borderline includes (medium): R00714 (SMOTE applied in a compositional word-embedding space), R05372 and R03002 and R13398 (oversampler type not stated), R09544 (extends the authors' own NI-MWMOTE; check E4 at full text), R07827 (generates minority rules, not examples), R21002 (AC-GAN built from existing components), R16409, R06280, R09333.
+- Borderline excludes (medium): R20537 (off-the-shelf Stable Diffusion + validation filter, not claimed as a method), R02696, R00334 (SVM relabelling, E-NOGEN), R19138 (no abstract, domain title). Generative/new oversampling used only for regression, coded E2: R13242, R13334, R14800.
+- Not settled by the codebook: R07870 proposes an in-scope SMOTE variant (COW-SMOTE) but is in Chinese (E-LANG); R00713 is a theory note on rebalancing and AUC with no method (coded E-COMPARE as the nearest code); R01673 claims novelty but reads like SMOTEBoost (unsure); R22294 is front matter with an in-scope listed title (ICDG). Language may not be English despite the metadata for R00242 and R00316 (Chinese journals), and for R15042, R09659, R20921, R14723 (Indonesian titles).

@@ -1,0 +1,26 @@
+{
+ "data_key": "G-SMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL",
+  "Synthetic"
+ ],
+ "crit": "The selected imbalanced datasets are publicly available from the UCI and KEEL repositories; to test the algorithm on more extreme cases of imbalance, undersampled modifications (initial IR multiplied by 2 and 3) and simulated binary imbalanced data (variations of MADELON) were added, for 69 datasets; an undersampled dataset was used only if it kept at least 15 minority samples.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "threshold rule"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Undersampled",
+  "Generated"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "yes",
+ "notes": "The paper never describes how natively multiclass sources were made two-class and never says which datasets come from UCI vs KEEL. Binarised/repository/repository-defined rest on the KEEL-style split names in Table 1 (NEW THYROID 1/2, YEAST 1/3/4/5/6, PAGE BLOCKS 0, PAGE BLOCKS 1 3). Several natively multiclass datasets appear as two-class with no split suffix (IRIS, WINE, GLASS, VEHICLE, ECOLI, BREAST TISSUE, EUCALYPTUS, SEGMENTATION, VOWEL, LED, LIBRAS, DERMATOLOGY); if any of these came from UCI, the authors must have binarised them, and binarised_by would be 'both' and minority_rule 'not stated'. Adjudicator should check. Count mismatch: text says 13 UCI + 13 KEEL + 2 simulated = 28 base datasets, but Table 1 has 27 base names (25 real + MANDELON 1 and 2) in 69 rows. 'MANDELON' is printed for MADELON throughout. 'Publicly available' is stated but not as a selection reason, so replicability was not coded. Generated = the two simulated MADELON-variation datasets (generator of Guyon 2003). Table 1 prints no class count (all two-class: minority/majority instances). No per-dataset results in the paper: Tables 2-3 give means/ranks across datasets; full results only on GitHub. Experiment scripts also on GitHub."
+}

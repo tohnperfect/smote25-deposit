@@ -1,0 +1,10 @@
+batch 033: 200 of 200 records done; include 15, unsure 16, exclude 169
+no records remain
+
+Look at these first (record number in batch order, rec id):
+- Low confidence: 21 R11272 (GAN-LSTM makes synthetic attack samples, but it is framed as anomaly detection), 61 R18599 (SMOTE-DBC inside a diabetes framework; is the variant new?), 66 R05748 ("designed" RandomSample-SMOTE for intrusion detection), 126 R00514 (EN-CS-HN-SMOTE; is SMOTE applied inside the ensemble?).
+- Possibly inconsistent calls: 56 R10673 SMOTE-NRSEL is excluded E1 (medium), but 126 R00514 has the same pattern and is marked unsure. 108 R18881 is included I1-hybrid (SMOTE-ENN run in a decision-tree-leaf feature space), but 134 R02955 (PCA+MWMOTE) is unsure and 127 R04948 (PCA-SMOTE, domain paper) is excluded E1. Clarification 3 does not cover a feature transform placed before an existing generator.
+- Medium-confidence includes whose abstract does not describe the generation step: 31 R01332 (arXiv "novel minority over sampling technique"), 96 R07122 SCALA and 154 R05032 IDBMORate (multiclass allocation schemes), 105 R03762 (SA-PSO tuning of SMOTE N and k; is this a method or just tuning?), 64 R18026 (diffusion integration and partial-balancing policy), 71 R06821 (conditional GAN capsule network).
+- U-other, built for another purpose: 9 R07337 (zero-shot learning GAN), 55 R12102 (diffusion model for detection and segmentation), 72 R07819 (SMA for covariate bias and fairness), 176 R20525 (EFD-SMOTE; I2 is not stated, only theoretical analyses are cited).
+- Not in English but possibly in scope: 59 R10870 (Chinese; SMOTE applied to Deep Forest output probabilities) and 146 R04490 (Chinese; keywords name "adaptive comprehensive oversampling"). Language metadata disagrees with the text: 33 R14721, 139 R14236, 150 R00783.
+- Front matter tagged front-matter-in-scope: 116 R15064 (clustering-based oversampling for mixed data) and 147 R05148 (LIDTA 2022, adversarial oversampling for multi-class data).

@@ -1,0 +1,131 @@
+{
+ "source": "Data section/out/dataset_records.csv, modified_operations_audit.csv, modification_purpose_by_paper.csv; Data section/difficulty/verifiability_entries.csv (team repository, unchanged)",
+ "rule": "the six Segment and Texture entries of GLOS are modified (WP3 adjudication; Table 5 rule)",
+ "before": {
+  "entries": 1756,
+  "original": 537,
+  "repository_defined": 470,
+  "modified": 341,
+  "synthetic": 213,
+  "not_stated": 195,
+  "modified_papers": 43,
+  "by_period": {
+   "2015-2019": {
+    "modified_pct": 25,
+    "repository_pct": 35
+   },
+   "2020-2024": {
+    "modified_pct": 12,
+    "repository_pct": 28
+   },
+   "2025-2026": {
+    "modified_pct": 5,
+    "repository_pct": 37
+   }
+  },
+  "im_entries": 147,
+  "im_papers": 9,
+  "purpose_stated_papers": 24,
+  "entries_missing_information": 103,
+  "characteristics_not_printed": 65,
+  "target_ir_not_stated": 18,
+  "minority_class_not_stated": 15,
+  "several_levels_papers": 12,
+  "verifiable_entries": 991,
+  "verifiable_papers": 65,
+  "verifiable_files": 261
+ },
+ "after": {
+  "entries": 1756,
+  "original": 533,
+  "repository_defined": 468,
+  "modified": 347,
+  "synthetic": 213,
+  "not_stated": 195,
+  "modified_papers": 44,
+  "by_period": {
+   "2015-2019": {
+    "modified_pct": 25,
+    "repository_pct": 35
+   },
+   "2020-2024": {
+    "modified_pct": 13,
+    "repository_pct": 27
+   },
+   "2025-2026": {
+    "modified_pct": 5,
+    "repository_pct": 37
+   }
+  },
+  "im_entries": 153,
+  "im_papers": 10,
+  "purpose_stated_papers": 25,
+  "entries_missing_information": 109,
+  "characteristics_not_printed": 65,
+  "target_ir_not_stated": 18,
+  "minority_class_not_stated": 21,
+  "several_levels_papers": 13,
+  "verifiable_entries": 990,
+  "verifiable_papers": 65,
+  "verifiable_files": 261
+ },
+ "changed": {
+  "original": [
+   537,
+   533
+  ],
+  "repository_defined": [
+   470,
+   468
+  ],
+  "modified": [
+   341,
+   347
+  ],
+  "modified_papers": [
+   43,
+   44
+  ],
+  "im_entries": [
+   147,
+   153
+  ],
+  "im_papers": [
+   9,
+   10
+  ],
+  "purpose_stated_papers": [
+   24,
+   25
+  ],
+  "entries_missing_information": [
+   103,
+   109
+  ],
+  "minority_class_not_stated": [
+   15,
+   21
+  ],
+  "several_levels_papers": [
+   12,
+   13
+  ],
+  "verifiable_entries": [
+   991,
+   990
+  ]
+ },
+ "changed_period": {
+  "2020-2024": [
+   {
+    "modified_pct": 12,
+    "repository_pct": 28
+   },
+   {
+    "modified_pct": 13,
+    "repository_pct": 27
+   }
+  ]
+ },
+ "decided_by": "AI adjudication (Claude Opus 5.5, 12 Nov 2026), spot-checked by the team lead (D31)"
+}

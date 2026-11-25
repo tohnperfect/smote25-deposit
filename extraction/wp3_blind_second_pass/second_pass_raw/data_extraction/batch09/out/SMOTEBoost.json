@@ -1,0 +1,21 @@
+{
+ "data_key": "SMOTEBoost",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Other"
+ ],
+ "crit": "not stated in paper",
+ "crit_type": "not stated",
+ "basis": [],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Class-resized"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Four datasets (Table 2, p.112 = pdf p.6): KDDCup-99 intrusion (5 classes; minority U2R and R2L), mammography, satimage (binarised by authors: smallest class vs rest), phoneme. No reason is given for choosing them; the paper only describes them as 'several highly and moderately imbalanced data sets' (abstract) from 'several domains' (p.109), which might be read as weak diversity. KDDCup-99: original train and test merged, majority classes (Normal, DoS) subsampled to 69,980 connections, then split in halves; coded Class-resized. Sources as cited: satimage -> UCI [22]; KDD Cup 99 -> task description at kdd.ics.uci.edu [20] (coded UCI); mammography -> [1] (SMOTE paper) and phoneme -> [23] (Provost, Fawcett & Kohavi paper), coded Other. Citation oddity: satimage binarisation 'as was done in [24]' where [24] is the ELENA database ftp site, while phoneme is cited to [23]; the numbers may be swapped. minority_rule: explicit for KDD (U2R, R2L named) and a smallest-class rule for satimage; could also be coded 'smallest class vs rest'. Table 2 prints majority/minority counts and number of classes only (no totals, no features, no IR). No data release statement."
+}

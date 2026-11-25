@@ -1,0 +1,24 @@
+{
+ "data_key": "RUSBoost",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Private",
+  "Other"
+ ],
+ "crit": "15 data sets 'from various application domains' that 'represent a wide variety of data set sizes, imbalance levels, and application domains'; three proprietary software project data sets (Nortel Networks, Department of Defense), PC1 and CM1 from the NASA Metrics Data Program, Mammography provided by N. Chawla, the rest from 'the popular' UCI repository.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "not stated",
+ "modified_data_released": "no",
+ "notes": "Table I (p.189) and Table IV (p.193) are images missing from the text file; values read from the PDF. Minority rule: one-vs-rest is stated, but which class became positive is never said; Table I names carry suffixes (CAR3, GLASS3, PENDIGITS5, SATIMAGE4, ECOLI4, SEGMENT5, CONTRA2, VEHICLE1, SOLARFLAREF) that probably encode the chosen class, but the suffixes are not explained; if read as naming the target, code 'explicit target listed'. Data sets with a continuous dependent variable were split by an unspecified 'domain-specific threshold' (data sets not named); folded into Binarised. Table I '# attr' includes the dependent attribute; imbalance is printed only as '% min' (no IR). Dataset names differ between Table I and Table IV (SATIMAGE4/SATIMG, PENDIGITS5/PENDIGITS, SOLARFLAREF/SOLARFLARE, CONTRA2/CONTRACEPTIVE, etc.). Table IV does not say which of the three target class distributions (35, 50, 65%) the per-data-set means refer to. Mammography is counted among the 12 'publicly available' sets; coded 'Other' with NASA MDP. No link to transformed data."
+}

@@ -1,0 +1,9 @@
+{
+ "task": "segment0",
+ "source": "KEEL(keel_ds)",
+ "n": 2308,
+ "n_min": 329,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 18
+}

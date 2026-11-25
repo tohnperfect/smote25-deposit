@@ -1,0 +1,26 @@
+{
+ "data_key": "MC-CCR",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL",
+  "Synthetic"
+ ],
+ "crit": "20 multi-class imbalanced KEEL datasets; 'The selection of the datasets was made based on the previous work by Sáez et al. [23], in which it was demonstrated that the chosen datasets possess various challenging characteristics, such as small disjuncts, frequent borderline and noisy instances, and class overlapping.' Label noise is added at fixed levels (0-25%) to evaluate robustness to noise (RQ2); a toy multi-class dataset with two minority classes, disjoint distributions and label noise illustrates the method (Fig. 3).",
+ "crit_type": "own reason",
+ "basis": [
+  "difficulty",
+  "prior-work",
+  "method-target",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "Sáez, Krawczyk, Woźniak (2016), 'Analyzing the oversampling of different classes and types of examples in multi-class imbalanced datasets', Pattern Recognit. 57 [23]",
+ "origin": [
+  "Natural",
+  "Noise-injected",
+  "Generated"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "not defined",
+ "modified_data_released": "no",
+ "notes": "Native multi-class KEEL datasets, used with all classes (no binarisation). minority_rule = not defined: no minority class is named per dataset; the method itself treats every class except the largest as a minority relative to larger classes (Sec. 3.2), but the paper gives no data-level definition. Noise-injected: random label noise at {0.0, 0.05, 0.1, 0.15, 0.20, 0.25} (Sec. 4.4, p.9); only code is released (GitHub), not the noisy datasets. Table 1 oddities (copied as printed, not my rows): Hayes-Roth lists 3 classes but four class counts (160/65/64/31) summing to more than its 160 instances; Automobile class counts (3/20/48/46/29/13) sum to 159, not 150. Fig. 3 toy dataset generator not described; Fig. 2 is a binary illustration."
+}

@@ -1,0 +1,11 @@
+d42 coverage batch 202 (blind second coder, full texts): DONE
+n=6, eligible=5, Core=3, Partial=0, Not counted=2
+Not eligible: 1 (R00416 NOT-GEN). fulltext_ok=no: 0.
+
+Codes I was least sure of:
+- R09141 (IQRBU + GA-optimised SMOTE): eligibility under ruling B. Coded own and eligible because the paper states changes to its parts (GenSMOTE with a different selection method, inverse-quadratic RBF in place of RBU's Gaussian; a search for how much to oversample). It shows only before/after results, so if the parts are read as existing, ruling B would make it E1. Also A=yes (the GA sets the rates), L=yes (SMOTE runs inside the GA search), protocol=other (95/5 split plus 3-fold CV), ROC curves coded as other.
+- R00277 (modified back-propagation): SMOTE runs once on the training set, then the number of minority samples per epoch is set by a class-wise MSE rule. Coded A=yes and L=yes; L is arguable because generation itself happens before training.
+- R07729 (AEMLO, multi-label): class=M for multi-label (no multi-label option); modality=tabular (feature-vector benchmarks from text, image, music and biology; mixed is possible); vs_smote=wrapper for MLSMOTE (could be no); protocol=nr, tuning=nr (alpha and beta "explored" but the selection rule is not stated).
+- R15093 (Quantum-SMOTEV2): Not counted; generator coded perturbation (quantum rotation of one point; other is possible). Protocol=holdout inferred from the train/test columns; inside_folds=before-split because Sec 4.1.2 applies the generator to the entire dataset.
+- R00002 (original SMOTE): all six decision points no (the baseline itself); vs_smote=no (SMOTE is the method); vs_none=no (the raw-data point is only the start of each ROC curve); inside_folds=stated from Sec 4.2 (the training set of the 10-fold CV is over-sampled), not restated for the main experiments; tuning=test (only the best SMOTE level is plotted).
+- R00416 (INNO): NOT-GEN; it pseudo-labels real unlabeled samples, though the paper calls it oversampling.

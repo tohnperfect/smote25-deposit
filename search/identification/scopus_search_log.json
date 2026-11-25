@@ -1,0 +1,31 @@
+{
+ "database": "Scopus (Elsevier), via the Khon Kaen University subscription, signed in by the team lead",
+ "searched_utc": "2026-11-10T16:44:00Z",
+ "query": "( TITLE-ABS ( smote OR oversampling OR \"over-sampling\" OR \"synthetic minority\" OR \"adaptive synthetic\" OR \"synthetic samples\" OR \"synthetic instances\" ) OR AUTHKEY ( smote OR oversampling OR \"over-sampling\" OR \"synthetic minority\" OR \"adaptive synthetic\" OR \"synthetic samples\" OR \"synthetic instances\" ) ) AND ( TITLE-ABS ( imbalanced OR imbalance OR \"minority class\" OR \"minority classes\" ) OR AUTHKEY ( imbalanced OR imbalance OR \"minority class\" OR \"minority classes\" ) ) AND PUBYEAR > 2001",
+ "fields": "title, abstract and author keywords (protocol: Section 3.4); string S5 of the 29 Oct 2026 pilot",
+ "documents_found": 16414,
+ "preprints_tab": "1,546 preprints listed in Scopus's separate preprint index (beta); that index offers no export",
+ "export": {
+  "format": "CSV",
+  "records": 16414,
+  "fields": [
+   "citation information",
+   "affiliations",
+   "serial identifiers",
+   "PubMed ID",
+   "publisher",
+   "language",
+   "abbreviated source title",
+   "abstract",
+   "author keywords",
+   "indexed keywords",
+   "conference information"
+  ],
+  "truncation": "off",
+  "references": "not exported",
+  "bulk_job_created_utc": "2026-11-10T17:01:13Z",
+  "file": "SMOTE25_scopus_export_2026-11-10_16414.csv (55 MB; kept with the raw search archive, not deposited publicly: Scopus abstracts are licensed content)"
+ },
+ "web_of_science": "not searched: on 10 Nov 2026 the KKU address (VPN) and the institutional sign-in gave no Web of Science Core Collection access (Free View only); recorded as a deviation from the protocol",
+ "run_by": "Claude session in the team lead's signed-in browser (built-in browser of the Claude desktop app)"
+}

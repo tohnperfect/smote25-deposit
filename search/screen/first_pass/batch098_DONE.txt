@@ -1,0 +1,11 @@
+batch 098: 200 of 200 records done; include 23, unsure 15, exclude 162
+no records remain
+
+Look at first:
+- Low confidence: R00539 (exclude E1) - one-paragraph abstract on malware detection that "employs" an unnamed oversampling method; no novelty or evaluation stated.
+- Calls on SMOTE parameter tuning, which the codebook does not settle: R21583 (exclude E1) - ASMOTE parameters tuned by a metaheuristic as one pipeline step in a diabetes BiLSTM paper. R14408 (include I1-other) - SMOTE hyperparameters tuned by validating the synthetic data, presented as the paper's own new algorithm.
+- Where SMOTE is applied (meta-level or feature space): R19538 (exclude E1) - SMOTE applied to stacking meta-features in a student-dropout pipeline. R08093 (include I1-hybrid) - SMOTE-RSB applied in a contrastive feature space as a general method for imbalanced images.
+- Includes that may be existing parts recombined (clarification 3): R03951 (k-means SMOTE in safe areas plus instance-hardness undersampling), R05300 (synonym-based text generation), R05159 (raking and relabeling). Excluded on the same question: R04251 (SMOTE plus iterative-partitioning filter as one phase of a CVD ensemble).
+- Task or language doubts: R05789 (include) - SMOTE variant framed as "anomaly detection" but trained as a supervised classifier. R20697 (include) - KB-SMOTE in a Chinese journal with a bilingual title, although the record says English. R13105 (exclude E2) - relevance-based SMOTE/GAN for extreme-value forecasting; E2 here sits close to clarification 1. R11418 (exclude E-LANG) - Chinese article with a new progressive-sampling CGAN oversampler, in scope apart from language.
+- Unsure U-other: R17104 and R22233 - SMOTE variants without stated experiments; W-SMOTE says it abandons empirical validation. R20185 - selecting synthetic samples in self-consuming diffusion training. R21659 - SMOTE built into selection-bias correction for survey samples.
+- Front matter with an in-scope title: R01158 (HAIS 2018, multiclass oversampling paper) and R04353 (ASSIC 2022, adaptive synthetic sampling with ensemble filters).

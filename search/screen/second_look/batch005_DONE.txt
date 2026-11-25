@@ -1,0 +1,15 @@
+batch 005: 200 of 200 records done; include 43, unsure 80, exclude 77
+no records remain
+
+Look at these first:
+1. Exclusions most likely to be wrong: R13563 (E-LANG; abstract is in Korean but metadata says English; VAE-GAN with semi-hard example mining would otherwise be an include). Also R06339 (E-COMPARE; include if the OSSA seed-spread generator is new in this paper). No-abstract titles excluded at medium confidence: R19194, R19552, R06065, R05866, R04462, R12318, R07180, R17177, R01439, R16705, R18160.
+2. Low-confidence includes: R01336, R04042, R13151, R05189, R09761, R05177.
+3. Where I drew the line under clarification 3, please confirm. Removing minority seeds before generation counted as a change to generation (include: R04190 iF-ADASYN, R19848 SMOTERN). Cleaning after generation or cleaning the majority class went to unsure: R05200 RN-SMOTE, R02267 SGM, R06556 SMOTE-RBU, R02530, R01927, R12738, R02545. R00789 (ADASYN with MCA pruning) and R20462 (MAGA, which its authors call procedural) are included because the filtering they use is new.
+4. Existing generators combined with no stated mechanism went to unsure: R16269, R10913, R19634, R09315, R06363, R11583. The exception is R19935 (SHDO, five oversamplers applied in sequence), which I included. Please check it alongside that group.
+5. Cases the codebook does not settle:
+   - R07093 is a retracted record.
+   - Full text may not be in English although metadata says English: R00552, R00242, R00327, R00084, R20697.
+   - Four Zenodo 2026 SMOTE variants mention only theoretical analysis (unsure, "I2 not stated"), probably from the same source: R17671, R16916, R17780, R18945.
+   - Unclear whether the oversampling synthesizes examples or duplicates them: R01652, R00005, R08001, R00323, R03023, R14664, R07821.
+   - Built for something other than imbalanced classification (unsure under clarification 1): R04876 (imputation), R01249 (survival), R03519 (privacy), R07337 (zero-shot), R13287 (detection/segmentation), R06755 (missing data).
+   - R14227 is framed as anomaly detection but evaluated as multiclass classification, so it is included.

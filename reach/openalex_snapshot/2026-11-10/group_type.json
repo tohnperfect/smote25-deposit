@@ -1,0 +1,143 @@
+{
+ "meta": {
+  "count": 34419,
+  "db_response_time_ms": 183,
+  "page": 1,
+  "per_page": 200,
+  "groups_count": 22,
+  "x_query": {
+   "oql": "get the count of works citing (W2148143831) by type",
+   "x_new_oql": "get the count of works citing (W2148143831) by type",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "referenced_works",
+      "value": "W2148143831"
+     }
+    ],
+    "group_by": [
+     {
+      "column_id": "type"
+     }
+    ]
+   },
+   "url": "/works?filter=referenced_works:W2148143831&group_by=type&per_page=200",
+   "order": "most works first",
+   "order_default": true
+  },
+  "cost_usd": 0.0001
+ },
+ "group_by": [
+  {
+   "key": "https://openalex.org/types/article",
+   "key_display_name": "article",
+   "count": 21166
+  },
+  {
+   "key": "https://openalex.org/types/conference-paper",
+   "key_display_name": "conference-paper",
+   "count": 9367
+  },
+  {
+   "key": "https://openalex.org/types/preprint",
+   "key_display_name": "preprint",
+   "count": 1403
+  },
+  {
+   "key": "https://openalex.org/types/dissertation",
+   "key_display_name": "dissertation",
+   "count": 907
+  },
+  {
+   "key": "https://openalex.org/types/book-chapter",
+   "key_display_name": "book-chapter",
+   "count": 823
+  },
+  {
+   "key": "https://openalex.org/types/review",
+   "key_display_name": "review",
+   "count": 422
+  },
+  {
+   "key": "https://openalex.org/types/peer-review",
+   "key_display_name": "peer-review",
+   "count": 115
+  },
+  {
+   "key": "https://openalex.org/types/paratext",
+   "key_display_name": "paratext",
+   "count": 62
+  },
+  {
+   "key": "https://openalex.org/types/book",
+   "key_display_name": "book",
+   "count": 40
+  },
+  {
+   "key": "https://openalex.org/types/dataset",
+   "key_display_name": "dataset",
+   "count": 17
+  },
+  {
+   "key": "https://openalex.org/types/data-paper",
+   "key_display_name": "data-paper",
+   "count": 16
+  },
+  {
+   "key": "https://openalex.org/types/editorial",
+   "key_display_name": "editorial",
+   "count": 15
+  },
+  {
+   "key": "https://openalex.org/types/other",
+   "key_display_name": "other",
+   "count": 14
+  },
+  {
+   "key": "https://openalex.org/types/reference-entry",
+   "key_display_name": "reference-entry",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/types/report",
+   "key_display_name": "report",
+   "count": 10
+  },
+  {
+   "key": "https://openalex.org/types/software-paper",
+   "key_display_name": "software-paper",
+   "count": 9
+  },
+  {
+   "key": "https://openalex.org/types/letter",
+   "key_display_name": "letter",
+   "count": 7
+  },
+  {
+   "key": "https://openalex.org/types/conference-abstract",
+   "key_display_name": "conference-abstract",
+   "count": 5
+  },
+  {
+   "key": "https://openalex.org/types/retraction",
+   "key_display_name": "retraction",
+   "count": 4
+  },
+  {
+   "key": "https://openalex.org/types/erratum",
+   "key_display_name": "erratum",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/types/supplementary-materials",
+   "key_display_name": "supplementary-materials",
+   "count": 3
+  },
+  {
+   "key": "https://openalex.org/types/software",
+   "key_display_name": "software",
+   "count": 1
+  }
+ ]
+}

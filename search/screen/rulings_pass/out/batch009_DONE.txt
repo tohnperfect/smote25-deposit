@@ -1,0 +1,11 @@
+batch 009: 196 of 196 records done; own 158, existing-parts 31, unclear 7
+no records remain
+
+Look at first: calls where the other reading flips include/exclude
+- Coded own (kept) but the other reading would exclude them: R07562 (KNN-paired mixup + one-class SVM filter), R17675 (federated CGAN), R15766 (TSCBU-SMOTE-ENN anchor stage; baselines unnamed), R21712 (padding-aware sequence GAN), R16904 (diffusion + constrained graph completion), R17457 (reverse-autoencoder pseudo-normals), R04750 (GANs conditioned on clusters), R18083 (CropGAN "re-engineered"), R00844 and R01139 (sampler in new space / per-sub-cluster allocation; no comparison), R17592 (enhanced-PSO oversampler, may be prior work).
+- Hyperparameter search coded own by analogy with "search for how much to oversample": R04517 (Dazzle, BO-tuned cWGAN-GP), R10489 (PSO-optimized cWGAN-GP), R14638 (OpTunedSMOTE; compared=no, so existing-parts would exclude).
+- Coded existing-parts (excluded) but could be own: R06670 (Latin hypercube oversampling, read as a standard statistical sampler), R13489 (BSGAN) and R06038 (SMOGAN), where the GAN may take SMOTE samples as input, R12801 (tuned weighted mix of SMOTE/ADASYN/CTGAN), R05319 (FCM+SMOTE; title says "improved"), R02289 (Laplacian-eigenmap SMOTE; compared=no even though the abstract aims to improve SMOTE-based methods).
+- The compared call decides the outcome for existing-parts classical: R08298 (yes read from "outperforms the traditional approach", low), R08839 (yes because OUPS, A-SUWO and NRAS are oversamplers).
+- Unclear (7, all low): R14031, R02236, R19361, R00368, R02203, R01179, R00403. Each has unnamed or undescribed resampling parts.
+- Cases the codebook does not settle: R05150 (own MSMOTE chained with a standard GAN, coded own); R20860 and R01411 (own allocation or structure over Gaussian sampling, coded own); R19433 (main contribution is a diagnostic metric, exploratory ContraSMOTE coded own with presented=no); R00984 and R06766 (representation trained jointly with the oversampling, coded own) against R08839 (SMOTE in a learned space, coded existing-parts).
+- Other notes: R04598 and R12398 are the preprint and journal versions of MEDA_LUDE (both own). Generator was coded none when the abstract names no generation mechanism, and classical for non-neural algorithmic oversamplers (metaheuristic, perturbation).

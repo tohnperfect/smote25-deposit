@@ -1,0 +1,87 @@
+{
+ "crit_type": {
+  "n": 76,
+  "agreement": 0.684,
+  "kappa": 0.292
+ },
+ "minority_rule": {
+  "n": 76,
+  "agreement": 0.671,
+  "kappa": 0.614
+ },
+ "origin": {
+  "Natural": {
+   "first": 69,
+   "second": 66,
+   "agreement": 0.932,
+   "kappa": 0.511
+  },
+  "Binarised": {
+   "first": 37,
+   "second": 48,
+   "agreement": 0.849,
+   "kappa": 0.697
+  },
+  "Class-merged": {
+   "first": 6,
+   "second": 9,
+   "agreement": 0.904,
+   "kappa": 0.482
+  },
+  "Class-resized": {
+   "first": 2,
+   "second": 8,
+   "agreement": 0.918,
+   "kappa": 0.372
+  },
+  "Undersampled": {
+   "first": 8,
+   "second": 9,
+   "agreement": 0.904,
+   "kappa": 0.534
+  },
+  "Noise-injected": {
+   "first": 7,
+   "second": 11,
+   "agreement": 0.945,
+   "kappa": 0.748
+  },
+  "Induced profile": {
+   "first": 3,
+   "second": 5,
+   "agreement": 0.973,
+   "kappa": 0.736
+  },
+  "Generated": {
+   "first": 21,
+   "second": 35,
+   "agreement": 0.753,
+   "kappa": 0.498
+  }
+ },
+ "reason_given_first": 62,
+ "reason_given_second": 67,
+ "crit_type_second_counts": {
+  "own reason": 65,
+  "not stated": 5,
+  "cites prior work": 2,
+  "generic only": 1
+ },
+ "crit_type_first_counts": {
+  "cites prior work": 14,
+  "own reason": 48,
+  "not stated": 8,
+  "generic only": 3
+ },
+ "modified_data_released_second": {
+  "GAMO": "yes",
+  "HDE": "yes",
+  "SMOTE-IPF": "yes",
+  "INOS": "yes",
+  "MC-MBRC": "on request",
+  "DSRBF / Static-SMOTE": "yes",
+  "G-SMOTE": "yes",
+  "k-means SMOTE": "yes"
+ },
+ "empirical_disagreements": []
+}

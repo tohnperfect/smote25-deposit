@@ -1,0 +1,11 @@
+batch 012: 200 of 200 records done; include 20, unsure 20, exclude 160
+no records remain
+
+Look at first:
+- Low confidence (all unsure): R07454 (ALHS: "oversampling" labels real unlabeled instances by label propagation, so is that synthetic generation?); R10149 and R15103 (LLM or text augmentation against imbalance: a method or applied?); R11534 (on-the-fly image augmentation "ADT" for DR grading; title in Indonesian although the language field says en).
+- Not settled by the codebook: domain papers that generate minority samples with an off-the-shelf LLM (R10149, R20205), and R03756 (conditional GAN/VAE oversamplers studied empirically: I1-generative or E-COMPARE?).
+- Consistency check: R20048 (E1, medium; IDS using Borderline-SMOTE-OSS and ADASYN/SMOTE-ENN) is close to R15746 (unsure under clarification 3; named TB-SMOTE component). One of them may need to change.
+- Medium-confidence excludes where the abstract says SMOTE is "proposed" or "innovative" but describes no change: R08327, R05779, R15006, R12658 (unknown "MOSD" oversampler). Also R00255 (standard SMOTE plus a new PSO-RBF classifier).
+- Includes from thin abstracts: R02244 (Improved SMOTE, no details given); R00184 (mix-ratio multiclass sampling, base oversampler not stated, may be duplication); R09873 (RN-SMOTE extended to multiclass, may be only an application); R01615 (SMOTE inside gcForest); R10913 (ADASYN+GAN ensemble); R06322 (two-stage CGAN, use in classification implied); R00298 (no venue, check language).
+- No abstract (unsure): R01054 (instance types and SMOTE, LIDTA 2017), R05898 (bank failure, SSRN).
+- Non-English records coded by content as E1, with E-LANG noted in the reason: R11462, R01472, R03586, R20939, R20103, R21810.

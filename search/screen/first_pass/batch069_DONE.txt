@@ -1,0 +1,10 @@
+batch 069: 200 of 200 records done; include 23, unsure 15, exclude 162
+no records remain
+
+Look at these first:
+- Low-confidence unsure: R08609 (mosaic augmentation with soft labels for tongue lesions: does mixing augmentation count as minority generation?), R01071 (SHWeL hashing "tackles imbalance directly" vs SMOTE: synthetic samples or not?), R01313 (bag-level oversampling in multi-instance DR grading: synthetic bags?), R20646 (no abstract; class imbalance in the title), R13066 ("improved SMOTE" not described, no data named).
+- Cases the codebook does not settle: R03618 improves MWMOTE (meets I1 and I2) but the title is Indonesian while metadata says English, so I3 needs a full-text check. R05146 is a privacy-preserving (homomorphic encryption) SMOTE / Borderline-SMOTE protocol; coded U-other under clarification 1, although its purpose is still imbalanced classification.
+- Clarification 2 (I2 not stated): R18537 Dual-space SMOTE and R18954 Equivariant SMOTE are 2026 Zenodo preprints with only a "theoretical" evaluation and near-identical wording (possibly the same source). R10877 (SSRN, no abstract, geometry-aware SMOTE variants) is likely an include if the full text has experiments.
+- Clarification 3 unsure (existing generator plus existing step): R00360 (ISMOTE + DUS), R04729 (FinGAN: existing GANs + OCSVM), R22301 (SMOTE/Borderline/CTGAN + clustering), R15691 (TLBS = Borderline-SMOTE + Tomek), R14788 (PMOTE probabilistic oversampling on embeddings).
+- Medium-confidence includes: R10196 (LLM prompting to generate minority samples), R00995 (EHSBoost; oversampling type not stated), R12261 (Borderline-SMOTE inside DeepSMOTE), R17984 (SMOTE + plausibility filtering), R22246, R13807, R07063 (new oversamplers in domain papers).
+- Medium-confidence excludes: R04606 (stream ensemble replays stored real minority samples, E-NOGEN); R08697 and R07670 (existing SMOTE-Tomek / SMOTE + undersampling called novel, coded E1); R06622 (no abstract, excluded on title); R04692 ("manual augmentation" plus SMOTE variants).

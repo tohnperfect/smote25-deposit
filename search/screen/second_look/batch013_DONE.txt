@@ -1,0 +1,14 @@
+batch 013: 200 of 200 records done; include 41, unsure 76, exclude 83
+no records remain
+
+Look at these first:
+- Cases the codebook does not settle: R00234 (dissertation, I3 has no exclusion code; unsure), R04831 (CRC book chapter proposing VDB-SLSMOTE; unsure), R03573 (garbled, machine-paraphrased abstract of a kernel SMOTE method, possibly a spun copy of an earlier paper; include, low), R22258 (theory-only paper on when synthetic augmentation helps; coded E-COMPARE for lack of a better code), R08901 (GOLIATH, a KDE generalization of SMOTE evaluated on regression only; E2, may matter for the theory section), R13097 (coded E-LANG although language field says en: Chinese abstract first).
+- Replication-based or unclear oversamplers (codebook only covers synthetic generation): R06451 HSBoot (E-NOGEN), R00986, R03440, R00120, R12101 (unsure, low).
+- Low-confidence includes: R13524 (HyperSMOTE-MC), R01372 (hierarchical SMOTE), R21622 (SB-CPO), R13331 (GraphIAM), R03573.
+- Low-confidence excludes: R00801 (employability, undescribed "newly proposed hybrid"), R18694 (range-controlled oversampling in a lending model).
+- Borderline includes: R21422 and R00447 (choosing the oversampling ratio or class distribution, coded I1-other); R01642 and R16452 (framed as anomaly detection but trained as supervised imbalanced classification, check E2).
+- Clarification 2 (I2 not stated), a run of similar 2026 Zenodo SMOTE-variant preprints: R17113, R21358, R17107, R21320, R20083, R17211, R21666.
+- No abstract, title looks in scope: R10636, R16558, R11753, R00148.
+- Clarification 1 (generator for another purpose or task): R20214 (dataset distillation), R15251 (VLM fine-tuning), R11047 and R04357 (detection or segmentation), R07538, R20143, R19805 (general augmentation).
+- Duplicate pair: R14370 (conference) and R12656 (arXiv preprint) are the same smart-contract paper; both unsure.
+- Most of the other unsures are clarification 3 combinations (existing generator plus an existing cleaning or selection step presented as new) or domain papers built on WGAN, CTGAN, DDPM or VAE-GAN where it is unclear whether the generator is new.

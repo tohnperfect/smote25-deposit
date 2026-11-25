@@ -1,0 +1,9 @@
+batch 026: 200 of 200 records done; include 33, unsure 13, exclude 154
+
+Look at first:
+- Low-confidence unsure (abstract does not show whether the resampling is new or synthetic): R05921, R05220, R00171, R01191, R08334, R12487, R11146.
+- Other unsure: R18035 (CP-SMOTE, I2 not stated), R22053 (TME, only "visualization performance" evaluated, purpose unclear), R00778 (SMOTE + feature ranker framework), R05685 (GAN balancing, novelty unclear), R16804 (SMOTEImputeScaler), R12625 (existing BEGAN applied in IDS; leans E1, compare R18834, existing CTGAN, coded E1).
+- Borderline includes (medium): R05296 (SVD-CLAHE image-transform augmentation counted as oversampling), R20132 and R22281 (domain papers whose contribution is a VAE/GAN minority generator), R12092 (counterfactual augmentation module), R16332 (DI-SDG perturbation generator), R19433 (main contribution is the Ghost Rate diagnostic; ContraSMOTE is exploratory), R09319 (new oversampler named but not described), R04908 (KNNOR software paper, possibly an earlier version elsewhere), R07381 (CSSF under a "comparative analysis" title), R05653 (D-SMOTE framed as anomaly detection but evaluated as supervised CNN classification), R08607 (TriEnhance, generator not specified).
+- Language check: R00340 is labeled English but is from Jisuanji kexue yu tansuo, the journal of R02477, which is labeled Chinese.
+- Codebook gaps: R03240 and R15279 propose new classifiers trained on unchanged SMOTE or oversampled data (coded E1 although not domain papers); R19323 (cluster centroids + SMOTE "CCSM" inside a domain model) coded E1 but is close to clarification 3, like R11146 which was coded unsure.
+- In scope on method but excluded for language only (E-LANG): R02477, R07589, R01607, R14347.

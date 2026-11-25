@@ -1,0 +1,23 @@
+{
+ "data_key": "MC-NCLWO",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL"
+ ],
+ "crit": "'These datasets have been verified by Sáez et al. [36], to exhibit various challenging characteristics, such as small disjunct sub-concepts, noisy data, and class overlap. The selection of these diverse datasets helps to comprehensively evaluate the effectiveness and robustness of the proposed algorithm in handling complex data characteristics.' Sub-studies: four datasets 'with varying data scales, number of classes, feature dimensions, and imbalance ratios' for the feature-noise experiment; six 'representative datasets' for the parameter analysis, chosen considering feature dimensionality, sample size, number of classes and degree of imbalance.",
+ "crit_type": "own reason",
+ "basis": [
+  "difficulty",
+  "diversity",
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "not stated in paper (Sáez, Krawczyk, Woźniak [36], 'Analyzing the oversampling of different classes and types of examples in multi-class imbalanced datasets', Pattern Recognit. 2016, is cited as having verified the datasets' difficulty characteristics; reuse of its list is not stated)",
+ "origin": [
+  "Natural",
+  "Noise-injected"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "not defined",
+ "modified_data_released": "no",
+ "notes": "Table 1 (p.152629 = pdf p.10) is an image; text extraction is garbled (mixed with the CBA formula), values read from a 400-dpi render of the PDF page. 23 natively multi-class KEEL datasets; class distributions printed. Feature noise (Gaussian, 5-30%) added by the authors to four datasets (Fig. 13 panels: led7digit, dermatology, winequality-red, page-blocks). The GitHub link holds result tables only, not the noise-injected datasets, hence modified_data_released = no. Minority: each class is treated as minority relative to all larger classes; no per-dataset minority designated (coded 'not defined'). Fig. 1 (p.152623) and Fig. 8 (p.152628) show 2-D illustrative multi-class datasets whose origin the paper does not state (not described as generated), so Synthetic/Generated not coded; adjudicator may decide otherwise. Table 1 prints 'contraceptivel' (typo). Text says 'ten-fold cross-validation ... repeated ten times' (p.152629) but also '5-fold cross-validation' (p.152631): inconsistent protocol. Datasets CSV: n_minority copied as the smallest count in the printed Class distribution (no separate minority column)."
+}

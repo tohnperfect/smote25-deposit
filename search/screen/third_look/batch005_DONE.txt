@@ -1,0 +1,16 @@
+batch 005: 200 of 200 records done; include 20, unsure 140, exclude 40
+no records remain
+
+Look at first:
+- Firm excludes where both earlier screeners said unsure: R15296 (adaptive choice among existing samplers, E1), R03403 (standard SMOTE in a sliding window, E1), R03950 (SMOTE+ENN stage in defect prediction, E1), R05954 (E1), R16490 (traffic oversampler judged regression, E2), R03312 (Cross-Concatenation, E-NOGEN), R07106 (autoencoder + RN-SMOTE, E1), R04839 (E1).
+- Low-confidence includes: R05190 (record marked RETRACTED), R04700, R19111, R08137, R06797, R10725, R19789.
+- Low-confidence excludes: R07798, R02100, R19475 (no abstract), R05866 (no abstract), R11154 (no abstract), R22325, R04783, R13353, R02677, R18897.
+- Clearly in-scope methods held back only by the clarification 2 wording (I2 not stated): DeepSMOTE R06130, R10796, R09036, and 12 theory-only Zenodo SMOTE-variant preprints.
+
+Cases the codebook does not settle:
+- Combinations of several existing generators, as opposed to a generator plus a cleaning step: I applied clarification 3 by analogy when the combination is the named contribution (R12937, R19935, R18367, R08540) and E1 when it is one step of a domain pipeline (R07798, R13353, R18859). R06797 was included because its own processing constrains the generated points.
+- Document type fails I3 but has no exclusion code: dissertation R00839 and book chapters R01341, R18367 and R04707 (no abstract) were sent to unsure. R19935 and R18367 seem to describe the same SHDO method (possible E4).
+- Retraction (R05190), majority-class oversampling (R22325) and choosing among samplers (R15296, R00284) are not covered.
+- Clarification 1 applied literally to generators far from oversampling (R17572 replay for re-identification, R04102 robustness testing, R17593 zero-day GAN): probably out of scope.
+- Oversampling in a feature or latent space with an existing oversampler was judged E1 for R07106 but unsure for R13560; these need the same treatment.
+- Language metadata: R04783 is tagged Indonesian although its title and abstract are English; R00522 may be a Chinese-language paper with an English abstract.

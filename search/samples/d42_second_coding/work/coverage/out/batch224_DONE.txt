@@ -1,0 +1,7 @@
+d42 coverage batch 224: n=4, eligible=3, Core=2, Partial=1, Not counted=0 (fulltext_ok=no: 1, R00339)
+
+Codes I was least sure of:
+- R00736 (topic-sentence instance transfer): coded eligible as a hybrid that applies SMOTE in a new way (SMOTE fills the N-gram features of real minority reviews transferred from an auxiliary dataset). Partial with generator other (transfer), and S = yes, P = yes, are judgment calls; the paper does not describe the SMOTE step. Protocol coded cv with before-split (resampled data then 10-fold CV), though a separate JD634 generalization test is also reported. Confidence low.
+- R01526 (SOM-SMOTE): treated as the paper's own method (partner = centre of the SOM subset, Eq. 11), so ruling B not applied, although it is compared only with no resampling. N = yes; P = no, although the centre is a mean of several instances. Measures mapped to recall (target loss) and specificity (clutter suppression); tuning nr.
+- R00252 (KSAMPLING): passes ruling B (presented, compared with SMOTE and OAO/OAA+SMOTE). L = yes (six-tree ensemble on differently resampled sets) and A = no (fixed 75-25/60-40 targets) are borderline; inside_folds stated (the method resamples the training set inside 10-fold CV); its "AUC" is (1+TPR-FPR)/2 per class, coded ROC-AUC.
+- R00339: the file is another paper (Xie, Liu and Fu 2015, SRU-AIBSMOTE, which cites S-SMOTE), so fulltext_ok = no and all other fields na; confidence set to high only because the tool requires a value.

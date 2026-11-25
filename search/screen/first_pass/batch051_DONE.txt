@@ -1,0 +1,18 @@
+batch 051: 200 of 200 records done; include 24, unsure 11, exclude 165
+no records remain
+
+Check first:
+- Low confidence: R03031 (unsure; very vague abstract: "suggested algorithms" with "unique" over/undersampling, unclear whether new or synthetic).
+- Domain papers using a GAN/VAE/autoencoder oversampler. Five are excluded E1 because no generator design is described: R02508, R12718, R09293, R17443, R15736. Two are included because the design is described: R10951 (cGAN/cVAE with extra conditioning) and R02901 (VAE oversampler for fraud). The codebook does not set where this line falls.
+- New oversamplers that copy or retrieve real points instead of synthesizing them, excluded E-NOGEN: R06451 (heterogeneity-weighted bootstrap) and R16561 (multi-label text, adds similar unlabeled instances). The codebook does not settle these.
+- Includes whose language is doubtful: R00321 (B-ISMOTE) and R00280 (ImSMOTE-RSTR*) are in Chinese-language journals (Jisuanji Gongcheng; Microelectronics & Computer) but are recorded as en. R20510 is in a Ukrainian venue, recorded as en. Check the language at full text.
+- Borderline E-COMPARE calls:
+  - R00010: Prati/Batista/Monard 2004 analysis of SMOTE+Tomek and SMOTE+ENN. The abstract's "we have proposed" might be read as proposing them here.
+  - R07049: replication study of OPeN (pure-noise oversampling). The codebook does not cover replications.
+  - R02516: SMOTE-N/ADASYN-N comparison. "was developed" is ambiguous about authorship.
+- Unsure under clarification 3 (existing generator plus an existing step, presented as new): R07450 (GASMOTEPSO_ENN), R02980, R08651, R12622, R07520, R01420, R00026. The same pattern without clarification 3 is R00132 (directed oversampling, may only replicate). R16149 reuses GASMOTEPSO_ENN unchanged (excluded E1), so it depends on the R07450 call.
+- Unsure under clarification 2 (I2 not stated in the abstract): R21798 (SNE-SMOTE, theory only) and R10215.
+- Excluded only on language but in-scope in content (E-LANG): R03365 (VAE boundary oversampler), R05373 (DBGS oversampler) and R01456 (improved ODR-BSMOTE-SVM).
+- R00768: CEUR front matter tagged front-matter-in-scope. It lists "a study of synthetic oversampling for Twitter imbalanced sentiment analysis".
+- R11956: language recorded as pt but the abstract is English. Coded E1 on content.
+- R18944 and R14052 are book chapters, excluded E1 on content. The codebook has no code for a non-journal/conference type.

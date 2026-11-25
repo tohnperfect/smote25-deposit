@@ -1,0 +1,16 @@
+batch 008: 200 of 200 records done; include 28, unsure 110, exclude 62
+no records remain
+
+Look at first:
+- R09920: retracted article (title prefixed RETRACTION), included on content (new three-way-decision boundary oversampler); the codebook has no rule for retractions.
+- R05128 and R11199 (exclude E1, low) may deserve the opposite call: R05128 pairs SMOTE with its own majority selection (EnSVM), like the included R00593, R08996 and R05576; R11199 has the same ensemble-plus-SMOTE "mechanism" as R04186 and R00514, which are unsure.
+- Low-confidence E-NOGEN exclusions resting on the abstract never mentioning synthetic examples: R00136, R00986, R00171, R00261, R06297, R06483, R03731, R02565; R00098 (apparently SPIDER) and R05054 (Radius-SMOTE taken as an existing variant) rest partly on my recollection of earlier methods.
+- Judgement line for existing GAN/VAE generators: included when the generator is the paper's central oversampler compared with alternatives (R02132, R13291, R06361, R01973, R16757, R07361, R01813); excluded E1 when it is one component of a larger system (R08342, R18712, R02270, R14272, R12766, R13753, R07825, R15574, R14036).
+- R02547 (garbled, apparently spun abstract, typed Review) is included on content; R08817 (FAWOS, unsure) has the same title as an earlier FAWOS paper. Check provenance of both.
+
+Not settled by the codebook:
+- Language known only from the venue (English title and abstract, metadata en): R00552 (Korean journal), R01842 and R00122 (Chinese journals) were decided on content and flagged; E-LANG was used only where the title or abstract itself is not English (R03618, R13563, R20706).
+- Thesis R01596 (unsure U-other) and book chapters (R12938, R05552, R18315, R13753, R04848, R19388, R02682) fail I3 as worded, but no exclusion code covers them; decided on content.
+- Theory papers that propose no method (R07987, R03516) were coded E-NOGEN for want of a better code; they may matter for the survey's theory discussion.
+- Generators built for regression or anomaly detection only were excluded E2 (R22303, R01989, R04099, R08901, R17981, R05091) rather than sent on under clarification 1, which I kept for other purposes (fairness, domain adaptation, detection, zero-shot learning, causal inference, data creation, regression recast as classification).
+- Whether a paper's own majority-only undersampling counts as the I1 example "SMOTE with a new cleaning step" (I included) or falls under clarification 3 (unsure) is not stated.

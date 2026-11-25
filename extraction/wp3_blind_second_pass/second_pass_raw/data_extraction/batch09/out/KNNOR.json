@@ -1,0 +1,34 @@
+{
+ "data_key": "KNNOR",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL",
+  "UCI",
+  "Image",
+  "Synthetic",
+  "Other"
+ ],
+ "crit": "Main benchmark: 'the datasets chosen for augmentation and classification are from a commonly accepted set', collected from KEEL and 'used in recent evaluations [24,40,41]'; 'all the datasets with a population of less than 1000 have been filtered' (62 datasets), 'From this set, 19 datasets have been randomly chosen'; 'The datasets have varying Imbalance Ratio'. Image data (UTKFace, CIFAR-10) used 'to check its performance on high dimension data'. UCI iris/Haberman/thyroid and simulated data used to illustrate noise/outlier filtering, overlap and the small disjunct problem.",
+ "crit_type": "own reason",
+ "basis": [
+  "threshold rule",
+  "random draw",
+  "popularity",
+  "prior-work",
+  "diversity",
+  "analytic",
+  "difficulty"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Noise-injected",
+  "Undersampled",
+  "Generated"
+ ],
+ "binarised_by": "both",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "no",
+ "notes": "Main benchmark = Table 2 (p.11): 19 datasets, 18 cited to KEEL [39] and CM1 cited to [42] (a KRNN paper, not a repository) although the text says the datasets were collected from KEEL; coded 'Other' for CM1. Table 2 prints only 'Instances (majority/minority)' and 'Imbalance Ratio'; no feature or class counts. Typo 'habarman' in Table 2. The pool from which the 62 (<1000 instances) datasets were filtered is not named; [24] is Kovacs' 104-dataset comparison, whose protocol and code (smote_variants fork) are followed. UCI datasets (iris two-class subsets, Haberman, thyroid1, Yeast1, German, Hypothyroid, Wisconsin) and simulated data appear only in illustrative figures; iris label noise injected for Fig. 10. Image experiments (UTKFace male faces as small minority; CIFAR-10 airplanes vs rest) are qualitative only (generated images shown, no metrics). minority_rule coded for the main KEEL benchmark; in the image demos the minority is named by the authors. modified_data_released: the paper says 'code (and data)' are in a Code Ocean capsule, but it does not say the author-modified illustration/image data are in it, so coded 'no' (adjudicator may prefer 'yes'). UTKFace modification could also be read as 'Induced profile'."
+}

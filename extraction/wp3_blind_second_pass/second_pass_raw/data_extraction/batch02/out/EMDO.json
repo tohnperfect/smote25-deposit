@@ -1,0 +1,23 @@
+{
+ "data_key": "EMDO",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL",
+  "Other"
+ ],
+ "crit": "Example 1: 'The data sets used in the simulation are the same as those used in [43] (AMDO) for comparing the performance of the EMDO against AMDO and other learning algorithms.' Example 2: 'The performance of EMDO is evaluated on the sensory data in this example' (Statlog (Shuttle), recorded sensory data from NASA's space shuttle; Mafalda, recorded sensory data from different brands of cars), in line with the paper's sensor/IoT framing.",
+ "crit_type": "own reason",
+ "basis": [
+  "prior-work",
+  "application"
+ ],
+ "benchmark_inherited_from": "[43] Yang, X.; Kuang, Q.; Zhang, W.; Zhang, G. AMDO: An over-sampling technique for multi-class imbalanced problems. IEEE Trans. Knowl. Data Eng. 2018 (Example 1 datasets only)",
+ "origin": [
+  "Natural"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "mean-size or IR threshold",
+ "modified_data_released": "n.a.",
+ "notes": "Multi-class paper; datasets kept with native multi-class distributions (no binarisation or modification described). Minority sets are defined by a written IR threshold (Section 2), but the inequality as printed, (|Sj|/Nmax) < IR with IR >= 1.5, looks inverted; the IR value actually used is not stated. Table 1/6 'No. of Ellipsoids' column marks per class which classes were oversampled (NA = none), and Pmin/AUCm are computed on the smallest class. Odd items: (1) Table 1 UKM row prints Classes = 5 but Class Distribution lists only four counts (50/102/129/122, sum 403). (2) Table 6 Statlog (Shuttle) IRmax printed 5684.67 (text: 'as high as 5684.7'), which does not match the printed class distribution 45586/50/171/8903/3267/10/13 (largest/smallest = 45586/10). (3) Ecoli is printed with 327 instances and 5 classes; the paper does not describe any class removal. (4) Reference [64] is spelled 'Malfada'. (5) Table 7 Shuttle Pmin w/o EMDO garbled in text ('6048.99'). Source 'Other' = GitHub (Mafalda). Datasets CSV: n_minority not a separate column; I copied the smallest count from the printed Class Distribution."
+}

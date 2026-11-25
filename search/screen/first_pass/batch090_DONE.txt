@@ -1,0 +1,11 @@
+batch 090: 200 of 200 records done; include 19, unsure 22, exclude 159
+no records remain
+
+Look at first:
+- Policy question (codebook does not settle): domain papers whose proposed approach is a standard deep generator used as the minority oversampler, with no change to the generator described. Marked unsure U-new-or-applied: R12766 (CWGAN-GP malware), R01854 (GAN bearing faults), R13272 (GAN railway faults), R02903 (VAE social bots), R05395 (MCMC/GAN IDS). Excluded E1 because the generator is only a pipeline step or the paper is framed as an evaluation: R18996 (Stable Diffusion + LoRA), R08711, R06268, R07420. One rule for this group would settle all of them.
+- I2 not stated in the abstract (clarification 2, theory-only Zenodo preprints of new SMOTE variants): R21500 PI-SMOTE, R17094 FCS-SMOTE, R16060 CBP-SMOTE.
+- Low-confidence unsure: R00823 (HSDD; does it generate synthetic examples at all?), R04783 (existing RSMOTE inside a hybrid approach; language listed as id), R12938 (no abstract), R17213 (AMOP in skin cancer network), R12494 (hummingbird-optimized SMOTE), R13533 ("improved K-Means + SMOTE").
+- I3 doubt: R00122 is a new clustering + genetic-crossover oversampler, but the venue (Jisuanji Gongcheng) is a Chinese journal; full text may not be in English.
+- Clarification 1 (generator built for another purpose): R12011 (conditional ECG VAE for scarcity, privacy and imbalance), R04326 (WGAN feature generator for generalized zero-shot learning).
+- Medium-confidence includes to verify: R09547 (MSMOTE is called novel; check that it is not an existing method), R14227 (MCOG-CCR is framed as anomaly detection but evaluated with multiclass MAUC), R11592 (new undersampling + SMOTE in a multi-label ensemble, coded I1-hybrid), R06692 (augmentation-based tail oversampling for long-tailed images), R01756 (distributed SMOTE; no datasets named), R16710, R04926, R11119.
+- Metadata issues: R05401 has a title that does not match its abstract; R11351 is in Indonesian (coded E1, E-LANG also applies).

@@ -1,0 +1,10 @@
+batch 010: 200 of 200 records done; include 38, unsure 67, exclude 95
+no records remain
+
+Look at these first:
+- Low confidence: R00083, R01695, R05729, R22322, R05184 (unsure); R01913 (excluded E-NOGEN; GAN segmentation, oversampling unclear); R17638 (excluded E-COMPARE; its jittering with classifier-guided acceptance may be a new generator).
+- R19744 (include): the abstract almost matches GraphSMOTE (WSDM 2021) word for word, with the method renamed GraphBalance. Check originality.
+- Ten 2026 Zenodo SMOTE-variant preprints are unsure only because their abstracts cite theory and no data (clarification 2): R20222, R15954, R17105, R16552, R21624, R19671, R19516, R21606, R21439, R20861. They share one abstract template, so they may come from one source. R00042 (FLAIRS 2007) is unsure for the same reason.
+- The codebook does not settle these: R00839 is a dissertation (I3) proposing MeMO, coded unsure. R07621 is a theory paper on the distribution of SMOTE samples; it is excluded as E-NOGEN for lack of a code but is likely useful as background. R00280 and R00340 are included, but their venues may publish in Chinese; check the language.
+- Borderline includes: R13167 FG-SMOTE (fairness purpose, clarification 1?); R21968 (diffusion defects framed as anomaly detection, E2?); R21964 and R08479 (mixup/cutmix-style minority image synthesis); R00714 (plain SMOTE in a sentence-embedding space); R02081 (staged SMOTE in a case study).
+- Rule I applied for generators: when a standard VAE or GAN is paired with a classifier in a domain pipeline, I excluded it as E1 (e.g. R21576, R07534, R16757). When generative oversampling is the paper's main contribution but the abstract does not say the generator was changed, I coded it unsure (R06345, R11070). Cluster-restricted SMOTE was split on whether a new mechanism is claimed: R16142 unsure, R20535 include.

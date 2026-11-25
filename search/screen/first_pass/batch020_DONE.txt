@@ -1,0 +1,12 @@
+batch 020: 200 of 200 records done; include 20, unsure 16, exclude 164
+no records remain
+
+Look at these first:
+1. Gaps in the codebook: R00839 is a PhD dissertation that proposes the MeMO oversampler. I3 fails, but no exclusion code covers theses, so I marked it unsure. R00330 oversamples by moving real samples in from an auxiliary domain rather than generating them (unsure). R16695 is a generator for imbalanced regression, where clarification 1 and E2 conflict (I chose unsure). R07538 is a class-invariant augmenter not aimed at imbalance (unsure).
+2. Unclear whether synthetic examples are generated (unsure): R16942 (Borderline Shifting, compared with SMOTE variants on 30 datasets) and R00136 (directed oversampling).
+3. GAN, VAE or autoencoder generators used inside domain papers. These are hard to code consistently, so please check them as a set. Unsure: R02270, R07534, R15242, R16788. Excluded as E1 at medium confidence: R05172, R01620, R07805, R09239, R06057. Included at medium confidence: R13291 (claims novel post-processing), R04818, R10136, R21936, R01600 (zero-shot fault generation is borderline).
+4. Clarification 3 (an existing generator plus a cleaning step): R03543 and R06018 are unsure because each claims its combination is new. R14644 (ADASYN plus Tomek, picked after a comparison) is excluded as E1 at medium confidence; check it against the other two.
+5. Language: R00173 is included, but its venue (Jisuanji gongcheng) may be a Chinese-language journal, so I3 needs checking. R02302 (Chinese) and R15930 (Ukrainian) are E-LANG, but their methods are in scope and their abstracts are in English.
+6. I2 not stated (Zenodo preprints with theory only, unsure): R21666, R21320, R21606.
+7. Includes at medium confidence: R00412 (SMOTE inside Learn++.NSE; the paper's second method drops SMOTE), R02886 (titled as undersampling but uses graph-based RWO oversampling), R04095 (oversampler proposed inside a domain paper).
+Conventions I used: a comparison of existing resamplers within one application domain is E1 with the tag comparison, and a general methodological comparison is E-COMPARE. Records whose language field is not English are E-LANG even when E1 also applies.

@@ -1,0 +1,9 @@
+project,rec,field,before,after
+coverage,R00002,measures,ROC-AUC;other,ROC-AUC;recall;specificity;other
+coverage,R18850,measures,F-measure;other,F-measure;recall;other
+useaudit,R00847,inside_folds,nr,before-split
+useaudit,R00847,test_balanced,nr,yes
+useaudit,R01960,test_balanced,nr,no
+useaudit,R06167,learner,boosting,logistic;boosting;forest;svm;knn;tree;naive-bayes
+useaudit,R10600,inside_folds,stated,before-split
+useaudit,R10600,test_balanced,nr,yes

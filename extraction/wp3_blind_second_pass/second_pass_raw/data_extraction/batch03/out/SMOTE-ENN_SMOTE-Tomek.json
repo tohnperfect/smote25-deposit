@@ -1,0 +1,22 @@
+{
+ "data_key": "SMOTE-ENN / SMOTE-Tomek",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI"
+ ],
+ "crit": "'we have selected thirteen data sets from UCI [3] which have different degrees of imbalance' (15 data sets after Letter and Splice were each split into two).",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Class-merged"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "SIGKDD Explorations 6(1), printed pages 20-29 (pdf p.1 = 20). minority_rule: the paper states a general rule ('we chose the class with fewer examples as the positive class, and collapsed the remainder', p.24 = smallest class vs rest) but Table 3 names the minority class of every data set in the 'Class (min., maj.)' column, and the text lists exceptions for Letter and Splice; coded 'explicit target listed' (adjudicator may prefer 'smallest class vs rest'). Class-merged: Letter-vowel uses 'all vowels' (several classes) as the positive class. Natural: Pima (1, 0), German (Bad, Good), Haberman (Die, Survive). Text says 'thirteen data sets' but Table 3 has 15 rows (Letter and Splice each used twice). Table 3 prints class percentages '(min., maj.)' and 'Majority Error', not an IR ratio or minority count. No data link; only the UCI repository URL in the references. Three methods are proposed (CNN+Tomek, Smote+Tomek, Smote+ENN); outcome rows record Smote+ENN (first in the data_key) with Smote+Tomek in the row notes; pruned ('yes') rows used. Typo in Table 4: German unpruned Smote+ENN '83.90(3.70))'. Figure 1 is a schematic and the artificial-data study is earlier work [18], so no Synthetic source."
+}

@@ -1,0 +1,19 @@
+d42 useaudit batch 205, blind second coder: DONE (14 November 2026)
+
+Counts: n=52; fulltext=0, abstract=52 (no record had a text file); is_application yes=52, no=0;
+inside_folds: stated=0, before-split=0, nr=0, na=52 (FT field, abstract only); test_balanced na=52;
+validation internal=46, external=2, nr=4; stakes individual=19, other=33; confidence high=18, medium=32, low=2.
+
+Conventions used: list fields set to na when the abstract does not name the item (resampler na=7 for unnamed
+"oversampling" or no abstract; learner na=4; measures na=9). validation=internal when results are reported on one
+data set without a stated split; nr when the abstract reports no evaluation.
+
+Least sure:
+- R01439, R02587: no abstract (title only). is_application=yes rests on the screen's E1 placement; resampling not visible.
+- R04686 (different-environment test) and R03515 (five public DR test databases): validation=external is tentative.
+- R03515: paper calls rotation/scaling/translation "SMOTE"; coded SMOTE as named.
+- R05675: resampler=undersampling only named; oversampling/hybrid in Bi-VAE latent space unnamed. The abstract states a balanced test set (FT na).
+- R20963: abstract orders SMOTE-Tomek before the 80:20 split (possible before-split), but metrics imply an imbalanced test set; R20842: metrics imply about 48% churners in the test set (possible balanced test). Both FT na.
+- R02315: inferential use (odds ratios after SMOTE-ENN); measures=other, validation=nr.
+- Domain calls: R19710 transport vs business; R01644 education vs medicine; R02156 and R00467 industry vs transport; R19306 security vs software; R16979 social vs business.
+- Stakes: R06980 (debtors may be firms) and R14986 (patient vs area) coded individual; R04694 (parcel crime prediction) coded other.

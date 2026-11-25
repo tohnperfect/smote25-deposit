@@ -1,0 +1,8 @@
+batch 013: 200 of 200 records done; include 26, unsure 21, exclude 153
+
+Look at first:
+- Codebook does not settle: R11388 (theoretical analysis of SMOTE's sampling distribution; no code for theory papers, coded E-COMPARE + comparison, low); R00940 (book chapter, included) and R00110 (dissertation, unsure) against I3; R00732 (included, reads like a thesis summary); R17099 (regression with a new knowledge-graph GAN generator: E2 vs clarification 1, coded E2).
+- Low-confidence unsure: R17793 (per-mechanism WGAN-GP, framed as an evaluation), R14833, R13341, R00141, R08482 (oversampling layer for treatment-effect estimation), R10971 (ESMOTE), R07787 (CC-SMOTE), R00261, R21240 (generator for stress-testing a fuzzy system), R03178 (BSS-GAN), R21939 (no abstract).
+- Borderline includes (medium): R01304 (minority side is plain SMOTE), R20134 (latent diffusion applied to IoT data), R04315 (back translation, I2 only implied), R07287, R06765 (graph oversampling as one model component), R16277, R08775, R05840, R08770.
+- Borderline excludes (medium): R16092 and R11234 (existing TVAE/CTGAN applied, E1), R16185, R03863, R06462, R16095 (SMOTE plus DeepSMOTE), R03560.
+- Language: R03971 (Chinese, E-LANG) would otherwise be a candidate (iForest-SMOTE hybrid); R14714, R20742, R19767 (Indonesian titles) and R01919 (Korean abstract) carry language "en" and were coded E1.

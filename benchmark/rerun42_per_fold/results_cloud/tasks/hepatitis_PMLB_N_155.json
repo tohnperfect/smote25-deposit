@@ -1,0 +1,9 @@
+{
+ "task": "hepatitis (PMLB, N=155)",
+ "source": "PMLB",
+ "n": 155,
+ "n_min": 32,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 19
+}

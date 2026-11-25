@@ -1,0 +1,85 @@
+{
+ "filled_values": 1706,
+ "blank_values": 0,
+ "dataset:ir_as_printed": {
+  "n": 283,
+  "disagree": 21,
+  "rate": 0.0742,
+  "ci95": [
+   0.049,
+   0.1108
+  ]
+ },
+ "dataset:n_classes": {
+  "n": 283,
+  "disagree": 123,
+  "rate": 0.4346,
+  "ci95": [
+   0.3781,
+   0.4929
+  ]
+ },
+ "dataset:n_features": {
+  "n": 283,
+  "disagree": 39,
+  "rate": 0.1378,
+  "ci95": [
+   0.1025,
+   0.1828
+  ]
+ },
+ "dataset:n_instances": {
+  "n": 283,
+  "disagree": 14,
+  "rate": 0.0495,
+  "ci95": [
+   0.0297,
+   0.0813
+  ]
+ },
+ "dataset:n_minority": {
+  "n": 283,
+  "disagree": 51,
+  "rate": 0.1802,
+  "ci95": [
+   0.1398,
+   0.2292
+  ]
+ },
+ "outcome:metric": {
+  "n": 97,
+  "disagree": 19,
+  "rate": 0.1959,
+  "ci95": [
+   0.1291,
+   0.2858
+  ]
+ },
+ "outcome:proposed": {
+  "n": 97,
+  "disagree": 31,
+  "rate": 0.3196,
+  "ci95": [
+   0.2352,
+   0.4177
+  ]
+ },
+ "outcome:smote": {
+  "n": 97,
+  "disagree": 32,
+  "rate": 0.3299,
+  "ci95": [
+   0.2444,
+   0.4284
+  ]
+ },
+ "all": {
+  "n": 1706,
+  "disagree": 330,
+  "rate": 0.1934,
+  "ci95": [
+   0.1754,
+   0.2129
+  ]
+ }
+}

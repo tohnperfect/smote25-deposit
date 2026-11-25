@@ -1,0 +1,25 @@
+{
+ "data_key": "GMMSampling",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Synthetic"
+ ],
+ "crit": "15 imbalanced datasets (eleven real, four artificial) 'that were commonly used in the related studies (Janicka et al., 2019; Lango & Stefanowski, 2018)'; 'The selected datasets are diversified, including problems with multi-majority, multi-minority, and gradual class size configurations; with different levels of class overlapping and with different numbers of classes', IR from 2 to 164.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "difficulty",
+  "prior-work",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "Janicka et al., 2019 (SOUP) and Lango & Stefanowski, 2018: datasets 'commonly used in the related studies'; minority/majority class assignment 'taken from the previous paper on SOUP (Janicka et al., 2019)'",
+ "origin": [
+  "Natural",
+  "Class-merged"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Table 1 (p.5194) prints only class names and class cardinalities (minority vs majority); no n_instances, n_features or per-dataset IR. Merged classes are visible only through labels in Table 1 (Cleveland_2 '0+1', Vehicle 'opel_saab', Ecoli 'imUimS', 'omomL', 'cpimL'); the paper never says who merged them (possibly inherited from Janicka et al., 2019). Released-data link covers only the original UCI data and the artificial sets (multi-imbalance repository), not the merged versions; online appendix (footnote 3) holds results. The 4 artificial datasets (Art1-Art4: MIN1 120, MIN2 240, MAJ 840) are taken ready-made from the multi-imbalance repository; the authors do not generate them or describe a generator, so 'Generated' not coded (source still Synthetic). Contraceptive: majority class 1 printed as 333, the same as minority class 2 (333); possible typo. Wine quality lists classes 5, 6, 7, 8 only (199/81/681/638), with no explanation of other classes. IR defined p.5185 as biggest class size / smallest class size."
+}

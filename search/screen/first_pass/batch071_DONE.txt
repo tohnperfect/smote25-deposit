@@ -1,0 +1,15 @@
+batch 071: 200 of 200 records done; include 29, unsure 18, exclude 153
+no records remain
+
+Look at first:
+- Low confidence: R03573 (included, but the abstract is garbled and looks machine-paraphrased; it seems to propose a PSO Border-Kernel-SMOTE and may copy another paper); R09804 (unsure: education study with two-stage classification plus SMOTE; does a decomposition like this count as a "multiclass scheme for oversampling"?); R02881 (unsure: virtual-big-data cross-concatenation balances classes "without over-sampling" and names no evaluation); R19396 (unsure: label-aware loose pairing of fundus and OCT images to expand minority classes); R19818 (unsure: SMOTE plus outlier removal offered as the paper's imbalance solution).
+- Cases the codebook does not settle:
+  R00693 is SMOTER, SMOTE adapted to imbalanced regression. I excluded it under E2, but clarification 1 (a SMOTE extension built for another purpose goes to unsure) could also apply.
+  R18199 (DEB-ADA) chains two existing generators, ADASYN then DEBOHID, and is tested on 44 KEEL datasets. Clarification 3 covers a generator plus a cleaning or selection step, not two generators, so I marked it unsure by analogy. Its language metadata says Turkish.
+  Clarification 3 inside domain frameworks: I marked R12286, R19818 and R08282 unsure because SMOTE plus a cleaning or selection step is offered as part of the paper's own solution. Existing named hybrids (SMOTE-ENN, SMOTE-Tomek) used as plain preprocessing I excluded as E1.
+  Applying an existing generator versus proposing one: I excluded R19912 (a standard GAN inside an IoT security framework) and R07599 (existing SMOTified-GAN with bagging ELM), marked R16861 (autoencoder latent interpolation) unsure, and included R12141 (a conditional DDPM that is the core of the method).
+  Tuning SMOTE: I included R05335 (an improved, faster SMOTUNED; I1-other, tagged comparison) and excluded R05173 (SMOTE tuned by Bayesian optimization inside a semi-supervised pipeline, E1).
+  R00645 (GMBoost): the title says "with over-sampling", but the abstract does not say whether the oversampling sits inside boosting.
+  R02192 (GA-improved GAN oversampler): only "illustrated by a case study" and framed as anomaly detection.
+  R01825 (cosine-similarity sampling): included on the assumption that it generates synthetic examples, which the abstract does not state.
+- Language: I used E-LANG for R13602, R01869, R14671, R04432, R19686 and R05731. R14185, R02590, R20910, R19362 and R18199 have English abstracts but Indonesian or Turkish titles or metadata, so I judged them on content; the full texts may not be in English.

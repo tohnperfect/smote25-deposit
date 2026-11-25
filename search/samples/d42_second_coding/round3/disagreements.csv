@@ -1,0 +1,10 @@
+project,rec,batch,field,first,second,source,first_confidence,second_confidence
+coverage,R00832,232,label,Not counted,Core,fulltext,medium,medium
+coverage,R00832,232,generator,other,interpolation,fulltext,medium,medium
+coverage,R00832,232,S,na,no,fulltext,medium,medium
+coverage,R00832,232,A,na,no,fulltext,medium,medium
+coverage,R00832,232,N,na,no,fulltext,medium,medium
+coverage,R00832,232,P,na,yes,fulltext,medium,medium
+coverage,R00832,232,F,na,no,fulltext,medium,medium
+coverage,R00832,232,L,na,no,fulltext,medium,medium
+coverage,R11455,232,tuning,validation,test,fulltext,medium,medium

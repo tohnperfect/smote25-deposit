@@ -1,0 +1,8 @@
+batch 015: 189 of 189 records done; own 137, existing-parts 49, unclear 3
+no records remain
+
+Look at first:
+- Cases the codebook does not settle (own allocation, selection or filter added to a standard or statistical generator): R16696 (adaptive sample counts with standard text/LLM augmentation, coded existing-parts), R03056 (domain-specific choice of positives for an unchanged deep generator, existing-parts), R20703 (DiVuse picks a subset of existing synthetic samples, existing-parts), R06754 (mega-trend-diffusion plus a novel Siamese selector, coded own), R07666 (GAN refining ADASYN samples, existing-parts), R09878 (RL search over CTGAN hyperparameters, existing-parts).
+- Low-confidence exclusions (existing-parts, so E1): R09445, R04871, R12618, R13164, R02906, R00299, R17549; borderline medium ones: R21965, R17510, R06196, R15348, R08575, R09309, R03103, R00965, R03668, R02500, R00577.
+- Low-confidence own or unclear (kept): R19396, R10718, R05181, R14521, R09614, R02424, R00297, R16250, R16815; unclear: R08961, R18528, R01491.
+- R22139 and R15763 look like the same paper (AAAI and arXiv versions of TMLC). Both are coded the same.

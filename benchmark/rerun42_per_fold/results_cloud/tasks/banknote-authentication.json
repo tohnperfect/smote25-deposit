@@ -1,0 +1,9 @@
+{
+ "task": "banknote-authentication",
+ "source": "UCI++",
+ "n": 1372,
+ "n_min": 610,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 4
+}

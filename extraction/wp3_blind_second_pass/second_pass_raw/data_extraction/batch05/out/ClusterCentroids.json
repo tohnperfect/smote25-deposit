@@ -1,0 +1,25 @@
+{
+ "data_key": "ClusterCentroids",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Private",
+  "Synthetic"
+ ],
+ "crit": "Synthetic data are generated to simulate real-world data (classes split into clusters, with noise as exceptional and disordered samples, since 'to make the synthetic datasets more like real datasets, the noisy data are necessary'), and varied in majority:minority ratio (2:1 to 72:1), number of clusters (DS2 to DS16) and noise level (E10D20, E30D40, E50D60); two real datasets (Census-Income, Overdue Detection Database) are used as real applications with no stated reason for choosing them.",
+ "crit_type": "own reason",
+ "basis": [
+  "analytic",
+  "difficulty"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Generated",
+  "Noise-injected"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "n.a.",
+ "modified_data_released": "no",
+ "notes": "Page numbers are the printed journal pages (5718-5727; pdf p.1 = 5718). All data are two-class (Census-Income and Overdue natively binary; synthetic data generated with one MA and one MI class), so minority_rule n.a.; minorities are nevertheless named (income >=50K; bad customers). Noise-injected coded because the authors' generator adds exceptional samples (outliers) and disordered samples (class-overlap/label-noise-like) at set percentages to the generated data; adjudicator may prefer Generated only, in which case modified_data_released becomes n.a. No link or availability statement for the synthetic data or the generator. Census-Income was cleaned of incomplete records (30,162 samples after cleaning, p.5725), with an 80/20 train/test split; the bank's Overdue data are split by month (Nov 2004 train, Dec 2004 test). No table of dataset characteristics; all counts are in the text. Classifier is a neural network (IBM Intelligent Miner)."
+}

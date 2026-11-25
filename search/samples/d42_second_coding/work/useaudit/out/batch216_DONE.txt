@@ -1,0 +1,13 @@
+d42 useaudit batch 216: blind second coding, done 2026-11-16
+n=8, fulltext=8, abstract=0, application=8
+inside_folds: stated=2, before-split=4, nr=2
+test_balanced: yes=5, no=1, nr=2
+vs_none: yes=5, no=3; vs_weights: yes=0; calibration: yes=0
+confidence: high=4, medium=3, low=1
+
+Least sure:
+- R06049 (corn disease, SMOTE): inside_folds=nr, test_balanced=nr. The text puts SMOTE on "the dataset" and lists the 80/10/10 split separately. Table 4 test accuracies of both arms are multiples of 1/388 (not 477 = 10% of the balanced 4768), which suggests the test set was not augmented. Rule D accepts arithmetic only for before-split/yes, so I kept nr.
+- R07289 (EEG emotion, SMOTE): inside_folds=nr, test_balanced=nr. The section layout (SMOTE item, then the 80/20 split sub-step) and generic wording ("The data is rebuilt after the oversampling") hint at before-split, but no sentence fixes the order and there are no counts. Domain coded other (emotion recognition); medicine is arguable.
+- R11123 (precision marketing): before-split/test yes rests on one step-order sentence ("Following data preparation, oversampling, and splitting into training and test sets"). The oversampler is never named, so resampler=other.
+- R01361 (bearing faults, DCGAN): is_application=yes under B2 (standard DCGAN, no stated change, despite "new DCGAN model"). test_balanced=yes because the test set is 100 per condition by selection, not by resampling.
+- R02561 (patchouli leaves): domain coded environment (agriculture); modality image although the ELM uses 14 handcrafted features.

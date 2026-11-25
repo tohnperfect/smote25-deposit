@@ -1,0 +1,17 @@
+batch 046: 200 of 200 records done; include 24, unsure 10, exclude 166
+no records remain
+
+Look at first (record number in batch order, rec id):
+- Unsure, codebook clarification 3 (existing generator plus existing cleaning or selection step): 144 R10696 (CTGAN-ENN for intrusion detection), 169 R13396 (HiBBKA, RBU-SMOTE).
+- Unsure, cannot tell whether the generator is new: 29 R19307 (Firefly-guided SMOTE), 139 R12777 (GAN augmentation for MQTT intrusion detection), 66 R02065 (bagging and boosting with and without a noise filter, called "our approach"), 153 R21327 (stated contribution is adding standard SMOTE to PU learning).
+- Unsure, purpose or task is not plain imbalanced classification: 21 R08433 (differential privacy versions of SMOTE, oversampling and synthetic data), 106 R15592 (diffusion plus class-aware sampling for ultrasound object detection).
+- Unsure, no abstract: 148 R15073 (PSGCL, progressive sampling for imbalanced node classification), low confidence.
+- Medium-confidence includes to confirm at full text: 9 R18147 (physics-inspired latent diffusion model inside a PV defect framework), 53 R10025 (SIRSYN; I read SIR as changing where samples land, but it could fall under clarification 3), 89 R03503 (FOFO, outlier-targeted two-step SMOTE), 116 R08271 (Borderline-SMOTE inside bagging with cluster undersampling), 115 R01336 (K-means-improved SMOTE in a coal NIR paper; may simply be existing K-means SMOTE), 170 R03405 (swarm rebalancing hybrids; the abstract does not say how examples are generated), 149 R21952 (T-SMmOTE; aimed mainly at data scarcity, see clarification 1), 37 R15438 (graph mixup augmentation of minority graphs).
+- Cases the codebook does not settle:
+  (a) Resampling in a learned latent or embedding space: 69 R07321 marked unsure (VAE latent space is the paper's core idea), but 39 R19534 excluded E1 (SMOTE on IndicBERT embeddings as one part of an ensemble). These two should be decided the same way.
+  (b) New oversampler for a non-classification task: 192 R03960 (real-time over-sampling in spline adaptive filters for system identification) excluded E2, although clarification 1 could send it to unsure.
+  (c) Existing deep generators applied in domain pipelines were excluded E1 and tagged generative: 113 R06530 (CTGAN), 155 R09728 (GAN), 126 R22287 (EEG-GANs).
+  (d) Multi-label oversampling: 3 R06608 (UCLSO) was included as I1-new-variant without the multiclass tag, because no multi-label tag exists.
+- Low or medium-confidence excludes: 55 R09773 (no abstract, generic CHEST title, low), 81 R04392 (Bangla text augmentation by text and embedding generation, described as applying strategies), 109 R00142 (outlier filter plus random oversampling with replacement, coded E-NOGEN), 11 R02911 (uses LSH-SMOTE, possibly the authors' own earlier variant), 13 R09507 (MCS-SMOTE with OVO), 166 R00598 (MWMOTE used for crime clustering, E2).
+- For other parts of the survey: 200 R05285 ("Stop Oversampling", evaluates more than 70 oversamplers, tagged comparison); 15 R01834 (front matter that lists a modified ADASYN/SMOTE paper, front-matter-in-scope).
+- Language: records with an Indonesian title but an English abstract and language "en" (2 R09253, 87 R07895, 114 R03785, 164 R12954) were coded on content (E1). 110 R21498 has an English abstract but language "zh" and was coded E-LANG.

@@ -1,0 +1,11 @@
+batch 034: 200 of 200 records done; include 27, unsure 23, exclude 150
+
+Look at first:
+- Low confidence: R20579 (include I1-other: minority-stage time-frequency augmentation module inside a sleep-staging network; is a domain augmentation module in scope?), R02041 (SMOTE applied to images as a "novel scheme", only SMOTE vs no SMOTE tested), R03101 (title says hybrid, abstract describes only simulated-annealing undersampling, keywords list oversampling), R08269 ("novel two-phase resampling" inside a comparative churn study), R22104 (part tutorial; transformer+VAE generator of minority data), R07300 (anomaly-model data generation for energy theft), R19505 (SMOTE plus class-specific autoencoder reconstructions), R10501 (no abstract).
+- Regression is not settled by the codebook: new SMOTE extensions or generators for regression were sent to unsure under clarification 1 (R10295 WSMOTER; R10318 improved CTGAN for trajectory prediction), while R08677 (existing SMOGN with TPE tuning) was excluded E2. Please confirm whether clarification 1 or E2 governs.
+- Clarification 2 (I2 not stated): three similar 2026 Zenodo preprints with theory-only abstracts: R16056 Ca-SMOTE, R17249 FRS-SMOTE, R21661 Self-organizing SMOTE.
+- SMOTE plus a new undersampling or cleaning step included as I1-hybrid by analogy with "SMOTE with a new cleaning step": R01178 (SOS-BUS; the novelty is the undersampling), R19191 (SMOTE plus novel trimming in a skin-lesion framework). R02267 (SGM: SMOTE plus GMM undersampling) and R20624 (DiToS: Stable Diffusion, Tomek links, SMOTE) left unsure under clarification 3.
+- Medium-confidence includes where the oversampling novelty is thinly described: R04289 (GSDC), R12193 (modified SMOTE-ENC), R02541 ("improved" sampling inside an ensemble), R09793 (GAN with new GFE loss), R05755, R16485, R01491.
+- E-LANG records that would otherwise meet I1 (English versions may exist): R00278 (PCBoost), R00166 (clustering ensembles with improved SMOTE), R15786 (GraphSMOTE extension).
+- Front matter in scope: R22377 (ICPR 2026 workshops; lists "Enhancing Foundation Models for Imbalanced SAR Ship Classification via Targeted Oversampling").
+- No abstract, unsure: R04835, R01827, R18210, R10501.

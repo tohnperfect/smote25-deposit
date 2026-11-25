@@ -1,0 +1,417 @@
+{
+ "smote_cited_by_count": 34938,
+ "citing_works": 34416,
+ "citing_with_topic": 34366,
+ "by_year": {
+  "1982": 1,
+  "1987": 1,
+  "1998": 1,
+  "2000": 1,
+  "2001": 2,
+  "2002": 2,
+  "2003": 17,
+  "2004": 27,
+  "2005": 44,
+  "2006": 80,
+  "2007": 98,
+  "2008": 112,
+  "2009": 140,
+  "2010": 183,
+  "2011": 228,
+  "2012": 298,
+  "2013": 374,
+  "2014": 451,
+  "2015": 530,
+  "2016": 597,
+  "2017": 807,
+  "2018": 1225,
+  "2019": 1773,
+  "2020": 2412,
+  "2021": 3253,
+  "2022": 3472,
+  "2023": 3848,
+  "2024": 4177,
+  "2025": 5059,
+  "2026": 5195
+ },
+ "up_to_2017": 3994,
+ "from_2018": 30414,
+ "domains": [
+  [
+   "Physical Sciences",
+   22425
+  ],
+  [
+   "Health Sciences",
+   6021
+  ],
+  [
+   "Social Sciences",
+   2997
+  ],
+  [
+   "Life Sciences",
+   2924
+  ]
+ ],
+ "fields_top6": [
+  [
+   "Computer Science",
+   16927
+  ],
+  [
+   "Medicine",
+   4036
+  ],
+  [
+   "Engineering",
+   3227
+  ],
+  [
+   "Health Professions",
+   1919
+  ],
+  [
+   "Biochemistry, Genetics and Molecular Biology",
+   1329
+  ],
+  [
+   "Business, Management and Accounting",
+   1181
+  ]
+ ],
+ "fields_rest": [
+  20,
+  5748
+ ],
+ "sdg": [
+  [
+   "Good health and well-being",
+   10764
+  ],
+  [
+   "Industry, innovation and infrastructure",
+   2648
+  ],
+  [
+   "Reduced inequalities",
+   2408
+  ],
+  [
+   "Sustainable cities and communities",
+   961
+  ],
+  [
+   "Quality education",
+   809
+  ],
+  [
+   "Zero hunger",
+   706
+  ],
+  [
+   "Climate action",
+   510
+  ],
+  [
+   "Affordable and clean energy",
+   508
+  ],
+  [
+   "Life on land",
+   369
+  ],
+  [
+   "Peace, justice, and strong institutions",
+   356
+  ],
+  [
+   "Clean water and sanitation",
+   296
+  ],
+  [
+   "Decent work and economic growth",
+   247
+  ],
+  [
+   "Life below water",
+   97
+  ],
+  [
+   "Responsible consumption and production",
+   96
+  ],
+  [
+   "Gender equality",
+   62
+  ],
+  [
+   "No poverty",
+   55
+  ],
+  [
+   "Partnerships for the goals",
+   7
+  ]
+ ],
+ "countries_n": 159,
+ "countries_top25": [
+  [
+   "China",
+   7899
+  ],
+  [
+   "United States",
+   6077
+  ],
+  [
+   "India",
+   3088
+  ],
+  [
+   "United Kingdom",
+   1906
+  ],
+  [
+   "Canada",
+   1307
+  ],
+  [
+   "South Korea",
+   1284
+  ],
+  [
+   "Spain",
+   1164
+  ],
+  [
+   "Germany",
+   1116
+  ],
+  [
+   "Italy",
+   1111
+  ],
+  [
+   "Australia",
+   959
+  ],
+  [
+   "France",
+   856
+  ],
+  [
+   "Indonesia",
+   833
+  ],
+  [
+   "Brazil",
+   820
+  ],
+  [
+   "Japan",
+   804
+  ],
+  [
+   "Turkey",
+   767
+  ],
+  [
+   "Saudi Arabia",
+   709
+  ],
+  [
+   "Taiwan",
+   647
+  ],
+  [
+   "Bangladesh",
+   549
+  ],
+  [
+   "Malaysia",
+   479
+  ],
+  [
+   "Iran",
+   477
+  ],
+  [
+   "Netherlands",
+   432
+  ],
+  [
+   "Hong Kong",
+   393
+  ],
+  [
+   "Pakistan",
+   393
+  ],
+  [
+   "Poland",
+   375
+  ],
+  [
+   "Greece",
+   367
+  ]
+ ],
+ "types": [
+  [
+   "article",
+   21166
+  ],
+  [
+   "conference-paper",
+   9367
+  ],
+  [
+   "preprint",
+   1403
+  ],
+  [
+   "dissertation",
+   907
+  ],
+  [
+   "book-chapter",
+   823
+  ],
+  [
+   "review",
+   422
+  ],
+  [
+   "peer-review",
+   115
+  ],
+  [
+   "paratext",
+   62
+  ],
+  [
+   "book",
+   40
+  ],
+  [
+   "dataset",
+   17
+  ],
+  [
+   "data-paper",
+   16
+  ],
+  [
+   "editorial",
+   15
+  ],
+  [
+   "other",
+   14
+  ],
+  [
+   "reference-entry",
+   10
+  ],
+  [
+   "report",
+   10
+  ],
+  [
+   "software-paper",
+   9
+  ],
+  [
+   "letter",
+   7
+  ],
+  [
+   "conference-abstract",
+   5
+  ],
+  [
+   "retraction",
+   4
+  ],
+  [
+   "erratum",
+   3
+  ],
+  [
+   "supplementary-materials",
+   3
+  ],
+  [
+   "software",
+   1
+  ]
+ ],
+ "top10": [
+  [
+   "SMOTE-2002",
+   2002,
+   32518,
+   34720
+  ],
+  [
+   "ADASYN-2008",
+   2008,
+   4927,
+   5271
+  ],
+  [
+   "Borderline-SMOTE-2005",
+   2005,
+   4313,
+   4455
+  ],
+  [
+   "SMOTE-ENN-Tomek-2004",
+   2004,
+   4207,
+   4447
+  ],
+  [
+   "ROS-Buda-2018",
+   2018,
+   3053,
+   3339
+  ],
+  [
+   "OSS-1997",
+   1997,
+   2562,
+   2559
+  ],
+  [
+   "EasyEnsemble-BalanceCascade-2009",
+   2009,
+   2475,
+   2525
+  ],
+  [
+   "RUSBoost-2010",
+   2010,
+   1867,
+   1921
+  ],
+  [
+   "SMOTEBoost-2003",
+   2003,
+   1738,
+   1763
+  ],
+  [
+   "KMeansSMOTE-2018",
+   2018,
+   1273,
+   1409
+  ]
+ ],
+ "top10_median_real_datasets": 8.0,
+ "top10_with_test": 4,
+ "top10_before_2010": 7,
+ "top10_same_as_18oct": true,
+ "saito2015": 6338
+}

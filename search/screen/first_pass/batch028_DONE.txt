@@ -1,0 +1,11 @@
+batch 028: 200 of 200 records done; include 28, unsure 16, exclude 156
+no records remain
+
+Look at first:
+- Low confidence: R18539 (unsure; "structure-preserving graph oversampler" inside a paratope framework, novelty not stated), R18745 (unsure; undescribed "two-tier oversampling strategy" for MBTI text).
+- Scope the codebook does not settle: R07164 SMOTE-CD (included, medium; compositional data, evaluated with regressors but reports class imbalance, accuracy and F1; E2 if not counted as classification); R04144 (unsure; multi-label oversampling for segmentation, unclear whether it synthesizes or replicates); R20214 (unsure; long-tailed point-cloud dataset distillation, purpose is compression); R21919 (unsure; single-cell generator for scarcity, imbalance and privacy, judged on fidelity); R17454 (unsure; boundary oversampling for fault localization, a ranking task).
+- I2 not stated in the abstract: R17107 SDC-SMOTE, R17113 MI-SMOTE, R21923 FN-SMOTE (three 2026 Zenodo preprints with the same template; check for experiments and for a common source).
+- Clarification 3 unsures (existing generator plus an existing step): R07332, R02543, R03403, R05693, R14796, R12859.
+- Medium-confidence includes that lean on generators applied to one domain or on hybrids: R03056, R01826, R04404, R11070, R01502, R10021, R07549, R04983, R21622.
+- Medium-confidence excludes a second coder may flip to unsure: R15277, R22136, R19140, R15048, R13948 (generators or hybrids used inside domain pipelines), R09970 (tool that compares existing generators).
+- E-LANG decided from the language field only (English abstracts present): R16656, R03869, R00111, R00147, R21433, R13705, R21937.

@@ -1,0 +1,13 @@
+batch 003: 200 of 200 records done; include 56, unsure 57, exclude 87
+no records remain
+
+Look at these first:
+- Low confidence: R11155 ("dual-phase SMOTE") and R13177 ("composite minority oversampling"), both unsure; either could just as well be E1.
+- Coded E1 because each paper names an undescribed variant but does not present it as a contribution: R18599 (SMOTE-DBC), R17156 (KMADASYN), R14247 (SSMOTE). By contrast, "Improved/tailored SMOTE" papers went to unsure: R09561, R16987, R10553, R09937.
+- Existing generators used as oversamplers. Included where the paper frames the generator as its resampling contribution: R01810, R02086, R10196. Excluded as E1 where it is a pipeline step: R19934, R19543, R05919, R19336, R18464, R01905.
+- The codebook does not settle oversamplers that create no synthetic examples. Excluded as E-NOGEN: R00601 (cloning), R18041 (ROS-based), R05509 (relabelling), R04606 (reuse of past minority samples). R01624 kept as unsure. R01564 (IOSDS) and R02117 (SOUP) included, although their abstracts do not say the new examples are synthetic.
+- Domain-specific augmentation counted as I1-other: R17436, R18131, R09451, R12265, R01196. Augmentation for detection or segmentation sent to unsure: R05002, R02563, R04499.
+- Metaheuristic- or joint-tuned SMOTE in domain papers sent to unsure (does tuning count as changing how SMOTE is applied?): R21583, R06759, R08478, R19307.
+- Zenodo 2026 series of SMOTE variants with no evaluation (clarification 2, unsure): R17116, R21499, R19247, R20611, R22155, R21602, R21496. R21517 from the same series was included because it names metrics, though no datasets.
+- Language: R20894 unsure (Indonesian title, but the language field says en). R02632 is E-LANG (zh), but its content looks in scope.
+- Other: R08963 is indexed as a "Short survey" but reports original work (included). R01535 (SMOTE theory, E-COMPARE) and R15932 (package paper, E-REVIEW, no closer code) may matter elsewhere in the survey. R17982 is unsure only because of clarification 1 (likely exclude). R12382 was included despite its anomaly-detection framing.

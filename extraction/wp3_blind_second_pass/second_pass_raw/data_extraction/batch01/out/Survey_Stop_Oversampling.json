@@ -1,0 +1,22 @@
+{
+ "data_key": "Survey: Stop Oversampling",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI"
+ ],
+ "crit": "Yeast4, Yeast5 and Yeast6 'which are routinely used by many oversampling methods'; 'the datasets have different minority and majority distributions, despite the fact that the number of attributes and classes are the same'; only binary data because 'most oversampling approaches only use binary class datasets'. A fourth dataset, Vehicle3, was added 'because some oversampling approaches passed our validation test by presenting a relatively small number of unrealistic examples, and to further support our counterclaim'.",
+ "crit_type": "own reason",
+ "basis": [
+  "popularity",
+  "diversity",
+  "method-target"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Binarised"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "n.a.",
+ "notes": "Review paper with its own validation experiment (72 oversampling methods, Table 1 lists them). Data: Yeast4, Yeast5, Yeast6 (Table 2, p.9; 2 classes each, minority/majority counts printed) and Vehicle3 (used only in Table 4, p.13, 25% hidden; no characteristics printed anywhere). The paper says all datasets are freely available on [189] = UCI repository; it never says how the two-class Yeast4/5/6 (and Vehicle3) were obtained from a multiclass source. Binarised/repository/repository-defined is coded because the paper presents ready-made two-class files of one base dataset (same base name, same attributes, different minority sizes) said to be available at the repository and adds no rule of its own; if the adjudicator reads them as used 'as distributed', the alternative is origin Natural with minority_rule n.a. 'diversity' is based on the post-hoc remark that the datasets have different minority/majority distributions. The hidden-subset protocol (10%, 25%, 50% of majority examples hidden at random, then returned to the training set) is the validation method, not a data modification, so it was not coded as Class-resized. Text typos: Section 5 refers to the results table as 'Table 2' (it is Table 3); Fig. 4 caption 'thee datasets'; the conclusion says 'four real-world common datasets'."
+}

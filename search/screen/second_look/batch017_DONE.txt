@@ -1,0 +1,11 @@
+batch 017: 200 of 200 records done; include 55, unsure 64, exclude 81
+
+Look at first:
+1. Excludes that may belong under clarification 3 or the unsure rule (decided before I fixed my rule; similar later records went to unsure): R02970 (NCR+SVMSMOTE presented as the proposed approach), R06736 ("proposed combined over/undersampling"), R06950 (CU-SMOTE) and R12205 (ISMOTE, low); compare R09946, R04129, R09007, R12094 (all unsure).
+2. Same pattern, different calls: new over/under-sampling methods where the abstract does not say whether examples are synthetic or replicated: R00750 (include), R04700 (include, low), R00261 (unsure). New replication-only oversamplers were excluded E-NOGEN (R21450 RSFR, R00169, R05525 ROS+NCL); the codebook does not name random-oversampling variants.
+3. Low-confidence includes, mostly a standard GAN or SMOTE applied with little stated novelty: R05685, R03912, R19280, R21540, R02455, R20650, R15581, R09127, R10109; R01361 is medium but the same type.
+4. Not settled by the codebook: frameworks that tune how far to oversample (R05476 include high, R12982 include low, R09023 Imba excluded); software packages coded E-COMPARE (R03956 SOUL, R01528 smotefamily); a reproduction study (R21390); a SMOTE privacy-attack paper (R15442, E-NOGEN, relevant to the survey's discussion); theses (R20491, R10302 excluded; R00732 included, may be a dissertation); generators for object detection (R15592 unsure, R07726 excluded).
+5. Unsure under clarification 1 (purpose other than imbalanced classification): R00693 SMOTER (regression), R11235 RSmote (PINNs), R07164 SMOTE-CD (compositional targets), R15272 (correlation), R08506 (outlier generation), R12716 and R08433 (privacy), R21544 (continual learning), R16625 (data scarcity).
+6. Language doubts (field says English): Chinese journals R00298, R00712, R00122, R22267 (all included) and R20706 (unsure, Chinese title); R10302 (Greek title) and R03651 (Indonesian title) were excluded on other grounds; R15611 was excluded E-LANG (Korean abstract).
+7. No abstract but the title clearly proposes a new oversampler (unsure, likely includes if evaluated): R14280, R11258, R01848, R02237, R21023, R05253.
+8. Possible earlier/later versions (E4 at full text): R02445 (BGOA) and R02538 (GOT), the same graph-oversampling line for identifying lonely students.

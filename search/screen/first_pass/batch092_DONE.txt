@@ -1,0 +1,9 @@
+batch 092: 200 of 200 records done; include 16, unsure 19, exclude 165
+
+Records to look at first:
+- Low confidence: R19475 (no abstract; SMOTE in epidemiological studies, could be a tutorial, an application or advice on applying SMOTE); R03096 (imbalanced deep forest; abstract does not say whether its units oversample).
+- Clarification 3 borderline, excluded as E1 because the combination is a preprocessing step in a domain pipeline: R09571 (SMOTE+RUS "combinatorial balancing algorithm", diabetes), R21832 (phased downsampling+cleaning+oversampling, intrusion detection), R03948 (SMOTE-ENN with improved META-DES), R11199 (SMOTE-ELNGDI), R03533 (SMOTEXGBoost); in each case SMOTE may sit inside the ensemble, which would make it I1-hybrid.
+- Includes at medium confidence: R21844 (RBStack, random-balance SVM-SMOTE in stacking), R09761 (modified SMOTE for binary variables in a domain study), R16718 (trust-stratified augmentation in semi-supervised RF), R06455 (ASMOTE-ENN; "adaptive SMOTE" may already exist, which would make it clarification 3 unsure).
+- Unsure because I cannot tell new from applied: R11589, R04904, R03799, R19554, R13710, R01692, plus R05514 (SMOTEOSS, clarification 3).
+- Not settled by the codebook: language (R13563 has a Korean abstract but English metadata; R01541 is from a Korean venue; R08053 and R10219 are excluded E-LANG but would otherwise be in scope); book chapters and I3 (R19388, R03945, both unsure because I2 is not stated); R14782 (PhyloMix, general augmentation, clarification 1); R21899 (SB-SMOTE, theoretical analysis only); R00893 (excluded E-COMPARE, but the abstract calls DyS-MLP "proposed").
+- No abstract, but the title names a new oversampler: R06831 (NSOT), R11258 (functional-data oversampling), R19381 (G-ADASYN), R11429 (multi-task GAN), R01541.

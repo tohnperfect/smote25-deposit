@@ -1,0 +1,159 @@
+rec,decision,reason_code,reason,tags,confidence
+R12902,unsure,U-new-or-applied,"Vishing detection study proposing multilingual back-translation to augment the imbalanced text data, compared with SMOTE; unclear whether this is a new generator or an existing augmentation applied to a domain.",text;comparison,medium
+R21182,exclude,E1,Pile capacity prediction pipeline (PSO-tuned random forest) with AFCM-SMOTE as a balancing step; the resampling is not presented as the contribution and the target looks like regression.,,low
+R14797,exclude,E1,Transformer fault diagnosis pipeline that applies an existing CWGAN-GP for augmentation and an optimised ELM; the generator itself is not changed.,generative,medium
+R08772,unsure,U-new-or-applied,"HSNOE lists a hybrid under- and oversampling technique as a contribution, but the abstract does not say whether it generates synthetic examples in a new way.",medical,medium
+R00435,exclude,E-COMPARE,Software defect study that investigates existing under- and oversampling alternatives; no new method is proposed.,comparison,medium
+R03360,unsure,U-new-or-applied,"Fraud detection framework combining HMMs, a modified DBSCAN and SMOTE; cannot tell whether the modified DBSCAN changes how SMOTE is applied or is a separate step.",,low
+R12162,unsure,U-no-abstract,No abstract; the title (data-efficient federated CNN for blade icing detection) does not show whether synthetic minority data are generated.,no-abstract;deep-learning,low
+R17892,exclude,E-COMPARE,"Comparative evaluation of SMOTE-NC, CTGAN, TVAE and a SMOTE-NC-CTGAN hybrid on UCI data; framed as a comparison, the hybrid is not presented as a new method.",comparison;generative,medium
+R18828,include,I1-other,"Proposes wavelet-based interclass fusion that generates additional samples to balance imbalanced ECG classes, evaluated on CPSC 2018.",time-series;medical;deep-learning,medium
+R01168,exclude,E-NOGEN,"Compares SVM and RVM paired with parallel selective sampling, a data selection approach; no synthetic examples are generated.",comparison,high
+R18558,unsure,U-new-or-applied,Intrusion detection framework with a hybrid SMOTE plus cGAN augmentation step; unclear whether the hybrid generation is new or two existing generators applied in a pipeline.,generative;deep-learning;multiclass,low
+R10105,exclude,E1,"No abstract; the title describes a domain classifier model (SRF-KELM tuned by ZOA) for power theft early warning, not a resampling method.",no-abstract,low
+R02079,exclude,E1,Fraud detection study applying SMOTE and existing ensemble sampling methods before classifiers and a deep autoencoder; no new resampling method.,deep-learning,medium
+R16221,exclude,E1,UPI fraud detection framework using a GAN assembled from existing techniques to synthesise minority samples for a random forest; the generator is not new.,generative,medium
+R01343,unsure,U-new-or-applied,"Existing oversampler (A-SUWO) combined with an existing cleaning step (NCL) and presented as a hybrid method, with no change to generation (clarification 3).",,high
+R10863,exclude,E-COMPARE,"No abstract; the title is a comparison of logistic regression and the Altman Z-score for bankruptcy prediction, with no resampling method.",no-abstract;comparison,medium
+R13783,exclude,E1,"No abstract; the title describes a domain disease prediction model combined with sentiment analysis, not a resampling method.",no-abstract;medical;text,medium
+R14489,unsure,U-new-or-applied,"Intrusion detection study comparing ROS, SMOTE and a customised Strategy SMOTE; unclear whether Strategy SMOTE is a new per-class allocation scheme or tuned settings.",comparison;multiclass,low
+R03422,exclude,E-NOGEN,Surgical video segmentation study evaluating simple data oversampling and loss functions; the oversampling re-draws existing images and generates no synthetic examples.,image;medical;deep-learning,medium
+R22224,exclude,E1,Rice leaf disease classifier (ViT plus ResNet) that uses a standard GAN to augment minority classes; the contribution is the classifier.,image;generative;deep-learning;multiclass,high
+R22038,unsure,U-other,"I2 not stated in the abstract: proposes Time-reversal SMOTE, a new oversampler, but cites only theoretical analysis and names no experiments or datasets.",,medium
+R00828,unsure,U-new-or-applied,"Combines the existing Versatile Improved SMOTE with a rough-set cleaning phase as a new method; the abstract does not say the generation itself changes (clarification 3), likely in scope.",,medium
+R02383,unsure,U-other,"I2 not stated in the abstract: COSM filters SMOTE-generated samples with a controller model, but no evaluation on data is named.",,high
+R07806,exclude,E1,Semi-supervised ensemble for imbalanced data streams that uses SMOTE as one component; the resampling is not presented as the contribution.,multiclass,medium
+R11723,unsure,U-new-or-applied,Supervised cloud anomaly detector that feeds SMOTE-Tomek synthetic samples only into BLS input generation; unclear whether this counts as a new way of applying SMOTE.,time-series,medium
+R11504,exclude,E1,"No abstract; the title describes resampling and classifying imbalanced mud-log data for a drilling risk problem, an application of resampling.",no-abstract,medium
+R13798,exclude,E1,Bankruptcy prediction applying existing Borderline-SMOTE with random forest feature selection; no new resampling method.,,high
+R12494,unsure,U-new-or-applied,Poultry monitoring system using SMOTE optimised by an artificial hummingbird algorithm; cannot tell whether this tuned SMOTE is a new variant or applied from prior work.,,low
+R03362,unsure,U-new-or-applied,"IoT attack detection proposing PPDT-SMOTE, which pairs decision-tree pruning with SMOTE on non-pruned regions; unclear whether the way SMOTE is applied changes (clarification 3).",multiclass,medium
+R00318,exclude,E-COMPARE,"Evaluates random subspace, bagging and boosting ensembles with standard SMOTE as preprocessing; nothing new in the resampling.",comparison,medium
+R18022,exclude,E-REVIEW,"Erratum notice correcting typesetting errors, not a research paper; the corrected article (an oversampling method) should be checked as its own record.",front-matter-in-scope,high
+R10673,exclude,E1,"Rough-set ensemble for software fault prediction with SMOTE added unchanged (SMOTE-NRSEL); the contribution is attribute-space perturbation, not the resampling.",,medium
+R06871,include,I1-other,"Proposes a new over-sampling strategy that constructs synthetic samples to balance the saliency classifier's training set, tested on three datasets.",image,high
+R06279,exclude,E1,"No abstract; the title proposes error-type metrics for software fault prediction, not a resampling method.",no-abstract,medium
+R00579,exclude,E-COMPARE,"Compares combinations of existing balancing methods, feature extraction methods and learners for shellfish farm closure prediction.",comparison;time-series,high
+R16750,unsure,U-new-or-applied,Generates minority-class images with Stable Diffusion and filters them by a CLIP alignment score; an existing generator plus filtering presented as a method (clarification 3).,image;generative;deep-learning,medium
+R02786,include,I1-generative,"Proposes DCGAN-based oversampling of crash data reshaped into 2-D matrices, compared with SMOTE and undersampling on expressway data.",generative;deep-learning,medium
+R10670,exclude,E1,Multimodal classroom emotion recognition framework that applies GANs to augment under-represented emotions; the generator is not the contribution and the paper is partly a discussion piece.,generative;deep-learning;text;image,medium
+R04475,exclude,E1,SAR target recognition model whose contribution is cost-sensitive awareness; existing oversampling methods are used at the data level.,image;deep-learning,medium
+R07216,exclude,E1,Applies existing GAN and SMOTE to synthesise a tax return dataset for evasion detection; no new generation method.,generative,medium
+R12650,exclude,E1,Lithology classification with an enhanced random forest that uses standard Borderline-SMOTE as one component.,multiclass,high
+R11598,unsure,U-other,Meta-analysis plus a reinforcement learning agent that picks among existing sampling methods; the codebook does not say whether adaptive selection of resamplers counts as changing how SMOTE is applied.,comparison,low
+R10804,exclude,E1,No abstract; the title describes student dropout prediction using machine learning and existing resampling techniques.,no-abstract,medium
+R07854,unsure,U-new-or-applied,Digital twin attack detection using SMOTE with an LSTM plus silhouette-based removal of between-cluster samples; unclear whether this cleaning changes the resampling or is a separate step.,deep-learning,low
+R01853,unsure,U-other,New SOM- and GA-based hybrid resampling evaluated on UCI and industrial data; the abstract does not say whether oversampling creates synthetic samples or replicates selected ones.,,medium
+R03112,exclude,E-NOGEN,Aircraft failure prognostics with NLP and ensemble learning on minority-class patterns; no synthetic examples are generated and SMOTE is only a baseline.,text,medium
+R00825,include,I1-hybrid,"Proposes a hybrid under- and oversampling scheme with per-dataset sampling rate selection inside each bagging iteration, evaluated on 26 UCI datasets.",,medium
+R18193,unsure,U-other,"I2 not stated in the abstract: DC-SMOTE is a new SMOTE variant with consistency-constrained placement, but only theoretical analysis is reported.",,high
+R11093,unsure,U-new-or-applied,Credit card fraud study claiming a proposed hybrid of synthetic oversampling and undersampling; likely existing methods combined and presented as new (clarification 3).,,medium
+R03483,exclude,E1,No abstract; the title describes a domain ECG false-alarm detection application with no sign of a resampling method.,no-abstract;medical;time-series,medium
+R04521,exclude,E-REVIEW,Descriptive overview of methods for imbalanced data with emphasis on SMOTE plus ensembles; no new method or evaluation.,,high
+R07551,include,I1-hybrid,"Proposes a two-phase SMOTE-then-CGAN oversampler in which the GAN refines SMOTE samples, evaluated on a bank fraud dataset.",generative;deep-learning,high
+R17056,exclude,E1,Soil fertility classifier that uses an existing improved SMOTE (ISMOTE) as preprocessing; the contribution is the deep model.,deep-learning;multiclass,high
+R14346,exclude,E-NOGEN,"Multi-stage deep learning for imbalanced IIoT intrusion detection, compared against resampling; the abstract describes no generation of synthetic examples.",deep-learning;multiclass,medium
+R08186,exclude,E-NOGEN,"Introduces a new cluster-based undersampling, then compares existing ADASYN, NearMiss-2 and SMOTETomek on crash data; the new part generates no synthetic examples.",comparison,medium
+R10053,include,I1-new-variant,"Proposes SMOTE-MRS, which applies SMOTE inside k-means clusters plus random oversampling, evaluated on several medical datasets against SMOTE variants.",medical,high
+R17718,unsure,U-other,"Examines two modifications of the existing SOUP multiclass resampler (adding feature selection, dropping undersampling); unclear whether this is a new oversampling scheme and whether SOUP creates synthetic examples.",multiclass;medical,medium
+R00530,include,I1-other,"Proposes oversampling of the target concept in positive bags with removal of borderline instances for imbalanced multiple-instance learning, evaluated on MIL benchmarks.",,medium
+R00949,include,I1-new-variant,"Proposes GA-based automatic tuning of the DBSCAN-SMOTE hybrid sampler DBSM (GADBSM), evaluated against DBSM; parameter tuning taken as changing how SMOTE is applied.",,medium
+R04204,exclude,E-REVIEW,Titled as a survey; the abstract describes ensemble SVM with an existing SMOTE extension and noise filter (wording mirrors SMOTE-IPF) and names no evaluation.,medical,low
+R13321,exclude,E1,"Graph fraud detection model that applies a graph GAN to generate synthetic fraud nodes; the contribution is contrastive learning, not the generator.",generative;deep-learning,medium
+R13420,exclude,E-NOGEN,Hardware Trojan GCN detector handling imbalance with mini-batch over- and undersampling of existing nodes; no synthetic examples are generated.,deep-learning,medium
+R02346,exclude,E1,No abstract; the title describes a domain ECG heartbeat CNN classifier with no sign of a resampling method.,no-abstract;medical;time-series;deep-learning,medium
+R16056,unsure,U-other,"I2 not stated in the abstract: Ca-SMOTE restricts SMOTE generation to regions of low classifier confidence, but only theoretical analysis is reported.",,high
+R13561,exclude,E2,"Uses an existing evolutionary SMOTE before fuzzy c-means clustering; the task is clustering, not classification.",,high
+R04839,unsure,U-new-or-applied,Landslide classification method whose first step mitigates extreme imbalance (oversampling keyword); the abstract does not say whether that step is new or an existing oversampler.,deep-learning,low
+R08993,exclude,E1,IoT intrusion detection with a multi-task CNN; an existing GAN-based oversampler is used as preprocessing.,generative;deep-learning;multiclass,high
+R01353,include,I1-new-variant,"Proposes a distributed Spark version of SMOTE using locality sensitive hashing for the neighbour search, with results on the quality of generated samples.",,medium
+R00661,exclude,E-REVIEW,"No abstract; an Elsevier book chapter on in silico ADMET profiling, likely an overview and unrelated to new resampling methods.",no-abstract;medical,medium
+R11649,exclude,E1,No abstract; the title describes a domain cyberbullying prediction study with standard machine learning algorithms.,no-abstract;text,medium
+R04800,unsure,U-new-or-applied,"GSMOTE-FE combines Gaussian-SMOTE with Tomek links, feature selection and bagging for EEG workload; unclear whether the generation goes beyond existing Gaussian-SMOTE (clarification 3).",medical;time-series,medium
+R00888,unsure,U-new-or-applied,"Proposes OS-YATSI, combining semi-supervised learning with an oversampling strategy for defect severity ranking; the abstract does not say how or whether synthetic examples are generated.",multiclass,medium
+R05388,exclude,E1,"User behaviour classification with SMOTE plus an AdaBoost improved by feature and sample weights; the change is to boosting weights, not to SMOTE.",,medium
+R16747,exclude,E1,VANET intrusion detection project that adopts existing CGAN-based oversampling for the VeReMi dataset.,generative;multiclass,high
+R20006,exclude,E-COMPARE,"No abstract; the title is a comparative study of interpretable XGBoost variants for insurance fraud, with no resampling method.",no-abstract;comparison,medium
+R12541,exclude,E1,"IoT botnet IDS pipeline that applies existing random oversampling, SMOTE and CTGAN with federated learning; no new generator.",generative;deep-learning;multiclass,high
+R21635,unsure,U-new-or-applied,IoT intrusion network whose components include an Adaptive-SMOTE producing variance-aware samples; unclear whether this SMOTE variant is new or an existing one applied.,deep-learning;multiclass,medium
+R00746,unsure,U-new-or-applied,"SMOTE-SDAE pairs SMOTE with a stacked denoising autoencoder that denoises and classifies the sampled data; existing parts combined, unclear whether generation changes (clarification 3).",deep-learning,medium
+R06828,exclude,E-REVIEW,"Short comment correcting the theoretical analysis of SMOTE in an earlier paper; proposes no method (closest code is an editorial-type note), may matter for the theory discussion.",,medium
+R08722,include,I1-hybrid,"Proposes Ensemble-SMOTE, which aggregates data generated by several SMOTE variants, and compares it with other treatments for on-time graduation prediction.",comparison,medium
+R06344,exclude,E-COMPARE,No abstract; the title is a comparison of white-box and black-box models for student grade prediction on imbalanced data.,no-abstract;comparison,medium
+R20658,unsure,U-new-or-applied,Bearing fault diagnosis framework with a cluster-level difficulty-aware oversampler (MWMOTE-based) and a multimodal LLM; unclear whether the oversampler is new or MWMOTE applied.,time-series;deep-learning;multiclass,medium
+R13652,exclude,E1,Breast cancer diagnosis with logistic regression on FNA features; SMOTE is only a preprocessing step.,medical,high
+R03011,include,I1-other,"Proposes a semi-supervised oversampling method to balance data before classifying student grades, evaluated on the UCI student performance data.",,medium
+R08977,unsure,U-new-or-applied,"Proposes HSS, a hybrid of undersampling and oversampling with a tuned threshold for IoT traffic; the abstract does not say whether the oversampling generates synthetic examples in a new way.",,medium
+R22052,exclude,E1,"Review topic and sentiment analysis that applies an existing random oversampling plus NCL combination, compared with ROS, NCL and SMOTE.",text;deep-learning,high
+R11154,exclude,E1,No abstract; the title describes XGBoost with existing Borderline-SMOTE for loan approval data.,no-abstract,medium
+R17998,exclude,E1,"No abstract; the title describes a domain effluent COD prediction model with feature optimisation, likely regression, with no sign of a resampling method.",no-abstract,medium
+R17978,unsure,U-other,"Conditional 3D diffusion model synthesising trabecular bone for virtual clinical trials and reconstruction priors, not for imbalanced classification (clarification 1).",generative;image;medical;deep-learning,medium
+R08578,include,I1-new-variant,"Proposes Select-SMOTE, generating minority samples via joint partitioning and boundary optimisation, with LightGBM for aspect category detection on SemEval and SentiHood.",text;multiclass,medium
+R03984,exclude,E1,SAR ship classification that applies a standard DCGAN trained on the minority class to generate image chips; the generator is not changed.,image;generative;deep-learning,medium
+R16709,unsure,U-other,"I2 not stated in the abstract: AK-SMOTE interpolates in an RKHS with adaptive local kernels, but only mathematical derivations are reported.",,high
+R17547,exclude,E-COMPARE,Benchmarks SMOTE and GAN- and CVAE-style augmentation for oral lesion prediction; a comparison of existing approaches.,comparison;generative;medical,medium
+R14644,exclude,E1,Halal document sentence classification comparing existing over- and undersamplers and adopting ADASYN plus Tomek links; no new method.,text;comparison,medium
+R17758,exclude,E1,Leakage-free intrusion detection framework that assesses existing resamplers within training folds; no new generation (abstract truncated in the record).,,medium
+R12147,exclude,E1,Darknet traffic classification that uses an existing adversarial autoencoder as an oversampler; the generator itself is not changed.,generative;deep-learning,medium
+R18203,unsure,U-other,"I2 not stated in the abstract: DTG-SMOTE confines SMOTE interpolation to decision-tree leaf paths, but only theoretical analysis is named.",,medium
+R03214,exclude,E1,Telecom churn prediction combining tuned existing oversampling methods with standard ensembles; no new resampling method.,,medium
+R21528,exclude,E1,Streaming class-incremental learning framework that applies oversampling as one component; the resampling is not the contribution.,multiclass;deep-learning,medium
+R04438,include,I1-hybrid,"GEP-NB generates synthetic minority examples and evolves two GEP genes that select them by different procedures, evaluated in an extensive experiment.",,medium
+R08830,unsure,U-new-or-applied,Hepatic fibrosis prediction framework with a self-designed UNDO oversampling (random plus dissimilar oversampling); unclear whether it creates synthetic examples or is a new scheme.,medical,low
+R07615,exclude,E1,Asthma diagnosis pipeline that applies data augmentation (GAN per keywords) with feature selection and XGBoost; the generator is not new.,medical;generative,medium
+R09706,include,I1-hybrid,"PolSAR classification with a newly devised anti-imbalance scheme combining pseudo-label generation and weighted feature-level synthetic oversampling, tested on four benchmarks.",image;deep-learning;multiclass,medium
+R08923,unsure,U-other,"Dissertation summary (typed as a journal article) introducing HOVER, a graph oversampling method for bot detection; meets I1 and I2 but may fail I3 as a thesis.",deep-learning,medium
+R08567,unsure,U-new-or-applied,Software defect ensemble whose data preparation combines K-member fuzzy clustering and oversampling; the abstract does not say whether the oversampling is new.,,low
+R12980,exclude,E1,Alzheimer's MRI classification that applies standard GANs to augment under-represented classes for DCNNs.,image;medical;generative;deep-learning;multiclass,high
+R14425,exclude,E1,Alzheimer's variant classification framework that applies an existing hybrid SMOTE in a clinical feature space before deep models.,medical;deep-learning,medium
+R02857,exclude,E1,"Botnet and IDS datasets balanced with SMOTE tuned by grid search alongside tuned classifiers; standard hyperparameter tuning, not a new variant.",,medium
+R11272,unsure,U-other,GAN-LSTM model whose generator synthesises attack patterns for CPS intrusion detection; unclear whether the task is classification or anomaly scoring (E2) and whether the oversampling is new.,generative;deep-learning;time-series,low
+R06231,include,I1-new-variant,Proposes the Eigen-Entropy metric to choose which minority samples and how many to oversample; two EE-guided oversamplers beat literature methods on 10 datasets.,,medium
+R08290,unsure,U-new-or-applied,"Existing WGAN-GP with a classifier two-sample test to filter samples and a data-block scheme, presented as a new augmentation model (clarification 3).",generative,medium
+R07827,include,I1-hybrid,"Belief-rule-based classifier with a hybrid sampling strategy that generates new minority rules by differential evolution, compared with data-level methods on thyroid data.",medical,medium
+R16635,include,I1-hybrid,"Proposes SMOTE with cluster filtering plus a distance-weighted ENN to generate and clean minority samples for gestational diabetes, evaluated on two datasets.",medical,medium
+R04154,include,I1-new-variant,"Proposes Tomek-CASUWO, a new oversampler extending A-SUWO with noise filtering and boundary handling, compared with other oversamplers.",,high
+R20853,unsure,U-other,"I2 not stated in the abstract: OT-SMOTE interpolates in an invertible observable space, but only theoretical analysis is named.",,medium
+R00596,include,I1-new-variant,"Proposes a cluster-based oversampling built on k-means and SMOTE for heterogeneous patient groups, evaluated on HCC survival prediction against baselines.",medical,medium
+R19105,exclude,E1,"No abstract; the title describes a domain breast cancer diagnosis framework with feature selection and SHAP, with no sign of a new resampling method.",no-abstract;medical;deep-learning,medium
+R00824,exclude,E1,"Bank marketing prediction with a heterogeneous AdaBoost.M2 ensemble that adopts SMOTE (SMOTEBoost-style); the novelty is the base classifiers, not the resampling.",,medium
+R12523,exclude,E-COMPARE,Compares tabular data formats for LLM-based synthetic sample generation by token cost and time; no new generator.,comparison;generative,medium
+R08444,unsure,U-new-or-applied,DK-MS combines double k-means data reduction with SMOTE for big data and is presented as new; no change to the generation is described (clarification 3).,,medium
+R13505,unsure,U-new-or-applied,"Introduces HSMOTE inside a big data framework, but its described interpolation between close minority instances looks like standard SMOTE; unclear what is new.",deep-learning;multiclass,medium
+R19440,exclude,E1,"No abstract; the title is about calibration, explainability and compliance of credit risk models, not resampling.",no-abstract,medium
+R22082,exclude,E-COMPARE,"Explores combinations of existing feature selection methods, SMOTE or ADASYN and deep models on NSL-KDD; no new method.",comparison;deep-learning;multiclass,high
+R00696,exclude,E-NOGEN,"Big data contact-map method that balances classes with MapReduce random oversampling, evolutionary feature weighting and random forest; no synthetic examples.",,medium
+R04829,exclude,E1,Pathological speech severity classification combining PCA and EM-derived features with standard SMOTE; no change to SMOTE.,medical;multiclass,medium
+R13739,unsure,U-new-or-applied,Parkinson's severity model with a proposed oversampling-based data structuring strategy for gait signals; the abstract does not say what it generates or whether it is new.,time-series;medical;deep-learning;multiclass,low
+R03520,exclude,E1,Aging-related bug prediction that uses a standard GAN to generate minority samples; the generator is not changed.,generative,medium
+R19494,exclude,E1,Transformer DGA fault diagnosis that applies existing CTGAN augmentation with XGBoost.,generative;multiclass,high
+R08677,exclude,E2,"Shale gas EUR prediction with TPE-optimised SMOGN; a regression task (R2), not classification.",,high
+R01502,include,I1-hybrid,"Proposes TOP, which uses DBSCAN to draw two similarity boundaries around positive instances and applies over- or undersampling inside them, benchmarked on 15 datasets.",,medium
+R03571,unsure,U-other,I2 not stated in the abstract: arXiv thesis summarising 12 papers that propose resampling strategies using majority-class information; the thesis format may also fail I3.,multiclass,medium
+R21494,unsure,U-other,"I2 not stated in the abstract: Encoding-shift SMOTE synthesises across float, integer and quantised spaces, but only a theoretical framework is reported.",,high
+R07524,exclude,E1,Credit card fraud pipeline that employs an existing ESMOTE-GAN oversampler with autoencoder features and voting classifiers.,generative;deep-learning,medium
+R02283,exclude,E1,"Assembly quality prediction with SMOTE-AdaBoost whose hyperparameters are jointly tuned; the contribution is the domain pipeline, not a change to SMOTE.",,medium
+R00618,exclude,E-COMPARE,Empirical analysis of raising the oversampling ratio for an extremely imbalanced big data problem under MapReduce; no new method.,comparison,medium
+R11727,exclude,E2,Causal discovery for engine vibration that applies a KNNOR regression oversampler; no classification task.,,high
+R21754,exclude,E-NOGEN,New SVM-slack-guided oversampler that replicates minority support vectors instead of generating synthetic data.,,high
+R12347,exclude,E1,Sleep staging study that applies sliding-window augmentation to balance stages before CNNs; an existing augmentation applied to a domain.,time-series;medical;deep-learning;multiclass,medium
+R10845,exclude,E1,"Coronary heart disease study applying the SMOTE-KTLNN resampler with MLP, CNN and VAE models, compared with other SMOTE variants.",medical;deep-learning,medium
+R05522,include,I1-hybrid,"Proposes HPACID, combining oversampling with special handling of boundary instances and an ensemble, compared with ROS, RUS, SMOTE and EHSEL on ten datasets.",,medium
+R16064,exclude,E1,Cost-sensitive transformer for industrial prognostics with an existing hybrid resampler (SVM-SMOTE and repeated ENN per keywords) in the workflow.,deep-learning,medium
+R08039,exclude,E-NOGEN,"Twitter spam detection with a new PSO-based undersampling and an ensemble; only random oversampling, no synthetic generation.",text,high
+R12623,exclude,E-COMPARE,"Compares existing over- and undersamplers with random forest for student performance; despite the title, no new technique is described.",comparison,medium
+R14120,exclude,E1,GPON fault prediction system that mixes vetted synthetic samples with real data; no new generation method is described.,multiclass,medium
+R06585,unsure,U-new-or-applied,Airline tweet sentiment pipeline using a density-based SMOTE that targets misclassified cases; unclear whether the authors propose it or apply an existing DSMOTE.,text;multiclass,low
+R17703,exclude,E-NOGEN,"No abstract; the title describes a class-imbalance-aware network architecture for ECG, suggesting an algorithm-level approach rather than generation.",no-abstract;medical;time-series;deep-learning,low
+R02465,unsure,U-new-or-applied,"Insurance fraud study proposing TH-SMOTE, which picks the SMOTE oversampling threshold by G-mean; unclear whether this empirical tuning counts as a new allocation scheme.",,medium
+R19406,exclude,E1,Multimodal fraud detection framework in which an unspecified synthetic minority augmentation handles imbalance; the generator is not the contribution.,generative;deep-learning,medium
+R04506,exclude,E2,Virtual metrology for wafer yield prediction (regression) that applies SMOTE to balance multimodal samples.,deep-learning,medium
+R01603,exclude,E-COMPARE,"Analyses SMOTE behaviour in big data by oversampling degree, neighbourhood size and local versus global distributed design; an empirical analysis rather than a new method.",comparison,medium
+R03664,include,I1-hybrid,"Proposes an SVM ensemble over multiple kernel feature spaces with a boundary densification oversampling algorithm, compared with other imbalanced classification methods.",,medium
+R20710,exclude,E1,5G traffic classifier (DCNN-LSTM) that employs an existing improved SMOTE (ISMOTE) to augment training data.,deep-learning;multiclass,medium
+R18785,exclude,E1,Credit card fraud framework adding quantum cryptography and federated learning around standard SMOTE with AdaBoost; SMOTE itself is unchanged.,,medium
+R01033,exclude,E1,"Geo-location prediction for social media using existing under-, over- and hybrid sampling plus instance weighting; no new generation method.",text,medium
+R13406,unsure,U-new-or-applied,Intrusion detection paper presenting SMOTE combined with ENN as a novel preprocessing method; this looks like existing SMOTE-ENN (clarification 3).,deep-learning;multiclass,medium
+R16147,unsure,U-new-or-applied,PV fault classification framework with a conditional TimeGAN designed for minority fault classes and trained jointly with TimesNet; unclear whether the generator is new.,generative;deep-learning;time-series;multiclass,medium
+R05322,exclude,E1,Sports culture platform paper that describes SMOTE and lists problems in optimising it; no new oversampler is evaluated on classification data.,,medium
+R13510,exclude,E1,Sleep-state prediction that applies a standard VAE to generate minority samples feeding dual SVMs and a meta-classifier; the generation is not changed.,generative;medical,medium

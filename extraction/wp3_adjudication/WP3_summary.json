@@ -1,0 +1,354 @@
+{
+ "data_extraction": {
+  "fields": {
+   "n_instances": {
+    "n": 283,
+    "agreement": 0.951,
+    "disagreements": 14,
+    "kept": 0,
+    "corrected": 1,
+    "filled": 13,
+    "agreements_checked": 55,
+    "agreements_filled": 3,
+    "changed_share": 0.049
+   },
+   "n_features": {
+    "n": 283,
+    "agreement": 0.862,
+    "disagreements": 39,
+    "kept": 10,
+    "corrected": 0,
+    "filled": 29,
+    "agreements_checked": 48,
+    "agreements_filled": 0,
+    "changed_share": 0.102
+   },
+   "n_classes": {
+    "n": 283,
+    "agreement": 0.565,
+    "disagreements": 123,
+    "kept": 116,
+    "corrected": 0,
+    "filled": 7,
+    "agreements_checked": 30,
+    "agreements_filled": 9,
+    "changed_share": 0.025
+   },
+   "n_minority": {
+    "n": 283,
+    "agreement": 0.82,
+    "disagreements": 51,
+    "kept": 0,
+    "corrected": 1,
+    "filled": 50,
+    "agreements_checked": 49,
+    "agreements_filled": 0,
+    "changed_share": 0.18
+   },
+   "ir_as_printed": {
+    "n": 283,
+    "agreement": 0.926,
+    "disagreements": 21,
+    "kept": 8,
+    "corrected": 0,
+    "filled": 13,
+    "agreements_checked": 51,
+    "agreements_filled": 1,
+    "changed_share": 0.046
+   },
+   "metric": {
+    "n": 97,
+    "agreement": 0.938,
+    "disagreements": 6,
+    "kept": 6,
+    "corrected": 0,
+    "filled": 0,
+    "agreements_checked": 16,
+    "agreements_filled": 0,
+    "changed_share": 0.0
+   },
+   "proposed": {
+    "n": 97,
+    "agreement": 0.887,
+    "disagreements": 11,
+    "kept": 3,
+    "corrected": 8,
+    "filled": 0,
+    "agreements_checked": 19,
+    "agreements_filled": 0,
+    "changed_share": 0.082
+   },
+   "smote": {
+    "n": 97,
+    "agreement": 0.959,
+    "disagreements": 4,
+    "kept": 1,
+    "corrected": 3,
+    "filled": 0,
+    "agreements_checked": 20,
+    "agreements_filled": 0,
+    "changed_share": 0.031
+   }
+  },
+  "values": 1706,
+  "agreement": 0.842,
+  "corrected": 13,
+  "filled": 112,
+  "changed_share": 0.073,
+  "note": "kappa is not computed for printed numbers; agreement is the share of identical values"
+ },
+ "data_handling": {
+  "crit_type": {
+   "n": 76,
+   "agreement": 0.684,
+   "kappa": 0.292,
+   "kept": 15,
+   "corrected": 9
+  },
+  "minority_rule": {
+   "n": 76,
+   "agreement": 0.671,
+   "kappa": 0.614,
+   "corrected": 19,
+   "kept": 6
+  },
+  "origin:Natural": {
+   "n": 73,
+   "agreement": 0.932,
+   "kappa": 0.511,
+   "corrected": 5
+  },
+  "origin:Binarised": {
+   "n": 73,
+   "agreement": 0.849,
+   "kappa": 0.697,
+   "corrected": 10,
+   "kept": 1
+  },
+  "origin:Class-merged": {
+   "n": 73,
+   "agreement": 0.904,
+   "kappa": 0.482,
+   "kept": 4,
+   "corrected": 3
+  },
+  "origin:Class-resized": {
+   "n": 73,
+   "agreement": 0.918,
+   "kappa": 0.372,
+   "kept": 3,
+   "corrected": 3
+  },
+  "origin:Undersampled": {
+   "n": 73,
+   "agreement": 0.904,
+   "kappa": 0.534,
+   "corrected": 4,
+   "kept": 3
+  },
+  "origin:Noise-injected": {
+   "n": 73,
+   "agreement": 0.945,
+   "kappa": 0.748,
+   "corrected": 2,
+   "kept": 2
+  },
+  "origin:Induced profile": {
+   "n": 73,
+   "agreement": 0.973,
+   "kappa": 0.736,
+   "corrected": 2
+  },
+  "origin:Generated": {
+   "n": 73,
+   "agreement": 0.753,
+   "kappa": 0.498,
+   "corrected": 8,
+   "kept": 10
+  }
+ },
+ "paper_level_after_adjudication": {
+  "papers_with_evaluation": 73,
+  "reason_given": 67,
+  "no_reason": 6,
+  "reason_rule": "D34: own reason or cited work counts; generic only (\"widely used\") and not stated do not",
+  "binarised_by_anyone": 47
+ },
+ "method": {
+  "fields": {
+   "class": {
+    "agreement": 0.909,
+    "kappa": 0.841,
+    "n": 11
+   },
+   "link": {
+    "agreement": 1.0,
+    "kappa": 1.0,
+    "n": 11
+   },
+   "decision points": {
+    "agreement": 0.955,
+    "kappa": 0.909,
+    "n": 66
+   }
+  },
+  "adjudication": {
+   "class": {
+    "kept": 11
+   },
+   "link": {
+    "kept": 11
+   },
+   "S": {
+    "kept": 10,
+    "corrected": 1
+   },
+   "A": {
+    "kept": 11
+   },
+   "N": {
+    "kept": 10,
+    "corrected": 1
+   },
+   "P": {
+    "kept": 11
+   },
+   "F": {
+    "kept": 11
+   },
+   "L": {
+    "kept": 11
+   }
+  },
+  "items": 88,
+  "corrected": 2,
+  "filled": 0,
+  "decision_points_by_letter": {
+   "S": {
+    "kept": 10,
+    "corrected": 1
+   },
+   "A": {
+    "kept": 11
+   },
+   "N": {
+    "kept": 10,
+    "corrected": 1
+   },
+   "P": {
+    "kept": 11
+   },
+   "F": {
+    "kept": 11
+   },
+   "L": {
+    "kept": 11
+   }
+  }
+ },
+ "evaluation": {
+  "fields": {
+   "plain SMOTE baseline": {
+    "agreement": 1.0,
+    "kappa": 1.0,
+    "n": 15
+   },
+   "no-resampling baseline": {
+    "agreement": 1.0,
+    "kappa": 1.0,
+    "n": 15
+   },
+   "resampling inside folds stated": {
+    "agreement": 0.867,
+    "kappa": 0.727,
+    "n": 15
+   },
+   "how settings were chosen": {
+    "agreement": 0.6,
+    "kappa": 0.427,
+    "n": 15
+   },
+   "code released": {
+    "agreement": 1.0,
+    "kappa": 1.0,
+    "n": 15
+   },
+   "any statistical test": {
+    "agreement": 1.0,
+    "kappa": 1.0,
+    "n": 15
+   },
+   "a measure defined wrongly": {
+    "agreement": 0.867,
+    "kappa": 0.667,
+    "n": 15
+   },
+   "calibration measure reported": {
+    "agreement": 1.0,
+    "kappa": null,
+    "n": 15
+   },
+   "real datasets (n)": {
+    "agreement": 0.933,
+    "kappa": 0.928,
+    "n": 15
+   }
+  },
+  "adjudication": {
+   "plain SMOTE baseline": {
+    "kept": 15
+   },
+   "no-resampling baseline": {
+    "kept": 15
+   },
+   "resampling inside folds stated": {
+    "corrected": 1,
+    "kept": 14
+   },
+   "how settings were chosen": {
+    "kept": 11,
+    "corrected": 4
+   },
+   "code released": {
+    "kept": 15
+   },
+   "any statistical test": {
+    "kept": 15
+   },
+   "a measure defined wrongly": {
+    "kept": 13,
+    "corrected": 2
+   },
+   "calibration measure reported": {
+    "kept": 15
+   },
+   "real datasets (n)": {
+    "kept": 14,
+    "corrected": 1
+   }
+  },
+  "items": 135,
+  "corrected": 8,
+  "filled": 0
+ },
+ "agreements_checked": {
+  "total": 351,
+  "by_form": {
+   "Data extraction": 288,
+   "Data handling": 21,
+   "Method": 17,
+   "Evaluation": 25
+  },
+  "results": {
+   "value printed": 210,
+   "both blank": 52,
+   "fill": 13,
+   "convention (D32)": 5,
+   "value printed (read on the rendered page)": 8,
+   "confirmed": 63
+  },
+  "wrong_values_found": 0,
+  "seed": "20261111 (a fifth of the agreements of each form)"
+ },
+ "decided_by": "AI adjudication (Claude Opus 5.5, 12 Nov 2026) under D31 to D36; spot check by the team lead pending"
+}

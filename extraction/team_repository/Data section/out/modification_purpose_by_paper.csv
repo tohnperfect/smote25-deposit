@@ -1,0 +1,44 @@
+paper_key,year,drive_folder,modified_entries,operations,noise_added,stated_purpose,harder,basis,publishes_modified_data,converted_and_two_class_only,same_data_also_unmodified,several_levels,win_share_modified,win_share_other,rows_modified,rows_other
+A-SUWO,2016,Binary,12,CS:12,,not stated,no,not stated,not stated,no,0 of 12 families,no,0.793,0.909,35,12
+ADASYN,2008,Binary,3,CS:3;FM:1,,two-class scope,no,earlier work,not stated,yes,0 of 3 families,no,0.533,0.9,15,10
+AMDO,2018,Multiclass,3,CS:2;SF:1,,not stated,no,not stated,not stated,no,0 of 3 families,no,,,0,0
+Borderline-SMOTE,2005,Both,1,CS:1,,two-class scope,no,not stated,not stated,yes,0 of 1 families,no,,,0,0
+CISO,2025,Binary,4,CS:4,,not stated,no,stated rule,not stated,yes,0 of 4 families,no,,,0,0
+COG-OS,2007,Binary,9,CS:2;IM:6;SF:4;US:6,,create/raise imbalance;practical,yes,not stated,not stated,no,0 of 9 families,no,,,0,0
+CTGAN / TVAE,2019,Both,2,FM:2,,not stated,no,not stated,not stated,no,0 of 1 families,no,,,0,0
+Cluster-SMOTE,2006,Binary,2,CS:2;LC:2,,two-class scope,no,not stated,not stated,yes,0 of 2 families,no,,,0,0
+ClusterCentroids,2009,Both,1,SF:1,,not stated,no,not stated,not stated,no,0 of 1 families,no,,,0,0
+DGOT,2026,Both,2,CS:2,,not stated,no,not stated,not stated,no,1 of 1 families,no,1.0,0.881,6,60
+DLexiBoost,2020,Both,3,FM:3;SF:3,,not stated,no,not stated,not stated,no,0 of 1 families,no,,,0,0
+DSRBF / Static-SMOTE,2011,Both,2,CS:2,,not stated,no,not stated,yes,no,0 of 2 families,no,,,0,0
+EasyEnsemble / BalanceCascade,2009,Both,10,CS:10,,not stated,no,not stated,not stated,no,0 of 10 families,no,,,0,0
+G-SMOTE,2019,Binary,42,IM:42;US:42,,create/raise imbalance,yes,not stated,not stated,no,17 of 18 families,yes,,,0,0
+GAMO,2019,Both,9,CS:5;FM:5;IM:2;US:4,,create/raise imbalance,yes,not stated,not stated,no,0 of 9 families,no,,,0,0
+GMMSampling,2024,Multiclass,11,CS:11,,not stated,no,earlier work,not stated,no,0 of 10 families,no,,,0,0
+GOIO,2025,Both,6,CS:6,,not stated,no,not stated,not stated,yes,0 of 3 families,no,1.0,0.861,18,36
+HDE,2021,Both,14,IM:14;US:14,,create/raise imbalance,yes,not stated,yes,no,0 of 13 families,yes,,,0,0
+INOS,2013,Both,7,CS:4;US:7,,not stated,no,not stated,not stated,yes,0 of 7 families,no,0.6,,35,0
+LS,2008,Binary,2,CS:2;SF:1,,not stated,no,not stated,not stated,yes,0 of 2 families,no,,,0,0
+MC-CCR,2020,Both,1,NI:1,random label noise,robustness test,yes,not stated,not stated,no,0 of 1 families,yes,,,0,0
+MC-MBRC,2024,Multiclass,1,NI:1,label noise (labels randomly replaced),robustness test,yes,not stated,not stated,no,0 of 1 families,yes,,,0,0
+MC-NCLWO,2025,Multiclass,1,NI:1,Gaussian feature noise,robustness test,yes,not stated,not stated,no,0 of 1 families,yes,,,0,0
+MWMOTE,2014,Both,18,CS:18,,two-class scope,no,not stated,not stated,yes,0 of 18 families,no,0.745,1.0,51,3
+NBU,2020,Binary,2,CS:2;IM:2;US:2,,two-class scope;create/raise imbalance,yes,not stated,not stated,no,0 of 1 families,yes,,0.649,0,96
+OSS,1997,Binary,3,CS:3;US:2,,not stated,no,not stated,not stated,yes,0 of 3 families,no,,,0,0
+OVO-SMOTE,2013,Multiclass,4,SF:4,,not stated,no,not stated,not stated,no,0 of 4 families,no,,,0,0
+RACOG / wRACOG,2015,Both,8,CS:8;FM:3;SF:1,,not stated,no,not stated,not stated,yes,0 of 7 families,no,,,0,0
+RAMOBoost,2010,Binary,15,CS:13;NI:2,class label noise + attribute noise,two-class scope;robustness test,yes,earlier work,not stated,yes,0 of 15 families,yes,0.693,0.889,78,36
+RBO,2019,Both,2,NI:2,label noise; feature noise,robustness test,yes,not stated,not stated,no,0 of 2 families,no,,,0,0
+ROS (Buda),2018,Both,3,IM:3;SF:2;US:3,,create/raise imbalance,yes,not stated,not stated,no,0 of 3 families,no,,,0,0
+RSMOTE,2021,Binary,20,IM:18;NI:2;US:18,label noise (minority labels flipped);one outlier added,create/raise imbalance;robustness test,yes,not stated,not stated,no,1 of 19 families,yes,0.736,0.978,90,45
+RUSBoost,2010,Both,9,CS:9,,two-class scope,no,not stated,not stated,yes,0 of 9 families,no,1.0,1.0,9,6
+SMOM,2017,Both,14,CS:14,,not stated,no,not stated,not stated,no,2 of 10 families,no,0.648,0.694,56,52
+SMOTE,2002,Both,4,CS:2;FM:1;LC:1,,two-class scope,no,not stated,not stated,yes,0 of 4 families,no,,,0,0
+SMOTE-ENN / SMOTE-Tomek,2004,Both,12,CS:12,,not stated,no,not stated,not stated,yes,0 of 12 families,no,,,0,0
+SMOTE-IPF,2015,Both,2,NI:2,class noise + attribute noise,two-class scope;robustness test,yes,earlier work,not stated,no,0 of 2 families,yes,,1.0,0,9
+SMOTEBoost,2003,Both,2,CS:1;SF:1;US:1,,practical,no,earlier work,not stated,no,0 of 2 families,no,0.833,0.833,6,6
+SOUP,2019,Multiclass,2,CS:2,,not stated,no,not stated,not stated,no,0 of 1 families,no,,,0,0
+SPE,2020,Both,3,CS:2;NI:1,missing values (values replaced by 0),robustness test,yes,not stated,not stated,yes,0 of 2 families,yes,,1.0,0,12
+SVDD-WSMOTE,2022,Binary,20,CS:20;IM:11,,create/raise imbalance,yes,stated rule,not stated,yes,0 of 11 families,yes,1.0,1.0,60,12
+Safe-Level-SMOTE,2009,Both,1,CS:1,,two-class scope,no,not stated,not stated,no,0 of 1 families,no,,,0,0
+k-means SMOTE,2018,Binary,49,IM:49;US:49,,create/raise imbalance,yes,not stated,yes,no,12 of 12 families,yes,,,0,0

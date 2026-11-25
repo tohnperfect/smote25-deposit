@@ -1,0 +1,9 @@
+d42 coverage batch 221: n=6, eligible=4, Core=2, Partial=0, Not counted=2
+Not eligible: R21422 (NOT-GEN), R01304 (E1, ruling B2).
+
+Least sure:
+- R21422 eligibility: RRMP derives an optimal rebalancing ratio (KDE/Monte Carlo used only to compute it), then rebalances with random over/undersampling. I coded NOT-GEN because it generates no synthetic examples and SMOTE is only a 1:1 baseline. A reading of "a search for how much to oversample" as a SMOTE-application change would give eligible instead, but the generator would then be duplication, not interpolation.
+- R03697 (MECS-Ensemble): the O1/O3 generators interpolate between a sub-cluster centroid and an instance. I counted that as interpolation (Core) and as a placement change (P). A rests on size-proportional cluster allocation plus the EA-tuned oversampling rate. n_datasets=39 counts the paper's two-class problems, which come from about 15 UCI sets. The split is not described, so protocol/inside_folds/tuning are nr.
+- R00379 (COS-HMM): I did not apply B2 because the HMM word sampler with per-word Gaussian weights is the paper's own generator, not a stock language model. n_datasets=3 (OHSUMED, TREC Allele, TREC GO), although the abstract says two corpora.
+- R00725 (GASMOTE): S=no because the paper does not say any seed is barred (minN is not given). n_datasets=11 includes the VCR rockburst application. inside_folds=nr because the 10-fold CV setup does not say resampling was done within the training folds.
+- R02886 (UGRWO): Not counted/perturbation (RWO noise around one seed). Tuning=nr because K was picked from {3,5,10,15} with no criterion stated.

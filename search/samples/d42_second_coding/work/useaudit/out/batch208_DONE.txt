@@ -1,0 +1,11 @@
+d42 useaudit batch 208 (blind second coder): done
+n=10, fulltext=10, abstract=0, application=10
+inside_folds: stated=5, before-split=3, nr=2
+test_balanced: no=7, yes=3; vs_none yes=4; vs_weights yes=1; calibration yes=2; validation internal=10
+confidence: high=6, medium=4
+
+Least sure:
+- R13480 inside_folds=stated: text says SMOTE on training data only, within CV folds, but Table 1 counts (72 per class, 288) equal whole-data counts. Test metrics (38/42, 37/42, 39/42; FN 1 of 2) show a natural 42-image test set, so I kept stated/test no. Resampler includes other (FN image augmentation) and Borderline-SMOTE (Optuna option only).
+- R12074 inside_folds=stated: resampling placed after the stratified split only by the order of the methods steps (IV.C, then the IV.D pipeline), not said in words; recall 79/98 confirms an untouched test set. Stakes coded other (transaction-level decision).
+- R04241 and R01960 test_balanced=no: inferred from metric arithmetic (accuracy differs from macro recall / macro-F1, which cannot happen on a balanced binary test); inside_folds=nr because neither paper says where SMOTE sat relative to the split.
+- R15046 modality=mixed (CT radiomic features plus clinical variables); tabular or image would also be defensible.

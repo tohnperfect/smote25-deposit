@@ -1,0 +1,9 @@
+{
+ "task": "contraceptive [minority: 2]",
+ "source": "KEEL(keel_ds)",
+ "n": 1473,
+ "n_min": 333,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 9
+}

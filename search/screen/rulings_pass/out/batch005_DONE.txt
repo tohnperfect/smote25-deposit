@@ -1,0 +1,10 @@
+batch 005: 196 of 196 records done; own 150, existing-parts 41, unclear 5
+
+Look at these first (calls that decide inclusion either way):
+- Excluded by a judgement call that could go the other way: R05576 (ROSE coded statistical as KDE sampling; coded classical it would pass B), R03980 (SDG-GAN: new name, only a GAN named, no change stated), R02964 ("Improved CTGAN" = K-means + CTGAN), R00211 (EDAOS: RPCL + EDA sampling, coded statistical), R21844 (RBStack random minority size; R01359 has the same idea and was coded own, outcome-neutral there), R05601 (new attention undersampler + unchanged GAN; codebook does not settle), R22374 (DTW-SMOTE not said to be new), R08893 (MPcGAN baseline + augmentation choice + filter), R18489 (beta-VAE latent manipulation), R11191 (ResNet Deep-CTGAN + target-variable fix), R15300 (hybrid mixup), R13645 (Gaussian noise injection), R05756 ("hybrid SMOTE" not described), R00605 (resampling unnamed; could be unclear), R03230 (presented coded no; yes would pass B).
+- Kept as own on readings the codebook does not settle; existing-parts would exclude them: search or adaptive choice of SMOTE's k (R15971, R15196), improved clustering then SMOTE (R10109, R09432, R10934), oversampling plus the paper's own filter (R12058), adapted or extended parts (R04221, R12539, R08727, R06464, R09485, R09953), standard GAN with a changed procedure (R19290 firefly tuning, R06424 GradGAN, R05216 SDP-CycleGAN, R02514 GL-GAN).
+- Kept through B on a comparison inferred from the wording: R00596, R10733, R02225.
+- Generator kind not covered by the codebook: R21824 (DiCE counterfactuals, coded classical, kept through B; another kind would exclude it), R17972 (3D rendering, coded augmentation, own).
+- Unclear, no detail in the abstract: R08329, R13285, R14833, R04546, R09319.
+- Exclusions at medium confidence, less doubtful: R09542, R04759, R15884, R17697, R08812, R07296, R01688, R08886.
+- Notes: R09920 is a retracted paper; online or stream records (R00873, R05907, R01563) coded classification, not continual; R00596 coded survival.

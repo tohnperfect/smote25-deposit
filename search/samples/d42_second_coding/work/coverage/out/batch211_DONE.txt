@@ -1,0 +1,11 @@
+d42 coverage batch 211: n=6, eligible=5, Core=4, Partial=0, Not counted=1
+(excluded: 1, R06105 E1)
+
+Codes I was least sure of:
+- R00711 (V-synth), label: the new point lies on the segment from the seed to a random point on the Voronoi facet it shares with a hull of another class, so it stays inside the seed's own cell. I coded Core/interpolation with P=yes and N=yes, treating it as a region set by the chosen neighbour. Reading it as a "region around one point" (Not counted, perturbation) is defensible. Confidence low. vs_smote=no because only Borderline-SMOTE is compared.
+- R10916 (AD-GSMOTE), label: learned, unconstrained scalar weights combine three instances (tail node, adaptive class centre, nearest same-class node); coded Core with P=yes. A=no: each tail seed gets the same count, and gamma sets the total. Protocol=holdout: one split, five training runs. Tuning=validation: grid search plus a 20% validation split, but the paper does not link them explicitly.
+- R06105, eligibility: ASYNO is called "proposed" but comes from the authors' earlier paper [11] and is not described here. The contribution is the KNORA-U dynamic ensemble framework, so plain E1, not a ruling B/B2 exclusion.
+- R00077, N=yes: only from the SVSmt variant (partners restricted to support vectors); SVSmt2 keeps the usual pool. "Sos+BSVM" (SMOTE with Biased-SVM) read as vs_smote=plain.
+- R00108 (BED): F=yes for credibility-score removal of majority points, which is interleaved with generation, not run after it. N=yes: partners are the minority points among the k nearest neighbours of all classes, so their number adapts. Tuning=test: parameters were "set empirically from average results", with no validation set. ROC curves are shown without AUC, so they are coded "other".
+- inside_folds=stated for R00077 and R00108 rests on the method being described as run on "the training set/datasets", together with the CV splits. A stricter reading gives nr.
+- R00264 (SPO), vs_none=no: SVM without oversampling is not reported; 1NN and 1NN-DTW on raw data are different learners.

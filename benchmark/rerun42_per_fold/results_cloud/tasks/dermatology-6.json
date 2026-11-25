@@ -1,0 +1,9 @@
+{
+ "task": "dermatology-6",
+ "source": "KEEL(keel_ds)",
+ "n": 358,
+ "n_min": 20,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 34
+}

@@ -1,0 +1,12 @@
+batch 091: 200 of 200 records done; include 23, unsure 21, exclude 156
+no records remain
+
+Look at these first (record numbers are batch positions):
+1. Not settled by the codebook: an existing generative model is used as the oversampler inside a domain pipeline, with no stated change to the generator. I marked all of these unsure so they can be decided together: R22240 (45, WCGAN-GP fraud), R16664 (69, AC-WGAN-GP transcriptomics), R04502 (167, ACGAN features, brain tumor), R15195 (198, DCGAN intrusion detection), R08904 (12, GPT text, also a book chapter).
+2. Language doubt: new SMOTE variants that meet I1 and I2, and the language field says English, but the venue or a Chinese title suggests a Chinese full text: R00339 (121, S-SMOTE), R00247 (148, ISMOTE), R10651 (131, MC-LDWO). Also R13097 (2, excluded E1) has a bilingual Chinese abstract.
+3. I3 doubt about document type: R01596 (156, PhD thesis proposing HSBagging hybrid-sampling bagging), R08904 (12, book chapter).
+4. Clarification 1, generator built for fairness: R06679 (10, Fair-GAN), R13301 (35, CA-GAN, representation bias). Clarification 2, I2 not stated (Zenodo preprints with theory only): R18543 (86, DD-SMOTE), R17103 (89, AI-SMOTE).
+5. Distributed SMOTE implementations, which may or may not count as changing how SMOTE is applied: R00549 (11, MapReduce, framed as an analysis), R01544 (66, Spark).
+6. Borderline excludes: R21566 (22, UCAS-SMOTE) and R21531 (81, CASB) have named resampling steps inside domain frameworks but are not presented as the contribution (E1). By contrast, R15752 (169, CK-means-CNN) was marked unsure because its resampling is part of the model name. R21754 (197, SGGA) replicates support vectors instead of synthesizing and is benchmarked against SMOTE and MWMOTE (E-NOGEN). R14420 (190, authors re-apply their own NCLWO to defect prediction, E1). R10105 (116, no abstract, low confidence E1).
+7. Borderline includes (oversampling placed inside ensembles, or a less detailed variant): R02412 (25, SMOTE on the DES-KNN DSEL set), R02598 (15, KA-Ensemble), R06156 (157), R02236 (140, multiclass hybrid oversampling), R15198 (107, Gaussian G-SMOTE), R04148 (42, random-walk text generation).
+8. Front matter: R19985 (56) lists "GANified-SMOTE with Latent Factor", tagged front-matter-in-scope.

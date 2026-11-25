@@ -1,0 +1,14 @@
+{
+ "seed": 20261132,
+ "first_is": {
+  "coverage:R00832:label": "A",
+  "coverage:R00832:generator": "A",
+  "coverage:R00832:S": "A",
+  "coverage:R00832:A": "B",
+  "coverage:R00832:N": "B",
+  "coverage:R00832:P": "A",
+  "coverage:R00832:F": "B",
+  "coverage:R00832:L": "A",
+  "coverage:R11455:tuning": "A"
+ }
+}

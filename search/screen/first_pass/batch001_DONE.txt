@@ -1,0 +1,18 @@
+batch 001: 200 of 200 records done; include 30, unsure 14, exclude 156
+no records remain
+
+Look at first (record position / rec id):
+1. Cases the codebook does not settle:
+   - 154 R09530: a PhD thesis with five new SMOTE extensions. It meets I1 and I2, but it is unclear whether a thesis passes I3. Marked unsure (U-other).
+   - 102 R15688: oversampling used to make synthetic time series for forecasting. I coded it E2 (regression only). Clarification 1 (a generator built for another purpose goes to unsure) could also be read to cover it.
+   - 84 R09534: a 3D point-cloud detector that resamples objects to balance easy and hard ones, not classes. Unsure (U-other) per clarification 1; probably an exclude.
+   - Excluded only for language, though the content looks in scope: 13 R06497 (K-means-SMOTE, Chinese), 94 R06630 (SMOTE+WGAN "OSW", Chinese), 153 R09284 (improved SMOTE, Chinese).
+2. Borderline calls under clarification 3 (an existing generator plus a cleaning or clustering step); please check these for consistency:
+   - 8 R10825 SMOTE-PCA-HDBSCAN: unsure. 103 R04277 Kalman-SMOTE: include, medium. I treated the Kalman filter as a new cleaning step and HDBSCAN as close to existing DBSCAN filtering.
+   - Cluster-then-SMOTE: 173 R03354 unsure; 183 R10934 ADBSCSL include, medium; 43 R07175 E1, medium (PyCaret K-means + "clustering-guided SMOTE"; arguably unsure).
+   - Excluded as E1 at medium confidence: 19 R21605 (RUS + SMOTE-ENN called "proposed"), 134 R10049 (SMOTE + cost-sensitive LightGBM), 200 R18049 (SMOTE with a dynamically adjusted ratio), 182 R06736 ("proposed" over+under sampling).
+   - Fusion over unchanged resampling, coded E-NOGEN at medium: 143 R04677 (ECC), 180 R00663 (IBEP).
+3. Includes at medium confidence: 42 R06231 (Eigen-Entropy-guided oversampling; unclear whether it generates synthetic samples), 79 R05582 (fairness-oriented oversampling), 111 R01642 (AE/GAN oversampling for sequence anomaly data), 131 R22206 (multi-label feature interpolation), 198 R16945 (improved SMOTE inside a feature-selection method).
+4. Existing generative models used inside domain pipelines, coded E1 at medium: 26 R22040 (TimeGAN+SMOTE, mostly forecasting), 137 R18885 (plain GAN), 161 R10436 (CGAN).
+5. Low-confidence unsure: 5 R07239, 17 R00326, 128 R17054, 158 R20531, 171 R02803. No abstract: 41 R15206 and 82 R13814 (unsure), 187 R12582 (E1, low), 104 R20006 (E-COMPARE), 149 R19261 (E-REVIEW).
+6. 93 R19984: proceedings front matter that lists an in-scope title ("FCM-RF-SMOTE framework"); tagged front-matter-in-scope.

@@ -1,0 +1,12 @@
+batch 021: 200 of 200 records done; include 43, unsure 84, exclude 73
+no records remain
+
+Look at these first:
+- Low-confidence includes: R00980 (DBCS), R01008 (big-data oversampling), R22329 (TimeLT tail augmentation), R00350 (RUS + boundary SMOTE), R00751 (improved SMOTE, not described), R12434 (dynamic SMOTE/GAN oversampling), R00144 (K* distance in SMOTE, SMOTE-SMaRT).
+- Low-confidence excludes: R19475 and R00100 (no abstract), R19517 (custom extrema oversampling in a trading model), R19539 (optimizer-tuned MSYN in an IDS).
+- Clarification 3 sends the seminal Batista et al. 2004 SMOTE+Tomek / SMOTE+ENN paper (R00006) to unsure; it is likely in scope. Same rule applied to R00970, R01127, R00405, R17628, R10546, R05951, R16978.
+- Language: R20864 (G-CTGAN) has a Korean abstract but record language "en"; in scope if the paper is English. R22205 excluded E-LANG (Spanish) although its generator would otherwise qualify.
+- Not settled by the codebook: pseudo-label or relabel "oversampling" (R05625 and R22133 excluded E-NOGEN; R02308 unsure; R12037 included); replication-only oversampling schemes (R04003, R04144, R01366, R02122, R06508, R10273); mixup-type feature mixing (R17549, R10770).
+- Clarification 2 (I2 not stated): eight theory-only SMOTE-variant preprints on Zenodo with no experiments named: R21011, R20997, R22233, R20627, R21661, R17968, R17108, R16928.
+- Purpose other than imbalanced classification (clarification 1): R09229 (fairness PC-SMOTE), R05146 (homomorphic-encryption SMOTE), R09482 (EHR GAN), R05868, R10019, R06343. Regression: R06411 GOLIATH unsure (regression-only evaluation); R10318 excluded E2.
+- Consistency check for domain papers with GAN oversamplers: R02256 and R02115 included, but the similar R12689, R13277, R06361 and R02983 were marked unsure. Clustering-based SMOTE variants: R04289 and R04068 included, but R03530 (KSMOTE) and R00717 unsure.

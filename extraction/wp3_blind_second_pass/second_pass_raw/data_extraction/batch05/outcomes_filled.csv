@@ -1,0 +1,6 @@
+check_id,paper,table,page,pdf_page_hint,dataset_as_printed,classifier,smote_column,proposed_method_value,smote_value,metric,note
+R081,SMOM,Table S3 (Supplementary),Supplementary p.7 (printed 7),p.7,vowel7,C4.5,SMOTE,0.847,0.8417,MG,"Table S3 (MG, C4.5 block), supplementary pdf p.7 (printed 7); ADASYN 0.8507 is the bold best."
+R082,SMOM,Table S3 (Supplementary),Supplementary p.7 (printed 7),p.7,robot,C4.5,SMOTE,1,1,MG,"Table S3 (MG, C4.5 block), supplementary pdf p.7; SMOTE and SMOM both 1 (both bold)."
+R083,SMOM,Table S3 (Supplementary),Supplementary p.7 (printed 7),p.7,automobile,C4.5,SMOTE,0.8521,0.8326,MG,"Table S3 (MG, C4.5 block), supplementary pdf p.7; SMOM bold."
+R084,SMOM,Table S3 (Supplementary),Supplementary p.7 (printed 7),p.7,yeast8,C4.5,SMOTE,0.4051,0.4091,MG,"Table S3 (MG, C4.5 block), supplementary pdf p.7; SMOTE bold (above SMOM)."
+R085,SMOM,Table S3 (Supplementary),Supplementary p.7 (printed 7),p.7,ERA5,C4.5,SMOTE,0.26,0.2576,MG,"Table S3 (MG, C4.5 block), supplementary pdf p.7; ROS 0.3756 is the bold best."

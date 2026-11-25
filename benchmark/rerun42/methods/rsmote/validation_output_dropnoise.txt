@@ -1,0 +1,100 @@
+ecoli: n=336 majority=284 minority=52 d=7  (Table 2: (336, 284, 52, 7))
+pima: n=768 majority=500 minority=268 d=8  (Table 2: (768, 500, 268, 8))
+heart: n=270 majority=150 minority=120 d=13  (Table 2: (270, 150, 120, 13))
+vehicle: n=846 majority=647 minority=199 d=18  (Table 2: (846, 647, 199, 18))
+wine: n=178 majority=107 minority=71 d=13  (Table 2: (178, 107, 71, 13))
+750 classifier runs in 83 s
+
+## Compact, c = 0.0: diagnostic, RSMOTE with the flagged rows also deleted (NOT the paper's reading), 75/25, no scaling, best k
+| data | paper RSMOTE P, R, AUC, F1, G | ours, flagged rows deleted |
+|--|--|--|
+| ecoli | 0.893, 1.000, 0.996, 0.942, 0.988 | 0.782, 0.898, 0.950, 0.831, 0.923 |
+| pima | 0.714, 0.837, 0.886, 0.770, 0.825 | 0.638, 0.685, 0.785, 0.645, 0.722 |
+| heart | 0.942, 0.950, 0.984, 0.946, 0.951 | 0.764, 0.752, 0.838, 0.750, 0.775 |
+| vehicle | 0.918, 1.000, 0.996, 0.956, 0.985 | 0.868, 0.922, 0.970, 0.889, 0.935 |
+| wine | 1.000, 1.000, 1.000, 1.000, 1.000 | 0.917, 0.900, 0.944, 0.895, 0.910 |
+
+## Compact, c = 0.3: diagnostic, RSMOTE with the flagged rows also deleted (NOT the paper's reading), 75/25, no scaling, best k
+| data | paper RSMOTE P, R, AUC, F1, G | ours, flagged rows deleted |
+|--|--|--|
+| ecoli | 0.376, 0.982, 0.913, 0.543, 0.819 | 0.786, 0.818, 0.919, 0.779, 0.868 |
+| pima | 0.563, 0.715, 0.751, 0.629, 0.707 | 0.596, 0.633, 0.739, 0.588, 0.675 |
+| heart | 0.682, 0.767, 0.807, 0.722, 0.739 | 0.665, 0.668, 0.729, 0.643, 0.675 |
+| vehicle | 0.494, 0.850, 0.867, 0.624, 0.788 | 0.764, 0.818, 0.918, 0.777, 0.857 |
+| wine | 0.777, 0.880, 0.903, 0.825, 0.853 | 0.760, 0.747, 0.843, 0.743, 0.780 |
+
+### c = 0.0, pipeline = dropnoise, test fraction = 0.25, scaling = none, AUC from probabilities
+| data | sampler | reading | Precision | Recall | AUC | F1 | G-mean |
+|--|--|--|--|--|--|--|--|
+| ecoli | RSMOTE | k=5 | 0.782 | 0.898 | 0.950 | 0.831 | 0.923 |
+| ecoli | RSMOTE | best k | 0.782 | 0.898 | 0.950 | 0.831 | 0.923 |
+| ecoli | RSMOTE | best k per clf | 0.784 | 0.902 | 0.951 | 0.834 | 0.925 |
+| pima | RSMOTE | k=5 | 0.633 | 0.629 | 0.785 | 0.629 | 0.709 |
+| pima | RSMOTE | best k | 0.638 | 0.685 | 0.785 | 0.645 | 0.722 |
+| pima | RSMOTE | best k per clf | 0.640 | 0.685 | 0.786 | 0.645 | 0.722 |
+| heart | RSMOTE | k=5 | 0.761 | 0.723 | 0.835 | 0.739 | 0.768 |
+| heart | RSMOTE | best k | 0.764 | 0.752 | 0.838 | 0.750 | 0.775 |
+| heart | RSMOTE | best k per clf | 0.776 | 0.752 | 0.843 | 0.752 | 0.778 |
+| vehicle | RSMOTE | k=5 | 0.868 | 0.918 | 0.970 | 0.889 | 0.935 |
+| vehicle | RSMOTE | best k | 0.868 | 0.922 | 0.970 | 0.889 | 0.935 |
+| vehicle | RSMOTE | best k per clf | 0.870 | 0.928 | 0.971 | 0.890 | 0.938 |
+| wine | RSMOTE | k=5 | 0.901 | 0.880 | 0.943 | 0.889 | 0.905 |
+| wine | RSMOTE | best k | 0.917 | 0.900 | 0.944 | 0.895 | 0.910 |
+| wine | RSMOTE | best k per clf | 0.920 | 0.900 | 0.947 | 0.897 | 0.912 |
+
+### c = 0.0, pipeline = dropnoise, test fraction = 0.25, scaling = none, AUC from hard labels
+| data | sampler | reading | Precision | Recall | AUC | F1 | G-mean |
+|--|--|--|--|--|--|--|--|
+| ecoli | RSMOTE | k=5 | 0.782 | 0.898 | 0.924 | 0.831 | 0.923 |
+| ecoli | RSMOTE | best k | 0.782 | 0.898 | 0.924 | 0.831 | 0.923 |
+| ecoli | RSMOTE | best k per clf | 0.784 | 0.902 | 0.926 | 0.834 | 0.925 |
+| pima | RSMOTE | k=5 | 0.633 | 0.629 | 0.715 | 0.629 | 0.709 |
+| pima | RSMOTE | best k | 0.638 | 0.685 | 0.724 | 0.645 | 0.722 |
+| pima | RSMOTE | best k per clf | 0.640 | 0.685 | 0.724 | 0.645 | 0.722 |
+| heart | RSMOTE | k=5 | 0.761 | 0.723 | 0.772 | 0.739 | 0.768 |
+| heart | RSMOTE | best k | 0.764 | 0.752 | 0.777 | 0.750 | 0.775 |
+| heart | RSMOTE | best k per clf | 0.776 | 0.752 | 0.782 | 0.752 | 0.778 |
+| vehicle | RSMOTE | k=5 | 0.868 | 0.918 | 0.936 | 0.889 | 0.935 |
+| vehicle | RSMOTE | best k | 0.868 | 0.922 | 0.936 | 0.889 | 0.935 |
+| vehicle | RSMOTE | best k per clf | 0.870 | 0.928 | 0.938 | 0.890 | 0.938 |
+| wine | RSMOTE | k=5 | 0.901 | 0.880 | 0.906 | 0.889 | 0.905 |
+| wine | RSMOTE | best k | 0.917 | 0.900 | 0.911 | 0.895 | 0.910 |
+| wine | RSMOTE | best k per clf | 0.920 | 0.900 | 0.912 | 0.897 | 0.912 |
+
+### c = 0.3, pipeline = dropnoise, test fraction = 0.25, scaling = none, AUC from probabilities
+| data | sampler | reading | Precision | Recall | AUC | F1 | G-mean |
+|--|--|--|--|--|--|--|--|
+| ecoli | RSMOTE | k=5 | 0.757 | 0.800 | 0.915 | 0.770 | 0.868 |
+| ecoli | RSMOTE | best k | 0.786 | 0.818 | 0.919 | 0.779 | 0.868 |
+| ecoli | RSMOTE | best k per clf | 0.790 | 0.825 | 0.919 | 0.787 | 0.876 |
+| pima | RSMOTE | k=5 | 0.579 | 0.603 | 0.738 | 0.588 | 0.675 |
+| pima | RSMOTE | best k | 0.596 | 0.633 | 0.739 | 0.588 | 0.675 |
+| pima | RSMOTE | best k per clf | 0.599 | 0.639 | 0.745 | 0.601 | 0.686 |
+| heart | RSMOTE | k=5 | 0.640 | 0.645 | 0.729 | 0.640 | 0.675 |
+| heart | RSMOTE | best k | 0.665 | 0.668 | 0.729 | 0.643 | 0.675 |
+| heart | RSMOTE | best k per clf | 0.670 | 0.668 | 0.733 | 0.647 | 0.686 |
+| vehicle | RSMOTE | k=5 | 0.759 | 0.807 | 0.918 | 0.777 | 0.857 |
+| vehicle | RSMOTE | best k | 0.764 | 0.818 | 0.918 | 0.777 | 0.857 |
+| vehicle | RSMOTE | best k per clf | 0.771 | 0.818 | 0.919 | 0.779 | 0.858 |
+| wine | RSMOTE | k=5 | 0.760 | 0.733 | 0.843 | 0.741 | 0.780 |
+| wine | RSMOTE | best k | 0.760 | 0.747 | 0.843 | 0.743 | 0.780 |
+| wine | RSMOTE | best k per clf | 0.769 | 0.756 | 0.851 | 0.754 | 0.789 |
+
+### c = 0.3, pipeline = dropnoise, test fraction = 0.25, scaling = none, AUC from hard labels
+| data | sampler | reading | Precision | Recall | AUC | F1 | G-mean |
+|--|--|--|--|--|--|--|--|
+| ecoli | RSMOTE | k=5 | 0.757 | 0.800 | 0.875 | 0.770 | 0.868 |
+| ecoli | RSMOTE | best k | 0.786 | 0.818 | 0.875 | 0.779 | 0.868 |
+| ecoli | RSMOTE | best k per clf | 0.790 | 0.825 | 0.882 | 0.787 | 0.876 |
+| pima | RSMOTE | k=5 | 0.579 | 0.603 | 0.681 | 0.588 | 0.675 |
+| pima | RSMOTE | best k | 0.596 | 0.633 | 0.681 | 0.588 | 0.675 |
+| pima | RSMOTE | best k per clf | 0.599 | 0.639 | 0.691 | 0.601 | 0.686 |
+| heart | RSMOTE | k=5 | 0.640 | 0.645 | 0.679 | 0.640 | 0.675 |
+| heart | RSMOTE | best k | 0.665 | 0.668 | 0.679 | 0.643 | 0.675 |
+| heart | RSMOTE | best k per clf | 0.670 | 0.668 | 0.692 | 0.647 | 0.686 |
+| vehicle | RSMOTE | k=5 | 0.759 | 0.807 | 0.862 | 0.777 | 0.857 |
+| vehicle | RSMOTE | best k | 0.764 | 0.818 | 0.862 | 0.777 | 0.857 |
+| vehicle | RSMOTE | best k per clf | 0.771 | 0.818 | 0.863 | 0.779 | 0.858 |
+| wine | RSMOTE | k=5 | 0.760 | 0.733 | 0.784 | 0.741 | 0.780 |
+| wine | RSMOTE | best k | 0.760 | 0.747 | 0.784 | 0.743 | 0.780 |
+| wine | RSMOTE | best k per clf | 0.769 | 0.756 | 0.793 | 0.754 | 0.789 |

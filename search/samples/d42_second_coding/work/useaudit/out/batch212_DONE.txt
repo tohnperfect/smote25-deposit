@@ -1,0 +1,11 @@
+d42 useaudit batch 212: n=8, fulltext=8, application=7, inside_folds stated=2, before-split=1 (nr=4, na=1)
+
+Codes I was least sure of:
+- R06494 inside_folds=before-split, test_balanced=yes: rests on pipeline order (whole-data 216 vs 87 brought to parity by SMOTE in preprocessing, then 10-fold CV); one sentence in Sec IV speaks of "training data".
+- R02884 inside_folds=nr: SMOTE on the 60,000 training set, then 5-fold grid search; a separate test set is named but the data behind the reported costs is not stated (stated arguable). Domain industry vs transport.
+- R05603 inside_folds=nr: Borderline-SMOTE+Tomek said to expand "the training set", but "the data set" is normalized after balancing and no fold order is given. Domain medicine vs bio.
+- R00221 is_application=no: existing Random-SMOTE vs no resampling on five generic UCI benchmarks, no domain problem (yes with domain other conceivable).
+- R10548 stakes=individual (card fraud declines a customer's transaction); vs_weights=no (cost-weighted loss is part of the framework, baseline unweighted, cost curve sweeps thresholds for both).
+- R14882 domain energy (district heating) vs industry (maintenance); validation internal although failures were split temporally.
+- R07084 unsupervised clustering + TOPSIS ranking coded as an application; inside_folds, validation, test_balanced nr (no split or evaluation).
+- R04730 text file font-shifted (+29 code points), decoded to read; domain environment (building fire hazard) vs other; measures na (no measure reported).

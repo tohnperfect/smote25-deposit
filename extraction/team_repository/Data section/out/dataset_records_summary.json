@@ -1,0 +1,170 @@
+{
+ "_about": "สร้างโดย build/dataset_records.py ข้อมูลด้าน dataset เท่านั้น ดูกติกาใน docstring",
+ "sources": {
+  "datasets": {
+   "path": "out/verified_datasets.csv",
+   "sha256": "ceed51c2ff59ec95167669c32df3dfc5402db14d69b16995675337e2fdcccdc9"
+  },
+  "papers": {
+   "path": "out/section7_key_map.csv",
+   "sha256": "f89e7a60c5557fc27482d6b322c52c5610d6a39b174d99849c59f3227f5f4475"
+  },
+  "summary": {
+   "path": "out/full_summary.json",
+   "sha256": "dd326cbde2754de1afde41540b36366e2a8804b000c6f316fc11587ebfe84c45"
+  }
+ },
+ "counts": {
+  "entries": 1756,
+  "named_entries": 1755,
+  "normalized_names": 866,
+  "papers_with_entries": 73,
+  "original": 537,
+  "repository-defined": 470,
+  "modified": 341,
+  "synthetic": 213,
+  "not stated": 195
+ },
+ "completeness": {
+  "source_as_reported": {
+   "denominator": 1756,
+   "reported": 1391,
+   "missing": 365
+  },
+  "group_in_paper": {
+   "denominator": 1756,
+   "reported": 1302,
+   "missing": 454
+  },
+  "n_instances": {
+   "denominator": 1756,
+   "reported": 1327,
+   "missing": 429,
+   "numeric": 1325,
+   "reported_non_numeric": 2
+  },
+  "n_features": {
+   "denominator": 1756,
+   "reported": 1271,
+   "missing": 485,
+   "numeric": 1271,
+   "reported_non_numeric": 0
+  },
+  "n_classes": {
+   "denominator": 1756,
+   "reported": 1376,
+   "missing": 380,
+   "numeric": 1376,
+   "reported_non_numeric": 0
+  },
+  "n_minority": {
+   "denominator": 1756,
+   "reported": 520,
+   "missing": 1236,
+   "numeric": 520,
+   "reported_non_numeric": 0
+  },
+  "n_majority": {
+   "denominator": 1756,
+   "reported": 505,
+   "missing": 1251,
+   "numeric": 505,
+   "reported_non_numeric": 0
+  },
+  "class_distribution": {
+   "denominator": 1756,
+   "reported": 589,
+   "missing": 1167
+  },
+  "ir_as_printed": {
+   "denominator": 1756,
+   "reported": 1390,
+   "missing": 366,
+   "numeric_single_value": 1206,
+   "ratio_form": 133,
+   "other_form": 51,
+   "with_paper_definition_stated": 873,
+   "with_paper_definition_not_stated": 517
+  },
+  "preprocessing_note": {
+   "denominator": 1756,
+   "reported": 1743,
+   "missing": 13
+  },
+  "evidence_ref": {
+   "denominator": 1756,
+   "reported": 1756,
+   "missing": 0
+  }
+ },
+ "names_with_2plus_papers_and_differing_values": {
+  "n_instances": 78,
+  "n_features": 67,
+  "n_classes": 37,
+  "ir_as_printed": 152
+ },
+ "papers_ir_definition": {
+  "not stated": 39,
+  "stated": 34
+ },
+ "fields_not_available": {
+  "version": "no separate version field in verified_datasets.csv; variant/version wording, where recorded, is in group_in_paper or preprocessing_note"
+ },
+ "checks": {
+  "entries": {
+   "expected": 1756,
+   "got": 1756,
+   "ok": true
+  },
+  "named_entries": {
+   "expected": 1755,
+   "got": 1755,
+   "ok": true
+  },
+  "normalized_names": {
+   "expected": 866,
+   "got": 866,
+   "ok": true
+  },
+  "papers_with_entries": {
+   "expected": 73,
+   "got": 73,
+   "ok": true
+  },
+  "original": {
+   "expected": 537,
+   "got": 537,
+   "ok": true
+  },
+  "repository-defined": {
+   "expected": 470,
+   "got": 470,
+   "ok": true
+  },
+  "modified": {
+   "expected": 341,
+   "got": 341,
+   "ok": true
+  },
+  "synthetic": {
+   "expected": 213,
+   "got": 213,
+   "ok": true
+  },
+  "not stated": {
+   "expected": 195,
+   "got": 195,
+   "ok": true
+  },
+  "record_ids_unique": {
+   "expected": true,
+   "got": true,
+   "ok": true
+  },
+  "no_unexpected_category": {
+   "expected": true,
+   "got": true,
+   "ok": true
+  }
+ }
+}

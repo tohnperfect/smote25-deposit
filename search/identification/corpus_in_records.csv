@@ -1,0 +1,77 @@
+key,year,smote_family,title,in_window,rec,matched_by,record_title,decision,code
+ENN-1972,1972,no,Asymptotic Properties of Nearest Neighbor Rules Using Edited Data,no,,,,,
+TomekLinks-1976,1976,no,Two Modifications of CNN,no,,,,,
+AdaBoost-1997,1997,no,A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting,no,,,,,
+OSS-1997,1997,no,Addressing the Curse of Imbalanced Training Sets: One-Sided Selection,no,,,,,
+SHRINK-1998,1998,no,Machine Learning for the Detection of Oil Spills in Satellite Radar Images,no,,,,,
+SMOTE-2002,2002,yes,SMOTE: Synthetic Minority Over-sampling Technique,yes,R00002,doi,SMOTE: Synthetic minority over-sampling technique,include,I1-other
+SMOTEBoost-2003,2003,yes,SMOTEBoost: Improving Prediction of the Minority Class in Boosting,yes,R00004,doi,SMOTEBoost: Improving prediction of the minority class in boosting,include,I1-hybrid
+SMOTE-ENN-Tomek-2004,2004,yes,A Study of the Behavior of Several Methods for Balancing Machine Learning Training Data,yes,R00006,doi,A study of the behavior of several methods for balancing machine learning training data,include,I1-hybrid
+Borderline-SMOTE-2005,2005,yes,Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning,yes,R00018,doi,Borderline-SMOTE: A new over-sampling method in imbalanced data sets learning,include,I1-new-variant
+Cluster-SMOTE-2006,2006,yes,Combating Imbalance in Network Intrusion Datasets,yes,R00028,doi,Combating imbalance in network intrusion datasets,include,I1-new-variant
+Global-CS-2006,2006,no,On Multi-Class Cost-Sensitive Learning,yes,,,,,
+COG-OS-2007,2007,no,Local Decomposition for Rare Class Analysis,yes,,,,,
+ADASYN-2008,2008,yes,ADASYN: Adaptive Synthetic Sampling Approach for Imbalanced Learning,yes,R00074,doi,ADASYN: Adaptive synthetic sampling approach for imbalanced learning,include,I1-new-variant
+LS-2008,2008,yes,"Start Globally, Optimize Locally, Predict Globally: Improving Performance on Imbalanced Data",yes,,,,,
+SBC-2009,2009,no,Cluster-based under-sampling approaches for imbalanced data distributions,yes,,,,,
+EasyEnsemble-BalanceCascade-2009,2009,no,Exploratory Undersampling for Class-Imbalance Learning,yes,,,,,
+Safe-Level-SMOTE-2009,2009,yes,Safe-Level-SMOTE: Safe-Level-Synthetic Minority Over-Sampling TEchnique for Handling the Class Imbalanced Problem,yes,R00137,doi,Safe-level-SMOTE: Safe-level-synthetic minority over-sampling technique for handling the class imbalanced problem,include,I1-new-variant
+Global-CS-2010,2010,no,On Multi-Class Cost-Sensitive Learning,yes,,,,,
+RAMOBoost-2010,2010,yes,RAMOBoost: Ranked Minority Oversampling in Boosting,yes,R00190,doi,RAMOBoost: Ranked minority oversampling in boosting,include,I1-hybrid
+RUSBoost-2010,2010,no,RUSBoost: A Hybrid Approach to Alleviating Class Imbalance,yes,R00192,doi,RUSBoost: A hybrid approach to alleviating class imbalance,exclude,E-NOGEN
+SPIDER2-2010,2010,no,Learning from Imbalanced Data in Presence of Noisy and Borderline Examples,yes,R00180,doi,Learning from imbalanced data in presence of noisy and borderline examples,exclude,E-COMPARE
+DSRBF-2011,2011,yes,A dynamic over-sampling procedure based on sensitivity for multi-class problems,yes,R00204,doi,A dynamic over-sampling procedure based on sensitivity for multi-class problems,include,I1-multiclass
+INOS-2013,2013,yes,Integrated Oversampling for Imbalanced Time Series Classification,yes,R00414,doi,Integrated oversampling for imbalanced time series classification,include,I1-new-variant
+OVO-SMOTE-2013,2013,no,Analysing the classification of imbalanced data-sets with multiple classes: Binarization techniques and ad-hoc approaches,yes,,,,,
+MWMOTE-2014,2014,yes,MWMOTE: Majority Weighted Minority Oversampling Technique for Imbalanced Data Set Learning,yes,R00544,doi,MWMOTE - Majority weighted minority oversampling technique for imbalanced data set learning,include,I1-new-variant
+RACOG-2015,2015,no,RACOG and wRACOG: Two Probabilistic Oversampling Techniques,yes,R00688,doi,RACOG and wRACOG: Two probabilistic oversampling techniques,include,I1-generative
+RBBoost-2015,2015,yes,Random Balance: Ensembles of variable priors classifiers for imbalanced data,yes,R00689,doi,Random Balance: Ensembles of variable priors classifiers for imbalanced data,include,I1-hybrid
+SCUT-2015,2015,yes,SCUT: Multi-Class Imbalanced Data Classification using SMOTE and Cluster-based Undersampling,yes,R00699,doi,SCUT: Multi-class imbalanced data classification using SMOTE and cluster-based undersampling,include,I1-multiclass
+SMOTE-IPF-2015,2015,yes,SMOTE-IPF: Addressing the noisy and borderline examples problem in imbalanced classification by a re-sampling method with filtering,yes,R00702,doi,SMOTE-IPF: Addressing the noisy and borderline examples problem in imbalanced classification by a re-sampling method with filtering,include,I1-hybrid
+SplitBal-2015,2015,no,A novel ensemble method for classifying imbalanced data,yes,,,,,
+A-SUWO-2016,2016,yes,Oversampling Methods for Imbalanced Dataset Classification and their Application to Gynecological Disorder Diagnosis (Ch. 3: Adaptive Semi-Unsupervised Weighted Oversampling (A-SUWO) for Imbalanced Datasets),yes,R00739,doi,Adaptive semi-unsupervised weighted oversampling (A-SUWO) for imbalanced datasets,include,I1-new-variant
+CGMOS-2016,2016,yes,CGMOS: Certainty Guided Minority OverSampling,yes,R00769,doi,CGMOS: Certainty guided minority OverSampling,include,I1-new-variant
+MDO-2016,2016,no,To Combat Multi-Class Imbalanced Problems by Means of Over-Sampling Techniques,yes,R00887,doi,To Combat Multi-Class Imbalanced Problems by Means of Over-Sampling Techniques,include,I1-multiclass
+SMOM-2017,2017,yes,Synthetic minority oversampling technique for multiclass imbalance problems,yes,R01137,doi,Synthetic minority oversampling technique for multiclass imbalance problems,include,I1-multiclass
+AMDO-2018,2018,no,AMDO: an Over-Sampling Technique for Multi-Class Imbalanced Problems,yes,R01215,doi,AMDO: An Over-Sampling Technique for Multi-Class Imbalanced Problems,include,I1-multiclass
+OBU-2018,2018,no,Overlap-based undersampling for improving imbalanced data classification,yes,,,,,
+ROS-Buda-2018,2018,no,A systematic study of the class imbalance problem in convolutional neural networks,yes,R01204,doi,A systematic study of the class imbalance problem in convolutional neural networks,exclude,E-COMPARE
+KMeansSMOTE-2018,2018,yes,Improving imbalanced learning through a heuristic oversampling method based on k-means and SMOTE,yes,R01371,doi,Improving imbalanced learning through a heuristic oversampling method based on k-means and SMOTE,include,I1-new-variant
+CTGAN-2019,2019,no,Modeling Tabular Data using Conditional GAN,yes,,,,,
+G-SMOTE-2019,2019,yes,Geometric SMOTE a geometrically enhanced drop-in replacement for SMOTE,yes,R01817,doi,Geometric SMOTE a geometrically enhanced drop-in replacement for SMOTE,include,I1-new-variant
+GAMO-2019,2019,yes,Generative Adversarial Minority Oversampling,yes,R01811,doi,Generative adversarial minority oversampling,include,I1-generative
+RBO-2019,2019,no,Radial-Based oversampling for noisy imbalanced data classification,yes,R02026,doi,Radial-Based oversampling for noisy imbalanced data classification,include,I1-new-variant
+SOUP-2019,2019,no,Using information on class interrelations to improve classification of multiclass imbalanced data: A new resampling algorithm,yes,R02117,doi,Using Information on Class Interrelations to Improve Classification of Multiclass Imbalanced Data: A New Resampling Algorithm,include,I1-multiclass
+AB-SMOTE-2020,2020,yes,AB-SMOTE: An Affinitive Borderline SMOTE Approach for Imbalanced Data Binary Classification,yes,R02237,doi,AB-SMOTE: An Affinitive Borderline SMOTE Approach for Imbalanced Data Binary Classification,include,I1-new-variant
+DLexiBoost-2020,2020,no,Boosting with Lexicographic Programming: Addressing Class Imbalance without Cost Tuning,yes,,,,,
+MBS-2020,2020,no,Model-Based Synthetic Sampling for Imbalanced Data,yes,R02642,doi,Model-Based Synthetic Sampling for Imbalanced Data,include,I1-other
+MC-CCR-2020,2020,no,Combined Cleaning and Resampling algorithm for multi-class imbalanced data with label noise,yes,R02359,doi,Combined Cleaning and Resampling algorithm for multi-class imbalanced data with label noise,include,I1-multiclass
+MC-RBO-2020,2020,no,Radial-Based Oversampling for Multiclass Imbalanced Data Classification,yes,R02777,doi,Radial-based oversampling for multiclass imbalanced data classification,include,I1-multiclass
+NBU-2020,2020,no,Neighbourhood-based undersampling approach for handling imbalanced and overlapped data,yes,,,,,
+SPE-2020,2020,no,Self-paced Ensemble for Highly Imbalanced Massive Data Classification,yes,,,,,
+EMDO-2021,2021,yes,Evolutionary Mahalanobis Distance-Based Oversampling for Multi-Class Imbalanced Data Classification,yes,R03470,doi,Evolutionary mahalanobis distance–based oversampling for multi-class imbalanced data classification,include,I1-multiclass
+HDE-2021,2021,yes,A hybrid data-level ensemble to enable learning from highly imbalanced dataset,yes,R02957,doi,A hybrid data-level ensemble to enable learning from highly imbalanced dataset,include,I1-hybrid
+RSMOTE-2021,2021,yes,RSMOTE: A self-adaptive robust SMOTE for imbalanced problems with label noise,yes,R03908,doi,RSMOTE: A self-adaptive robust SMOTE for imbalanced problems with label noise,include,I1-new-variant
+PradiptaReview-2021,2021,no,SMOTE for Handling Imbalanced Data Problem: A Review,yes,R03939,doi,SMOTE for Handling Imbalanced Data Problem : A Review,exclude,E-REVIEW
+CBHSID-2022,2022,no,A Hybrid Sampling Approach for Imbalanced Binary and Multi-Class Data Using Clustering Analysis,yes,R04130,doi,A Hybrid Sampling Approach for Imbalanced Binary and Multi-Class Data Using Clustering Analysis,include,I1-hybrid
+FW-SMOTE-2022,2022,yes,FW-SMOTE: A feature-weighted oversampling approach for imbalanced classification,yes,R04745,doi,FW-SMOTE: A feature-weighted oversampling approach for imbalanced classification,include,I1-new-variant
+GDO-2022,2022,no,Gaussian Distribution Based Oversampling for Imbalanced Data Classification,yes,R04751,doi,Gaussian Distribution Based Oversampling for Imbalanced Data Classification,include,I1-new-variant
+KNNOR-2022,2022,yes,KNNOR: An oversampling technique for imbalanced datasets,yes,R04915,doi,KNNOR: An oversampling technique for imbalanced datasets[Formula presented],include,I1-new-variant
+SHSampler-2022,2022,no,Combating Mutuality with Difficulty Factors in Multi-class Imbalanced Data: A Similarity-based Hybrid Sampling,yes,R04440,doi,Combating Mutuality with Difficulty Factors in Multi-class Imbalanced Data: A Similarity-based Hybrid Sampling,include,I1-multiclass
+SOS-2022,2022,no,SOS: Score-based Oversampling for Tabular Data,yes,R05271,doi,SOS: Score-based Oversampling for Tabular Data,include,I1-generative
+SVDDWSMOTE-2022,2022,yes,SVDD-based weighted oversampling technique for imbalanced and overlapped dataset learning,yes,R05297,doi,SVDD-based weighted oversampling technique for imbalanced and overlapped dataset learning,include,I1-new-variant
+StopOversampling-2022,2022,no,Stop Oversampling for Class Imbalance Learning: A Critical Review,yes,R05285,doi,Stop Oversampling for Class Imbalance Learning: A Review,exclude,E-COMPARE
+GLOS-2023,2023,yes,Global-local information based oversampling for multi-class imbalanced data,yes,R06422,doi,Global-local information based oversampling for multi-class imbalanced data,include,I1-multiclass
+NROMM-2023,2023,yes,Noise-robust oversampling for imbalanced data classification,yes,R06826,doi,Noise-robust oversampling for imbalanced data classification,include,I1-new-variant
+OREM-2023,2023,yes,Oversampling With Reliably Expanding Minority Class Regions for Imbalanced Data Learning,yes,R06886,doi,Oversampling With Reliably Expanding Minority Class Regions for Imbalanced Data Learning,include,I1-new-variant
+GMMSampling-2024,2024,no,"GMMSampling: a new model-based, data difficulty-driven resampling method for multi-class imbalanced data",yes,,,,,
+MC-MBRC-2024,2024,yes,A membership-based resampling and cleaning algorithm for multi-class imbalanced overlapping data,yes,R07492,doi,A membership-based resampling and cleaning algorithm for multi-class imbalanced overlapping data[Formula presented],include,I1-multiclass
+MKC-SMOTE-2024,2024,yes,MKC-SMOTE: A Novel Synthetic Oversampling Method for Multi-Class Imbalanced Data Classification,yes,R09452,doi,MKC-SMOTE: A Novel Synthetic Oversampling Method for Multi-Class Imbalanced Data Classification,include,I1-multiclass
+CISO-2025,2025,yes,Certified Interpolation Oversampling: Per-Instance Safety Guarantees for Imbalanced Learning,yes,R11732,doi,Certified Interpolation Oversampling: Per-Instance Safety Guarantees for Imbalanced Learning,include,I1-new-variant
+GDHS-2025,2025,yes,GDHS: An efficient hybrid sampling method for multi-class imbalanced data classification,yes,R13286,doi,GDHS: An efficient hybrid sampling method for multi-class imbalanced data classification,include,I1-multiclass
+GOIO-2025,2025,no,GOIO: Generative Oversampling Approach to Class Imbalance and Overlap of Tabular Data,yes,R13314,doi,GOIO: Generative Oversampling Approach to Class Imbalance and Overlap of Tabular Data,include,I1-generative
+MC-NCLWO-2025,2025,no,MC-NCLWO: Newton's Cooling Law-Based Oversampling Algorithm for Multi-Class Imbalanced Datasets With Feature Noise,yes,R14226,doi,MC-NCLWO: Newton’s Cooling Law-Based Oversampling Algorithm for Multi-Class Imbalanced Datasets With Feature Noise,include,I1-multiclass
+MLOS-2025,2025,no,Synthetic oversampling with Mahalanobis distance and local information for highly imbalanced class-overlapped data,yes,R15588,doi,Synthetic oversampling with Mahalanobis distance and local information for highly imbalanced class-overlapped data,include,I1-new-variant
+DGOT-2026,2026,no,Diffusion GAN-Based Oversampling for Imbalanced Tabular Data,yes,R18470,doi,Diffusion GAN-Based Oversampling for Imbalanced Tabular Data,include,I1-generative
+Loyalty-SMOTE-2026,2026,yes,Loyalty-SMOTE: Data synthesis algorithm for effective imbalanced data classification,yes,R20221,doi,Loyalty-SMOTE: Data synthesis algorithm for effective imbalanced data classification,include,I1-new-variant
+QC-SMOTE-2026,2026,yes,QC-SMOTE: Quality-Controlled SMOTE for Imbalanced Classification,yes,R22402,doi,QC-SMOTE: Quality-controlled SMOTE for imbalanced classification,include,I1-new-variant

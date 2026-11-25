@@ -1,0 +1,9 @@
+batch 110: 200 of 200 records done; include 27, unsure 19, exclude 154
+
+Look at these first:
+- Low confidence (all unsure): R13484 (IDS paper with GAN and VAE-GAN augmentation, new or applied?), R13244 (LLM MBTI framework fine-tuned with "synthetic minority oversampling"), R03487 ("integrated" Borderline-SMOTE in AdaBoost: SMOTEBoost-like hybrid or plain preprocessing?), R01716 (denoising autoencoder that oversamples "through misclassification cost"), R19517 (custom "extrema oversampling" in stock trading; synthetic or duplication?).
+- Zenodo preprint series of SMOTE variants: R21391 RE-SMOTE, R18956 EC-SMOTE, R16709 AK-SMOTE are unsure under clarification 2 (only theoretical claims, I2 not stated). R21517 BS-SMOTE from the same series was included because its abstract names evaluation metrics (F1, G-mean, AUC), but no datasets. Check these four together for consistency.
+- Codebook does not settle whether setting the oversampling amount counts as I1: R03071 (complexity-based oversampling size, included as I1-other), R02122 (optimal target proportion plus resampling at random, unsure), R06801 (ISMOTE = SMOTE with metaheuristic-tuned sampling rate, unsure).
+- Clarification 3 boundary: R00344 SMOTE-RSB* was included as I1-hybrid because the rough-set editing step looks new. Unsure because the step looks existing: R19848 (SMOTERN noise filter + SMOTE; also typed as book chapter, so I3 is in question), R01849 (ADASYN-NCL), R00819 (CMTFSVM + SMOTE), R15185 (oversamplers + NN denoising), R18859 (ADASYN + range-constrained CTGAN).
+- Medium-confidence includes: R16146 (LLM oversampler CGGReaT framed as "anomaly detection" but uses supervised classifiers), R07551 (SMOTE+CGAN two-phase oversampler inside a fraud paper), R08305 (MOKCCAS, garbled abstract), R00499 (C-MIEN multiclass scheme; oversampler type not stated).
+- R09621 was excluded only as E-LANG (Chinese full text); otherwise it would be an include (WKMeans-SMOTE).

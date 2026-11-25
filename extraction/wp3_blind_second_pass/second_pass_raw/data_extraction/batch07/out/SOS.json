@@ -1,0 +1,22 @@
+{
+ "data_key": "SOS",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Kaggle",
+  "Other"
+ ],
+ "crit": "Only described as '6 benchmark tabular datasets' (4 for binary and 2 for multi-class classification); no further reason for choosing them.",
+ "crit_type": "generic only",
+ "basis": [
+  "popularity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "mean-size or IR threshold",
+ "modified_data_released": "n.a.",
+ "notes": "No dataset characteristics table: the datasets are described only in the text of Sec. 4.1.1 (p.767 = pdf p.6), with record counts and class shares; no feature counts and no IR are printed anywhere (Table 10 'Avg. Class size' is a runtime table). crit_type 'generic only' rests solely on the word 'benchmark' (borderline; 'not stated' is the alternative reading). The evaluation protocol follows [25, 44] but the paper does not say the datasets come from them. Sources: Default [26] and Satimage [13] cite UCI; WeatherAUS [1] and Buddy [2] cite Kaggle URLs; Shoppers [35] and Surgical [37] cite journal papers only (coded Other). All datasets used with native classes (Buddy 3 classes, Satimage 6 classes). minority_rule: general rule that every class smaller than the largest is a 'minor' class; the text also lists the major/minor class counts per dataset (an adjudicator might prefer 'explicit target listed'). WeatherAUS text says the major class 'means the rain for that day was over 1mm' (probably reversed). Code and data at https://github.com/JayoungKim408/SOS (original data, no modification). Table 2 (p.768 = pdf p.7): three SOS variants (VE, VP, Sub-VP), Weighted F1 mean±std over 5 seeds averaged over DT, LR, AdaBoost and MLP."
+}

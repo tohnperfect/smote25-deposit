@@ -1,0 +1,10 @@
+batch 031: 200 of 200 records done; include 24, unsure 18, exclude 158
+no records remain
+
+Check first:
+- The codebook does not settle these: R04756 is a book chapter that otherwise meets I1 and I2 (conditional WGAN-GP), but I3 does not list book chapters and no exclusion code covers them, so it is unsure. R09023 is an AutoML tool, and the codebook does not say whether automated choice or configuration of existing resamplers counts (unsure). R01762 (DCIA) generates prototypes for every class in multiclass imbalanced data, so it is unclear whether it counts as oversampling (unsure). R06552 uses generative subtype balancing for segmentation, not classification (unsure under clarification 1). R01933 is a PhD thesis, excluded as E1.
+- Low confidence: R12381 (diffusion oversampling on Zenodo; reads partly as a review, I2 vague), R04221 (ADASYN adapted to multi-label), R09553 (theory only, no data), R09524 (Tomek+SMOTE+WGAN in an IDS). R08042 and R11096 have no abstract and were excluded from the title only.
+- Borderline includes: R00191 (new cluster-based undersampling with unchanged SMOTE, coded I1-hybrid by analogy with "SMOTE with a new cleaning step"), R03740 (existing WGAN, but the generation is the paper's contribution), R05763 (I2 only implied), R19789 (Kmeans-SVMSMOTE-ENN, at the boundary of clarification 3), R01526, R12833.
+- Borderline excludes: R14846, R19403 and R20532 (existing GAN or CTGAN used as a step in a domain pipeline, E1). R13009 (existing EBGAN evaluated). R10924 and R15319 (SMOTE described as "class-preserving" or "tailored" with no change shown). R00459, R01162 and R03294 (E-NOGEN; the resampling looks random or bootstrap-only, and R03294 lists SMOTE among its keywords).
+- Unsure because I cannot tell new from applied: R03625, R18988, R06579, R19369, R00208, R18558, R01986, R11000. R19671 meets I1, but I2 is not stated. R12565 is a general-purpose generator.
+- Notes for the full-text stage: R05307 may be an extended version of GraphSMOTE (E4). R19732's metadata says English, but its venue (CIMS) often publishes in Chinese.

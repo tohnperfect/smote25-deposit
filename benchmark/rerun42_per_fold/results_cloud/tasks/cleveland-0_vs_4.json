@@ -1,0 +1,9 @@
+{
+ "task": "cleveland-0_vs_4",
+ "source": "KEEL(keel_ds)",
+ "n": 173,
+ "n_min": 13,
+ "rows_dropped": 4,
+ "n_categorical": 0,
+ "d_used": 13
+}

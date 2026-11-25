@@ -1,0 +1,10 @@
+batch 036: 200 of 200 records done; include 25, unsure 16, exclude 159
+
+Look at first:
+- Low confidence (all unsure): R11231 ("improved SMOTE", unclear whose), R15081 (unspecified "imbalance-aware" DL method, may be loss-based only), R08131 (BLSMOTE + K-means presented as new algorithm), R01037 (SMOTE + OSS hybrid in a student-performance study).
+- Codebook does not settle: R00234 is a dissertation that would meet I1 and I2, but fails I3 and no exclusion code covers theses (marked unsure U-other).
+- Generative borderline (existing generator inside a domain method?): included R01810 (SeqGAN, text), R08354 (DDGAN), R19439 (Gaussian-multinomial DDPM), R02704 (GAN, bitcoin), all medium; marked unsure R18095 and R13288 (GAN as side component), R06626 (SMOTE-ENN + WGAN), R10249 (CTGAN with bound relaxing and silhouette filtering); excluded R11615 and R15424 (CTGAN applied, E1).
+- I2 not stated in the abstract (clarification 2): R19452 (Graph Diffusion SMOTE), R16492 (PBE-SMOTE). Weak I2 but included: R07625 ("numerical experiments" only), R00927 (vague sampling details).
+- Purpose other than imbalanced classification (clarification 1): R21791 (SMOTE for sufficient dimension reduction).
+- Language: R15727 excluded E-LANG (Chinese) but its content is an in-scope GAN generator. R07883 and R11366 (Indonesian titles, English abstracts) and R18612 (language tr, English abstract) were coded E1, not E-LANG.
+- Excluded on title alone (no abstract, medium): R17563, R12580, R09915, R14366, R09899, R12837, R21224.

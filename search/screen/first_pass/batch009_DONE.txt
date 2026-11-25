@@ -1,0 +1,10 @@
+batch 009: 200 of 200 records done; include 21, unsure 17, exclude 162
+no records remain
+
+Records to look at first:
+- Low confidence: R02173 (exclude E-NOGEN: PROSRUS, a new partial random over/undersampling allocation scheme; it duplicates rather than synthesizes, and the codebook does not say whether new random-oversampling schemes count); R06253 (unsure: title promises an "Enhanced SMOTE Strategy" but the abstract describes only a survey).
+- Cases the codebook does not settle: R11235 (RSmote, a SMOTE extension for PINN collocation sampling; unsure per clarification 1); R01094 (OSTSC, an R package/tutorial for multiclass time-series oversampling; may only implement an existing method); R09632 (multi-label hybrid oversampler MLSOL+UCLSO, included and tagged multiclass because there is no multi-label tag).
+- Borderline includes (medium): R06824 NKB-SMOTE; R00308 OAA-DB (balancing technique named only in keywords); R08605 (Kalman-filter SMOTE inside a multi-topic preprint, evaluation vague); R13293 and R03535 (domain papers whose GAN / Gaussian-process generators are part of the contribution); R02964 (K-means CTGAN); R02341 (CIR, generation mechanism not stated).
+- Borderline excludes (medium): R06173 (graph SMOTE applied to blockchain "for the first time"); R11155 ("dual-phase SMOTE strategy" inside an IDS pipeline); R21689 (ChatGPT-generated minority data applied for balancing); R05237 (SMOTE in a regression task, coded E2); no-abstract domain titles R20356, R12318, R05456.
+- Unsure under clarification 3 (existing generator plus cleaning, clustering or boosting, presented as new): R03328, R16917, R11062, R05920, R09270, R05501.
+- Language metadata conflict: R11365 coded E-LANG (Indonesian title and primary abstract, language field "en"); R13935 (Indonesian title, English-only abstract) coded on substance as E-COMPARE.

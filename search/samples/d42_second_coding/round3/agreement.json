@@ -1,0 +1,682 @@
+{
+ "useaudit": {
+  "records": 0,
+  "coded": 0,
+  "missing": [],
+  "batches": [],
+  "records_all_fields_agree": 0,
+  "fields": {
+   "source": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "is_application": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "domain": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "stakes": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "modality": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "resampler": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "learner": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "inside_folds": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "vs_none": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "vs_weights": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "measures": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "calibration": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "validation": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   },
+   "test_balanced": {
+    "n": 0,
+    "agree": 0,
+    "pct": null,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 0,
+     "agree": 0,
+     "pct": null,
+     "kappa": null
+    }
+   }
+  }
+ },
+ "coverage": {
+  "records": 8,
+  "coded": 8,
+  "missing": [],
+  "batches": [
+   "batch231_coded.csv",
+   "batch232_coded.csv"
+  ],
+  "records_all_fields_agree": 6,
+  "fields": {
+   "fulltext_ok": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": null
+   },
+   "eligible": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": null
+   },
+   "exclusion": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": null
+   },
+   "label": {
+    "n": 8,
+    "agree": 7,
+    "pct": 87.5,
+    "kappa": 0.6
+   },
+   "generator": {
+    "n": 8,
+    "agree": 7,
+    "pct": 87.5,
+    "kappa": 0.6
+   },
+   "S": {
+    "n": 8,
+    "agree": 7,
+    "pct": 87.5,
+    "kappa": 0.771
+   },
+   "A": {
+    "n": 8,
+    "agree": 7,
+    "pct": 87.5,
+    "kappa": 0.8
+   },
+   "N": {
+    "n": 8,
+    "agree": 7,
+    "pct": 87.5,
+    "kappa": 0.8
+   },
+   "P": {
+    "n": 8,
+    "agree": 7,
+    "pct": 87.5,
+    "kappa": 0.771
+   },
+   "F": {
+    "n": 8,
+    "agree": 7,
+    "pct": 87.5,
+    "kappa": 0.6
+   },
+   "L": {
+    "n": 8,
+    "agree": 7,
+    "pct": 87.5,
+    "kappa": 0.6
+   },
+   "class": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "modality": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": null
+   },
+   "n_datasets": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "vs_smote": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "vs_none": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "vs_cost": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": null
+   },
+   "measures": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": null
+   },
+   "protocol": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "inside_folds": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "tuning": {
+    "n": 8,
+    "agree": 7,
+    "pct": 87.5,
+    "kappa": 0.692
+   },
+   "stat_test": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "code": {
+    "n": 8,
+    "agree": 8,
+    "pct": 100.0,
+    "kappa": 1.0
+   }
+  }
+ },
+ "disagreements": {
+  "coverage": 9
+ },
+ "round": 3,
+ "all": {
+  "useaudit": {
+   "records": 300,
+   "coded": 300,
+   "from_round": {
+    "1": 222,
+    "2": 78,
+    "3": 0
+   },
+   "second_coded_again": 78,
+   "left_sample": [],
+   "records_all_fields_agree": 169,
+   "fields": {
+    "source": {
+     "n": 300,
+     "agree": 300,
+     "pct": 100.0,
+     "kappa": 1.0,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 116,
+      "pct": 100.0,
+      "kappa": null
+     }
+    },
+    "is_application": {
+     "n": 300,
+     "agree": 298,
+     "pct": 99.3,
+     "kappa": 0.906,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 115,
+      "pct": 99.1,
+      "kappa": 0.919
+     }
+    },
+    "domain": {
+     "n": 300,
+     "agree": 293,
+     "pct": 97.7,
+     "kappa": 0.972,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 114,
+      "pct": 98.3,
+      "kappa": 0.979
+     }
+    },
+    "stakes": {
+     "n": 300,
+     "agree": 290,
+     "pct": 96.7,
+     "kappa": 0.938,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 113,
+      "pct": 97.4,
+      "kappa": 0.953
+     }
+    },
+    "modality": {
+     "n": 300,
+     "agree": 288,
+     "pct": 96.0,
+     "kappa": 0.931,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 112,
+      "pct": 96.6,
+      "kappa": 0.94
+     }
+    },
+    "resampler": {
+     "n": 300,
+     "agree": 281,
+     "pct": 93.7,
+     "kappa": null,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 111,
+      "pct": 95.7,
+      "kappa": null
+     }
+    },
+    "learner": {
+     "n": 300,
+     "agree": 270,
+     "pct": 90.0,
+     "kappa": null,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 108,
+      "pct": 93.1,
+      "kappa": null
+     }
+    },
+    "inside_folds": {
+     "n": 300,
+     "agree": 295,
+     "pct": 98.3,
+     "kappa": 0.97,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 111,
+      "pct": 95.7,
+      "kappa": 0.937
+     }
+    },
+    "vs_none": {
+     "n": 300,
+     "agree": 298,
+     "pct": 99.3,
+     "kappa": 0.987,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 114,
+      "pct": 98.3,
+      "kappa": 0.969
+     }
+    },
+    "vs_weights": {
+     "n": 300,
+     "agree": 297,
+     "pct": 99.0,
+     "kappa": 0.979,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 113,
+      "pct": 97.4,
+      "kappa": 0.892
+     }
+    },
+    "measures": {
+     "n": 300,
+     "agree": 286,
+     "pct": 95.3,
+     "kappa": null,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 110,
+      "pct": 94.8,
+      "kappa": null
+     }
+    },
+    "calibration": {
+     "n": 300,
+     "agree": 299,
+     "pct": 99.7,
+     "kappa": 0.993,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 115,
+      "pct": 99.1,
+      "kappa": 0.937
+     }
+    },
+    "validation": {
+     "n": 300,
+     "agree": 230,
+     "pct": 76.7,
+     "kappa": 0.538,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 115,
+      "pct": 99.1,
+      "kappa": 0.966
+     }
+    },
+    "test_balanced": {
+     "n": 300,
+     "agree": 290,
+     "pct": 96.7,
+     "kappa": 0.94,
+     "fulltext_counted": {
+      "n": 116,
+      "agree": 106,
+      "pct": 91.4,
+      "kappa": 0.871
+     }
+    }
+   }
+  },
+  "coverage": {
+   "records": 90,
+   "coded": 88,
+   "from_round": {
+    "1": 11,
+    "2": 69,
+    "3": 8
+   },
+   "second_coded_again": 0,
+   "left_sample": [
+    "R00308",
+    "R02709",
+    "R05572",
+    "R00004",
+    "R06485",
+    "R10073",
+    "R00640",
+    "R03697",
+    "R00379",
+    "R01304",
+    "R02885",
+    "R01526"
+   ],
+   "records_all_fields_agree": 56,
+   "fields": {
+    "fulltext_ok": {
+     "n": 88,
+     "agree": 88,
+     "pct": 100.0,
+     "kappa": null
+    },
+    "eligible": {
+     "n": 88,
+     "agree": 86,
+     "pct": 97.7,
+     "kappa": 0.91
+    },
+    "exclusion": {
+     "n": 88,
+     "agree": 86,
+     "pct": 97.7,
+     "kappa": 0.914
+    },
+    "label": {
+     "n": 88,
+     "agree": 83,
+     "pct": 94.3,
+     "kappa": 0.903
+    },
+    "generator": {
+     "n": 88,
+     "agree": 83,
+     "pct": 94.3,
+     "kappa": 0.91
+    },
+    "S": {
+     "n": 88,
+     "agree": 83,
+     "pct": 94.3,
+     "kappa": 0.913
+    },
+    "A": {
+     "n": 88,
+     "agree": 83,
+     "pct": 94.3,
+     "kappa": 0.91
+    },
+    "N": {
+     "n": 88,
+     "agree": 83,
+     "pct": 94.3,
+     "kappa": 0.913
+    },
+    "P": {
+     "n": 88,
+     "agree": 83,
+     "pct": 94.3,
+     "kappa": 0.911
+    },
+    "F": {
+     "n": 88,
+     "agree": 83,
+     "pct": 94.3,
+     "kappa": 0.903
+    },
+    "L": {
+     "n": 88,
+     "agree": 83,
+     "pct": 94.3,
+     "kappa": 0.904
+    },
+    "class": {
+     "n": 88,
+     "agree": 86,
+     "pct": 97.7,
+     "kappa": 0.959
+    },
+    "modality": {
+     "n": 88,
+     "agree": 86,
+     "pct": 97.7,
+     "kappa": 0.956
+    },
+    "n_datasets": {
+     "n": 88,
+     "agree": 84,
+     "pct": 95.5,
+     "kappa": 0.95
+    },
+    "vs_smote": {
+     "n": 88,
+     "agree": 86,
+     "pct": 97.7,
+     "kappa": 0.958
+    },
+    "vs_none": {
+     "n": 88,
+     "agree": 86,
+     "pct": 97.7,
+     "kappa": 0.957
+    },
+    "vs_cost": {
+     "n": 88,
+     "agree": 85,
+     "pct": 96.6,
+     "kappa": 0.925
+    },
+    "measures": {
+     "n": 88,
+     "agree": 78,
+     "pct": 88.6,
+     "kappa": null
+    },
+    "protocol": {
+     "n": 88,
+     "agree": 79,
+     "pct": 89.8,
+     "kappa": 0.871
+    },
+    "inside_folds": {
+     "n": 88,
+     "agree": 80,
+     "pct": 90.9,
+     "kappa": 0.866
+    },
+    "tuning": {
+     "n": 88,
+     "agree": 78,
+     "pct": 88.6,
+     "kappa": 0.85
+    },
+    "stat_test": {
+     "n": 88,
+     "agree": 85,
+     "pct": 96.6,
+     "kappa": 0.938
+    },
+    "code": {
+     "n": 88,
+     "agree": 86,
+     "pct": 97.7,
+     "kappa": 0.942
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "data_key": "MLOS",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL",
+  "Other",
+  "Synthetic"
+ ],
+ "crit": "16 datasets selected from the PROMISE, KEEL and UCI repositories, 'each with an imbalanced rate greater than 10 and a high overlap rate (more than 30%)', i.e. highly imbalanced class-overlapped data, the setting MLOS targets; plus a 2-D scikit-learn synthetic case study 'to elucidate our proposed method in a more intuitive way'.",
+ "crit_type": "own reason",
+ "basis": [
+  "threshold rule",
+  "difficulty",
+  "method-target",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Generated"
+ ],
+ "binarised_by": "both",
+ "minority_rule": "not stated",
+ "modified_data_released": "no",
+ "notes": "No data preparation is described for any dataset and no class is ever named as minority. Binarised by repository: KEEL two-class files (cleveland-0_vs_4, poker-8_vs_6, winequalityred3vs5, glass5, yeast6, abalone19; split implied by the KEEL name). Binarised by authors (inferred, undocumented): three sets attributed to UCI are canonical multi-class sources printed as two-class Major/Minor (PhishingData 1250/103, winequality 6497 = 6251/246, movement_libras 336/24); the paper never says how they were reduced to two classes or which class is the minority, hence binarised_by 'both', minority_rule 'not stated' (would be 'repository-defined' if only the KEEL sets counted) and modified_data_released 'no'. Adjudicator check: this relies on knowing these UCI sources are multi-class. Ozone-Level, climate and the PROMISE defect sets (coded 'Other') appear as distributed. Table 1 has no number-of-classes column. Only code is released (GitHub). Table 8 G-mean cells are printed as mean ± std; GDO on aba19 printed '/'."
+}

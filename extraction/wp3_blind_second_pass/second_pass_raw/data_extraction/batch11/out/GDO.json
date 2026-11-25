@@ -1,0 +1,28 @@
+{
+ "data_key": "GDO",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL",
+  "UCI",
+  "Private",
+  "Synthetic"
+ ],
+ "crit": "Three types of data 'to validate the performance': 40 public KEEL data sets (12 low-imbalance IR < 9, 28 high-imbalance IR >= 9); 10 large UCI data sets 'selected ... to test the performance of our proposal', all with more than 4000 instances, two high-dimensional (>160 features); two real application data sets collected by the authors (Internet video traffic, esophageal cancer metastasis) 'to test the performance of our approach for real imbalanced problems'; an artificial binary data set (200 majority, 33 minority) for a case study 'to show the difference between our method and other oversampling methods'.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "application",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Class-resized",
+  "Generated"
+ ],
+ "binarised_by": "both",
+ "minority_rule": "smallest class vs rest",
+ "modified_data_released": "no",
+ "notes": "Data: 40 KEEL (Table 2, p.673: # instances, # attributes, IR only), 10 large UCI (Table 3, p.674), video traffic (Table 4, p.674) and esophageal cancer (text only), plus the Fig. 4 artificial set (generator not described). Binarised = both: ready-made KEEL two-class files plus UCI multi-class sets reduced by the authors with smallest-class-vs-rest ('remaining classes are merged as the majority class' is one-vs-rest, so not coded Class-merged). Class-resized rests on the video-traffic sentence 'we select 90 negative instances and 900 positive instances', which does not match the Table 4 counts (300/500 instances per type) and leaves the minority class of the video tasks unclear. Esophageal target class (metastasis, 2076) is the larger class. No data availability statement (only UCI and KEEL software URLs). Table oddities, copied as printed: in Table 2 the glass-0-1-6_vs_2 row (336, 7, 15.8) is identical to the ecoli4 row above it; glass-0-1-2-3_vs_4-5-6 IR printed 35.23; Table 3 name 'Chesscking-Rook vs. King'; Table 4 video type 'Carton'. Results Tables 5-9 are vector graphics with no text layer; Table 7 values were read from a 700-dpi render of pdf p.9 (printed 675). Real-application results are only in histograms (Figs. 9-10)."
+}

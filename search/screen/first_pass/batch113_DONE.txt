@@ -1,0 +1,12 @@
+batch 113: 26 of 26 records done; include 5, unsure 4, exclude 17
+no records remain
+
+Look at these first:
+- R08186 (unsure, low): new k-prototypes cluster-based undersampling followed by existing ADASYN/SMOTETomek/NearMiss-2 on crash data, framed as a comparison. The codebook counts "SMOTE with a new cleaning step presented as a method" as I1-hybrid, but the novelty may be undersampling only (E-NOGEN) or a comparison (E-COMPARE).
+- R21968 (include, medium): diffusion generator of minority defect images plus filtering, framed as "anomaly detection and localization". E2 judged not to apply because a supervised classification-segmentation detector is trained (image-level AP). Check scope.
+- R17791 (include, medium): CoCo-GAN, a software defect prediction framework whose conditional GAN generates minority samples. The abstract does not say whether the CGAN itself is new, so this could be U-new-or-applied.
+- R14267 (include, medium): class-conditional 3D latent diffusion MRI generator, framed mainly as data scarcity (imbalance also named). Classifiers are trained on synthetic images, so this may be synthetic-data replacement rather than minority oversampling.
+- R07585 (unsure, medium): 3D rendering plus CycleGAN defect-image synthesis for object detection. I2 is not stated, and the codebook does not say whether object detection counts as classification (the same question applies to R21968).
+- R00831 (unsure, medium): OS-YATSI, oversampling inside a semi-supervised learner. Would be I1-hybrid if the full text shows it changes how oversampling is applied.
+- R16558 (unsure, medium): no abstract, but the title proposes a new MOPSO-based oversampling strategy. Likely an include once I2 is checked. Coded U-no-abstract, not include, following clarification 2.
+- R06733 (exclude, medium): no abstract; the title reads as a domain application (bad-loan prediction).

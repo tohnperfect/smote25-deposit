@@ -1,0 +1,11 @@
+batch 107: 200 of 200 records done; include 18, unsure 15, exclude 167
+no records remain
+
+Check first:
+- Low confidence: R12347 (sliding-window "oversampling" of sleep stages; are re-cut real windows synthetic examples?), R13670 (no abstract, vague title).
+- Non-English but otherwise in scope, excluded E-LANG on the language field only (abstracts are English): R01096 (SD-ISMOTE, zh), R01957 (boosting to clean noise after SMOTE, Turkish). Verify the full-text language.
+- Generative oversampler in a domain paper, "proposed generator" vs "existing generator applied" (codebook does not settle): included R03572 (deep WGAN-GP, fault), R13277 (DC-GAN, peptides), R13749 (new filters on GAN output); unsure R18464 (conditional DDPM + domain adaptation), R06374 (GAN-SMOTE, federated); excluded E1 R11078 and R16484 (CTGAN), R10548 (CTGAN-inspired + cost-sensitive), R18282 (GAN in HAR pipeline), R17052.
+- Clarification 1 applied where E2 or "no classification" could also apply: R04099 (VAE for zero-inflated crash counts, regression), R01205 (SMOTE-PENN for learning to rank), R17978 (3D bone diffusion, no classification; probably exclude), R05574 (oversampling for fair classification).
+- Same method twice: R00495 and R00551 (OUPS); R00495 has no venue (possibly a thesis). Decide E4 at full text.
+- Borderline excludes: R00621 (multilabel ML-BFO duplicates samples, so E-NOGEN), R01954 (F-race chooses among existing balancers), R00389 (PCA then SMOTE).
+- Out of scope but useful elsewhere in the survey: R18510 (threshold moving reproduces SMOTE's gain across 79 datasets), R17813 (commentary on SMOTE-ENN leakage before the split).

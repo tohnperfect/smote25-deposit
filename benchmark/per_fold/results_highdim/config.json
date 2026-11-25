@@ -1,0 +1,38 @@
+{
+ "tier": "highdim",
+ "seed": 20261110,
+ "folds": 5,
+ "repeats": 5,
+ "datasets": [
+  "oml_scene",
+  "oml_Speech",
+  "oml_musk",
+  "oml_Internet-Advertisements",
+  "oml_OVA_Prostate"
+ ],
+ "methods": [
+  "none",
+  "class_weight",
+  "threshold",
+  "ROS",
+  "SMOTE",
+  "ADASYN",
+  "Borderline-SMOTE",
+  "G-SMOTE",
+  "Safe-Level-SMOTE",
+  "Cluster-SMOTE",
+  "k-means SMOTE",
+  "MWMOTE",
+  "SMOTE-IPF",
+  "A-SUWO"
+ ],
+ "learners": [
+  "CART",
+  "kNN",
+  "LR",
+  "SVM",
+  "RF",
+  "GB"
+ ],
+ "split": "one job per dataset and repeat"
+}

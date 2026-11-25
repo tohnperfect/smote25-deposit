@@ -1,0 +1,11 @@
+Method form, batch 1: done (blind second coder). 5 of 5 rows filled in method/batch1_filled.csv, same columns and row order as batch1_to_fill.csv.
+Sources used: blind2/papers/<safe>.txt only, plus the Loyalty-SMOTE PDF pp.4-5 to read Fig.2 (flowchart) and Fig.3 (pseudocode). Pages are printed numbers (G-SMOTE: pdf = printed + 1; RAMOBoost: printed 1624-; Batista: printed 20-).
+
+Look at these first:
+1. M07 RAMOBoost, C3 = y. This is a judgement call. Each AdaBoost.M2 base learner trains on S_e, a D_t-weighted resample "of identical size" (Alg.1 step 1, p.1627), so original examples can be missing or duplicated in each round. There is no cleaning step. If boosting by resampling is not meant to count for C3, change it to n.
+2. M05 Loyalty-SMOTE, category B+M, FLAGGED. The 5 multiclass sets keep 3-10 classes (Table 5 p.8; §4.4.4 p.12). But only the smallest class is defined as minority, so only one class seems to be oversampled (p.12; Fig.3 line 19). Variants: binary branch = B, multiclass (Attraction relabelling) branch = M.
+3. M05 Loyalty-SMOTE, neighbour choice = n. SMOTE (k = 5) is applied to the boundary set (p.6; Fig.3 line 20), so the partner pool may also be limited to boundary or non-signed samples. The paper never says so explicitly. The cleaning rules contradict each other: the text and Fig.3 say LOF < 0, Fig.2 says LOF > 1, and Fig.3 Step 2 removes noise while the text says it is retained. Post-filtering = y and C3 = y hold under any reading.
+4. M03 G-SMOTE, multiclass reduction = yes. This is inferred from the Table 1 class counts (e.g. IRIS 50 vs 100). The paper does not describe how the classes were reduced.
+5. M01 CISO, seed selection and sample allocation are both y. One anchor distribution P_alpha (Eq.9, p.8) drives both, with locked alpha = +2 (p.25). Year coded 2025 from the arXiv id; the file is v2, dated 6 Aug 2026.
+6. M09 Batista 2004, neighbour choice = n. Their k-NN uses HVDM (VDM for nominal attributes, p.22), and the SMOTE k is not stated. Both proposed hybrids (Smote+Tomek, Smote+ENN) are B, with post-filtering = y and C3 = y.
+All five are coded Core, and none has an adaptive k.

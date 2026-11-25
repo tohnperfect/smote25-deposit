@@ -1,0 +1,1389 @@
+{
+ "definition": "(Toon, 28 Oct 2026): every metric a paper reports with the SMOTE column, classifier and condition\nfixed by rule A; compare the printed numbers in the metric's direction; equal printed values = tie; non-numeric = not\ncomparable. Unit = dataset x metric row. Main set = plain SMOTE comparator (29 papers); other comparators reported apart.",
+ "all_metric_plain": {
+  "overall": {
+   "rows": 1495,
+   "papers": 29,
+   "win": 1102,
+   "tie": 100,
+   "loss": 293,
+   "win_share_of_decided": {
+    "k": 1102,
+    "n": 1395,
+    "pct": 79.0,
+    "ci95": [
+     76.8,
+     81.1
+    ]
+   }
+  },
+  "datasets": 520,
+  "by_type": {
+   "original": {
+    "rows": 422,
+    "papers": 25,
+    "win": 330,
+    "tie": 10,
+    "loss": 82,
+    "win_share_of_decided": {
+     "k": 330,
+     "n": 412,
+     "pct": 80.1,
+     "ci95": [
+      76.0,
+      83.7
+     ]
+    }
+   },
+   "repository-defined": {
+    "rows": 315,
+    "papers": 9,
+    "win": 218,
+    "tie": 38,
+    "loss": 59,
+    "win_share_of_decided": {
+     "k": 218,
+     "n": 277,
+     "pct": 78.7,
+     "ci95": [
+      73.5,
+      83.1
+     ]
+    }
+   },
+   "modified": {
+    "rows": 495,
+    "papers": 14,
+    "win": 351,
+    "tie": 24,
+    "loss": 120,
+    "win_share_of_decided": {
+     "k": 351,
+     "n": 471,
+     "pct": 74.5,
+     "ci95": [
+      70.4,
+      78.2
+     ]
+    }
+   },
+   "synthetic": {
+    "rows": 18,
+    "papers": 2,
+    "win": 17,
+    "tie": 0,
+    "loss": 1,
+    "win_share_of_decided": {
+     "k": 17,
+     "n": 18,
+     "pct": 94.4,
+     "ci95": [
+      74.2,
+      99.0
+     ]
+    }
+   },
+   "not stated": {
+    "rows": 234,
+    "papers": 13,
+    "win": 183,
+    "tie": 24,
+    "loss": 27,
+    "win_share_of_decided": {
+     "k": 183,
+     "n": 210,
+     "pct": 87.1,
+     "ci95": [
+      81.9,
+      91.0
+     ]
+    }
+   },
+   "unmatched": {
+    "rows": 11,
+    "papers": 3,
+    "win": 3,
+    "tie": 4,
+    "loss": 4,
+    "win_share_of_decided": {
+     "k": 3,
+     "n": 7,
+     "pct": 42.9,
+     "ci95": [
+      15.8,
+      75.0
+     ]
+    }
+   }
+  },
+  "H1_primary_modsyn_vs_original": {
+   "label": "all-metric rows: modified+synthetic vs original",
+   "n_rows": 901,
+   "n_papers": 26,
+   "crude": {
+    "test_win": 368,
+    "test_loss": 121,
+    "base_win": 330,
+    "base_loss": 82,
+    "odds_ratio": 0.756,
+    "fisher_p": 0.0928
+   },
+   "M1_gee": {
+    "odds_ratio": 0.61,
+    "ci95": [
+     0.371,
+     1.002
+    ],
+    "p": 0.0509
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 14,
+    "papers_informative": 12,
+    "rows": 630,
+    "odds_ratio": 0.525,
+    "ci95": [
+     0.328,
+     0.841
+    ],
+    "p": 0.0074
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 0.636,
+    "ci95_approx": [
+     0.4876,
+     0.8292
+    ],
+    "posterior_mean_log_or": -0.453,
+    "posterior_sd": 0.135
+   }
+  },
+  "H1_modsyn_vs_standard": {
+   "label": "all-metric rows: modified+synthetic vs original+repository-defined",
+   "n_rows": 1178,
+   "n_papers": 29,
+   "crude": {
+    "test_win": 368,
+    "test_loss": 121,
+    "base_win": 548,
+    "base_loss": 141,
+    "odds_ratio": 0.783,
+    "fisher_p": 0.088
+   },
+   "M1_gee": {
+    "odds_ratio": 0.584,
+    "ci95": [
+     0.36,
+     0.949
+    ],
+    "p": 0.0298
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 14,
+    "papers_informative": 12,
+    "rows": 665,
+    "odds_ratio": 0.518,
+    "ci95": [
+     0.323,
+     0.831
+    ],
+    "p": 0.0064
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 0.577,
+    "ci95_approx": [
+     0.4426,
+     0.7532
+    ],
+    "posterior_mean_log_or": -0.549,
+    "posterior_sd": 0.136
+   }
+  },
+  "repository_defined_vs_original": {
+   "label": "all-metric rows: repository-defined vs original",
+   "n_rows": 689,
+   "n_papers": 28,
+   "crude": {
+    "test_win": 218,
+    "test_loss": 59,
+    "base_win": 330,
+    "base_loss": 82,
+    "odds_ratio": 0.918,
+    "fisher_p": 0.7003
+   },
+   "M1_gee": {
+    "odds_ratio": 1.033,
+    "ci95": [
+     0.484,
+     2.206
+    ],
+    "p": 0.9333
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 6,
+    "papers_informative": 6,
+    "rows": 280,
+    "odds_ratio": 1.157,
+    "ci95": [
+     0.568,
+     2.354
+    ],
+    "p": 0.6878
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 1.096,
+    "ci95_approx": [
+     0.7717,
+     1.5572
+    ],
+    "posterior_mean_log_or": 0.092,
+    "posterior_sd": 0.179
+   }
+  },
+  "not_stated_vs_standard": {
+   "label": "all-metric rows: not stated vs original+repository-defined",
+   "n_rows": 899,
+   "n_papers": 28,
+   "crude": {
+    "test_win": 183,
+    "test_loss": 27,
+    "base_win": 548,
+    "base_loss": 141,
+    "odds_ratio": 1.744,
+    "fisher_p": 0.0149
+   },
+   "M1_gee": {
+    "odds_ratio": 0.896,
+    "ci95": [
+     0.458,
+     1.755
+    ],
+    "p": 0.7494
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 13,
+    "papers_informative": 10,
+    "rows": 462,
+    "odds_ratio": 0.703,
+    "ci95": [
+     0.351,
+     1.407
+    ],
+    "p": 0.3193
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 1.089,
+    "ci95_approx": [
+     0.6499,
+     1.8261
+    ],
+    "posterior_mean_log_or": 0.086,
+    "posterior_sd": 0.264
+   }
+  },
+  "metric_groups_per_paper": {
+   "median": 3.0,
+   "min": 1,
+   "max": 6,
+   "distribution": {
+    "1": 6,
+    "2": 4,
+    "3": 11,
+    "4": 4,
+    "5": 3,
+    "6": 1
+   }
+  },
+  "papers_with_at_least_one_loss": 24,
+  "papers_without_loss": [
+   "MBS",
+   "RUSBoost",
+   "SMOTE-IPF",
+   "SPE",
+   "SVDD-WSMOTE"
+  ],
+  "rows_incl_not_comparable": 1511,
+  "datasets_incl_not_comparable": 524,
+  "by_metric_group": {
+   "AUC": {
+    "rows": 403,
+    "papers": 19,
+    "win": 307,
+    "tie": 34,
+    "loss": 62,
+    "win_share_of_decided": {
+     "k": 307,
+     "n": 369,
+     "pct": 83.2,
+     "ci95": [
+      79.0,
+      86.7
+     ]
+    }
+   },
+   "AUC-PR": {
+    "rows": 3,
+    "papers": 1,
+    "win": 3,
+    "tie": 0,
+    "loss": 0,
+    "win_share_of_decided": {
+     "k": 3,
+     "n": 3,
+     "pct": 100.0,
+     "ci95": [
+      43.9,
+      100.0
+     ]
+    }
+   },
+   "Accuracy": {
+    "rows": 69,
+    "papers": 4,
+    "win": 62,
+    "tie": 1,
+    "loss": 6,
+    "win_share_of_decided": {
+     "k": 62,
+     "n": 68,
+     "pct": 91.2,
+     "ci95": [
+      82.1,
+      95.9
+     ]
+    }
+   },
+   "F-measure": {
+    "rows": 283,
+    "papers": 18,
+    "win": 214,
+    "tie": 14,
+    "loss": 55,
+    "win_share_of_decided": {
+     "k": 214,
+     "n": 269,
+     "pct": 79.6,
+     "ci95": [
+      74.3,
+      83.9
+     ]
+    }
+   },
+   "G-mean": {
+    "rows": 376,
+    "papers": 19,
+    "win": 283,
+    "tie": 27,
+    "loss": 66,
+    "win_share_of_decided": {
+     "k": 283,
+     "n": 349,
+     "pct": 81.1,
+     "ci95": [
+      76.7,
+      84.9
+     ]
+    }
+   },
+   "MCC": {
+    "rows": 48,
+    "papers": 3,
+    "win": 40,
+    "tie": 0,
+    "loss": 8,
+    "win_share_of_decided": {
+     "k": 40,
+     "n": 48,
+     "pct": 83.3,
+     "ci95": [
+      70.4,
+      91.3
+     ]
+    }
+   },
+   "Precision": {
+    "rows": 113,
+    "papers": 7,
+    "win": 62,
+    "tie": 4,
+    "loss": 47,
+    "win_share_of_decided": {
+     "k": 62,
+     "n": 109,
+     "pct": 56.9,
+     "ci95": [
+      47.5,
+      65.8
+     ]
+    }
+   },
+   "Recall/sensitivity": {
+    "rows": 193,
+    "papers": 12,
+    "win": 130,
+    "tie": 20,
+    "loss": 43,
+    "win_share_of_decided": {
+     "k": 130,
+     "n": 173,
+     "pct": 75.1,
+     "ci95": [
+      68.2,
+      81.0
+     ]
+    }
+   },
+   "Specificity": {
+    "rows": 7,
+    "papers": 1,
+    "win": 1,
+    "tie": 0,
+    "loss": 6,
+    "win_share_of_decided": {
+     "k": 1,
+     "n": 7,
+     "pct": 14.3,
+     "ci95": [
+      2.6,
+      51.3
+     ]
+    }
+   }
+  },
+  "rate_definitions": "win_share_of_decided = wins / (wins + losses); ties and not comparable left out"
+ },
+ "robust_R1_dataset_majority": {
+  "overall": {
+   "rows": 520,
+   "papers": 29,
+   "win": 403,
+   "tie": 42,
+   "loss": 75,
+   "win_share_of_decided": {
+    "k": 403,
+    "n": 478,
+    "pct": 84.3,
+    "ci95": [
+     80.8,
+     87.3
+    ]
+   }
+  },
+  "datasets": 520,
+  "by_type": {
+   "original": {
+    "rows": 143,
+    "papers": 25,
+    "win": 117,
+    "tie": 5,
+    "loss": 21,
+    "win_share_of_decided": {
+     "k": 117,
+     "n": 138,
+     "pct": 84.8,
+     "ci95": [
+      77.9,
+      89.8
+     ]
+    }
+   },
+   "repository-defined": {
+    "rows": 119,
+    "papers": 9,
+    "win": 88,
+    "tie": 16,
+    "loss": 15,
+    "win_share_of_decided": {
+     "k": 88,
+     "n": 103,
+     "pct": 85.4,
+     "ci95": [
+      77.4,
+      91.0
+     ]
+    }
+   },
+   "modified": {
+    "rows": 143,
+    "papers": 14,
+    "win": 107,
+    "tie": 8,
+    "loss": 28,
+    "win_share_of_decided": {
+     "k": 107,
+     "n": 135,
+     "pct": 79.3,
+     "ci95": [
+      71.7,
+      85.2
+     ]
+    }
+   },
+   "synthetic": {
+    "rows": 6,
+    "papers": 2,
+    "win": 6,
+    "tie": 0,
+    "loss": 0,
+    "win_share_of_decided": {
+     "k": 6,
+     "n": 6,
+     "pct": 100.0,
+     "ci95": [
+      61.0,
+      100.0
+     ]
+    }
+   },
+   "not stated": {
+    "rows": 105,
+    "papers": 13,
+    "win": 83,
+    "tie": 12,
+    "loss": 10,
+    "win_share_of_decided": {
+     "k": 83,
+     "n": 93,
+     "pct": 89.2,
+     "ci95": [
+      81.3,
+      94.1
+     ]
+    }
+   },
+   "unmatched": {
+    "rows": 4,
+    "papers": 3,
+    "win": 2,
+    "tie": 1,
+    "loss": 1,
+    "win_share_of_decided": {
+     "k": 2,
+     "n": 3,
+     "pct": 66.7,
+     "ci95": [
+      20.8,
+      93.9
+     ]
+    }
+   }
+  },
+  "H1_primary_modsyn_vs_original": {
+   "label": "dataset majority: modified+synthetic vs original",
+   "n_rows": 279,
+   "n_papers": 26,
+   "crude": {
+    "test_win": 113,
+    "test_loss": 28,
+    "base_win": 117,
+    "base_loss": 21,
+    "odds_ratio": 0.724,
+    "fisher_p": 0.3469
+   },
+   "M1_gee": {
+    "odds_ratio": 0.624,
+    "ci95": [
+     0.311,
+     1.255
+    ],
+    "p": 0.1858
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 14,
+    "papers_informative": 11,
+    "rows": 171,
+    "odds_ratio": 0.412,
+    "ci95": [
+     0.152,
+     1.114
+    ],
+    "p": 0.0805
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 0.594,
+    "ci95_approx": [
+     0.3806,
+     0.9272
+    ],
+    "posterior_mean_log_or": -0.521,
+    "posterior_sd": 0.227
+   }
+  },
+  "H1_modsyn_vs_standard": {
+   "label": "dataset majority: modified+synthetic vs original+repository-defined",
+   "n_rows": 382,
+   "n_papers": 29,
+   "crude": {
+    "test_win": 113,
+    "test_loss": 28,
+    "base_win": 205,
+    "base_loss": 36,
+    "odds_ratio": 0.709,
+    "fisher_p": 0.256
+   },
+   "M1_gee": {
+    "odds_ratio": 0.614,
+    "ci95": [
+     0.321,
+     1.174
+    ],
+    "p": 0.14
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 14,
+    "papers_informative": 11,
+    "rows": 182,
+    "odds_ratio": 0.385,
+    "ci95": [
+     0.139,
+     1.063
+    ],
+    "p": 0.0654
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 0.562,
+    "ci95_approx": [
+     0.36,
+     0.8761
+    ],
+    "posterior_mean_log_or": -0.577,
+    "posterior_sd": 0.227
+   }
+  },
+  "repository_defined_vs_original": {
+   "label": "dataset majority: repository-defined vs original",
+   "n_rows": 241,
+   "n_papers": 28,
+   "crude": {
+    "test_win": 88,
+    "test_loss": 15,
+    "base_win": 117,
+    "base_loss": 21,
+    "odds_ratio": 1.053,
+    "fisher_p": 1.0
+   },
+   "M1_gee": {
+    "odds_ratio": 1.099,
+    "ci95": [
+     0.385,
+     3.134
+    ],
+    "p": 0.8603
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 6,
+    "papers_informative": 6,
+    "rows": 80,
+    "odds_ratio": 1.572,
+    "ci95": [
+     0.451,
+     5.478
+    ],
+    "p": 0.4779
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 1.213,
+    "ci95_approx": [
+     0.6803,
+     2.1616
+    ],
+    "posterior_mean_log_or": 0.193,
+    "posterior_sd": 0.295
+   }
+  },
+  "not_stated_vs_standard": {
+   "label": "dataset majority: not stated vs original+repository-defined",
+   "n_rows": 334,
+   "n_papers": 28,
+   "crude": {
+    "test_win": 83,
+    "test_loss": 10,
+    "base_win": 205,
+    "base_loss": 36,
+    "odds_ratio": 1.458,
+    "fisher_p": 0.3784
+   },
+   "M1_gee": {
+    "odds_ratio": 1.037,
+    "ci95": [
+     0.497,
+     2.165
+    ],
+    "p": 0.9231
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 13,
+    "papers_informative": 8,
+    "rows": 121,
+    "odds_ratio": 0.645,
+    "ci95": [
+     0.198,
+     2.095
+    ],
+    "p": 0.4652
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 1.073,
+    "ci95_approx": [
+     0.5269,
+     2.1855
+    ],
+    "posterior_mean_log_or": 0.071,
+    "posterior_sd": 0.363
+   }
+  }
+ },
+ "robust_R2_ruleA": {
+  "overall": {
+   "rows": 521,
+   "papers": 29,
+   "win": 398,
+   "tie": 42,
+   "loss": 81,
+   "win_share_of_decided": {
+    "k": 398,
+    "n": 479,
+    "pct": 83.1,
+    "ci95": [
+     79.5,
+     86.2
+    ]
+   }
+  },
+  "datasets": 519,
+  "by_type": {
+   "original": {
+    "rows": 145,
+    "papers": 25,
+    "win": 114,
+    "tie": 5,
+    "loss": 26,
+    "win_share_of_decided": {
+     "k": 114,
+     "n": 140,
+     "pct": 81.4,
+     "ci95": [
+      74.2,
+      87.0
+     ]
+    }
+   },
+   "repository-defined": {
+    "rows": 119,
+    "papers": 9,
+    "win": 89,
+    "tie": 14,
+    "loss": 16,
+    "win_share_of_decided": {
+     "k": 89,
+     "n": 105,
+     "pct": 84.8,
+     "ci95": [
+      76.7,
+      90.4
+     ]
+    }
+   },
+   "modified": {
+    "rows": 143,
+    "papers": 14,
+    "win": 106,
+    "tie": 9,
+    "loss": 28,
+    "win_share_of_decided": {
+     "k": 106,
+     "n": 134,
+     "pct": 79.1,
+     "ci95": [
+      71.5,
+      85.1
+     ]
+    }
+   },
+   "synthetic": {
+    "rows": 6,
+    "papers": 2,
+    "win": 6,
+    "tie": 0,
+    "loss": 0,
+    "win_share_of_decided": {
+     "k": 6,
+     "n": 6,
+     "pct": 100.0,
+     "ci95": [
+      61.0,
+      100.0
+     ]
+    }
+   },
+   "not stated": {
+    "rows": 105,
+    "papers": 13,
+    "win": 82,
+    "tie": 13,
+    "loss": 10,
+    "win_share_of_decided": {
+     "k": 82,
+     "n": 92,
+     "pct": 89.1,
+     "ci95": [
+      81.1,
+      94.0
+     ]
+    }
+   },
+   "unmatched": {
+    "rows": 3,
+    "papers": 2,
+    "win": 1,
+    "tie": 1,
+    "loss": 1,
+    "win_share_of_decided": {
+     "k": 1,
+     "n": 2,
+     "pct": 50.0,
+     "ci95": [
+      9.5,
+      90.5
+     ]
+    }
+   }
+  },
+  "H1_primary_modsyn_vs_original": {
+   "label": "rule A (one metric): modified+synthetic vs original",
+   "n_rows": 280,
+   "n_papers": 26,
+   "crude": {
+    "test_win": 112,
+    "test_loss": 28,
+    "base_win": 114,
+    "base_loss": 26,
+    "odds_ratio": 0.912,
+    "fisher_p": 0.8797
+   },
+   "M1_gee": {
+    "odds_ratio": 0.787,
+    "ci95": [
+     0.382,
+     1.618
+    ],
+    "p": 0.514
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 14,
+    "papers_informative": 10,
+    "rows": 165,
+    "odds_ratio": 0.569,
+    "ci95": [
+     0.222,
+     1.46
+    ],
+    "p": 0.2408
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 0.787,
+    "ci95_approx": [
+     0.5039,
+     1.2303
+    ],
+    "posterior_mean_log_or": -0.239,
+    "posterior_sd": 0.228
+   }
+  },
+  "H1_modsyn_vs_standard": {
+   "label": "rule A (one metric): modified+synthetic vs original+repository-defined",
+   "n_rows": 385,
+   "n_papers": 29,
+   "crude": {
+    "test_win": 112,
+    "test_loss": 28,
+    "base_win": 203,
+    "base_loss": 42,
+    "odds_ratio": 0.828,
+    "fisher_p": 0.4947
+   },
+   "M1_gee": {
+    "odds_ratio": 0.735,
+    "ci95": [
+     0.374,
+     1.444
+    ],
+    "p": 0.3713
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 14,
+    "papers_informative": 10,
+    "rows": 176,
+    "odds_ratio": 0.528,
+    "ci95": [
+     0.202,
+     1.38
+    ],
+    "p": 0.1927
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 0.726,
+    "ci95_approx": [
+     0.4662,
+     1.1294
+    ],
+    "posterior_mean_log_or": -0.321,
+    "posterior_sd": 0.226
+   }
+  },
+  "repository_defined_vs_original": {
+   "label": "rule A (one metric): repository-defined vs original",
+   "n_rows": 245,
+   "n_papers": 28,
+   "crude": {
+    "test_win": 89,
+    "test_loss": 16,
+    "base_win": 114,
+    "base_loss": 26,
+    "odds_ratio": 1.269,
+    "fisher_p": 0.6078
+   },
+   "M1_gee": {
+    "odds_ratio": 1.482,
+    "ci95": [
+     0.533,
+     4.123
+    ],
+    "p": 0.4506
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 6,
+    "papers_informative": 6,
+    "rows": 86,
+    "odds_ratio": 3.448,
+    "ci95": [
+     0.867,
+     13.714
+    ],
+    "p": 0.0788
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 1.582,
+    "ci95_approx": [
+     0.906,
+     2.7612
+    ],
+    "posterior_mean_log_or": 0.458,
+    "posterior_sd": 0.284
+   }
+  },
+  "not_stated_vs_standard": {
+   "label": "rule A (one metric): not stated vs original+repository-defined",
+   "n_rows": 337,
+   "n_papers": 28,
+   "crude": {
+    "test_win": 82,
+    "test_loss": 10,
+    "base_win": 203,
+    "base_loss": 42,
+    "odds_ratio": 1.697,
+    "fisher_p": 0.1781
+   },
+   "M1_gee": {
+    "odds_ratio": 1.101,
+    "ci95": [
+     0.551,
+     2.2
+    ],
+    "p": 0.7858
+   },
+   "M2_conditional": {
+    "papers_with_both_groups": 13,
+    "papers_informative": 9,
+    "rows": 158,
+    "odds_ratio": 0.581,
+    "ci95": [
+     0.178,
+     1.901
+    ],
+    "p": 0.3694
+   },
+   "M3_bayes_mixed": {
+    "odds_ratio": 1.16,
+    "ci95_approx": [
+     0.575,
+     2.3392
+    ],
+    "posterior_mean_log_or": 0.148,
+    "posterior_sd": 0.358
+   }
+  }
+ },
+ "non_plain_by_type": {
+  "OVO-SMOTE": {
+   "original": {
+    "rows": 136,
+    "papers": 3,
+    "win": 89,
+    "tie": 6,
+    "loss": 41,
+    "win_share_of_decided": {
+     "k": 89,
+     "n": 130,
+     "pct": 68.5,
+     "ci95": [
+      60.0,
+      75.8
+     ]
+    }
+   },
+   "modified": {
+    "rows": 12,
+    "papers": 1,
+    "win": 12,
+    "tie": 0,
+    "loss": 0,
+    "win_share_of_decided": {
+     "k": 12,
+     "n": 12,
+     "pct": 100.0,
+     "ci95": [
+      75.8,
+      100.0
+     ]
+    }
+   }
+  },
+  "SMOTE wrapped with another classifier": {
+   "original": {
+    "rows": 40,
+    "papers": 2,
+    "win": 27,
+    "tie": 0,
+    "loss": 13,
+    "win_share_of_decided": {
+     "k": 27,
+     "n": 40,
+     "pct": 67.5,
+     "ci95": [
+      52.0,
+      79.9
+     ]
+    }
+   },
+   "modified": {
+    "rows": 52,
+    "papers": 3,
+    "win": 44,
+    "tie": 2,
+    "loss": 6,
+    "win_share_of_decided": {
+     "k": 44,
+     "n": 50,
+     "pct": 88.0,
+     "ci95": [
+      76.2,
+      94.4
+     ]
+    }
+   }
+  },
+  "SMOTE-all (multiclass, all classes)": {
+   "original": {
+    "rows": 239,
+    "papers": 3,
+    "win": 231,
+    "tie": 0,
+    "loss": 8,
+    "win_share_of_decided": {
+     "k": 231,
+     "n": 239,
+     "pct": 96.7,
+     "ci95": [
+      93.5,
+      98.3
+     ]
+    }
+   }
+  },
+  "Static-SMOTE": {
+   "original": {
+    "rows": 69,
+    "papers": 3,
+    "win": 60,
+    "tie": 3,
+    "loss": 6,
+    "win_share_of_decided": {
+     "k": 60,
+     "n": 66,
+     "pct": 90.9,
+     "ci95": [
+      81.6,
+      95.8
+     ]
+    }
+   },
+   "modified": {
+    "rows": 6,
+    "papers": 2,
+    "win": 5,
+    "tie": 0,
+    "loss": 1,
+    "win_share_of_decided": {
+     "k": 5,
+     "n": 6,
+     "pct": 83.3,
+     "ci95": [
+      43.6,
+      97.0
+     ]
+    }
+   },
+   "synthetic": {
+    "rows": 4,
+    "papers": 1,
+    "win": 4,
+    "tie": 0,
+    "loss": 0,
+    "win_share_of_decided": {
+     "k": 4,
+     "n": 4,
+     "pct": 100.0,
+     "ci95": [
+      51.0,
+      100.0
+     ]
+    }
+   }
+  }
+ },
+ "H1_within_paper_descriptive": {
+  "papers_with_both": 14,
+  "modsyn_higher": 3,
+  "std_higher": 8,
+  "equal": 3,
+  "sign_test_p": 0.2266
+ },
+ "H2": {
+  "rule": "exactly one standard dataset and at least one other dataset in the paper's plain-SMOTE comparisons",
+  "papers": [
+   {
+    "paper": "MWMOTE",
+    "std_datasets": 1,
+    "modsyn_datasets": 17,
+    "other_datasets": 2,
+    "std_win_loss_tie": "3/0/0",
+    "modsyn_win_loss_tie": "38/13/0"
+   },
+   {
+    "paper": "RUSBoost",
+    "std_datasets": 1,
+    "modsyn_datasets": 9,
+    "other_datasets": 5,
+    "std_win_loss_tie": "1/0/0",
+    "modsyn_win_loss_tie": "9/0/0"
+   }
+  ],
+  "zero_standard": [
+   "INOS"
+  ],
+  "only_standard": [
+   "GDO",
+   "MKC-SMOTE",
+   "SCUT",
+   "SPE"
+  ],
+  "note": "two papers meet the rule; reported per paper, no test",
+  "non_standard_rows_token_papers": {
+   "rows": 65,
+   "papers": 2,
+   "win": 52,
+   "tie": 0,
+   "loss": 13,
+   "win_share_of_decided": {
+    "k": 52,
+    "n": 65,
+    "pct": 80.0,
+    "ci95": [
+     68.7,
+     87.9
+    ]
+   }
+  },
+  "non_standard_rows_other_papers": {
+   "rows": 647,
+   "papers": 22,
+   "win": 478,
+   "tie": 48,
+   "loss": 121,
+   "win_share_of_decided": {
+    "k": 478,
+    "n": 599,
+    "pct": 79.8,
+    "ci95": [
+     76.4,
+     82.8
+    ]
+   }
+  }
+ },
+ "H3a_granularity": {
+  "papers": 73,
+  "counts": {
+   "per-dataset": 47,
+   "plots only": 5,
+   "aggregate only": 5,
+   "no comparison": 5,
+   "per-dataset partial": 8,
+   "ranking only": 3
+  },
+  "checkable_per_dataset": {
+   "k": 47,
+   "n": 73,
+   "pct": 64.4,
+   "ci95": [
+    52.9,
+    74.4
+   ]
+  },
+  "not_checkable": {
+   "k": 13,
+   "n": 73,
+   "pct": 17.8,
+   "ci95": [
+    10.7,
+    28.1
+   ]
+  }
+ },
+ "H3b_listed_not_compared": {
+  "papers": 43,
+  "entries": 1034,
+  "not_in_comparison": {
+   "k": 201,
+   "n": 1034,
+   "pct": 19.4,
+   "ci95": [
+    17.1,
+    22.0
+   ]
+  },
+  "papers_with_any_missing": 18,
+  "by_paper": {
+   "MC-MBRC": {
+    "listed": 81,
+    "missing": 61
+   },
+   "SMOTE-IPF": {
+    "listed": 41,
+    "missing": 32
+   },
+   "Loyalty-SMOTE": {
+    "listed": 59,
+    "missing": 30
+   },
+   "NROMM": {
+    "listed": 38,
+    "missing": 18
+   },
+   "RSMOTE": {
+    "listed": 40,
+    "missing": 13
+   },
+   "GDO": {
+    "listed": 53,
+    "missing": 13
+   },
+   "SVDD-WSMOTE": {
+    "listed": 35,
+    "missing": 11
+   },
+   "GAMO": {
+    "listed": 14,
+    "missing": 5
+   },
+   "NBU": {
+    "listed": 28,
+    "missing": 4
+   },
+   "MWMOTE": {
+    "listed": 21,
+    "missing": 3
+   },
+   "EMDO": {
+    "listed": 11,
+    "missing": 2
+   },
+   "RAMOBoost": {
+    "listed": 21,
+    "missing": 2
+   },
+   "SPE": {
+    "listed": 7,
+    "missing": 2
+   },
+   "MLOS": {
+    "listed": 17,
+    "missing": 1
+   },
+   "ADASYN": {
+    "listed": 6,
+    "missing": 1
+   },
+   "RBBoost / Random Balance": {
+    "listed": 87,
+    "missing": 1
+   },
+   "OREM-M": {
+    "listed": 22,
+    "missing": 1
+   },
+   "MC-CCR": {
+    "listed": 21,
+    "missing": 1
+   }
+  },
+  "by_category": {
+   "modified": {
+    "k": 12,
+    "n": 187,
+    "pct": 6.4,
+    "ci95": [
+     3.7,
+     10.9
+    ]
+   },
+   "not stated": {
+    "k": 44,
+    "n": 166,
+    "pct": 26.5,
+    "ci95": [
+     20.4,
+     33.7
+    ]
+   },
+   "original": {
+    "k": 25,
+    "n": 369,
+    "pct": 6.8,
+    "ci95": [
+     4.6,
+     9.8
+    ]
+   },
+   "repository-defined": {
+    "k": 7,
+    "n": 189,
+    "pct": 3.7,
+    "ci95": [
+     1.8,
+     7.4
+    ]
+   },
+   "synthetic": {
+    "k": 113,
+    "n": 123,
+    "pct": 91.9,
+    "ci95": [
+     85.7,
+     95.5
+    ]
+   }
+  },
+  "caveat": "absence from the extracted table that compares with SMOTE; a dataset may still appear in another results table of the paper"
+ }
+}

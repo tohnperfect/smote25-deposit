@@ -1,0 +1,9 @@
+{
+ "task": "smoke detection",
+ "source": "Kaggle",
+ "n": 62630,
+ "n_min": 17873,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 14
+}

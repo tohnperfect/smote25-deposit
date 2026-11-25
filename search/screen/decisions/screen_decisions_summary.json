@@ -1,0 +1,194 @@
+{
+ "records": 22426,
+ "decision": {
+  "exclude": 19329,
+  "include": 3097
+ },
+ "decided_by": {
+  "first pass, high confidence": 17898,
+  "independent AI check": 1024,
+  "third look (adjudication)": 768,
+  "first pass and second look agree": 2070,
+  "rule: unsure after the authors' check (D28)": 382,
+  "rule: removed by its repository": 167,
+  "rulings B and B2 (AI pass)": 108,
+  "team correction": 9
+ },
+ "codes": {
+  "exclude": {
+   "E1": 14738,
+   "E-COMPARE": 1661,
+   "E-NOGEN": 1017,
+   "E-LANG": 658,
+   "E-REVIEW": 413,
+   "E-UNSURE": 382,
+   "E2": 218,
+   "E-WITHDRAWN": 167,
+   "E-OTHER": 75
+  },
+  "include": {
+   "I1-new-variant": 1319,
+   "I1-hybrid": 663,
+   "I1-generative": 561,
+   "I1-other": 428,
+   "I1-multiclass": 126
+  }
+ },
+ "by_period": {
+  "exclude": {
+   "P1": 96,
+   "P2": 366,
+   "P3": 1675,
+   "P4": 17192
+  },
+  "include": {
+   "P1": 48,
+   "P2": 204,
+   "P3": 524,
+   "P4": 2321
+  }
+ },
+ "include_kind_by_period": {
+  "I1-generative": {
+   "P1": 2,
+   "P2": 9,
+   "P3": 54,
+   "P4": 496
+  },
+  "I1-hybrid": {
+   "P1": 16,
+   "P2": 61,
+   "P3": 128,
+   "P4": 458
+  },
+  "I1-multiclass": {
+   "P1": 1,
+   "P2": 12,
+   "P3": 29,
+   "P4": 84
+  },
+  "I1-new-variant": {
+   "P1": 17,
+   "P2": 90,
+   "P3": 230,
+   "P4": 982
+  },
+  "I1-other": {
+   "P1": 12,
+   "P2": 32,
+   "P3": 83,
+   "P4": 301
+  }
+ },
+ "adjudication": {
+  "n": 2088,
+  "decision": {
+   "unsure": 1222,
+   "exclude": 554,
+   "include": 312
+  },
+  "sided_with_first": 1323,
+  "sided_with_second": 1576,
+  "confidence": {
+   "low": 598,
+   "high": 219,
+   "medium": 1271
+  }
+ },
+ "team_corrections": 9,
+ "third_look_missing": 0,
+ "final_merge": true,
+ "final_merge_unsure_excluded": 382,
+ "ai_screen": {
+  "decision": {
+   "exclude": 18951,
+   "include": 3092,
+   "unsure": 383
+  },
+  "codes": {
+   "exclude": {
+    "E1": 14738,
+    "E-COMPARE": 1661,
+    "E-NOGEN": 1017,
+    "E-LANG": 658,
+    "E-REVIEW": 413,
+    "E2": 218,
+    "E-WITHDRAWN": 167,
+    "E-OTHER": 79
+   },
+   "include": {
+    "I1-new-variant": 1317,
+    "I1-hybrid": 662,
+    "I1-generative": 560,
+    "I1-other": 427,
+    "I1-multiclass": 126
+   },
+   "unsure": {
+    "U-rule-B": 332,
+    "U-new-or-applied": 12,
+    "U-other": 1
+   }
+  }
+ },
+ "team": {
+  "rows": 9,
+  "records": 9,
+  "changes": {
+   "exclude->include": 4,
+   "exclude->exclude": 4,
+   "unsure->include": 1
+  }
+ },
+ "ai_check": {
+  "files": [
+   "RETURN_screen_decisions_AI-Claude-Fable-5.2_2026-11-11_v3.csv"
+  ],
+  "rows_with_a_decision": 1233,
+  "records_in_lists": 1822,
+  "final": {
+   "include": 609,
+   "unsure": 51,
+   "exclude": 423
+  },
+  "looks_to_check": {
+   "unsure->include": 609,
+   "unsure->unsure": 51,
+   "unsure->exclude": 562,
+   "include->exclude": 11
+  },
+  "looks_to_check_not_withdrawn": {
+   "unsure->include": 609,
+   "unsure->unsure": 51,
+   "unsure->exclude": 413,
+   "include->exclude": 10
+  }
+ },
+ "rule_b": {
+  "read": 2933,
+  "applied_to": 2634,
+  "excluded": {
+   "B": 26,
+   "B2": 82
+  },
+  "unsure": {
+   "B2": 199,
+   "B": 133
+  }
+ },
+ "withdrawn": {
+  "n": 167,
+  "looks_decision": {
+   "unsure": 149,
+   "include": 11,
+   "exclude": 7
+  },
+  "listed": 167
+ },
+ "periods": {
+  "P1": "1997-2009",
+  "P2": "2010-2015",
+  "P3": "2016-2020",
+  "P4": "2021-2027"
+ },
+ "rules": "a high-confidence first decision stands; a decision both passes share stands (code of the second look); a\ndisputed record takes the third look's decision and code (unsure goes on to full-text assessment); the independent AI\ncheck's decision replaces these for every record it decided or corrected (team lead, 12 Nov 2026); an included record\noutside the check's lists that the AI pass finds to fail rulings B or B2 is excluded under E1 when the pass was\nconfident and is otherwise unsure (U-rule-B), for the authors' check or the full text (team lead, 12 Nov 2026); a record removed by its repository is excluded under E-WITHDRAWN whatever the looks decided (rule of the team\nlead, 11 Nov 2026); a correction of the team replaces any of these; at the final merge a record still unsure is excluded under E-UNSURE (D28)."
+}

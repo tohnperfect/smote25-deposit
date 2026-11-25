@@ -1,0 +1,12 @@
+batch 106: 200 of 200 records done; include 24, unsure 19, exclude 157
+no records remain
+
+Look at first:
+- Low-confidence unsure: R00368 (active-learning resampling, synthetic or replication?), R07566 (vague "efficient resampling" fraud framework), R11050 (statistical balancing with geometric-transform oversampling), R05974 (centroid-based oversampling, garbled abstract), R20825 (SMOTE applied per region for fairness), R04520 (PERL rule ensemble with a sampling phase).
+- Codebook conflict, clarification 1 vs E2: R21744 (spatially constrained SMOTE built for clustering) and R22303 (two-stage improved SMOTE for makespan prediction, apparently regression). Coded unsure U-other; E2 would exclude both.
+- Include vs E1 boundary, off-the-shelf generator as the paper's oversampler: R03773 (VAE/CVAE), R05676 (GAN), R09056 (Synthetic Data Vault), included at medium. GAN used as one part of a domain framework went to unsure instead: R13801, R16132, R19358.
+- R19744 (GraphBalance, 2026): abstract is almost word for word the GraphSMOTE abstract (Zhao et al. 2021) with the name changed. Included as I1-new-variant; check originality and E4 at full text.
+- Language: R00294 (BOS) record says English, but the venue (Journal of Sichuan University) may publish in Chinese. Excluded E-LANG although in scope: R13257 (FBS-RE), R10064 (GDOS), R03088 (GSMOTEBoost).
+- Clarification 3 (existing generator plus existing step): R01768, R04800, R00454; also R00680 (SMOTE plus Rotation Forest: inside the ensemble or applied once before it?).
+- Medium-confidence includes to confirm: R04128 (oversampling by multiple imputation), R12058 (post-oversampling critical-sample filter), R22366 (instance-hardness oversampling may be replication), R02885 (mixup oversampling inside a CNN paper), R17675 (federated CGAN).
+- Other unsure: R15456 (automatic per-class SMOTE ratio), R08499 (claims a novel nominal generator but compares SMOTE-N and ADASYN-N), R17241 (SS-SMOTE, I2 not stated, clarification 2), R16940 (no abstract).

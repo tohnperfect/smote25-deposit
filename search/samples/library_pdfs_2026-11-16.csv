@@ -1,0 +1,244 @@
+rec,sample,stratum,rank,on_drive,status,usable,text_source,pages,title_share,reason_or_team_note,title
+R00144,coverage (WP4),P1,1,yes,not retrieved (wrong file),no,,6,1.0,"the file is another paper by the same authors (Visualizing the Yield Pattern for Multi Class Classification, AMS 2009), found by the coders",Visualizing the Pattern for Hard Disk Media Yield Prediction
+R00382,coverage (WP4),P2,1,yes,retrieved,yes,pdftotext,8,0.88,,Applying threshold SMOTE algoritwith attribute Bagging to imbalanced datasets
+R02143,coverage (WP4),P3,1,yes,retrieved,yes,pdftotext,9,1.0,,A cluster-based hybrid sampling approach for imbalanced data classification
+R14443,coverage (WP4),P4,1,yes,retrieved,yes,pdftotext,19,1.0,,Novel resampling algorithms with maximal cliques for class-imbalance problems
+R00093,coverage (WP4),P1,2,yes,retrieved,yes,pdftotext,6,1.0,,On the use of surrounding neighbors for synthetic over-sampling of the minority class
+R00684,coverage (WP4),P2,2,yes,retrieved,yes,pdftotext,8,1.0,,Pre-processing flow for enhancing learning from medical data
+R02709,coverage (WP4),P3,2,yes,retrieved,yes,pdftotext,17,1.0,,"parSMURF, a high-performance computing tool for the genome-wide detection of pathogenic variants"
+R03490,coverage (WP4),P4,2,yes,retrieved,yes,pdftotext,7,1.0,,Feature Extraction for Class Imbalance Using a Convolutional Autoencoder and Data Sampling
+R00141,coverage (WP4),P1,3,yes,retrieved,yes,pdftotext,4,1.0,,The method of text categorization on imbalanced datasets
+R00247,coverage (WP4),P2,3,no,not retrieved,no,,,,an author: PDF file not found,ISMOTE algorithm for imbalanced data sets
+R01695,coverage (WP4),P3,3,yes,retrieved,yes,pdftotext,24,1.0,,Cognitive spammer: A Framework for PageRank analysis with Split by Over-sampling and Train by Under-fitting
+R05983,coverage (WP4),P4,3,no,not retrieved,no,,,,an author: needs access rights (KKU has no access),Clustering-based improved adaptive synthetic minority oversampling technique for imbalanced data classification
+R00004,coverage (WP4),P1,4,yes,retrieved,yes,pdftotext,13,1.0,,SMOTEBoost: Improving prediction of the minority class in boosting
+R00362,coverage (WP4),P2,4,yes,retrieved,yes,pdftotext,10,1.0,,A novel boundary oversampling algorithm based on neighborhood rough set model: NRSBoundary-SMOTE
+R02354,coverage (WP4),P3,4,yes,retrieved,yes,pdftotext,14,1.0,,Clinical data classification using an enhanced SMOTE and chaotic evolutionary feature selection
+R05572,coverage (WP4),P4,4,yes,retrieved,yes,pdftotext,5,1.0,,A Novel approach to Handle Imbalanced Dataset in Machine Learning
+R00069,coverage (WP4),P1,5,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Unbalanced data classification using extreme outlier elimination and sampling techniques for fraud detection
+R00711,coverage (WP4),P2,5,yes,retrieved,yes,pdftotext,14,1.0,an author: found,Using Voronoi diagrams to improve classification performances when modeling imbalanced datasets
+R02697,coverage (WP4),P3,5,no,not retrieved,no,,,,an author: paywalled (must buy); an author: license,Oversampling Based on k-NN and GAN for Effective Classification of Class Imbalance Dataset
+R21735,coverage (WP4),P4,5,yes,retrieved,yes,pdftotext,5,1.0,an author: found,SHAVA: An open-source Python framework for interpretable intrusion detection in VANETs
+R00022,coverage (WP4),P1,6,yes,retrieved,yes,pdftotext,10,1.0,an author: found,Wrapper-based computation and evaluation of sampling methods for imbalanced datasets
+R00682,coverage (WP4),P2,6,yes,retrieved,yes,pdftotext,21,1.0,an author: found,Oversampling method for imbalanced classification
+R00865,coverage (WP4),P3,6,yes,retrieved,yes,pdftotext,8,1.0,an author: found,Recognition of new and old banknotes based on SMOTE and SVM
+R03697,coverage (WP4),P4,6,yes,retrieved,yes,pdftotext,13,1.0,an author: found,Manifold cluster-based evolutionary ensemble imbalance learning
+R00094,coverage (WP4),P1,7,yes,not retrieved (wrong file),no,,4,0.75,"the file is the IRIM group's TRECVID 2008 notebook paper, not Peking University's [an author: found]",Peking University at TRECVID 2008: High level feature extraction
+R00184,coverage (WP4),P2,7,yes,retrieved,yes,pdftotext,11,1.0,an author: found,Mix-ratio sampling: Classifying multiclass imbalanced mouse brain images using support vector machine
+R01722,coverage (WP4),P3,7,no,not retrieved,no,,,,an author: needs access rights (KKU has no access); an author: license,Data augment in imbalanced learning based on generative adversarial networks
+R10912,coverage (WP4),P4,7,yes,retrieved,yes,pdftotext,14,1.0,an author: found,Adaptive Elastic GAN for High-Fidelity Blood Cell Image Hallucination and Classification
+R00015,coverage (WP4),P1,8,yes,retrieved,yes,pdftotext,5,1.0,an author: found,An over-sampling expert system for learning from imbalanced data sets
+R00473,coverage (WP4),P2,8,no,not retrieved,no,,,,an author: PDF file not found; an author: license,A Novel Class Imbalance Approach using Cluster Disjuncts
+R00101,coverage (WP4),P1,9,yes,retrieved,yes,pdftotext,4,1.0,an author: found,The generation mechanism of synthetic minority class examples
+R00339,coverage (WP4),P2,9,yes,not retrieved (wrong file),no,,8,1.0,"the file is another paper (Xie, Liu and Fu 2015, which cites the target), found by the coders [an author: found]",S-SMOTE Method in Class Imbalance Data Sets
+R01526,coverage (WP4),P3,9,yes,retrieved,yes,pdftotext,4,1.0,an author: found,A clutter suppression method based on SOM-SMOTE random forest
+R21422,coverage (WP4),P4,9,yes,retrieved,yes,pdftotext,9,1.0,an author: found,Rebalancing classes in binary classification with Bayes classifiers
+R00061,coverage (WP4),P1,10,no,not retrieved,no,,,,an author: document page not found; an author: can't access,Learning from Imbalanced Datasets using a Distance-based Over-sampling Method.
+R00252,coverage (WP4),P2,10,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Multi-class data classification for imbalanced data set using combined sampling approaches
+R01801,coverage (WP4),P3,10,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Fault Prediction Method of Access Control Terminal Based on Euclidean Distance Center SMOTE Method
+R00066,coverage (WP4),P1,11,yes,retrieved,yes,OCR,15,0.0,"text layer unusable (font encoding); text by OCR (tesseract, 300 dpi)",Synthetic protein sequence oversampling method for classification and remote homology detection in imbalanced protein data
+R00616,coverage (WP4),P2,11,yes,retrieved,yes,pdftotext,6,1.0,an author: found,An over-sampling technique with rejection for imbalanced class learning
+R01304,coverage (WP4),P3,11,yes,retrieved,yes,pdftotext,6,1.0,an author: found,DOss: Dual over sampling strategy for imbalanced data classification
+R10073,coverage (WP4),P4,11,yes,retrieved,yes,pdftotext,15,1.0,an author: found,Solar synthetic imaging: Introducing denoising diffusion probabilistic models on SDO/AIA data
+R00030,coverage (WP4),P1,12,no,not retrieved,no,,,,an author: PDF file not found; an author: can't access,Learning from imbalanced data in surveillance of nosocomial infection
+R00549,coverage (WP4),P2,12,yes,retrieved,yes,pdftotext,26,1.0,an author: found,On the use of MapReduce for imbalanced big data using Random Forest
+R01815,coverage (WP4),P3,12,no,not retrieved,no,,,,an author: needs access rights (KKU has no access); an author: license,Genetic algorithm-based oversampling technique to learn from imbalanced data
+R03118,coverage (WP4),P4,12,yes,retrieved,yes,pdftotext,4,1.0,an author: found,An Optimized Random Forest Classification Method for Processing Imbalanced Data Sets of Alzheimer's Disease
+R00130,coverage (WP4),P1,13,yes,retrieved,yes,pdftotext,5,1.0,an author: found,MSMOTE: Improving classification performance when training data is imbalanced
+R00264,coverage (WP4),P2,13,yes,retrieved,yes,pdftotext,6,1.0,an author: found,SPO: Structure preserving oversampling for imbalanced time series classification
+R01369,coverage (WP4),P3,13,yes,not retrieved (wrong file),no,,18,0.3,"the file is another paper of the list (DualSS, R18541); the team noted the DOI was not found [an author: DOI not found; an author: doi link not found]",Improved performance of support vector machine for imbalanced data sets using oversampling and optimization
+R18541,coverage (WP4),P4,13,yes,retrieved,yes,pdftotext,18,1.0,an author: found,DualSS: A Dual‐Diffusion Synthetic Sampling Framework for Screening Fatty Liver Severity With Class‐Imbalanced Tongue Images
+R00127,coverage (WP4),P1,14,yes,retrieved,yes,pdftotext,9,1.0,an author: found,Improving SVM classification on imbalanced data sets in distance spaces
+R00361,coverage (WP4),P2,14,yes,retrieved,yes,pdftotext,5,1.0,an author: found,A new over-sampling technique based on SVM for imbalanced diseases data
+R02885,coverage (WP4),P3,14,yes,retrieved,yes,pdftotext,16,1.0,an author: found,Two-attribute e-commerce image classification based on a convolutional neural network
+R00074,coverage (WP4),P1,15,yes,retrieved,yes,pdftotext,7,1.0,an author: found,ADASYN: Adaptive synthetic sampling approach for imbalanced learning
+R00439,coverage (WP4),P2,15,no,not retrieved,no,,,,an author: document page not found; an author: can't access,Research on classification for imbalanced dataset based on improved SMOTE
+R02083,coverage (WP4),P3,15,yes,retrieved,yes,pdftotext,13,1.0,an author: found,Tackling Class Imbalance Problem in Software Defect Prediction through Cluster-Based Over-Sampling with Filtering
+R19707,coverage (WP4),P4,15,yes,retrieved,yes,pdftotext,21,1.0,an author: found,Identifying pertinent cohorts and addressing imbalance for robust intensive care survival analysis
+R00018,coverage (WP4),P1,16,yes,retrieved,yes,pdftotext,10,1.0,an author: license,Borderline-SMOTE: A new over-sampling method in imbalanced data sets learning
+R01069,coverage (WP4),P3,16,yes,retrieved,yes,pdftotext,10,1.0,an author: found,MACE prediction of acute coronary syndrome via boosted resampling classification using electronic medical records
+R00350,coverage (WP4),P2,17,no,not retrieved,no,,,,an author: document page not found; an author: can't access,The SVM classifier for unbalanced data based on combination of RU-Undersample and SMOTE
+R02694,coverage (WP4),P3,17,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Oversampling Algorithm based on Reinforcement Learning in Imbalanced Problems
+R00026,coverage (WP4),P1,18,yes,retrieved,yes,pdftotext,12,1.0,an author: license,Boosting prediction accuracy on imbalanced datasets with SVM ensembles
+R00388,coverage (WP4),P2,18,no,not retrieved,no,,,,an author: needs access rights (KKU has no access); an author: license,Combination approach of svm ensembles and resampling method for imbalanced datasets
+R01571,coverage (WP4),P3,18,yes,retrieved,yes,pdftotext,12,1.0,an author: found,A parameter-free cleaning method for SMOTE in imbalanced classification
+R06105,coverage (WP4),P4,18,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Data Stream Classification Framework for Data Streams using Dynamic Ensemble Selection
+R00112,coverage (WP4),P1,19,yes,retrieved,yes,pdftotext,96,1.0,an author: found,Classification in Imbalanced Datasets
+R00514,coverage (WP4),P2,19,no,not retrieved,no,,,,an author: DOI not found; an author: can't access,Ensemble cost-sensitive hypernetwork models for imbalanced data classification
+R00736,coverage (WP4),P3,19,yes,retrieved,yes,pdftotext,11,1.0,an author: found,A topic sentence-based instance transfer method for imbalanced sentiment classification of Chinese product reviews
+R19804,coverage (WP4),P4,19,yes,retrieved,yes,pdftotext,14,1.0,an author: found,Improved VAE-GAN via mixture of Gaussians applied to brain tumor MRI classification
+R00122,coverage (WP4),P1,20,no,not retrieved,no,,,,an author: document page not found; an author: doi not found,Generation Method for Samples of Minority Class Based on Clustering and Genetic Crossover
+R00379,coverage (WP4),P2,20,yes,retrieved,yes,pdftotext,9,1.0,an author: found,An HMM-based over-sampling technique to improve text classification
+R01023,coverage (WP4),P3,20,yes,retrieved,yes,pdftotext,15,1.0,an author: found,Fuzzy-Based Information Decomposition for Incomplete and Imbalanced Data Learning
+R08349,coverage (WP4),P4,20,yes,retrieved,yes,pdftotext,12,1.0,an author: found,Deep Representation Learning With Sample Generation and Augmented Attention Module for Imbalanced ECG Classification
+R00006,coverage (WP4),P1,21,yes,retrieved,yes,pdftotext,10,1.0,an author: found,A study of the behavior of several methods for balancing machine learning training data
+R00194,coverage (WP4),P2,21,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Strategies for training robust neural network based digit recognizers on unbalanced data sets
+R02308,coverage (WP4),P3,21,no,not retrieved,no,,,,an author: needs access rights (KKU has no access); an author: license,Applying MASI Algorithm to Improve the Classification Performance of Imbalanced Data in Fraud Detection
+R14384,coverage (WP4),P4,21,yes,retrieved,yes,pdftotext,12,1.0,an author: found,Multitree genetic programming with spherical-based operators for synthetic minority over-sampling technique in unbalanced data
+R00036,coverage (WP4),P1,22,no,not retrieved,no,,,,an author: needs access rights (KKU has no access); an author: license,The class imbalance problem in TLC image classification
+R00495,coverage (WP4),P2,22,yes,retrieved,yes,pdftotext,2,1.0,an author: found,BLENDING PROPENSITY SCORE MATCHING AND SYNTHETIC MINORITY OVER-SAMPLING TECHNIQUE FOR IMBALANCED CLASSIFICATION
+R02886,coverage (WP4),P3,22,yes,retrieved,yes,pdftotext,34,1.0,an author: preprint,UGRWO-Sampling: A modified random walk under-sampling approach based on graphs to imbalanced data classification
+R00110,coverage (WP4),P1,23,yes,not retrieved (preview only),no,,18,0.0,"ProQuest preview of a 2009 dissertation: abstract, contents and Chapter 1 only (18 pages) [an author: needs access rights (KKU has no access); an author: found]",Automated segmentation methods for mouse brain images
+R00168,coverage (WP4),P2,23,yes,retrieved,yes,pdftotext,10,1.0,an author: found,Development of a multi-classification neural network model to determine the microbial growth/no growth interface
+R02528,coverage (WP4),P3,23,yes,retrieved,yes,pdftotext,10,1.0,an author: license,Hybrid of Intelligent Minority Oversampling and PSO-Based Intelligent Majority Undersampling for Learning from Imbalanced Datasets
+R21783,coverage (WP4),P4,23,yes,retrieved,yes,pdftotext,18,1.0,an author: found,SMOMCCS: Minimum compact coverage oversampling approach for imbalanced data classification
+R00535,coverage (WP4),P2,24,no,not retrieved,no,,,,an author: needs access rights (KKU has no access); an author: license,Local characteristics of minority examples in pre-processing of imbalanced data
+R01001,coverage (WP4),P3,24,no,not retrieved,no,,,,an author: needs access rights (KKU has no access); an author: license,Enhanced Over_Sampling Techniques for Imbalanced Big Data Set Classification
+R05514,coverage (WP4),P4,24,no,not retrieved,no,,,,an author: needs access rights (KKU has no access); an author: found,A hybrid data-level sampling approach in learning from skewed user-click data for click fraud detection in online advertising
+R00108,coverage (WP4),P1,25,yes,retrieved,yes,pdftotext,11,1.0,an author: license,An improved algorithm for SVMs classification of imbalanced data sets
+R00374,coverage (WP4),P2,25,yes,retrieved,yes,pdftotext,12,1.0,an author: license,An effective method for imbalanced time series classification: Hybrid sampling
+R00725,coverage (WP4),P3,25,yes,retrieved,yes,pdftotext,12,1.0,an author: found,A Novel Algorithm for Imbalance Data Classification Based on Genetic Algorithm Improved SMOTE
+R06255,coverage (WP4),P4,25,no,not retrieved,no,,,,an author: needs access rights (KKU has no access),Enhanced SVM-SMOTE with Cluster Consistency for Imbalanced Data Classification
+R00077,coverage (WP4),P1,26,yes,retrieved,yes,OCR,4,0.0,"text layer unusable (shifted font encoding); text by OCR (tesseract, 300 dpi)",Combination approach of SMOTE and biased-SVM for imbalanced datasets
+R00337,coverage (WP4),P2,26,no,not retrieved,no,,,,an author: document page not found; an author: can't access,Research on the spatial interpolation algorithm based on the classification of unbalanced class dataset
+R02035,coverage (WP4),P3,26,yes,retrieved,yes,pdftotext,14,1.0,an author: found,Research on classification method of high-dimensional class-imbalanced datasets based on SVM
+R05755,coverage (WP4),P4,26,yes,retrieved,yes,pdftotext,6,1.0,,An Imbalanced Data Robust Classification Model for Student Achievement Prediction
+R00044,coverage (WP4),P1,27,yes,retrieved,yes,pdftotext,8,1.0,an author: found,Active learning for word sense disambiguation with methods for addressing the class imbalance problem
+R00640,coverage (WP4),P2,27,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Enhanced SMOTE algorithm for classification of imbalanced big-data using Random Forest
+R01123,coverage (WP4),P3,27,yes,retrieved,yes,pdftotext,13,1.0,an author: found,Self-Organizing Map Oversampling (SOMO) for imbalanced data set learning
+R06485,coverage (WP4),P4,27,yes,retrieved,yes,"pdftotext, pages 74-85",126,1.0,"the file is the whole journal issue; the paper is on PDF pages 74 to 85, which alone are kept",Hybrid SMOTE and Bootstrap Sampling for Imbalanced Classification in Elderly Health Condition Dataset
+R00084,coverage (WP4),P1,28,no,not retrieved,no,,,,an author: doi not found,Imbalance Data Set Classification Using SMOTE and Biased-SVM
+R01804,coverage (WP4),P3,28,yes,retrieved,yes,pdftotext,21,1.0,an author: found,FF-SMOTE: A Metaheuristic Approach to Combat Class Imbalance in Binary Classification
+R10916,coverage (WP4),P4,28,yes,retrieved,yes,pdftotext,9,1.0,an author: found,Adaptive Graph Enhancement for Imbalanced Multi-relation Graph Learning
+R00113,coverage (WP4),P1,29,no,not retrieved,no,,,,an author: license,Classification of imbalanced data sets by using the hybrid re-sampling algorithm based on isomap
+R00520,coverage (WP4),P2,29,no,not retrieved,no,,,,an author: license,Hybrid balancing technique using GRSOM and bootstrap algorithms for classifiers with imbalanced data
+R01470,coverage (WP4),P3,29,yes,retrieved,yes,pdftotext,5,1.0,an author: found,Research on the improvement of k-nearest neighbor classifier for imbalanced text categorization
+R07370,coverage (WP4),P4,29,yes,retrieved,yes,pdftotext,15,0.9,an author: found,A clustering-based resampling technique with cluster StructureAnalysis for software defect detection in imbalanced datasets
+R00097,coverage (WP4),P1,30,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Selecting minority examples from misclassified data for over-sampling
+R02145,coverage (WP4),P3,30,yes,retrieved,yes,pdftotext,24,1.0,an author: found,A combined deep learning and ensemble learning methodology to avoid electricity theft in smart grids
+R08959,coverage (WP4),P4,30,yes,retrieved,yes,pdftotext,43,1.0,an author: found,HGDO: An oversampling technique based on hypergraph recognition and Gaussian distribution
+R06350,use audit (WP5),U2,1,yes,retrieved,yes,pdftotext,6,0.91,an author: found,Extremely randomised trees machine learning model for electricity theft detection[Formula presented]
+R08517,use audit (WP5),U3,1,no,not retrieved,no,,,,an author: license,Electrical Impedance Spectroscopy Based Preterm Birth Prediction with Machine Learning
+R06494,use audit (WP5),U2,2,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Identification of Coronary Artery Disease using Extra Tree Classification
+R15855,use audit (WP5),U3,2,no,not retrieved,no,,,,an author: can't access,VELM: a voting based ensemble learning model for breast cancer prediction
+R04452,use audit (WP5),U2,3,no,not retrieved,no,,,,an author: license,Comparative Study of Data Driven Approaches Towards Efficient Electricity Theft Detection in Micro Grids
+R09006,use audit (WP5),U3,3,yes,retrieved,yes,pdftotext,33,1.0,an author: found,IDD-Net: A Deep Learning Approach for Early Detection of Dental Diseases Using X-Ray Imaging
+R01735,use audit (WP5),U1,4,yes,retrieved,yes,pdftotext,5,1.0,an author: found,Deep learning intrusion detection model based on optimized imbalanced network data
+R03028,use audit (WP5),U2,4,yes,retrieved,yes,pdftotext,13,1.0,an author: found,A Stacking Ensemble Prediction Model for the Occurrences of Major Adverse Cardiovascular Events in Patients with Acute Coronary Syndrome on Imbalanced Data
+R02029,use audit (WP5),U1,5,yes,retrieved,yes,pdftotext,9,1.0,an author: found,Real-time accident detection: Coping with imbalanced data
+R02733,use audit (WP5),U1,6,yes,retrieved,yes,pdftotext,8,1.0,an author: found,Predicting defibrillation success in out-of-hospital cardiac arrested patients: Moving beyond feature design
+R03964,use audit (WP5),U2,6,yes,retrieved,yes,pdftotext,5,1.0,an author: found,Statistical and machine learning approach to study the smoking impact on heart rate variability features
+R14882,use audit (WP5),U3,6,yes,retrieved,yes,pdftotext,10,1.0,an author: found,Predicting Pipe Failures: A Machine Learning Approach to Asset Management in District Heating
+R00349,use audit (WP5),U1,7,no,not retrieved,no,,,,an author: license,The application of discriminant analysis and Machine Learning methods as tools to identify and classify compounds with potential as transdermal enhancers
+R18088,use audit (WP5),U3,7,yes,retrieved,yes,pdftotext,18,1.0,an author: found,Cross-cohort Generalization for Heart Disease Prediction with Explainable AI
+R00989,use audit (WP5),U1,8,no,not retrieved,no,,,,an author: license,Discriminative deep belief networks for microarray based cancer classification
+R04275,use audit (WP5),U2,8,yes,retrieved,yes,pdftotext,11,1.0,an author: found,An explainable XGBoost model improved by SMOTE-ENN technique for maize lodging detection based on multi-source unmanned aerial vehicle images
+R00777,use audit (WP5),U1,9,yes,retrieved,yes,pdftotext,5,1.0,an author: found,Combining re-sampling with twin support vector machine for imbalanced data classification
+R05720,use audit (WP5),U2,9,yes,retrieved,yes,pdftotext,8,1.0,an author: found,An early warning system of heart failure mortality with combined machine learning methods
+R19306,use audit (WP5),U3,9,yes,retrieved,yes,pdftotext,11,1.0,an author: found,Fingerprinting IP-Connected Devices Using Machine Learning and Deep Learning Models
+R02826,use audit (WP5),U1,10,no,not retrieved,no,,,,an author: license,SMOTE-XGBoost using Tree Parzen Estimator optimization for copper flotation method classification
+R03330,use audit (WP5),U2,10,yes,retrieved,yes,pdftotext,8,1.0,an author: found,Data Mining for Potential Customer Segmentation in the Marketing Bank Dataset
+R13654,use audit (WP5),U3,10,yes,retrieved,yes,pdftotext,8,1.0,an author: found,Improving Breast Cancer Prediction Using Adaptive Synthetic Sampling: A Study on the Coimbra Dataset
+R01631,use audit (WP5),U1,11,no,not retrieved,no,,,,an author: can't access,Analysis of Risk Factors of Gestational Diabetes Mellitus (GDM) Using Data Mining
+R07136,use audit (WP5),U2,11,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Sentiment Analysis of Electric Vehicles in Indonesia Using Support Vector Machine and Naïve Bayes
+R09665,use audit (WP5),U3,11,yes,retrieved,yes,pdftotext,5,1.0,an author: found,Performance Analysis of Boosting Algorithms on DDoS Attack Detection with Data Balancing Techniques
+R09729,use audit (WP5),U3,12,no,not retrieved,no,,,,an author: preprint,Predicting Crime Categories in Montreal: A Comparative Analysis of Machine Learning Algorithms
+R01361,use audit (WP5),U1,13,yes,retrieved,yes,pdftotext,6,1.0,an author: found,Imbalanced Learning for Fault Diagnosis Problem of Rotating Machinery Based on Generative Adversarial Networks
+R06106,use audit (WP5),U2,13,yes,retrieved,yes,pdftotext,10,1.0,an author: found,DCADS: Data-Driven Computer Aided Diagnostic System using Machine Learning Techniques for Polycystic Ovary Syndrome
+R10548,use audit (WP5),U3,13,yes,retrieved,yes,pdftotext,20,1.0,an author: found,A Hybrid Generative Adversarial and Cost-Sensitive Learning Framework for Imbalanced Fraud Detection in Digital Payments
+R02561,use audit (WP5),U1,14,yes,retrieved,yes,pdftotext,7,1.0,an author: found,Improve performance of extreme learning machine in classification of patchouli varieties with imbalanced class
+R03193,use audit (WP5),U2,14,yes,retrieved,yes,pdftotext,13,1.0,an author: found,Binary glioma grading framework employing locality preserving projections and Gaussian radial basis function support vector machine
+R18816,use audit (WP5),U3,15,yes,retrieved,yes,pdftotext,5,1.0,,Enhancing Fraudulent Transaction Detection Through SMOTE-based Data Balancing and Machine Learning
+R00449,use audit (WP5),U1,16,no,not retrieved,no,,,,an author: document page not found,Web spam detection based on SMOTE and random forests
+R03716,use audit (WP5),U2,16,yes,retrieved,yes,pdftotext,6,1.0,,MoVE-CNNs: Model aVeraging Ensemble of Convolutional Neural Networks for Facial Expression Recognition
+R21127,use audit (WP5),U3,16,yes,retrieved,yes,pdftotext,10,1.0,,Predicting Neonatal Mortality in Kenya Based on the 2022 Kenya Demographic and Health Survey Using Machine Learning Models
+R01572,use audit (WP5),U1,17,yes,retrieved,yes,pdftotext,24,1.0,,A point-wise LiDAR and image multimodal fusion network (PMNet) for aerial point cloud 3D semantic segmentation
+R14731,use audit (WP5),U3,17,yes,retrieved,yes,pdftotext,9,1.0,,Performance Analysis of Deep Learning Models for Software Fault Prediction Using the BugHunter Dataset
+R02298,use audit (WP5),U1,18,yes,retrieved,yes,pdftotext,9,1.0,,Analysis sentiment about islamophobia when Christchurch attack on social media
+R06049,use audit (WP5),U2,18,yes,retrieved,yes,pdftotext,7,1.0,,Corn Disease Detection Using Transfer Learning
+R11193,use audit (WP5),U3,18,yes,retrieved,yes,pdftotext,6,1.0,,An Ensemble-Based Intelligent System for Predicting Fraudulent Credit Card Activities in FinTech Environments
+R00717,use audit (WP5),U1,19,yes,retrieved,yes,pdftotext,5,1.0,,A bi-directional sampling based on K-means method for imbalance text classification
+R07289,use audit (WP5),U2,19,yes,retrieved,yes,pdftotext,19,1.0,,Treatment of Imbalance Dataset for Human Emotion Classification
+R03291,use audit (WP5),U2,20,no,not retrieved,no,,,,an author: needs access rights (KKU has no access),Coronary artery disease diagnosis using extra tree-support vector machine: ET-SVMRBF
+R12857,use audit (WP5),U3,20,yes,retrieved,yes,pdftotext,5,1.0,,Enhancing Software Refactoring Prediction Accuracy Through Feature Selection and Data Sampling Strategies
+R01633,use audit (WP5),U1,21,yes,retrieved,yes,pdftotext,6,1.0,,APCNN: Tackling Class Imbalance in Relation Extraction through Aggregated Piecewise Convolutional Neural Networks
+R07004,use audit (WP5),U2,21,no,not retrieved,no,,,,an author: 404 not found,Prediction of Post-Operative Survival Expectancy in Thoracic Lung Cancer Surgery Using Extreme Learning Machine and SMOTE
+R00454,use audit (WP5),U1,22,no,not retrieved,no,,,,an author: document page not found,A Clustering-Based Enhanced Classifi cation Algorithm for Imbalanced Data
+R21056,use audit (WP5),U3,22,yes,retrieved,yes,pdftotext,13,1.0,,Predicting Cell Penetrating Peptides Using Aggregating Physiochemical Properties and Classification Algorithms
+R01140,use audit (WP5),U1,23,no,not retrieved,no,,,,an author: IEEE Xplore temporarily unavailable,System abnormality detection in stock market complex trading systems using machine learning techniques
+R04991,use audit (WP5),U2,23,yes,retrieved,yes,pdftotext,13,1.0,,Molecular subtype classification of low-grade gliomas using magnetic resonance imaging-based radiomics and machine learning
+R18807,use audit (WP5),U3,23,no,not retrieved,no,,,,an author: PDF file not found,Enhancing Explainable AI with Diverse Counterfactual Explanations (DiCE) for Transparent Stroke Risk Assessment
+R04368,use audit (WP5),U2,24,yes,retrieved,yes,pdftotext,16,1.0,,Autonomous prediction of Type 2 Diabetes with high impact of glucose level
+R13388,use audit (WP5),U3,24,yes,retrieved,yes,pdftotext,6,1.0,,Heart Disease Prediction Using Machine Learning Algorithms
+R02621,use audit (WP5),U1,25,yes,retrieved,yes,pdftotext,12,1.0,,Machine learning-based seismic capability evaluation for school buildings
+R07084,use audit (WP5),U2,25,yes,retrieved,yes,pdftotext,8,1.0,,Research on Park User Identification Based on Improved K-MEANS and Multidimensional Potential Index of Distributed Energy Storage
+R06678,use audit (WP5),U2,26,yes,retrieved,yes,pdftotext,6,1.0,,Leveraging Oversampling Techniques in Machine Learning Models for Multi-class Malware Detection in Smart Home Applications
+R18227,use audit (WP5),U3,26,yes,retrieved,yes,pdftotext,6,1.0,,Deep Learning-Based Framework for Rapid Screening for Type 2 Diabetes Onset in Healthcare Applications
+R02483,use audit (WP5),U1,27,yes,retrieved,yes,pdftotext,8,1.0,,Estimation of Water Coverage Ratio in Low Temperature PEM-Fuel Cell Using Deep Neural Network
+R02350,use audit (WP5),U1,28,no,not retrieved,no,,,,an author: needs access rights,Classification of Neuroblastoma Histopathological Images Using Machine Learning
+R06457,use audit (WP5),U2,28,no,not retrieved,no,,,,an author: needs access rights,Histopathology Osteosarcoma Image Classification
+R02884,use audit (WP5),U1,29,yes,retrieved,yes,pdftotext,4,1.0,,Truck APS Failure Detection using Machine Learning
+R05694,use audit (WP5),U2,29,no,not retrieved,no,,,,an author: needs access rights,AI-ML Analytics: A Comprehensive Investigation on Sentimental Analysis for Social Media Forensics Textual Data
+R11123,use audit (WP5),U3,29,yes,retrieved,yes,pdftotext,5,1.0,,An AI and Feature Engineering Based-Approach for Precision Marketing in Omni-Channel Business: A Case Study of Moroccan
+R01782,use audit (WP5),U1,30,no,not retrieved,no,,,,an author: needs access rights,Ensemble-based hybrid approach for breast cancer data
+R07043,use audit (WP5),U2,30,yes,retrieved,yes,pdftotext,17,1.0,,Random Forest Based Multiclass Classification Approach for Highly Skewed Particle Data
+R17735,use audit (WP5),U3,30,yes,retrieved,yes,pdftotext,7,1.0,,Classification of Nutritional Status of Toddlers on Imbalanced Data Using SMOTE with Decision Tree and Random Forest Models
+R02432,use audit (WP5),U1,31,yes,retrieved,yes,pdftotext,5,1.0,,Detecting Fraudulent Motor Insurance Claims Using Support Vector Machines with Adaptive Synthetic Sampling Method
+R05027,use audit (WP5),U2,31,yes,retrieved,yes,pdftotext,2,1.0,,NIMG-61. IMPROVED GENERALIZABILITY OF RADIOPATHOMIC PROBABILISTIC MAPPING OF TREATMENT-INDUCED EFFECTS WITH PHYSIOLOGIC MR IMAGING AND DEEP LEARNING IN PATIENTS WITH RECURRENT GLIOBLASTOMA
+R12745,use audit (WP5),U3,31,yes,retrieved,yes,pdftotext,16,1.0,,Enhancing Financial Fraud Detection Using XGBoost and Advanced Data Balancing Techniques
+R03301,use audit (WP5),U2,32,no,not retrieved,no,,,,an author: paywalled (Springer/ScienceDirect),Credit Card Fraud Detection by Combining Synthetic Minority Oversampling and Edited Nearest Neighbours
+R22074,use audit (WP5),U3,32,yes,retrieved,yes,pdftotext,15,1.0,,Towards data-driven predictive maintenance for vacuum ion pumps at European XFEL
+R02762,use audit (WP5),U1,33,no,not retrieved,no,,,,an author: paywalled (Springer/ScienceDirect),Prediction of users’ professional profile in MOOCs only by utilising learners’ written texts
+R06158,use audit (WP5),U2,33,yes,retrieved,yes,pdftotext,14,1.0,,Development of Pi Sigma Neural Network Model for the Prediction of Software Reliability Using 5 NASA Failure Datasets
+R09949,use audit (WP5),U3,33,yes,retrieved,yes,pdftotext,18,1.0,,Robust Vulnerability Detection in Solidity-Based Ethereum Smart Contracts Using Fine-Tuned Transformer Encoder Models
+R02576,use audit (WP5),U1,34,no,not retrieved,no,,,,an author: needs access rights,Improving Imbalanced Students’ Text Feedback Classification Using Re-sampling Based Approach
+R20963,use audit (WP5),U3,34,no,not retrieved,no,,,,an author: DOI not found,Performance Comparison of XGBoost and Naïve Bayes Algorithms Using SMOTE-Tomek for Diabetes Disease Classification
+R02004,use audit (WP5),U1,35,no,not retrieved,no,,,,an author: needs access rights,Prediction of autism spectrum disorder based on imbalanced resting-state fMRI data using clustering oversampling
+R08675,use audit (WP5),U3,35,no,not retrieved,no,,,,an author: PDF file missing,Enhancing Sentiment Analysis of Garden by the Bay Reviews on TripAdvisor Platform Using CRISP-DM through DT and SVM with SMOTE
+R01271,use audit (WP5),U1,36,yes,retrieved,yes,pdftotext,6,1.0,,Clustering algorithms on imbalanced data using the SMOTE technique for image segmentation
+R21885,use audit (WP5),U3,36,no,not retrieved,no,,,,an author: needs access rights,Student academic prediction and intervention in the context of big data: Comparison and optimization of machine learning models
+R02261,use audit (WP5),U1,37,yes,retrieved,yes,pdftotext,6,1.0,,Alzheimer's disease stage classification using deep convolutional neural networks on oversampled imbalance data
+R05299,use audit (WP5),U2,37,yes,retrieved,yes,pdftotext,11,1.0,,Synergistic Study of Reduced Graphene Oxide as Interfacial Buffer Layer in HTL-free Perovskite Solar Cells with Carbon Electrode
+R09919,use audit (WP5),U3,37,no,not retrieved,no,,,,an author: needs access rights,RETRACTED: Optimizing deep learning-based intrusion detection in cloud computing environment with chaotic tunicate swarm algorithm
+R05603,use audit (WP5),U2,38,yes,retrieved,yes,pdftotext,5,1.0,,A Pan-Cancer Classification Method Based on Multi-omics Data Integration and Sample Similarity Network
+R10417,use audit (WP5),U3,38,no,not retrieved,no,,,,an author: site down,A Comprehensive Framework for Multi-Class Breast Lesion Classification Using a Gaussian Process-Optimized VGG16-Capsule Hybrid Model on Ultrasound Radio Frequency B-mode Images
+R00861,use audit (WP5),U1,39,no,not retrieved,no,,,,an author: needs access rights,Preprocessing for classification of thermograms in breast cancer detection
+R04903,use audit (WP5),U2,39,yes,retrieved,yes,pdftotext,6,1.0,,Intrusion Detection Method Based on SMOTE Transformation for Smart Grid Cybersecurity
+R10444,use audit (WP5),U3,39,yes,retrieved,yes,pdftotext,6,1.0,,A Cost-Sensitive XGBoost Training and Decision Framework for Highly Imbalanced Binary Classification Tasks
+R04005,use audit (WP5),U2,40,yes,retrieved,yes,pdftotext,5,1.0,,Towards Classification of Personality Prediction Model: A Combination of BERT Word Embedding and MLSMOTE
+R15731,use audit (WP5),U3,40,yes,retrieved,yes,pdftotext,9,1.0,,Training machine learning models to detect rare inborn errors of metabolism (IEMs) based on GC–MS urinary metabolomics for diseases screening
+R01835,use audit (WP5),U1,41,yes,retrieved,yes,pdftotext,9,1.0,,Identification of DNA–protein binding sites by bootstrap multiple convolutional neural networks on sequence information
+R05434,use audit (WP5),U2,41,yes,retrieved,yes,pdftotext,14,1.0,,A Best Balance Ratio Ordered Feature Selection Methodology for Robust and Fast Statistical Analysis of Memory Designs
+R01285,use audit (WP5),U1,42,no,not retrieved,no,,,,an author: needs access rights,Creation of a Robust and Generalizable Machine Learning Classifier for Patient Ventilator Asynchrony
+R05566,use audit (WP5),U2,42,yes,retrieved,yes,pdftotext,14,1.0,,A New Phase Classifier with an Optimized Feature Set in ML-Based Phase Prediction of High-Entropy Alloys
+R14986,use audit (WP5),U3,42,yes,retrieved,yes,pdftotext,5,1.0,,Prediction of Vector Borne Diseases Using Machine Learning Models Based on Environmental and Clinical Data
+R00221,use audit (WP5),U1,43,yes,retrieved,yes,pdftotext,4,1.0,,Application of Random-SMOTE on imbalanced data mining
+R15526,use audit (WP5),U3,43,yes,retrieved,yes,pdftotext,5,1.0,,Stress Detection Using Multimodal Feature Engineering and Ensemble Learning
+R00467,use audit (WP5),U1,44,yes,retrieved,yes,pdftotext,9,1.0,,A new approach for rule extraction of expert system based on SVM
+R11520,use audit (WP5),U3,44,yes,retrieved,yes,pdftotext,16,1.0,,ATAD-Net: An Adaptive Deep Learning Framework for Real-Time Financial Fraud Detection
+R01133,use audit (WP5),U1,45,no,not retrieved,no,,,,an author: needs access rights,SVM classification of microaneurysms with imbalanced dataset based on borderline-SMOTE and data cleaning techniques
+R04730,use audit (WP5),U2,45,yes,retrieved,yes,pdftotext,4,1.0,,Fire Risk Assessment Based on SMOTE and Bayesian Network
+R07062,use audit (WP5),U2,46,yes,retrieved,yes,pdftotext,20,1.0,,Reliable prediction of software defects using Shapley interpretable machine learning models
+R01439,use audit (WP5),U1,47,no,not retrieved,no,,,,an author: paywalled (Springer/ScienceDirect),pDHS-DSET: Prediction of DNase I hypersensitive sites in plant genome using DS evidence theory
+R02988,use audit (WP5),U2,47,yes,retrieved,yes,pdftotext,6,1.0,,A New Physiology-based Objective Mental Stress Detection Technique with Reduced Feature Set and Class Imbalanced Dataset Management
+R18213,use audit (WP5),U3,47,no,not retrieved,no,,,,an author: paywalled (Springer/ScienceDirect),Deep Hybrid Model for Maternal Health Risk Classification in Pregnancy
+R01349,use audit (WP5),U1,48,yes,retrieved,yes,pdftotext,20,1.0,,Identifying collapsed buildings using post-earthquake satellite imagery and convolutional neural networks: A case study of the 2010 Haiti Earthquake
+R16979,use audit (WP5),U3,48,no,not retrieved,no,,,,an author: site flagged unsafe,An Efficient Model for Opinion Analysis in Dynamic Data Streams
+R02316,use audit (WP5),U1,49,yes,retrieved,yes,pdftotext,8,1.0,,Association between work-related features and coronary artery disease: A heterogeneous hybrid feature selection integrated with balancing approach
+R06980,use audit (WP5),U2,49,yes,retrieved,yes,pdftotext,8,1.0,,Predicting Unsettled Debts in Imbalanced Data using Resampling Methods
+R13484,use audit (WP5),U3,49,yes,retrieved,yes,pdftotext,7,1.0,,Hybrid Models for Ehanced Intrusion Detection on NSL KDD and KDD CUP 99 Data Set
+R00672,use audit (WP5),U1,50,no,not retrieved,no,,,,an author: needs access rights,"Mining ICDDR, B hospital surveillance data and exhibiting strategies for balancing large unbalanced datasets"
+R06579,use audit (WP5),U2,50,yes,retrieved,yes,pdftotext,7,1.0,,Improving k-Nearest Neighbors Model using SMOTE with Bagging Ensemble
+R00023,"coverage, reserve (WP4)",P1,31,no,not retrieved,no,,,,an author: needs access rights,A novel method for classifying subfamilies and sub-subfamilies of G-protein coupled receptors
+R00691,"coverage, reserve (WP4)",P2,31,no,not retrieved,no,,,,an author: needs access rights,Resampling ensemble algorithm for class imbalance problem using optimization algorithm
+R01762,"coverage, reserve (WP4)",P3,31,no,not retrieved,no,,,,an author: paywalled (Springer/ScienceDirect),Dynamic Centroid Insertion and Adjustment for Data Sets with Multiple Imbalanced Classes
+R11455,"coverage, reserve (WP4)",P4,31,yes,retrieved,yes,pdftotext,5,1.0,,Application of Sampling Algorithms for Sample Balancing in Diagnostics of Technical Object Condition
+R00042,"coverage, reserve (WP4)",P1,32,yes,retrieved,yes,pdftotext,2,1.0,,A distance-based over-sampling method for learning from imbalanced data sets
+R00491,"coverage, reserve (WP4)",P2,32,yes,retrieved,yes,pdftotext,5,1.0,,An improved SMOTE imbalanced data classification method based on support degree
+R00832,"coverage, reserve (WP4)",P3,32,yes,retrieved,yes,pdftotext,7,1.0,,Improved Sampling Techniques for Learning an Imbalanced Data Set
+R10647,"coverage, reserve (WP4)",P4,32,yes,retrieved,yes,pdftotext,8,1.0,,A Modified SMOTE with Noise Filtering and Manhattan Distance Metric Approach to Address Imbalanced Health Datasets
+R00128,"coverage, reserve (WP4)",P1,33,yes,not retrieved (preview only),no,,2,1.0,"Springer preview: the first 2 pages only, cut off at Eq. 1, no references (as the team noted) [an author: paywalled (Springer/ScienceDirect)]",Improving SVM classification with imbalance data set
+R00655,"coverage, reserve (WP4)",P2,33,yes,retrieved,yes,pdftotext,11,1.0,,Immune centroids oversampling method for binary classification
+R00825,"coverage, reserve (WP4)",P3,33,no,not retrieved,no,,,,an author: paywalled (Springer/ScienceDirect),Hybrid sampling with bagging for class imbalance learning
+R03488,"coverage, reserve (WP4)",P4,33,yes,retrieved,yes,pdftotext,10,1.0,,FAWOS: Fairness-Aware Oversampling Algorithm Based on Distributions of Sensitive Attributes
+R00088,"coverage, reserve (WP4)",P1,34,yes,retrieved,yes,pdftotext,4,1.0,,Learning object from small and imbalanced dataset with Boost-BFKO
+R00385,"coverage, reserve (WP4)",P2,34,no,not retrieved,no,,,,an author: paywalled (Springer/ScienceDirect),Borderline kernel based over-sampling
+R02204,"coverage, reserve (WP4)",P3,34,no,not retrieved,no,,,,an author: paywalled (Springer/ScienceDirect),A novel approach to solve class imbalance problem using noise filter method
+R03007,"coverage, reserve (WP4)",P4,34,yes,retrieved,yes,pdftotext,7,1.0,,A novel oversampling method for imbalanced datasets based on density peaks clustering
+R00547,"coverage, reserve (WP4)",P2,35,no,not retrieved,no,,,,"an author: citation only, not in KKU databases (DB_SMOTE, Comput Eng Appl 2014)",New oversampling algorithm DB_SMOTE
+R00718,"coverage, reserve (WP4)",P3,35,no,not retrieved,no,,,,an author: paywalled (Springer/ScienceDirect),A classification method of imbalanced data base on PSO algorithm
+R18007,"coverage, reserve (WP4)",P4,35,yes,retrieved,yes,pdftotext,15,1.0,,Contrastive Representation-Guided Genetic Minority Oversampling for Imbalanced Time-Series Classification
+R02836,"coverage, reserve (WP4)",P3,36,yes,retrieved,yes,pdftotext,10,1.0,,SOTB: Semi-Supervised Oversampling Approach Based on Trigonal Barycenter Theory
+R09560,"coverage, reserve (WP4)",P4,36,yes,retrieved,yes,pdftotext,44,1.0,,OPSMOTE-ML: an optimized SMOTE with machine learning models for selective forwarding attack detection in low power and lossy networks of internet of things
+R02100,"use audit, reserve (WP5)",U1,51,yes,retrieved,yes,pdftotext,2,1.0,,Towards class-balancing human comfort datasets with GANs
+R08089,"use audit, reserve (WP5)",U3,51,yes,retrieved,yes,pdftotext,14,1.0,,Choice of refractive surgery types for myopia assisted by machine learning based on doctors’ surgical selection data

@@ -1,0 +1,27 @@
+batch 002: 200 of 200 records done; include 36, unsure 106, exclude 58
+Codes: I1-other 15, I1-hybrid 9, I1-generative 5, I1-new-variant 4, I1-multiclass 3 | U-new-or-applied 74, U-other 24, U-no-abstract 8 | E1 41, E-NOGEN 8, E-COMPARE 6, E-LANG 1, E-REVIEW 1, E2 1. Low confidence: 21 exclude, 19 include, 6 unsure.
+
+Check first. These are low-confidence excludes that could be in scope:
+- R16422: clonal-selection method; the abstract never says it generates samples.
+- R03178: BSS-GAN, a semi-supervised GAN, not minority oversampling.
+- R00075, R09642, R04003, R01624: new random-duplication schemes, coded E-NOGEN.
+- R02395, R22343, R14656, R04097, R04010: GAN oversamplers built from standard CWGAN-GP, DCGAN, CVAE-WGAN-gp, WGAN or CGAN, coded E1.
+- R17718: SOUP revisited, coded E-COMPARE.
+- R00283: SwarmBoost; in scope, but the record gives French as the language, so coded E-LANG.
+Then check the low-confidence includes that rest on an assumption the full text must confirm (synthesis rather than duplication, or the SMOTE placement being the stated contribution): R09732 R00299 R03732 R00323 R02401 R13285 R04108 R22376 R11272 (anomaly-scoring framing) R21540 R05174 R12230 R19396 R00549 R14833 R19538 R20825 R20608 R20631.
+
+Cases the codebook does not settle:
+1. AGENT_INSTRUCTIONS step 3 allows unsure only for U-no-abstract and U-new-or-applied, but codebook clarifications 1 and 2 require U-other. I followed the codebook for these 24 records: R05838 R21516 R08218 R06343 R19901 R17107 R20135 R17104 R15592 R21661 R04326 R21497 R17241 R02137 R16630 R21606 R01122 R09418 R21574 R05146 R20694 R17978 R13900 R02192.
+2. Language field against venue:
+   - R00339 (Jisuanji Fangzhen) and R00247 (Journal of Computer Applications): the record says en but these venues usually publish in Chinese. Included on content.
+   - R16562 (bilingual Chinese title) and R10871 (DergiPark): unsure for other reasons; language also needs confirming.
+3. Document type and status outside I3 and the E codes:
+   - Book chapters: R01895 (DSMOTE, included), R15778, R01394, R13183.
+   - Retracted: R05192 (GA-kNN oversampler, included).
+4. Duplication-only schemes (multiclass, multilabel partial, hierarchical, margin-guided random oversampling): I1 lists multiclass schemes, but E-NOGEN covers methods that make no synthetic examples. Coded E-NOGEN.
+5. Object detection and segmentation tasks: the codebook says "for classification" without covering these. R15592 and R16630 are unsure (U-other, clarification 1); R13271 and R22071 are E1 because their generators are applied unchanged.
+6. Two boundary readings, both left unsure:
+   - Seed or synthetic-sample filtering with an existing detector (DBSCAN, OPTICS, LOF, outlier detectors) around an unchanged generator: treated as clarification 3, not as a change to generation. R08976, R10438, R18862, R07085, R05252.
+   - Metaheuristic-tuned SMOTE: R06759, R06476, R17203.
+7. Standard SMOTE applied within subgroups or levels (regional, per-period, meta-level, embedding-level, second-stage) and stated as the contribution: included at low confidence. Similar placements not stated as contributions were coded E1 (R19515, R19269).
+8. Title and abstract disagree: R06253 is titled "Enhanced SMOTE Strategy" but the abstract describes a survey. Coded E-REVIEW.

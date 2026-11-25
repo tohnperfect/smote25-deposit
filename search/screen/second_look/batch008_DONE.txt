@@ -1,0 +1,10 @@
+batch 008: 200 of 200 records done; include 61, unsure 68, exclude 71
+
+Look at these first:
+1. Excludes with low confidence (nothing else sends them on): R01413 (flight delays; the method is unclear, keywords suggest plain SMOTE), R17593 (multi-discriminator GAN zero-day detector; excluded as E2), R14586 (language field is ar but the title and abstract are English; the modified SMOTE is not described).
+2. Borderline excludes: R07696 (SMOTE data used only for CNN pretraining), R01496 (stream method that reuses past real minority examples; R05664 is the same kind but marked unsure), R14566 (fairness-driven random oversampling, no synthesis), R19428 (diagnostic of SMOTE under distribution shift; may matter for the discussion), R20046, R09728, R00947, R15695 (existing GANs used in domain pipelines).
+3. Not settled by the codebook: an existing generator used unchanged but presented as the paper's own oversampler. Unsure: R05055, R02008, R03740, R13519. Included: R02615 (SeqGAN), R03162 (GPT-2). One rule should cover the whole group.
+4. Not settled by the codebook: a new ensemble or classifier wrapped around unchanged SMOTE. Is it an I1 hybrid? R01755, R21324, R00393, R00871, R13446 (all unsure).
+5. Not settled by the codebook: I3 for book chapters. R18315, R03321, R04707 (unsure). Also R00240 (included; the venue may publish its full texts in Chinese).
+6. Scope: generators for segmentation or detection (R18850, R12102); patch- or cell-level oversampling that may not be synthetic (R03524, R01588); tasks that may be regression (R22303 unsure, R14521 included).
+7. Includes with low confidence: R15222, R17697, R06676, R07327, R14521, R05974.

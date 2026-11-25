@@ -1,0 +1,9 @@
+{
+ "task": "yeast3",
+ "source": "KEEL(keel_ds)",
+ "n": 1484,
+ "n_min": 163,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 8
+}

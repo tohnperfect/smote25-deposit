@@ -1,0 +1,29 @@
+{
+ "data_key": "NBU",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL",
+  "Image",
+  "Synthetic",
+  "Other"
+ ],
+ "crit": "Experiment I: 66 simulated datasets 'representing a wide range of scenarios including extremely imbalanced and overlapped datasets' (imbalance degree 1.5-120, overlap 0-100%). Experiment II: '24 public real-world datasets' from UCI and KEEL that 'vary in terms of imbalance degrees (1.86-41.4), number of features (5-18), and number of instances (214-5,472)'. Experiment III: '2 large high-dimensional datasets' (KDD Cup 2008 breast cancer, MNIST) 'to verify the consistency in the performance of our methods'.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "difficulty",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Undersampled",
+  "Generated"
+ ],
+ "binarised_by": "both",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "no",
+ "notes": "Author accepted manuscript (journal: Information Sciences 509, 47-70); pages cited are the manuscript's printed page numbers (pdf page = printed + 1). Sources: MNIST coded as Image, KDD Cup 2008 breast cancer as Other. minority_rule is mixed: the 24 Experiment II datasets carry KEEL split names (Glass0, Yeast1vs7, Ecoli0137vs26 ...) and Table 1 gives only minority counts, while the paper adds only a generic one-vs-all statement (p.15) without naming classes; for MNIST the minority class is named (class 3 / class 5) and induced by undersampling ('induced by authors' / 'explicit target listed' would fit that part). Binarised by repository (KEEL two-class files) and by authors (MNIST one-vs-all). Only source code (p.11) and numerical results of Experiment I (footnote 7, p.20, 'NB-undersampling Results' GitHub) are linked; no modified data. Inconsistencies: text says features range '5-18' and instances '214-5,472' but Table 1 lists Segmemt0 with 19 features and its largest dataset has 2308 instances (Page-blocks13vs2 has 472); MNIST scenario 2 prints '53,869 negative and 2,711 positive' with 'imb = 20.13' although 53,869/2,711 is about 19.87 (scenario 1 uses the same 53,869 negatives). Typo 'Segmemt0' in Table 1 and Table 4. Glass5 has G-mean 0 for all methods, rank '-'. Four proposed variants (NB-Basic, NB-Tomek, NB-Comm, NB-Rec); no single main variant is named, so outcome rows record NB-Basic ('the first and simplest proposed method', p.10) and list the other variants in the row notes. Experiment III datasets are not in Table 1; their characteristics are in the text p.17."
+}

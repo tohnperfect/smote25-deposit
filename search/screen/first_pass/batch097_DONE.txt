@@ -1,0 +1,11 @@
+batch 097: 200 of 200 records done; include 19, unsure 18, exclude 163
+no records remain
+
+Look at these first:
+- Cases the codebook does not settle: R01064 (SmoteND/SmoteNDBoost, SMOTE extended to imbalanced regression: clarification 1 says unsure, E2 says exclude); R00075 (2008 multiclass scheme using random over/undersampling only: I1 lists multiclass oversampling schemes, but nothing synthetic is generated; low); R06131 (AFCM-SMOTENC for association-rule mining, not classification; low).
+- Language: R00240 (included, AdaBoost-SVM-OBMS, 2011) has English metadata but the abstract looks like the Chinese journal Computer Engineering and Applications; check the language at full text. R13574 was excluded under E-LANG (Chinese) but would otherwise be a generative include (SDCGAN).
+- Methods that meet I1 but whose abstract names no evaluation (clarification 2): R17444 (Attention-route SMOTE, preprint), R06482 (FFSMOTE for streams).
+- Borderline includes (medium): R10720 (proposed PSOS, not described), R04417 (SMOTE rate set by OOB error), R09907 (SMOTE variant inside incremental learning), R01942 (SMOR; ordinal regression treated as classification, E2 could be argued).
+- Borderline excludes (medium): R19816 (GAN balancing step in a fraud framework, E1), R07996 (GAN makes majority data for an anomaly detector, E2), R08678, R04616, R01770, R04654 (no abstract).
+- Existing generator plus an existing cleaning or selection step (clarification 3, unsure): R07698, R09946, R01228, R08980.
+- Front matter: R00081 (ITAB 2008 abstract book) lists "the generation mechanism of synthetic minority class examples", tagged front-matter-in-scope.

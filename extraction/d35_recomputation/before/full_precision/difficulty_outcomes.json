@@ -1,0 +1,151 @@
+{
+ "rows_joined": 496,
+ "decided_rows": 448,
+ "papers": 23,
+ "tasks": 107,
+ "ties": 48,
+ "win_share_by_profile": {
+  "none": {
+   "rows": 177,
+   "win": 145,
+   "share": 0.819209
+  },
+  "outlier_flag": {
+   "rows": 31,
+   "win": 31,
+   "share": 1.0
+  },
+  "small_disjuncts + small_sample": {
+   "rows": 1,
+   "win": 1,
+   "share": 1.0
+  },
+  "small_disjuncts + small_sample + outlier_flag": {
+   "rows": 21,
+   "win": 17,
+   "share": 0.809524
+  },
+  "small_sample": {
+   "rows": 137,
+   "win": 118,
+   "share": 0.861314
+  },
+  "small_sample + outlier_flag": {
+   "rows": 81,
+   "win": 69,
+   "share": 0.851852
+  }
+ },
+ "models": {
+  "noise_per_0.1": {
+   "gee": {
+    "odds_ratio": 1.147047,
+    "ci95": [
+     1.04249,
+     1.26209
+    ],
+    "p": 0.004904
+   },
+   "within_paper": {
+    "papers": 14,
+    "rows": 384,
+    "odds_ratio": 1.18674,
+    "ci95": [
+     1.049879,
+     1.341442
+    ],
+    "p": 0.006171
+   }
+  },
+  "log2_IR": {
+   "gee": {
+    "odds_ratio": 0.928859,
+    "ci95": [
+     0.695519,
+     1.240483
+    ],
+    "p": 0.617093
+   },
+   "within_paper": {
+    "papers": 14,
+    "rows": 384,
+    "odds_ratio": 0.955751,
+    "ci95": [
+     0.773076,
+     1.181591
+    ],
+    "p": 0.675819
+   }
+  },
+  "small_sample": {
+   "gee": {
+    "odds_ratio": 1.155013,
+    "ci95": [
+     0.480124,
+     2.778564
+    ],
+    "p": 0.74763
+   },
+   "within_paper": {
+    "papers": 11,
+    "rows": 339,
+    "odds_ratio": 1.232732,
+    "ci95": [
+     0.669246,
+     2.270658
+    ],
+    "p": 0.501993
+   }
+  },
+  "outlier_flag": {
+   "gee": {
+    "odds_ratio": 1.738612,
+    "ci95": [
+     0.435625,
+     6.93893
+    ],
+    "p": 0.433495
+   },
+   "within_paper": {
+    "papers": 9,
+    "rows": 313,
+    "odds_ratio": 1.931048,
+    "ci95": [
+     0.930013,
+     4.009565
+    ],
+    "p": 0.07751
+   }
+  },
+  "small_disjuncts": {
+   "gee": {
+    "odds_ratio": 0.723602,
+    "ci95": [
+     0.317608,
+     1.648572
+    ],
+    "p": 0.441272
+   },
+   "within_paper": {
+    "papers": 5,
+    "rows": 233,
+    "odds_ratio": 0.65304,
+    "ci95": [
+     0.193134,
+     2.208113
+    ],
+    "p": 0.492997
+   }
+  }
+ },
+ "robust_task_majority_noise_per_0.1": {
+  "rows": 168,
+  "papers": 23,
+  "odds_ratio": 1.206794,
+  "ci95": [
+   1.06084,
+   1.372829
+  ],
+  "p": 0.004264
+ }
+}

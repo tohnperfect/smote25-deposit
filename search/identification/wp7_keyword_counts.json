@@ -1,0 +1,41 @@
+{
+ "records": 22426,
+ "by_period": {
+  "2002-2017": 1155,
+  "2018-2022": 4257,
+  "2023-2026": 17014
+ },
+ "terms": {
+  "GAN": {
+   "2002-2017": 2,
+   "2018-2022": 242,
+   "2023-2026": 1101
+  },
+  "VAE": {
+   "2018-2022": 34,
+   "2023-2026": 218
+  },
+  "diffusion": {
+   "2018-2022": 1,
+   "2023-2026": 121
+  },
+  "LLM": {
+   "2018-2022": 4,
+   "2023-2026": 187
+  },
+  "long-tail": {
+   "2018-2022": 20,
+   "2023-2026": 72
+  },
+  "foundation": {
+   "2023-2026": 32
+  }
+ },
+ "any_deep_generative": {
+  "2002-2017": 2,
+  "2018-2022": 262,
+  "2023-2026": 1463
+ },
+ "any_deep_generative_total": 1727,
+ "note": "keyword match on title and abstract of unscreened records; GAN, VAE, diffusion or LLM counted once per record"
+}

@@ -1,0 +1,14 @@
+batch 078: 200 of 200 records done; include 23, unsure 17, exclude 160
+
+Check first:
+- Low confidence: R13330 (unsure). The title says it enhances GraphSMOTE, but the abstract describes only a new loss (ECC) replacing cross-entropy.
+- Language conflict: R18985 (include, I1-generative). The language field is tr, but the title and abstract are English-only. Check the language of the full text.
+- Codebook unclear on task or mechanism: R07661 (unsure; augmentation for aspect sentiment quad prediction, a structured task rather than classification), R03312 (unsure; Cross-Concatenation pairs instances instead of resampling), R11406 (include; Mixup-based minority augmentation for supervised anomaly classification, near the E2 line).
+- Borderline includes, all medium: R04187 (KSMOTE fixes cross-validation after oversampling and may only be SMOTE inside folds), R15808 (oversampling ratio optimized with PSO/WOA/Optuna), R05497 (dynamic resampling with an attenuation rate; unclear whether it uses SMOTE), R05578 (HOUBC hybrid), R03918 (improved SMOTE with boundary cleaning).
+- Two existing generators combined, coded as I1-hybrid, not as clarification 3: R19613 (GAN+SMOTE), R20483 (GPT-2+SMOTE), R11080 (SMOTE+CTGAN/TabDDPM).
+- Clarification 3 sent to unsure: R00787 (DBSM), R07496 (USMOTE(r)), R09141 (IQRBU plus genetic oversampling), R12803 (ADASYN with bagging/boosting/stacking).
+- Domain GAN oversampling, unclear if adapted: R06126 (CGAN IDS) and R16957 (edge IDS generator). Other unsure: R11176 (K-clusters SMOTE, maybe K-means SMOTE renamed), R01847 (SMOTE with noise), R02709 (parSMURF), R03000 and R08602 (abstract does not say whether synthetic examples are generated).
+- No evaluation named in the abstract (clarification 2): R21496 (PE-SMOTE) and R17111 (SRA-SMOTE), both Zenodo preprints.
+- No abstract: R14653 (unsure; title is a metaheuristic multiclass oversampler). R12001 and R05369 were excluded from the title alone (medium).
+- Borderline excludes, medium: R12112 (existing simulated ECG mixed in by curriculum), R16754 (order of imputation and SMOTE), R19402 (GAN augmentation strategy benchmark).
+- Front matter tagged front-matter-in-scope: R01516, R02917, R03856.

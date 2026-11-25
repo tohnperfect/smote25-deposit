@@ -1,0 +1,37 @@
+Batch 3, Evaluation form: DONE. 5 of 5 rows filled (E03 CISO, E06 FW-SMOTE, E09 Global-CS, E12 OSS, E15 SOUP).
+Output: eval/batch3_filled.csv (same columns and row order as batch3_to_fill.csv; no empty cells).
+Coded only from blind2/papers/<safe>.txt and blind2/pdf/<safe>__*.pdf; no first-coder files opened.
+
+LOOK AT THESE FIRST (judgement calls, least sure first)
+
+1. E15 SOUP, "measure defined wrongly" = y. The G-mean on p.775 is printed as the n-th root of prod_{i=1..n} sensitivity_i,
+   but the same sentence defines n as "their number" (the number of minority classes). Read literally, this is not the all-class
+   multi-class G-mean. It could be a notation slip rather than a wrong definition; n is the defensible alternative.
+2. E15 SOUP, plain SMOTE baseline = n and cost-sensitive baseline = n. The only SMOTE comparator is Static-SMOTE (standard
+   SMOTE applied iteratively to the smallest class, p.771). Global-CS is present but the paper implements it as random
+   oversampling ("each class is oversampled except the class with the highest cardinality", p.771). If the survey counts
+   Static-SMOTE as plain SMOTE, or Global-CS as cost-sensitive, both flip to y.
+3. Column "resampling inside the training folds stated". Rule I used: y only when the paper explicitly connects the resampling
+   to the training part of each split. CISO = y (p.24, every sampler fitted on the training partition). OSS = y (S is the
+   training set; "the union of k-1 subsets was used for training", pdf p.5). FW-SMOTE, SOUP and Global-CS = not said. FW-SMOTE
+   only says "the test set remains unseen until the final performance assessment" (p.8), in the tuning context. SOUP's
+   algorithms take the "original training set" as input. Global-CS weights the training examples but does not resample.
+4. "How settings were chosen" = on evaluation data, for two papers. FW-SMOTE chooses the oversampling amount N (100%/300%)
+   for all methods by average test performance (pp.7-8). SOUP picks the heuristic similarity setting after comparing SIM1-SIM6
+   on the same 19 datasets (p.777). CISO is coded fixed: one configuration was tuned on 5 disjoint tuning datasets and then frozen.
+5. E03 CISO. (a) Real datasets: I coded 45 (results reported); with the 5 tuning-only KEEL sets the total is 50.
+   (b) Synthetic: I coded 0; the 4 toy 2-D geometries in Fig. 1 only illustrate the certificate.
+   (c) ROC-AUC and G-mean are declared secondary metrics (p.17), but no ROC-AUC or G-mean results are printed.
+   (d) The CV fold count, repeats and stratification are never stated.
+6. E09 Global-CS, reason for data = n (borderline). The only purpose statement is about using the ten imbalanced sets for the
+   pure class-imbalance experiment (p.571); the quote is in notes. "Data modified" is coded not stated, but Table 2 shows
+   abalone with 3 classes and waveform with 3,000 examples, with no derivation described.
+7. E06 FW-SMOTE, "data modified" = not stated. No preprocessing or binarization is described, although derived sets
+   (abalone7, bhat1-4, car1-4) are used. The code link is a GitHub account page (github.com/cvairetti), not a named repository.
+
+OTHER NOTES
+- OSS: the text layer is garbled (font encoding), so I coded it from the PDF page images. The PDF has no printed page numbers,
+  so locations are given as pdf p.N.
+- Page references: CISO and FW-SMOTE printed page = pdf page. Global-CS uses printed pp.567-572 and SOUP printed pp.769-781.
+  The FW-SMOTE supplement tables are on printed pp.29-34.
+- No paper reports a calibration measure or a threshold-moving baseline.

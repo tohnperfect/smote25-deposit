@@ -1,0 +1,880 @@
+[
+ {
+  "file": "05-data.tex",
+  "marker": "347 of 1,756 dataset entries were changed",
+  "values": [
+   "347"
+  ],
+  "source": "wp3/adjudication/GLOS_recount.json",
+  "field": "after.modified",
+  "note": "GLOS recode (WP3, Table 5 rule)"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "Original & 533",
+  "values": [
+   "533"
+  ],
+  "source": "wp3/adjudication/GLOS_recount.json",
+  "field": "after.original",
+  "note": "GLOS recode"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "Repository-defined & 468",
+  "values": [
+   "468"
+  ],
+  "source": "wp3/adjudication/GLOS_recount.json",
+  "field": "after.repository_defined",
+  "note": "GLOS recode"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "Modified by the authors & 347",
+  "values": [
+   "347"
+  ],
+  "source": "wp3/adjudication/GLOS_recount.json",
+  "field": "after.modified",
+  "note": "GLOS recode"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "Cannot be told & 195 & 2020--2024 & 24 & 13 & 27",
+  "values": [
+   "13",
+   "27"
+  ],
+  "source": "wp3/adjudication/GLOS_recount.json",
+  "field": "after.by_period.2020-2024",
+  "note": "GLOS recode"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "Of the 347 modified entries (44 papers)",
+  "values": [
+   "347",
+   "44",
+   "153",
+   "10",
+   "25",
+   "109",
+   "21"
+  ],
+  "source": "wp3/adjudication/GLOS_recount.json",
+  "field": "after: modified, modified_papers, im_entries, im_papers, purpose_stated_papers, entries_missing_information, minority_class_not_stated",
+  "note": "GLOS recode"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "Five of the 44 papers also use",
+  "values": [
+   "44"
+  ],
+  "source": "wp3/adjudication/GLOS_recount.json",
+  "field": "after.modified_papers",
+  "note": "GLOS recode; nine publish: MODIFIED_RELEASED_summary.json (D36)"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "make up 27 to 37",
+  "values": [
+   "27"
+  ],
+  "source": "wp3/adjudication/GLOS_recount.json",
+  "field": "after.by_period.2020-2024.repository_pct",
+  "note": "GLOS recode"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "Verification holds for 990 entries",
+  "values": [
+   "990"
+  ],
+  "source": "wp3/adjudication/GLOS_recount.json",
+  "field": "after.verifiable_entries",
+  "note": "GLOS Segment is modified and not published"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "10,000 permutations; an exploratory test",
+  "values": [
+   "0.002"
+  ],
+  "source": "data/d35/out/family_dependence.json",
+  "field": "t1.p_rank_gap = 0.0024",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "the proposed method wins 1,102, ties 100 and loses 293",
+  "values": [
+   "1102",
+   "1395",
+   "100",
+   "293",
+   "79.0",
+   "76.8",
+   "81.1"
+  ],
+  "source": "data/d35/out/hypotheses.json",
+  "field": "all_metric_plain.overall",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "Taking the variants the extraction had first chosen",
+  "values": [
+   "1107",
+   "1393",
+   "79.5"
+  ],
+  "source": "Data section/out/hypotheses.json (team repository, before D35)",
+  "field": "all_metric_plain.overall.win_share_of_decided",
+  "note": "sensitivity: variants first chosen"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "AUC & 19 & 403 & 307 & 34 & 62",
+  "values": [
+   "307",
+   "34",
+   "62"
+  ],
+  "source": "data/d35/out/winloss_allmetric_summary.json",
+  "field": "plain_smote_only.by_metric_group.AUC",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "G-mean & 19 & 380 & 283 & 27 & 66",
+  "values": [
+   "27",
+   "66"
+  ],
+  "source": "data/d35/out/winloss_allmetric_summary.json",
+  "field": "plain_smote_only.by_metric_group.G-mean",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "F-measure & 18 & 287 & 214 & 14 & 55",
+  "values": [
+   "214",
+   "14",
+   "55"
+  ],
+  "source": "data/d35/out/winloss_allmetric_summary.json",
+  "field": "plain_smote_only.by_metric_group.F-measure",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Recall (sensitivity) & 12 & 193 & 130 & 20 & 43",
+  "values": [
+   "20",
+   "43"
+  ],
+  "source": "data/d35/out/winloss_allmetric_summary.json",
+  "field": "plain_smote_only.by_metric_group.Recall/sensitivity",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Precision & 7 & 113 & 62 & 4 & 47",
+  "values": [
+   "4",
+   "47"
+  ],
+  "source": "data/d35/out/winloss_allmetric_summary.json",
+  "field": "plain_smote_only.by_metric_group.Precision",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "All metrics & 29 & 1,511 & 1,102 & 100 & 293",
+  "values": [
+   "1102",
+   "100",
+   "293"
+  ],
+  "source": "data/d35/out/winloss_allmetric_summary.json",
+  "field": "plain_smote_only.overall_all_metrics",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "the proposed method wins 75 to 83",
+  "values": [
+   "75",
+   "83",
+   "47",
+   "403",
+   "42"
+  ],
+  "source": "data/d35/out/winloss_allmetric_summary.json and data/d35/out/hypotheses.json",
+  "field": "by_metric_group shares (Recall 75.1, AUC 83.2); Precision 62/47; robust_R1_dataset_majority.overall",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "Modified and synthetic data give a win in 75.3",
+  "values": [
+   "75.3",
+   "368",
+   "489",
+   "80.1",
+   "0.61",
+   "0.37",
+   "1.00",
+   "0.051",
+   "0.53",
+   "0.33",
+   "0.84",
+   "0.007"
+  ],
+  "source": "data/d35/out/hypotheses.json",
+  "field": "all_metric_plain.H1_primary_modsyn_vs_original (crude, M1_gee, M2_conditional); by_type.original",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "A Bayesian mixed model gives an odds ratio of 0.64",
+  "values": [
+   "0.64",
+   "0.49",
+   "0.83"
+  ],
+  "source": "data/d35/out/hypotheses.json",
+  "field": "all_metric_plain.H1_primary_modsyn_vs_original.M3_bayes_mixed",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "the odds ratio per 0.1 of noise index is 1.18",
+  "values": [
+   "1.18",
+   "1.07",
+   "1.30",
+   "0.001",
+   "1.21",
+   "1.07",
+   "1.37",
+   "0.002",
+   "0.90",
+   "0.42"
+  ],
+  "source": "data/d35/out/full_precision/difficulty_outcomes.json",
+  "field": "models.noise_per_0.1 (gee, within_paper); models.log2_IR.gee",
+  "note": "D35 recomputation; rounded once from full precision (data/d35/tools/full_precision.py): within papers 1.2145 (1.0747 to 1.3725)"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "adjusted $p = 0.006$ with paper-level clustering",
+  "values": [
+   "0.006",
+   "0.009"
+  ],
+  "source": "gen/table_model_variants.tex",
+  "field": "Holm-adjusted p, noise index (scripts/gen_model_variants.py on data/d35/out)",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "so the count is 44 papers (347 entries)",
+  "values": [
+   "44",
+   "347",
+   "52",
+   "8"
+  ],
+  "source": "wp3/adjudication/GLOS_recount.json",
+  "field": "after.modified_papers, after.modified; 52 Evaluation draft; 8 = 52 - 44",
+  "note": "GLOS recode (Table 5 rule)"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Read in the papers, 9 of the 44 publish them",
+  "values": [
+   "9",
+   "44",
+   "3",
+   "10"
+  ],
+  "source": "wp3/adjudication/MODIFIED_RELEASED_summary.json",
+  "field": "publish_modified_files; papers_that_modify_data; data_first_pass (3 papers); evaluation_first_pass (10 papers)",
+  "note": "D36"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "After the adjudication of the second pass, 67 of 73 papers give a reason",
+  "values": [
+   "67",
+   "73",
+   "58",
+   "71"
+  ],
+  "source": "wp3/adjudication/WP3_summary.json",
+  "field": "paper_level_after_adjudication.reason_given; 58 of 71 Evaluation draft",
+  "note": "D34"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "47 after the adjudication of the second pass",
+  "values": [
+   "47"
+  ],
+  "source": "wp3/adjudication/WP3_summary.json",
+  "field": "paper_level_after_adjudication.binarised_by_anyone",
+  "note": "adjudicated origin code Binarised"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "were settled on 12 November 2026 by the adjudication",
+  "values": [
+   "12",
+   "2026"
+  ],
+  "source": "claude/smote25-decisions-2026-11-12.md",
+  "field": "D34, D36 decided 12 Nov 2026",
+  "note": "decision date"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "A second, blind pass followed in November 2026",
+  "values": [
+   "2026",
+   "283",
+   "97",
+   "1706",
+   "76",
+   "11",
+   "37",
+   "15",
+   "71"
+  ],
+  "source": "wp3/adjudication/WP3_summary.json",
+  "field": "data_extraction, data_handling, method, evaluation (the second pass's samples)",
+  "note": "WP3 adjudication (D31); v0.32: the paragraph split in three, this one the design of the second pass"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "On the Data values the two passes agreed on 84.2",
+  "values": [
+   "84.2",
+   "13",
+   "1706",
+   "112",
+   "0.67",
+   "0.97",
+   "0.29",
+   "0.75",
+   "65",
+   "736",
+   "0.60",
+   "1.00",
+   "0.43",
+   "2",
+   "88",
+   "8",
+   "135",
+   "351"
+  ],
+  "source": "wp3/adjudication/WP3_summary.json",
+  "field": "data_extraction, data_handling, method, evaluation, agreements_checked",
+  "note": "WP3 adjudication (D31); v0.32: the results of the second pass, split from the paragraph above"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "79.0\\% of the decided printed comparisons favor the proposal",
+  "values": [
+   "79.0"
+  ],
+  "source": "data/d35/out/hypotheses.json",
+  "field": "all_metric_plain.overall.win_share_of_decided.pct",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "New variants beat SMOTE & 79.0",
+  "values": [
+   "79.0"
+  ],
+  "source": "data/d35/out/hypotheses.json",
+  "field": "all_metric_plain.overall.win_share_of_decided.pct",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "main.tex",
+  "marker": "proposed methods beat SMOTE in 79.0",
+  "values": [
+   "79.0"
+  ],
+  "source": "data/d35/out/hypotheses.json",
+  "field": "all_metric_plain.overall.win_share_of_decided.pct",
+  "note": "D35 recomputation"
+ },
+ {
+  "file": "01-intro.tex",
+  "marker": "A demonstration of a human-in-the-loop agentic framework for surveys",
+  "values": [
+   "22426"
+  ],
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json",
+  "field": "records (the records screened)",
+  "note": "v0.43 (D64): the seventh contribution"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Three extractions of the corpus:",
+  "values": [
+   "37",
+   "1756",
+   "71",
+   "80",
+   "84.2",
+   "1706",
+   "13",
+   "112",
+   "351",
+   "79"
+  ],
+  "source": "wp3/adjudication/WP3_summary.json; search_numbers.json (wp3_chk_n, wp3_chk_agree); the corpus counts of Sections 1 and 3.6",
+  "field": "data_extraction, agreements_checked, the spot check of the adjudication",
+  "note": "v0.43 (D64): Table aisteps, row 1, as printed in Section 3.7"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Screen of the 22,426 records",
+  "values": [
+   "22426",
+   "400",
+   "300",
+   "95.8",
+   "0.859",
+   "579",
+   "596",
+   "97.1",
+   "0.94",
+   "11",
+   "1222",
+   "5.2"
+  ],
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json",
+  "field": "records, pilot_n, check_blind_inc_n, check_blind_exc_n, pilot_agreement_pct, pilot_kappa, check_blind_agree, check_blind_decided, check_blind_pct, check_blind_kappa, check_sample_corrections, check_unsure_all",
+  "note": "v0.43 (D64): Table aisteps, row 2, as printed in Section 3.4"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Facts behind rulings B and B2",
+  "values": [
+   "299",
+   "44",
+   "10"
+  ],
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json",
+  "field": "the rulings pass against the check (Section 3.4)",
+  "note": "v0.43 (D64): Table aisteps, row 3, as printed in Section 3.4"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Coding of the two samples:",
+  "values": [
+   "88",
+   "300",
+   "55",
+   "86",
+   "94.8",
+   "93.2",
+   "47",
+   "67"
+  ],
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json",
+  "field": "d42_cov_n (obtained), d42_use_n, d42_chk_cov_n, d42_chk_use_n, d42_cov_pct, d42_use_ab_pct, d42_cov_corrected, d42_use_corrected",
+  "note": "v0.43 (D64): Table aisteps, row 4, as printed in Sections 3.4 and 8.3"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "First pass of the harm search:",
+  "values": [
+   "429",
+   "27"
+  ],
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json",
+  "field": "harm_records, harm_include",
+  "note": "v0.43 (D64): Table aisteps, row 6, as printed in Section 8.5"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "It is a curated collection of 76 distinct papers",
+  "values": [
+   "76",
+   "1972",
+   "2026"
+  ],
+  "source": "Method section draft (M 3.1)",
+  "field": "76 distinct papers, published 1972 to 2026",
+  "note": "v0.46: the folder count left out at the team lead's request; the numbers are those of the Method draft"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "a single study changes a period's share by 4 to 8 percentage points",
+  "values": [
+   "4",
+   "8",
+   "15"
+  ],
+  "source": "Evaluation section draft (E 7.1)",
+  "field": "one study in a period of 24 or 13 studies; the trend threshold",
+  "note": "v0.46: the sentence redrafted for clarity at the team lead's request; the numbers are those of the Evaluation draft"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "from a bootstrap that resamples the 29 papers",
+  "values": [
+   "73.3",
+   "84.5",
+   "29",
+   "95"
+  ],
+  "source": "data/d35/out/cluster_ci.json",
+  "field": "wins: lo, hi, papers (bootstrap over papers, 10,000 draws, seed 20261119; scripts/cluster_ci.py)",
+  "note": "v0.48: item 3 of the re-evaluation of v0.46, approved by the team lead on 19 Nov 2026 (\"do as you recommend\")"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "from a bootstrap that resamples the 43 papers",
+  "values": [
+   "8.3",
+   "31.1",
+   "43",
+   "18",
+   "123",
+   "95"
+  ],
+  "source": "data/d35/out/cluster_ci.json",
+  "field": "no_row: lo, hi, papers, papers_with_any, top3_papers_sum (scripts/cluster_ci.py, from the Data section's out/h3_entries.csv)",
+  "note": "v0.48: item 3 of the re-evaluation of v0.46, approved by the team lead on 19 Nov 2026 (\"do as you recommend\")"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "had a median of 179 citations",
+  "values": [
+   "75",
+   "179",
+   "47",
+   "100",
+   "1921",
+   "17",
+   "2009",
+   "27",
+   "23",
+   "2021",
+   "10",
+   "2026"
+  ],
+  "source": "data/openalex/2026-11-10/corpus_citations.json",
+  "field": "papers, median, at_least_100, to_2009.median, to_2009.papers, from_2021.median, from_2021.papers (scripts/corpus_citations.py, from corpus_works.json of the snapshot of 10 Nov 2026)",
+  "note": "v0.53: suggestion 4 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\")"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "The method extraction covers 37 of the 76 papers",
+  "values": [
+   "37",
+   "76",
+   "73",
+   "71"
+  ],
+  "source": "Appendix G, Table of the sets of papers (tab:corpusmap)",
+  "field": "SMOTE-family methods 37; core corpus 76; papers with an evaluation on data 73; empirical studies 71",
+  "note": "v0.53: suggestion 4 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\")"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "ten of its 17 SMOTE-family methods published from 2003 to 2017",
+  "values": [
+   "17",
+   "2003",
+   "2017",
+   "37"
+  ],
+  "source": "Appendix A, the paragraph on the corpus and earlier lists (moved from Section 3.1 in v0.53)",
+  "field": "the counts of that paragraph, repeated in the summary",
+  "note": "v0.53: suggestion 9 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\")"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "As a second test of the search",
+  "values": [
+   "136",
+   "176",
+   "77",
+   "40",
+   "2025",
+   "2026"
+  ],
+  "source": "data/reflists/reflist_numbers.json",
+  "field": "author_generator, author_cannot_tell, method_papers_total_author and related keys (scripts/reflist_check.py; the author's codes in data/reflists/unmatched_coded.csv)",
+  "note": "v0.53: suggestion 6 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\"); v0.56: the team lead's check of 21 Nov 2026"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Comparison of the records with the reference lists of five reviews",
+  "values": [
+   "136",
+   "176",
+   "61",
+   "19",
+   "2025",
+   "2026"
+  ],
+  "source": "data/reflists/reflist_numbers.json",
+  "field": "author_generator, author_cannot_tell, method_papers_total_author and related keys (scripts/reflist_check.py; the author's codes in data/reflists/unmatched_coded.csv)",
+  "note": "v0.53: suggestion 6 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\"); Table aisteps, row 7; v0.56: the team lead's check of 21 Nov 2026"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The authors used an AI session (Claude Fable 5.2) to compare the records",
+  "values": [
+   "11",
+   "136",
+   "16",
+   "176",
+   "18",
+   "19",
+   "195",
+   "2",
+   "2002",
+   "2025",
+   "2026",
+   "21",
+   "220",
+   "22426",
+   "313",
+   "32",
+   "34",
+   "36",
+   "374",
+   "4",
+   "40",
+   "41",
+   "45",
+   "46",
+   "5.2",
+   "594",
+   "693",
+   "695",
+   "70",
+   "77",
+   "8",
+   "84"
+  ],
+  "source": "data/reflists/reflist_numbers.json",
+  "field": "references_listed, references_identified, distinct_2002_on_after_duplicates, in_records, in_records_include, in_records_exclude, not_in_records_distinct, unmatched_generator, unmatched_unclear, unmatched_other, method_papers_total, include_also_in_corpus, in_records_exclude_by_code (E1, E-UNSURE), method_papers_found_share_pct, by_review (Idwan et al.); 22,426 records; Crossref read on 21 Nov 2026; author_generator, author_cannot_tell, method_papers_total_author and related keys (scripts/reflist_check.py; the author's codes in data/reflists/unmatched_coded.csv)",
+  "note": "v0.53: suggestion 6 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\"); v0.56: the team lead's check of 21 Nov 2026"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "\\section{Coding of the 71 Empirical Studies}",
+  "values": [
+   "71"
+  ],
+  "source": "Evaluation section draft (E 7.1)",
+  "field": "the 71 empirical studies of the evaluation audit",
+  "note": "v0.53: the heading follows a paragraph tagged A/R since the move of the paragraph on earlier lists to Appendix A; the number is the Evaluation draft's"
+ },
+ {
+  "file": "10-closing.tex",
+  "marker": "RQ1, methods",
+  "values": [
+   "36",
+   "2.8",
+   "24",
+   "37"
+  ],
+  "source": "Sections 4.1, 4.2 and 4.4 of the paper",
+  "field": "36 variants; 2.8 decisions changed on average (search_numbers.json, corpus_dec_mean); 24 of the 37 methods Binary only",
+  "note": "v0.53: suggestion 3 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\")"
+ },
+ {
+  "file": "10-closing.tex",
+  "marker": "RQ2, data",
+  "values": [
+   "1756",
+   "347",
+   "990"
+  ],
+  "source": "Sections 5.2 and 5.4 of the paper",
+  "field": "1,756 dataset entries; 347 modified (wp3/adjudication/GLOS_recount.json); verification holds for 990 entries",
+  "note": "v0.53: suggestion 3 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\")"
+ },
+ {
+  "file": "10-closing.tex",
+  "marker": "RQ3, evaluation",
+  "values": [
+   "3",
+   "35",
+   "71"
+  ],
+  "source": "Sections 6.4, 6.6 and 6.9 of the paper",
+  "field": "median study meets 3 of seven points; settings chosen on test scores in 35 of 71; class weighting in one study",
+  "note": "v0.53: suggestion 3 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\")"
+ },
+ {
+  "file": "10-closing.tex",
+  "marker": "RQ4, effect",
+  "values": [
+   "79.0",
+   "0.002"
+  ],
+  "source": "Sections 5.5 and 9.2 of the paper",
+  "field": "data/d35/out/hypotheses.json (win_share_of_decided); the rerun: median difference from SMOTE at most 0.002 (search_numbers.json, rerun keys)",
+  "note": "v0.53: suggestion 3 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\")"
+ },
+ {
+  "file": "10-closing.tex",
+  "marker": "RQ5, reach",
+  "values": [
+   "34416",
+   "37"
+  ],
+  "source": "Sections 8.1 and 8.3 of the paper",
+  "field": "data/openalex/2026-11-10/citing_count.json; the use audit's weighted share of applications that resample before the split",
+  "note": "v0.53: suggestion 3 of the comparison of 21 Nov 2026 (\"Edit the current version with improvement suggestions 2, 3, 4, 5, 6, and 9.\")"
+ },
+ {
+  "file": "10-closing.tex",
+  "marker": "A comparison with the reference lists of five recent reviews",
+  "values": [
+   "136",
+   "176",
+   "40"
+  ],
+  "source": "data/reflists/reflist_numbers.json",
+  "field": "author_generator, author_cannot_tell, method_papers_total_author and related keys (scripts/reflist_check.py; the author's codes in data/reflists/unmatched_coded.csv)",
+  "note": "v0.55: the team lead, 21 Nov 2026 16:37, \"Both\": the Limitations sentence proposed to him; v0.56: the team lead's check of 21 Nov 2026"
+ },
+ {
+  "file": "main.tex",
+  "marker": "The corpus holds 52 of the",
+  "values": [
+   "52"
+  ],
+  "source": "data/search/2026-11-11/corpus_in_records.json",
+  "field": "scripts/corpus_in_records.py: all_*, family_*, other_* (the 76 corpus papers matched to the 22,426 records by DOI)",
+  "note": "v0.58: the team lead, 23 Nov 2026, \"There should be links between the two corpus.\""
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "A systematic search tests the coverage of the corpus",
+  "values": [
+   "57",
+   "76",
+   "22426",
+   "52"
+  ],
+  "source": "data/search/2026-11-11/corpus_in_records.json",
+  "field": "scripts/corpus_in_records.py: all_*, family_*, other_* (the 76 corpus papers matched to the 22,426 records by DOI)",
+  "note": "v0.58: the team lead, 23 Nov 2026, \"There should be links between the two corpus.\""
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "The corpus and the records of the search can be set against each other",
+  "values": [
+   "76",
+   "5",
+   "2002",
+   "57",
+   "22426",
+   "36",
+   "37",
+   "21",
+   "39",
+   "52",
+   "16",
+   "14",
+   "13",
+   "3097"
+  ],
+  "source": "data/search/2026-11-11/corpus_in_records.json",
+  "field": "scripts/corpus_in_records.py: all_*, family_*, other_* (the 76 corpus papers matched to the 22,426 records by DOI)",
+  "note": "v0.58: the team lead, 23 Nov 2026, \"There should be links between the two corpus.\""
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "The corpus thus holds 52 of the",
+  "values": [
+   "52",
+   "3097"
+  ],
+  "source": "data/search/2026-11-11/corpus_in_records.json",
+  "field": "all_include (scripts/corpus_in_records.py); 3,096 is the number of records that pass the screen (screen_decisions.csv)",
+  "note": "v0.58: the team lead, 23 Nov 2026, \"There should be links between the two corpus.\""
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The authors decided one unsure record of the screen themselves",
+  "values": [
+   "23",
+   "2026",
+   "30",
+   "2009"
+  ],
+  "source": "data/search/screening_full_2026-11-11/person_overrides.csv",
+  "field": "row R00004 (23 Nov 2026); scripts/make_samples.py: COV_N = 30, period P1 to 2009; R00004 has order 4 of P1 in a draw repeated with the correction (23 Nov 2026)",
+  "note": "v0.61: the team lead, 23 Nov 2026, option 3 and \"Keep the sample as coded\""
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "The direction is the opposite of the hypothesis, and it stays so",
+  "values": [
+   "0.62",
+   "0.41",
+   "0.79",
+   "0.57",
+   "0.08",
+   "0.51"
+  ],
+  "source": "data/d35/out/full_precision/hypotheses.json",
+  "field": "robust_R1_dataset_majority and robust_R2_ruleA: H1_primary_modsyn_vs_original, M1_gee and M2_conditional (odds_ratio, ci95, p); also rows of gen/table_model_variants.tex (scripts/gen_model_variants.py)",
+  "note": "v0.63: the team lead, 23 Nov 2026 22:17, notes on the PDF of v0.62 (\"edit the paper according to note from this file\"); note 14"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "The other 287 entries use",
+  "values": [
+   "287",
+   "703",
+   "46",
+   "238"
+  ],
+  "source": "team repository, Data section/difficulty/verifiability_entries.csv and difficulty_groups_cited.csv",
+  "field": "990 - 703 verifiable entries; 283 on files with one-vs-rest tasks (284 less the Segment entry of GLOS, docs/CHANGES-v0.16.md), 3 on covertype and la12 (not measured), 1 on a two-class file with fewer than two minority rows",
+  "note": "v0.63: the team lead, 23 Nov 2026 22:17, notes on the PDF of v0.62 (\"edit the paper according to note from this file\"); note 13"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "on AUC, 307 wins against 62 for SMOTE",
+  "values": [
+   "307",
+   "62",
+   "83"
+  ],
+  "source": "data/d35/out/full_precision/hypotheses.json",
+  "field": "all_metric_plain.by_metric_group.AUC: win, loss, win_share_of_decided (the AUC row of the table supp:winsmetric; scripts/make_fig_wins.py stops if the caption differs)",
+  "note": "v0.63: the team lead, 23 Nov 2026 22:17, notes on the PDF of v0.62 (\"edit the paper according to note from this file\"); note 15"
+ },
+ {
+  "file": "05-data.tex",
+  "marker": "On this scale two splits of one source lie",
+  "values": [
+   "0",
+   "1"
+  ],
+  "source": "team repository, Data section/build/family_dependence.py",
+  "field": "p[\"rk\"] = p.groupby(\"paper\").d.rank(pct=True): ranks as shares, from 0 to 1",
+  "note": "v0.63: the team lead, 23 Nov 2026 22:17, notes on the PDF of v0.62 (\"edit the paper according to note from this file\"); note 12"
+ }
+]

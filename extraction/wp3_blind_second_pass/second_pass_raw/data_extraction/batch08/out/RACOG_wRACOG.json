@@ -1,0 +1,23 @@
+{
+ "data_key": "RACOG / wRACOG",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Private"
+ ],
+ "crit": "The prompting data set comes from the motivating pervasive-computing application (goal: improve sensitivity for this prompting application); to evaluate the applicability of the algorithm for other data sets, nine additional real-world UCI data sets that exhibit the class imbalance problem are used.",
+ "crit_type": "own reason",
+ "basis": [
+  "application",
+  "method-target"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "not stated",
+ "modified_data_released": "no",
+ "notes": "Two proposed methods (RACOG and wRACOG) on equal footing; outcome rows give both values. prompting = the authors' own smart-home data (released at footnote 1 link http://ailab.wsu.edu/casas/datasets/prompting.zip), coded Private; adjudicator may prefer Other. basis: application is clear (prompting); method-target is weaker (UCI sets chosen as data 'that exhibit the class imbalance problem' to test applicability elsewhere) - drop if that is judged generic. minority_rule 'not stated': binarisation rule only says 'a particular class label' is the minority; the minority class is named only for yeast4 (ME2) and yeast6 (EXC), not for abalone, car, nursery, letter, connect-4, ecoli1 (partly explicit). ecoli1/yeast4/yeast6 carry KEEL-like names but the paper attributes all nine to UCI and describes the binarisation itself, hence binarised_by=authors. connect-4 is printed with Size 5000 and exactly 10.00% minority; the paper does not explain how it was reduced/resized (possible unreported subsampling, not coded). Abstract says the UCI sets were 'carefully modified to exhibit class imbalance' (only binarisation is described). Real-valued attributes discretised by equal-width binning (feature change, not coded). No release of the binarised data (only the prompting data link). Table 2 imbalance column is '% Min. Class' (minority percentage). In the text layer Table 5 values appear with ':' for '.' and no '±'; values read from rendered PDF p.8."
+}

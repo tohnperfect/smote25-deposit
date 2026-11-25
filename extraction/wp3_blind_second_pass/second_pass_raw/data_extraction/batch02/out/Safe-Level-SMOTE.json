@@ -1,0 +1,19 @@
+{
+ "data_key": "Safe-Level-SMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI"
+ ],
+ "crit": "not stated in paper ('We use two quantitative datasets from UCI Repository of Machine Learning Databases [1]; Satimage and Haberman'; no reason given for choosing them)",
+ "crit_type": "not stated",
+ "basis": [],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Two UCI data sets only (Satimage, Haberman). No selection reason; 'quantitative' is a description, not a stated reason, so crit_type = not stated. Satimage reduced by the authors to class 4 vs the merged remaining classes (one-vs-rest, coded Binarised by authors, not Class-merged); Haberman used without stated modification (Natural). No data release statement. Table 3 prints % Minority (9.73 for Satimage), not an IR; the original number of classes is not printed. Attribute column copied as printed (Satimage 37, Haberman 4); the paper does not say whether the class attribute is counted. Results are shown only as line plots (Fig. 2, p.481), no result tables."
+}

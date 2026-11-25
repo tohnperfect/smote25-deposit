@@ -1,0 +1,26 @@
+{
+ "data_key": "GOIO",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "imbalanced-learn",
+  "Synthetic"
+ ],
+ "crit": "Real-world data: no selection reason (only 'All the real-world datasets used in our experiments are publicly available, sourced from repositories including UCI [48] and the Python package imbalanced-learn [49]'). Synthetic data: five datasets generated from two multivariate Gaussians 'following [50], enabling precise control over dataset characteristics for clearer result interpretation'; class overlap controlled by varying the positive-class mean; composite features give 'a complex data structure for evaluating the oversampling techniques'.",
+ "crit_type": "own reason",
+ "basis": [
+  "analytic",
+  "difficulty",
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Tables I, II (p.6456) and V-VII (p.6459-6460) are images in the text file; values read from the PDF. Introduction (p.6451) says '18 real-world and six competing synthetic datasets' while Section IV.A and Table II have five synthetic datasets. The paper does not say who chose the target classes (#T) or whether some binary versions came ready-made from imbalanced-learn; coded binarised_by = authors from 'the selected target class (# T)' (could be 'both'). Odd #T values: abalone_6 '≤15' (abalone_15 is '≥15'); bank_small (4521) vs bank_full (45211) and abalone_6 (3527) vs abalone_15 (4177) differ in size without explanation (possible subsampling, not described). Synthetic generator adds a uniform 'noisy vector u' to the features (x_orig = n + u): treated as part of Generated, not coded Noise-injected. Generator follows [50] (Prati et al.); no dataset list is said to be inherited. 'publicly available' not coded as replicability (not given as a selection reason). Result tables do not say which classifier is shown ('Average performance on 23 datasets'; GNB, KNN, DTC, SVM, RFC used); averaging over classifiers not stated. Only code released."
+}

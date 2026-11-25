@@ -1,0 +1,32 @@
+{
+ "data_key": "DLexiBoost",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL",
+  "Synthetic",
+  "Image"
+ ],
+ "crit": "Real-world: 15 two-class and 10 multi-class KEEL datasets 'with varying degrees of imbalance' (multi-class: 'varying number of classes and degree of imbalance'). Artificial: 27+27 two-class sets varying IR {5,10,25}, size {500,1000,2500}, class overlap and presence of outliers. Hyperspectral images: 'one of the key practical application areas where multi-class imbalance naturally arises'. ImageNet subsets: natural-image classification is a challenging application, natural image data are inherently imbalanced with complex class distributions ('the popular ImageNet dataset').",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "difficulty",
+  "method-target",
+  "application",
+  "analytic",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Generated",
+  "Noise-injected",
+  "Class-merged",
+  "Induced profile"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "no",
+ "notes": "Per-dataset characteristics are only in the supplement result tables (supp Tables 1-6: IR for two-class sets; |C| and IR for multi-class, hyperspectral and ImageNet); n_instances/n_features are not printed for KEEL sets. Supp p.3 defines IR as 'the ratio of the number of representatives from the largest and the smallest classes'. minority_rule is mixed: two-class KEEL sets are repository splits (repository-defined); 10 multi-class KEEL sets keep native classes and no minority is defined; for the artificial data the minority class is set by the authors (centre fixed at [0,0,0,0,0]); ImageNet subset class sizes are set by the authors (Fig. 5, p.895: subtree counts e.g. Artifacts (420), Plants (180), several subtrees (20)). Some two-class names (german, soybean12, sick2, new-thyroid2) do not carry an X-vs-Y label; the paper says all 15 come from KEEL and never says the authors binarised anything. ImageNet origin could also be read as Class-resized (classes sampled to a set size); coded as Induced profile + Class-merged. Only the code (GitHub) is released; no link to the generated/ImageNet subset data. 'popular ImageNet' coded as popularity (weak). Main Table 3 and Table 4 are images with only summary ranks."
+}

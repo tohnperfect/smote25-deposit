@@ -1,0 +1,14 @@
+d42 useaudit batch 209 (blind second coder): DONE
+n=10, fulltext=10, abstract=0, application=10
+inside_folds: stated=3, before-split=6, nr=1
+test_balanced: yes=5, no=4, nr=1; vs_none: yes=3; vs_weights: yes=0; validation: internal=9, external=1
+confidence: high=3, medium=6, low=1
+
+Least sure:
+- R05157 (stated/no, low): text says "balance the train data", but Table 5 arithmetic gives undersampling-arm test positive share >=0.37 vs <=0.32 for oversampling, so the arms' test sets differ. Oversampler unnamed, coded other.
+- R00383 (before-split, test no): five SMOTE sets built from the dataset, grid search "over the entire balanced data of all samples"; placement relative to each LOO fold not explicit. Modality coded image (55-band mean-ROI spectral vectors; tabular arguable).
+- R00847 (before-split/test yes, rule D): Table 2 ACC=F=G-mean=AUC although positives are a minority; placement not stated in words. Undersampling = RUSBoost internal; bagged trees coded forest.
+- R10600 (before-split/test yes, rule D): text claims train-only SMOTE and an untouched test set, but all six models' accuracy equals mean(sens, spec) (50% positives vs 33.7%); footnote says metrics from 5-fold CV on over-sampled training set.
+- R03163 (before-split/test yes): flipping (coded other) before the split, test 28 flipped positives + 38 negatives; Borderline-SMOTE on training positives only (Sec. 4.2) though abstract says before split. Domain environment (bio arguable).
+- Domain/stakes calls: R06088 bank churn coded business (finance arguable); R01239 opinion leaders coded business/individual, HDDT not counted as weights.
+- R20791: ROC-AUC listed from an ROC figure with no value in text; split/fold placement not described (nr).

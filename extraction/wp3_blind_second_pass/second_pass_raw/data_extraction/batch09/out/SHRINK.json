@@ -1,0 +1,22 @@
+{
+ "data_key": "SHRINK",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "Private"
+ ],
+ "crit": "Application paper on oil spill detection: '9 carefully selected images containing a total of 41 oil slicks'; 'We deliberately acquired only images containing oil slicks so as to maximize the number of positive examples in our dataset'. Lookalikes were randomly sampled in varying numbers to illustrate the problem of imbalanced training sets.",
+ "crit_type": "own reason",
+ "basis": [
+  "application",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Class-resized"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "n.a.",
+ "modified_data_released": "no",
+ "notes": "Single private dataset: 937 dark regions (41 oil slicks, 896 lookalikes) from 9 satellite radar images, labelled by a human expert; data obtained through the sponsor (Macdonald Dettwiler Associates); feature vectors (49 features) extracted from images, so coded Private rather than Image. Class-resized = majority (lookalikes) randomly subsampled to varying sizes for Figures 3-4; one-sided selection (Table 3) is a method, not a data modification. Natively two-class; minority (oil slicks = positives) is explicit. No data availability statement found, so modified_data_released = no. Imbalance is printed only as majority share ('almost 96%', p.199; 'relative frequency of lookalikes is 96%', p.202), no IR ratio. Number of features (49) is in the text p.206, not in Table 2. Page numbers are printed journal pages (195-215); Table 2 is on printed p.205 = pdf p.11."
+}

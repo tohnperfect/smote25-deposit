@@ -1,0 +1,23 @@
+{
+ "data_key": "MC-RBO",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL"
+ ],
+ "crit": "Diverse 20 multiclass imbalanced data sets from KEEL, selected on the basis of the authors' previous study on instance-level difficulties in multiclass data sets [10], which showed they embed many challenging characteristics such as small disjuncts, frequent borderline and noisy instances, and class overlapping.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "difficulty",
+  "method-target",
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "[10] J. A. Sáez, B. Krawczyk, M. Wozniak, 'Analyzing the oversampling of different classes and types of examples in multi-class imbalanced datasets', Pattern Recognit. 57 (2016) 164-178 (the authors' previous study)",
+ "origin": [
+  "Natural"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "not defined",
+ "modified_data_released": "n.a.",
+ "notes": "Table I (pdf p.7) is an embedded table not present in the text layer; read from a 400-dpi render. It prints #Instances, #Features, #Classes, IR and Class distribution; IR is not defined in the paper (values equal largest/smallest class). All 20 sets are multiclass with native distributions; the paper never names minority classes in the data. The method itself treats every class except the largest as a minority to oversample (p.2823), which is an algorithm rule rather than a data definition; adjudicator may prefer another minority_rule code. Figs. 2-4 illustrate oversampling on an unnamed 2-D example data set whose origin is not stated, so Synthetic/Generated were not coded. Hayes-Roth class distribution is printed '160/65/64/31' (four numbers for three classes; 160 equals the total). pdf_page_hint values in the to-fill file (p.13, p.6) do not match: Table I is on pdf p.7. Code released on GitHub (footnote 1), not data. No per-dataset SMOTE results requested."
+}

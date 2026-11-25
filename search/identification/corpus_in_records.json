@@ -1,0 +1,33 @@
+{
+ "corpus": 76,
+ "family": 37,
+ "all_before_2002": 5,
+ "all_in_records": 57,
+ "all_include": 52,
+ "all_exclude": 5,
+ "all_exclude_codes": {
+  "E-NOGEN": 1,
+  "E-COMPARE": 3,
+  "E-REVIEW": 1
+ },
+ "all_not_in_records_in_window": 14,
+ "family_before_2002": 0,
+ "family_in_records": 36,
+ "family_include": 36,
+ "family_exclude": 0,
+ "family_exclude_codes": {},
+ "family_not_in_records_in_window": 1,
+ "other_before_2002": 5,
+ "other_in_records": 21,
+ "other_include": 16,
+ "other_exclude": 5,
+ "other_exclude_codes": {
+  "E-NOGEN": 1,
+  "E-COMPARE": 3,
+  "E-REVIEW": 1
+ },
+ "other_not_in_records_in_window": 13,
+ "matched_by": {
+  "doi": 57
+ }
+}

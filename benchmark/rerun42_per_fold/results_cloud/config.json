@@ -1,0 +1,37 @@
+{
+ "seed": 20261110,
+ "folds": 5,
+ "repeats": 5,
+ "methods": [
+  "none",
+  "class_weight",
+  "threshold",
+  "ROS",
+  "SMOTE",
+  "Cluster-SMOTE",
+  "ADASYN",
+  "Safe-Level-SMOTE",
+  "G-SMOTE",
+  "CGMOS",
+  "SMOM",
+  "AB-SMOTE",
+  "RSMOTE",
+  "FW-SMOTE"
+ ],
+ "learners": [
+  "CART",
+  "kNN",
+  "LR",
+  "SVM",
+  "RF",
+  "GB"
+ ],
+ "tasks": [
+  "mammography",
+  "ijcnn1"
+ ],
+ "protocol": "benchmark/run.py (imported)",
+ "missing_rows": "dropped",
+ "nominal": "one-hot, categories of the whole task",
+ "positive": "minority label of reference_collection.csv"
+}

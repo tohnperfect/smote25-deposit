@@ -1,0 +1,9 @@
+batch 011: 200 of 200 records done; include 19, unsure 16, exclude 165
+no records remain
+
+Look at first:
+- Low confidence, unsure but leaning exclude: R14272 (MixGAN: pretrained CTGAN inside a new semi-supervised DDoS detector), R07761 (overlap-removal undersampling with SMOTE listed; may be E-NOGEN), R16944 (precipitation: "physics-informed augmentation" vs SMOTE/GAN, mostly an evaluation), R20143 (Bernoulli perturbation augmentation vs balancing controls), R19123 and R17703 (no abstract; titles name imbalance-aware IDS/ECG networks).
+- Includes to verify: R20222 (LSD-SMOTE; I2 only implied by "enhances the classification performance on imbalanced datasets", so clarification 2 may apply), R10073 (DDPM for solar flare images: new generator or applied DDPM?), R10030 (smart data augmentation for multiclass imbalance; unclear if it synthesizes examples), R05043 (improved ADASYN, improvement not described), R11266 (CTGAN plus new boundary-aware majority pruning).
+- Excludes near the line: R12383 (existing TabDDPM as oversampler), R17095 (class-wise TVAE), R19645 (AC-GAN), R17156 (KMADASYN "applied"), R09054 (image-pair concatenation, E-NOGEN), R08095 (class flipping relabels, E-NOGEN), R17964 (comparison with a vague "refining" claim), R22011 (SMOTE evaluation framework: review or empirical?).
+- Codebook does not settle: R13271 (GAN minority augmentation for object detection, not plain classification); R01605 and R00005 (oversampling may be duplication: I1 vs E-NOGEN); R02633 (deep generative oversampler benchmark "including our own": new method or E-COMPARE?); R21526 (clarification 2, I2 not stated).
+- Conventions: non-English records coded E-LANG even where E1 also applies (R10218, R20769, R14462, R18403). Records with Indonesian titles, English abstracts and language "en" were coded on substance (R12319, R03793, R11330, R09663, R09068).

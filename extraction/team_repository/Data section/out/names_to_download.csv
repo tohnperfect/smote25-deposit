@@ -1,0 +1,46 @@
+normalized_name,name_type,source,n_papers,entries,papers,printed_n,printed_features,sources_as_reported,record_ids
+acl,not stated,multiple,2,2,SMOTE-IPF; SPIDER2,140,6,other: provided by authors of [45]; private,P029-D031; P021-D025
+boundary,original,multiple,2,2,LS; RBBoost / Random Balance,3505,174,other: HDDT collection of Cieslak et al. [37] (http://www.nd.edu/dial/hddt/); other: biological datasets [20] (Radivojac et al.),P014-D001; P027-D001
+compustat,original,other repository,2,2,LS; RBBoost / Random Balance,13657,20,other: Compustat North America financial database; other: HDDT collection of Cieslak et al. [37] (http://www.nd.edu/dial/hddt/),P014-D004; P027-D004
+e-state,original,multiple,2,2,LS; SMOTE,5322; 53220,12,other: real-world dataset originally considered in [6] (NCI Yeast AntiCancer drug screen); private,P014-D005; P006-D004
+intrusion,modified,multiple,2,2,CTGAN / TVAE; LS,,41,UCI; other: KDD'99 Challenge [16],P039-D012; P014-D008
+phoss,original,multiple,2,2,LS; RBBoost / Random Balance,11411,479,other: HDDT collection of Cieslak et al. [37] (http://www.nd.edu/dial/hddt/); other: biological datasets [20] (Radivojac et al.),P014-D015; P027-D018
+50words,modified,other repository,1,1,INOS,,270,UCR,P023-D003
+adiac,modified,other repository,1,1,INOS,,176,UCR,P023-D001
+approval,not stated,other repository,1,1,Loyalty-SMOTE,697,7,Kaggle,P075-D035
+bar crawl,original,UCI,1,1,MKC-SMOTE,10486,4,UCI,P068-D020
+cam,not stated,other repository,1,1,RBBoost / Random Balance,18916,,other: HDDT collection of Cieslak et al. [37] (http://www.nd.edu/dial/hddt/),P027-D003
+cifar-10,modified,other repository,1,1,ROS (Buda),,,"other: CIFAR-10 benchmark (Krizhevsky & Hinton, 2009)",P037-D002
+covtype,not stated,other repository,1,1,RBBoost / Random Balance,38500,,other: HDDT collection of Cieslak et al. [37] (http://www.nd.edu/dial/hddt/),P027-D005
+customer churn wireless telecom,not stated,other repository,1,1,AB-SMOTE,5000,,other: Crowd Analytix,P044-D002
+estate,not stated,other repository,1,1,RBBoost / Random Balance,5322,,other: HDDT collection of Cieslak et al. [37] (http://www.nd.edu/dial/hddt/),P027-D007
+faceall,modified,other repository,1,1,INOS,,131,UCR,P023-D002
+gisette,modified,other repository,1,1,HDE,3076,5000,LibSVM,P052-D025
+housing,modified,UCI,1,1,EasyEnsemble / BalanceCascade,506,,UCI,P016-D006
+icr,not stated,group-level,1,1,Loyalty-SMOTE,634,33,other: UCI/KEEL (group-level; per dataset not stated),P075-D017
+ilsvrc-2012,modified,other repository,1,1,ROS (Buda),,,"other: ImageNet ILSVRC-2012 (Russakovsky et al., 2015)",P037-D003
+imagenet12,modified,other repository,1,1,DLexiBoost,,2048,other: ImageNet 2011 Fall Release,P045-D033
+imagenet8,modified,other repository,1,1,DLexiBoost,1120,2048,other: ImageNet 2011 Fall Release,P045-D031
+imagenet9,modified,other repository,1,1,DLexiBoost,1240,2048,other: ImageNet 2011 Fall Release,P045-D032
+kddcup-99 intrusion,modified,UCI,1,1,SMOTEBoost,,,"other: KDD-Cup 1999 (ref [20], http://kdd.ics.uci.edu/databases/kddcup99/task.html)",P007-D001
+kddcup99data,modified,UCI,1,1,COG-OS,,41,other: UCI KDD Archive,P012-D015
+mafalda,original,other repository,1,1,EMDO,23762,14,"other: GitHub (sisinflab-swot/mafalda, ref [64])",P051-D011
+medv,original,UCI,1,1,Loyalty-SMOTE,512,13,UCI,P075-D049
+mnist 3,modified,other repository,1,1,NBU,,784,other: MNIST,P049-D027
+mnist 5,modified,other repository,1,1,NBU,,784,other: MNIST,P049-D028
+mnist12,modified,other repository,1,1,CTGAN / TVAE,,,other: MNIST (LeCun),P039-D013
+mnist28,modified,other repository,1,1,CTGAN / TVAE,,,other: MNIST (LeCun),P039-D014
+mocap,modified,UCI,1,1,RSMOTE,48023,33,UCI,P053-D022
+national,not stated,group-level,1,1,Loyalty-SMOTE,2279,9,other: UCI/KEEL (group-level; per dataset not stated),P075-D007
+online retail,modified,UCI,1,1,RSMOTE,541909,7,UCI,P053-D027
+probe binary,modified,UCI,1,1,COG-OS,,41,other: UCI KDD Archive,P012-D016
+r2l binary,modified,UCI,1,1,COG-OS,,41,other: UCI KDD Archive,P012-D017
+sick2,repository-defined,KEEL,1,1,DLexiBoost,,,KEEL,P045-D008
+sleaf,modified,other repository,1,1,INOS,,128,UCR,P023-D004
+soybean12,repository-defined,KEEL,1,1,DLexiBoost,,,KEEL,P045-D007
+susy,modified,UCI,1,1,RSMOTE,23752,18,UCI,P053-D021
+twopats,modified,other repository,1,1,INOS,,128,UCR,P023-D005
+voice9 6,modified,UCI,1,1,SMOM,413,10,UCI,P034-D005
+voice9 7,original,UCI,1,1,SMOM,413,10,UCI,P034-D014
+wafer,modified,other repository,1,1,INOS,,152,UCR,P023-D006
+yoga,modified,other repository,1,1,INOS,,426,UCR,P023-D007

@@ -1,0 +1,14 @@
+batch 004: 200 of 200 records done; include 24, unsure 126, exclude 50
+
+Look at first:
+- Excluded although neither earlier screener excluded: R03116, R15456, R02465 (SMOTE amount or k tuned by an optimizer or by G-mean, read as hyperparameter tuning, E1); R01872 (MASI relabels majority points as minority, E-NOGEN); R00179 (SMOTE once, then class weights inside Bagging, E1).
+- Included although neither earlier screener included: R04626 (SOM-SMOTE), R04024 (two-stage image-space oversampling then feature-space undersampling), and R15157, R04357, R17972 (detection/segmentation, below).
+- Other low-confidence excludes: R20544 (ASMOS read as ADASYN), R03973 (SVMSMOTE per keywords), R01847, R13404, R02629, R02333, R15353, R22256 (no abstract, E-COMPARE from the title).
+
+Not settled by the codebook:
+- Detection and segmentation: generators aimed at minority classes in detection or segmentation were included (R12883, R18850, R15157, R04357, R17972), reading E2 as excluding only regression, clustering and anomaly detection; generators for data scarcity in detection/segmentation went to U-other (R12102).
+- Tuning SMOTE's amount or k was treated as not changing how SMOTE is applied (R03116, R15456, R02465, E1). "Optimized SMOTE" where the abstract does not say what is optimized was left unsure (R13953, R07593, R06321, R19822).
+- Relabeling counted as no generation (R01872). A dissertation meets I1 and I2 but not I3 and has no exclusion code (R00234, unsure U-other).
+- The instructions allow unsure only as U-no-abstract or U-new-or-applied; I still used U-other where codebook clarifications 1 and 2 apply: 18 records with I2 not stated (13 are 2026 Zenodo preprints with theory only) and 9 generators built for other purposes.
+- Clarification 3 was applied literally to textbook pairs presented as proposed (e.g. SMOTE-ENN R04129, ADASYN-Tomek R06558, USMOTE R07496), giving unsure. Where the novelty is a domain model, the result was E1 (R01065, R02970). U-new-or-applied was also used when the paper's own scheme oversamples but does not say whether synthetically (e.g. R04158, R03339, R00026, R00813, R01505, R09865, R00497, R00388).
+- Full texts may be in Chinese (E-LANG at full text): R00242, R00179.

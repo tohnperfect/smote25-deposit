@@ -1,0 +1,28 @@
+{
+ "data_key": "RAMOBoost",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Other",
+  "Synthetic"
+ ],
+ "crit": "19 datasets from UCI and the ELENA project that 'vary in size and class distributions to ensure a thorough assessment of performance'; Simulation 3 uses the ten datasets with the largest skew ratio because the authors are interested in highly imbalanced datasets; a synthetic 2000:100 dataset illustrates the data generation mechanism; Abalone class combinations and injected label/attribute noise are used to vary the imbalance ratio and test robustness (results shown only for Abalone, for space).",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "threshold rule",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Class-merged",
+  "Noise-injected",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Table I (printed 1630 = pdf p.7) prints #Feature, #Data, #Minority instances, #Majority instances and 'Imbalanced ratio' as proportions (e.g. 0.06 : 0.94); no class count printed (only two-class problems are studied). Table II (p.1631) names the minority and majority classes for all 19 datasets. Binarisation 'following suggestions in literature' (no reference given); Abalone (18 vs 9) and Yeast (POX vs CYT) keep only two classes. Class-merged coded because the minority side merges several classes (Texture 13+14; Page_blocks four classes) and Table XIV merges Abalone classes to set ten imbalance ratios. Noise-injected: label noise (procedure of [58]) and attribute noise ([59]) added to Abalone. Generated: synthetic 2000-majority/100-minority example (Fig. 4). 'Other' source = ELENA project (ftp). Selection threshold rule refers only to the Simulation 3 subset (10 most skewed datasets). Table III: PID on printed 1632 = pdf p.9; Abalone and Yeast on printed 1633 = pdf p.10 (the outcome rows' pdf hint p.8 for Abalone/Yeast is wrong; p.9 for PID is right). Table III gives six metrics (OA, Precision, Recall, F-measure, G-mean, AUC); AUC reported in outcomes because the paper's significance tests are 'conducted on the averaged AUC'. In Table III SMOTE beats RAMOBoost on all six metrics for Yeast, and on all but AUC for Abalone."
+}

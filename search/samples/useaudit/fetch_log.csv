@@ -1,0 +1,158 @@
+rec,stratum,order,route,url,status,chars,title_share,usable
+R01527,U1,1,semanticscholar,http://nnw.cz/doi/2019/NNW.2019.29.021.pdf,ok,34056,1.00,yes
+R00847,U1,2,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4965731/fullTextXML,ok,38012,1.00,yes
+R01960,U1,3,arxiv,https://arxiv.org/pdf/1903.05280,ok,16526,1.00,yes
+R01735,U1,4,library,,team PDF 16 Nov 2026 (pdftotext),23413,1.0,yes
+R02029,U1,5,library,,team PDF 16 Nov 2026 (pdftotext),44372,1.0,yes
+R02733,U1,6,library,,team PDF 16 Nov 2026 (pdftotext),56922,1.0,yes
+R00349,U1,7,,,semanticscholar:202; library 16 Nov 2026: not retrieved,0,,no
+R00989,U1,8,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R02826,U1,9,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R01631,U1,10,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R00138,U1,11,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2664701/fullTextXML,ok,49508,1.00,yes
+R02561,U1,12,library,,team PDF 16 Nov 2026 (pdftotext),35121,1.0,yes
+R02043,U1,13,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6737640/fullTextXML,ok,28788,1.00,yes
+R00449,U1,14,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R01572,U1,15,library,,team PDF 16 Nov 2026 (pdftotext),72451,1.0,yes
+R02298,U1,16,library,,team PDF 16 Nov 2026 (pdftotext),30372,1.0,yes
+R01239,U1,17,openalex,https://ph01.tci-thaijo.org/index.php/kbej/article/download/120305/102543,ok,22602,1.00,yes
+R01633,U1,18,library,,team PDF 16 Nov 2026 (pdftotext),31721,1.0,yes
+R01140,U1,19,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R00727,U1,20,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4783950/fullTextXML,ok,47643,1.00,yes
+R02621,U1,21,library,,team PDF 16 Nov 2026 (pdftotext),41206,1.0,yes
+R01570,U1,22,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6867775/fullTextXML,ok,31370,1.00,yes
+R02483,U1,23,library,,team PDF 16 Nov 2026 (pdftotext),40813,1.0,yes
+R02350,U1,24,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R02884,U1,25,library,,team PDF 16 Nov 2026 (pdftotext),17194,1.0,yes
+R01782,U1,26,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R02432,U1,27,library,,team PDF 16 Nov 2026 (pdftotext),23003,1.0,yes
+R01707,U1,28,arxiv,https://arxiv.org/pdf/1911.04467,ok,21706,1.00,yes
+R02762,U1,29,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R02576,U1,30,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R02004,U1,31,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R01271,U1,32,library,,team PDF 16 Nov 2026 (pdftotext),26859,1.0,yes
+R02261,U1,33,library,,team PDF 16 Nov 2026 (pdftotext),23168,1.0,yes
+R02484,U1,34,semanticscholar,https://doi.org/10.30534/ijatcse/2020/217952020,ok,18166,1.00,yes
+R00861,U1,35,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R02506,U1,36,arxiv,https://arxiv.org/pdf/2006.00676,ok,49400,1.00,yes
+R01835,U1,37,library,,team PDF 16 Nov 2026 (pdftotext),45465,1.0,yes
+R01285,U1,38,,,semanticscholar:202; library 16 Nov 2026: not retrieved,0,,no
+R00221,U1,39,library,,team PDF 16 Nov 2026 (pdftotext),19341,1.0,yes
+R00467,U1,40,library,,team PDF 16 Nov 2026 (pdftotext),35490,1.0,yes
+R00383,U1,41,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3617713/fullTextXML,ok,20588,1.00,yes
+R01439,U1,42,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R01349,U1,43,library,,team PDF 16 Nov 2026 (pdftotext),62401,1.0,yes
+R02316,U1,44,library,,team PDF 16 Nov 2026 (pdftotext),48595,1.0,yes
+R00672,U1,45,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R02100,U1,46,library,,team PDF 16 Nov 2026 (pdftotext),11047,1.0,yes
+R02895,U1,47,,,no open route,0,,no
+R02744,U1,48,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7537993/fullTextXML,ok,37912,1.00,yes
+R00660,U1,49,,,no open route,0,,no
+R02214,U1,50,,,no open route,0,,no
+R06350,U2,1,library,,team PDF 16 Nov 2026 (pdftotext),31127,0.91,yes
+R06494,U2,2,library,,team PDF 16 Nov 2026 (pdftotext),28021,1.0,yes
+R04452,U2,3,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R03028,U2,4,library,,team PDF 16 Nov 2026 (pdftotext),52822,1.0,yes
+R06252,U2,5,semanticscholar,https://oiji.utm.my/index.php/oiji/article/download/242/173,ok,24269,1.00,yes
+R03964,U2,6,library,,team PDF 16 Nov 2026 (pdftotext),20537,1.0,yes
+R06703,U2,7,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10127295/fullTextXML,ok,23596,1.00,yes
+R04275,U2,8,library,,team PDF 16 Nov 2026 (pdftotext),58553,1.0,yes
+R05720,U2,9,library,,team PDF 16 Nov 2026 (pdftotext),33652,1.0,yes
+R03330,U2,10,library,,team PDF 16 Nov 2026 (pdftotext),28438,1.0,yes
+R07136,U2,11,library,,team PDF 16 Nov 2026 (pdftotext),29167,1.0,yes
+R02989,U2,12,semanticscholar,https://doi.org/10.34028/iajit/18/6/9,ok,40035,1.00,yes
+R06106,U2,13,library,,team PDF 16 Nov 2026 (pdftotext),29327,1.0,yes
+R03193,U2,14,library,,team PDF 16 Nov 2026 (pdftotext),48302,1.0,yes
+R04586,U2,15,semanticscholar,https://ijritcc.org/index.php/ijritcc/article/download/5894/5574,ok,26410,1.00,yes
+R03716,U2,16,library,,team PDF 16 Nov 2026 (pdftotext),27665,1.0,yes
+R04241,U2,17,semanticscholar,https://aclanthology.org/2022.semeval-1.115.pdf,ok,17930,1.00,yes
+R06049,U2,18,library,,team PDF 16 Nov 2026 (pdftotext),25643,1.0,yes
+R07289,U2,19,library,,team PDF 16 Nov 2026 (pdftotext),45568,1.0,yes
+R03291,U2,20,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R07004,U2,21,,,semanticscholar:403; library 16 Nov 2026: not retrieved,0,,no
+R04593,U2,22,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9783937/fullTextXML,ok,35999,1.00,yes
+R04991,U2,23,library,,team PDF 16 Nov 2026 (pdftotext),61264,1.0,yes
+R04368,U2,24,library,,team PDF 16 Nov 2026 (pdftotext),46163,1.0,yes
+R07084,U2,25,library,,team PDF 16 Nov 2026 (pdftotext),38596,1.0,yes
+R06678,U2,26,library,,team PDF 16 Nov 2026 (pdftotext),33866,1.0,yes
+R06088,U2,27,semanticscholar,http://www.ijikm.org/Volume18/IJIKMv18p087-105Tran8783.pdf,ok,31504,1.00,yes
+R05694,U2,28,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R07043,U2,29,library,,team PDF 16 Nov 2026 (pdftotext),53416,1.0,yes
+R05027,U2,30,library,,team PDF 16 Nov 2026 (pdftotext),20838,1.0,yes
+R03301,U2,31,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R06158,U2,32,library,,team PDF 16 Nov 2026 (pdftotext),38386,1.0,yes
+R06167,U2,33,arxiv,https://arxiv.org/pdf/2302.10180,ok,24143,1.00,yes
+R06019,U2,34,arxiv,https://arxiv.org/pdf/2510.00720,ok,34843,1.00,yes
+R03269,U2,35,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8541857/fullTextXML,ok,28849,1.00,yes
+R05299,U2,36,library,,team PDF 16 Nov 2026 (pdftotext),47516,1.0,yes
+R05603,U2,37,library,,team PDF 16 Nov 2026 (pdftotext),21806,1.0,yes
+R04903,U2,38,library,,team PDF 16 Nov 2026 (pdftotext),30344,1.0,yes
+R04005,U2,39,library,,team PDF 16 Nov 2026 (pdftotext),29491,1.0,yes
+R05434,U2,40,library,,team PDF 16 Nov 2026 (pdftotext),88762,1.0,yes
+R05566,U2,41,library,,team PDF 16 Nov 2026 (pdftotext),60680,1.0,yes
+R04381,U2,42,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9152839/fullTextXML,ok,86063,1.00,yes
+R03163,U2,43,semanticscholar,https://iopscience.iop.org/article/10.1088/1742-6596/1952/2/022041/pdf,ok,15931,1.00,yes
+R04730,U2,44,library,,team PDF 16 Nov 2026 (pdftotext),16642,1.0,yes
+R07062,U2,45,library,,team PDF 16 Nov 2026 (pdftotext),71367,1.0,yes
+R02988,U2,46,library,,team PDF 16 Nov 2026 (pdftotext),27636,1.0,yes
+R05157,U2,47,semanticscholar,https://ejurnal.seminar-id.com/index.php/josyc/article/download/2146/1293,ok,20309,1.00,yes
+R06980,U2,48,library,,team PDF 16 Nov 2026 (pdftotext),41224,1.0,yes
+R06579,U2,49,library,,team PDF 16 Nov 2026 (pdftotext),32553,1.0,yes
+R03578,U2,50,arxiv,https://arxiv.org/pdf/2111.12776,ok,11945,1.00,yes
+R08517,U3,1,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R15855,U3,2,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R09006,U3,3,library,,team PDF 16 Nov 2026 (pdftotext),110439,1.0,yes
+R20299,U3,4,openalex,https://www.researchsquare.com/article/rs-10789631/latest.pdf,ok,28150,1.00,yes
+R15036,U3,5,openalex,https://ejurnal.seminar-id.com/index.php/jussi/article/download/8937/4295,ok,33216,1.00,yes
+R14882,U3,6,library,,team PDF 16 Nov 2026 (pdftotext),46088,1.0,yes
+R18088,U3,7,library,,team PDF 16 Nov 2026 (pdftotext),77462,1.0,yes
+R20309,U3,8,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13208881/fullTextXML,ok,44243,0.92,yes
+R19306,U3,9,library,,team PDF 16 Nov 2026 (pdftotext),57042,1.0,yes
+R13654,U3,10,library,,team PDF 16 Nov 2026 (pdftotext),37297,1.0,yes
+R09665,U3,11,library,,team PDF 16 Nov 2026 (pdftotext),27534,1.0,yes
+R09729,U3,12,,,openalex:403; library 16 Nov 2026: not retrieved,0,,no
+R10548,U3,13,library,,team PDF 16 Nov 2026 (pdftotext),48504,1.0,yes
+R10600,U3,14,openalex,https://www.researchsquare.com/article/rs-8199933/latest.pdf,ok,53356,1.00,yes
+R18816,U3,15,library,,team PDF 16 Nov 2026 (pdftotext),23321,1.0,yes
+R21127,U3,16,library,,team PDF 16 Nov 2026 (pdftotext),32600,1.0,yes
+R14731,U3,17,library,,team PDF 16 Nov 2026 (pdftotext),35959,1.0,yes
+R11193,U3,18,library,,team PDF 16 Nov 2026 (pdftotext),32542,1.0,yes
+R13197,U3,19,semanticscholar,https://www.jhsmr.org/index.php/jhsmr/article/download/1083/1210,ok,32482,1.00,yes
+R12857,U3,20,library,,team PDF 16 Nov 2026 (pdftotext),25105,1.0,yes
+R12886,U3,21,semanticscholar,https://bright-journal.org/Journal/index.php/JADS/article/download/637/382,ok,41020,1.00,yes
+R21056,U3,22,library,,team PDF 16 Nov 2026 (pdftotext),13604,1.0,yes
+R18807,U3,23,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R13388,U3,24,library,,team PDF 16 Nov 2026 (pdftotext),33426,1.0,yes
+R11291,U3,25,semanticscholar,https://publications.eai.eu/index.php/phat/article/download/11671/3886,ok,48735,1.00,yes
+R18227,U3,26,library,,team PDF 16 Nov 2026 (pdftotext),29942,1.0,yes
+R12074,U3,27,semanticscholar,https://doi.org/10.22214/ijraset.2025.71710,ok,30535,1.00,yes
+R21620,U3,28,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13319488/fullTextXML,ok,46416,1.00,yes
+R11123,U3,29,library,,team PDF 16 Nov 2026 (pdftotext),21648,1.0,yes
+R17735,U3,30,library,,team PDF 16 Nov 2026 (pdftotext),20814,1.0,yes
+R12745,U3,31,library,,team PDF 16 Nov 2026 (pdftotext),65136,1.0,yes
+R22074,U3,32,library,,team PDF 16 Nov 2026 (pdftotext),69109,1.0,yes
+R09949,U3,33,library,,team PDF 16 Nov 2026 (pdftotext),72577,1.0,yes
+R20963,U3,34,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R08675,U3,35,,,semanticscholar:not-pdf; library 16 Nov 2026: not retrieved,0,,no
+R21885,U3,36,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R09919,U3,37,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R10417,U3,38,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R10444,U3,39,library,,team PDF 16 Nov 2026 (pdftotext),25185,1.0,yes
+R15731,U3,40,library,,team PDF 16 Nov 2026 (pdftotext),44781,1.0,yes
+R13480,U3,41,semanticscholar,https://journal.undiknas.ac.id/index.php/tiers/article/download/7143/1946,ok,48128,1.00,yes
+R14986,U3,42,library,,team PDF 16 Nov 2026 (pdftotext),24926,1.0,yes
+R15526,U3,43,library,,team PDF 16 Nov 2026 (pdftotext),25400,1.0,yes
+R11520,U3,44,library,,team PDF 16 Nov 2026 (pdftotext),41012,1.0,yes
+R08273,U3,45,semanticscholar,https://doi.org/10.5120/ijca2024924140,ok,14786,1.00,yes
+R20791,U3,46,semanticscholar,https://doi.org/10.17148/ijarcce.2026.155214,ok,24165,1.00,yes
+R18213,U3,47,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R16979,U3,48,,,semanticscholar:406; library 16 Nov 2026: not retrieved,0,,no
+R13484,U3,49,library,,team PDF 16 Nov 2026 (pdftotext),35092,1.0,yes
+R15046,U3,50,europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12021605/fullTextXML,ok,30366,1.00,yes
+R01361,U1,12,library,,team PDF 16 Nov 2026 (pdftotext),22307,1.0,yes
+R00777,U1,9,library,,team PDF 16 Nov 2026 (pdftotext),24383,1.0,yes
+R00717,U1,19,library,,team PDF 16 Nov 2026 (pdftotext),17886,1.0,yes
+R00454,U1,22,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R01133,U1,45,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R06457,U2,28,,,no open route; library 16 Nov 2026: not retrieved,0,,no
+R08089,U3,51,library,,team PDF 16 Nov 2026 (pdftotext),63910,1.0,yes

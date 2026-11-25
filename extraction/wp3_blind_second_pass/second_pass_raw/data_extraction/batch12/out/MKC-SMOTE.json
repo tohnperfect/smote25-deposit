@@ -1,0 +1,21 @@
+{
+ "data_key": "MKC-SMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI"
+ ],
+ "crit": "'21 multi-class imbalanced datasets from the UCI repository' for a method tailored to multi-class imbalance; 'The selected dataset is real and diverse'; 'The collection contains datasets with varying levels of imbalance, with IRoverall ranging from 1.65 to 391.52 and the IR values ranging from 1.89 to 87.47.'",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "method-target"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "mean-size or IR threshold",
+ "modified_data_released": "n.a.",
+ "notes": "Tables 1, 3, 4 are images (pdf p.5-7); values read from the PDF. No preprocessing of the UCI data is described, so origin coded Natural only; however several Table 1 entries look like reduced or regrouped versions of the UCI sets (e.g. Connect-4 N 6756 with 3 classes, Letter Recognition 10 classes/10723, Chess (King-Rook vs. King) 8 classes/2376, Abalone 13 classes/3966, Covertype 5781, Avila 11 classes) without any explanation - adjudicator may want to check. Internal inconsistencies in Table 1: Cardiotocography distribution 1655/295/176 sums to 2126 vs N 1728; Wine Quality-White distribution sums to 4898 vs N 4895; Bar Crawl distribution not in descending order (1212/1277). IR defined as largest/smallest class (p.196933) and also per class IRi = Nmax/Ni (p.196931-2). Minority rule: IRi > 1.45 threshold taken from [34]. No dataset or code link given."
+}

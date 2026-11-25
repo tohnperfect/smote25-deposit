@@ -1,0 +1,14 @@
+batch 100: 200 of 200 records done; include 28, unsure 20, exclude 152
+no records remain
+
+Records to look at first:
+- Low confidence: R09361, R11535 (no abstract, titles could go either way); R08567 (defect prediction, clustering-based oversampling not described); R19466 (adaptive oversampling intensity; record language is tr but title and abstract are English).
+- Codebook does not settle whether choosing the oversampling amount or ratio counts as "changing how SMOTE is applied": R21422 and R19466 (both unsure).
+- Unclear whether the method synthesizes examples or only reuses existing ones: R00120, R09005, R05348 (unsure). R00876 was excluded as E-NOGEN (stratified over-sampling bagging appears to resample existing instances), medium confidence.
+- Generative oversamplers where it is unclear whether the generator is new: R02952, R10299, R13971, R17977 (unsure). Generative includes at medium confidence: R05517, R16114, R14521.
+- Existing components combined (clarification 3): R06061, R04658, R08969 (unsure). R00520 was included as I1-hybrid because the abstract describes a new rule for how much to generate.
+- I2 not stated in the abstract: R22056, R17576, R00674 (evaluation only announced).
+- Scope or document type: R05531 (SMOTE used for fault localization, a ranking task rather than classification); R04848 (book chapter; MSMOTE may be an existing variant).
+- Other medium-confidence includes: R03606 (generator not named), R19376 (FSDR-SMOTE in a domain paper), R01086 (thin abstract), R05879 (the SMOTE variant is a secondary contribution).
+- No-abstract records excluded on the title alone (medium confidence): R06279, R07180, R20287, R02312.
+- Language metadata conflicts: R00846 was excluded as E-LANG (field says en, abstract is Korean). R16894 and R17303 were kept as E1 (Indonesian titles, field says en).

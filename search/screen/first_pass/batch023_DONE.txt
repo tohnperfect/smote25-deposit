@@ -1,0 +1,10 @@
+batch 023: 200 of 200 records done; include 19, unsure 20, exclude 161
+no records remain
+
+Look at first:
+- Low confidence: R16781 (unsure; "conditional upgraded SMOTE" in a meme-embedding space), R19333 (unsure; rotation-transformed image SMOTE in an osteoporosis model), R07460 (unsure; "D-H-SMOTE Tree"), R01614 (exclude E1; LSH-SMOTE used as preprocessing in a GWO-BRNN framework, may be the authors' own variant).
+- Borderline includes: R18269 (SMOTE applied in a contrastive IndoBERT latent space, presented as the contribution; could be read as E1), R09430 (space partitioning + SMOTE + bagging), R02167 (existing ANS-SMOTE inside a recursive stream ensemble), R19583 (SVM-weights SMOTE "SVWS" inside an IDS framework), R04182 (probability-based multiclass oversampling; may be replication rather than synthesis).
+- Borderline excludes: R08821 (INNOS oversampler in transformer fault diagnosis, not presented as new), R00341 (oversampling + AdaBoost + GA reweighting), R02205 (SMOTE once before a DES pool), R02462 (EHSO: evolutionary undersampling + tuned random replication, deliberately no synthesis, E-NOGEN).
+- Codebook does not settle domain papers that apply an existing generative oversampler: I excluded as E1 those that "adopt/employ/utilize" CGAN, CopulaGAN, CTGAN or DCGAN (R06364, R06048, R12626, R11698) but marked R11083 (VAE oversampling named in the proposed framework and title) unsure; please check this line is drawn consistently.
+- E-LANG records that are otherwise in scope: R02805 (Korean abstract; GMM-based oversampler vs SMOTE/ADASYN; check whether the full text is English) and R00186 (Chinese; improved adaptive-neighbor SMOTE + NCL hybrid).
+- Unsure by clarification 3 (existing generator + cleaning/selection or existing parts combined and called new): R06809, R07754, R20024, R02519, R05778, R07085, R00745, R06952. I2 not stated: R21470 (Causal SMOTE), R04411 (CIGAN package). Other purpose: R17976 (diffusion augmentation for under-represented subpopulations). In-scope titles without abstract: R22253 (WG-SMOTE), R16440.

@@ -1,0 +1,13 @@
+batch 043: 200 of 200 records done; include 23, unsure 22, exclude 155
+no records remain
+
+Look at first:
+- Low-confidence unsure: R06847 (SMOTE-SVM + GWO, lung disease; is the resampling new?), R16375 (no abstract, crash severity), R01658 (CD2A drift method for imbalanced streams; imbalance handling not described), R10186 (node oversampling on forum graphs; new or existing?), R07854 (SMOTE + silhouette cleaning inside a 6G digital-twin paper), R06436 (oversampling algorithm for a CNN on Spark).
+- Clarification 2 (I2 not stated): R18688 Energy Landscape SMOTE, R20501 Meta-learned SMOTE, R18203 DTG-SMOTE. These are three 2026 Zenodo preprints with the same template and no reported experiments. All of them otherwise meet I1.
+- Tuning an existing generator (the codebook does not settle this; decide consistently): R01385 SMOTUNED was included (I1-other). R00802 (SMOTE parameters tuned by several optimisers, framed as a comparison) and R05044 OOG (Optuna-tuned GAN) are unsure.
+- Combinations of existing resamplers (clarification 3), all unsure: R11145 (blends GAN and B-SMOTE learners), R20368 (SMOTE then cWGAN), R08540 (IRC cascade), R08992 (SMOTE-ENN + Tomek). R21669 (label-propagation pseudo-positives before SMOTE-ENN, tested on KEEL) is the closest to an include.
+- Unclear whether the new samples are synthetic: R00497 (support-vector sampling, unsure), R05577 (ROBC, unsure), R03469 (affinity-propagation oversampling in an ensemble; included at medium confidence).
+- Built for another purpose (clarification 1): R13165 (GAN faces for few-shot recognition), R13287 (Gen-n-Val for long-tailed detection and segmentation).
+- R06667 has no abstract, but its title is clearly in scope (label revision for SMOTE samples in multi-label learning), so it is likely an include. R00206 was included but has no venue, so I3 needs checking.
+- Excluded, but they may matter elsewhere in the survey: R01535 (theoretical analysis of SMOTE) and R12015 (maths of SMOTE vs Borderline-SMOTE), both coded E-COMPARE; R20691 (NO-IGS) and R18823, oversamplers for imbalanced regression coded E2; R07509 (NNHOS), excluded for language only.
+- Theses fail I3, but the codebook has no E-code for that, so I coded them by content: R13895 (E1), R20491 (E-COMPARE).

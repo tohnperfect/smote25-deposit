@@ -1,0 +1,16 @@
+batch 04: 75 of 75 decided {'exclude': 59, 'include': 5, 'unsure': 11}; all decided
+
+Includes, read first:
+- 41397607 H-leakage, harm: CV on SMOTE-balanced data vs SMOTE within folds, AUC 0.884 vs 0.773, F1 0.804 vs 0.542; the within-fold estimate matches the held-out test set. Strongest record in the batch.
+- 40417510 H-fairness, no harm: MIMIC-CXR, oversampling vs baseline cut the racial false-negative-rate disparity by 74.7% with AUC unchanged.
+- 40203463 H-calibration, no harm: SMOTE did not significantly change the poor calibration of LR for rare outcomes (paediatric ED).
+- 40799932 H-fairness, no harm (medium): bagged LR-ENN + LR-bSMOTE ensemble had lower EOD by sex, race and ethnicity than "traditional models"; modality and ensembling are confounded with resampling.
+- 41316155 H-calibration, no harm (medium): original vs SMOTE vs cost-sensitive training with Brier scores; the result is stated only as "RF Brier score was more stable across the three setups".
+
+Unsure, most promising first: 41289577, 40339409, 40563047 (SMOTE vs no SMOTE is explicit and calibration curves are used, but no calibration contrast is reported); 40605837 (oversampling vs none, F1 gaps by race and sex given only as ranges); 41032562 (ROS/SMOTE/ADASYN and the original model on young-age recall, each compared only with the proposed method); 41335717 (resampling with and without CV, possibly a leakage contrast); 41205690 (SMOTE variants benchmarked on calibration loss next to unaugmented data). Low confidence: 41032359 and 40830811 (class weighting or cost-sensitive learning named next to SMOTE or oversampling, no comparison stated), 40865290 (vague fairness claim vs LR, bias defined between classes), 40789384 (oversampled XGBoost has sigmoid reliability plots; the comparator is the fixed PHI index).
+
+Not settled by the codebook:
+- A comparison with no resampling exists but calibration is reported only for the final model. I coded 41289577 and 40339409 U-abstract, but 41257641 (no balancing / under- / oversampling; calibration curve for the selected undersampled model) X-no-harm-measure. The literal wording of X-no-harm-measure ("no result on calibration") favours U-abstract for 41257641 too. The add tool only appends, so I left it as recorded; please recode it if you agree.
+- 41351059: fairness compared before vs after reweighing in a pipeline that uses SMOTE. Coded X-no-comparison on the reading that SMOTE stayed in both arms; if reweighing replaced SMOTE it would be an H-fairness include (harm).
+- Whether naming class weights or cost-sensitive learning next to SMOTE signals a comparison (41032359, 40830811; sent to unsure), and whether a fixed clinical index or human triage counts as "a model trained without resampling" (40789384 unsure; 41137082 excluded).
+- Leakage that is not resampling leakage (target leakage 41282217, recording-wise splits 40564788) was left out of harms. Records that apply SMOTE before the split without any comparison (41394364, 41309827, 40826071, 40154202) are X-no-comparison. 40185954 is a retracted paper, excluded on its content.

@@ -1,0 +1,13 @@
+batch 05: 75 of 75 decided {'exclude': 60, 'unsure': 8, 'include': 7}; all decided
+
+Read first (includes, confidence medium): 38848886 (random resampling vs plug-in correction; the explicit calibration contrast is naive vs corrected, the no-resampling arm comes from the conclusion that resampling does not improve AUC); 39495385 (H-fairness, finding no harm: stratified oversampling of unnamed type reduced racial disparate impact); 36050710 (H-calibration, finding no harm: SMOTE-Tomek data better calibrated than "other methods").
+Other includes (high): 35686364 and 37266187 (H-calibration, harm), 38800697 and 38773233 (H-leakage, harm).
+Unsure, for full text: 38966539, 38499940, 37918787 and 34863282 have an explicit no-resampling arm plus a calibration measure, but the abstract gives no calibration contrast. 39623372 (LR-SM) and 34149290 (SME-XGBoost) only hint at non-resampled models. In 36088813 calibration (ECE, Brier) is compared only between two resampling variants. 34299986 confounds SVMSMOTE with isotonic recalibration and does not name the comparator.
+
+Cases the codebook does not settle:
+- Two calibration measures disagree in 37266187: the Brier score fell but calibration was distorted. I coded harm, following the authors' conclusion; mixed is also defensible.
+- 38773233 has a before-vs-after comparison with a Brier-score bias. I coded H-leakage with harms calibration;leakage, because such a comparison qualifies for leakage only.
+- Where several exclusion codes hold, I used the first in codebook order. So the reviews without resampling (35546034, 34025952) are X-not-resampling, not X-not-study.
+- 39830177 and 39275371 are X-no-harm-measure with comparison no resampling. Their abstracts imply a baseline ("improvement", "more balanced") but do not name it.
+- 37258333 and 35155214 compare SMOTE with no SMOTE on AUC only and report calibration for the final nomogram only. I excluded them (X-no-harm-measure) rather than marking them unsure.
+- SMOTE before the split with no correct-resampling arm (39673018, 39285494, 38937153, 35173809) is coded X-no-comparison. Their reported estimates are probably leaky.

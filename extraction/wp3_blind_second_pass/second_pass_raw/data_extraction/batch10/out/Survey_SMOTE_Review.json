@@ -1,0 +1,14 @@
+{
+ "data_key": "Survey: SMOTE Review",
+ "evaluates_on_data": "no",
+ "sources": [],
+ "crit": "n.a.",
+ "crit_type": "n.a.",
+ "basis": [],
+ "benchmark_inherited_from": "n.a.",
+ "origin": [],
+ "binarised_by": "n.a.",
+ "minority_rule": "n.a.",
+ "modified_data_released": "n.a.",
+ "notes": "Narrative review (ICIC 2021, 7 pdf pages, no printed page numbers in the text layer). No experiment of its own: dataset mentions (UCI, KEEL, artificial data) and results describe cited studies; Table I (pdf p.6) summarises SMOTE extension categories. Fig. 1 is a conceptual 2-D illustration of data issues (overlapping class, noise, small disjunct) with no method run on it, so it was not counted as an evaluation on data."
+}

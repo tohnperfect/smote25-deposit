@@ -1,0 +1,9 @@
+{
+ "task": "planning-relax",
+ "source": "UCI++",
+ "n": 182,
+ "n_min": 52,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 12
+}

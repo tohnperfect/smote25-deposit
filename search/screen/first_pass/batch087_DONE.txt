@@ -1,0 +1,11 @@
+batch 087: 200 of 200 records done; include 20, unsure 18, exclude 162
+no records remain
+
+Look at first (no low-confidence rows; 29 medium):
+- Likely includes held back by the codebook rules: R00702 SMOTE-IPF (well-known SMOTE + IPF filter; clarification 3 sends it to unsure because the filter is an existing step, although I1 names "SMOTE with a new cleaning step"); R21023 (no abstract, title names a new adaptive neighbor oversampler); R21602 RVR-SMOTE (new variant, but the abstract names no evaluation, so clarification 2 applies).
+- Generator in a domain paper, new or just applied? Marked unsure: R21822 (self-attention GAN), R19470 (GAN, ECG emotion), R18712 (cGAN, IoT IDS), R22071 (LoRA diffusion; also a detection task). Included at medium: R02400 (DAITD GAN) and R18879 (Pulsar-WRecon WGAN-GP). Please check this line is drawn consistently.
+- Existing generator plus an existing step (clarification 3) or a vague change to generation: R00350, R02992, R02034 (multilabel), R00252 (multi-class), R18047 (graph SMOTE), R18948, R11037, R04529 (only keywords name the oversampler), R12677.
+- Purpose or task outside imbalanced classification (U-other): R06343 (GAN for scarce HAR data), R19302 (diffusion fine-tuning, judged on image fidelity only).
+- Medium-confidence includes: R22367 (graph oversampling module), R00905 (multi-kernel over-sampling), R02887 (graph-based RWO-Sampling), R04814 (oversampling in a deep embedding), R05210 (SASMOTE; it treats CSI localization as classification).
+- Other: R11625 and R09626 would meet I1-generative but are in Chinese (E-LANG). R06052 is an erratum tagged front-matter-in-scope; check that the original oversampling article (MTAP 2022, semiconductor lines) is in the corpus. R20808 and R21084 were excluded from their titles alone (no abstract).
+- Coding note: domain studies whose stated aim is to compare existing balancing methods are E-COMPARE (tagged comparison); those that only use a resampler as one step are E1.

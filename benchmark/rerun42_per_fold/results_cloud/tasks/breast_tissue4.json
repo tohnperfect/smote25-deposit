@@ -1,0 +1,9 @@
+{
+ "task": "breast_tissue4",
+ "source": "author-kmeans",
+ "n": 79,
+ "n_min": 9,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 9
+}

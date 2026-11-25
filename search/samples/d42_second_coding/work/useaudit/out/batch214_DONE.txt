@@ -1,0 +1,16 @@
+d42 useaudit batch 214: DONE (blind second coding, codebook v1.1)
+
+Counts
+n=8, fulltext=8, abstract=0, application=8 (no=0)
+inside_folds: stated=1 (R11520), before-split=5 (R09949, R07136, R02483, R07062, R06350), nr=2 (R03716, R02316)
+test_balanced: yes=5, no=1 (R11520), nr=2 (R03716, R02316)
+rule-D arithmetic used: R07136 (test n=1091 = 20% of 3x1818), R07062 (test sizes grow under SMOTE: CM1 69->128, KC1 420->615, JM1 1919->2974), R06350 (Table 2 whole-set counts; MCC .9506 at ACC .98 impossible at natural 8.9% prevalence)
+
+Least sure
+- R02483 before-split / test_balanced=yes: rests on "removes the imbalance of all data" (balancing as whole-data preprocessing) and the split described later; no explicit order statement, no usable arithmetic. Could be nr.
+- R03716 inside_folds=nr: "In SMOTE, the entire dataset is used as the input" may be read as before-split; I read it as a generic algorithm description since Sec V lists the 60/20/20 partition first.
+- R11520 stated / test_balanced=no: explicit "applied to the training data after splitting", but an earlier sentence lists SMOTE before the partition and Table 1 metrics are internally inconsistent (implied test prevalence ~22%), so no rule-D basis either way. Stakes=other (transaction-level fraud flag).
+- R09949 domain=security (vs software: Solidity code vulnerability detection); vs_none=yes rests on training accuracy/loss curves on imbalanced data only.
+- R07062 and R02316 vs_none=yes: the no-resampling rows also lack feature selection (confounded).
+- R06350 stakes=individual (consumers flagged as thieves); learner=forest only (benchmarks SVM, LR, AdaBoost, DT, KNN, GB not listed).
+- R02483 resampler=random-oversampling;undersampling (oversampled copies are flipped/relit, not coded as other); measures include other (processing time), as for R11520 (latency).

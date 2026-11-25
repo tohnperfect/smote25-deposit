@@ -1,0 +1,13 @@
+batch 007: 200 of 200 records done; include 33, unsure 61, exclude 106
+no records remain
+
+Look at first:
+- Low-confidence excludes: R02132 (WGAN-based minority oversampling for lung CT, coded E1), R06770 (stratified k-means sampling, E-NOGEN).
+- Low-confidence includes: R16443 (EVOS, generator only vaguely described), R00136 (statistically directed oversampling), R22069 (Jacobian data augmentation replacing SMOTE in fraud, partly adversarial purpose).
+- Likely includes held as unsure only by the rules: R06130 DeepSMOTE (abstract names no evaluation, clarification 2) and R00702 SMOTE-IPF (existing IPF filter after SMOTE, clarification 3). R00344 SMOTE-RSB* was included on the assumption that its rough-set editing is new; under a strict reading of clarification 3 it would be unsure.
+- Theory-only Zenodo preprints with new SMOTE variants, unsure per clarification 2: R21005, R19293, R20597, R21516, R15955, R18484, R21519, R18537.
+- Domain frameworks naming an undescribed SMOTE variant were sent to unsure (low): R17120, R16781, R19670, R17213, R16248, R17193. R13815 (energy forecasting with a "modified SMOTE") was coded E1 medium before this pattern was settled; please recheck it for consistency.
+- GAN papers built for one domain (codebook does not settle): include when a new generator design is described (R02399, R06821, R10912, R18864, R01824); unsure when a named GAN framework claims unspecified improvements (R05652, R18879, R08682, R11000); E1 when an existing GAN is applied (R02132, R16664 and others).
+- Replication-only oversampling coded E-NOGEN because no synthetic examples are made (codebook silent on ROS-type methods): R03406, R10031, R05355, R03600, R04820. R06588 (US-PONR, included) may also be replication-based.
+- Metadata says English but the venue usually publishes in Chinese or Korean (E-LANG risk at full text): R00294, R00270, R10048 (included), R00483, R00032 (unsure).
+- Other: R18367 is a book chapter (I3 doubtful); R01352 (R package of oversamplers) coded E-REVIEW but may matter for a software discussion; R04326 (zero-shot feature generator) and R17457 (pseudo-normal generator) unsure per clarification 1; R02386 (conformational oversampling, include) and R00733 (SDSA sample selection, exclude) are borderline.

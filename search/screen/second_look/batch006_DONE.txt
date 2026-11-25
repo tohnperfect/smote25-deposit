@@ -1,0 +1,11 @@
+batch 006: 200 of 200 records done; include 46, unsure 62, exclude 92
+no records remain
+
+Look at these first:
+- Cases the codebook does not settle (all marked unsure, U-other). Retracted papers that propose an oversampler: R09920, R05190. Book chapters with an in-scope SMOTE variant: R00351, R01895. A Turkish title with "en" metadata: R05311. Related: R01957 is excluded as E-LANG (metadata says Turkish), but its content (SMOTE plus boosting for noise) is in scope. R18048 has "English" metadata but comes from a Chinese journal.
+- Six similar 2026 Zenodo preprints proposing SMOTE variants with no evaluation in the abstract (unsure, "I2 not stated", clarification 2): R21520, R17241, R21497, R21522, R17111, R21638. They may share one source. The same rule was applied to R09418, R16549 and R10198.
+- Generators built for another purpose (clarification 1, unsure). Fairness: R03488 (FAWOS), R10198 (FOS), R15697 (FedIDA). Privacy: R09835. Generation quality only: R19302, R14037.
+- Probable duplicate pair, both included: R20197 (repository copy) and R19226 (journal version) of the same LLM text-augmentation paper.
+- Low-confidence includes: R19845, R01951, R08329, R13558, R06672.
+- Borderline excludes. Existing generator applied as an oversampler (E1): R18048 (DDPM), R04495 (CTTGAN). The previously proposed NCLWO applied to software defect data: R14420. The authors' earlier SSOMaj-SMOTE-SSOMin reused with a new transform: R01907. Grid-search-tuned SMOTE: R20177 (compare R15478, which is unsure). Generative-oversampler benchmark that mentions "our own" models: R02633. Batista et al. study of SMOTE+Tomek and SMOTE+ENN: R00010. SMOTE extended to regression (E2): R01064.
+- Unsure records that may be includes under the I1 example "SMOTE with a new cleaning step": R05564 (improved SCUT, multiclass), R07085 (LOF with Borderline-SMOTE), R15465 (SMOTE-PCADBSCAN).

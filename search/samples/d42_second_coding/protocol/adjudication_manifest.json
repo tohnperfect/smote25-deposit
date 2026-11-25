@@ -1,0 +1,72 @@
+{
+ "301": {
+  "group": "abstract",
+  "records": 40,
+  "items": 56
+ },
+ "302": {
+  "group": "abstract",
+  "records": 40,
+  "items": 54
+ },
+ "303": {
+  "group": "abstract",
+  "records": 40,
+  "items": 68
+ },
+ "304": {
+  "group": "abstract",
+  "records": 26,
+  "items": 28
+ },
+ "305": {
+  "group": "fulltext",
+  "records": 8,
+  "items": 10
+ },
+ "306": {
+  "group": "fulltext",
+  "records": 5,
+  "items": 6
+ },
+ "311": {
+  "group": "fulltext",
+  "records": 8,
+  "items": 12
+ },
+ "312": {
+  "group": "fulltext",
+  "records": 8,
+  "items": 27
+ },
+ "313": {
+  "group": "fulltext",
+  "records": 8,
+  "items": 46
+ },
+ "314": {
+  "group": "fulltext",
+  "records": 8,
+  "items": 22
+ },
+ "315": {
+  "group": "fulltext",
+  "records": 8,
+  "items": 12
+ },
+ "316": {
+  "group": "fulltext",
+  "records": 8,
+  "items": 11
+ },
+ "317": {
+  "group": "fulltext",
+  "records": 3,
+  "items": 3
+ },
+ "321": {
+  "group": "fulltext",
+  "records": 2,
+  "items": 9
+ }
+}

@@ -1,0 +1,16 @@
+batch 057: 200 of 200 records done; include 21, unsure 11, exclude 168
+no records remain
+
+Look at these first:
+- Low confidence: R00103 (VOTCL, unsure). It is an ensemble on subsets balanced by under- plus oversampling; the oversampler is not named, and the contribution may be only the threshold voting.
+- Unsure, no SMOTE change or synthetic generation stated: R01431 (OOLASVM, oversampling of support vectors, maybe by replication), R06133 (density clustering with random under/oversampling, multiclass), R01405 (MASI, says "moving" samples, unclear whether it generates any). The codebook does not say whether new methods built on random oversampling or on moving samples meet I1.
+- Unsure under clarification 3 or "novel framework": R05644 (TVAE+SMOTE+Boruta), R16978 (ENN-CTGAN), R16269 (SMOTE+CTGAN IDS), R04164 (Borderline-SMOTE+Tomek), R15894 (GAN oversampling, not named), R04108 (deep imbalance algorithm, unclear whether it generates). R19684 (ICUBO) has no abstract; its title names a new oversampler.
+- Includes at medium confidence:
+  - R06750 (MaMiPot): repositions samples, also run as a SMOTE preprocessor.
+  - R00196 and R06407: existing generator run within GMM or genetic k-means clusters. I counted the clustering as a change to the generation, because clarification 3 covers only cleaning and selection steps.
+  - R12409: sliding-window SMOTE inside a domain paper.
+  - R04055: 1D-DCGAN in CNN feature space.
+- Borderline excludes:
+  - R03471 (ESMOTE): new evolutionary SMOTE, but used for warfarin dose regression (E2).
+  - E1 at medium confidence: R21506 (clustering-based SMOTE "introduced"), R08277 ("Enhanced SMOTE", keyword SMOTE-ENC), R20022 (multimodal SMOTENC plus image augmentation), R16118 and R19867 (existing CTGAN or cGAN), R16729 (synthetic oversampling not specified), R00696 (MapReduce random oversampling).
+- New in-scope oversamplers excluded only under E-LANG (Chinese): R10331, R05575, R03721.

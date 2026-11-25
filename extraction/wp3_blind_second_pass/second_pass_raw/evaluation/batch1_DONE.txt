@@ -1,0 +1,22 @@
+Evaluation form, batch 1: done by the blind second coder (5 of 5 rows filled: E01, E04, E07, E10, E13).
+Output: eval/batch1_filled.csv (same columns and row order as batch1_to_fill.csv; every cell filled, each with a page or section location).
+Sources used: only /home/claude/work/blind2/papers/<safe>.txt and /home/claude/work/blind2/pdf/<safe>__*.pdf (INOS tables and the AMDO eq. 11 page were checked on the PDF).
+
+Adjudicator: please look at these first (least certain codes):
+
+1. E01 AMDO, "measure defined wrongly" = y. Eq. (11) calls Pi "precision", TPi/(TPi+FPi), but describes FPi as "the number of samples with incorrect predictions in the ith class", and Pavg is "also called the average accuracy". That reads as per-class recall under the name precision. The wording is ambiguous: if it means true precision, the code should be n.
+2. E01 AMDO, "plain SMOTE as baseline" = n. SMOTE appears only inside SSMOTE (Static-SMOTE) and OSMOTE (SMOTE after OVO decomposition). A coder who counts OSMOTE as SMOTE would code y.
+3. E04 DLexiBoost, "measure defined wrongly" = y. The supplement (p.3) defines AUC = (1+TPR-FPR)/2, from a single operating point. The main text (p.892) describes the ranking probability, and Avg-AUC is credited to Hand and Till but is built from crisp rates. Also, no validation protocol is stated anywhere, and the results are for "the best parameter settings" (coded as on evaluation data).
+4. E07 GMMSampling:
+   - "Resampling inside the training folds" = y. This rests on a general footnote ("in the correctly designed machine learning experiments, the whole GMMSampling will be executed only on the training set").
+   - "Code released" = y, but the paper only says the code was submitted to the develop branch of multi-imbalance.
+   - "Data modified" = y. This is based on the merged class labels shown in Table 1.
+   - GlobalCS is coded as a resampler, not cost-sensitive, because the paper calls it a classical oversampling procedure.
+5. E10 INOS:
+   - "Synthetic" = 1 counts only the 2-D set used for the visual comparison (no classifier). Use 0 if visual-only data are excluded.
+   - "Real" = 7 source UCR sets, which became 48 apportions.
+   - "Settings" = on evaluation data: r = 0.7 was picked from the Fig. 5 sweep, and Table 5 uses the "best empirical integration percentage".
+   - Outside the paper, and not used in coding: UCR "Two Patterns" (TwoPats) is generally a simulated data set. The paper presents it as benchmark data.
+6. E13 RACOG, "settings" = on evaluation data. Classifier tuning was done on the unsampled versions of the same data sets, and the wRACOG thresholds came from "an empirical study on the data sets described in this paper".
+
+Page convention: printed page numbers. AMDO uses the accepted-manuscript pagination (pp.1-14); the DLexiBoost supplement is pp.1-8.

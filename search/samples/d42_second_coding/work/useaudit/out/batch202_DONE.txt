@@ -1,0 +1,14 @@
+d42 useaudit batch 202: blind second coding done (codebook v1.1 with rulings B, B2, D)
+n=52, fulltext=0, abstract=52, application=47 (no=5), inside_folds stated=0, before-split=0, nr=0, na=52
+No record had a full text, so every FT field (inside_folds, vs_none, vs_weights, calibration, test_balanced, evidence) is na.
+confidence: high=20, medium=26, low=6
+
+Least sure:
+- R11369 (no): the abstract mentions class imbalance but no resampling; coded no because resampling is not shown. The full text may use it.
+- R12347 (yes): sliding-window oversampling of sleep stages, coded as standard augmentation under B2 although the paper presents it as its own framework.
+- R00861 (yes): SMOTE plus undersampling preprocessing module presented as the contribution. The per-step effects read as an ablation, not a comparison with other resampling (rule B).
+- R06207 (yes): no abstract, title only; "improved" qualifies the SVM, and the oversampler is unnamed.
+- R02762 / R01370 / R14882 / R09949 / R10444 / R02502 / R03716 / R06207: unnamed oversampling coded resampler=other; R02762's paraphrase generator coded deep-generative.
+- R00221, R00164, R00777, R00454 (no): no domain application (UCI benchmarks or general method papers).
+- Borderline domain/stakes: R00989 microarray diagnosis as medicine (not bio); R04703 "new dataset test case" coded external (simulated data); R02895 new-well test coded external; R01370 bankruptcy stakes=other; insurance-claim fraud R02432 stakes=individual vs card fraud stakes=other.
+- R01266: the abstract states that SMOTE was applied before the 70/30 split (balanced test), but inside_folds is na because there is no full text; recorded in the note.

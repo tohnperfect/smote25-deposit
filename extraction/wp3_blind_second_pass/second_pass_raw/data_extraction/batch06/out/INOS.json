@@ -1,0 +1,25 @@
+{
+ "data_key": "INOS",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCR",
+  "Synthetic"
+ ],
+ "crit": "'We have chosen these data sets since they contain large number of samples to facilitate the simulation of scenarios of large class imbalance.' Training positives kept no more than 50 'to simulate the scenario of rare positive instances'; the constructed data have far fewer positives than the time series length (high-dimensional sparsity, a key challenge the method targets). A 2D synthetic set is 'synthetically generated for illustration purpose' (visual comparison, Fig. 1/Fig. 4).",
+ "crit_type": "own reason",
+ "basis": [
+  "analytic",
+  "method-target"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Binarised",
+  "Induced profile",
+  "Class-resized",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "induced by authors",
+ "modified_data_released": "yes",
+ "notes": "Source data are described as 'balanced benchmark data sets' from UCR; imbalance is created by the authors by fixing the number of training positives (round numbers, at most 50) while the remaining positives go to the test set (nothing removed), hence Induced profile + Class-resized rather than Undersampled. Which class is the positive class in each apportion is not named (only that one class is selected vs the rest); coded 'induced by authors'. Wafer, Yoga and TwoPats original class counts are not given. Table 1 and Table 2 are not in the pdftotext layer; read from PDF pages 7 and 9 at 300 dpi. Table 1 gives Training #Pos/#Neg/IM-Ratio and Test #Pos/#Neg (ranges over apportions, e.g. 62~223) and Time series Length, no totals; for Yoga the test positives (1480~1720) outnumber the test negatives (730~870). Wafer cells use hyphens ('380-3000', '7.6-60') where others use '~'. Table 2 reports averages over apportions for five measures (F-Value, G-Mean, Precision, Recall, True Negative Rate); outcome rows filled with F-Value (first listed)."
+}

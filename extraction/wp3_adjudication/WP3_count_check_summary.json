@@ -1,0 +1,45 @@
+{
+ "page": "SMOTE25 WP3 Count Check",
+ "items": 16,
+ "groups": {
+  "reason": 9,
+  "binar": 7
+ },
+ "export": "smote25_wp3_count_check_2026-11-15.csv",
+ "reviewers": {
+  "an author": {
+   "reason": {
+    "agree": 9
+   },
+   "binar": {
+    "agree": 7
+   }
+  }
+ },
+ "undecided": {
+  "an author": []
+ },
+ "counts": {
+  "an author": {
+   "reason": {
+    "first_pass": 62,
+    "after_adjudication": 67,
+    "with_decisions": 67,
+    "changes_the_paper": false
+   },
+   "binar": {
+    "first_pass": 37,
+    "after_adjudication": 47,
+    "with_decisions": 47,
+    "changes_the_paper": false
+   }
+  }
+ },
+ "changes": [],
+ "requests": [],
+ "flagged_on_the_page": {
+  "cnt_reason_SMOTEBoost": "the AI's reason does not mention the sentence of p.117",
+  "cnt_reason_DGOT": "the AI's sentence comes from the ablation study, not the main experiment",
+  "cnt_binar_OREM-M": "the two entries the AI relies on have 5 and 4 classes"
+ }
+}

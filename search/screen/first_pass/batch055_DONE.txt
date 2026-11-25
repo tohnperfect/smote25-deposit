@@ -1,0 +1,9 @@
+batch 055: 200 of 200 records done; include 30, unsure 13, exclude 157
+no records remain
+
+Look at these first:
+- Low-confidence excludes with no abstract: R03893 (retracted DL intrusion detection paper), R15347 (diabetes deep ensemble). Only the titles were available; neither points to a new resampler.
+- Low-confidence unsure (domain papers with a vaguely new resampling step): R11150 (two-stage SMOTEENN then SMOTETomek), R17118 (oversampling inside per-attack binary models), R04844 ('novel' GAN/TVAE sample-size augmentation), R21454 (feature-level SMOTE plus focal loss), R19543 (GPT used as an oversampler for Arabic text), R15320 (named 'MOSD' oversampler).
+- I2 not stated (clarification 2): R21497 (Od-SMOTE, theory only), R09143 (SMOTE in a feature-selected subspace for text).
+- Borderline includes (medium): R15961 (DBO K-means constrained SMOTE in a lithology paper), R10737 (QENS noise injection on SMOTEENN), R00717 and R01187 (SMOTE with their own undersampling, counted as 'new cleaning step' hybrids), R03285 (contingency-based synthetic data for power systems; may be simulation, not an oversampler), R00144 (K* distance inside SMOTE plus a SMOTE/SMaRT combination; 2009, no venue), R13473 (existing Stable Diffusion plus feature-level SMOTE), R02355 (CWOS-Ord; ordinal classes treated as classification, not E2).
+- Not settled by the codebook: R07081 is excluded E-LANG (Chinese) but proposes safe-borderline-SMOTE and would otherwise qualify. R00987 is a book chapter (no document-type code), coded E-NOGEN. R18694's 'range-controlled' oversampler looks like the existing RCSMOTE, so it was coded E1. R03515's two-stage training changes where SMOTE is used but not how samples are made, so it was coded E1.

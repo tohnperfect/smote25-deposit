@@ -1,0 +1,26 @@
+{
+ "data_key": "HDE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL",
+  "LibSVM"
+ ],
+ "crit": "42 highly imbalanced binary datasets (IR from 9.08 to 970.6); 'we collected a set of datasets whose IRs are rarely seen in the related studies'; 28 from KEEL ('constantly used as benchmark datasets in this field'), but since the highest IR in KEEL is about 100, 'to evaluate the proposed HD-Ensemble for extreme case' 14 LibSVM datasets were made highly imbalanced (IR > 9, 4 with IR > 400) and checked in a pre-experiment for degraded per-class classification rates; the datasets 'exhibit a considerable variety' in samples, features and IR",
+ "crit_type": "own reason",
+ "basis": [
+  "method-target",
+  "threshold rule",
+  "difficulty",
+  "diversity",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Binarised",
+  "Undersampled"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "yes",
+ "notes": "Table 1 (p.166 = pdf p.10) gives #Ex, #Atts, #IR and Source only; no class count or minority count column (text says all 42 are binary). 28 KEEL + 14 LibSVM. KEEL sets are ready-made two-class files (names like yeast1289vs7, glass016vs2), no binarisation rule added by authors. The 14 LibSVM sets were undersampled (minority instances randomly removed) by the authors; the paper does not name the minority class per dataset, so minority_rule could alternatively be 'induced by authors' for that part. Odd: madelon is listed with Source KEEL (IR 16.67, 1378 instances); vowel0 is listed with Source Libsvm. threshold rule = the paper's definition of 'highly imbalanced' (majority at least 9 times the minority) used to label the 42 sets. Experiment 2 drops cod, gisette and skinnonskin for computational reasons. 'Natural' not coded: the KEEL sets are used as distributed but are repository two-class versions, and every LibSVM set was undersampled; if madelon (KEEL, no 'vs' in name) is natively two-class, 'Natural' could be added."
+}

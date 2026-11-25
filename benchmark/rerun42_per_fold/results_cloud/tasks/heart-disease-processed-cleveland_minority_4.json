@@ -1,0 +1,9 @@
+{
+ "task": "heart-disease-processed-cleveland [minority: 4]",
+ "source": "UCI++",
+ "n": 303,
+ "n_min": 35,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 13
+}

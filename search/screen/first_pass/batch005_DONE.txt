@@ -1,0 +1,11 @@
+batch 005: 200 of 200 records done; include 24, unsure 16, exclude 160
+
+Look at first:
+- Low confidence: R13753 (unsure; book chapter, cDCGAN for kidney images), R05912 (unsure; garbled abstract, "text-based sampling" for sentiment).
+- Not settled by the codebook, book chapters: R00351 (SMOTE guided by reliability estimates, IGI compilation volume, likely a reprint) and R13753. Both are unsure because no exclude code exists for failing I3 on document type.
+- Not settled, existing GAN/diffusion generators applied as the oversampler in a domain paper: R13211, R07218, R02415, R13753 are unsure. R03320 (cGAN as one pipeline step) is E1 at medium confidence. One rule would make these consistent.
+- Clarification 3 borderline: R02225 (methods paper integrating SMOTE-ENN and SMOTE-Tomek using noise and overlap measures; may count as a "new cleaning step", I1-hybrid). R13496 (food-safety LOF-KNN-CSENN).
+- Classification or regression: R16490 (spatiotemporal Bayesian oversampler for traffic prediction, unsure). R20486 (load forecasting with an "improved K-means-SMOTE", E2 at medium; if the improvement is the authors' own, clarification 1 makes it unsure).
+- Medium-confidence includes: R03055 and R16555 (intrusion detection framed as anomaly detection or one-class, so E2 is possible), R00691 (BAOUS, evaluation only loosely stated), R00722 (sparse abstract), R01292 (D-Self-SMOTE), R02737 (kernel SMOTE hybrid), R08801 (MCMC-guided GAN).
+- Medium-confidence excludes worth a glance: R01376 (ImWeights, example weighting, keyword "over-sampling"), R11136 (claims to optimize how SMOTE is applied), R17668 ("controlled SMOTE-based oversampling"), R18123.
+- Coding convention: non-English records with an English abstract are coded by content (E1: R14282, R09831, R03886) with the language named in the reason. R06896 (abstract only in Indonesian) is E-LANG. R07576 is typed "Review" but is a computational comparison, coded E-COMPARE.

@@ -1,0 +1,86 @@
+{
+ "reviews": 5,
+ "references_listed": 695,
+ "by_review": {
+  "Udu et al. (2025)": {
+   "listed": 128,
+   "identified": 128,
+   "in_records": 54,
+   "pass_screen": 28,
+   "in_corpus": 7
+  },
+  "Idwan et al. (2025)": {
+   "listed": 46,
+   "identified": 46,
+   "in_records": 41,
+   "pass_screen": 34,
+   "in_corpus": 8
+  },
+  "Hayaeian Shirvan et al. (2025)": {
+   "listed": 100,
+   "identified": 98,
+   "in_records": 57,
+   "pass_screen": 33,
+   "in_corpus": 8
+  },
+  "Gao et al. (2026)": {
+   "listed": 285,
+   "identified": 285,
+   "in_records": 44,
+   "pass_screen": 24,
+   "in_corpus": 13
+  },
+  "Yousefimehr et al. (2026)": {
+   "listed": 136,
+   "identified": 136,
+   "in_records": 64,
+   "pass_screen": 47,
+   "in_corpus": 21
+  }
+ },
+ "references_identified": 693,
+ "references_volume_only": 2,
+ "references_distinct": 636,
+ "distinct_2002_on": 604,
+ "distinct_before_2002_or_undated": 32,
+ "in_records": 220,
+ "in_records_include": 136,
+ "in_records_exclude": 84,
+ "in_records_exclude_by_code": {
+  "E1": 32,
+  "E-COMPARE": 21,
+  "E-NOGEN": 13,
+  "E-UNSURE": 8,
+  "E-REVIEW": 7,
+  "E-LANG": 2,
+  "E2": 1
+ },
+ "not_in_records": 384,
+ "corpus_papers_cited": 34,
+ "include_also_in_corpus": 18,
+ "unmatched_duplicates": 10,
+ "not_in_records_distinct": 374,
+ "unmatched_generator": 45,
+ "unmatched_unclear": 16,
+ "unmatched_other": 313,
+ "unmatched_generator_string_absent": 45,
+ "distinct_2002_on_after_duplicates": 594,
+ "method_papers_total": 181,
+ "method_papers_found_share_pct": 75.1,
+ "author_checked": 61,
+ "author_generator": 40,
+ "author_not_a_generator": 2,
+ "author_cannot_tell": 19,
+ "ai_generator_author_generator": 36,
+ "ai_generator_author_not_a_generator": 1,
+ "ai_generator_author_cannot_tell": 8,
+ "ai_unclear_author_generator": 4,
+ "ai_unclear_author_not_a_generator": 1,
+ "ai_unclear_author_cannot_tell": 11,
+ "author_generator_string_in_title": 0,
+ "author_generator_string_keys": [],
+ "method_papers_total_author": 176,
+ "method_papers_found_share_author_pct": 77.3,
+ "method_papers_total_author_with_cannot_tell": 195,
+ "method_papers_found_share_author_with_cannot_tell_pct": 69.7
+}

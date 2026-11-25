@@ -1,0 +1,368 @@
+{
+ "method": "pdftotext of every PDF (main + supplement); evidence quotes asserted; Part B from build/synthetic_scan.py",
+ "corpus": {
+  "papers_total": 76,
+  "papers_with_data": 73,
+  "pdfs_scanned": 72,
+  "not_in_pdf_map": "Tomek Links (synthetic example read from Fig. 6 caption, 18 Oct)",
+  "papers_with_synthetic_entries": 29,
+  "synthetic_entries": 213,
+  "synthetic_names": 196
+ },
+ "part_A_by_group": {
+  "published": {
+   "papers": 7,
+   "entries": 63,
+   "names": 63
+  },
+  "cited source": {
+   "papers": 3,
+   "entries": 13,
+   "names": 12
+  },
+  "on request": {
+   "papers": 1,
+   "entries": 60,
+   "names": 60
+  },
+  "code link only": {
+   "papers": 5,
+   "entries": 10,
+   "names": 10
+  },
+  "generator named": {
+   "papers": 1,
+   "entries": 3,
+   "names": 3
+  },
+  "not found": {
+   "papers": 13,
+   "entries": 64,
+   "names": 58
+  }
+ },
+ "part_A_published_vs_not": {
+  "published": {
+   "papers": 7,
+   "entries": 63
+  },
+  "not_published_by_authors": {
+   "papers": 23,
+   "entries": 150,
+   "of_which_cited_source_entries": 13
+  }
+ },
+ "part_B": {
+  "papers": 0,
+  "by_group": {
+   "published": 0,
+   "cited source": 0,
+   "on request": 0,
+   "code link only": 0,
+   "generator named": 0,
+   "not found": 0
+  }
+ },
+ "rows": [
+  {
+   "part": "A",
+   "paper": "G-SMOTE",
+   "group": "published",
+   "entries": 2,
+   "names": 2,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "GMMSampling",
+   "group": "published",
+   "entries": 4,
+   "names": 4,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "SVDD-WSMOTE",
+   "group": "published",
+   "entries": 4,
+   "names": 4,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "SMOTE-IPF",
+   "group": "published",
+   "entries": 30,
+   "names": 30,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "k-means SMOTE",
+   "group": "published",
+   "entries": 15,
+   "names": 15,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "corrected 8 Nov (was not found)"
+  },
+  {
+   "part": "A",
+   "paper": "CTGAN / TVAE",
+   "group": "published",
+   "entries": 7,
+   "names": 7,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "benchmark with 7 simulated datasets; corrected 8 Nov (was not found)"
+  },
+  {
+   "part": "A",
+   "paper": "SOUP",
+   "group": "cited source",
+   "entries": 4,
+   "names": 4,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "Tomek Links",
+   "group": "cited source",
+   "entries": 1,
+   "names": 0,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "NBU",
+   "group": "code link only",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "DLexiBoost",
+   "group": "code link only",
+   "entries": 2,
+   "names": 2,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "GOIO",
+   "group": "code link only",
+   "entries": 5,
+   "names": 5,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "SPE",
+   "group": "code link only",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "ADASYN",
+   "group": "not found",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "Borderline-SMOTE",
+   "group": "not found",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "ClusterCentroids",
+   "group": "not found",
+   "entries": 5,
+   "names": 5,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "Global-CS (AAAI)",
+   "group": "not found",
+   "entries": 6,
+   "names": 6,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "Global-CS (journal)",
+   "group": "not found",
+   "entries": 6,
+   "names": 6,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "MWMOTE",
+   "group": "not found",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "SPIDER2",
+   "group": "not found",
+   "entries": 24,
+   "names": 24,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "COG-OS",
+   "group": "not found",
+   "entries": 4,
+   "names": 4,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "illustration (Sec. 2.2, 3)"
+  },
+  {
+   "part": "A",
+   "paper": "LS",
+   "group": "not found",
+   "entries": 12,
+   "names": 12,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "side experiment on sampling levels"
+  },
+  {
+   "part": "A",
+   "paper": "MC-MBRC",
+   "group": "on request",
+   "entries": 60,
+   "names": 60,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "side experiment (Exp. 2); code and data certified by Code Ocean"
+  },
+  {
+   "part": "A",
+   "paper": "NROMM",
+   "group": "cited source",
+   "entries": 8,
+   "names": 8,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "sets A-D of SVDD-WSMOTE (ref. [7]), which publishes them"
+  },
+  {
+   "part": "A",
+   "paper": "RSMOTE",
+   "group": "generator named",
+   "entries": 3,
+   "names": 3,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "toy, moons, circles as in k-means SMOTE (ref. [10])"
+  },
+  {
+   "part": "A",
+   "paper": "MDO",
+   "group": "not found",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "illustration (Figs. 4-5)"
+  },
+  {
+   "part": "A",
+   "paper": "MLOS",
+   "group": "code link only",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "illustration (Fig. 5)"
+  },
+  {
+   "part": "A",
+   "paper": "RBBoost / Random Balance",
+   "group": "not found",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "illustration (diversity study)"
+  },
+  {
+   "part": "A",
+   "paper": "GDO",
+   "group": "not found",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "illustration (Fig. 4)"
+  },
+  {
+   "part": "A",
+   "paper": "OREM-M",
+   "group": "published",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": ""
+  },
+  {
+   "part": "A",
+   "paper": "OREM-M",
+   "group": "not found",
+   "entries": 1,
+   "names": 1,
+   "sets_stated": "",
+   "role": "dataset entries",
+   "note": "simulated set of supp. Fig. S2; Toy: see ENTRY_GROUP"
+  }
+ ]
+}

@@ -1,0 +1,107 @@
+{
+ "rule": "binary, >= 100 features, minority share <= 0.20, <= 20,000 rows, not already in the core tier; active OpenML version; one OVA target drawn at random (seed 20261111)",
+ "candidates": [
+  "hiva_agnostic",
+  "sylva_agnostic",
+  "scene",
+  "Speech",
+  "musk",
+  "Internet-Advertisements",
+  "OVA_Endometrium",
+  "OVA_Prostate",
+  "OVA_Omentum",
+  "OVA_Lung",
+  "OVA_Uterus",
+  "OVA_Ovary",
+  "OVA_Colon",
+  "OVA_Kidney",
+  "OVA_Breast"
+ ],
+ "used": [
+  {
+   "name": "scene",
+   "rows": 2407,
+   "features": 294,
+   "minority": 431,
+   "minority_share": 0.1791,
+   "openml_id": 312,
+   "openml_version": 1,
+   "target": "Urban",
+   "dropped_columns": [
+    "Beach",
+    "Sunset",
+    "FallFoliage",
+    "Field",
+    "Mountain"
+   ]
+  },
+  {
+   "name": "Speech",
+   "rows": 3686,
+   "features": 400,
+   "minority": 61,
+   "minority_share": 0.0165,
+   "openml_id": 40910,
+   "openml_version": 1,
+   "target": "Target",
+   "dropped_columns": []
+  },
+  {
+   "name": "musk",
+   "rows": 6598,
+   "features": 166,
+   "minority": 1017,
+   "minority_share": 0.1541,
+   "openml_id": 1116,
+   "openml_version": 1,
+   "target": "class",
+   "dropped_columns": [
+    "molecule_name"
+   ]
+  },
+  {
+   "name": "Internet-Advertisements",
+   "rows": 3279,
+   "features": 1558,
+   "minority": 459,
+   "minority_share": 0.14,
+   "openml_id": 40978,
+   "openml_version": 2,
+   "target": "class",
+   "dropped_columns": []
+  },
+  {
+   "name": "OVA_Prostate",
+   "rows": 1545,
+   "features": 10935,
+   "minority": 69,
+   "minority_share": 0.0447,
+   "openml_id": 1146,
+   "openml_version": 1,
+   "target": "Tissue",
+   "dropped_columns": []
+  }
+ ],
+ "left_out": {
+  "hiva_agnostic": "same data as the core-tier set hiva",
+  "sylva_agnostic": "same data as the core-tier set sylva",
+  "OVA_Lung": "not loaded: IncompleteRead: IncompleteRead(52893 bytes read)",
+  "OVA_Uterus": "not loaded: IncompleteRead: IncompleteRead(50291 bytes read)",
+  "OVA_Ovary": "not loaded: IncompleteRead: IncompleteRead(56681 bytes read)",
+  "OVA_Colon": "not loaded: IncompleteRead: IncompleteRead(37376 bytes read)",
+  "OVA_Breast": "not loaded: IncompleteRead: IncompleteRead(11077 bytes read)",
+  "OVA_Endometrium": "OVA target passing the rule, not drawn (one OVA target is used; drawn: OVA_Prostate)",
+  "OVA_Omentum": "OVA target passing the rule, not drawn (one OVA target is used; drawn: OVA_Prostate)",
+  "OVA_Kidney": "OVA target passing the rule, not drawn (one OVA target is used; drawn: OVA_Prostate)"
+ },
+ "ova_group": {
+  "passed": [
+   "OVA_Endometrium",
+   "OVA_Kidney",
+   "OVA_Omentum",
+   "OVA_Prostate"
+  ],
+  "drawn": "OVA_Prostate",
+  "seed": 20261111
+ }
+}

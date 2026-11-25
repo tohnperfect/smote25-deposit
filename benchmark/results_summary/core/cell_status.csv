@@ -1,0 +1,21 @@
+method,status,cells
+A-SUWO,error,6
+A-SUWO,ok,16494
+ADASYN,error,1152
+ADASYN,ok,15348
+Borderline-SMOTE,error,660
+Borderline-SMOTE,ok,15840
+Cluster-SMOTE,ok,16500
+G-SMOTE,error,660
+G-SMOTE,ok,15840
+MWMOTE,ok,16500
+ROS,ok,16500
+SMOTE,error,660
+SMOTE,ok,15840
+SMOTE-IPF,ok,16500
+Safe-Level-SMOTE,ok,16500
+class_weight,not applicable,2750
+class_weight,ok,13750
+k-means SMOTE,ok,16500
+none,ok,16500
+threshold,ok,16500

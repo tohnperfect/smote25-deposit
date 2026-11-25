@@ -1,0 +1,19 @@
+{
+ "records_by_source": {
+  "scopus": 16414,
+  "openalex": 14445,
+  "arxiv": 693
+ },
+ "records_total": 31552,
+ "unique_after_dedup": 22426,
+ "duplicates_removed": 9126,
+ "unique_by_source_combination": {
+  "scopus+openalex": 8114,
+  "scopus+openalex+arxiv": 138,
+  "scopus": 7964,
+  "openalex": 5655,
+  "openalex+arxiv": 286,
+  "arxiv": 112,
+  "scopus+arxiv": 157
+ }
+}

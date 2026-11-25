@@ -1,0 +1,9 @@
+d42 useaudit batch 220 (blind second coding): done
+n=6, fulltext=6, abstract=0, application=4 (no=2: R00777, R00717, both own resampling chains under rule B)
+inside_folds: stated=1, before-split=3, nr=0; test_balanced: yes=3, no=1
+
+Least sure:
+- R02029 inside_folds=stated / test_balanced=no: p. 206 says SMOTE on training data only, but Sec. 2.1 says the 32 accidents were raised to 85,182 (the full non-accident count). Kept "stated" because ACC 99% with DR 43-48% is impossible on a balanced test (accident share must be under 2%). Modality tabular vs time-series also open (engineered loop-detector features). Confidence medium.
+- R06579 domain=environment (drinking water quality; could be read as public health/medicine); learner=knn for bagged k-NN. before-split rests on rule D arithmetic (test n=2834=20% of 2x7084).
+- R06106 measures=accuracy;ROC-AUC;other: Table 4 diagnostic metrics (Eq. 7-13) not legible in the text file, so sensitivity/specificity may be missing.
+- R02298 before-split / test_balanced=yes rest only on rule D arithmetic (SMOTE metrics fit 4030=2x2015 records); the text does not describe the order.

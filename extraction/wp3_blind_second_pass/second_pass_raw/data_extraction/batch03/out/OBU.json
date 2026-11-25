@@ -1,0 +1,23 @@
+{
+ "data_key": "OBU",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL"
+ ],
+ "crit": "'36 frequently used datasets in class-imbalance classification were selected', obtained from UCI and KEEL; they 'vary in terms of size (129 to 5472 instances), imbalance ratio (1.87 to 129.44), and number of features (3 to 19). These variations allowed the proposed technique to be tested for its robustness under different situations.'",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "n.a.",
+ "notes": "Author accepted manuscript (OpenAIR RGU cover page, then the Springer chapter; printed pages 1-8, pdf page = printed + 1). Table 1 (p.6) combines dataset characteristics (Instances, ImbRatio, Features, nMajLeft = majority instances left after OBU) with results; it has no minority-count or class-count column. Two-class KEEL split files (Glass016vs2, Ecoli0137vs26, Iris0, Yeast1458vs7 ...) are used as distributed; the paper describes no binarisation of its own and names no minority class, hence repository-defined and modified_data_released n.a. Natural: Haberman and Pima appear without a split suffix (native two-class status is not stated in the text). Inconsistencies: text says sizes '129 to 5472 instances' but the largest in Table 1 is Abalone19 (4174) and Page-blocks13vs2 has 472; text says IR from '1.87' but Glass1 is listed with 1.82. Typo 'Segmemt0'. Code link https://github.com/fonkafon/Overlap_based_Undersampling (p.5) is for code, not data."
+}

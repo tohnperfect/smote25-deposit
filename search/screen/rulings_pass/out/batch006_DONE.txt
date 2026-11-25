@@ -1,0 +1,19 @@
+batch 006: 196 of 196 records done; own 159, existing-parts 35, unclear 2
+no records remain
+
+Look at first (23 low-confidence rows; the scheme call decides inclusion in most):
+- Coded own, but could be a standard generator plus a filter or selection step, which B2 would exclude: R10435 (WGAN-VDE density refinement), R18761 (GANified-SMOTE, mechanism not described), R17237 (HMM generator that is close to plain per-class Gaussian sampling), R22086 (MeanFlow-IDS flow variant plus stabilisers), R07692 (vague adversarial-guided oversampling), R09554 (instance-based image generator plus boundary seed selection), R16727 (unchanged ARF generator plus its own DRF undersampling), R05208 (standard contextual augmentation plus non-random tweet selection).
+- Coded own as an undescribed variant or a new way of applying SMOTE, but could be existing parts with compared=no, which would exclude them: R10638 (Confidence SMOTE), R13151 (federated SMOTE synchronization), R21359 (RABot subgraph interpolation), R08928 (SMOTE on pseudo-labels with class-adaptive rates), R12428 (imDEF self-paced sampling ensembles).
+- Coded existing-parts (excluded), but could be own: R21003 (regime-aware GMM sampling with physics-constrained quality control: filter or constrained generation?), R14305 (MPDA), R22187 (CTGAN with relaxed feature bounds), R01292 (D-Self-SMOTE density filter), R01006 (SMOTE, thresholding and noise removal), R18622 (SMOTE/RUS to a random target size per ensemble member), R00854 (density penalties on synthetic samples in AdaBoost).
+- R04195 stays in only because I read "analyse the effectiveness of sampling techniques" as a comparison. The two unclear rows are R07224 (Synthetic-MixUp results report only ROS/SMOTE) and R00722 (no detail).
+
+Medium-confidence borderline calls:
+- Excluded as existing-parts: R17791 (CoCo-GAN; the "collaborative" training was not read as a change), R00695 (RBM treated like a B2 generator, though RBMs are not on the list), R01135 (Image SMOTE is Gaussian noise; task coded survival), R02412, R20631, R08534, R06455, R04024, R12141, R13749.
+- Kept as own: R04979 (OHIT shrinkage-covariance Gaussian sampling), R03889 (ARIMA as generator), R10842 (conditioned mixup), R17701 (class-constrained diffusion fine-tuning), R09430, R00088.
+
+Cases the codebook does not settle:
+- SMOTE followed by a cleaner the abstract calls new was coded own (R21804, R03636, R05989, R15462). A generic or standard-sounding filter was coded existing-parts. The codebook only rules on existing cleaners.
+- The generator kind for GA, RBF-potential, simulator, ARIMA, RL and SOM generators is a judgement call (classical or statistical). It does not affect own rows.
+- Ordinal classification and ordinal regression (R01623, R02355, R17237) were coded classification, not regression-as-classes.
+- compared was read strictly: unnamed SOTA, baselines and "ensemble methods" count as no. This decides R00821 and several other existing-parts classical rows.
+- R20197 and R19226 look like two versions of the same LLM fake-news augmentation study. Both are coded existing-parts, deep-generative.

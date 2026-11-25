@@ -1,0 +1,1986 @@
+[
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "4358",
+  "printed": "4,358",
+  "key": "second_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "81.9",
+  "printed": "81.9",
+  "key": "second_agreement_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "0.72",
+  "printed": "0.72",
+  "key": "second_kappa",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "2088",
+  "printed": "2,088",
+  "key": "decided_third",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "1222",
+  "printed": "1,222",
+  "key": "third_unsure",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "400",
+  "printed": "400",
+  "key": "pilot_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "95.8",
+  "printed": "95.8",
+  "key": "pilot_agreement_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "0.859",
+  "printed": "0.859",
+  "key": "pilot_kappa",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "17",
+  "printed": "17",
+  "key": "pilot_differences",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "35",
+  "printed": "35",
+  "key": "known_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "32",
+  "printed": "32",
+  "key": "known_include",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The records were screened on title ",
+  "value": "3",
+  "printed": "3",
+  "key": "known_unsure",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "300",
+  "printed": "300",
+  "key": "check_blind_inc_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "300",
+  "printed": "300",
+  "key": "check_blind_exc_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "596",
+  "printed": "596",
+  "key": "check_blind_decided",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "579",
+  "printed": "579",
+  "key": "check_blind_agree",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "97.1",
+  "printed": "97.1",
+  "key": "check_blind_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "0.94",
+  "printed": "0.94",
+  "key": "check_blind_kappa",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "1222",
+  "printed": "1,222",
+  "key": "check_unsure_all",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "609",
+  "printed": "609",
+  "key": "check_unsure_include_all",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "562",
+  "printed": "562",
+  "key": "check_unsure_exclude_all",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "51",
+  "printed": "51",
+  "key": "check_unsure_unsure_all",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "11",
+  "printed": "11",
+  "key": "check_sample_corrections",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "81",
+  "printed": "81",
+  "key": "check_codes_rows",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Another AI model (Claude Fable 5.2)",
+  "value": "6",
+  "printed": "6",
+  "key": "check_codes_corrected",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Some records were deposits that the",
+  "value": "367",
+  "printed": "367",
+  "key": "zenodo_checked",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Some records were deposits that the",
+  "value": "167",
+  "printed": "167",
+  "key": "excluded_withdrawn",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Some records were deposits that the",
+  "value": "167",
+  "printed": "167",
+  "key": "excluded_withdrawn",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The check also raised questions abo",
+  "value": "299",
+  "printed": "299",
+  "key": "ruleb_sample_includes_both",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The check also raised questions abo",
+  "value": "44",
+  "printed": "44",
+  "key": "ruleb_sample_pass_excluded",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The check also raised questions abo",
+  "value": "10",
+  "printed": "10",
+  "key": "ruleb_sample_check_excluded",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The check also raised questions abo",
+  "value": "2634",
+  "printed": "2,634",
+  "key": "ruleb_applied",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The check also raised questions abo",
+  "value": "440",
+  "printed": "440",
+  "key": "ruleb_failing_applied",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The check also raised questions abo",
+  "value": "108",
+  "printed": "108",
+  "key": "ruleb_excluded",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The check also raised questions abo",
+  "value": "332",
+  "printed": "332",
+  "key": "ruleb_unsure",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The check also raised questions abo",
+  "value": "51",
+  "printed": "51",
+  "key": "unsure_check",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "The screen was done in three looks ",
+  "value": "300",
+  "printed": "300",
+  "key": "check_blind_inc_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "The screen was done in three looks ",
+  "value": "300",
+  "printed": "300",
+  "key": "check_blind_exc_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "The screen was done in three looks ",
+  "value": "579",
+  "printed": "579",
+  "key": "check_blind_agree",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "The screen was done in three looks ",
+  "value": "596",
+  "printed": "596",
+  "key": "check_blind_decided",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "The screen was done in three looks ",
+  "value": "97.1",
+  "printed": "97.1",
+  "key": "check_blind_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "The screen was done in three looks ",
+  "value": "0.94",
+  "printed": "0.94",
+  "key": "check_blind_kappa",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "The screen was done in three looks ",
+  "value": "1222",
+  "printed": "1,222",
+  "key": "check_unsure_all",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Figure~\\ref{fig:prisma} shows the f",
+  "value": "22426",
+  "printed": "22,426",
+  "key": "screened",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Figure~\\ref{fig:prisma} shows the f",
+  "value": "3097",
+  "printed": "3,097",
+  "key": "passed",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Figure~\\ref{fig:prisma} shows the f",
+  "value": "19329",
+  "printed": "19,329",
+  "key": "excluded",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Figure~\\ref{fig:prisma} shows the f",
+  "value": "14738",
+  "printed": "14,738",
+  "key": "excluded_E1",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Figure~\\ref{fig:prisma} shows the f",
+  "value": "382",
+  "printed": "382",
+  "key": "excluded_unsure_final",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Figure~\\ref{fig:prisma} shows the f",
+  "value": "75",
+  "printed": "75",
+  "key": "excluded_other",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Coding thousands of papers in full ",
+  "value": "30",
+  "printed": "30",
+  "key": "cov_per_period",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Coding thousands of papers in full ",
+  "value": "120",
+  "printed": "120",
+  "key": "cov_drawn",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Coding thousands of papers in full ",
+  "value": "88",
+  "printed": "88",
+  "key": "cov_retrieved",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "03-method.tex",
+  "marker": "Coding thousands of papers in full ",
+  "value": "120",
+  "printed": "120",
+  "key": "cov_drawn",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Of the 120 papers drawn for the cov",
+  "value": "120",
+  "printed": "120",
+  "key": "cov_drawn",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Of the 120 papers drawn for the cov",
+  "value": "88",
+  "printed": "88",
+  "key": "cov_retrieved",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Of the 120 papers drawn for the cov",
+  "value": "10",
+  "printed": "10",
+  "key": "cov_rulings_rechecked",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Of the 120 papers drawn for the cov",
+  "value": "10",
+  "printed": "10",
+  "key": "cov_rulings_rechecked",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Of the 120 papers drawn for the cov",
+  "value": "88",
+  "printed": "88",
+  "key": "d42_cov_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Of the 120 papers drawn for the cov",
+  "value": "94.8",
+  "printed": "94.8",
+  "key": "d42_cov_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Of the 120 papers drawn for the cov",
+  "value": "101",
+  "printed": "101",
+  "key": "d42_cov_items",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Of the 120 papers drawn for the cov",
+  "value": "47",
+  "printed": "47",
+  "key": "d42_cov_corrected",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "Of the 120 papers drawn for the cov",
+  "value": "55",
+  "printed": "55",
+  "key": "d42_chk_cov_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "3097",
+  "printed": "3,097",
+  "key": "included",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "8",
+  "printed": "8",
+  "key": "corpus_P1",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "48",
+  "printed": "48",
+  "key": "inc_P1",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "7",
+  "printed": "7",
+  "key": "corpus_P2",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "204",
+  "printed": "204",
+  "key": "inc_P2",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "7",
+  "printed": "7",
+  "key": "corpus_P3",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "524",
+  "printed": "524",
+  "key": "inc_P3",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "15",
+  "printed": "15",
+  "key": "corpus_P4",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "2321",
+  "printed": "2,321",
+  "key": "inc_P4",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "28",
+  "printed": "28",
+  "key": "year2027",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "2027",
+  "printed": "2027",
+  "key": "year_future",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The systematic search (Section~\\ref",
+  "value": "155",
+  "printed": "155",
+  "key": "ratio_P4",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The codes of the screen, given from",
+  "value": "35",
+  "printed": "35",
+  "key": "newvar_P1_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The codes of the screen, given from",
+  "value": "42",
+  "printed": "42",
+  "key": "newvar_P4_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The codes of the screen, given from",
+  "value": "33",
+  "printed": "33",
+  "key": "hybrid_P1_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The codes of the screen, given from",
+  "value": "20",
+  "printed": "20",
+  "key": "hybrid_P4_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The codes of the screen, given from",
+  "value": "4",
+  "printed": "4",
+  "key": "gen_P1_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The codes of the screen, given from",
+  "value": "4",
+  "printed": "4",
+  "key": "gen_P2_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The codes of the screen, given from",
+  "value": "10",
+  "printed": "10",
+  "key": "gen_P3_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The codes of the screen, given from",
+  "value": "21",
+  "printed": "21",
+  "key": "gen_P4_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "The codes of the screen, given from",
+  "value": "496",
+  "printed": "496",
+  "key": "gen_P4",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "Whether the findings of Sections~\\r",
+  "value": "120",
+  "printed": "120",
+  "key": "cov_drawn",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "Whether the findings of Sections~\\r",
+  "value": "88",
+  "printed": "88",
+  "key": "cov_assessed",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "Whether the findings of Sections~\\r",
+  "value": "76",
+  "printed": "76",
+  "key": "cov_eligible",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "Whether the findings of Sections~\\r",
+  "value": "49",
+  "printed": "49",
+  "key": "cov_core",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "Whether the findings of Sections~\\r",
+  "value": "1",
+  "printed": "1",
+  "key": "cov_partial",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "Whether the findings of Sections~\\r",
+  "value": "26",
+  "printed": "26",
+  "key": "cov_notcounted",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "Whether the findings of Sections~\\r",
+  "value": "2.0",
+  "printed": "2.0",
+  "key": "cov_dec_mean",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "Whether the findings of Sections~\\r",
+  "value": "2.8",
+  "printed": "2.8",
+  "key": "corpus_dec_mean",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "Whether the findings of Sections~\\r",
+  "value": "34",
+  "printed": "34",
+  "key": "cov_notcounted_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "04-family.tex",
+  "marker": "Whether the findings of Sections~\\r",
+  "value": "21",
+  "printed": "21",
+  "key": "corpus_notcounted_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "The account starts from the screen ",
+  "value": "561",
+  "printed": "561",
+  "key": "generative_total",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "The account starts from the screen ",
+  "value": "13",
+  "printed": "13",
+  "key": "generative_2002_2017",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "The account starts from the screen ",
+  "value": "130",
+  "printed": "130",
+  "key": "generative_2018_2022",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "The account starts from the screen ",
+  "value": "418",
+  "printed": "418",
+  "key": "generative_2023_2026",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "14738",
+  "printed": "14,738",
+  "key": "excluded_E1",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "300",
+  "printed": "300",
+  "key": "use_drawn",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "1198",
+  "printed": "1,198",
+  "key": "use_U1_frame",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "2543",
+  "printed": "2,543",
+  "key": "use_U2_frame",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "10997",
+  "printed": "10,997",
+  "key": "use_U3_frame",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "116",
+  "printed": "116",
+  "key": "use_ft_obtained",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "5",
+  "printed": "5",
+  "key": "use_rulings_recoded",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "300",
+  "printed": "300",
+  "key": "use_drawn",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "289",
+  "printed": "289",
+  "key": "use_application",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "300",
+  "printed": "300",
+  "key": "d42_use_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "93.2",
+  "printed": "93.2",
+  "key": "d42_use_ab_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "0.54",
+  "printed": "0.54",
+  "key": "d42_use_ab_kappa_lo",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "0.97",
+  "printed": "0.97",
+  "key": "d42_use_ab_kappa_hi",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "96.4",
+  "printed": "96.4",
+  "key": "d42_use_ft_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "116",
+  "printed": "116",
+  "key": "d42_use_ft_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "185",
+  "printed": "185",
+  "key": "d42_use_items",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "67",
+  "printed": "67",
+  "key": "d42_use_corrected",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "To see how SMOTE is used outside th",
+  "value": "86",
+  "printed": "86",
+  "key": "d42_chk_use_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "106",
+  "printed": "106",
+  "key": "use_dom_medicine",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "289",
+  "printed": "289",
+  "key": "use_application",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "37",
+  "printed": "37",
+  "key": "use_dom_medicine_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "41.0",
+  "printed": "41.0",
+  "key": "use_med_w",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "33.5",
+  "printed": "33.5",
+  "key": "use_med_w_lo",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "48.5",
+  "printed": "48.5",
+  "key": "use_med_w_hi",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "27",
+  "printed": "27",
+  "key": "use_dom_finance",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "24",
+  "printed": "24",
+  "key": "use_dom_social",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "22",
+  "printed": "22",
+  "key": "use_dom_security",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "17",
+  "printed": "17",
+  "key": "use_dom_software",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "137",
+  "printed": "137",
+  "key": "use_ind",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "47",
+  "printed": "47",
+  "key": "use_ind_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "190",
+  "printed": "190",
+  "key": "use_smote",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "66",
+  "printed": "66",
+  "key": "use_smote_pct",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "188",
+  "printed": "188",
+  "key": "use_tab",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Medicine is the largest domain: 106",
+  "value": "76",
+  "printed": "76",
+  "key": "use_deep",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "116",
+  "printed": "116",
+  "key": "use_ft_obtained",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "110",
+  "printed": "110",
+  "key": "use_ft",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "110",
+  "printed": "110",
+  "key": "use_ft",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "41",
+  "printed": "41",
+  "key": "use_ft_stated",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "46",
+  "printed": "46",
+  "key": "use_ft_before_split",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "23",
+  "printed": "23",
+  "key": "use_ft_nr",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "37.0",
+  "printed": "37.0",
+  "key": "use_ft_before_w",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "25.6",
+  "printed": "25.6",
+  "key": "use_ft_before_w_lo",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "48.4",
+  "printed": "48.4",
+  "key": "use_ft_before_w_hi",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "11",
+  "printed": "11",
+  "key": "use_U1_before",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "29",
+  "printed": "29",
+  "key": "use_U1_ft",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "22",
+  "printed": "22",
+  "key": "use_U2_before",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "42",
+  "printed": "42",
+  "key": "use_U2_ft",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "13",
+  "printed": "13",
+  "key": "use_U3_before",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "39",
+  "printed": "39",
+  "key": "use_U3_ft",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "21",
+  "printed": "21",
+  "key": "use_U3_stated",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "39",
+  "printed": "39",
+  "key": "use_U3_ft",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "10",
+  "printed": "10",
+  "key": "use_U1_stated",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "29",
+  "printed": "29",
+  "key": "use_U1_ft",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "10",
+  "printed": "10",
+  "key": "use_U2_stated",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "42",
+  "printed": "42",
+  "key": "use_U2_ft",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "46",
+  "printed": "46",
+  "key": "use_ft_testbal",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "55",
+  "printed": "55",
+  "key": "use_ft_none",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "9",
+  "printed": "9",
+  "key": "use_ft_weights",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "2",
+  "printed": "2",
+  "key": "use_ft_calib",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "92",
+  "printed": "92",
+  "key": "use_ft_acc",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "48",
+  "printed": "48",
+  "key": "use_ft_roc",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "2",
+  "printed": "2",
+  "key": "use_ft_pr",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "6",
+  "printed": "6",
+  "key": "use_ft_external",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "The full texts show how the safegua",
+  "value": "34",
+  "printed": "34",
+  "key": "use_ft_missing",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "main.tex",
+  "marker": "\\textbf{Methods.} We audited a cura",
+  "value": "22426",
+  "printed": "22,426",
+  "key": "screened",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "main.tex",
+  "marker": "\\textbf{Methods.} We audited a cura",
+  "value": "300",
+  "printed": "300",
+  "key": "use_drawn",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "main.tex",
+  "marker": "The corpus holds 52 of the 3,097 re",
+  "value": "3097",
+  "printed": "3,097",
+  "key": "passed",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "main.tex",
+  "marker": "The corpus holds 52 of the 3,097 re",
+  "value": "37",
+  "printed": "37",
+  "key": "use_ft_before_w_r",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "429",
+  "printed": "429",
+  "key": "harm_records",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "27",
+  "printed": "27",
+  "key": "harm_include",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "49",
+  "printed": "49",
+  "key": "harm_unsure",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "14",
+  "printed": "14",
+  "key": "harm_calib",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "9",
+  "printed": "9",
+  "key": "harm_calib_harm",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "4",
+  "printed": "4",
+  "key": "harm_calib_noharm",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "1",
+  "printed": "1",
+  "key": "harm_calib_mixed",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "8",
+  "printed": "8",
+  "key": "harm_leak",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "5",
+  "printed": "5",
+  "key": "harm_fair",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "4",
+  "printed": "4",
+  "key": "harm_fair_noharm",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "1",
+  "printed": "1",
+  "key": "harm_fair_mixed",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "34",
+  "printed": "34",
+  "key": "harm_priv_records",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "08-society.tex",
+  "marker": "Four harms are documented. To find ",
+  "value": "176",
+  "printed": "176",
+  "key": "harm_calib_nocomp",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "The rerun on the reference collecti",
+  "value": "0.01",
+  "printed": "0.01",
+  "key": "rr_rope",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "The rerun on the reference collecti",
+  "value": "42",
+  "printed": "42",
+  "key": "rr_tasks",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "The rerun on the reference collecti",
+  "value": "31",
+  "printed": "31",
+  "key": "rr_families",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "30",
+  "printed": "30",
+  "key": "rr_test_families",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.002",
+  "printed": "0.002",
+  "key": "rr_var_maxabs",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "36",
+  "printed": "36",
+  "key": "rr_var_tests",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.017",
+  "printed": "0.017",
+  "key": "rr_range_rocauc_rf",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.01",
+  "printed": "0.01",
+  "key": "rr_rope",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "20",
+  "printed": "20",
+  "key": "rr_range_rocauc_rf_n01",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "30",
+  "printed": "30",
+  "key": "rr_test_families",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.01",
+  "printed": "0.01",
+  "key": "rr_rope",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "10",
+  "printed": "10",
+  "key": "rr_none_prauc_gb_nworse",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "30",
+  "printed": "30",
+  "key": "rr_test_families",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.01",
+  "printed": "0.01",
+  "key": "rr_rope",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "5",
+  "printed": "5",
+  "key": "rr_none_prauc_gb_nbetter",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.43",
+  "printed": "0.43",
+  "key": "rr_none_prauc_gb_psmote",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.01",
+  "printed": "0.01",
+  "key": "rr_rope",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.005",
+  "printed": "0.005",
+  "key": "rr_none_brier_rf_abs",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.003",
+  "printed": "0.003",
+  "key": "rr_none_brier_gb_abs",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.041",
+  "printed": "0.041",
+  "key": "rr_threshold_gmean_rf_abs",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "09-guidance.tex",
+  "marker": "No variant differs from SMOTE beyon",
+  "value": "0.024",
+  "printed": "0.024",
+  "key": "rr_threshold_gmean_gb_abs",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "42",
+  "printed": "42",
+  "key": "rr_tasks",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "31",
+  "printed": "31",
+  "key": "rr_families",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "38",
+  "printed": "38",
+  "key": "rr_tasks_cloud",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "54",
+  "printed": "54",
+  "key": "rr_xm_pct_mammography",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "35",
+  "printed": "35",
+  "key": "rr_xm_pct_ijcnn1",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "0.005",
+  "printed": "0.005",
+  "key": "rr_xm_mean_max",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "0.003",
+  "printed": "0.003",
+  "key": "rr_xm_vs_smote_max",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "88200",
+  "printed": "88,200",
+  "key": "rr_cells",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "86154",
+  "printed": "86,154",
+  "key": "rr_ok",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "996",
+  "printed": "996",
+  "key": "rr_error",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "1050",
+  "printed": "1,050",
+  "key": "rr_na",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "30",
+  "printed": "30",
+  "key": "rr_test_families",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "In the reference-collection tier, t",
+  "value": "0.002",
+  "printed": "0.002",
+  "key": "rr_var_maxabs",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "42",
+  "printed": "42",
+  "key": "rr_tasks",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "3.5",
+  "printed": "3.5",
+  "key": "tp_model",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "10.0.0",
+  "printed": "10.0.0",
+  "key": "tp_package",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "38",
+  "printed": "38",
+  "key": "tp_tasks",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "42",
+  "printed": "42",
+  "key": "rr_tasks",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "28",
+  "printed": "28",
+  "key": "tp_families",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "38",
+  "printed": "38",
+  "key": "tp_tasks",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.017",
+  "printed": "0.017",
+  "key": "tp_sm_roc",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.032",
+  "printed": "0.032",
+  "key": "tp_sm_pr",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.012",
+  "printed": "0.012",
+  "key": "tp_sm_brier",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.02",
+  "printed": "0.02",
+  "key": "tp_sm_holm_below",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.98",
+  "printed": "0.98",
+  "key": "tp_sm_bay_roc",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "1.00",
+  "printed": "1.00",
+  "key": "tp_sm_bay_pr",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.82",
+  "printed": "0.82",
+  "key": "tp_sm_bay_brier",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.014",
+  "printed": "0.014",
+  "key": "tp_vs_roc_min",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.028",
+  "printed": "0.028",
+  "key": "tp_vs_roc_max",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.024",
+  "printed": "0.024",
+  "key": "tp_vs_pr_min",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.046",
+  "printed": "0.046",
+  "key": "tp_vs_pr_max",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.03",
+  "printed": "0.03",
+  "key": "tp_vs_holm_below",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.95",
+  "printed": "0.95",
+  "key": "tp_vs_bay_min",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.013",
+  "printed": "0.013",
+  "key": "tp_vs_brier_min",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "0.027",
+  "printed": "0.027",
+  "key": "tp_vs_brier_max",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "36",
+  "printed": "36",
+  "key": "tp_rf_cloud",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "07-evidence.tex",
+  "marker": "Section~\\ref{sec:whichmethod} repor",
+  "value": "38",
+  "printed": "38",
+  "key": "tp_tasks",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The authors then checked 80 of the ",
+  "value": "80",
+  "printed": "80",
+  "key": "wp3_chk_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "11-appendix.tex",
+  "marker": "The authors then checked 80 of the ",
+  "value": "79",
+  "printed": "79",
+  "key": "wp3_chk_agree",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "supplement.tex",
+  "marker": "The first review page held 80 adjud",
+  "value": "80",
+  "printed": "80",
+  "key": "wp3_chk_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "supplement.tex",
+  "marker": "The first review page held 80 adjud",
+  "value": "27",
+  "printed": "27",
+  "key": "wp3_chk_d36",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "supplement.tex",
+  "marker": "The first review page held 80 adjud",
+  "value": "10",
+  "printed": "10",
+  "key": "wp3_chk_me",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "supplement.tex",
+  "marker": "The first review page held 80 adjud",
+  "value": "25",
+  "printed": "25",
+  "key": "wp3_chk_other_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "supplement.tex",
+  "marker": "The first review page held 80 adjud",
+  "value": "190",
+  "printed": "190",
+  "key": "wp3_chk_other_frame",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "supplement.tex",
+  "marker": "The first review page held 80 adjud",
+  "value": "8",
+  "printed": "8",
+  "key": "wp3_chk_kept_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "supplement.tex",
+  "marker": "The first review page held 80 adjud",
+  "value": "193",
+  "printed": "193",
+  "key": "wp3_chk_kept_frame",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "supplement.tex",
+  "marker": "The first review page held 80 adjud",
+  "value": "5",
+  "printed": "5",
+  "key": "wp3_chk_fill_n",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "supplement.tex",
+  "marker": "The first review page held 80 adjud",
+  "value": "13",
+  "printed": "13",
+  "key": "wp3_chk_fill_frame",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ },
+ {
+  "file": "supplement.tex",
+  "marker": "The first review page held 80 adjud",
+  "value": "79",
+  "printed": "79",
+  "key": "wp3_chk_agree",
+  "source": "data/search/screening_full_2026-11-11/decisions/search_numbers.json"
+ }
+]

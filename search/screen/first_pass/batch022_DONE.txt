@@ -1,0 +1,13 @@
+batch 022: 200 of 200 records done; include 31, unsure 18, exclude 151
+no records remain
+
+Look at first:
+- Low confidence: R12162 (exclude E1, no abstract; "data-efficient" federated CNN for blade icing might hide a new oversampler); unsure low: R14370, R00741, R20443, R18315, R19539, R07778, R05288, R03552, R11481, R10200.
+- Existing generator used as the oversampler and presented as the contribution (not settled by the codebook): R02115 (vanilla GAN for fraud) coded include medium, but R05171 (SeqGAN) and R11481 (CTGAN) coded unsure. Please decide these three together.
+- R00441 (Blagus & Lusa, SMOTE for high-dimensional data): theoretical/empirical analysis of SMOTE, excluded E-COMPARE (tag comparison); relevant to the survey's theory discussion.
+- R18022: erratum to an in-scope article ("Imbalanced data oversampling through subspace optimization with Bayesian reinforcement", AI Review 2025); excluded E-REVIEW, tagged front-matter-in-scope. Check that the original article is in the corpus.
+- New oversamplers for imbalanced regression excluded E2: R08230 (COVERT) and R21834 (SPECTRA). Clarification 1 (other purpose -> unsure) could be read to cover them.
+- Non-synthetic oversampling methods excluded E-NOGEN: R06597 (ROS+RUS ensemble) and R00214 (bootstrapping ratio search).
+- SMOTE + cleaning rule I applied: a named existing hybrid (SMOTE-ENN, SMOTE-Tomek) in a domain pipeline is E1 (e.g. R01065). SMOTE plus some other existing cleaning step presented as a new framework is unsure under clarification 3 (R03552).
+- Other includes worth a check: R14638 (SMOTE hyperparameter tuning only, I1-other) and R13742 (diffusion/flow generator motivated by both fault scarcity and privacy). R17240 (Mirror-Space SMOTE) is unsure because I2 is not stated in the abstract.
+- Code convention: I1-generative for learned deep generators; I1-other for other generators (R00724 ontology, R19796 DMD, R21824 DiCE counterfactuals) and for SMOTE tuning. Non-English applied papers are coded E1 with the language noted in the reason; E-LANG is used only for R02054 (Turkish), whose content was otherwise unclear.

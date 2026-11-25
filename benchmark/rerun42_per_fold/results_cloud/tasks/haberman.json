@@ -1,0 +1,9 @@
+{
+ "task": "haberman",
+ "source": "KEEL(keel_ds)",
+ "n": 306,
+ "n_min": 81,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 3
+}

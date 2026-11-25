@@ -1,0 +1,10 @@
+batch 064: 200 of 200 records done; include 32, unsure 17, exclude 151
+
+Look at first:
+- Low confidence (unsure): R11269 ("Randomized Weighted SMOTE", abstract too thin to say if new), R14120 (GPON "vetted synthetic samples", generator not described), R02333 (point cloud hybrid sampling inside a new training framework).
+- R06099 (include, medium): SMOTIFIED-GAN is presented as proposed, but the name matches an earlier SMOTified-GAN method, so this may be an application to gearbox faults (E1).
+- GAN fault-diagnosis papers split on whether the generator is changed: R19236 and R10489 included (improved or PSO-tuned WGAN-GP), R14797 excluded E1 (standard CWGAN-GP). Unsure because the generator design is unclear: R16423, R20068, R18748.
+- Clarification 2 (I2 not stated in the abstract): R10796 (triangular-region oversampler inside boosting), R02133 (multiple trials/feedback technique for SMOTE).
+- Not settled by the codebook: R05435 (exclude E-NOGEN; enlarges the minority class with pseudo-labelled unlabelled data, not synthetic samples), R22329 (include, medium; tail-class perturbation augmentation inside a framework whose headline is a regularizer), R04970 (unsure; new multiclass label-noise filters with SMOTE folded in).
+- Borderline calls: R08489 (E-COMPARE; noise filters before oversamplers, framed as an assessment), R00535 (include, medium; mainly analysis, but changes the SMOTE-related oversampling ratio), R06588 (include, medium; unclear whether the propensity-score oversampling is synthetic), R12678 (include, medium; LLM prompt oversampling barely described), R02070 and R04435 (unsure under clarification 3).
+- No abstract: R06100 and R09757 excluded E1 (application titles), R08023 excluded E-REVIEW (generic textbook chapter). Language: R09660 (title in Indonesian, abstract in English) coded E1, R15923 (title in Ukrainian, a review) coded E-REVIEW.

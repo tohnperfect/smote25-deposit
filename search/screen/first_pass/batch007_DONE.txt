@@ -1,0 +1,14 @@
+batch 007: 200 of 200 records done; include 20, unsure 20, exclude 160
+no records remain
+
+Records to look at first:
+- Low confidence (all unsure): R04514 (stream fraud: replays stored fraud data, plus a clustering oversampler), R03440 (ensemble CNN with random oversampling and feature-subspace "data enhancement", multiclass HSI), R20587 (ADASYN parameters tuned by a metaheuristic; the codebook does not say whether tuning an existing oversampler counts as changing how it is applied).
+- Existing GAN used as the oversampler (codebook does not settle this). Where the GAN oversampler is the paper's contribution I coded unsure: R05382 (Unrolled GAN), R02067 (GAN, defect data, I2 not stated), R06565 (WGAN, botnet). Where a GAN is one step of a domain pipeline I coded E1 at medium confidence: R07123 (SeqGAN in SCGRU), R06674 (GAN + AdaBoost), R17777 (GAN in a landslide pipeline). Please check where I drew this line.
+- Borderline includes (medium confidence): R03229 (new MLP undersampling + existing MWMOTE, included as "SMOTE with a new cleaning step"), R10282 (GraphSMOTE-like node synthesis with a new edge-generator loss), R06473 (SMOTE + Gaussian-noise hybrid), R01424 (abstention samples as SMOTE seeds), R00478 (pattern-based oversampler, secondary to a tree ensemble).
+- Possibly an existing variant applied in a domain: R05054 (Radius-SMOTE, which may predate this paper), R16802 (DTW-SMOTE), R14044 ("refined application of SMOTE"), R20035 (SMOTE in sentence-transformer embedding space), R03018 (Resample + SMOTE framework); R19506 (Dirichlet ExtSMOTE) was excluded E1 at medium confidence.
+- Non-synthetic stream oversampling by reusing stored past minority samples, which the codebook does not cover: R03406 coded E-NOGEN (medium); R04514 sent to unsure because it also uses a clustering oversampler.
+- I2 not stated in the abstract: R09418 (Weighted-SMOTE), R01001 (book chapter where experiments are only "suggested"; the codebook has no exclusion code for a book chapter failing I3).
+- Other unsure: R13265 (generative augmentation in federated learning that also targets privacy and non-iid data), R05462 (comparison paper that includes the authors' own synthetic-lesion generator), R21447 (latent-space sampling in an FDIA framework), R12621 (FOLU/FULO orderings of over- and undersampling).
+- No abstract: R02142, R21617, R12097 (the IOSMOTE title looks in scope).
+- In scope but not in English, so E-LANG: R13127 (CTGAN + cascade reject sampling), R00178 (boosting that injects synthetic samples), R12103 (SMOTE + contrastive enhancement). Records that are both out of scope and not in English were coded on substance, with the language noted in the reason (R02816, R12376, R13326, R05135).
+- R04551 is a retracted article (excluded E1).

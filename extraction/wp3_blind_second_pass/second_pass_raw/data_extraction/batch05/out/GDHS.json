@@ -1,0 +1,22 @@
+{
+ "data_key": "GDHS",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL",
+  "Other"
+ ],
+ "crit": "14 multi-class imbalanced datasets from the KEEL repository and 6 application datasets from the software defect detection field [46] are employed 'to validate our proposed method'; elsewhere called '20 typical benchmark datasets' (p.2) and '20 diverse datasets' (p.12); no further selection reason.",
+ "crit_type": "cites prior work",
+ "basis": [
+  "prior-work",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "[46] L. Akritidis, P. Bozanis, A clustering-based resampling technique with cluster structure analysis for software defect detection in imbalanced datasets, Inform. Sci. 674 (2024) 120724 (source of the 6 software defect datasets only)",
+ "origin": [
+  "Natural"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "mean-size or IR threshold",
+ "modified_data_released": "n.a.",
+ "notes": "Table 1 (p.8) has no number-of-classes column and prints a class distribution plus m (mean class size), IR and Fdr. The 6 software-defect datasets (camel-1.4, camel-1.6, hive-0.12.0, velocity-1.5, xalan-2.4, xerces-1.2) are two-class although the paper targets multi-class data; the paper does not say whether they were binarised (no repository named for them, only [46]), so coded Natural. Odd: IR is defined by Eq. (17) as a sum over class pairs of (|ci|/|cj| - 1), which the multi-class rows follow (e.g. newthyroid 7.45, vehicle 0.31), but for the two-class rows the printed IR equals the plain majority/minority ratio (camel-1.4 727/144 printed 5.05; Eq. (17) would give about 4.05). Data availability statement: 'Data will be made available on request.' (p.14); code at https://github.com/ytyancp/GDHS (p.1); nothing was modified, so modified_data_released n.a. 'Diverse' (p.12) and 'typical benchmark' (p.2) are descriptions, not stated selection reasons; 'multi-class imbalanced' describes the data but is not given as a reason (method-target not coded)."
+}

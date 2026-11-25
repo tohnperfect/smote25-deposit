@@ -1,0 +1,10 @@
+batch 010: 200 of 200 records done; include 32, unsure 15, exclude 153
+no records remain
+
+Look at these first (no record was coded low confidence; these are the borderline calls and cases the codebook does not settle):
+- Rule 3 edge cases: R20175 (ADASYN+ENN named as the pipeline's "hybrid oversampling") is coded unsure. R06299 (RUS+SMOTE "is proposed") and R07479 (SMOTE+Tomek inside a "proposed model") are coded E1 because their contribution is the detector, but rule 3 could send them to unsure.
+- Applying an existing generator within clusters, counted as changing where synthetic examples are made: R16142 (fuzzy k-prototypes + SMOTE-NC) and R02544 (clustering + oversampling + RF), both include I1-hybrid, medium. A new selection step applied to an existing generator: R20703 (DiVuse) is include I1-hybrid; R16750 (Stable Diffusion + CLIP filter) is unsure.
+- Generators whose scope or novelty is unclear, all include at medium: R10770 (class-balanced Mixup for long-tailed images); R22069 (Jacobian data augmentation for imbalanced, adversarial fraud detection); R19310 (FireFly metaheuristic used as an oversampler); R00583 (bag-level MIL oversampling; synthetic generation is not stated).
+- Domain papers with a "proposed" generator coded differently; please align them: R02906 is include, R18820 is unsure. Plain GAN oversampling in a domain pipeline: R10297 and R06413 are E1. GAN/VAE oversampler comparisons: R02155 and R02902 are E-COMPARE (R02902 calls WGAN-GP and WcGAN-GP "new methods").
+- Other calls at medium confidence: R10547 (existing GDHS sampler paired with GBDT, E1); R04204 (titled a survey, describes a SMOTE-IPF-like method, E1); R00618 (big-data analysis of oversampling ratio, E-COMPARE); R01546 (include, but a book chapter, so I3 needs checking); R18313 (include, but the abstract is garbled and names no datasets); R19901 (unsure, I2 not stated in the abstract).
+- No abstract: R04212 (exclude) and R06925 (exclude, E-COMPARE). R19234 is excluded under E-LANG (Chinese) but proposes a new GAN oversampler (GPSC-GAN); otherwise it would be in scope.

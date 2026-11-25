@@ -1,0 +1,13 @@
+batch 015: 200 of 200 records done; include 45, unsure 72, exclude 83
+no records remain
+
+Look at first:
+- Possible inconsistencies: R16801 (include, high) applies an existing CTGAN in an autoencoder latent space, the same structure as R07106 (unsure); recheck R16801. R01600 (include, generates unseen fault classes) vs R03286 (unsure U-other, zero-shot feature generation).
+- Codebook gaps: R03471 (new evolutionary SMOTE built for dose regression; excluded E2, but clarification 1 could apply); R00330 (oversampling by transferring real auxiliary-domain samples; excluded E-NOGEN, low); R01762 (prototype generation for multiclass imbalance; unsure); R02059 (smote-variants software package; excluded E-COMPARE, likely worth citing); R04620 (oversampling-rate sweep called a method; excluded E-COMPARE, low); R16036 (new time-series random oversampling, replication only; excluded E-NOGEN); R17419 (GMM oversampler for recommendation data; included).
+- Include resting partly on keywords: R00605 (MultiBoost adaptation; SMOTE named only in keywords).
+- I2 not stated (clarification 2): R20501, R22056, R18033 (2026 Zenodo SMOTE variants with theory-only abstracts); R03945, R02210, R10796 (Applied Soft Computing; experiments likely in the full text).
+- Generators built for other purposes (clarification 1): R22356 (data-free quantization), R03286 (zero-shot learning), R13165 (few-shot face recognition), R06679 (fairness), R05281 (small-data virtual samples).
+- Language: R19466 (listed Turkish, unsure); R03944 (Indonesian title), R08377 (Arabic), R11609 (Russian) excluded on content.
+- Low-confidence excludes: R22039, R00999, R18474, R07784, R09899.
+- Most method-like of the clarification-3 unsures (existing generator plus existing cleaning or selection): R05252 (SMOTE-LOF), R05514 (SMOTEOSS, 11 datasets), R20565 (k-means plus ADASYN, 9 datasets). R01006 and R01374 (both included) share one noise-filter method, possible E4.
+- Included on title alone (no abstract): R03104, R21970.

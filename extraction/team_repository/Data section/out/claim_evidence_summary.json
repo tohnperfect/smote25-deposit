@@ -1,0 +1,29 @@
+{
+ "selection": "papers with per-dataset SMOTE pairs (41; 42 before rule R8, MC-MBRC) whose title names a data condition",
+ "papers": 21,
+ "claims": 25,
+ "by_condition": {
+  "difficulty factors": {},
+  "high imbalance": {
+   "aligned": 1
+  },
+  "massive data": {
+   "reported (no threshold)": 1
+  },
+  "multi-class": {
+   "aligned": 9,
+   "partially supported": 2
+  },
+  "noise": {
+   "aligned": 3
+  },
+  "overlap": {
+   "aligned": 4
+  }
+ },
+ "by_label": {
+  "aligned": 17,
+  "partially supported": 2,
+  "reported (no threshold)": 1
+ }
+}

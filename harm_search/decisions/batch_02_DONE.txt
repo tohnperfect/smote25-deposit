@@ -1,0 +1,22 @@
+batch 02: 75 of 75 decided {'unsure': 10, 'exclude': 63, 'include': 2}; all decided
+
+Includes to read first (both H-calibration, finding harm):
+- 42533626 (JAMIA 2026): models trained on original data are compared with SMOTE, random oversampling and random undersampling on ten clinical datasets. The resampled models have higher Brier scores (+0.029 to 0.080) and distorted calibration intercepts and slopes. This is the strongest record in the batch.
+- 42666172 (Front Neurol 2026, DVT after stroke): a within-fold SMOTE sensitivity analysis "showed ... greater calibration discrepancies". The abstract implies, but does not state outright, that the primary models used no resampling.
+
+Unsure records (all U-abstract, finding not reported), most promising first:
+- 42673578: no correction vs class weighting vs SMOTE; ECE and Brier are given only for the best model, which is uncorrected.
+- 42512199: logistic regression, class-weighting and SMOTE models are "compared using ... calibration metrics", but no calibration result is given.
+- 42412950: factorial design with no sampling, RUS and SMOTEENN, scored by Brier; the abstract gives Brier changes only against a hospital-only baseline.
+- 42414972: class weighting in the primary analysis vs SMOTE in a sensitivity analysis; calibration was assessed, and the abstract says only that conclusions were "broadly robust".
+- 42639622: no sampling vs oversampling vs undersampling, with fairness measured as false-negative-rate disparities; no fairness result by strategy (the batch's only fairness lead).
+- 42570601: resampling vs cost-sensitive models benchmarked on Brier and log loss; the abstract reports no results. Here "leakage" means pipe leaks.
+- 42629619, 42512660, 42302228, 42392592: SMOTE is said to leave, add little to, or improve "performance", or a sensitivity analysis without SMOTE exists, and calibration is measured; it is unclear whether calibration was part of that comparison.
+
+Cases the codebook does not settle (how I coded them):
+- Calibration listed among the metrics, but SMOTE's effect reported only as general "performance": coded U-abstract, finding not reported.
+- Cross-algorithm or confounded contrasts: in 42436418, ROSE is used in the development folds and the Brier contrast is LR vs RF (X-no-comparison, medium confidence). In 42387005, SMOTE plus tuned hyperparameters is compared with the baseline on recall and AUC only (X-no-harm-measure).
+- Null-model reference: 42462220 compares the Brier scores of SMOTE-trained models with the null Brier at natural prevalence, and only one model beats it (X-no-comparison).
+- Leaky design with no comparison: 42444946 applies SMOTE before the train-test split (X-no-comparison).
+- Overlapping exclusion reasons: I used the first code that applies, in codebook order. In 42638943 I counted the "ablation of each module" (SMOTE included) as the comparison, so X-no-harm-measure.
+- 42645917 mentions no resampling at all, so I coded it X-not-resampling. In 42639622 I counted the unspecified "oversampling" as random oversampling.

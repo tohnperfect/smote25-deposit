@@ -1,0 +1,458 @@
+{
+ "read": 2933,
+ "scheme": {
+  "own": 2258,
+  "existing-parts": 593,
+  "unclear": 82
+ },
+ "generator": {
+  "classical": 1783,
+  "deep-generative": 703,
+  "augmentation": 89,
+  "statistical": 164,
+  "none": 194
+ },
+ "task": {
+  "classification": 2887,
+  "continual": 11,
+  "regression-as-classes": 12,
+  "segmentation": 12,
+  "zero-shot": 2,
+  "survival": 3,
+  "detection": 3,
+  "other": 2,
+  "ranking": 1
+ },
+ "confidence": {
+  "medium": 1001,
+  "high": 1601,
+  "low": 331
+ },
+ "decision_B": {
+  "include": 2600,
+  "exclude": 333
+ },
+ "decision": {
+  "include": 2449,
+  "exclude": 484
+ },
+ "excluded_by_rule": {
+  "B2": 307,
+  "B": 177
+ },
+ "final": {
+  "include": 2449,
+  "exclude": 115,
+  "unsure": 369
+ },
+ "final_by_rule": {
+  "exclude": {
+   "B2": 87,
+   "B": 28
+  },
+  "unsure": {
+   "B": 149,
+   "B2": 220
+  }
+ },
+ "failing_by_confidence": {
+  "high": 115,
+  "medium": 235,
+  "low": 134
+ },
+ "rule": "as the independent AI check applied it, report v3): a record whose scheme is `own` or `unclear` stays included.\nA record whose scheme is `existing-parts` is excluded under E1 when its generator is a standard generator\n(`deep-generative`, `statistical` or `augmentation`; ruling B2); otherwise it stays included only when the paper\npresents the chain as its contribution and compares it with another way of resampling (ruling B). Ruling C (task\nscope) excludes nothing: every task is in scope. The pass reads more strictly than the independent check (on the\ncheck's sample of 299 includes it excludes 44 where the check excluded 10, all 10 among them), so the team lead decided\n(12 Nov 2026) that a record failing B or B2 is excluded only when the pass recorded its facts with high confidence; at\nmedium or low confidence it becomes unsure (U-rule-B) and goes to the authors' check or the full text.",
+ "check_facts_file": "second_pass_facts.csv",
+ "check_read": 1245,
+ "both_read": 299,
+ "check_decision_column": "decision",
+ "agree_decision": 260,
+ "disagree": [
+  {
+   "rec": "R00690",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R01320",
+   "this_pass": "include",
+   "check": "unsure"
+  },
+  {
+   "rec": "R22401",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R10887",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R07627",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R06036",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R05702",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R15581",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R02892",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R01755",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R15837",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R14664",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R17162",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R01514",
+   "this_pass": "include",
+   "check": "exclude"
+  },
+  {
+   "rec": "R04996",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R19320",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R02648",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R08942",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R13269",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R00270",
+   "this_pass": "include",
+   "check": "exclude"
+  },
+  {
+   "rec": "R16698",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R04277",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R02697",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R02966",
+   "this_pass": "include",
+   "check": "unsure"
+  },
+  {
+   "rec": "R08658",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R13297",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R12638",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R10074",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R20650",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R15103",
+   "this_pass": "include",
+   "check": "exclude"
+  },
+  {
+   "rec": "R10541",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R03492",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R02399",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R09858",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R19744",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R09604",
+   "this_pass": "include",
+   "check": "unsure"
+  },
+  {
+   "rec": "R12833",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R12778",
+   "this_pass": "exclude",
+   "check": "include"
+  },
+  {
+   "rec": "R04819",
+   "this_pass": "exclude",
+   "check": "include"
+  }
+ ],
+ "both_read_by_list": {
+  "2_includes": 299
+ },
+ "check_excluded_both": 14,
+ "pass_excluded_both": 44,
+ "pass_final_excluded_both": 7,
+ "sample_source": [
+  "check/returns/RETURN_screen_decisions_AI-Claude-Fable-5.2_2026-11-11_v3.csv"
+ ],
+ "sample_final_excluded": 7,
+ "sample_final_both_excluded": 5,
+ "sample_final_unsure": 37,
+ "sample_final_agree": 292,
+ "sample_final_kappa": 0.577,
+ "sample_includes_both": 299,
+ "sample_check_excluded": 10,
+ "sample_pass_excluded": 44,
+ "sample_both_excluded": 10,
+ "sample_agree": 265,
+ "sample_kappa": 0.334,
+ "sample_disagree": [
+  {
+   "rec": "R00690",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R01755",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R02399",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R02648",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R02697",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R02892",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R03492",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R04277",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R04819",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R04996",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R05702",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R06036",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R06444",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R07627",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R08658",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R08942",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R09858",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R10074",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R10541",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R10887",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R12638",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R12778",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R12833",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R13269",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R13297",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R14664",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R15581",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R15837",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R16698",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R17162",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R19320",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R19744",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R20650",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  },
+  {
+   "rec": "R22401",
+   "this_pass": "exclude",
+   "check": "include (no correction)"
+  }
+ ]
+}

@@ -1,0 +1,842 @@
+{
+ "periods": [
+  "1972-2009",
+  "2010-2019",
+  "2020-2026"
+ ],
+ "note": "counts with denominators; crit_type is ai_draft (unverified) and is reported separately",
+ "by_period": {
+  "1972-2009": {
+   "papers_with_named_entries": 14,
+   "entries": 146,
+   "category_entries": {
+    "original": {
+     "n": 60,
+     "of": 146,
+     "pct": 41.1
+    },
+    "repository-defined": {
+     "n": 0,
+     "of": 146,
+     "pct": 0.0
+    },
+    "modified": {
+     "n": 50,
+     "of": 146,
+     "pct": 34.2
+    },
+    "synthetic": {
+     "n": 29,
+     "of": 146,
+     "pct": 19.9
+    },
+    "not stated": {
+     "n": 7,
+     "of": 146,
+     "pct": 4.8
+    }
+   },
+   "category_papers_with_any": {
+    "original": {
+     "n": 13,
+     "of": 14,
+     "pct": 92.9
+    },
+    "repository-defined": {
+     "n": 0,
+     "of": 14,
+     "pct": 0.0
+    },
+    "modified": {
+     "n": 12,
+     "of": 14,
+     "pct": 85.7
+    },
+    "synthetic": {
+     "n": 6,
+     "of": 14,
+     "pct": 42.9
+    },
+    "not stated": {
+     "n": 3,
+     "of": 14,
+     "pct": 21.4
+    }
+   },
+   "papers_only_original_or_repository": {
+    "n": 1,
+    "of": 14,
+    "pct": 7.1
+   },
+   "modified_entries": 50,
+   "modified_papers": 12,
+   "modification_ops_entries_of_modified": {
+    "CS": {
+     "n": 39,
+     "of": 50,
+     "pct": 78.0
+    },
+    "US": {
+     "n": 9,
+     "of": 50,
+     "pct": 18.0
+    },
+    "IM": {
+     "n": 6,
+     "of": 50,
+     "pct": 12.0
+    },
+    "SF": {
+     "n": 7,
+     "of": 50,
+     "pct": 14.0
+    },
+    "FM": {
+     "n": 2,
+     "of": 50,
+     "pct": 4.0
+    },
+    "NI": {
+     "n": 0,
+     "of": 50,
+     "pct": 0.0
+    },
+    "LC": {
+     "n": 3,
+     "of": 50,
+     "pct": 6.0
+    }
+   },
+   "modification_ops_papers_of_all_papers": {
+    "CS": {
+     "n": 11,
+     "of": 14,
+     "pct": 78.6
+    },
+    "US": {
+     "n": 3,
+     "of": 14,
+     "pct": 21.4
+    },
+    "IM": {
+     "n": 1,
+     "of": 14,
+     "pct": 7.1
+    },
+    "SF": {
+     "n": 4,
+     "of": 14,
+     "pct": 28.6
+    },
+    "FM": {
+     "n": 2,
+     "of": 14,
+     "pct": 14.3
+    },
+    "NI": {
+     "n": 0,
+     "of": 14,
+     "pct": 0.0
+    },
+    "LC": {
+     "n": 2,
+     "of": 14,
+     "pct": 14.3
+    }
+   },
+   "modifying_papers_with_stated_purpose": {
+    "n": 4,
+    "of": 12,
+    "pct": 33.3
+   },
+   "reporting_entries": {
+    "n_instances": {
+     "n": 105,
+     "of": 146,
+     "pct": 71.9
+    },
+    "n_features": {
+     "n": 97,
+     "of": 146,
+     "pct": 66.4
+    },
+    "n_classes": {
+     "n": 123,
+     "of": 146,
+     "pct": 84.2
+    },
+    "n_minority": {
+     "n": 70,
+     "of": 146,
+     "pct": 47.9
+    },
+    "ir_as_printed": {
+     "n": 29,
+     "of": 146,
+     "pct": 19.9
+    },
+    "source_as_reported": {
+     "n": 146,
+     "of": 146,
+     "pct": 100.0
+    }
+   },
+   "papers_stating_ir_definition": {
+    "n": 2,
+    "of": 14,
+    "pct": 14.3
+   },
+   "uses_on_names_shared_by_5plus_papers": {
+    "n": 56,
+    "of": 146,
+    "pct": 38.4
+   },
+   "uses_on_single_paper_names": {
+    "n": 53,
+    "of": 146,
+    "pct": 36.3
+   },
+   "smote_baseline_papers": {
+    "n": 7,
+    "of": 14,
+    "pct": 50.0
+   },
+   "provenance_papers_of_smote_baseline_papers": {
+    "B1": {
+     "n": 3,
+     "of": 7,
+     "pct": 42.9
+    },
+    "B2": {
+     "n": 4,
+     "of": 7,
+     "pct": 57.1
+    },
+    "B3": {
+     "n": 0,
+     "of": 7,
+     "pct": 0.0
+    },
+    "B4": {
+     "n": 0,
+     "of": 7,
+     "pct": 0.0
+    }
+   },
+   "primary_rows": 24,
+   "primary_papers": 3,
+   "primary_rows_by_category": {
+    "original": {
+     "n": 7,
+     "of": 24,
+     "pct": 29.2
+    },
+    "repository-defined": {
+     "n": 0,
+     "of": 24,
+     "pct": 0.0
+    },
+    "modified": {
+     "n": 17,
+     "of": 24,
+     "pct": 70.8
+    },
+    "synthetic": {
+     "n": 0,
+     "of": 24,
+     "pct": 0.0
+    },
+    "not stated": {
+     "n": 0,
+     "of": 24,
+     "pct": 0.0
+    },
+    "unmatched": {
+     "n": 0,
+     "of": 24,
+     "pct": 0.0
+    }
+   },
+   "primary_rows_sign": {
+    "+": 14,
+    "-": 4,
+    "=": 6
+   },
+   "selection_rationale_papers_AI_DRAFT_UNVERIFIED": {
+    "cites prior work": {
+     "n": 1,
+     "of": 14,
+     "pct": 7.1
+    },
+    "not stated": {
+     "n": 2,
+     "of": 14,
+     "pct": 14.3
+    },
+    "own reason": {
+     "n": 11,
+     "of": 14,
+     "pct": 78.6
+    }
+   }
+  },
+  "2010-2019": {
+   "papers_with_named_entries": 26,
+   "entries": 746,
+   "category_entries": {
+    "original": {
+     "n": 170,
+     "of": 746,
+     "pct": 22.8
+    },
+    "repository-defined": {
+     "n": 208,
+     "of": 746,
+     "pct": 27.9
+    },
+    "modified": {
+     "n": 203,
+     "of": 746,
+     "pct": 27.2
+    },
+    "synthetic": {
+     "n": 91,
+     "of": 746,
+     "pct": 12.2
+    },
+    "not stated": {
+     "n": 74,
+     "of": 746,
+     "pct": 9.9
+    }
+   },
+   "category_papers_with_any": {
+    "original": {
+     "n": 22,
+     "of": 26,
+     "pct": 84.6
+    },
+    "repository-defined": {
+     "n": 7,
+     "of": 26,
+     "pct": 26.9
+    },
+    "modified": {
+     "n": 18,
+     "of": 26,
+     "pct": 69.2
+    },
+    "synthetic": {
+     "n": 10,
+     "of": 26,
+     "pct": 38.5
+    },
+    "not stated": {
+     "n": 7,
+     "of": 26,
+     "pct": 26.9
+    }
+   },
+   "papers_only_original_or_repository": {
+    "n": 3,
+    "of": 26,
+    "pct": 11.5
+   },
+   "modified_entries": 203,
+   "modified_papers": 18,
+   "modification_ops_entries_of_modified": {
+    "CS": {
+     "n": 89,
+     "of": 203,
+     "pct": 43.8
+    },
+    "US": {
+     "n": 105,
+     "of": 203,
+     "pct": 51.7
+    },
+    "IM": {
+     "n": 96,
+     "of": 203,
+     "pct": 47.3
+    },
+    "SF": {
+     "n": 8,
+     "of": 203,
+     "pct": 3.9
+    },
+    "FM": {
+     "n": 10,
+     "of": 203,
+     "pct": 4.9
+    },
+    "NI": {
+     "n": 6,
+     "of": 203,
+     "pct": 3.0
+    },
+    "LC": {
+     "n": 0,
+     "of": 203,
+     "pct": 0.0
+    }
+   },
+   "modification_ops_papers_of_all_papers": {
+    "CS": {
+     "n": 11,
+     "of": 26,
+     "pct": 42.3
+    },
+    "US": {
+     "n": 5,
+     "of": 26,
+     "pct": 19.2
+    },
+    "IM": {
+     "n": 4,
+     "of": 26,
+     "pct": 15.4
+    },
+    "SF": {
+     "n": 4,
+     "of": 26,
+     "pct": 15.4
+    },
+    "FM": {
+     "n": 3,
+     "of": 26,
+     "pct": 11.5
+    },
+    "NI": {
+     "n": 3,
+     "of": 26,
+     "pct": 11.5
+    },
+    "LC": {
+     "n": 0,
+     "of": 26,
+     "pct": 0.0
+    }
+   },
+   "modifying_papers_with_stated_purpose": {
+    "n": 7,
+    "of": 18,
+    "pct": 38.9
+   },
+   "reporting_entries": {
+    "n_instances": {
+     "n": 620,
+     "of": 746,
+     "pct": 83.1
+    },
+    "n_features": {
+     "n": 540,
+     "of": 746,
+     "pct": 72.4
+    },
+    "n_classes": {
+     "n": 636,
+     "of": 746,
+     "pct": 85.3
+    },
+    "n_minority": {
+     "n": 254,
+     "of": 746,
+     "pct": 34.0
+    },
+    "ir_as_printed": {
+     "n": 584,
+     "of": 746,
+     "pct": 78.3
+    },
+    "source_as_reported": {
+     "n": 596,
+     "of": 746,
+     "pct": 79.9
+    }
+   },
+   "papers_stating_ir_definition": {
+    "n": 14,
+    "of": 26,
+    "pct": 53.8
+   },
+   "uses_on_names_shared_by_5plus_papers": {
+    "n": 275,
+    "of": 704,
+    "pct": 39.1
+   },
+   "uses_on_single_paper_names": {
+    "n": 283,
+    "of": 704,
+    "pct": 40.2
+   },
+   "smote_baseline_papers": {
+    "n": 21,
+    "of": 26,
+    "pct": 80.8
+   },
+   "provenance_papers_of_smote_baseline_papers": {
+    "B1": {
+     "n": 10,
+     "of": 21,
+     "pct": 47.6
+    },
+    "B2": {
+     "n": 11,
+     "of": 21,
+     "pct": 52.4
+    },
+    "B3": {
+     "n": 0,
+     "of": 21,
+     "pct": 0.0
+    },
+    "B4": {
+     "n": 0,
+     "of": 21,
+     "pct": 0.0
+    }
+   },
+   "primary_rows": 161,
+   "primary_papers": 10,
+   "primary_rows_by_category": {
+    "original": {
+     "n": 43,
+     "of": 161,
+     "pct": 26.7
+    },
+    "repository-defined": {
+     "n": 0,
+     "of": 161,
+     "pct": 0.0
+    },
+    "modified": {
+     "n": 80,
+     "of": 161,
+     "pct": 49.7
+    },
+    "synthetic": {
+     "n": 0,
+     "of": 161,
+     "pct": 0.0
+    },
+    "not stated": {
+     "n": 36,
+     "of": 161,
+     "pct": 22.4
+    },
+    "unmatched": {
+     "n": 2,
+     "of": 161,
+     "pct": 1.2
+    }
+   },
+   "primary_rows_sign": {
+    "+": 123,
+    "=": 11,
+    "-": 27
+   },
+   "selection_rationale_papers_AI_DRAFT_UNVERIFIED": {
+    "not stated": {
+     "n": 1,
+     "of": 26,
+     "pct": 3.8
+    },
+    "own reason": {
+     "n": 21,
+     "of": 26,
+     "pct": 80.8
+    },
+    "cites prior work": {
+     "n": 3,
+     "of": 26,
+     "pct": 11.5
+    },
+    "generic only": {
+     "n": 1,
+     "of": 26,
+     "pct": 3.8
+    }
+   }
+  },
+  "2020-2026": {
+   "papers_with_named_entries": 32,
+   "entries": 863,
+   "category_entries": {
+    "original": {
+     "n": 307,
+     "of": 863,
+     "pct": 35.6
+    },
+    "repository-defined": {
+     "n": 262,
+     "of": 863,
+     "pct": 30.4
+    },
+    "modified": {
+     "n": 88,
+     "of": 863,
+     "pct": 10.2
+    },
+    "synthetic": {
+     "n": 92,
+     "of": 863,
+     "pct": 10.7
+    },
+    "not stated": {
+     "n": 114,
+     "of": 863,
+     "pct": 13.2
+    }
+   },
+   "category_papers_with_any": {
+    "original": {
+     "n": 26,
+     "of": 32,
+     "pct": 81.2
+    },
+    "repository-defined": {
+     "n": 17,
+     "of": 32,
+     "pct": 53.1
+    },
+    "modified": {
+     "n": 13,
+     "of": 32,
+     "pct": 40.6
+    },
+    "synthetic": {
+     "n": 12,
+     "of": 32,
+     "pct": 37.5
+    },
+    "not stated": {
+     "n": 14,
+     "of": 32,
+     "pct": 43.8
+    }
+   },
+   "papers_only_original_or_repository": {
+    "n": 8,
+    "of": 32,
+    "pct": 25.0
+   },
+   "modified_entries": 88,
+   "modified_papers": 13,
+   "modification_ops_entries_of_modified": {
+    "CS": {
+     "n": 47,
+     "of": 88,
+     "pct": 53.4
+    },
+    "US": {
+     "n": 34,
+     "of": 88,
+     "pct": 38.6
+    },
+    "IM": {
+     "n": 45,
+     "of": 88,
+     "pct": 51.1
+    },
+    "SF": {
+     "n": 3,
+     "of": 88,
+     "pct": 3.4
+    },
+    "FM": {
+     "n": 3,
+     "of": 88,
+     "pct": 3.4
+    },
+    "NI": {
+     "n": 6,
+     "of": 88,
+     "pct": 6.8
+    },
+    "LC": {
+     "n": 0,
+     "of": 88,
+     "pct": 0.0
+    }
+   },
+   "modification_ops_papers_of_all_papers": {
+    "CS": {
+     "n": 7,
+     "of": 32,
+     "pct": 21.9
+    },
+    "US": {
+     "n": 3,
+     "of": 32,
+     "pct": 9.4
+    },
+    "IM": {
+     "n": 4,
+     "of": 32,
+     "pct": 12.5
+    },
+    "SF": {
+     "n": 1,
+     "of": 32,
+     "pct": 3.1
+    },
+    "FM": {
+     "n": 1,
+     "of": 32,
+     "pct": 3.1
+    },
+    "NI": {
+     "n": 5,
+     "of": 32,
+     "pct": 15.6
+    },
+    "LC": {
+     "n": 0,
+     "of": 32,
+     "pct": 0.0
+    }
+   },
+   "modifying_papers_with_stated_purpose": {
+    "n": 4,
+    "of": 13,
+    "pct": 30.8
+   },
+   "reporting_entries": {
+    "n_instances": {
+     "n": 601,
+     "of": 863,
+     "pct": 69.6
+    },
+    "n_features": {
+     "n": 633,
+     "of": 863,
+     "pct": 73.3
+    },
+    "n_classes": {
+     "n": 616,
+     "of": 863,
+     "pct": 71.4
+    },
+    "n_minority": {
+     "n": 195,
+     "of": 863,
+     "pct": 22.6
+    },
+    "ir_as_printed": {
+     "n": 777,
+     "of": 863,
+     "pct": 90.0
+    },
+    "source_as_reported": {
+     "n": 648,
+     "of": 863,
+     "pct": 75.1
+    }
+   },
+   "papers_stating_ir_definition": {
+    "n": 18,
+    "of": 32,
+    "pct": 56.2
+   },
+   "uses_on_names_shared_by_5plus_papers": {
+    "n": 377,
+    "of": 861,
+    "pct": 43.8
+   },
+   "uses_on_single_paper_names": {
+    "n": 299,
+    "of": 861,
+    "pct": 34.7
+   },
+   "smote_baseline_papers": {
+    "n": 29,
+    "of": 32,
+    "pct": 90.6
+   },
+   "provenance_papers_of_smote_baseline_papers": {
+    "B1": {
+     "n": 10,
+     "of": 29,
+     "pct": 34.5
+    },
+    "B2": {
+     "n": 14,
+     "of": 29,
+     "pct": 48.3
+    },
+    "B3": {
+     "n": 1,
+     "of": 29,
+     "pct": 3.4
+    },
+    "B4": {
+     "n": 4,
+     "of": 29,
+     "pct": 13.8
+    }
+   },
+   "primary_rows": 336,
+   "primary_papers": 16,
+   "primary_rows_by_category": {
+    "original": {
+     "n": 95,
+     "of": 336,
+     "pct": 28.3
+    },
+    "repository-defined": {
+     "n": 119,
+     "of": 336,
+     "pct": 35.4
+    },
+    "modified": {
+     "n": 46,
+     "of": 336,
+     "pct": 13.7
+    },
+    "synthetic": {
+     "n": 6,
+     "of": 336,
+     "pct": 1.8
+    },
+    "not stated": {
+     "n": 69,
+     "of": 336,
+     "pct": 20.5
+    },
+    "unmatched": {
+     "n": 1,
+     "of": 336,
+     "pct": 0.3
+    }
+   },
+   "primary_rows_sign": {
+    "+": 261,
+    "-": 50,
+    "=": 25
+   },
+   "selection_rationale_papers_AI_DRAFT_UNVERIFIED": {
+    "cites prior work": {
+     "n": 9,
+     "of": 32,
+     "pct": 28.1
+    },
+    "own reason": {
+     "n": 16,
+     "of": 32,
+     "pct": 50.0
+    },
+    "not stated": {
+     "n": 5,
+     "of": 32,
+     "pct": 15.6
+    },
+    "generic only": {
+     "n": 2,
+     "of": 32,
+     "pct": 6.2
+    }
+   }
+  }
+ }
+}

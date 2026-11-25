@@ -1,0 +1,9 @@
+batch 070: 200 of 200 records done; include 24, unsure 14, exclude 162
+no records remain
+
+Look at first (no low-confidence rows; these are the borderline calls and cases the codebook does not settle):
+- Codebook does not settle: R01790 (new ESMOTE built for regression, warfarin dose: clarification 1 versus E2, sent to unsure); R04124 (in-scope SMOTE + CycleGAN hybrid, but the abstract is Korean while the metadata says en, so the paper's language is unclear); R00317 (oversampling inside boosting that copies minority samples, not synthetic ones; does replication count under I1?); R03179 (BSS-GAN, not clear whether it generates minority examples); R09853 (book chapter, which leaves I3 in doubt, plus an unclear "Federated SMOTE").
+- Includes at medium confidence (novelty of the resampler needs the full text): R04837, R22251, R12689, R15787, R00287, R00355, R13524, R01618, R18761, R13297.
+- Excludes at medium confidence: R22407 (off-the-shelf diffusion/Gemini minority augmentation, coded E1), R02545, R19661, R17442, R08562, R01775, R12884, R01820, R09722 (no abstract).
+- I2 not stated in the abstract (clarification 2): R21494 (Encoding-shift SMOTE) and R18476 (DF-SMOTE), both 2026 Zenodo preprints that claim only theoretical results; R05356 (Fair Oversampling).
+- Excluded under E-LANG although the content is in scope: R09634, R15586, R09895 (all Chinese). R04019 is a Zenodo "Trial" deposit carrying the SMOTE 15-year review abstract (E-REVIEW). R14563 is retracted (E1 anyway).

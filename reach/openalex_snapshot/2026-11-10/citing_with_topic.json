@@ -1,0 +1,37 @@
+{
+ "meta": {
+  "count": 34366,
+  "db_response_time_ms": 166,
+  "page": 1,
+  "per_page": 1,
+  "groups_count": null,
+  "x_query": {
+   "oql": "get works citing (W2148143831) where topic is not unknown",
+   "x_new_oql": "get works citing (W2148143831) where topic is not unknown",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "primary_topic.id",
+      "value": null,
+      "is_negated": true
+     },
+     {
+      "column_id": "referenced_works",
+      "value": "W2148143831"
+     }
+    ]
+   },
+   "url": "/works?filter=primary_topic.id:%21null,referenced_works:W2148143831&per_page=1",
+   "order": "most cited (age-adjusted) first",
+   "order_default": true
+  },
+  "cost_usd": 0.0001
+ },
+ "results": [
+  {
+   "id": "https://openalex.org/W2954996726"
+  }
+ ],
+ "group_by": []
+}

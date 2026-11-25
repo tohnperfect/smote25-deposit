@@ -1,0 +1,16 @@
+batch 024: 200 of 200 records done; include 25, unsure 24, exclude 151
+no records remain
+
+Look at these first:
+- R02547 include (low): garbled, apparently paraphrased abstract claiming a kernel-space oversampler and a multiclass scheme; the record is typed Review (Journal of Critical Reviews). Check that it is a real method paper.
+- Includes that depend on a judgment call (medium): R17253 (SMOTE-MRS in an anaemia paper; new or not?); R11233 (existing CWGAN-GP plus a new sample-screening index); R01361 (plain DCGAN proposed as an oversampler); R00447 (picks the target class ratio for SMOTE and other resamplers, coded I1-other); R17060 (SMOTE-ENC plus a new density filter; clarification 3 read as a new cleaning step); R08986 (imputation-based oversampling in data streams); R18528 (digital-twin generator in a federated IDS; Springer proceedings-series chapter); R02668 and R04150 (outlier or anomaly detection framed as supervised classification; E2 borderline).
+- Low-confidence unsures: R01358, R19873, R00983, R15272, R07798, R18865, R02397, R13907, R02609, R00999, R04389, R02629, R05091.
+- Not settled by the codebook:
+  - Software paper R01046 (imbalanced-learn): coded E-REVIEW because no code fits better. The survey will probably cite it as software.
+  - Key prior review R01478 (SMOTE 15-year anniversary, JAIR): E-REVIEW.
+  - Book chapters (I3 does not name them): excluded on content (R11504, R05905, R09030, R08876, R10233, R18185); R02609 marked unsure; R18528 included.
+  - New samplers that create no synthetic examples, coded E-NOGEN: R16898 (ALO), R18649 (balanced epoch sampler), R13491 (UDDA).
+- E-LANG records that would otherwise qualify: R07285 (Chinese improved SMOTE) and R02402 (Chinese CWGAN-GP).
+- Non-English papers that only apply SMOTE: coded E1, with the language noted in the reason.
+- I2 not stated (clarification 2): R19899 (IB-SMOTE) and R21005 (Physics-field SMOTE). Both are Zenodo preprints with theory only.
+- No abstract, in-scope title: R14280 (MMWO, SSRN).

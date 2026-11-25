@@ -1,0 +1,9 @@
+{
+ "task": "heart",
+ "source": "KEEL(keel_ds)",
+ "n": 270,
+ "n_min": 120,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 13
+}

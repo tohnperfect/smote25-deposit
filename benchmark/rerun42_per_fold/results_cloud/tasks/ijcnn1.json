@@ -1,0 +1,9 @@
+{
+ "task": "ijcnn1",
+ "source": "author-HDE",
+ "n": 4858,
+ "n_min": 5,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 22
+}

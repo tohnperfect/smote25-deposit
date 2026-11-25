@@ -1,0 +1,27 @@
+{
+ "data_key": "CISO",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL",
+  "UCI",
+  "Synthetic"
+ ],
+ "crit": "KEEL suite described as 'the standard benchmarks on which oversampling methods are conventionally assessed'; 8 larger UCI datasets (N up to 20,000, d up to 166) added because KEEL datasets 'remain small' and the scale suite 'probes generalization beyond the KEEL regime'; datasets fixed in advance under a preregistered protocol; 5 disjoint KEEL datasets held out only for tuning; Fig. 1 uses four controlled 2-D minority geometries (well-separated, overlapping, small disjuncts, thin manifold) to show how the certificate responds to structure.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "popularity",
+  "preregistered",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Generated"
+ ],
+ "binarised_by": "both",
+ "minority_rule": "smallest class vs rest",
+ "modified_data_released": "no",
+ "notes": "Three suites: 37 KEEL evaluation datasets (Table 1, p.16), 5 KEEL tuning datasets (Table 2, p.18), 8 UCI scale datasets (Table 1 bottom). Text says 50 datasets in total, results reported on 45. KEEL rows are ready-made two-class KEEL files (repository-binarised, minority repository-defined); UCI multi-class sets (Waveform, Statlog Landsat, Page Blocks, Letter) are binarised by the authors with smallest-class-vs-rest. Although the text says the target class is 'recorded explicitly per dataset', Table 1 only prints 'smallest class' for these, not the class name, hence 'smallest class vs rest' rather than 'explicit target listed'. Synthetic/Generated rests only on the Fig. 1 illustration (four 2-D toy geometries; generator not described). No data or code availability statement found anywhere in the paper, so modified_data_released = no. Table 1 has no class-count column; Page Blocks IR printed with two decimals (46.59) while all others have one. Text says 'CISCO' once (p.15 typo for CISO). KEEL names are printed with underscores in the PDF (e.g. yeast-1-4-5-8_vs_7); the text layer drops them."
+}

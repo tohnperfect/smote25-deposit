@@ -1,0 +1,21 @@
+{
+ "data_key": "Cluster-SMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "Private"
+ ],
+ "crit": "Authors built their own 'real-world' intrusion datasets from University of Notre Dame network traffic to avoid the limitations of the DARPA'98 benchmark (synthetic normal traffic, 'not representative of contemporary network traffic'); two dataset types (packet-based and destination-based) were constructed so the approaches could be evaluated 'on datasets with different features and class distribution'.",
+ "crit_type": "own reason",
+ "basis": [
+  "application",
+  "diversity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Binarised"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Two private datasets (Packets, Destinations) built by the authors from Notre Dame campus traffic and labelled with SNORT; Table I (p.2). Origin coded Binarised (authors) because SNORT attack types were collapsed into intrusive vs not ('treating this as a 2-class problem'); an adjudicator could instead read the datasets as created two-class (Natural). Fig. 1 (p.3) is a hand-drawn schematic, not an evaluation on generated data. The majority class is randomly undersampled to 1%-100% of its size to sweep ROC curves (p.4); this is part of the evaluated training procedure (RIPPER + undersampling), not coded as a data origin. No data release; the acknowledgment only thanks a colleague for allowing use of the data. Table I sums check (147+3933=4080; 2106+344,514=346,620). No IR printed. Results are ROC curves only (no tables)."
+}

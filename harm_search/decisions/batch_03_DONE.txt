@@ -1,0 +1,19 @@
+batch 03: 75 of 75 decided {'exclude': 64, 'unsure': 7, 'include': 4}; all decided
+
+Includes to read first:
+- 41590873 H-leakage, harm. A Comment with its own re-analysis: SMOTE-ENN before the split gave about 99% accuracy, against about 80% with training-only oversampling. Included because X-not-study covers only comments without a comparison of their own.
+- 41928592 H-calibration, no harm. Says calibration improved after SMOTE. Check whether it was evaluated on resampled data.
+- 41701928 H-fairness, mixed. SMOTE-NC balances SES groups, not classes. The BER disparity falls on the SES measure that was balanced and rises on the others.
+- 41639760 H-fairness, no harm. Random oversampling lowers the equalized odds disparity across race and marital status.
+
+Unsure records to read first:
+- 42182743: SMOTE before the split, plus a "non-oversampled sensitivity calibration analysis". It may hold both a calibration and a leakage comparison.
+- 42048420: SMOTE is compared with class weighting, but the Brier score is given only for the SMOTE model.
+- 42119832, 42079745, 41542256, 41743487: each names a no-resampling arm and calibration, but gives no calibration result for each arm. 41743487 also does not name its three oversampling methods.
+- 41625991: no abstract. The title describes a sex-balanced synthetic dataset for bias-resilient prediction.
+
+Cases the codebook does not settle:
+- A SMOTE model's calibration compared only with a different model: external clinical scores (42184411), other intrusion-detection systems (42086677) and an NTCP model (42026673). I read I2 as needing a model trained without resampling, so I excluded these as X-no-comparison (medium confidence).
+- A fixed differential-privacy budget across arms (41829552: raw and SMOTE at the same epsilon, compared on accuracy and AUC only). I treated epsilon as a setting, not a privacy outcome, and coded X-no-harm-measure.
+- Oversampling to balance protected groups rather than classes (41701928, 41639760). I counted it under I1.
+- Resampling before the split with no correct-resampling arm (41667989, 41667673, 41574949, 41795970). The leak is described but not measured, so I coded X-no-comparison.

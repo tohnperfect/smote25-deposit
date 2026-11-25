@@ -1,0 +1,23 @@
+{
+ "data_key": "GLOS",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL"
+ ],
+ "crit": "21 multi-class data sets from the UCI and KEEL repositories [38] 'are selected to evaluate the effectiveness of our proposed algorithm'; classes with fewer than 10 instances removed and class sizes adjusted 'to meet the experiment's requirements'; Segment and Texture were selected and modified to different imbalanced cases (normal, multi-minority, multi-majority) 'to examine the robustness of GLOS in different imbalanced situations'.",
+ "crit_type": "own reason",
+ "basis": [
+  "analytic"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Class-resized",
+  "Induced profile"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "mean-size or IR threshold",
+ "modified_data_released": "no",
+ "notes": "Page numbers are printed journal pages (2071-2086; pdf p.9 = 2079). minority_rule coded 'mean-size or IR threshold' as the closest category: the written rule is a threshold on class-level dispersion (theta_j below the weighted average DID, Eq. 5), not on class size; in addition the minority/majority structure of the Segment/Texture variants was induced by the authors (multi-minority / multi-majority cases) without saying which classes. The paper does not say which of Segment, Segment_2, Segment_6, Texture, Texture_s, Texture_l is which imbalance case, how class sizes were 'adjusted', or whether the source data were balanced (Induced profile coded from 'modified them to different imbalanced cases'). Removal of classes with fewer than 10 instances and of instances with missing values (p.2079) has no origin category. No data or code availability statement found, so modified_data_released 'no'. Figure 7 uses 'the benchmark dataset Sonar' (p.2081), which is not listed in Table 1. Table 1 prints no minority-class size. OAA/OAO/OAHO/AandO decomposition is used at the classifier level, not as data binarisation."
+}

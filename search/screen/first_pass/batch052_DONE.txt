@@ -1,0 +1,11 @@
+batch 052: 200 of 200 records done; include 26, unsure 19, exclude 155
+no records remain
+
+Look at first:
+- Low confidence (all unsure): R22230, R05629, R06384 (no abstract; titles could go either way); R00301 (clustering over-sampling step inside a gene-function SVM, unclear whether synthetic); R07429 (SMOTE/GAN for federated weather classification: new scheme or comparison?); R04025 (neighbourhood cleaning + random oversampling, sent to unsure under clarification 3 although random oversampling only duplicates).
+- Includes that rest on an unexplained "improved/enhanced" claim: R05344 (enhanced DeepSMOTE), R06518 and R02982 (improved SMOTE), R08578 (Select-SMOTE may predate the paper).
+- Includes where oversampling is only one part of a larger method: R12428 (existing OREMG inside a dynamic ensemble, coded I1-hybrid), R18110 (MLLM augmentation for rare relations), R22187 (CTGAN with relaxed feature bounds and silhouette filtering, taken as a change to generation under clarification 3).
+- Excludes that could flip: R10660 (SMOTE-ENN called "improved", no change described), R19037 (plain cGAN augmentation for rare-disease images; compare R08436 DiGAN, sent to unsure), R11798 (k-medoids-SMOTE used as preprocessing), R14613 (Bag Over-Sampling in multi-instance data), R13536 and R18318 (no abstract, excluded on title).
+- Not settled by the codebook: R01477 SMOTE-BD, an exact distributed (Spark) SMOTE, included as I1-other; does a scalability-only reimplementation count as changing how SMOTE is applied?
+- E-LANG records that are otherwise in-scope oversamplers (Chinese): R13944, R03769, R06238. R05143 is a special-issue preface tagged front-matter-in-scope (Kim et al., oversampling-based augmentation for activity recognition).
+- Seven records with "en" metadata but Indonesian or Spanish titles were coded E1, not E-LANG (R20746, R20907, R13923, R17287, R17274, R11335, R21031); they are excluded either way.

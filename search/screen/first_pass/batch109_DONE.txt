@@ -1,0 +1,10 @@
+batch 109: 200 of 200 records done; include 23, unsure 20, exclude 157
+no records remain
+
+Look at first:
+- Borderline includes (medium): R05561 (GA-SVM tuning of SMOTE k and ratios; counted as "changes how SMOTE is applied"), R03664 (kernel-space SVM ensemble oversampling; "densifies majority class boundaries", so unclear it makes minority examples), R06664 (K-means++-SMOTE trained end to end with CNN-BiLSTM), R14198 (enhanced SMOTE is one of three innovations in an IDS framework), R06359 (improved DCGAN inside a fault-diagnosis pipeline), R09982 (SEDAC: CVAE on distilBERT vectors; new method or applied generator?), R02512 (WGAN then SMOTE as a two-stage generator).
+- Not settled by the codebook: R22032 (theory of SMOTE convergence) and R03956 (SOUL software library), both excluded as E-COMPARE with no exact code and may matter elsewhere in the survey; R08432 (Chinese-language article proposing an improved SMOTE, E-LANG but otherwise meets I1/I2).
+- Borderline excludes (medium): R06047 ("the improved SMOTE" plus cleaning in a CNN DGA paper), R02214 (title "Novel SMOTE Algorithm", abstract says it adopts SMOTE), R17811 (existing SMOTE-LOF plus feature selection in two orders), R08962 (deepfake "advanced data balancing strategy"), R07615 (unspecified synthetic augmentation, GAN keyword), R07414 (claims a "novel ensembled approach" but compares oversamplers).
+- Unsure, I2 not stated in the abstract (clarification 2): R18112, R17968, R18157, three Zenodo SMOTE-variant preprints that mention only theoretical analysis.
+- Unsure, existing generator plus cleaning (clarification 3): R13499, R00970, R02268, R15269, R13673, R10749. Unsure for another purpose (clarification 1): R14037 (long-tailed diffusion image synthesis), R10019 (sex-ratio matching in neuroimaging).
+- Other unsure: R03577, R05205, R06629, R10206, R22113, R08272 (cannot tell whether the resampling is new); R01320, R05664 (new resampling, but unclear whether it is synthetic); R22095 (no abstract, TrafficLDM).

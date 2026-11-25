@@ -1,0 +1,13 @@
+batch 072: 200 of 200 records done; include 28, unsure 18, exclude 154
+no records remain
+
+Records to look at first:
+- Low confidence: R08137 (include; ECG paper says it proposes new oversampling methods, mechanism not described); unsure R08120, R00256, R09594, R17616, R13876, R13757.
+- I2 not stated in the abstract (clarification 2, unsure): R15954 (BFC-SMOTE, gains credited to "theoretical derivation"), R13900 (DBST), R21574 (ASMOTE-TDC module).
+- Clarification 3, existing generator + existing cleaning/selection presented as new (unsure): R12108 (ADASYN+Tomek), R15543 (SMOTE+RUS), R15015 (SMOTE+Tomek), R10437 (CTGAN then SMOTEENN), R15184 ("improved SMOTE" + ENN).
+- Not settled by the codebook: R17646 (unchanged SMOTE on autoencoder latent vectors, claimed as the contribution; unsure); R08120 (TNNLS ensemble running an unspecified oversampler on an optimized feature view; neither E1 nor E-NOGEN fits; unsure). Sampling-ratio optimisation: R02171 include (GA sets the SMOTE/GAN mix), R00233 unsure (DOE per-class proportions, synthetic or not unstated), R03901 E1 (AutoML picks an existing sampler in a case study).
+- Where I drew the line on generators in domain papers: named off-the-shelf CTGAN applied = E1 (R08073, R08637); own generator presented as the contribution = include (R18039 CVAE, R13241 SMOTE-FraudGAN); undescribed "enhanced GAN" = unsure (R12617).
+- Borderline includes (medium): R19750 (improved SMOTE-ENN inside a structural-engineering paper), R00069 (kRNN minority-outlier removal before SMOTE), R07137 (ADASYN per majority partition + ensemble), R03311 (SMOTE + clustering-improved undersampling to build a dynamic-ensemble pool), R05691 and R04457 (combinations of existing oversamplers), R10541 (t-SNE latent space + Gaussian noise), R00401 (bootstrap boundary synthesis; may synthesize for both classes).
+- Language: E-LANG records with otherwise in-scope methods: R09040 (Chinese, VTO oversampler), R05025 (Chinese, CWGAN-GP). Full-text language worth confirming: R10846 (include, Korean society journal), R15015.
+- No abstract: R00148 unsure (Comput Biol Med 2010, "A learning method for the class imbalance problem with medical data sets"); R01296 excluded E-REVIEW (Springer book chapter "Data Level Preprocessing Methods").
+- Note: after a verbatim check of all quotes, the quote for R03311 was corrected in place in out/batch072_screened.csv (decision unchanged); all 200 quotes now match title/abstract text.

@@ -1,0 +1,30 @@
+{
+ "wins": {
+  "papers": 29,
+  "num": 1102,
+  "den": 1395,
+  "share": 79.0,
+  "lo": 73.3,
+  "hi": 84.5,
+  "per_paper_min": 28.6,
+  "per_paper_median": 81.8,
+  "per_paper_max": 100.0,
+  "draws": 10000,
+  "seed": 20261119
+ },
+ "no_row": {
+  "papers": 43,
+  "num": 201,
+  "den": 1034,
+  "share": 19.4,
+  "lo": 8.3,
+  "hi": 31.1,
+  "per_paper_min": 0.0,
+  "per_paper_median": 0.0,
+  "per_paper_max": 78.0,
+  "draws": 10000,
+  "seed": 20261119,
+  "papers_with_any": 18,
+  "top3_papers_sum": 123
+ }
+}

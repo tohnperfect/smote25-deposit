@@ -1,0 +1,26 @@
+paper,year,title,claimed_condition,label,evaluated_entries,baseline_provenance,comparison_rows,note
+AMDO,2018,AMDO: an Over-Sampling Technique for Multi-Class Imbalanced Problems,multi-class,aligned,17,B1,wrapper 17,
+CBHSID,2022,A Hybrid Sampling Approach for Imbalanced Binary and Multi-Class Data Using Clustering Analysis,multi-class,aligned,16,B1,primary 16,
+DSRBF / Static-SMOTE,2011,A dynamic over-sampling procedure based on sensitivity for multi-class problems,multi-class,partially supported,13,B2,wrapper 13,
+EMDO,2021,Evolutionary Mahalanobis Distance-Based Oversampling for Multi-Class Imbalanced Data Classification,multi-class,aligned,9,B4,wrapper 9,
+GDHS,2025,GDHS: An efficient hybrid sampling method for multi-class imbalanced data classification,multi-class,partially supported,20,B2,wrapper 20,
+GOIO,2025,GOIO: Generative Oversampling Approach to Class Imbalance and Overlap of Tabular Data,overlap,aligned,23,B1,primary 23,
+MC-CCR,2020,Combined Cleaning and Resampling algorithm for multi-class imbalanced data with label noise,multi-class,aligned,20,B4,wrapper 20,
+MC-CCR,2020,Combined Cleaning and Resampling algorithm for multi-class imbalanced data with label noise,noise,aligned,20,B4,wrapper 20,comparison rows are from the no-added-noise condition; the noise experiments are not part of the SMOTE pairs
+MC-RBO,2020,Radial-Based Oversampling for Multiclass Imbalanced Data Classification,multi-class,aligned,20,B4,wrapper 20,
+MKC-SMOTE,2024,MKC-SMOTE: A Novel Synthetic Oversampling Method for Multi-Class Imbalanced Data Classification,multi-class,aligned,21,B2,primary 21,
+MLOS,2025,Synthetic oversampling with Mahalanobis distance and local information for highly imbalanced class-overlapped data,high imbalance,aligned,16,B1,primary 16,
+MLOS,2025,Synthetic oversampling with Mahalanobis distance and local information for highly imbalanced class-overlapped data,overlap,aligned,16,B1,primary 16,
+NBU,2020,Neighbourhood-based undersampling approach for handling imbalanced and overlapped data,overlap,aligned,24,B2,primary 24,
+NROMM,2023,Noise-robust oversampling for imbalanced data classification,noise,insufficient evidence,20,B4,wrapper 20,
+OVO-SMOTE,2013,Analysing the classification of imbalanced data-sets with multiple classes: Binarization techniques and ad-hoc approaches,multi-class,aligned,24,B1,wrapper 24,
+RSMOTE,2021,RSMOTE: A self-adaptive robust SMOTE for imbalanced problems with label noise,noise,aligned,27,B2,primary 27,comparison rows are from the no-added-noise condition; the noise experiments are not part of the SMOTE pairs
+SCUT,2015,SCUT: Multi-Class Imbalanced Data Classification using SMOTE and Cluster-based Undersampling,multi-class,aligned,8,B2,primary 8,
+SHSampler,2022,Combating Mutuality with Difficulty Factors in Multi-class Imbalanced Data: A Similarity-based Hybrid Sampling,multi-class,insufficient evidence,20,B2,wrapper 20,
+SHSampler,2022,Combating Mutuality with Difficulty Factors in Multi-class Imbalanced Data: A Similarity-based Hybrid Sampling,difficulty factors,insufficient evidence,20,B2,wrapper 20,
+SMOM,2017,Synthetic minority oversampling technique for multiclass imbalance problems,multi-class,aligned,27,B1,primary 27,
+SMOTE-IPF,2015,SMOTE-IPF: Addressing the noisy and borderline examples problem in imbalanced classification by a re-sampling method with filtering,noise,aligned,9,B2,primary 9,comparison rows are from the no-added-noise condition; the noise experiments are not part of the SMOTE pairs
+SOUP,2019,Using information on class interrelations to improve classification of multiclass imbalanced data: A new resampling algorithm,multi-class,insufficient evidence,19,B1,wrapper 19,
+SPE,2020,Self-paced Ensemble for Highly Imbalanced Massive Data Classification,high imbalance,insufficient evidence,1,B1,primary 3,
+SPE,2020,Self-paced Ensemble for Highly Imbalanced Massive Data Classification,massive data,reported (no threshold),1,B1,primary 3,
+SVDD-WSMOTE,2022,SVDD-based weighted oversampling technique for imbalanced and overlapped dataset learning,overlap,aligned,24,B2,primary 24,

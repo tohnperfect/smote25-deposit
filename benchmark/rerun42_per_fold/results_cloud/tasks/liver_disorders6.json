@@ -1,0 +1,9 @@
+{
+ "task": "liver_disorders6",
+ "source": "author-kmeans",
+ "n": 224,
+ "n_min": 24,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 6
+}

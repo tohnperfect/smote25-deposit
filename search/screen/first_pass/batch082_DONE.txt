@@ -1,0 +1,11 @@
+batch 082: 200 of 200 records done; include 26, unsure 19, exclude 155
+
+Look at first:
+- Only low-confidence exclude: R16125 (no abstract; title names an attention random forest for small-sample wind turbine fault diagnosis, coded E-NOGEN). Low-confidence unsure: R16145, R02228, R18163, R13404, R03116, R01738, R16163, R09338, R11093.
+- Not settled by the codebook: does tuning SMOTE's oversampling amount or k count as "changing how SMOTE is applied"? R02465 (TH-SMOTE picks the rate by G-mean) and R03116 (swarm optimizer tunes rate and k) are both marked unsure.
+- New hybrid over/undersampling methods whose abstracts never say the oversampling is synthetic: R00980 (DBCS), R00466 (Neurocomputing 2014), R20717 (OHSEC). All unsure.
+- Oversamplers built for detection or segmentation rather than classification (clarification 1): R02563 (aerial vehicle detection), R04499 (medical image segmentation), R01738 (point cloud segmentation). All unsure.
+- I2 in doubt: R18033 CC-SMOTE gives only theory (unsure per clarification 2). R19249 FC-SMOTE was included because its abstract claims gains on constrained datasets, but it names none.
+- Borderline includes: R01125 SMOTE-GPU (I1-other; a GPU implementation, not a change to generation), R21854 (LLM counterfactual minority generation inside a stance-detection study), R07055 (LR-SMOTE is part of the method but may come from earlier work), R16462 (SUPERAUG noise injection plus SMOTE), R03457 (envelope network; synthetic generation is implied, not stated).
+- Language: R00152 was excluded only for E-LANG (Chinese) but is otherwise in scope (improved SMOTE neighbor selection plus NCR). R08260 (Chinese) and R15926 (Thai) were coded E1 because E1 also applies. R03946 (GBL-SMOTE, included) is in a Korean journal, so check the full-text language.
+- Metadata: R05299 has a title about perovskite solar cells but an abstract about credit card fraud; it is excluded either way. R14005 and R11148 are marked retracted (both E1).

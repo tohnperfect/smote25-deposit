@@ -1,0 +1,22 @@
+{
+ "data_key": "DGOT",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "imbalanced-learn"
+ ],
+ "crit": "Main benchmark: '22 real-world tabular datasets' (15 binary, 7 multi-class) that 'are publicly available, sourced from repositories including UCI [45] and the Python package imbalanced-learn [48]'; no reason is given for choosing these 22. Subsets: ablation on 'four representative datasets, comprising two binary classification datasets and two multi-classification datasets, covering both low and high IR cases'; hyperparameter sensitivity on 'coil_2000', 'which our method performs poorly'.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "both",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Table I (p.990) and Tables IV-VI are images in the PDF (read from a 250-300 dpi render; no text layer). crit_type 'own reason' rests only on the subset rationale for the ablation (p.994); for the 22 main datasets the paper gives no reason beyond saying they are real-world, tabular and publicly available (section 'A. Dataset Selection', p.989) - an adjudicator may prefer 'not stated'. 'Publicly available' is stated as a fact, not as a reason, so replicability was not coded. Binarisation: abalone_15 (>=15) and abalone_6 (<=6) are listed under UCI [45] with a selected target, so binarised by the authors; the imbalanced-learn sets (targets 8, 4, 5, A,B, <=4, Z, 19, 'minority') are the package's ready-made two-class versions. For the 7 multi-class sets # T is just 'minority' with no further definition. Only the code link is given; no modified data released. Name inconsistencies: Table I 'bank' / 'polish_bankruptcy' vs Tables IV-V 'bank_small' / 'bankruptcy'; 'page-blocks' (Table I) vs 'page_blocks' (text). The proposed-method column is headed 'BTDG' in Table V (typo; 'DGOT' in Table IV). Table V cells print mean±sd(rank); the tables do not say which of the five classifiers (XGBoost, KNN, DTC, Logit, RFC) the values belong to or whether they are averaged over classifiers. A CPD analysis also uses the UCI 'Default dataset [45]' (p.989). Supplementary material (Tables S2-S4) is referenced but not in the text file. Typo in Table I title 'DESCIPTION'. Side observation from general knowledge, not from the paper and not coded: nursery is listed with 12958 instances and 4 classes, which may mean a tiny class was dropped; the paper says nothing about this."
+}

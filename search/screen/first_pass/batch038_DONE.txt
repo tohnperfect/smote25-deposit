@@ -1,0 +1,26 @@
+batch 038: 200 of 200 records done; include 26, unsure 11, exclude 163
+no records remain
+
+Records to look at first
+- Low confidence: R10138 (rec 92, unsure U-other): entropy-based over-, under- and hybrid sampling for a product-expiry app. No evaluation is named, and the abstract does not say whether synthetic examples are generated.
+- Close calls among the includes:
+  - R08507 (rec 99, SMOTENN, I1-hybrid): SMOTE plus "intelligent undersampling" in one MapReduce pass. Under clarification 3 it could be unsure.
+  - R00484 (rec 20, BBO, I1-multiclass): binarization with boosting and oversampling. It is unclear whether the oversampling itself is new.
+  - R08682 (rec 51, GAN on BERT embeddings for spam), R01446 (rec 130, text-GAN URLs) and R11191 (rec 94, Deep-CTGAN with target handling): I1-generative, medium confidence. These are domain papers whose GAN may be a standard model.
+- GAN cases the codebook does not settle. I used one line:
+  - Paper says it proposes the GAN oversampling: include or unsure. R08342 (rec 74) is unsure.
+  - Paper only uses an existing GAN: E1. This covers R08336 (rec 17, CWGAN-GP), R03324 (rec 141, DCGAN) and R16419 (rec 71, CTGAN).
+  Please confirm that line.
+- Close calls among the excludes:
+  - R00107 (rec 6, E-COMPARE): complexity-based rules for when to apply oversampling.
+  - R02818 (rec 7, E-NOGEN): noise-robust boosting that is only paired with oversampling in experiments.
+  - R09862 (rec 134, E1): RCSMOTE is named in the title of the proposed method but is only "used" in the abstract.
+  - R06950 (rec 104, E1): CU-SMOTE may or may not be the authors' own.
+  - R14343 (rec 5, E2): audio source separation.
+  - R09704 (rec 49, E-NOGEN): sliding-window image representation.
+- Unsure under clarification 3 (existing generator plus existing step): R05252 (SMOTE-LOF), R06556 (SMOTE-RBU), R17676 (hybrid SMOTE/Tomek/ADASYN), R18919 (SMOTE-Tomek inside bagging).
+- Codebook gaps:
+  - Indonesian titles with English abstracts and language field "en" were coded on content (E1): R01671, R09070, R13925, R05800. R08377 has language field "ar" and an English abstract; also coded E1.
+  - R09813 is a thesis and R04947 is retracted; both excluded on content.
+  - Off-topic records R15877 and R03461 were coded E-NOGEN because no code fits exactly.
+  - R01160 (front matter) is tagged front-matter-in-scope for a listed paper that is a comparison.

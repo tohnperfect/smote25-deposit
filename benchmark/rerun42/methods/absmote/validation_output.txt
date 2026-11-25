@@ -1,0 +1,47 @@
+Abalone9-18 (KEEL): n=731, minority=42; nominal codes [True, False, False, False, False, False, False, False]
+
+A. Harness check on Table IV rows without AB-SMOTE (exact replay, seeds 1)
+  1.0 Original           paper TP=7 FP=9 recall 0.167 F 0.241 | replay TP=7 FP=9 recall 0.167 F 0.241 EXACT
+  2.0 SMOTE k=5          paper TP=32 FP=19 recall 0.381 F 0.474 | replay TP=32 FP=19 recall 0.381 F 0.474 EXACT
+
+B. Gen = |P'| at 100% (WEKA distances), M = 5 / M = 8
+  abalone9-18              paper 40/39 | text 18/22 | figure 18/22 | authors_code 40/39 | +index quirk 40/39
+  haberman (KEEL order)    paper 65/61 | text 45/62 | figure 45/50 | authors_code 67/61 | +index quirk 67/61
+  haberman (UCI order)     paper 65/61 | text 46/63 | figure 46/51 | authors_code 66/61 | +index quirk 65/61
+  flare-F                  paper 39/41 | text 28/30 | figure 28/30 | authors_code 39/41 | +index quirk 39/41
+  winequality-red-4        paper 53/53 | text 9/12 | figure 9/12 | authors_code 53/53 | +index quirk 53/53
+
+C. Exact replay of the authors' WEKA pipeline (seeds 1), Table IV
+  3.0 BSMOTE M=5 k=5     Gen 40 (paper 40) | paper TP=34 FP=18 0.415/0.507 | replay TP=27 FP=27 0.329/0.397 
+  3.1 BSMOTE M=5 k=8     Gen 40 (paper 40) | paper TP=34 FP=17 0.415/0.511 | replay TP=34 FP=17 0.415/0.511 EXACT
+  3.2 BSMOTE M=8 k=5     Gen 39 (paper 39) | paper TP=38 FP=26 0.469/0.524 | replay TP=41 FP=28 0.506/0.547 
+  3.3 BSMOTE M=8 k=8     Gen 39 (paper 39) | paper TP=32 FP=16 0.395/0.496 | replay TP=32 FP=16 0.395/0.496 EXACT
+  4.0 AB-SMOTE M=5 k=5   Gen 40 (paper 40) | paper TP=35 FP=25 0.427/0.493 | replay TP=25 FP=17 0.305/0.403 
+  4.1 AB-SMOTE M=5 k=8   Gen 40 (paper 40) | paper TP=36 FP=18 0.439/0.529 | replay TP=36 FP=18 0.439/0.529 EXACT
+  4.2 AB-SMOTE M=8 k=5   Gen 39 (paper 39) | paper TP=35 FP=19 0.432/0.519 | replay TP=31 FP=17 0.383/0.481 
+  4.3 AB-SMOTE M=8 k=8   Gen 39 (paper 39) | paper TP=40 FP=22 0.494/0.559 | replay TP=30 FP=26 0.370/0.438 
+  absmote.py (authors_code) vs replica: M=5: set True, neighbors True; M=8: set True, neighbors True
+
+D. absmote.ABSMOTE over 40 random states (paper protocol, CV seed 1); first line: the replica over Java seeds 1..40
+  4.0 AB-SMOTE M=5 k=5   replica      per_feature Gen 40 | recall 0.417 +- 0.048 (paper 0.427, 0.60 of runs <= paper) | F 0.493 +- 0.046 (paper 0.493, 0.53)
+  4.1 AB-SMOTE M=5 k=8   replica      per_feature Gen 40 | recall 0.424 +- 0.045 (paper 0.439, 0.72 of runs <= paper) | F 0.502 +- 0.046 (paper 0.529, 0.75)
+  4.2 AB-SMOTE M=8 k=5   replica      per_feature Gen 39 | recall 0.423 +- 0.032 (paper 0.432, 0.68 of runs <= paper) | F 0.494 +- 0.031 (paper 0.519, 0.80)
+  4.3 AB-SMOTE M=8 k=8   replica      per_feature Gen 39 | recall 0.416 +- 0.054 (paper 0.494, 0.95 of runs <= paper) | F 0.497 +- 0.054 (paper 0.559, 0.85)
+  4.0 AB-SMOTE M=5 k=5   authors_code per_feature Gen 40 | recall 0.430 +- 0.044 (paper 0.427, 0.47 of runs <= paper) | F 0.507 +- 0.035 (paper 0.493, 0.40)
+  4.1 AB-SMOTE M=5 k=8   authors_code per_feature Gen 40 | recall 0.412 +- 0.035 (paper 0.439, 0.80 of runs <= paper) | F 0.493 +- 0.029 (paper 0.529, 0.93)
+  4.2 AB-SMOTE M=8 k=5   authors_code per_feature Gen 39 | recall 0.427 +- 0.040 (paper 0.432, 0.65 of runs <= paper) | F 0.500 +- 0.038 (paper 0.519, 0.72)
+  4.3 AB-SMOTE M=8 k=8   authors_code per_feature Gen 39 | recall 0.424 +- 0.046 (paper 0.494, 0.97 of runs <= paper) | F 0.497 +- 0.037 (paper 0.559, 0.97)
+  4.0 AB-SMOTE M=5 k=5   authors_code scalar      Gen 40 | recall 0.438 +- 0.050 (paper 0.427, 0.53 of runs <= paper) | F 0.508 +- 0.050 (paper 0.493, 0.42)
+  4.1 AB-SMOTE M=5 k=8   authors_code scalar      Gen 40 | recall 0.434 +- 0.041 (paper 0.439, 0.57 of runs <= paper) | F 0.511 +- 0.039 (paper 0.529, 0.62)
+  4.2 AB-SMOTE M=8 k=5   authors_code scalar      Gen 39 | recall 0.437 +- 0.041 (paper 0.432, 0.40 of runs <= paper) | F 0.509 +- 0.042 (paper 0.519, 0.55)
+  4.3 AB-SMOTE M=8 k=8   authors_code scalar      Gen 39 | recall 0.431 +- 0.052 (paper 0.494, 0.93 of runs <= paper) | F 0.510 +- 0.047 (paper 0.559, 0.85)
+  4.0 AB-SMOTE M=5 k=5   text         per_feature Gen 18 | recall 0.409 +- 0.044 (paper 0.427, 0.70 of runs <= paper) | F 0.507 +- 0.038 (paper 0.493, 0.23)
+  4.1 AB-SMOTE M=5 k=8   text         per_feature Gen 18 | recall 0.396 +- 0.051 (paper 0.439, 0.78 of runs <= paper) | F 0.490 +- 0.049 (paper 0.529, 0.82)
+  4.2 AB-SMOTE M=8 k=5   text         per_feature Gen 22 | recall 0.431 +- 0.053 (paper 0.432, 0.45 of runs <= paper) | F 0.522 +- 0.044 (paper 0.519, 0.53)
+  4.3 AB-SMOTE M=8 k=8   text         per_feature Gen 22 | recall 0.436 +- 0.051 (paper 0.494, 0.80 of runs <= paper) | F 0.531 +- 0.044 (paper 0.559, 0.70)
+  4.0 AB-SMOTE M=5 k=5   text         scalar      Gen 18 | recall 0.405 +- 0.053 (paper 0.427, 0.65 of runs <= paper) | F 0.503 +- 0.049 (paper 0.493, 0.38)
+  4.1 AB-SMOTE M=5 k=8   text         scalar      Gen 18 | recall 0.417 +- 0.050 (paper 0.439, 0.78 of runs <= paper) | F 0.511 +- 0.045 (paper 0.529, 0.72)
+  4.2 AB-SMOTE M=8 k=5   text         scalar      Gen 22 | recall 0.462 +- 0.040 (paper 0.432, 0.15 of runs <= paper) | F 0.552 +- 0.037 (paper 0.519, 0.17)
+  4.3 AB-SMOTE M=8 k=8   text         scalar      Gen 22 | recall 0.443 +- 0.048 (paper 0.494, 0.82 of runs <= paper) | F 0.532 +- 0.043 (paper 0.559, 0.78)
+
+wrote validation_results.json (197.7 s)

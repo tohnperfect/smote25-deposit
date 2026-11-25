@@ -1,0 +1,10 @@
+batch 032: 200 of 200 records done; include 30, unsure 15, exclude 155
+no records remain
+
+Look at first:
+1. Off-the-shelf generator applied in a domain paper; the codebook does not say whether this is E1. Coded E1 when a named existing model is used: R11832 (rec 14, "so-called GANs", code smells; closest call, could be unsure), R03984 (DCGAN, SAR ships), R19386 (CT-GAN), R16442 (existing kNN mega-trend diffusion with grid search), R20218 (Stable Diffusion + LoRA, object detection rather than classification). Coded unsure when a "VAE-based method" or "CVAE framework" is the stated contribution: R07631, R21576.
+2. Includes based on inference or thin abstracts (all medium confidence): R00605 (MultiBoost; SMOTE appears only in keywords, oversampling inferred from "expanding the concept space"), R00804 (EMOTE; how it generates is unclear), R00092 (polynomial-fitting oversampling; results mentioned but no datasets named), R07518 (association rule + GAN hybrid), R01015 (SMOTE + new swarm-guided undersampling; generation unchanged), R09287 (SMOTE-GAN-VAE).
+3. Clarification 3 edge cases. Unsure: R10264 (SMOTE+GMM+ENN), R03950 (SMOTE+ENN), R17139 (SMOTE+Tomek), R11642 (Bi-SMOTE). New selection step + SMOTE: R00925 (active learning) and R00903 (hierarchical multi-label negative selection) unsure, R01015 included.
+4. Other unsure: R03732 and R01563 (oversampling proposed, but not clear whether it synthesizes or replicates), R22331 (SMOTE for EV station planning, clarification 1), R20219 and R03356 (I2 not stated), R21817 (COSTE applied or new?), R20608 (SMOTE per temporal subgraph).
+5. Medium-confidence excludes: R09411 (SMOTE-ENN in a VAE latent space), R04722 (Honeybee-SMOTE feature selection), R20177 (grid-searched SMOTE), R12043, R00934 and R04301 (E-NOGEN).
+6. Notes: R13597 is Chinese-language (E-LANG) but proposes an in-scope VAE generator. R21321 has an Indonesian title although its metadata says en. R03999 repeats R02191's abstract. No-abstract records excluded from the title as E1 (medium): R13476, R13783, R08359, R08268, R10259.

@@ -1,0 +1,11 @@
+batch 062: 200 of 200 records done; include 27, unsure 12, exclude 161
+
+Look at first:
+- Low confidence: R01396 (unsure; book chapter on neighbourhood-based minority example types, "generalizations of over-sampling" may or may not be a new generator).
+- Existing generative model used as the oversampler in a domain paper and presented as the method; included at medium confidence, but the codebook does not settle whether this is I1-generative or E1: R12267 (DDIM, IDS), R05652 (improved CWGAN-GP, wind turbine), R01745 (GAN, social bots), R02848 (GAN, bank churn), R21954 (TabDDPM-Med). Similar but framed as evaluation, so excluded: R21154 (VAE-GAN, E-COMPARE), R22060 (CGAN, E1).
+- Tuning SMOTE parameters or ratios counted as "changes how SMOTE is applied" (I1-other, medium): R01134, R15298. Contrast R06151, an empirical ratio study with no method (E-COMPARE).
+- Replication-type or unspecified oversampling, which the codebook does not settle: R10031 and R17401 excluded E-NOGEN (random or distribution resampling, no synthetic data); R07777 and R08771 unsure (nature of the oversampling not stated).
+- Other medium-confidence includes: R17673 (cluster purity-guided resampling in a bioinformatics tool), R00378 (IFSMOTE, unclear abstract), R04767 (sparse abstract), R13645 (Gaussian-noise augmentation), R18850 (object-level synthesis for segmentation), R04446 (SMOTE plus OVA).
+- Purpose other than classification: R00840 unsure U-other (SMOTE plus KS test for pump life estimation); R13812 excluded E2 (SMOTE-GN-Bootstrap augmentation for SVR), which could arguably be U-other under clarification 1.
+- Remaining unsure: R03288, R16659 (I2 not stated), R10753 (no abstract), R15615, R04629, R04647, R20848, R07801.
+- Notes: R03562 (Spark big-data oversampling taxonomy and library, E-COMPARE) is relevant to the survey; R07027 is AISTATS 2023 front matter tagged front-matter-in-scope (majority-guided VAE oversampling). No-abstract excludes: R19836, R03822, R12316, R02457. Coded E-LANG: R20902, R08126. Coded E1 despite non-English metadata or title: R21245, R16538, R15669, R14698. R08058 is a retracted record and R15707 is a thesis.

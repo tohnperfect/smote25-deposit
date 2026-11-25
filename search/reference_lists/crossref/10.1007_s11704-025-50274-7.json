@@ -1,0 +1,2914 @@
+{
+ "status": "ok",
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     20
+    ]
+   ],
+   "date-time": "2026-11-20T18:03:19Z",
+   "timestamp": 1795197799124,
+   "version": "4.10.3"
+  },
+  "reference-count": 285,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "11",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2026,
+       3,
+       7
+      ]
+     ],
+     "date-time": "2026-03-07T00:00:00Z",
+     "timestamp": 1772841600000
+    },
+    "content-version": "tdm",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   },
+   {
+    "start": {
+     "date-parts": [
+      [
+       2026,
+       3,
+       7
+      ]
+     ],
+     "date-time": "2026-03-07T00:00:00Z",
+     "timestamp": 1772841600000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0"
+   }
+  ],
+  "content-domain": {
+   "domain": [
+    "link.springer.com"
+   ],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "Front. Comput. Sci."
+  ],
+  "published-print": {
+   "date-parts": [
+    [
+     2026,
+     11
+    ]
+   ]
+  },
+  "DOI": "10.1007/s11704-025-50274-7",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2026,
+     3,
+     7
+    ]
+   ],
+   "date-time": "2026-03-07T04:37:38Z",
+   "timestamp": 1772858258000
+  },
+  "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 34,
+  "title": [
+   "A comprehensive survey on imbalanced data learning"
+  ],
+  "prefix": "10.1007",
+  "volume": "20",
+  "author": [
+   {
+    "given": "Xinyi",
+    "family": "Gao",
+    "sequence": "first",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Dongting",
+    "family": "Xie",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Yihang",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zhengren",
+    "family": "Wang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Chong",
+    "family": "Chen",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Conghui",
+    "family": "He",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Hongzhi",
+    "family": "Yin",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Wentao",
+    "family": "Zhang",
+    "sequence": "additional",
+    "affiliation": [],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "297",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     3,
+     7
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "issue": "9",
+    "key": "50274_CR1",
+    "doi-asserted-by": "publisher",
+    "first-page": "1263",
+    "DOI": "10.1109/TKDE.2008.239",
+    "volume": "21",
+    "author": "H He",
+    "year": "2009",
+    "unstructured": "He H, Garcia E A. Learning from imbalanced data. IEEE Transactions on Knowledge and Data Engineering, 2009, 21(9): 1263–1284",
+    "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+   },
+   {
+    "issue": "4",
+    "key": "50274_CR2",
+    "doi-asserted-by": "publisher",
+    "first-page": "221",
+    "DOI": "10.1007/s13748-016-0094-0",
+    "volume": "5",
+    "author": "B Krawczyk",
+    "year": "2016",
+    "unstructured": "Krawczyk B. Learning from imbalanced data: open challenges and future directions. Progress in Artificial Intelligence, 2016, 5(4): 221–232",
+    "journal-title": "Progress in Artificial Intelligence"
+   },
+   {
+    "key": "50274_CR3",
+    "doi-asserted-by": "publisher",
+    "first-page": "220",
+    "DOI": "10.1016/j.eswa.2016.12.035",
+    "volume": "73",
+    "author": "H Guo",
+    "year": "2017",
+    "unstructured": "Guo H, Li Y, Shang J, Gu M, Huang Y, Gong B. Learning from class-imbalanced data: review of methods and applications. Expert Systems with Applications, 2017, 73: 220–239",
+    "journal-title": "Expert Systems with Applications"
+   },
+   {
+    "issue": "9",
+    "key": "50274_CR4",
+    "doi-asserted-by": "publisher",
+    "first-page": "10795",
+    "DOI": "10.1109/TPAMI.2023.3268118",
+    "volume": "45",
+    "author": "Y Zhang",
+    "year": "2023",
+    "unstructured": "Zhang Y, Kang B, Hooi B, Yan S, Feng J. Deep long-tailed learning: a survey. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023, 45(9): 10795–10816",
+    "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+   },
+   {
+    "key": "50274_CR5",
+    "doi-asserted-by": "publisher",
+    "first-page": "321",
+    "DOI": "10.1613/jair.953",
+    "volume": "16",
+    "author": "N V Chawla",
+    "year": "2002",
+    "unstructured": "Chawla N V, Bowyer K W, Hall L O, Kegelmeyer W P. SMOTE: synthetic minority over-sampling technique. Journal of Artificial Intelligence Research, 2002, 16: 321–357",
+    "journal-title": "Journal of Artificial Intelligence Research"
+   },
+   {
+    "key": "50274_CR6",
+    "volume-title": "Proceedings of the 6th International Conference on Learning Representations",
+    "author": "H Zhang",
+    "year": "2018",
+    "unstructured": "Zhang H, Cisse M, Dauphin Y N, Lopez-Paz D. mixup: beyond empirical risk minimization. In: Proceedings of the 6th International Conference on Learning Representations. 2018"
+   },
+   {
+    "key": "50274_CR7",
+    "first-page": "634",
+    "volume-title": "Proceedings of the 20th International Florida Artificial Intelligence Research Society Conference",
+    "author": "J de la Calleja",
+    "year": "2007",
+    "unstructured": "de la Calleja J, Fuentes O. A distance-based over-sampling method for learning from imbalanced data sets. In: Proceedings of the 20th International Florida Artificial Intelligence Research Society Conference. 2007, 634–635"
+   },
+   {
+    "key": "50274_CR8",
+    "first-page": "389",
+    "volume-title": "Proceedings of the 8th Conference on Simulation, Modelling and Optimization",
+    "author": "V García",
+    "year": "2008",
+    "unstructured": "García V, Sánchez J S, Mollineda R A. On the use of surrounding neighbors for synthetic over-sampling of the minority class. In: Proceedings of the 8th Conference on Simulation, Modelling and Optimization. 2008, 389–394"
+   },
+   {
+    "key": "50274_CR9",
+    "first-page": "878",
+    "volume-title": "Proceedings of the International Conference on Intelligent Computing",
+    "author": "H Han",
+    "year": "2005",
+    "unstructured": "Han H, Wang W Y, Mao B H. Borderline-SMOTE: a new over-sampling method in imbalanced data sets learning. In: Proceedings of the International Conference on Intelligent Computing. 2005, 878–887"
+   },
+   {
+    "key": "50274_CR10",
+    "first-page": "1322",
+    "volume-title": "Proceedings of 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence)",
+    "author": "H He",
+    "year": "2008",
+    "unstructured": "He H, Bai Y, Garcia E A, Li S. ADASYN: adaptive synthetic sampling approach for imbalanced learning. In: Proceedings of 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence). 2008, 1322–1328"
+   },
+   {
+    "key": "50274_CR11",
+    "first-page": "13",
+    "volume-title": "Proceedings of the 2nd International Workshop on Computer Science and Engineering",
+    "author": "S Hu",
+    "year": "2009",
+    "unstructured": "Hu S, Liang Y, Ma L, He Y. MSMOTE: improving classification performance when training data is imbalanced. In: Proceedings of the 2nd International Workshop on Computer Science and Engineering. 2009, 13–17"
+   },
+   {
+    "key": "50274_CR12",
+    "doi-asserted-by": "publisher",
+    "first-page": "105662",
+    "DOI": "10.1016/j.asoc.2019.105662",
+    "volume": "83",
+    "author": "G Kovács",
+    "year": "2019",
+    "unstructured": "Kovács G. An empirical comparison and evaluation of minority oversampling techniques on a large number of imbalanced datasets. Applied Soft Computing, 2019, 83: 105662",
+    "journal-title": "Applied Soft Computing"
+   },
+   {
+    "key": "50274_CR13",
+    "first-page": "95",
+    "volume-title": "Proceedings of the European Conference on Computer Vision",
+    "author": "H P Chou",
+    "year": "2020",
+    "unstructured": "Chou H P, Chang S C, Pan J Y, Wei W, Juan D C. Remix: rebalanced mixup. In: Proceedings of the European Conference on Computer Vision. 2020, 95–110"
+   },
+   {
+    "key": "50274_CR14",
+    "doi-asserted-by": "publisher",
+    "first-page": "1082",
+    "DOI": "10.1109/ICDM50108.2020.00129",
+    "volume-title": "Proceedings of 2020 IEEE International Conference on Data Mining (ICDM)",
+    "author": "A Kabra",
+    "year": "2020",
+    "unstructured": "Kabra A, Chopra A, Puri N, Badjatiya P, Verma S, Gupta P, Krishnamurthy B. MixBoost: synthetic oversampling using boosted mixup for handling extreme imbalance. In: Proceedings of 2020 IEEE International Conference on Data Mining (ICDM). 2020, 1082–1087"
+   },
+   {
+    "key": "50274_CR15",
+    "first-page": "323",
+    "volume-title": "Proceedings of the 24th International Conference on Medical Image Computing and Computer Assisted Intervention",
+    "author": "A Galdran",
+    "year": "2021",
+    "unstructured": "Galdran A, Carneiro G, Gonzalez Ballester M A. Balanced-MixUp for highly imbalanced medical image classification. In: Proceedings of the 24th International Conference on Medical Image Computing and Computer Assisted Intervention. 2021, 323–333"
+   },
+   {
+    "key": "50274_CR16",
+    "first-page": "3224",
+    "volume-title": "Proceedings of 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "author": "S Zhang",
+    "year": "2022",
+    "unstructured": "Zhang S, Chen C, Zhang X, Peng S. Label-occurrence-balanced mixup for long-tailed recognition. In: Proceedings of 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2022, 3224–3228"
+   },
+   {
+    "key": "50274_CR17",
+    "first-page": "1127",
+    "volume-title": "Proceedings of the 41st Annual Conference of the IEEE Industrial Electronics Society",
+    "author": "J Mathew",
+    "year": "2015",
+    "unstructured": "Mathew J, Luo M, Pang C K, Chan H L. Kernel-based SMOTE for SVM classification of imbalanced datasets. In: Proceedings of the 41st Annual Conference of the IEEE Industrial Electronics Society. 2015, 1127–1132"
+   },
+   {
+    "key": "50274_CR18",
+    "doi-asserted-by": "publisher",
+    "first-page": "664",
+    "DOI": "10.1109/CEC.2015.7256954",
+    "volume-title": "Proceedings of 2015 IEEE Congress on Evolutionary Computation (CEC)",
+    "author": "B Tang",
+    "year": "2015",
+    "unstructured": "Tang B, He H. KernelADASYN: kernel based adaptive synthetic data generation for imbalanced learning. In: Proceedings of 2015 IEEE Congress on Evolutionary Computation (CEC). 2015, 664–671"
+   },
+   {
+    "key": "50274_CR19",
+    "first-page": "1",
+    "volume-title": "Proceedings of 2017 IEEE Symposium Series on Computational Intelligence (SSCI)",
+    "author": "Z Wan",
+    "year": "2017",
+    "unstructured": "Wan Z, Zhang Y, He H. Variational autoencoder based synthetic data generation for imbalanced learning. In: Proceedings of 2017 IEEE Symposium Series on Computational Intelligence (SSCI). 2017, 1–7"
+   },
+   {
+    "issue": "11",
+    "key": "50274_CR20",
+    "doi-asserted-by": "publisher",
+    "first-page": "139",
+    "DOI": "10.1145/3422622",
+    "volume": "63",
+    "author": "I Goodfellow",
+    "year": "2020",
+    "unstructured": "Goodfellow I, Pouget-Abadie J, Mirza M, Xu B, Warde-Farley D, Ozair S, Courville A, Bengio Y. Generative adversarial networks. Communications of the ACM, 2020, 63(11): 139–144",
+    "journal-title": "Communications of the ACM"
+   },
+   {
+    "key": "50274_CR21",
+    "doi-asserted-by": "publisher",
+    "first-page": "464",
+    "DOI": "10.1016/j.eswa.2017.09.030",
+    "volume": "91",
+    "author": "G Douzas",
+    "year": "2018",
+    "unstructured": "Douzas G, Bacao F. Effective data generation for imbalanced learning using conditional generative adversarial networks. Expert Systems with Applications, 2018, 91: 464–471",
+    "journal-title": "Expert Systems with Applications"
+   },
+   {
+    "key": "50274_CR22",
+    "unstructured": "Mirza M, Osindero S. Conditional generative adversarial nets. 2014, arXiv preprint arXiv: 1411.1784"
+   },
+   {
+    "key": "50274_CR23",
+    "unstructured": "Mariani G, Scheidegger F, Istrate R, Bekas C, Malossi C. BAGAN: data augmentation with balancing GAN. 2018, arXiv preprint arXiv: 1803.09655"
+   },
+   {
+    "key": "50274_CR24",
+    "doi-asserted-by": "publisher",
+    "first-page": "41",
+    "DOI": "10.1109/ICDM.2019.00014",
+    "volume-title": "Proceedings of 2019 IEEE International Conference on Data Mining (ICDM)",
+    "author": "Z Cai",
+    "year": "2019",
+    "unstructured": "Cai Z, Wang X, Zhou M, Xu J, Jing L. Supervised class distribution learning for GANs-based imbalanced classification. In: Proceedings of 2019 IEEE International Conference on Data Mining (ICDM). 2019, 41–50"
+   },
+   {
+    "key": "50274_CR25",
+    "doi-asserted-by": "publisher",
+    "first-page": "184",
+    "DOI": "10.1016/j.ins.2023.01.147",
+    "volume": "629",
+    "author": "H Ding",
+    "year": "2023",
+    "unstructured": "Ding H, Sun Y, Huang N, Shen Z, Wang Z, Iftekhar A, Cui X. RVGAN-TL: a generative adversarial networks and transfer learning-based hybrid approach for imbalanced data classification. Information Sciences, 2023, 629: 184–203",
+    "journal-title": "Information Sciences"
+   },
+   {
+    "key": "50274_CR26",
+    "volume-title": "Proceedings of the 6th International Conference on Learning Representations",
+    "author": "I O Tolstikhin",
+    "year": "2018",
+    "unstructured": "Tolstikhin I O, Bousquet O, Gelly S, Schölkopf B. Wasserstein auto-encoders. In: Proceedings of the 6th International Conference on Learning Representations. 2018"
+   },
+   {
+    "key": "50274_CR27",
+    "first-page": "10011",
+    "volume-title": "Proceedings of the 33rd AAAI Conference on Artificial Intelligence",
+    "author": "J Ren",
+    "year": "2019",
+    "unstructured": "Ren J, Liu Y, Liu J. EWGAN: entropy-based Wasserstein GAN for imbalanced learning. In: Proceedings of the 33rd AAAI Conference on Artificial Intelligence. 2019, 10011–10012"
+   },
+   {
+    "key": "50274_CR28",
+    "first-page": "214",
+    "volume-title": "Proceedings of the 34th International Conference on Machine Learning",
+    "author": "M Arjovsky",
+    "year": "2017",
+    "unstructured": "Arjovsky M, Chintala S, Bottou L. Wasserstein generative adversarial networks. In: Proceedings of the 34th International Conference on Machine Learning. 2017, 214–223"
+   },
+   {
+    "issue": "3",
+    "key": "50274_CR29",
+    "doi-asserted-by": "publisher",
+    "first-page": "3208",
+    "DOI": "10.1109/TII.2022.3182781",
+    "volume": "19",
+    "author": "W Li",
+    "year": "2023",
+    "unstructured": "Li W, Chen J, Cao J, Ma C, Wang J, Cui X, Chen P. EID-GAN: generative adversarial nets for extremely imbalanced data augmentation. IEEE Transactions on Industrial Informatics, 2023, 19(3): 3208–3218",
+    "journal-title": "IEEE Transactions on Industrial Informatics"
+   },
+   {
+    "key": "50274_CR30",
+    "doi-asserted-by": "publisher",
+    "first-page": "30655",
+    "DOI": "10.1109/ACCESS.2022.3158977",
+    "volume": "10",
+    "author": "A Sharma",
+    "year": "2022",
+    "unstructured": "Sharma A, Singh P K, Chandra R. SMOTified-GAN for class imbalanced pattern classification problems. IEEE Access, 2022, 10: 30655–30665",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "50274_CR31",
+    "first-page": "1695",
+    "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)",
+    "author": "S S Mullick",
+    "year": "2019",
+    "unstructured": "Mullick S S, Datta S, Das S. Generative adversarial minority oversampling. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV). 2019, 1695–1704"
+   },
+   {
+    "key": "50274_CR32",
+    "first-page": "574",
+    "volume-title": "Proceedings of the 34th International Conference on Neural Information Processing Systems",
+    "author": "J Ho",
+    "year": "2020",
+    "unstructured": "Ho J, Jain A, Abbeel P. Denoising diffusion probabilistic models. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 574"
+   },
+   {
+    "key": "50274_CR33",
+    "unstructured": "Zhou W, Wang W, Bao J, Chen D, Chen D, Yuan L, Li H. Semantic image synthesis via diffusion models. 2022, arXiv preprint arXiv: 2207.00050"
+   },
+   {
+    "key": "50274_CR34",
+    "first-page": "337",
+    "volume-title": "Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention",
+    "author": "H J Oh",
+    "year": "2023",
+    "unstructured": "Oh H J, Jeong W K. DiffMix: diffusion model-based data synthesis for nuclei segmentation and classification in imbalanced pathology image datasets. In: Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention. 2023, 337–345"
+   },
+   {
+    "key": "50274_CR35",
+    "doi-asserted-by": "publisher",
+    "first-page": "1576",
+    "DOI": "10.1145/3583780.3615134",
+    "volume-title": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management",
+    "author": "Q Liu",
+    "year": "2023",
+    "unstructured": "Liu Q, Yan F, Zhao X, Du Z, Guo H, Tang R, Tian F. Diffusion augmentation for sequential recommendation. In: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management. 2023, 1576–1586"
+   },
+   {
+    "issue": "4",
+    "key": "50274_CR36",
+    "doi-asserted-by": "publisher",
+    "first-page": "1456",
+    "DOI": "10.1007/s11263-024-02223-3",
+    "volume": "133",
+    "author": "J Xie",
+    "year": "2025",
+    "unstructured": "Xie J, Li W, Li X, Liu Z, Ong Y S, Loy C C. MosaicFusion: diffusion models as data augmenters for large vocabulary instance segmentation. International Journal of Computer Vision, 2025, 133(4): 1456–1475",
+    "journal-title": "International Journal of Computer Vision"
+   },
+   {
+    "key": "50274_CR37",
+    "unstructured": "Wang Z, Wei S, Huo X, Wang H. PoGDiff: product-of-Gaussians diffusion models for imbalanced text-to-image generation. 2025, arXiv preprint arXiv: 2502.08106"
+   },
+   {
+    "key": "50274_CR38",
+    "unstructured": "Yan D, Qi L, Hu V T, Yang M H, Tang M. Training class-imbalanced diffusion model via overlap optimization. 2024, arXiv preprint arXiv: 2402.10821"
+   },
+   {
+    "key": "50274_CR39",
+    "first-page": "2639",
+    "volume-title": "Proceedings of 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+    "author": "P Han",
+    "year": "2024",
+    "unstructured": "Han P, Ye C, Zhou J, Zhang J, Hong J, Li X. Latent-based diffusion model for long-tailed recognition. In: Proceedings of 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW). 2024, 2639–2648"
+   },
+   {
+    "key": "50274_CR40",
+    "doi-asserted-by": "publisher",
+    "first-page": "6298",
+    "DOI": "10.1109/TIP.2024.3485484",
+    "volume": "33",
+    "author": "C Xu",
+    "year": "2024",
+    "unstructured": "Xu C, Yan J, Yang M, Deng C. Rethinking noise sampling in class-imbalanced diffusion models. IEEE Transactions on Image Processing, 2024, 33: 6298–6308",
+    "journal-title": "IEEE Transactions on Image Processing"
+   },
+   {
+    "key": "50274_CR41",
+    "first-page": "179",
+    "volume-title": "Proceedings of the 14th International Conference on Machine Learning (ICML)",
+    "author": "M Kubat",
+    "year": "1997",
+    "unstructured": "Kubat M, Matwin S. Addressing the curse of imbalanced training sets: one-sided selection. In: Proceedings of the 14th International Conference on Machine Learning (ICML). 1997, 179–186"
+   },
+   {
+    "issue": "3",
+    "key": "50274_CR42",
+    "doi-asserted-by": "publisher",
+    "first-page": "515",
+    "DOI": "10.1109/TIT.1968.1054155",
+    "volume": "14",
+    "author": "P Hart",
+    "year": "1968",
+    "unstructured": "Hart P. The condensed nearest neighbor rule (Corresp.). IEEE Transactions on Information Theory, 1968, 14(3): 515–516",
+    "journal-title": "IEEE Transactions on Information Theory"
+   },
+   {
+    "issue": "6",
+    "key": "50274_CR43",
+    "doi-asserted-by": "publisher",
+    "first-page": "448",
+    "DOI": "10.1109/TSMC.1976.4309523",
+    "volume": "SMC-6",
+    "author": "I Tomek",
+    "year": "1976",
+    "unstructured": "Tomek I. An experiment with the edited nearest-neighbor rule. IEEE Transactions on Systems, Man, and Cybernetics, 1976, SMC-6(6): 448–452",
+    "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics"
+   },
+   {
+    "key": "50274_CR44",
+    "first-page": "63",
+    "volume-title": "Proceedings of the 8th Conference on Artificial Intelligence in Medicine in Europe",
+    "author": "J Laurikkala",
+    "year": "2001",
+    "unstructured": "Laurikkala J. Improving identification of difficult small classes by balancing class distribution. In: Proceedings of the 8th Conference on Artificial Intelligence in Medicine in Europe. 2001, 63–66"
+   },
+   {
+    "key": "50274_CR45",
+    "first-page": "986",
+    "volume-title": "Proceedings of the OTM Confederated International Conferences on the Move to Meaningful Internet Systems 2003",
+    "author": "G Guo",
+    "year": "2003",
+    "unstructured": "Guo G, Wang H, Bell D, Bi Y, Greer K. KNN model-based approach in classification. In: Proceedings of the OTM Confederated International Conferences on the Move to Meaningful Internet Systems 2003. 2003, 986–996"
+   },
+   {
+    "key": "50274_CR46",
+    "first-page": "1",
+    "volume-title": "Proceedings of Workshop on Learning from Imbalanced Datasets",
+    "author": "J Zhang",
+    "year": "2003",
+    "unstructured": "Zhang J, Mani I. kNN approach to unbalanced data distributions: a case study involving information extraction. In: Proceedings of Workshop on Learning from Imbalanced Datasets. 2003, 1–7"
+   },
+   {
+    "key": "50274_CR47",
+    "doi-asserted-by": "publisher",
+    "first-page": "47",
+    "DOI": "10.1016/j.ins.2019.08.062",
+    "volume": "509",
+    "author": "P Vuttipittayamongkol",
+    "year": "2020",
+    "unstructured": "Vuttipittayamongkol P, Elyan E. Neighbourhood-based undersampling approach for handling imbalanced and overlapped data. Information Sciences, 2020, 509: 47–70",
+    "journal-title": "Information Sciences"
+   },
+   {
+    "issue": "3",
+    "key": "50274_CR48",
+    "doi-asserted-by": "publisher",
+    "first-page": "5718",
+    "DOI": "10.1016/j.eswa.2008.06.108",
+    "volume": "36",
+    "author": "S J Yen",
+    "year": "2009",
+    "unstructured": "Yen S J, Lee Y S. Cluster-based under-sampling approaches for imbalanced data distributions. Expert Systems with Applications, 2009, 36(3): 5718–5727",
+    "journal-title": "Expert Systems with Applications"
+   },
+   {
+    "key": "50274_CR49",
+    "first-page": "400",
+    "volume-title": "Proceedings of the 2nd IEEE International Conference on Information and Financial Engineering",
+    "author": "Y P Zhang",
+    "year": "2010",
+    "unstructured": "Zhang Y P, Zhang L N, Wang Y C. Cluster-based majority under-sampling approaches for class imbalance learning. In: Proceedings of the 2nd IEEE International Conference on Information and Financial Engineering. 2010, 400–404"
+   },
+   {
+    "key": "50274_CR50",
+    "doi-asserted-by": "publisher",
+    "first-page": "17",
+    "DOI": "10.1016/j.ins.2017.05.008",
+    "volume": "409–410",
+    "author": "W C Lin",
+    "year": "2017",
+    "unstructured": "Lin W C, Tsai C F, Hu Y H, Jhang J S. Clustering-based undersampling in class-imbalanced data. Information Sciences, 2017, 409–410: 17–26",
+    "journal-title": "Information Sciences"
+   },
+   {
+    "issue": "11",
+    "key": "50274_CR51",
+    "doi-asserted-by": "publisher",
+    "first-page": "2402",
+    "DOI": "10.1109/TCYB.2014.2372060",
+    "volume": "45",
+    "author": "W W Y Ng",
+    "year": "2015",
+    "unstructured": "Ng W W Y, Hu J, Yeung D S, Yin S, Roli F. Diversified sensitivity-based undersampling for imbalance classification problems. IEEE Transactions on Cybernetics, 2015, 45(11): 2402–2412",
+    "journal-title": "IEEE Transactions on Cybernetics"
+   },
+   {
+    "key": "50274_CR52",
+    "doi-asserted-by": "publisher",
+    "first-page": "88",
+    "DOI": "10.1016/j.neucom.2017.03.011",
+    "volume": "243",
+    "author": "N Ofek",
+    "year": "2017",
+    "unstructured": "Ofek N, Rokach L, Stern R, Shabtai A. Fast-CBUS: a fast clustering-based undersampling method for addressing the class imbalance problem. Neurocomputing, 2017, 243: 88–102",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "issue": "3",
+    "key": "50274_CR53",
+    "doi-asserted-by": "publisher",
+    "first-page": "275",
+    "DOI": "10.1162/evco.2009.17.3.275",
+    "volume": "17",
+    "author": "S Garcia",
+    "year": "2009",
+    "unstructured": "Garcia S, Herrera F. Evolutionary undersampling for classification with imbalanced datasets: proposals and taxonomy. Evolutionary Computation, 2009, 17(3): 275–306",
+    "journal-title": "Evolutionary Computation"
+   },
+   {
+    "key": "50274_CR54",
+    "doi-asserted-by": "publisher",
+    "first-page": "715",
+    "DOI": "10.1109/CEC.2015.7256961",
+    "volume-title": "Proceedings of 2015 IEEE Congress on Evolutionary Computation (CEC)",
+    "author": "I Triguero",
+    "year": "2015",
+    "unstructured": "Triguero I, Galar M, Vluymans S, Cornelis C, Bustince H, Herrera F, Saeys Y. Evolutionary undersampling for imbalanced big data classification. In: Proceedings of 2015 IEEE Congress on Evolutionary Computation (CEC). 2015, 715–722"
+   },
+   {
+    "key": "50274_CR55",
+    "doi-asserted-by": "publisher",
+    "first-page": "107033",
+    "DOI": "10.1016/j.asoc.2020.107033",
+    "volume": "101",
+    "author": "H L Le",
+    "year": "2021",
+    "unstructured": "Le H L, Landa-Silva D, Galar M, Garcia S, Triguero I. EUSC: a clustering-based surrogate model to accelerate evolutionary undersampling in imbalanced classification. Applied Soft Computing, 2021, 101: 107033",
+    "journal-title": "Applied Soft Computing"
+   },
+   {
+    "issue": "12",
+    "key": "50274_CR56",
+    "doi-asserted-by": "publisher",
+    "first-page": "3460",
+    "DOI": "10.1016/j.patcog.2013.05.006",
+    "volume": "46",
+    "author": "M Galar",
+    "year": "2013",
+    "unstructured": "Galar M, Fernández A, Barrenechea E, Herrera F. EUSBoost: enhancing ensembles for highly imbalanced data-sets by evolutionary undersampling. Pattern Recognition, 2013, 46(12): 3460–3471",
+    "journal-title": "Pattern Recognition"
+   },
+   {
+    "key": "50274_CR57",
+    "doi-asserted-by": "publisher",
+    "first-page": "714",
+    "DOI": "10.1016/j.asoc.2015.08.060",
+    "volume": "38",
+    "author": "B Krawczyk",
+    "year": "2016",
+    "unstructured": "Krawczyk B, Galar M, Jelen L, Herrera F. Evolutionary undersampling boosting for imbalanced classification of breast cancer malignancy. Applied Soft Computing, 2016, 38: 714–726",
+    "journal-title": "Applied Soft Computing"
+   },
+   {
+    "key": "50274_CR58",
+    "first-page": "4707",
+    "volume-title": "Proceedings of the 33rd AAAI Conference on Artificial Intelligence",
+    "author": "M Peng",
+    "year": "2019",
+    "unstructured": "Peng M, Zhang Q, Xing X, Gui T, Huang X, Jiang Y G, Ding K, Chen Z. Trainable undersampling for class-imbalance learning. In: Proceedings of the 33rd AAAI Conference on Artificial Intelligence. 2019, 4707–4714"
+   },
+   {
+    "issue": "6",
+    "key": "50274_CR59",
+    "first-page": "6376",
+    "volume": "35",
+    "author": "Y Yan",
+    "year": "2023",
+    "unstructured": "Yan Y, Zhu Y, Liu R, Zhang Y, Zhang Y, Zhang L. Spatial distribution-based imbalanced undersampling. IEEE Transactions on Knowledge and Data Engineering, 2023, 35(6): 6376–6391",
+    "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+   },
+   {
+    "key": "50274_CR60",
+    "doi-asserted-by": "publisher",
+    "first-page": "136",
+    "DOI": "10.1016/j.neucom.2021.01.033",
+    "volume": "436",
+    "author": "J Hoyos-Osorio",
+    "year": "2021",
+    "unstructured": "Hoyos-Osorio J, Alvarez-Meza A, Daza-Santacoloma G, Orozco-Gutierrez A, Castellanos-Dominguez G. Relevant information undersampling to support imbalanced data classification. Neurocomputing, 2021, 436: 136–146",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "issue": "12",
+    "key": "50274_CR61",
+    "doi-asserted-by": "publisher",
+    "first-page": "5178",
+    "DOI": "10.1109/TNNLS.2020.2964585",
+    "volume": "31",
+    "author": "Z Wang",
+    "year": "2020",
+    "unstructured": "Wang Z, Cao C, Zhu Y. Entropy and confidence-based undersampling boosting random forests for imbalanced problems. IEEE Transactions on Neural Networks and Learning Systems, 2020, 31(12): 5178–5191",
+    "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+   },
+   {
+    "issue": "1",
+    "key": "50274_CR62",
+    "doi-asserted-by": "publisher",
+    "first-page": "20",
+    "DOI": "10.1145/1007730.1007735",
+    "volume": "6",
+    "author": "G E A P A Batista",
+    "year": "2004",
+    "unstructured": "Batista G E A P A, Prati R C, Monard M C. A study of the behavior of several methods for balancing machine learning training data. ACM SIGKDD Explorations Newsletter, 2004, 6(1): 20–29",
+    "journal-title": "ACM SIGKDD Explorations Newsletter"
+   },
+   {
+    "issue": "5",
+    "key": "50274_CR63",
+    "doi-asserted-by": "publisher",
+    "first-page": "055101",
+    "DOI": "10.1063/5.0008935",
+    "volume": "91",
+    "author": "S Feng",
+    "year": "2020",
+    "unstructured": "Feng S, Zhao C, Fu P. A cluster-based hybrid sampling approach for imbalanced data classification. Review of Scientific Instruments, 2020, 91(5): 055101",
+    "journal-title": "Review of Scientific Instruments"
+   },
+   {
+    "issue": "2",
+    "key": "50274_CR64",
+    "doi-asserted-by": "publisher",
+    "first-page": "245",
+    "DOI": "10.1007/s10115-011-0465-6",
+    "volume": "33",
+    "author": "E Ramentol",
+    "year": "2012",
+    "unstructured": "Ramentol E, Caballero Y, Bello R, Herrera F. SMOTE-RSB*: a hybrid preprocessing approach based on oversampling and undersampling for high imbalanced data-sets using SMOTE and rough sets theory. Knowledge and Information Systems, 2012, 33(2): 245–265",
+    "journal-title": "Knowledge and Information Systems"
+   },
+   {
+    "key": "50274_CR65",
+    "doi-asserted-by": "publisher",
+    "first-page": "184",
+    "DOI": "10.1016/j.ins.2014.08.051",
+    "volume": "291",
+    "author": "J A Sáez",
+    "year": "2015",
+    "unstructured": "Sáez J A, Luengo J, Stefanowski J, Herrera F. SMOTE-IPF: addressing the noisy and borderline examples problem in imbalanced classification by a re-sampling method with filtering. Information Sciences, 2015, 291: 184–203",
+    "journal-title": "Information Sciences"
+   },
+   {
+    "key": "50274_CR66",
+    "doi-asserted-by": "publisher",
+    "first-page": "113660",
+    "DOI": "10.1016/j.eswa.2020.113660",
+    "volume": "160",
+    "author": "X Gao",
+    "year": "2020",
+    "unstructured": "Gao X, Ren B, Zhang H, Sun B, Li J, Xu J, He Y, Li K. An ensemble imbalanced classification method based on model dynamic selection driven by data partition hybrid sampling. Expert Systems with Applications, 2020, 160: 113660",
+    "journal-title": "Expert Systems with Applications"
+   },
+   {
+    "key": "50274_CR67",
+    "first-page": "9716",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "B Zhou",
+    "year": "2020",
+    "unstructured": "Zhou B, Cui Q, Wei X S, Chen Z M. BBN: bilateral-branch network with cumulative learning for long-tailed visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 9716–9725"
+   },
+   {
+    "key": "50274_CR68",
+    "first-page": "728",
+    "volume-title": "Proceedings of the 16th European Conference on Computer Vision",
+    "author": "T Wang",
+    "year": "2020",
+    "unstructured": "Wang T, Li Y, Kang B, Li J, Liew J, Tang S, Hoi S, Feng J. The devil is in classification: a simple framework for long-tail instance segmentation. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 728–744"
+   },
+   {
+    "key": "50274_CR69",
+    "first-page": "15084",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "H Guo",
+    "year": "2021",
+    "unstructured": "Guo H, Wang S. Long-tailed multi-label visual recognition by collaborative training on uniform and re-balanced samplings. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 15084–15093"
+   },
+   {
+    "key": "50274_CR70",
+    "first-page": "10988",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "Y Li",
+    "year": "2020",
+    "unstructured": "Li Y, Wang T, Kang B, Tang S, Wang C, Li J, Feng J. Overcoming classifier imbalance for long-tail object detection with balanced group softmax. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 10988–10997"
+   },
+   {
+    "key": "50274_CR71",
+    "first-page": "247",
+    "volume-title": "Proceedings of the 16th European Conference on Computer Vision",
+    "author": "L Xiang",
+    "year": "2020",
+    "unstructured": "Xiang L, Ding G, Han J. Learning from multiple experts: self-paced knowledge distillation for long-tailed classification. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 247–263"
+   },
+   {
+    "key": "50274_CR72",
+    "first-page": "112",
+    "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "author": "J Cai",
+    "year": "2021",
+    "unstructured": "Cai J, Wang Y, Hwang J N. ACE: ally complementary experts for solving long-tailed recognition in one-shot. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 112–121"
+   },
+   {
+    "issue": "3",
+    "key": "50274_CR73",
+    "first-page": "3695",
+    "volume": "45",
+    "author": "J Cui",
+    "year": "2023",
+    "unstructured": "Cui J, Liu S, Tian Z, Zhong Z, Jia J. ResLT: residual learning for long-tailed recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023, 45(3): 3695–3706",
+    "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+   },
+   {
+    "key": "50274_CR74",
+    "first-page": "2470",
+    "volume-title": "Proceedings of the 36th International Conference on Neural Information Processing Systems",
+    "author": "Y Zhang",
+    "year": "2022",
+    "unstructured": "Zhang Y, Hooi B, Hong L, Feng J. Self-supervised aggregation of diverse experts for test-agnostic long-tailed recognition. In: Proceedings of the 36th International Conference on Neural Information Processing Systems. 2022, 2470"
+   },
+   {
+    "key": "50274_CR75",
+    "doi-asserted-by": "publisher",
+    "first-page": "108114",
+    "DOI": "10.1016/j.patcog.2021.108114",
+    "volume": "120",
+    "author": "M Koziarski",
+    "year": "2021",
+    "unstructured": "Koziarski M. Potential Anchoring for imbalanced data classification. Pattern Recognition, 2021, 120: 108114",
+    "journal-title": "Pattern Recognition"
+   },
+   {
+    "key": "50274_CR76",
+    "first-page": "38",
+    "volume-title": "Proceedings of the 17th European Conference on Computer Vision",
+    "author": "Y Xu",
+    "year": "2022",
+    "unstructured": "Xu Y, Li Y L, Li J, Lu C. Constructing balance from imbalance for long-tailed image recognition. In: Proceedings of the 17th European Conference on Computer Vision. 2022, 38–56"
+   },
+   {
+    "key": "50274_CR77",
+    "doi-asserted-by": "publisher",
+    "first-page": "333",
+    "DOI": "10.1016/j.neucom.2020.08.060",
+    "volume": "417",
+    "author": "Y Zhu",
+    "year": "2020",
+    "unstructured": "Zhu Y, Yan Y, Zhang Y, Zhang Y. EHSO: evolutionary hybrid sampling in overlapping scenarios for imbalanced learning. Neurocomputing, 2020, 417: 333–346",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "50274_CR78",
+    "first-page": "112",
+    "volume-title": "Proceedings of 2018 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)",
+    "author": "S Pouyanfar",
+    "year": "2018",
+    "unstructured": "Pouyanfar S, Tao Y, Mohan A, Tian H, Kaseb A S, Gauen K, Dailey R, Aghajanzadeh S, Lu Y H, Chen S C, Shyu M L. Dynamic sampling in convolutional neural networks for imbalanced data classification. In: Proceedings of 2018 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR). 2018, 112–117"
+   },
+   {
+    "key": "50274_CR79",
+    "first-page": "1618",
+    "volume-title": "Proceedings of the 34th International Conference on Neural Information Processing Systems",
+    "author": "Y Yang",
+    "year": "2020",
+    "unstructured": "Yang Y, Xu Z. Rethinking the value of labels for improving class-imbalanced learning. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 1618"
+   },
+   {
+    "key": "50274_CR80",
+    "first-page": "10852",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "C Wei",
+    "year": "2021",
+    "unstructured": "Wei C, Sohn K, Mellina C, Yuille A, Yang F. CReST: a class-rebalancing self-training framework for imbalanced semi-supervised learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 10852–10861"
+   },
+   {
+    "key": "50274_CR81",
+    "first-page": "4090",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+    "author": "Z Lai",
+    "year": "2022",
+    "unstructured": "Lai Z, Wang C, Cheung S C, Chuah C N. SaR: self-adaptive refinement on pseudo labels for multiclass-imbalanced semi-supervised learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW). 2022, 4090–4099"
+   },
+   {
+    "key": "50274_CR82",
+    "first-page": "9776",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "Y Oh",
+    "year": "2022",
+    "unstructured": "Oh Y, Kim D J, Kweon I S. DASO: distribution-aware semantics-oriented pseudo-label for imbalanced semi-supervised learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022, 9776–9786"
+   },
+   {
+    "key": "50274_CR83",
+    "doi-asserted-by": "publisher",
+    "first-page": "823",
+    "DOI": "10.1145/1277741.1277927",
+    "volume-title": "Proceedings of the 30th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "author": "S Ertekin",
+    "year": "2007",
+    "unstructured": "Ertekin S, Huang J, Giles C L. Active learning for class imbalance problem. In: Proceedings of the 30th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval. 2007, 823–824"
+   },
+   {
+    "key": "50274_CR84",
+    "doi-asserted-by": "publisher",
+    "first-page": "107385",
+    "DOI": "10.1016/j.knosys.2021.107385",
+    "volume": "231",
+    "author": "J Qin",
+    "year": "2021",
+    "unstructured": "Qin J, Wang C, Zou Q, Sun Y, Chen B. Active learning with extreme learning machine for online imbalanced multiclass classification. Knowledge-Based Systems, 2021, 231: 107385",
+    "journal-title": "Knowledge-Based Systems"
+   },
+   {
+    "key": "50274_CR85",
+    "first-page": "783",
+    "volume-title": "Proceedings of 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL)",
+    "author": "J Zhu",
+    "year": "2007",
+    "unstructured": "Zhu J, Hovy E. Active learning for word sense disambiguation with methods for addressing the class imbalance problem. In: Proceedings of 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL). 2007, 783–790"
+   },
+   {
+    "key": "50274_CR86",
+    "first-page": "9920",
+    "volume-title": "Proceedings of the 25th International Conference on Pattern Recognition (ICPR)",
+    "author": "U Aggarwal",
+    "year": "2021",
+    "unstructured": "Aggarwal U, Popescu A, Hudelot C. Minority class oriented active learning for imbalanced datasets. In: Proceedings of the 25th International Conference on Pattern Recognition (ICPR). 2021, 9920–9927"
+   },
+   {
+    "key": "50274_CR87",
+    "doi-asserted-by": "publisher",
+    "first-page": "106778",
+    "DOI": "10.1016/j.knosys.2021.106778",
+    "volume": "215",
+    "author": "W Liu",
+    "year": "2021",
+    "unstructured": "Liu W, Zhang H, Ding Z, Liu Q, Zhu C. A comprehensive active learning method for multiclass imbalanced data streams with concept drift. Knowledge-Based Systems, 2021, 215: 106778",
+    "journal-title": "Knowledge-Based Systems"
+   },
+   {
+    "key": "50274_CR88",
+    "first-page": "218",
+    "volume-title": "Proceedings of the 12th International Conference on Machine Learning and Computing",
+    "author": "H Dong",
+    "year": "2020",
+    "unstructured": "Dong H, Zhu B, Zhang J. A cost-sensitive active learning for imbalance data with uncertainty and diversity combination. In: Proceedings of the 12th International Conference on Machine Learning and Computing. 2020, 218–224"
+   },
+   {
+    "key": "50274_CR89",
+    "doi-asserted-by": "publisher",
+    "first-page": "109817",
+    "DOI": "10.1016/j.knosys.2022.109817",
+    "volume": "257",
+    "author": "Q Jin",
+    "year": "2022",
+    "unstructured": "Jin Q, Yuan M, Wang H, Wang M, Song Z. Deep active learning models for imbalanced image classification. Knowledge-Based Systems, 2022, 257: 109817",
+    "journal-title": "Knowledge-Based Systems"
+   },
+   {
+    "key": "50274_CR90",
+    "first-page": "405",
+    "volume-title": "Proceedings of the 11th International Conference on Data Mining Workshops",
+    "author": "J H Fu",
+    "year": "2011",
+    "unstructured": "Fu J H, Lee S L. Certainty-enhanced active learning for improving imbalanced data classification. In: Proceedings of the 11th International Conference on Data Mining Workshops. 2011, 405–412"
+   },
+   {
+    "key": "50274_CR91",
+    "doi-asserted-by": "publisher",
+    "first-page": "1422",
+    "DOI": "10.1109/ICDM.2018.00196",
+    "volume-title": "Proceedings of 2018 IEEE International Conference on Data Mining (ICDM)",
+    "author": "C Zhang",
+    "year": "2018",
+    "unstructured": "Zhang C, Tavanapong W, Kijkul G, Wong J, de Groen P C, Oh J. Similarity-based active learning for image classification under class imbalance. In: Proceedings of 2018 IEEE International Conference on Data Mining (ICDM). 2018, 1422–1427"
+   },
+   {
+    "issue": "1",
+    "key": "50274_CR92",
+    "first-page": "369",
+    "volume": "2",
+    "author": "P D Turney",
+    "year": "1994",
+    "unstructured": "Turney P D. Cost-sensitive classification: empirical evaluation of a hybrid genetic decision tree induction algorithm. Journal of Artificial Intelligence Research, 1994, 2(1): 369–409",
+    "journal-title": "Journal of Artificial Intelligence Research"
+   },
+   {
+    "key": "50274_CR93",
+    "first-page": "476",
+    "volume-title": "Proceedings of the 21st National Conference on Artificial Intelligence - Volume 1",
+    "author": "V S Sheng",
+    "year": "2006",
+    "unstructured": "Sheng V S, Ling C X. Thresholding for making classifiers cost-sensitive. In: Proceedings of the 21st National Conference on Artificial Intelligence - Volume 1. 2006, 476–481"
+   },
+   {
+    "key": "50274_CR94",
+    "first-page": "155",
+    "volume-title": "Proceedings of the 5th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+    "author": "P Domingos",
+    "year": "1999",
+    "unstructured": "Domingos P. MetaCost: a general method for making classifiers cost-sensitive. In: Proceedings of the 5th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 1999, 155–164"
+   },
+   {
+    "issue": "1",
+    "key": "50274_CR95",
+    "doi-asserted-by": "publisher",
+    "first-page": "63",
+    "DOI": "10.1109/TKDE.2006.17",
+    "volume": "18",
+    "author": "Z H Zhou",
+    "year": "2006",
+    "unstructured": "Zhou Z H, Liu X Y. Training cost-sensitive neural networks with methods addressing the class imbalance problem. IEEE Transactions on Knowledge and Data Engineering, 2006, 18(1): 63–77",
+    "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+   },
+   {
+    "issue": "3",
+    "key": "50274_CR96",
+    "doi-asserted-by": "publisher",
+    "first-page": "232",
+    "DOI": "10.1111/j.1467-8640.2010.00358.x",
+    "volume": "26",
+    "author": "Z H Zhou",
+    "year": "2010",
+    "unstructured": "Zhou Z H, Liu X Y. On multi-class cost-sensitive learning. Computational Intelligence, 2010, 26(3): 232–257",
+    "journal-title": "Computational Intelligence"
+   },
+   {
+    "issue": "6",
+    "key": "50274_CR97",
+    "doi-asserted-by": "publisher",
+    "first-page": "888",
+    "DOI": "10.1109/TNNLS.2013.2246188",
+    "volume": "24",
+    "author": "C L Castro",
+    "year": "2013",
+    "unstructured": "Castro C L, Braga A P. Novel cost-sensitive approach to improve the multilayer perceptron performance on imbalanced data. IEEE Transactions on Neural Networks and Learning Systems, 2013, 24(6): 888–899",
+    "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+   },
+   {
+    "key": "50274_CR98",
+    "first-page": "9260",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "Y Cui",
+    "year": "2019",
+    "unstructured": "Cui Y, Jia M, Lin T Y, Song Y, Belongie S. Class-balanced loss based on effective number of samples. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019, 9260–9269"
+   },
+   {
+    "key": "50274_CR99",
+    "first-page": "2999",
+    "volume-title": "Proceedings of the IEEE International Conference on Computer Vision",
+    "author": "T Y Lin",
+    "year": "2017",
+    "unstructured": "Lin T Y, Goyal P, Girshick R, He K, Dollar P. Focal loss for dense object detection. In: Proceedings of the IEEE International Conference on Computer Vision. 2017, 2999–3007"
+   },
+   {
+    "key": "50274_CR100",
+    "first-page": "715",
+    "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "author": "S Park",
+    "year": "2021",
+    "unstructured": "Park S, Lim J, Jeon Y, Choi J Y. Influence-balanced loss for imbalanced visual classification. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 715–724"
+   },
+   {
+    "key": "50274_CR101",
+    "first-page": "351",
+    "volume-title": "Proceedings of the 34th International Conference on Neural Information Processing Systems",
+    "author": "J Ren",
+    "year": "2020",
+    "unstructured": "Ren J, Yu C, Sheng S, Ma X, Zhao H, Yi S, Li H. Balanced meta-softmax for long-tailed visual recognition. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 351"
+   },
+   {
+    "key": "50274_CR102",
+    "first-page": "1",
+    "volume-title": "Proceedings of 2013 International Joint Conference on Neural Networks (IJCNN)",
+    "author": "P Cao",
+    "year": "2013",
+    "unstructured": "Cao P, Li B, Zhao D, Zaiane O. A novel cost sensitive neural network ensemble for multiclass imbalance data learning. In: Proceedings of 2013 International Joint Conference on Neural Networks (IJCNN). 2013, 1–8"
+   },
+   {
+    "issue": "1",
+    "key": "50274_CR103",
+    "doi-asserted-by": "publisher",
+    "first-page": "109",
+    "DOI": "10.1109/TNNLS.2018.2832648",
+    "volume": "30",
+    "author": "C Zhang",
+    "year": "2019",
+    "unstructured": "Zhang C, Tan K C, Li H, Hong G S. A cost-sensitive deep belief network for imbalanced classification. IEEE Transactions on Neural Networks and Learning Systems, 2019, 30(1): 109–122",
+    "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+   },
+   {
+    "key": "50274_CR104",
+    "first-page": "1080",
+    "volume-title": "Proceedings of the 35th International Conference on Neural Information Processing Systems",
+    "author": "C Chen",
+    "year": "2021",
+    "unstructured": "Chen C, Zheng S, Chen X, Dong E, Liu X, Liu H, Dou D. Generalized data weighting via class-level gradient manipulation. In: Proceedings of the 35th International Conference on Neural Information Processing Systems. 2021, 1080"
+   },
+   {
+    "key": "50274_CR105",
+    "first-page": "11659",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "J Tan",
+    "year": "2020",
+    "unstructured": "Tan J, Wang C, Li B, Li Q, Ouyang W, Yin C, Yan J. Equalization loss for long-tailed object recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 11659–11668"
+   },
+   {
+    "key": "50274_CR106",
+    "first-page": "1685",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "J Tan",
+    "year": "2021",
+    "unstructured": "Tan J, Lu X, Zhang G, Yin C, Li Q. Equalization loss v2: a new gradient balance approach for long-tailed object detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 1685–1694"
+   },
+   {
+    "key": "50274_CR107",
+    "first-page": "1850",
+    "volume-title": "Proceedings of the 36th International Conference on Neural Information Processing Systems",
+    "author": "D Guo",
+    "year": "2022",
+    "unstructured": "Guo D, Li Z, Zheng M, Zhao H, Zhou M, Zha H. Learning to re-weight examples with optimal transport for imbalanced classification. In: Proceedings of the 36th International Conference on Neural Information Processing Systems. 2022, 1850"
+   },
+   {
+    "key": "50274_CR108",
+    "first-page": "4331",
+    "volume-title": "Proceedings of the 35th International Conference on Machine Learning",
+    "author": "M Ren",
+    "year": "2018",
+    "unstructured": "Ren M, Zeng W, Yang B, Urtasun R. Learning to reweight examples for robust deep learning. In: Proceedings of the 35th International Conference on Machine Learning. 2018, 4331–4340"
+   },
+   {
+    "key": "50274_CR109",
+    "first-page": "172",
+    "volume-title": "Proceedings of the 33rd International Conference on Neural Information Processing Systems",
+    "author": "J Shu",
+    "year": "2019",
+    "unstructured": "Shu J, Xie Q, Yi L, Zhao Q, Zhou S, Xu Z, Meng D. Meta-weight-net: learning an explicit mapping for sample weighting. In: Proceedings of the 33rd International Conference on Neural Information Processing Systems. 2019, 172"
+   },
+   {
+    "issue": "10",
+    "key": "50274_CR110",
+    "doi-asserted-by": "publisher",
+    "first-page": "2644",
+    "DOI": "10.1109/TCSVT.2017.2711015",
+    "volume": "28",
+    "author": "Y Duan",
+    "year": "2018",
+    "unstructured": "Duan Y, Lu J, Feng J, Zhou J. Deep localized metric learning. IEEE Transactions on Circuits and Systems for Video Technology, 2018, 28(10): 2644–2656",
+    "journal-title": "IEEE Transactions on Circuits and Systems for Video Technology"
+   },
+   {
+    "key": "50274_CR111",
+    "first-page": "5375",
+    "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "author": "C Huang",
+    "year": "2016",
+    "unstructured": "Huang C, Li Y, Loy C C, Tang X. Learning deep representation for imbalanced classification. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016, 5375–5384"
+   },
+   {
+    "key": "50274_CR112",
+    "first-page": "1869",
+    "volume-title": "Proceedings of the IEEE International Conference on Computer Vision",
+    "author": "Q Dong",
+    "year": "2017",
+    "unstructured": "Dong Q, Gong S, Zhu X. Class rectification hard mining for imbalanced deep learning. In: Proceedings of the IEEE International Conference on Computer Vision. 2017, 1869–1878"
+   },
+   {
+    "key": "50274_CR113",
+    "first-page": "2805",
+    "volume-title": "Proceedings of the 27th International Joint Conference on Artificial Intelligence (IJCAI)",
+    "author": "N Wang",
+    "year": "2018",
+    "unstructured": "Wang N, Zhao X, Jiang Y, Gao Y, BNRist K. Iterative metric learning for imbalance data classification. In: Proceedings of the 27th International Joint Conference on Artificial Intelligence (IJCAI). 2018, 2805–2811"
+   },
+   {
+    "key": "50274_CR114",
+    "doi-asserted-by": "publisher",
+    "first-page": "107932",
+    "DOI": "10.1016/j.knosys.2021.107932",
+    "volume": "238",
+    "author": "X Gui",
+    "year": "2022",
+    "unstructured": "Gui X, Zhang J, Tang J, Xu H, Zou J, Fan S. A quadruplet deep metric learning model for imbalanced time-series fault diagnosis. Knowledge-Based Systems, 2022, 238: 107932",
+    "journal-title": "Knowledge-Based Systems"
+   },
+   {
+    "issue": "2",
+    "key": "50274_CR115",
+    "doi-asserted-by": "publisher",
+    "first-page": "1487",
+    "DOI": "10.1007/s10489-022-03494-4",
+    "volume": "53",
+    "author": "M Yan",
+    "year": "2023",
+    "unstructured": "Yan M, Li N. Borderline-margin loss based deep metric learning framework for imbalanced data. Applied Intelligence, 2023, 53(2): 1487–1504",
+    "journal-title": "Applied Intelligence"
+   },
+   {
+    "key": "50274_CR116",
+    "first-page": "1335",
+    "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "author": "D Cheng",
+    "year": "2016",
+    "unstructured": "Cheng D, Gong Y, Zhou S, Wang J, Zheng N. Person reidentification by multi-channel parts-based CNN with improved triplet loss function. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016, 1335–1344"
+   },
+   {
+    "key": "50274_CR117",
+    "first-page": "5419",
+    "volume-title": "Proceedings of the IEEE International Conference on Computer Vision",
+    "author": "X Zhang",
+    "year": "2017",
+    "unstructured": "Zhang X, Fang Z, Wen Y, Li Z, Qiao Y. Range loss for deep face recognition with long-tailed training data. In: Proceedings of the IEEE International Conference on Computer Vision. 2017, 5419–5428"
+   },
+   {
+    "issue": "12",
+    "key": "50274_CR118",
+    "doi-asserted-by": "publisher",
+    "first-page": "2384",
+    "DOI": "10.1109/TSMC.2018.2790914",
+    "volume": "49",
+    "author": "L Feng",
+    "year": "2019",
+    "unstructured": "Feng L, Wang H, Jin B, Li H, Xue M, Wang L. Learning a distance metric by balancing KL-divergence for imbalanced datasets. IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2019, 49(12): 2384–2395",
+    "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics: Systems"
+   },
+   {
+    "key": "50274_CR119",
+    "first-page": "6468",
+    "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "author": "M Hayat",
+    "year": "2019",
+    "unstructured": "Hayat M, Khan S, Zamir S W, Shen J, Shao L. Gaussian affinity for max-margin class imbalanced learning. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019, 6468–6478"
+   },
+   {
+    "key": "50274_CR120",
+    "doi-asserted-by": "publisher",
+    "first-page": "298",
+    "DOI": "10.1016/j.patrec.2020.03.008",
+    "volume": "133",
+    "author": "L Gautheron",
+    "year": "2020",
+    "unstructured": "Gautheron L, Habrard A, Morvant E, Sebban M. Metric learning from imbalanced data with generalization guarantees. Pattern Recognition Letters, 2020, 133: 298–304",
+    "journal-title": "Pattern Recognition Letters"
+   },
+   {
+    "key": "50274_CR121",
+    "first-page": "1567",
+    "volume-title": "Proceedings of the 34th International Conference on Neural Information Processing Systems",
+    "author": "P Khosla",
+    "year": "2020",
+    "unstructured": "Khosla P, Teterwak P, Wang C, Sarna A, Tian Y, Isola P, Maschinot A, Liu C, Krishnan D. Supervised contrastive learning. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 1567"
+   },
+   {
+    "key": "50274_CR122",
+    "first-page": "207",
+    "volume": "10",
+    "author": "K Q Weinberger",
+    "year": "2009",
+    "unstructured": "Weinberger K Q, Saul L K. Distance metric learning for large margin nearest neighbor classification. The Journal of Machine Learning Research, 2009, 10: 207–244",
+    "journal-title": "The Journal of Machine Learning Research"
+   },
+   {
+    "key": "50274_CR123",
+    "first-page": "1857",
+    "volume-title": "Proceedings of the 30th International Conference on Neural Information Processing Systems",
+    "author": "K Sohn",
+    "year": "2016",
+    "unstructured": "Sohn K. Improved deep metric learning with multi-class N-pair loss objective. In: Proceedings of the 30th International Conference on Neural Information Processing Systems. 2016, 1857–1865"
+   },
+   {
+    "key": "50274_CR124",
+    "first-page": "776",
+    "volume-title": "Proceedings of the 16th European Conference on Computer Vision",
+    "author": "Y Tian",
+    "year": "2020",
+    "unstructured": "Tian Y, Krishnan D, Isola P. Contrastive multiview coding. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 776–794"
+   },
+   {
+    "key": "50274_CR125",
+    "volume-title": "Proceedings of the 9th International Conference on Learning Representations",
+    "author": "B Kang",
+    "year": "2021",
+    "unstructured": "Kang B, Li Y, Xie S, Yuan Z, Feng J. Exploring balanced feature spaces for representation learning. In: Proceedings of the 9th International Conference on Learning Representations. 2021"
+   },
+   {
+    "key": "50274_CR126",
+    "doi-asserted-by": "publisher",
+    "first-page": "109437",
+    "DOI": "10.1016/j.knosys.2022.109437",
+    "volume": "252",
+    "author": "J Zhang",
+    "year": "2022",
+    "unstructured": "Zhang J, Zou J, Su Z, Tang J, Kang Y, Xu H, Liu Z, Fan S. A class-aware supervised contrastive learning framework for imbalanced fault diagnosis. Knowledge-Based Systems, 2022, 252: 109437",
+    "journal-title": "Knowledge-Based Systems"
+   },
+   {
+    "key": "50274_CR127",
+    "first-page": "6403",
+    "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "author": "L Jiang",
+    "year": "2021",
+    "unstructured": "Jiang L, Shi S, Tian Z, Lai X, Liu S, Fu C W, Jia J. Guided point contrastive learning for semi-supervised point cloud semantic segmentation. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 6403–6412"
+   },
+   {
+    "key": "50274_CR128",
+    "first-page": "695",
+    "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "author": "J Cui",
+    "year": "2021",
+    "unstructured": "Cui J, Zhong Z, Liu S, Yu B, Jia J. Parametric contrastive learning. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 695–704"
+   },
+   {
+    "key": "50274_CR129",
+    "first-page": "6898",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "J Zhu",
+    "year": "2022",
+    "unstructured": "Zhu J, Wang Z, Chen J, Chen Y P P, Jiang Y G. Balanced contrastive learning for long-tailed visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022, 6898–6907"
+   },
+   {
+    "key": "50274_CR130",
+    "first-page": "6908",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "T Li",
+    "year": "2022",
+    "unstructured": "Li T, Cao P, Yuan Y, Fan L, Yang Y, Feris R, Indyk P, Katabi D. Targeted supervised contrastive learning for long-tailed recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022, 6908–6918"
+   },
+   {
+    "key": "50274_CR131",
+    "doi-asserted-by": "publisher",
+    "first-page": "109007",
+    "DOI": "10.1016/j.knosys.2022.109007",
+    "volume": "249",
+    "author": "X Gao",
+    "year": "2022",
+    "unstructured": "Gao X, Jia X, Liu J, Xue B, Huang Z, Fu S, Zhang G, Li K. An ensemble contrastive classification framework for imbalanced learning with sample-neighbors pair construction. Knowledge-Based Systems, 2022, 249: 109007",
+    "journal-title": "Knowledge-Based Systems"
+   },
+   {
+    "key": "50274_CR132",
+    "doi-asserted-by": "publisher",
+    "first-page": "148",
+    "DOI": "10.1016/j.neucom.2022.10.069",
+    "volume": "517",
+    "author": "X Gao",
+    "year": "2023",
+    "unstructured": "Gao X, Meng Z, Jia X, Liu J, Diao X, Xue B, Huang Z, Li K. An imbalanced binary classification method based on contrastive learning using multi-label confidence comparisons within sample-neighbors pair. Neurocomputing, 2023, 517: 148–164",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "50274_CR133",
+    "first-page": "173",
+    "volume-title": "Proceedings of the 25th International Conference on Medical Image Computing and Computer Assisted Intervention",
+    "author": "Z Yang",
+    "year": "2022",
+    "unstructured": "Yang Z, Pan J, Yang Y, Shi X, Zhou H Y, Zhang Z, Bian C. ProCo: prototype-aware contrastive learning for long-tailed medical image classification. In: Proceedings of the 25th International Conference on Medical Image Computing and Computer Assisted Intervention. 2022, 173–182"
+   },
+   {
+    "key": "50274_CR134",
+    "first-page": "4080",
+    "volume-title": "Proceedings of the 31st International Conference on Neural Information Processing Systems",
+    "author": "J Snell",
+    "year": "2017",
+    "unstructured": "Snell J, Swersky K, Zemel R. Prototypical networks for few-shot learning. In: Proceedings of the 31st International Conference on Neural Information Processing Systems. 2017, 4080–4090"
+   },
+   {
+    "key": "50274_CR135",
+    "first-page": "943",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "P Wang",
+    "year": "2021",
+    "unstructured": "Wang P, Han K, Wei X S, Zhang L, Wang L. Contrastive learning based hybrid networks for long-tailed image classification. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 943–952"
+   },
+   {
+    "key": "50274_CR136",
+    "first-page": "3035",
+    "volume-title": "Proceedings of 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+    "author": "Y Hong",
+    "year": "2024",
+    "unstructured": "Hong Y, Zhang J, Sun Z, Yan K. ProAug: prototype-based augmentation for long-tailed image classification. In: Proceedings of 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2024, 3035–3039"
+   },
+   {
+    "key": "50274_CR137",
+    "first-page": "2532",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "Z Liu",
+    "year": "2019",
+    "unstructured": "Liu Z, Miao Z, Zhan X, Wang J, Gong B, Yu S X. Large-scale long-tailed recognition in an open world. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019, 2532–2541"
+   },
+   {
+    "key": "50274_CR138",
+    "doi-asserted-by": "publisher",
+    "first-page": "1125",
+    "DOI": "10.1145/3404835.3462867",
+    "volume-title": "Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "author": "Z Zeng",
+    "year": "2021",
+    "unstructured": "Zeng Z, Wang S, Xu N, Mao W. PAN: prototype-based adaptive network for robust cross-modal retrieval. In: Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval. 2021, 1125–1134"
+   },
+   {
+    "key": "50274_CR139",
+    "first-page": "252",
+    "volume-title": "Proceedings of the 16th Asian Conference on Computer Vision",
+    "author": "S Fu",
+    "year": "2023",
+    "unstructured": "Fu S, Chu H, He X, Wang H, Yang Z, Hu H. Meta-prototype decoupled training for long-tailed learning. In: Proceedings of the 16th Asian Conference on Computer Vision. 2023, 252–268"
+   },
+   {
+    "key": "50274_CR140",
+    "first-page": "4343",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "L Zhu",
+    "year": "2020",
+    "unstructured": "Zhu L, Yang Y. Inflated episodic memory with region self-attention for long-tailed visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 4343–4352"
+   },
+   {
+    "key": "50274_CR141",
+    "first-page": "564",
+    "volume-title": "Proceedings of the 16th European Conference on Computer Vision",
+    "author": "T He",
+    "year": "2020",
+    "unstructured": "He T, Gong D, Tian Z, Shen C. Learning and memorizing representative prototypes for 3D point cloud semantic and instance segmentation. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 564–580"
+   },
+   {
+    "key": "50274_CR142",
+    "first-page": "5697",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "X Yin",
+    "year": "2019",
+    "unstructured": "Yin X, Yu X, Sohn K, Liu X, Chandraker M. Feature transfer learning for face recognition with under-represented data. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019, 5697–5706"
+   },
+   {
+    "key": "50274_CR143",
+    "first-page": "2967",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "J Liu",
+    "year": "2020",
+    "unstructured": "Liu J, Sun Y, Han C, Dou Z, Li W. Deep representation learning on long-tailed data: a learnable embedding augmentation perspective. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 2967–2976"
+   },
+   {
+    "key": "50274_CR144",
+    "first-page": "694",
+    "volume-title": "Proceedings of the 16th European Conference on Computer Vision",
+    "author": "P Chu",
+    "year": "2020",
+    "unstructured": "Chu P, Bian X, Liu S, Ling H. Feature space augmentation for long-tailed data. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 694–710"
+   },
+   {
+    "key": "50274_CR145",
+    "first-page": "3783",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "J Wang",
+    "year": "2021",
+    "unstructured": "Wang J, Lukasiewicz T, Hu X, Cai J, Xu Z. RSG: a simple but effective module for learning imbalanced datasets. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 3783–3792"
+   },
+   {
+    "key": "50274_CR146",
+    "first-page": "13893",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "J Kim",
+    "year": "2020",
+    "unstructured": "Kim J, Jeong J, Shin J. M2m: imbalanced classification via major-to-minor translation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 13893–13902"
+   },
+   {
+    "key": "50274_CR147",
+    "first-page": "587",
+    "volume-title": "Proceedings of the 17th European Conference on Computer Vision",
+    "author": "Y Hong",
+    "year": "2022",
+    "unstructured": "Hong Y, Zhang J, Sun Z, Yan K. SAFA: sample-adaptive feature augmentation for long-tailed image classification. In: Proceedings of the 17th European Conference on Computer Vision. 2022, 587–603"
+   },
+   {
+    "key": "50274_CR148",
+    "first-page": "7032",
+    "volume-title": "Proceedings of the 31st International Conference on Neural Information Processing Systems",
+    "author": "Y X Wang",
+    "year": "2017",
+    "unstructured": "Wang Y X, Ramanan D, Hebert M. Learning to model the tail. In: Proceedings of the 31st International Conference on Neural Information Processing Systems. 2017, 7032–7042"
+   },
+   {
+    "key": "50274_CR149",
+    "first-page": "8189",
+    "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "author": "B Liu",
+    "year": "2021",
+    "unstructured": "Liu B, Li H, Kang H, Hua G, Vasconcelos N. GistNet: a geometric structure transfer network for long-tailed recognition. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 8189–8198"
+   },
+   {
+    "key": "50274_CR150",
+    "doi-asserted-by": "publisher",
+    "first-page": "193",
+    "DOI": "10.1145/1273496.1273521",
+    "volume-title": "Proceedings of the 24th International Conference on Machine Learning",
+    "author": "W Dai",
+    "year": "2007",
+    "unstructured": "Dai W, Yang Q, Xue G R, Yu Y. Boosting for transfer learning. In: Proceedings of the 24th International Conference on Machine Learning. 2007, 193–200"
+   },
+   {
+    "key": "50274_CR151",
+    "volume-title": "Proceedings of the 8th International Conference on Learning Representations (ICLR)",
+    "author": "H B Lee",
+    "year": "2020",
+    "unstructured": "Lee H B, Lee H, Na D, Kim S, Park M, Yang E, Hwang S J. Learning to balance: Bayesian meta-learning for imbalanced and out-of-distribution tasks. In: Proceedings of the 8th International Conference on Learning Representations (ICLR). 2020"
+   },
+   {
+    "key": "50274_CR152",
+    "first-page": "7607",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "M A Jamal",
+    "year": "2020",
+    "unstructured": "Jamal M A, Brown M, Yang M H, Wang L, Gong B. Rethinking class-balanced methods for long-tailed visual recognition from a domain adaptation perspective. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 7607–7616"
+   },
+   {
+    "key": "50274_CR153",
+    "first-page": "705",
+    "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "author": "Z Zhang",
+    "year": "2021",
+    "unstructured": "Zhang Z, Pfister T. Learning fast sample re-weighting without reward data. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 705–714"
+   },
+   {
+    "key": "50274_CR154",
+    "volume-title": "Proceedings of the 10th International Conference on Learning Representations",
+    "author": "Y Liu",
+    "year": "2022",
+    "unstructured": "Liu Y, Cao B, Fan J. Improving the accuracy of learning example weights for imbalance classification. In: Proceedings of the 10th International Conference on Learning Representations. 2022"
+   },
+   {
+    "key": "50274_CR155",
+    "first-page": "1212",
+    "volume-title": "Proceedings of the 34th International Conference on Neural Information Processing Systems",
+    "author": "Z Liu",
+    "year": "2020",
+    "unstructured": "Liu Z, Wei P, Jiang J, Cao W, Bian J, Chang Y. MESA: boost ensemble imbalanced learning with meta-sampler. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 1212"
+   },
+   {
+    "key": "50274_CR156",
+    "first-page": "5208",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "S Li",
+    "year": "2021",
+    "unstructured": "Li S, Gong K, Liu C H, Wang Y, Qiao F, Cheng X. MetaSAug: meta semantic augmentation for long-tailed visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 5208–5217"
+   },
+   {
+    "key": "50274_CR157",
+    "first-page": "1132",
+    "volume-title": "Proceedings of the 33rd International Conference on Neural Information Processing Systems",
+    "author": "Y Wang",
+    "year": "2019",
+    "unstructured": "Wang Y, Pan X, Song S, Zhang H, Wu C, Huang G. Implicit semantic data augmentation for deep networks. In: Proceedings of the 33rd International Conference on Neural Information Processing Systems. 2019, 1132"
+   },
+   {
+    "key": "50274_CR158",
+    "volume-title": "Proceedings of the 8th International Conference on Learning Representations",
+    "author": "B Kang",
+    "year": "2020",
+    "unstructured": "Kang B, Xie S, Rohrbach M, Yan Z, Gordo A, Feng J, Kalantidis Y. Decoupling representation and classifier for long-tailed recognition. In: Proceedings of the 8th International Conference on Learning Representations. 2020"
+   },
+   {
+    "key": "50274_CR159",
+    "first-page": "140",
+    "volume-title": "Proceedings of the 33rd International Conference on Neural Information Processing Systems",
+    "author": "K Cao",
+    "year": "2019",
+    "unstructured": "Cao K, Wei C, Gaidon A, Arechiga N, Ma T. Learning imbalanced datasets with label-distribution-aware margin loss. In: Proceedings of the 33rd International Conference on Neural Information Processing Systems. 2019, 140"
+   },
+   {
+    "issue": "3",
+    "key": "50274_CR160",
+    "doi-asserted-by": "publisher",
+    "first-page": "3437",
+    "DOI": "10.1109/TNNLS.2022.3192475",
+    "volume": "35",
+    "author": "N Kang",
+    "year": "2024",
+    "unstructured": "Kang N, Chang H, Ma B, Shan S. A comprehensive framework for long-tailed learning via pretraining and normalization. IEEE Transactions on Neural Networks and Learning Systems, 2024, 35(3): 3437–3449",
+    "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+   },
+   {
+    "key": "50274_CR161",
+    "volume-title": "Proceedings of the 13th International Conference on Learning Representations",
+    "author": "S Sun",
+    "year": "2025",
+    "unstructured": "Sun S, Lu H, Li J, Xie Y, Li T, Yang X, Zhang L, Yan J. Rethinking classifier re-training in long-tailed recognition: label over-smooth can balance. In: Proceedings of the 13th International Conference on Learning Representations. 2025"
+   },
+   {
+    "key": "50274_CR162",
+    "volume-title": "Proceedings of the 10th International Conference on Learning Representations",
+    "author": "H Liu",
+    "year": "2022",
+    "unstructured": "Liu H, HaoChen J Z, Gaidon A, Ma T. Self-supervised learning is more robust to dataset imbalance. In: Proceedings of the 10th International Conference on Learning Representations. 2022"
+   },
+   {
+    "key": "50274_CR163",
+    "first-page": "610",
+    "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "author": "T Li",
+    "year": "2021",
+    "unstructured": "Li T, Wang L, Wu G. Self supervision to distillation for long-tailed visual recognition. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 610–619"
+   },
+   {
+    "key": "50274_CR164",
+    "first-page": "2712",
+    "volume-title": "Proceedings of the 36th International Conference on Machine Learning",
+    "author": "D Hendrycks",
+    "year": "2019",
+    "unstructured": "Hendrycks D, Lee K, Mazeika M. Using pre-training can improve model robustness and uncertainty. In: Proceedings of the 36th International Conference on Machine Learning. 2019, 2712–2721"
+   },
+   {
+    "key": "50274_CR165",
+    "first-page": "864",
+    "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "author": "W Ouyang",
+    "year": "2016",
+    "unstructured": "Ouyang W, Wang X, Zhang C, Yang X. Factors in finetuning deep model for object detection with long-tail distribution. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016, 864–873"
+   },
+   {
+    "key": "50274_CR166",
+    "first-page": "4109",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "Y Cui",
+    "year": "2018",
+    "unstructured": "Cui Y, Song Y, Sun C, Howard A, Belongie S. Large scale finegrained categorization and domain-specific transfer learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2018, 4109–4118"
+   },
+   {
+    "issue": "1",
+    "key": "50274_CR167",
+    "doi-asserted-by": "publisher",
+    "first-page": "83",
+    "DOI": "10.1109/TCBB.2020.2980831",
+    "volume": "18",
+    "author": "R Singh",
+    "year": "2021",
+    "unstructured": "Singh R, Ahmed T, Kumar A, Singh A K, Pandey A K, Singh S K. Imbalanced breast cancer classification using transfer learning. IEEE/ACM Transactions on Computational Biology and Bioinformatics, 2021, 18(1): 83–93",
+    "journal-title": "IEEE/ACM Transactions on Computational Biology and Bioinformatics"
+   },
+   {
+    "key": "50274_CR168",
+    "doi-asserted-by": "publisher",
+    "first-page": "41",
+    "DOI": "10.1145/1553374.1553380",
+    "volume-title": "Proceedings of the 26th Annual International Conference on Machine Learning",
+    "author": "Y Bengio",
+    "year": "2009",
+    "unstructured": "Bengio Y, Louradour J, Collobert R, Weston J. Curriculum learning. In: Proceedings of the 26th Annual International Conference on Machine Learning. 2009, 41–48"
+   },
+   {
+    "key": "50274_CR169",
+    "first-page": "639",
+    "volume-title": "Proceedings of the 20th International Conference on Medical Image Computing and Computer Assisted Intervention",
+    "author": "A Jesson",
+    "year": "2017",
+    "unstructured": "Jesson A, Guizard N, Ghalehjegh S H, Goblot D, Soudan F, Chapados N. CASED: curriculum adaptive sampling for extreme data imbalance. In: Proceedings of the 20th International Conference on Medical Image Computing and Computer Assisted Intervention. 2017, 639–646"
+   },
+   {
+    "key": "50274_CR170",
+    "first-page": "139",
+    "volume-title": "Proceedings of the 15th European Conference on Computer Vision (ECCV)",
+    "author": "S Guo",
+    "year": "2018",
+    "unstructured": "Guo S, Huang W, Zhang H, Zhuang C, Dong D, Scott M R, Huang D. CurriculumNet: weakly supervised learning from large-scale web images. In: Proceedings of the 15th European Conference on Computer Vision (ECCV). 2018, 139–154"
+   },
+   {
+    "key": "50274_CR171",
+    "first-page": "5016",
+    "volume-title": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+    "author": "Y Wang",
+    "year": "2019",
+    "unstructured": "Wang Y, Gan W, Yang J, Wu W, Yan J. Dynamic curriculum learning for imbalanced data classification. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019, 5016–5025"
+   },
+   {
+    "key": "50274_CR172",
+    "doi-asserted-by": "publisher",
+    "first-page": "102295",
+    "DOI": "10.1016/j.media.2021.102295",
+    "volume": "75",
+    "author": "R Zhao",
+    "year": "2022",
+    "unstructured": "Zhao R, Chen X, Chen Z, Li S. Diagnosing glaucoma on imbalanced data with self-ensemble dual-curriculum learning. Medical Image Analysis, 2022, 75: 102295",
+    "journal-title": "Medical Image Analysis"
+   },
+   {
+    "key": "50274_CR173",
+    "first-page": "695",
+    "volume-title": "Proceedings of the 12th International Conference on Data Mining",
+    "author": "B C Wallace",
+    "year": "2012",
+    "unstructured": "Wallace B C, Dahabreh I J. Class probability estimates are unreliable for imbalanced data (and how to fix them). In: Proceedings of the 12th International Conference on Data Mining. 2012, 695–704"
+   },
+   {
+    "key": "50274_CR174",
+    "first-page": "2361",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "author": "S Zhang",
+    "year": "2021",
+    "unstructured": "Zhang S, Li Z, Yan S, He X, Sun J. Distribution alignment: a unified framework for long-tail visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021, 2361–2370"
+   },
+   {
+    "key": "50274_CR175",
+    "first-page": "6919",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "author": "M Li",
+    "year": "2022",
+    "unstructured": "Li M, Cheung Y M, Lu Y. Long-tailed visual recognition via Gaussian clouded logit adjustment. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2022, 6919–6928"
+   },
+   {
+    "key": "50274_CR176",
+    "first-page": "6622",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    "author": "Y Hong",
+    "year": "2021",
+    "unstructured": "Hong Y, Han S, Choi K, Seo S, Kim B, Chang B. Disentangling label distribution for long-tailed visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021, 6622–6632"
+   },
+   {
+    "key": "50274_CR177",
+    "volume-title": "Proceedings of the 9th International Conference on Learning Representations (ICLR)",
+    "author": "A K Menon",
+    "year": "2021",
+    "unstructured": "Menon A K, Jayasumana S, Rawat A S, Jain H, Veit A, Kumar S. Long-tail learning via logit adjustment. In: Proceedings of the 9th International Conference on Learning Representations (ICLR). 2021"
+   },
+   {
+    "key": "50274_CR178",
+    "unstructured": "Ye H J, Chen H Y, Zhan D C, Chao W L. Identifying and compensating for feature deviation in imbalanced deep learning. 2020, arXiv preprint arXiv: 2001.01385"
+   },
+   {
+    "key": "50274_CR179",
+    "first-page": "679",
+    "volume-title": "Proceedings of the 34th International Conference on Neural Information Processing Systems",
+    "author": "J Tian",
+    "year": "2020",
+    "unstructured": "Tian J, Liu Y C, Glaser N, Hsu Y C, Kira Z. Posterior re-calibration for imbalanced datasets. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 679"
+   },
+   {
+    "key": "50274_CR180",
+    "first-page": "2100",
+    "volume-title": "Proceedings of the 37th International Conference on Neural Information Processing Systems",
+    "author": "Z Wang",
+    "year": "2023",
+    "unstructured": "Wang Z, Xu Q, Yang Z, He Y, Cao X, Huang Q. A unified generalization analysis of re-weighting and logit-adjustment for imbalanced learning. In: Proceedings of the 37th International Conference on Neural Information Processing Systems. 2023, 2100"
+   },
+   {
+    "issue": "2",
+    "key": "50274_CR181",
+    "doi-asserted-by": "publisher",
+    "first-page": "123",
+    "DOI": "10.1023/A:1018054314350",
+    "volume": "24",
+    "author": "L Breiman",
+    "year": "1996",
+    "unstructured": "Breiman L. Bagging predictors. Machine Learning, 1996, 24(2): 123–140",
+    "journal-title": "Machine Learning"
+   },
+   {
+    "key": "50274_CR182",
+    "doi-asserted-by": "publisher",
+    "first-page": "324",
+    "DOI": "10.1109/CIDM.2009.4938667",
+    "volume-title": "Proceedings of 2009 IEEE Symposium on Computational Intelligence and Data Mining",
+    "author": "S Wang",
+    "year": "2009",
+    "unstructured": "Wang S, Yao X. Diversity analysis on imbalanced data sets by using ensemble models. In: Proceedings of 2009 IEEE Symposium on Computational Intelligence and Data Mining. 2009, 324–331"
+   },
+   {
+    "issue": "5–6",
+    "key": "50274_CR183",
+    "doi-asserted-by": "publisher",
+    "first-page": "412",
+    "DOI": "10.1002/sam.10061",
+    "volume": "2",
+    "author": "S Hido",
+    "year": "2009",
+    "unstructured": "Hido S, Kashima H, Takahashi Y. Roughly balanced bagging for imbalanced data. Statistical Analysis and Data Mining: The ASA Data Science Journal, 2009, 2(5–6): 412–426",
+    "journal-title": "Statistical Analysis and Data Mining: The ASA Data Science Journal"
+   },
+   {
+    "key": "50274_CR184",
+    "doi-asserted-by": "publisher",
+    "first-page": "529",
+    "DOI": "10.1016/j.neucom.2014.07.064",
+    "volume": "150",
+    "author": "J Blaszczynski",
+    "year": "2015",
+    "unstructured": "Blaszczynski J, Stefanowski J. Neighbourhood sampling in bagging for imbalanced data. Neurocomputing, 2015, 150: 529–542",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "issue": "3",
+    "key": "50274_CR185",
+    "doi-asserted-by": "publisher",
+    "first-page": "349",
+    "DOI": "10.4310/SII.2009.v2.n3.a8",
+    "volume": "2",
+    "author": "T Hastie",
+    "year": "2009",
+    "unstructured": "Hastie T, Rosset S, Zhu J, Zou H. Multi-class AdaBoost. Statistics and its Interface, 2009, 2(3): 349–360",
+    "journal-title": "Statistics and its Interface"
+   },
+   {
+    "issue": "5",
+    "key": "50274_CR186",
+    "doi-asserted-by": "publisher",
+    "first-page": "1189",
+    "DOI": "10.1214/aos/1013203451",
+    "volume": "29",
+    "author": "J H Friedman",
+    "year": "2001",
+    "unstructured": "Friedman J H. Greedy function approximation: a gradient boosting machine. The Annals of Statistics, 2001, 29(5): 1189–1232",
+    "journal-title": "The Annals of Statistics"
+   },
+   {
+    "key": "50274_CR187",
+    "doi-asserted-by": "publisher",
+    "first-page": "785",
+    "DOI": "10.1145/2939672.2939785",
+    "volume-title": "Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+    "author": "T Chen",
+    "year": "2016",
+    "unstructured": "Chen T, Guestrin C. XGBoost: a scalable tree boosting system. In: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 2016, 785–794"
+   },
+   {
+    "key": "50274_CR188",
+    "first-page": "107",
+    "volume-title": "Proceedings of the 7th European Conference on Principles of Data Mining and Knowledge Discovery",
+    "author": "N V Chawla",
+    "year": "2003",
+    "unstructured": "Chawla N V, Lazarevic A, Hall L O, Bowyer K W. SMOTEBoost: improving prediction of the minority class in boosting. In: Proceedings of the 7th European Conference on Principles of Data Mining and Knowledge Discovery. 2003, 107–119"
+   },
+   {
+    "issue": "10",
+    "key": "50274_CR189",
+    "doi-asserted-by": "publisher",
+    "first-page": "1624",
+    "DOI": "10.1109/TNN.2010.2066988",
+    "volume": "21",
+    "author": "S Chen",
+    "year": "2010",
+    "unstructured": "Chen S, He H, Garcia E A. RAMOBoost: ranked minority oversampling in boosting. IEEE Transactions on Neural Networks, 2010, 21(10): 1624–1642",
+    "journal-title": "IEEE Transactions on Neural Networks"
+   },
+   {
+    "issue": "1",
+    "key": "50274_CR190",
+    "doi-asserted-by": "publisher",
+    "first-page": "185",
+    "DOI": "10.1109/TSMCA.2009.2029559",
+    "volume": "40",
+    "author": "C Seiffert",
+    "year": "2010",
+    "unstructured": "Seiffert C, Khoshgoftaar T M, Van Hulse J, Napolitano A. RUSBoost: a hybrid approach to alleviating class imbalance. IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and Humans, 2010, 40(1): 185–197",
+    "journal-title": "IEEE Transactions on Systems, Man, and Cybernetics-Part A: Systems and Humans"
+   },
+   {
+    "key": "50274_CR191",
+    "doi-asserted-by": "publisher",
+    "first-page": "1",
+    "DOI": "10.1016/j.csda.2017.01.005",
+    "volume": "111",
+    "author": "J Gong",
+    "year": "2017",
+    "unstructured": "Gong J, Kim H. RHSBoost: improving classification performance in imbalance data. Computational Statistics & Data Analysis, 2017, 111: 1–13",
+    "journal-title": "Computational Statistics & Data Analysis"
+   },
+   {
+    "issue": "1",
+    "key": "50274_CR192",
+    "doi-asserted-by": "publisher",
+    "first-page": "79",
+    "DOI": "10.32614/RJ-2014-008",
+    "volume": "6",
+    "author": "N Lunardon",
+    "year": "2014",
+    "unstructured": "Lunardon N, Menardi G, Torelli N. ROSE: a package for binary imbalanced learning. The R Journal, 2014, 6(1): 79–89",
+    "journal-title": "The R Journal"
+   },
+   {
+    "key": "50274_CR193",
+    "doi-asserted-by": "publisher",
+    "first-page": "133",
+    "DOI": "10.1007/978-981-13-1498-8_12",
+    "volume-title": "Emerging Technologies in Data Mining and Information Security: Proceedings of IEMIS 2018, Volume 2",
+    "author": "S Ahmed",
+    "year": "2019",
+    "unstructured": "Ahmed S, Rayhan F, Mahbub A, Rafsan Jani M, Shatabda S, Farid D M. LIUBoost: locality informed under-boosting for imbalanced data classification. In: Abraham A, Dutta P, Mandal J K, Bhattacharya A, Dutta S, eds. Emerging Technologies in Data Mining and Information Security: Proceedings of IEMIS 2018, Volume 2. Singapore: Springer, 2019, 133–144"
+   },
+   {
+    "key": "50274_CR194",
+    "first-page": "1",
+    "volume-title": "Proceedings of the 21st International Conference of Computer and Information Technology (ICCIT)",
+    "author": "M H Popel",
+    "year": "2018",
+    "unstructured": "Popel M H, Hasib K M, Habib S A, Shah F M. A hybrid under-sampling method (HUSBoost) to classify imbalanced data. In: Proceedings of the 21st International Conference of Computer and Information Technology (ICCIT). 2018, 1–7"
+   },
+   {
+    "key": "50274_CR195",
+    "doi-asserted-by": "publisher",
+    "first-page": "231",
+    "DOI": "10.1007/978-0-387-30164-8_181",
+    "volume-title": "Encyclopedia of Machine Learning",
+    "author": "C X Ling",
+    "year": "2011",
+    "unstructured": "Ling C X, Sheng V S. Cost-sensitive learning and the class imbalance problem. In: Sammut C, ed. Encyclopedia of Machine Learning. New York: Springer, 2011, 231–235"
+   },
+   {
+    "key": "50274_CR196",
+    "first-page": "97",
+    "volume-title": "Proceedings of the 16th International Conference on Machine Learning (ICML)",
+    "author": "W Fan",
+    "year": "1999",
+    "unstructured": "Fan W, Stolfo S J, Zhang J, Chan P K. AdaCost: misclassification cost-sensitive boosting. In: Proceedings of the 16th International Conference on Machine Learning (ICML). 1999, 97–105"
+   },
+   {
+    "key": "50274_CR197",
+    "first-page": "983",
+    "volume-title": "Proceedings of the 17th International Conference on Machine Learning (ICML)",
+    "author": "K M Ting",
+    "year": "2000",
+    "unstructured": "Ting K M. A comparative study of cost-sensitive boosting algorithms. In: Proceedings of the 17th International Conference on Machine Learning (ICML). 2000, 983–990"
+   },
+   {
+    "issue": "12",
+    "key": "50274_CR198",
+    "doi-asserted-by": "publisher",
+    "first-page": "3358",
+    "DOI": "10.1016/j.patcog.2007.04.009",
+    "volume": "40",
+    "author": "Y Sun",
+    "year": "2007",
+    "unstructured": "Sun Y, Kamel M S, Wong A K C, Wang Y. Cost-sensitive boosting for classification of imbalanced data. Pattern Recognition, 2007, 40(12): 3358–3378",
+    "journal-title": "Pattern Recognition"
+   },
+   {
+    "issue": "6",
+    "key": "50274_CR199",
+    "doi-asserted-by": "publisher",
+    "first-page": "1789",
+    "DOI": "10.1007/s11263-021-01453-z",
+    "volume": "129",
+    "author": "J Gou",
+    "year": "2021",
+    "unstructured": "Gou J, Yu B, Maybank S J, Tao D. Knowledge distillation: a survey. International Journal of Computer Vision, 2021, 129(6): 1789–1819",
+    "journal-title": "International Journal of Computer Vision"
+   },
+   {
+    "key": "50274_CR200",
+    "first-page": "953",
+    "volume-title": "Proceedings of the 24th European Conference on Artificial Intelligence",
+    "author": "U Asif",
+    "year": "2020",
+    "unstructured": "Asif U, Tang J, Harrer S. Ensemble knowledge distillation for learning improved and efficient networks. In: Proceedings of the 24th European Conference on Artificial Intelligence. 2020, 953–960"
+   },
+   {
+    "key": "50274_CR201",
+    "first-page": "3439",
+    "volume-title": "Proceedings of the 17th Annual Conference of the International Speech Communication Association",
+    "author": "Y Chebotar",
+    "year": "2016",
+    "unstructured": "Chebotar Y, Waters A. Distilling knowledge from ensembles of neural networks for speech recognition. In: Proceedings of the 17th Annual Conference of the International Speech Communication Association. 2016, 3439–3443"
+   },
+   {
+    "key": "50274_CR202",
+    "first-page": "3697",
+    "volume-title": "Proceedings of the 18th Annual Conference of the International Speech Communication Association",
+    "author": "T Fukuda",
+    "year": "2017",
+    "unstructured": "Fukuda T, Suzuki M, Kurata G, Thomas S, Cui J, Ramabhadran B. Efficient knowledge distillation from an ensemble of teachers. In: Proceedings of the 18th Annual Conference of the International Speech Communication Association. 2017, 3697–3701"
+   },
+   {
+    "key": "50274_CR203",
+    "doi-asserted-by": "publisher",
+    "first-page": "106",
+    "DOI": "10.1016/j.neucom.2020.07.048",
+    "volume": "415",
+    "author": "Y Liu",
+    "year": "2020",
+    "unstructured": "Liu Y, Zhang W, Wang J. Adaptive multi-teacher multi-level knowledge distillation. Neurocomputing, 2020, 415: 106–113",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "50274_CR204",
+    "first-page": "14284",
+    "volume-title": "Proceedings of the 35th AAAI Conference on Artificial Intelligence",
+    "author": "F Yuan",
+    "year": "2021",
+    "unstructured": "Yuan F, Shou L, Pei J, Lin W, Gong M, Fu Y, Jiang D. Reinforced multi-teacher selection for knowledge distillation. In: Proceedings of the 35th AAAI Conference on Artificial Intelligence. 2021, 14284–14291"
+   },
+   {
+    "issue": "4",
+    "key": "50274_CR205",
+    "doi-asserted-by": "publisher",
+    "first-page": "2070",
+    "DOI": "10.1109/TCYB.2020.3007506",
+    "volume": "52",
+    "author": "H Zhao",
+    "year": "2022",
+    "unstructured": "Zhao H, Sun X, Dong J, Chen C, Dong Z. Highlight every step: knowledge distillation via collaborative teaching. IEEE Transactions on Cybernetics, 2022, 52(4): 2070–2081",
+    "journal-title": "IEEE Transactions on Cybernetics"
+   },
+   {
+    "key": "50274_CR206",
+    "doi-asserted-by": "publisher",
+    "first-page": "690",
+    "DOI": "10.1145/3336191.3371792",
+    "volume-title": "Proceedings of the 13th International Conference on Web Search and Data Mining",
+    "author": "Z Yang",
+    "year": "2020",
+    "unstructured": "Yang Z, Shou L, Gong M, Lin W, Jiang D. Model compression with two-stage multi-teacher knowledge distillation for Web question answering system. In: Proceedings of the 13th International Conference on Web Search and Data Mining. 2020, 690–698"
+   },
+   {
+    "issue": "3",
+    "key": "50274_CR207",
+    "doi-asserted-by": "publisher",
+    "first-page": "2450",
+    "DOI": "10.1109/TCSVT.2024.3487867",
+    "volume": "35",
+    "author": "F Wu",
+    "year": "2025",
+    "unstructured": "Wu F, Liu Z, Zhang Z, Liu J, Wang L. Collaborative global-local structure network with knowledge distillation for imbalanced data classification. IEEE Transactions on Circuits and Systems for Video Technology, 2025, 35(3): 2450–2460",
+    "journal-title": "IEEE Transactions on Circuits and Systems for Video Technology"
+   },
+   {
+    "key": "50274_CR208",
+    "first-page": "6424",
+    "volume-title": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+    "author": "C Pham",
+    "year": "2023",
+    "unstructured": "Pham C, Hoang T, Do T T. Collaborative multi-teacher knowledge distillation for learning low bit-width deep neural networks. In: Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 2023, 6424–6432"
+   },
+   {
+    "key": "50274_CR209",
+    "first-page": "171",
+    "volume-title": "Proceedings of the 16th European Conference on Computer Vision",
+    "author": "T Y Wu",
+    "year": "2020",
+    "unstructured": "Wu T Y, Morgado P, Wang P, Ho C H, Vasconcelos N. Solving long-tailed recognition with deep realistic taxonomic classifier. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 171–189"
+   },
+   {
+    "key": "50274_CR210",
+    "first-page": "8655",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "T Wu",
+    "year": "2021",
+    "unstructured": "Wu T, Liu Z, Huang Q, Wang Y, Lin D. Adversarial robustness under long-tailed distribution. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 8655–8664"
+   },
+   {
+    "key": "50274_CR211",
+    "first-page": "15814",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "F Du",
+    "year": "2023",
+    "unstructured": "Du F, Yang P, Jia Q, Nan F, Chen X, Yang Y. Global and local mixture consistency cumulative learning for long-tailed visual recognitions. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023, 15814–15823"
+   },
+   {
+    "key": "50274_CR212",
+    "unstructured": "Ma T, Geng S, Wang M, Shao J, Lu J, Li H, Gao P, Qiao Y. A simple long-tailed recognition baseline via vision-language model. 2021, arXiv preprint arXiv: 2111.14745"
+   },
+   {
+    "key": "50274_CR213",
+    "unstructured": "Shi J X, Wei T, Zhou Z, Han X Y, Shao J J, Li Y F. Parameter-efficient long-tailed recognition. 2023, arXiv preprint arXiv: 2309.10019"
+   },
+   {
+    "issue": "10",
+    "key": "50274_CR214",
+    "doi-asserted-by": "publisher",
+    "first-page": "3388",
+    "DOI": "10.1109/TPAMI.2020.2981890",
+    "volume": "43",
+    "author": "K Oksuz",
+    "year": "2021",
+    "unstructured": "Oksuz K, Cam B C, Kalkan S, Akbas E. Imbalance problems in object detection: a review. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021, 43(10): 3388–3415",
+    "journal-title": "IEEE Transactions on Pattern Analysis and Machine Intelligence"
+   },
+   {
+    "key": "50274_CR215",
+    "first-page": "580",
+    "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "author": "R Girshick",
+    "year": "2014",
+    "unstructured": "Girshick R, Donahue J, Darrell T, Malik J. Rich feature hierarchies for accurate object detection and semantic segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2014, 580–587"
+   },
+   {
+    "key": "50274_CR216",
+    "first-page": "21",
+    "volume-title": "Proceedings of the 14th European Conference on Computer Vision",
+    "author": "W Liu",
+    "year": "2016",
+    "unstructured": "Liu W, Anguelov D, Erhan D, Szegedy C, Reed S, Fu C Y, Berg A C. SSD: single shot MultiBox detector. In: Proceedings of the 14th European Conference on Computer Vision. 2016, 21–37"
+   },
+   {
+    "key": "50274_CR217",
+    "first-page": "8577",
+    "volume-title": "Proceedings of the 33rd AAAI Conference on Artificial Intelligence",
+    "author": "B Li",
+    "year": "2019",
+    "unstructured": "Li B, Liu Y, Wang X. Gradient harmonized single-stage detector. In: Proceedings of the 33rd AAAI Conference on Artificial Intelligence. 2019, 8577–8584"
+   },
+   {
+    "key": "50274_CR218",
+    "first-page": "11580",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "Y Cao",
+    "year": "2020",
+    "unstructured": "Cao Y, Chen K, Loy C C, Lin D. Prime sample attention in object detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 11580–11588"
+   },
+   {
+    "key": "50274_CR219",
+    "doi-asserted-by": "publisher",
+    "first-page": "108781",
+    "DOI": "10.1016/j.patcog.2022.108781",
+    "volume": "130",
+    "author": "J Chen",
+    "year": "2022",
+    "unstructured": "Chen J, Liu D, Luo B, Peng X, Xu T, Chen E. Residual objectness for imbalance reduction. Pattern Recognition, 2022, 130: 108781",
+    "journal-title": "Pattern Recognition"
+   },
+   {
+    "key": "50274_CR220",
+    "first-page": "5114",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "K Chen",
+    "year": "2019",
+    "unstructured": "Chen K, Li J, Lin W, See J, Wang J, Duan L, Chen Z, He C, Zou J. Towards accurate one-stage object detection with AP-loss. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019, 5114–5122"
+   },
+   {
+    "key": "50274_CR221",
+    "first-page": "3039",
+    "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "author": "X Wang",
+    "year": "2017",
+    "unstructured": "Wang X, Shrivastava A, Gupta A. A-fast-RCNN: hard positive generation via adversary for object detection. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017, 3039–3048"
+   },
+   {
+    "key": "50274_CR222",
+    "first-page": "461",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "S Tripathi",
+    "year": "2019",
+    "unstructured": "Tripathi S, Chandra S, Agrawal A, Tyagi A, Rehg J M, Chari V. Learning to generate synthetic data via compositing. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019, 461–470"
+   },
+   {
+    "key": "50274_CR223",
+    "first-page": "936",
+    "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "author": "T Y Lin",
+    "year": "2017",
+    "unstructured": "Lin T Y, Dollar P, Girshick R, He K, Hariharan B, Belongie S. Feature pyramid networks for object detection. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017, 936–944"
+   },
+   {
+    "key": "50274_CR224",
+    "first-page": "240",
+    "volume-title": "Proceedings of the 3rd International Workshop on Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support",
+    "author": "C H Sudre",
+    "year": "2017",
+    "unstructured": "Sudre C H, Li W, Vercauteren T, Ourselin S, Jorge Cardoso M. Generalised dice overlap as a deep learning loss function for highly unbalanced segmentations. In: Proceedings of the 3rd International Workshop on Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support. 2017, 240–248"
+   },
+   {
+    "issue": "11",
+    "key": "50274_CR225",
+    "doi-asserted-by": "publisher",
+    "first-page": "1451",
+    "DOI": "10.1109/TMI.2006.880587",
+    "volume": "25",
+    "author": "W R Crum",
+    "year": "2006",
+    "unstructured": "Crum W R, Camara O, Hill D L G. Generalized overlap measures for evaluation and validation in medical image analysis. IEEE Transactions on Medical Imaging, 2006, 25(11): 1451–1461",
+    "journal-title": "IEEE Transactions on Medical Imaging"
+   },
+   {
+    "key": "50274_CR226",
+    "first-page": "7082",
+    "volume-title": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+    "author": "S R Bulò",
+    "year": "2017",
+    "unstructured": "Bulò S R, Neuhold G, Kontschieder P. Loss max-pooling for semantic image segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017, 7082–7091"
+   },
+   {
+    "key": "50274_CR227",
+    "doi-asserted-by": "publisher",
+    "first-page": "24",
+    "DOI": "10.1016/j.compmedimag.2019.04.005",
+    "volume": "75",
+    "author": "S A Taghanaki",
+    "year": "2019",
+    "unstructured": "Taghanaki S A, Zheng Y, Zhou S K, Georgescu B, Sharma P, Xu D, Comaniciu D, Hamarneh G. Combo loss: handling input and output imbalance in multi-organ segmentation. Computerized Medical Imaging and Graphics, 2019, 75: 24–33",
+    "journal-title": "Computerized Medical Imaging and Graphics"
+   },
+   {
+    "key": "50274_CR228",
+    "first-page": "19550",
+    "volume-title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "author": "Z Zhong",
+    "year": "2023",
+    "unstructured": "Zhong Z, Cui J, Yang Y, Wu X, Qi X, Zhang X, Jia J. Understanding imbalanced semantic segmentation through neural collapse. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023, 19550–19559"
+   },
+   {
+    "key": "50274_CR229",
+    "doi-asserted-by": "publisher",
+    "first-page": "523",
+    "DOI": "10.18653/v1/2023.eacl-main.38",
+    "volume-title": "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+    "author": "S Henning",
+    "year": "2023",
+    "unstructured": "Henning S, Beluch W, Fraser A, Friedrich A. A survey of methods for addressing class imbalance in deep-learning based natural language processing. In: Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics. 2023, 523–540"
+   },
+   {
+    "key": "50274_CR230",
+    "unstructured": "Zhao P, Zhang H, Yu Q, Wang Z, Geng Y, Fu F, Yang L, Zhang W, Jiang J, Cui B. Retrieval-augmented generation for AI-generated content: a survey. 2024, arXiv preprint arXiv: 2402.19473"
+   },
+   {
+    "key": "50274_CR231",
+    "doi-asserted-by": "publisher",
+    "first-page": "4306",
+    "DOI": "10.18653/v1/2025.acl-long.217",
+    "volume-title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    "author": "Z Wang",
+    "year": "2025",
+    "unstructured": "Wang Z, Yu Q, Wei S, Li Z, Xiong F, Wang X, Niu S, Liang H, Zhang W. QAEncoder: towards aligned representation learning in question answering systems. In: Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2025, 4306–4332"
+   },
+   {
+    "key": "50274_CR232",
+    "first-page": "1",
+    "volume-title": "Proceedings of the 10th International Conference on Awareness Science and Technology (iCAST)",
+    "author": "K Ghosh",
+    "year": "2019",
+    "unstructured": "Ghosh K, Banerjee A, Chatterjee S, Sen S. Imbalanced twitter sentiment analysis using minority oversampling. In: Proceedings of the 10th International Conference on Awareness Science and Technology (iCAST). 2019, 1–5"
+   },
+   {
+    "key": "50274_CR233",
+    "first-page": "1",
+    "volume-title": "Proceedings of 2018 International Conference on Engineering, Applied Sciences, and Technology (ICEAST)",
+    "author": "A C Flores",
+    "year": "2018",
+    "unstructured": "Flores A C, Icoy R I, Pena C F, Gorro K D. An evaluation of SVM and naive Bayes with SMOTE on sentiment analysis data set. In: Proceedings of 2018 International Conference on Engineering, Applied Sciences, and Technology (ICEAST). 2018, 1–4"
+   },
+   {
+    "issue": "2",
+    "key": "50274_CR234",
+    "doi-asserted-by": "publisher",
+    "first-page": "109",
+    "DOI": "10.21609/jiki.v13i2.885",
+    "volume": "13",
+    "author": "R Ardianto",
+    "year": "2020",
+    "unstructured": "Ardianto R, Rivanie T, Alkhalifi Y, Nugraha F S, Gata W. Sentiment analysis on e-sports for education curriculum using naive Bayes and support vector machine. Jurnal Ilmu Komputer Dan Informasi, 2020, 13(2): 109–122",
+    "journal-title": "Jurnal Ilmu Komputer Dan Informasi"
+   },
+   {
+    "key": "50274_CR235",
+    "doi-asserted-by": "publisher",
+    "first-page": "359",
+    "DOI": "10.1016/j.procs.2017.05.365",
+    "volume": "109",
+    "author": "S Al-Azani",
+    "year": "2017",
+    "unstructured": "Al-Azani S, El-Alfy E S M. Using word embedding and ensemble learning for highly imbalanced data sentiment analysis in short Arabic text. Procedia Computer Science, 2017, 109: 359–366",
+    "journal-title": "Procedia Computer Science"
+   },
+   {
+    "key": "50274_CR236",
+    "doi-asserted-by": "publisher",
+    "first-page": "95",
+    "DOI": "10.1613/jair.4787",
+    "volume": "55",
+    "author": "S M Mohammad",
+    "year": "2016",
+    "unstructured": "Mohammad S M, Salameh M, Kiritchenko S. How translation alters sentiment. Journal of Artificial Intelligence Research, 2016, 55: 95–130",
+    "journal-title": "Journal of Artificial Intelligence Research"
+   },
+   {
+    "key": "50274_CR237",
+    "doi-asserted-by": "publisher",
+    "first-page": "443",
+    "DOI": "10.1145/2556195.2556261",
+    "volume-title": "Proceedings of the 7th ACM International Conference on Web Search and Data Mining",
+    "author": "P C Guerra",
+    "year": "2014",
+    "unstructured": "Guerra P C, Meira W Jr, Cardie C. Sentiment analysis on evolving social streams: how self-report imbalances can help. In: Proceedings of the 7th ACM International Conference on Web Search and Data Mining. 2014, 443–452"
+   },
+   {
+    "key": "50274_CR238",
+    "doi-asserted-by": "publisher",
+    "first-page": "22260",
+    "DOI": "10.1109/ACCESS.2022.3149482",
+    "volume": "10",
+    "author": "R Obiedat",
+    "year": "2022",
+    "unstructured": "Obiedat R, Qaddoura R, Al-Zoubi A M, Al-Qaisi L, Harfoushi O, Alrefai M, Faris H. Sentiment analysis of customers’ reviews using a hybrid evolutionary SVM-based approach in an imbalanced data distribution. IEEE Access, 2022, 10: 22260–22273",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "issue": "3",
+    "key": "50274_CR239",
+    "doi-asserted-by": "publisher",
+    "first-page": "35",
+    "DOI": "10.9781/ijimai.2022.02.002",
+    "volume": "7",
+    "author": "V Dogra",
+    "year": "2022",
+    "unstructured": "Dogra V, Verma S, Verma K, Jhanjhi N Z, Ghosh U, Le D N. A comparative analysis of machine learning models for banking news extraction by multiclass classification with imbalanced datasets of financial news: challenges and solutions. International Journal of Interactive Multimedia and Artificial Intelligence, 2022, 7(3): 35–52",
+    "journal-title": "International Journal of Interactive Multimedia and Artificial Intelligence"
+   },
+   {
+    "issue": "18",
+    "key": "50274_CR240",
+    "doi-asserted-by": "publisher",
+    "first-page": "6253",
+    "DOI": "10.3390/app10186253",
+    "volume": "10",
+    "author": "G Rivera",
+    "year": "2020",
+    "unstructured": "Rivera G, Florencia R, García V, Ruiz A, Sánchez-Solís J P. News classification for identifying traffic incident points in a Spanish-speaking country: a real-world case study of class imbalance learning. Applied Sciences, 2020, 10(18): 6253",
+    "journal-title": "Applied Sciences"
+   },
+   {
+    "key": "50274_CR241",
+    "first-page": "2862",
+    "volume-title": "Proceedings of the 12th Language Resources and Evaluation Conference",
+    "author": "M Z Hossain",
+    "year": "2020",
+    "unstructured": "Hossain M Z, Rahman M A, Islam M S, Kar S. BanFakenews: a dataset for detecting fake news in Bangla. In: Proceedings of the 12th Language Resources and Evaluation Conference. 2020, 2862–2871"
+   },
+   {
+    "issue": "17",
+    "key": "50274_CR242",
+    "doi-asserted-by": "publisher",
+    "first-page": "8398",
+    "DOI": "10.3390/app12178398",
+    "volume": "12",
+    "author": "A J Keya",
+    "year": "2022",
+    "unstructured": "Keya A J, Wadud M A H, Mridha M F, Alatiyyah M, Hamid M A. AugFake-BERT: handling imbalance through augmentation of fake news using BERT to enhance the performance of fake news classification. Applied Sciences, 2022, 12(17): 8398",
+    "journal-title": "Applied Sciences"
+   },
+   {
+    "key": "50274_CR243",
+    "doi-asserted-by": "publisher",
+    "first-page": "106688",
+    "DOI": "10.1016/j.engappai.2023.106688",
+    "volume": "125",
+    "author": "K M Hasib",
+    "year": "2023",
+    "unstructured": "Hasib K M, Towhid N A, Faruk K O, Al Mahmud J, Mridha M F. Strategies for enhancing the performance of news article classification in Bangla: handling imbalance and interpretation. Engineering Applications of Artificial Intelligence, 2023, 125: 106688",
+    "journal-title": "Engineering Applications of Artificial Intelligence"
+   },
+   {
+    "key": "50274_CR244",
+    "volume-title": "Bangla newspaper dataset",
+    "author": "Z A Nazi",
+    "year": "2020",
+    "unstructured": "Nazi Z A. Bangla newspaper dataset. Kaggle, 2020"
+   },
+   {
+    "issue": "1",
+    "key": "50274_CR245",
+    "first-page": "140",
+    "volume": "21",
+    "author": "C Raffel",
+    "year": "2020",
+    "unstructured": "Raffel C, Shazeer N, Roberts A, Lee K, Narang S, Matena M, Zhou Y, Li W, Liu P J. Exploring the limits of transfer learning with a unified text-to-text transformer. The Journal of Machine Learning Research, 2020, 21(1): 140",
+    "journal-title": "The Journal of Machine Learning Research"
+   },
+   {
+    "key": "50274_CR246",
+    "first-page": "7602",
+    "volume-title": "Proceedings of 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    "author": "M Li",
+    "year": "2024",
+    "unstructured": "Li M, Zhang Y, Li Z, Chen J, Chen L, Cheng N, Wang J, Zhou T, Xiao J. From quantity to quality: boosting LLM performance with self-guided data selection for instruction tuning. In: Proceedings of 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2024, 7602–7635"
+   },
+   {
+    "key": "50274_CR247",
+    "volume-title": "NuminaMath: the largest public dataset in AI4Maths with 860k pairs of competition math problems and solutions",
+    "author": "J Li",
+    "year": "2024",
+    "unstructured": "Li J, Beeching E, Tunstall L, Lipkin B, Soletskyi R, Huang S, Rasul K, Yu L, Jiang A Q, Shen Z, Qin Z, Dong B, Zhou L, Fleureau Y, Lample G, Polu S. NuminaMath: the largest public dataset in AI4Maths with 860k pairs of competition math problems and solutions. 2024. Hugging Face Repository"
+   },
+   {
+    "key": "50274_CR248",
+    "unstructured": "An S, Ma Z, Lin Z, Zheng N, Lou J G, Chen W. Learning from mistakes makes LLM better reasoner. 2023, arXiv preprint arXiv: 2310.20689"
+   },
+   {
+    "issue": "8",
+    "key": "50274_CR249",
+    "doi-asserted-by": "publisher",
+    "first-page": "191",
+    "DOI": "10.1145/3648358",
+    "volume": "56",
+    "author": "Y Shao",
+    "year": "2024",
+    "unstructured": "Shao Y, Li H, Gu X, Yin H, Li Y, Miao X, Zhang W, Cui B, Chen L. Distributed graph neural network training: a survey. ACM Computing Surveys, 2024, 56(8): 191",
+    "journal-title": "ACM Computing Surveys"
+   },
+   {
+    "key": "50274_CR250",
+    "first-page": "3042",
+    "volume-title": "Proceedings of the 40th International Conference on Data Engineering",
+    "author": "X Gao",
+    "year": "2024",
+    "unstructured": "Gao X, Zhang W, Yu J, Shao Y, Nguyen Q V H, Cui B, Yin H. Accelerating scalable graph neural network inference with node-adaptive propagation. In: Proceedings of the 40th International Conference on Data Engineering. 2024, 3042–3055"
+   },
+   {
+    "key": "50274_CR251",
+    "unstructured": "Gao X, Li Y, Chen T, Ye G, Zhang W, Yin H. Contrastive graph condensation: advancing data versatility through self-supervised learning. 2024, arXiv preprint arXiv: 2411.17063"
+   },
+   {
+    "key": "50274_CR252",
+    "first-page": "4359",
+    "volume-title": "Proceedings of the ACM on Web Conference",
+    "author": "X Gao",
+    "year": "2025",
+    "unstructured": "Gao X, Ye G, Chen T, Zhang W, Yu J, Yin H. Rethinking and accelerating graph condensation: a training-free approach with class partition. In: Proceedings of the ACM on Web Conference. 2025, 4359–4373"
+   },
+   {
+    "issue": "8",
+    "key": "50274_CR253",
+    "doi-asserted-by": "publisher",
+    "first-page": "4791",
+    "DOI": "10.1109/TKDE.2025.3569629",
+    "volume": "37",
+    "author": "X Gao",
+    "year": "2025",
+    "unstructured": "Gao X, Yin H, Chen T, Ye G, Zhang W, Cui B. RobGC: towards robust graph condensation. IEEE Transactions on Knowledge and Data Engineering, 2025, 37(8): 4791–4804",
+    "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+   },
+   {
+    "key": "50274_CR254",
+    "first-page": "545",
+    "volume-title": "Proceedings of the 32nd ACM International Conference on Information and Knowledge Management",
+    "author": "X Gao",
+    "year": "2023",
+    "unstructured": "Gao X, Zhang W, Chen T, Yu J, Nguyen H Q V, Yin H. Semantic-aware node synthesis for imbalanced heterogeneous information networks. In: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management. 2023, 545–555"
+   },
+   {
+    "key": "50274_CR255",
+    "doi-asserted-by": "publisher",
+    "first-page": "851",
+    "DOI": "10.1145/3637528.3671917",
+    "volume-title": "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "author": "X Gao",
+    "year": "2024",
+    "unstructured": "Gao X, Chen T, Zhang W, Li Y, Sun X, Yin H. Graph condensation for open-world graph learning. In: Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2024, 851–862"
+   },
+   {
+    "issue": "4",
+    "key": "50274_CR256",
+    "doi-asserted-by": "publisher",
+    "first-page": "1819",
+    "DOI": "10.1109/TKDE.2025.3535877",
+    "volume": "37",
+    "author": "X Gao",
+    "year": "2025",
+    "unstructured": "Gao X, Yu J, Chen T, Ye G, Zhang W, Yin H. Graph condensation: a survey. IEEE Transactions on Knowledge and Data Engineering, 2025, 37(4): 1819–1837",
+    "journal-title": "IEEE Transactions on Knowledge and Data Engineering"
+   },
+   {
+    "key": "50274_CR257",
+    "doi-asserted-by": "publisher",
+    "first-page": "519",
+    "DOI": "10.1007/978-3-031-26412-2_32",
+    "volume-title": "Proceedings of the Joint European Conference on Machine Learning and Knowledge Discovery in Databases",
+    "author": "L Wu",
+    "year": "2023",
+    "unstructured": "Wu L, Xia J, Gao Z, Lin H, Tan C, Li S Z. GraphMixup: improving class-imbalanced node classification by reinforcement mixup and self-supervised context prediction. In: Proceedings of the Joint European Conference on Machine Learning and Knowledge Discovery in Databases. 2023, 519–535"
+   },
+   {
+    "key": "50274_CR258",
+    "volume-title": "Proceedings of the 10th International Conference on Learning Representations",
+    "author": "J Park",
+    "year": "2022",
+    "unstructured": "Park J, Song J, Yang E. GraphENS: neighbor-aware ego network synthesis for class-imbalanced node classification. In: Proceedings of the 10th International Conference on Learning Representations. 2022"
+   },
+   {
+    "key": "50274_CR259",
+    "doi-asserted-by": "publisher",
+    "first-page": "1328",
+    "DOI": "10.1145/3580305.3599374",
+    "volume-title": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "author": "W Z Li",
+    "year": "2023",
+    "unstructured": "Li W Z, Wang C D, Xiong H, Lai J H. GraphSHA: synthesizing harder samples for class-imbalanced node classification. In: Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2023, 1328–1340"
+   },
+   {
+    "key": "50274_CR260",
+    "doi-asserted-by": "publisher",
+    "first-page": "1390",
+    "DOI": "10.1145/3447548.3467334",
+    "volume-title": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining",
+    "author": "L Qu",
+    "year": "2021",
+    "unstructured": "Qu L, Zhu H, Zheng R, Shi Y, Yin H. ImGAGN: imbalanced network embedding via generative adversarial graph networks. In: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 2021, 1390–1398"
+   },
+   {
+    "key": "50274_CR261",
+    "first-page": "4954",
+    "volume-title": "Proceedings of the 37th AAAI Conference on Artificial Intelligence",
+    "author": "M Zhou",
+    "year": "2023",
+    "unstructured": "Zhou M, Gong Z. GraphSR: a data augmentation algorithm for imbalanced node classification. In: Proceedings of the 37th AAAI Conference on Artificial Intelligence. 2023, 4954–4962"
+   },
+   {
+    "key": "50274_CR262",
+    "first-page": "2931",
+    "volume-title": "Proceedings of the 40th International Conference on Data Engineering (ICDE)",
+    "author": "W Zhang",
+    "year": "2024",
+    "unstructured": "Zhang W, Gao X, Yang L, Cao M, Huang P, Shan J, Yin H, Cui B. BIM: improving graph neural networks with balanced influence maximization. In: Proceedings of the 40th International Conference on Data Engineering (ICDE). 2024, 2931–2944"
+   },
+   {
+    "key": "50274_CR263",
+    "doi-asserted-by": "publisher",
+    "first-page": "2434",
+    "DOI": "10.1145/3511808.3557381",
+    "volume-title": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
+    "author": "S Yun",
+    "year": "2022",
+    "unstructured": "Yun S, Kim K, Yoon K, Park C. LTE4G: long-tail experts for graph neural networks. In: Proceedings of the 31st ACM International Conference on Information & Knowledge Management. 2022, 2434–2443"
+   },
+   {
+    "key": "50274_CR264",
+    "doi-asserted-by": "publisher",
+    "first-page": "1109",
+    "DOI": "10.1145/3447548.3467276",
+    "volume-title": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining",
+    "author": "Z Liu",
+    "year": "2021",
+    "unstructured": "Liu Z, Nguyen T K, Fang Y. Tail-GNN: tail-node graph neural networks. In: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 2021, 1109–1119"
+   },
+   {
+    "key": "50274_CR265",
+    "first-page": "2287",
+    "volume-title": "Proceedings of the 35th International Conference on Neural Information Processing Systems",
+    "author": "D Chen",
+    "year": "2021",
+    "unstructured": "Chen D, Lin Y, Zhao G, Ren X, Li P, Zhou J, Sun X. Topology-imbalance learning for semi-supervised node classification. In: Proceedings of the 35th International Conference on Neural Information Processing Systems. 2021, 2287"
+   },
+   {
+    "key": "50274_CR266",
+    "doi-asserted-by": "publisher",
+    "first-page": "1848",
+    "DOI": "10.1145/3511808.3557419",
+    "volume-title": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
+    "author": "Q Sun",
+    "year": "2022",
+    "unstructured": "Sun Q, Li J, Yuan H, Fu X, Peng H, Ji C, Li Q, Yu P S. Position-aware structure learning for graph topology-imbalance by relieving under-reaching and over-squashing. In: Proceedings of the 31st ACM International Conference on Information & Knowledge Management. 2022, 1848–1857"
+   },
+   {
+    "key": "50274_CR267",
+    "doi-asserted-by": "publisher",
+    "first-page": "31",
+    "DOI": "10.1007/978-3-031-30675-4_3",
+    "volume-title": "Proceedings of the 28th International Conference on Database Systems for Advanced Applications",
+    "author": "X Zhu",
+    "year": "2023",
+    "unstructured": "Zhu X, Luo P, Zhao Z, Xu T, Lizhiyu A, Yu Y, Li X, Chen E. Few-shot link prediction for event-based social networks via meta-learning. In: Proceedings of the 28th International Conference on Database Systems for Advanced Applications. 2023, 31–41"
+   },
+   {
+    "issue": "6",
+    "key": "50274_CR268",
+    "doi-asserted-by": "publisher",
+    "first-page": "2543",
+    "DOI": "10.1109/TNNLS.2022.3145092",
+    "volume": "33",
+    "author": "J Liu",
+    "year": "2022",
+    "unstructured": "Liu J, Xia F, Feng X, Ren J, Liu H. Deep graph learning for anomalous citation detection. IEEE Transactions on Neural Networks and Learning Systems, 2022, 33(6): 2543–2557",
+    "journal-title": "IEEE Transactions on Neural Networks and Learning Systems"
+   },
+   {
+    "key": "50274_CR269",
+    "doi-asserted-by": "publisher",
+    "first-page": "3670",
+    "DOI": "10.1145/3447548.3467065",
+    "volume-title": "Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining",
+    "author": "Z Li",
+    "year": "2021",
+    "unstructured": "Li Z, Wang H, Zhang P, Hui P, Huang J, Liao J, Zhang J, Bu J. Live-streaming fraud detection: a heterogeneous graph neural network approach. In: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining. 2021, 3670–3678"
+   },
+   {
+    "key": "50274_CR270",
+    "doi-asserted-by": "publisher",
+    "first-page": "2067",
+    "DOI": "10.1145/3511808.3557356",
+    "volume-title": "Proceedings of the 31st ACM International Conference on Information & Knowledge Management",
+    "author": "Y Wang",
+    "year": "2022",
+    "unstructured": "Wang Y, Zhao Y, Shah N, Derr T. Imbalanced graph classification via graph-of-graph neural networks. In: Proceedings of the 31st ACM International Conference on Information & Knowledge Management. 2022, 2067–2076"
+   },
+   {
+    "key": "50274_CR271",
+    "doi-asserted-by": "publisher",
+    "first-page": "1453",
+    "DOI": "10.1145/3580305.3599497",
+    "volume-title": "Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "author": "G Liu",
+    "year": "2023",
+    "unstructured": "Liu G, Zhao T, Inae E, Luo T, Jiang M. Semi-supervised graph imbalanced regression. In: Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining. 2023, 1453–1465"
+   },
+   {
+    "key": "50274_CR272",
+    "first-page": "310",
+    "volume-title": "Proceedings of the 19th IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2007)",
+    "author": "T M Khoshgoftaar",
+    "year": "2007",
+    "unstructured": "Khoshgoftaar T M, Golawala M, Van Hulse J. An empirical study of learning from imbalanced data using random forest. In: Proceedings of the 19th IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2007). 2007, 310–317"
+   },
+   {
+    "issue": "1",
+    "key": "50274_CR273",
+    "first-page": "559",
+    "volume": "18",
+    "author": "G Lemaître",
+    "year": "2017",
+    "unstructured": "Lemaître G, Nogueira F, Aridas C K. Imbalanced-learn: a Python toolbox to tackle the curse of imbalanced datasets in machine learning. The Journal of Machine Learning Research, 2017, 18(1): 559–563",
+    "journal-title": "The Journal of Machine Learning Research"
+   },
+   {
+    "key": "50274_CR274",
+    "volume-title": "Open-source-imbalance-overlap",
+    "author": "S Miriam",
+    "year": "2024",
+    "unstructured": "Miriam S. Open-source-imbalance-overlap. See github.com/miriamspsantos/open-source-imbalance-overlap website, 2024"
+   },
+   {
+    "key": "50274_CR275",
+    "volume-title": "Proceedings of the 13th International Conference on Learning Representations",
+    "author": "J Qin",
+    "year": "2025",
+    "unstructured": "Qin J, Yuan H, Sun Q, Xu L, Yuan J, Huang P, Wang Z, Fu X, Peng H, Li J, Yu P S. IGL-bench: establishing the comprehensive benchmark for imbalanced graph learning. In: Proceedings of the 13th International Conference on Learning Representations. 2025"
+   },
+   {
+    "key": "50274_CR276",
+    "unstructured": "Liu Z, Kang J, Tong H, Chang Y. IMBENS: ensemble class-imbalanced learning in Python. 2021, arXiv preprint arXiv: 2111.12776"
+   },
+   {
+    "key": "50274_CR277",
+    "unstructured": "Sarig T, Galili T, Eilat R. balance-a Python package for balancing biased data samples. 2023, arXiv preprint arXiv: 2307.06024"
+   },
+   {
+    "key": "50274_CR278",
+    "doi-asserted-by": "publisher",
+    "first-page": "110358",
+    "DOI": "10.1016/j.patcog.2024.110358",
+    "volume": "150",
+    "author": "G Du",
+    "year": "2024",
+    "unstructured": "Du G, Zhang J, Zhang N, Wu H, Wu P, Li S. Semi-supervised imbalanced multi-label classification with label propagation. Pattern Recognition, 2024, 150: 110358",
+    "journal-title": "Pattern Recognition"
+   },
+   {
+    "key": "50274_CR279",
+    "first-page": "7634",
+    "volume-title": "Proceedings of the 39th International Conference on Machine Learning",
+    "author": "Y Gong",
+    "year": "2022",
+    "unstructured": "Gong Y, Mori G, Tung F. RankSim: ranking similarity regularization for deep imbalanced regression. In: Proceedings of the 39th International Conference on Machine Learning. 2022, 7634–7649"
+   },
+   {
+    "key": "50274_CR280",
+    "first-page": "11842",
+    "volume-title": "Proceedings of the 38th International Conference on Machine Learning",
+    "author": "Y Yang",
+    "year": "2021",
+    "unstructured": "Yang Y, Zha K, Chen Y C, Wang H, Katabi D. Delving into deep imbalanced regression. In: Proceedings of the 38th International Conference on Machine Learning. 2021, 11842–11851"
+   },
+   {
+    "key": "50274_CR281",
+    "first-page": "1154",
+    "volume-title": "Proceedings of the 36th International Conference on Neural Information Processing Systems",
+    "author": "Y Qian",
+    "year": "2022",
+    "unstructured": "Qian Y, Zhang C, Zhang Y, Wen Q, Ye Y, Zhang C. Co-modality graph contrastive learning for imbalanced node classification. In: Proceedings of the 36th International Conference on Neural Information Processing Systems. 2022, 1154"
+   },
+   {
+    "key": "50274_CR282",
+    "first-page": "990",
+    "volume-title": "Proceedings of the 38th International Conference on Neural Information Processing Systems",
+    "author": "J Kim",
+    "year": "2024",
+    "unstructured": "Kim J, Kim T, Choo J. EPIC: effective prompting for imbalanced-class data synthesis in tabular data classification via large language models. In: Proceedings of the 38th International Conference on Neural Information Processing Systems. 2024, 990"
+   },
+   {
+    "key": "50274_CR283",
+    "volume-title": "Proceedings of the 12th International Conference on Learning Representations",
+    "author": "J Y Yang",
+    "year": "2024",
+    "unstructured": "Yang J Y, Park G, Kim J, Jang H, Yang E. Language-interfaced tabular oversampling via progressive imputation and self-authentication. In: Proceedings of the 12th International Conference on Learning Representations. 2024"
+   },
+   {
+    "issue": "13",
+    "key": "50274_CR284",
+    "doi-asserted-by": "publisher",
+    "first-page": "2535",
+    "DOI": "10.3390/electronics13132535",
+    "volume": "13",
+    "author": "H Zhao",
+    "year": "2024",
+    "unstructured": "Zhao H, Chen H, Ruggles T A, Feng Y, Singh D, Yoon H J. Improving text classification with large language model-based data augmentation. Electronics, 2024, 13(13): 2535",
+    "journal-title": "Electronics"
+   },
+   {
+    "key": "50274_CR285",
+    "unstructured": "Vassilev A, Jin H, Hasan M. Meta learning with language models: challenges and opportunities in the classification of imbalanced text. 2023, arXiv preprint arXiv: 2310.15019"
+   }
+  ],
+  "container-title": [
+   "Frontiers of Computer Science"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1007/s11704-025-50274-7.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/article/10.1007/s11704-025-50274-7",
+    "content-type": "text/html",
+    "content-version": "vor",
+    "intended-application": "text-mining"
+   },
+   {
+    "URL": "https://link.springer.com/content/pdf/10.1007/s11704-025-50274-7.pdf",
+    "content-type": "application/pdf",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     3,
+     7
+    ]
+   ],
+   "date-time": "2026-03-07T06:02:14Z",
+   "timestamp": 1772863334000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://link.springer.com/10.1007/s11704-025-50274-7"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     3,
+     7
+    ]
+   ]
+  },
+  "references-count": 285,
+  "journal-issue": {
+   "issue": "11",
+   "published-print": {
+    "date-parts": [
+     [
+      2026,
+      11
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "50274"
+  ],
+  "URL": "https://doi.org/10.1007/s11704-025-50274-7",
+  "relation": {},
+  "ISSN": [
+   "2095-2228",
+   "2095-2236"
+  ],
+  "issn-type": [
+   {
+    "value": "2095-2228",
+    "type": "print"
+   },
+   {
+    "value": "2095-2236",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2026,
+     3,
+     7
+    ]
+   ]
+  },
+  "assertion": [
+   {
+    "value": "14 March 2025",
+    "order": 1,
+    "name": "received",
+    "label": "Received",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "8 September 2025",
+    "order": 2,
+    "name": "accepted",
+    "label": "Accepted",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "7 March 2026",
+    "order": 3,
+    "name": "first_online",
+    "label": "First Online",
+    "group": {
+     "name": "ArticleHistory",
+     "label": "Article History"
+    }
+   },
+   {
+    "value": "The authors declare that they have no competing interests or financial conflicts to disclose.",
+    "order": 1,
+    "name": "Ethics",
+    "group": {
+     "name": "EthicsHeading",
+     "label": "Competing interests"
+    }
+   }
+  ],
+  "article-number": "2011622"
+ }
+}

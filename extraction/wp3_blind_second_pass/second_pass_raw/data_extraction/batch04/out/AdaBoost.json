@@ -1,0 +1,14 @@
+{
+ "data_key": "AdaBoost",
+ "evaluates_on_data": "no",
+ "sources": [],
+ "crit": "n.a.",
+ "crit_type": "n.a.",
+ "basis": [],
+ "benchmark_inherited_from": "n.a.",
+ "origin": [],
+ "binarised_by": "n.a.",
+ "minority_rule": "n.a.",
+ "modified_data_released": "n.a.",
+ "notes": "Theory paper (JCSS 55, 1997). Sections: Introduction, on-line allocation algorithm, applications, boosting, multi-class/regression boosting. No dataset, table of results or experiment; empirical results are only referred to in other papers ([8], [9], [12]). Examples (horse racing, OCR digit '7' vs '9', Example 5) are expository, not evaluations on data."
+}

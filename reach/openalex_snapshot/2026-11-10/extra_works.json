@@ -1,0 +1,17 @@
+{
+ "saito2015precision": {
+  "id": "https://openalex.org/W1966716734",
+  "doi": "https://doi.org/10.1371/journal.pone.0118432",
+  "display_name": "The Precision-Recall Plot Is More Informative than the ROC Plot When Evaluating Binary Classifiers on Imbalanced Datasets",
+  "publication_year": 2015,
+  "cited_by_count": 6338
+ },
+ "second:OSS-1997": {
+  "id": "https://openalex.org/W2979832949",
+  "display_name": "Adressing the curse of imbalanced training sets: one-sided selection",
+  "publication_year": 1997,
+  "cited_by_count": 329,
+  "doi": null,
+  "note": "second OpenAlex record of OSS-1997 (misspelled title); added to W85350352 as in the Evaluation coding"
+ }
+}

@@ -1,0 +1,15 @@
+batch 012: 196 of 196 records done; own 142, existing-parts 47, unclear 7
+no records remain
+
+Look at first:
+1. R00004 (SMOTEBoost): coded existing-parts (SMOTE inside an existing ensemble, per the codebook case), compared=no because the abstract reports improvement without naming a comparator. This is a seminal method, so the strict reading excludes it under B. Please check.
+2. Low confidence, where the outcome depends on the call:
+   - Excluded as coded: R08636 (Gaussian-noise augmentation; the employed SAC procedure may be the authors' own), R07436 (KM-SMOTE with undescribed sampling weights), R06512 (multi-label scheme built on standard mixup and transforms), R09954 (standard contextual augmentation plus its own tweet selection), R05770 (SW-SLFN), R04814 and R04536 (DL-FSVM/DFSVM centre-distance oversampling in an embedding), R03002 (oversampling as an undescribed ingredient of novel ensembles).
+   - Kept as own, but they could be existing-parts: R00855 (EFS kernel-space oversampling; own only because of the preferential-oversampling framework), R22206 (validation-gated labelset-preserving interpolation in frozen features), R13132 (k-means adaptive hybrid sampling), R05548 (F-LLR selective US+SMOTE), R13793 (ABC sampling), R15906 (K-CGAN, novel but undescribed), R04749 (GAN with active-learning modules), R00309 (SVM "exciting support vectors": it may not be resampling at all; generator=none).
+   - Unclear: R00466, R16277, R08910, R00849, R05348, R03290, R07540.
+3. Cases the codebook does not settle:
+   - B2 standard generator plus the paper's own allocation or selection step (coded existing-parts): R04818, R06512, R09954. The "new allocation = own" case appears to be written for SMOTE.
+   - SMOTE plus the paper's own cleaner or filter, read like "an autoencoder used as a cleaner" and so existing-parts: R00845 and R07762 (excluded); R02218, R17602 and R18291 (kept under B). R07601 is own, because its KDENN is an explicitly modified ENN.
+   - R15469 (SMOTExT): BERT-space interpolation decoded by xRAG. Under the chain rule this is deep-generative, which makes it a B2 exclusion.
+   - R01502 (TOP, own) and R03334 (DB2SM, existing-parts) are similar DBSCAN-region schemes. Both stay included.
+   - R05192 is a retraction notice (coded on its content). R07164 task coded regression-as-classes. R18850 task coded segmentation.

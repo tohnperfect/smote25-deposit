@@ -1,0 +1,10 @@
+batch 077: 200 of 200 records done; include 32, unsure 17, exclude 151
+
+Look at first:
+- Cases the codebook does not settle: R07621 (theoretical analysis of the SMOTE sample distribution; no code fits, coded E-COMPARE + comparison, likely wanted elsewhere in the survey); R22380 (FERS, new entropy-guided duplication oversampler with no synthetic examples, coded E-NOGEN); R11598 (RL agent that picks among existing samplers, unsure U-other).
+- Clarification 3 calls (existing generator + existing cleaning/selection): unsure R15465, R13406 (presented as novel but looks like plain SMOTE-ENN), R11499, R15201, R15834, R03327 (PCA-SMOTE); included because the abstract describes a change to generation: R10888, R05093, R07193.
+- Clarification 2 (I2 not stated in the abstract): R20133 (LA-SMOTE, theory only), R05511 (also unclear novelty).
+- GAN/diffusion borderlines: unsure R07329, R14647, R21724 (generator presented as the contribution, novelty unclear); excluded E1 at medium R04709, R17452, R22184 (existing GAN only applied); excluded E-NOGEN at medium R17561 (diffusion feature perturbation for contrastive learning). Medium-confidence includes: R08812, R04750, R18194, R13862 (DART, mechanism not described).
+- Other low-confidence unsure: R06261, R14539, R07547, R04224; R06778 (no abstract, DDPM solar images).
+- Latent-space oversampling inside domain frameworks, included at medium: R14678, R13560; also R04235 (improved ADASYN secondary to feature selection), R07530 (ROI perturbation oversampling).
+- Excluded E-LANG but otherwise in scope: R14326 (Chinese, multi-discriminator WGAN oversampler).

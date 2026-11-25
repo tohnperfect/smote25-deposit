@@ -1,0 +1,12 @@
+d42 useaudit batch 218: blind second coding done
+n=8, fulltext=8, abstract=0, application=7 (no=1)
+inside_folds: stated=3, before-split=3, nr=1, na=1
+test_balanced: yes=3, no=3, nr=1, na=1
+confidence: high=3, medium=5
+
+Least sure:
+- R05434 is_application=no: BBR-OFS searches the SMOTE balance ratio by CV error as its core contribution; coded own under rule B ("a search for how much to oversample"). If it is treated as an application instead: industry, SMOTE applied before 5-fold CV.
+- R06678 is_application=yes: oversampling ratio tuned like an ordinary hyperparameter (contribution 2 in the paper), not taken as a resampling method of its own; contrast with R05434.
+- R13388 inside_folds=nr: narrative order (scale, SMOTE, feature selection, 75/25 split) suggests SMOTE before the split, but it is not stated and the reported numbers do not settle it.
+- R03964 inside_folds=before-split, test_balanced=yes, validation=nr: SMOTE doubled the whole 40-subject sample before any analysis; no split or CV is described.
+- R06980 test_balanced=yes and stakes=individual: test set is 30% of each class after "First, we resampled the dataset"; the debtors are corporations.

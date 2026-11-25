@@ -1,0 +1,77 @@
+{
+ "records": 429,
+ "decision": {
+  "exclude": 353,
+  "unsure": 49,
+  "include": 27
+ },
+ "code": {
+  "X-no-harm-measure": 22,
+  "X-no-comparison": 268,
+  "H-calibration": 14,
+  "X-not-resampling": 57,
+  "X-not-study": 6,
+  "H-leakage": 8,
+  "H-fairness": 5
+ },
+ "by_query": {
+  "H1": {
+   "exclude": 239,
+   "unsure": 40,
+   "include": 18
+  },
+  "H2": {
+   "exclude": 80,
+   "unsure": 6,
+   "include": 5
+  },
+  "H3": {
+   "unsure": 5,
+   "exclude": 29
+  },
+  "H4": {
+   "include": 6,
+   "exclude": 34,
+   "unsure": 6
+  }
+ },
+ "includes_by_harm": {
+  "H-calibration": 14,
+  "H-leakage": 8,
+  "H-fairness": 5
+ },
+ "includes_by_finding": {
+  "H-calibration": {
+   "mixed": 1,
+   "harm": 9,
+   "no harm": 4
+  },
+  "H-fairness": {
+   "mixed": 1,
+   "no harm": 4
+  },
+  "H-leakage": {
+   "harm": 8
+  }
+ },
+ "includes_by_comparison": {
+  "no resampling": 19,
+  "before vs after split": 7,
+  "both": 1
+ },
+ "includes_by_data": {
+  "real": 22,
+  "both": 5
+ },
+ "harm_measure_reported_without_comparison": {
+  "calibration": 176,
+  "fairness": 8,
+  "leakage": 1
+ },
+ "confidence": {
+  "medium": 82,
+  "high": 340,
+  "low": 7
+ },
+ "team_corrections": 0
+}

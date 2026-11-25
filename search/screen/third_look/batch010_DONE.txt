@@ -1,0 +1,18 @@
+batch 010: 200 of 200 records done; include 35, unsure 106, exclude 59
+no records remain
+
+Look at first:
+- Language: R20864 and R04124 excluded E-LANG because the abstracts are in Korean (metadata says en); both would be in-scope generative oversamplers (G-CTGAN; SMOTE + adapted CycleGAN) if the full text is English. R19466 is listed as Turkish but has an English abstract (excluded E1 on content). R00483 (include, low), R00125 and R00317 come from Chinese university journals with English abstracts; full-text language unchecked.
+- Low-confidence excludes that may be in scope: R01028 (GIR oversampling ensemble; synthetic or replication unclear), R00567 (PCA sampling, no evaluation), R14370 (generic GAN in a fusion framework), R07321 (resampling in VAE latent space), R19859 and R00815 (stream oversampling, likely replication), R11598 (RL sampler selection).
+- Low-confidence includes, mostly with an undescribed or possibly replicating oversampler: R00483, R17549, R02228, R02334, R00990, R05406, R14664, R21742, R00229, R11797, R17494, R11823, R10770, R01351, R18475, R00275, R00965, R02709, R00730, R11723, R06444, R20564, R03309, R20851, R08329. R05406 (WECOI) may only duplicate minority instances: R01605, from the same line of work, defines its over-sampling as duplication. R00965 is typed as a CRC book chapter, but its abstract calls it a paper (I3 check).
+- Retracted: R05589 (excluded E1).
+- 12 Zenodo 2026 preprints propose SMOTE variants with only theoretical analysis (unsure U-other, I2 not stated): R17023 R18008 R18033 R16060 R20584 R21519 R19293 R18101 R17671 R21486 R21474 R20525. They look like one series and could be checked together.
+
+Cases the codebook does not settle (how I decided):
+- Metaheuristic or feedback tuning of an existing oversampler's rate or k inside a domain pipeline counted as not changing how SMOTE is applied (E1): R05050 R05589 R20587 R15478 R19466 R11491. AutoML or RL selection among existing samplers is also out (R03901 E1, R11598 E-NOGEN).
+- Mixup or feature-space mixing for imbalance counted as generating synthetic minority examples (include I1-other, low): R17549 R10770 R11823. Pairwise image concatenation not counted (R09054 E-NOGEN).
+- Existing resamplers applied in a learned embedding: included for a general method paper (R15581) but excluded as E1 for a domain pipeline (R07321).
+- Document type: the codebook has no exclusion code for theses or book chapters that fail I3. R00737 (thesis) and R00267 (book chapter) are unsure U-other / U-new-or-applied; R00741 (book chapter that also reviews) is E-REVIEW; R08904 (book chapter) is E1 on content.
+- Standard named combinations (SMOTE-Tomek, SMOTE with RENN) presented as "proposed" in domain papers were treated as existing variants (E1), not as clarification 3: R16280 R03510 R07212.
+- E2 was also used for non-classification tasks outside its list (LLM reasoning R09450, PINN sampling R07830, trajectory regression R10318). Clarification 1 (U-other) was used for other purposes: causal inference R21578, fault localization R05531, segmentation R03351, fairness R15697 R10198, ranking R01205, survival R01249, domain transfer R22108, missing or small data R06755, general MRI synthesis R10504.
+- Generic GAN or VAE oversamplers that are the core of a domain paper without a stated change are unsure U-new-or-applied (R12617 R12689 R02704 R02903 R19405 R10512 R08354). The same generators used as a side component are E1 (R14367 R21472 R16957 R21822).

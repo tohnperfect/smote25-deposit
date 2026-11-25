@@ -1,0 +1,35 @@
+batch1 outcome rows (metric rule) - blind second coder - DONE
+Output: outrule/batch1_filled.csv (49 rows, same columns and row order; original 9 columns unchanged).
+Filled with two values: 36 rows. Rows with '?': 13 (MC-MBRC 3, NBU 4, RACOG/wRACOG 2, Batista 3, SMOTEBoost 1). No NR.
+
+Look at these first
+1. MC-MBRC R045-R047: SMOTE value '?'. Appendix A.1 (p.13) says Tables 9-12 hold the comparison with SMOTE, ROS, BLSMOTE,
+   SMOTE-IPF and BoostOBU (RF). But the column headers of Tables 9-13 read MDO, CURE_SMOTE, NRAS, kmeans_SMOTE, MC-CCR, MC-MBRC.
+   No column is labelled SMOTE. MC-MBRC values are filled from Table 10 (F_betaM). Tables 14-16 give SMOTE values equal or
+   nearly equal to MDO's, so the 'MDO' column might be SMOTE. That guess is in the notes, unverified. Use NR instead of '?'
+   if the printed headers are taken as final. The paper may have copy errors (several baselines repeat each other's values).
+2. Papers with more than one proposed method. Proposed value is '?', and every variant's value is in the note.
+   - NBU R058-R061: four variants (NB-Basic, NB-Tomek, NB-Comm, NB-Rec). The paper says NB-Comm ranked best on average, so the
+     note suggests NB-Comm if one is needed.
+   - RACOG/wRACOG R066-R067: RACOG and wRACOG. For haberman wRACOG has G-mean 0.00, so the choice decides the direction.
+   - SMOTE-ENN/SMOTE-Tomek R086-R088: Smote+Tomek and Smote+ENN (the paper also proposes CNN+Tomek). The two directions
+     against Smote differ for Post-operative and E.Coli.
+   - For NBU, the variants point in different directions only for Vehicle1.
+   A project-wide convention is needed.
+3. SMOTEBoost R091: both values '?'. SMOTE and SMOTEBoost are each printed for N = 100/200/300/500, with no default N.
+   All values are in the note. The table also has an error: SMOTEBoost N=200 F-value 76.47 equals its precision, but recall is 84.86.
+4. SPE R093: filled with step 1 because the column is printed as 'GM'. The paper defines G-mean as sqrt(Recall*Precision),
+   not sqrt(TPR*TNR). If that is rejected: AUCPRC is a precision-recall AUC, so F1 would apply (0.843 vs 0.559, in the note).
+5. Aggregated, not per-classifier, values (filled as printed):
+   - CGMOS R010-R014: AUC averaged over 6 classifiers (step 2). There are no per-dataset G-mean values.
+     CGMOS's 'Gscore' is also sqrt(Precision*Recall).
+   - RSMOTE R071-R075: averaged over 5 classifiers. Used gamma = 0 (no label noise).
+   - GOIO R032-R035: Table V names no classifier and does not say whether it averages over the 5 classifiers.
+     The paper has no G-mean or AUC, so F1 is used (step 3).
+6. Batista (SMOTE-ENN/SMOTE-Tomek) R086-R088: pruned rows used, as the row asks (C4.5 default). Unpruned values are in the notes.
+   MC-MBRC uses F_betaM (mean F-measure, headed F1 in Tables 14-16) as step 3, because there is no G-mean or AUC.
+7. Page hints in the input that are wrong: A-SUWO Table 3.2 is printed p.38 = pdf p.50 (hints said p.47/p.5).
+   FW-SMOTE Table A.4 is supplementary PDF p.4 = printed p.32 (hints said p.1/p.3). NBU Table 4 is printed p.25 = pdf p.26.
+   GOIO Table V is pdf p.10 = printed 6459 (hint was blank).
+Conventions: value columns hold the mean exactly as printed, on the printed scale (x100 for FW-SMOTE; % for NBU, Batista
+and MC-MBRC). Printed +/-SD or rank is in the note. Every value was checked against the rendered PDF page.

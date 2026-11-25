@@ -1,0 +1,14 @@
+d42 useaudit batch 211 (blind second coding): done
+n=8, fulltext=8, abstract=0, application=7 (no=1)
+inside_folds: stated=3, before-split=3, nr=1, na=1
+test_balanced: yes=3, no=3, nr=1, na=1
+vs_none: yes=3, no=4, na=1; vs_weights: no=7, na=1; validation: internal=6, external=1, na=1
+confidence: high=1, medium=7
+
+Least sure:
+- R02621: is_application=no under rule B. The full text presents CBS (k-means, mini-cluster filtering, then SMOTE) as "a new strategy" it developed and compares it with SMOTE, COS and CUS. The domain model is the main aim, so "yes" is defensible.
+- R01835: before-split/test_balanced=yes rest on rule-D arithmetic only. Sen/Spe/Acc/Pre/MCC fit about 11.7% test positives (natural 6.6%) on PDNA-543, and about 13.5% (natural 7.7%) on PDNA-316. The text places ADASYN in the "training phase".
+- R04005: the paper never states the order explicitly. MLSMOTE is applied "on the dataset" before 10-fold CV, and Table VI reports one oversampled set of 778 (508 + 270).
+- R02432: inside_folds/test_balanced=nr because no split is described. The conclusion says training and testing data were balanced, but the Sec. IV metrics imply about 25% test prevalence (natural).
+- R15731: the oversampler is not named (imblearn), so resampler=undersampling;other. External validation is only 38 MMA cases from another lab.
+- Minor: stakes=individual for R04005 (personality used for hiring) and R02432 (insurance claim); domain industry vs transport for R00467; modality other for R01835 (protein sequence windows).

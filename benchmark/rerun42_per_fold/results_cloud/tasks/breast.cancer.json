@@ -1,0 +1,9 @@
+{
+ "task": "breast.cancer",
+ "source": "Weka-UCI",
+ "n": 277,
+ "n_min": 81,
+ "rows_dropped": 9,
+ "n_categorical": 8,
+ "d_used": 39
+}

@@ -1,0 +1,12 @@
+batch 047: 200 of 200 records done; include 20, unsure 12, exclude 168
+no records remain
+
+Look at these first:
+- Low confidence (unsure): R08385 (MANET IDS "adaptive synthetic auto-encoder": ADASYN applied, or a new generator?); R00284 (2012 rule for choosing the sampling strategy plus a new metric; neither I1 nor I2 is clear).
+- Codebook does not settle: R00507 (include; two SMOTE improvements, but the record is typed as a book chapter, so I3 needs a check); R09916 (unsure; theory of under/oversampling with no named method) vs R21925 (include, I1-other; theory plus the VTSS rule for how many synthetic samples to add). These two should be judged the same way.
+- Resampling inside an ensemble: R00229 (include, I1-hybrid; integrated over/under-sampling with SVM ensembles) and R21324 (unsure; RF pruning plus resampling). The abstracts do not say whether the oversampling is synthetic. Decide both together.
+- Clarification 3 edge cases coded exclude: R04785 (calls SMOTE-Tomek "proposed novel"; coded E1 as an existing variant); R10821 (BHHO feature selection plus unchanged SMOTE presented as a new model; coded E-NOGEN); R03605 (existing K-means SMOTE applied to land cover but called "the proposed method"; coded E1).
+- Other borderline includes: R09227 (guided oversampling by NaN insertion, alloy domain); R07146 (kernel-space SMOTE, close to SVM-SMOTE); R19417 (diffusion augmentor inside a quantum classifier framework).
+- Borderline excludes: R13299 (GAN/VAE augmentation study, E-COMPARE); R18145 (TimeGAN applied, E1); R16157 (hierarchical RF with "selective SMOTE", E1); R06562 (trajectory regression with GMM plus SMOTE, E2).
+- E-LANG records that are otherwise in scope: R04004 (CSbADASYN), R11109 (DDPM), R01206 (instance transfer), all in Chinese. Coded on content despite a non-English language field (title and abstract in English): R17358 (id), R09690 (ar).
+- No abstract, excluded from the title only (medium confidence): R09503, R12386, R10260, R11839, R19354, R12509.

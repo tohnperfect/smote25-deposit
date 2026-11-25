@@ -1,0 +1,11 @@
+d42 useaudit batch 201 (blind second coder): done
+n=52, fulltext=0 (all 52 coded from title and abstract; no full texts), application=50 (no=2), inside_folds stated=0, before-split=0 (all FT fields na)
+validation: internal 47, nr 3, na 2; confidence: high 15, medium 25, low 12
+
+Least sure:
+- is_application: R00660 (fuzzy C-means + Rotation Forest with SMOTE) and R01271 (ROS/RUS/SMOTE for clustering-based image segmentation) coded no: no domain problem named. R00717 (BDSK, SMOTE + K-means undersampling on TanCorp) and R02955 (PCA + MWMOTE, cervical cancer) coded yes under rule B, as no comparison with other resampling is stated; R00874 (SMOTE in AdaBoost-SVM ensemble) yes likewise.
+- No resampling named in the abstract: R05694 (no imbalance mentioned) and R04086 (imbalance 'handled', no method) kept as applications with resampler na.
+- Unnamed oversamplers coded other: R15731, R02350, R02369, R05773, R04701, R02645, R08816, R05027, R01745, R01572, R00293; R02631 read as random over-sampling of RF subsamples.
+- stakes: transaction/firm fraud coded other (R07927, R02489, R03361), electricity theft by consumers individual (R04452); personality prediction individual (R02309, R04005).
+- domain: R02621 (seismic screening of buildings) industry, could be environment; R02645 (catastrophic health expenditure) medicine, could be finance; R05694 (depression risk from social media) medicine, could be social.
+- validation: coded internal when the abstract reports results on one data source, nr when it reports none (R04701, R00874, R07084). R07744 was first appended with nr and corrected to internal in the CSV by hand to apply this rule consistently.

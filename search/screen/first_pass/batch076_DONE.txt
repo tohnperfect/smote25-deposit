@@ -1,0 +1,13 @@
+batch 076: 200 of 200 records done; include 31, unsure 15, exclude 154
+
+Look at first:
+- Low confidence include: R19616 (IIoT intrusion model says it proposes an "improved SMOTE" but does not describe the change).
+- Optimizer-tuned SMOTE in domain papers, marked unsure (the codebook does not say whether metaheuristic tuning of SMOTE parameters counts as changing how SMOTE is applied): R07593, R15478, R10748.
+- Existing generator as the core of a domain paper, marked unsure: R18048 (DDPM, fraud), R03520 (GAN, aging bugs), R16680 (CycleGAN, medical image and tabular). Similar generators used only as one pipeline step were excluded E1 at medium confidence: R19098, R11103, R19284 (DP-GAN in federated learning, also privacy-motivated).
+- Clarification 1 calls: R17982 unsure U-other (RF-Diffusion thesis, label scarcity, no classification). R22178 excluded E1 because it applies an existing WGAN-GP to unlabeled sleep EEG; it could also be read as U-other.
+- Clarification 2: R20941 (PA-SMOTE preprint, only theoretical analysis named).
+- Clarification 3: R05677 and R02194 unsure (existing generator plus Tomek links or ReliefF, presented as new). R08364 excluded E1 because ADASYN+RENN is a step, not the claimed contribution.
+- Other unsure: R00888, R16077, R15748, R18488, R18515.
+- Medium-confidence includes embedded in domain papers: R13822, R15289, R00826 (DySMOTE may be an earlier method), R19225, R20533, R11275, R07114 (weak evaluation statement), R06768, R18489.
+- In scope but not in English (E-LANG): R01721 (Korean, CycleGAN tabular oversampler) and R04605 (Chinese, dynamic SMOTE with rotation forest).
+- Document type: the codebook's I3 does not mention theses or book chapters (R22178, R17982, R15515, R17644, R20775, R09274). All were decided on other grounds, and none is an include.

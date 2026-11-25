@@ -1,0 +1,29 @@
+{
+ "data_key": "SVDD-WSMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Synthetic",
+  "Private"
+ ],
+ "crit": "UCI: 'These datasets are selected in such a way that they have different numbers of instances, classes, dimensions, and imbalanced ratios'; Pageblock and Yeast ('high dimensions and large sizes') used to derive extra class combinations 'to simulate the scenarios with higher imbalance ratios'. Simulated A-D: to 'intuitively verify' the method on between-class imbalance, within-class imbalance and overlapping (overlapped noisy minority instances, sub-concepts of various sizes/densities; D for an irregular majority class). Bearing data: 'to verify the effectiveness of the proposed method in real-world application', class sizes selected 'to simulate the high-imbalanced real-world condition'.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "difficulty",
+  "analytic",
+  "application"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Undersampled",
+  "Class-resized",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "modified_data_released = no for the main modifications (author-binarised UCI sets and the size-selected private bearing sets are not released); only the simulated A-D sets (incl. the undersampled two-moon D) are on GitHub, so 'Undersampled' rests only on synthetic set D and the adjudicator may treat D as Generated only. Binarisation is not purely one-vs-rest: Abalone '16: 6', Yeast3 '5:1', Yeast4 '7:2', Yeast5 '9:1' are one-vs-one (other classes dropped); Pageblock 'others:1' makes the merged rest the minority. Natural: Pima, Haberman, Liver, Spect. Text says Table 2 lists '16 datasets' but it has 24 rows (8 extra Yeast combinations); Tables 3-5 cover 24. Table 2 typo: Liver IR printed '1:38' with 145/200. Table 2 prints Attribute, Minority/Majority counts (e.g. '65/1663'), Category and IR; no instance totals or class counts. Bearing sets (IF, OF, RF, IF + OF, OF + RF, IF + RF, IF + OF + RF; LDA only, Table 8, G-M/F-M/AUC) are described only in text (36 features; 2000 normal, 100 per fault type); how combination sets are composed (e.g. NC vs OF+RF) is not stated; 'roller fault (RF)' vs '100 balling faulty samples' wording differs. Test rig and features from the authors' previous work [44]. Table 3 (continued) on pdf p.25 repeats the header 'Wine/Iris/Abalone' over the block that follows the 'Spect/Pageblock/Pageblock1' label at the end of pdf p.24 (typesetting error). Outcome rows filled with G-M (first measure in Table 3). Section 5.7 uses a subset (Abalone, Balance, Yeast4, Yeast5, Yeast7) 'for the space limit'."
+}

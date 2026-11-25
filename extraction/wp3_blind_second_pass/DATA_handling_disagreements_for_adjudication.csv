@@ -1,0 +1,110 @@
+paper,field,first_pass,second_pass
+Tomek Links,crit_type,cites prior work,own reason
+SMOTEBoost,crit_type,own reason,not stated
+Borderline-SMOTE,crit_type,not stated,own reason
+EasyEnsemble / BalanceCascade,crit_type,own reason,not stated
+RBBoost / Random Balance,crit_type,cites prior work,own reason
+SMOTE-IPF,crit_type,cites prior work,own reason
+k-means SMOTE,crit_type,generic only,own reason
+SOUP,crit_type,cites prior work,own reason
+AB-SMOTE,crit_type,cites prior work,own reason
+MC-CCR,crit_type,cites prior work,own reason
+MC-RBO,crit_type,cites prior work,own reason
+EMDO,crit_type,cites prior work,own reason
+RSMOTE,crit_type,not stated,own reason
+KNNOR,crit_type,cites prior work,own reason
+SOS,crit_type,not stated,generic only
+GLOS,crit_type,generic only,own reason
+NROMM,crit_type,cites prior work,own reason
+GMMSampling,crit_type,cites prior work,own reason
+GDHS,crit_type,own reason,cites prior work
+GOIO,crit_type,not stated,own reason
+MC-NCLWO,crit_type,cites prior work,own reason
+DGOT,crit_type,not stated,own reason
+Loyalty-SMOTE,crit_type,generic only,own reason
+QC-SMOTE,crit_type,cites prior work,own reason
+SMOTEBoost,minority_rule,smallest class vs rest,explicit target listed
+Cluster-SMOTE,minority_rule,n.a.,explicit target listed
+COG-OS,minority_rule,not stated,induced by authors
+RUSBoost,minority_rule,explicit target listed,not stated
+SPIDER2,minority_rule,not stated,induced by authors
+DSRBF / Static-SMOTE,minority_rule,explicit target listed,smallest class vs rest
+INOS,minority_rule,not stated,induced by authors
+A-SUWO,minority_rule,not stated,explicit target listed
+AMDO,minority_rule,not defined,?
+OBU,minority_rule,not stated,repository-defined
+CTGAN / TVAE,minority_rule,n.a.,not defined
+G-SMOTE,minority_rule,not stated,repository-defined
+AB-SMOTE,minority_rule,n.a.,repository-defined
+DLexiBoost,minority_rule,not stated,repository-defined
+NBU,minority_rule,explicit target listed,repository-defined
+HDE,minority_rule,not stated,repository-defined
+CBHSID,minority_rule,not stated,mean-size or IR threshold
+SOS,minority_rule,not stated,mean-size or IR threshold
+SVDD-WSMOTE,minority_rule,smallest class vs rest,explicit target listed
+GLOS,minority_rule,not defined,mean-size or IR threshold
+NROMM,minority_rule,repository-defined,mean-size or IR threshold
+MC-MBRC,minority_rule,mean-size or IR threshold,not defined
+GDHS,minority_rule,not stated,mean-size or IR threshold
+MLOS,minority_rule,repository-defined,not stated
+Loyalty-SMOTE,minority_rule,not stated,smallest class vs rest
+Cluster-SMOTE,origin:Natural,yes,no
+GAMO,origin:Natural,no,yes
+HDE,origin:Natural,yes,no
+FW-SMOTE,origin:Natural,yes,no
+Survey: Stop Oversampling,origin:Natural,yes,no
+Cluster-SMOTE,origin:Binarised,no,yes
+DSRBF / Static-SMOTE,origin:Binarised,no,yes
+GAMO,origin:Binarised,no,yes
+AB-SMOTE,origin:Binarised,no,yes
+DLexiBoost,origin:Binarised,no,yes
+HDE,origin:Binarised,no,yes
+CBHSID,origin:Binarised,no,yes
+FW-SMOTE,origin:Binarised,no,yes
+Survey: Stop Oversampling,origin:Binarised,no,yes
+OREM-M,origin:Binarised,no,yes
+Loyalty-SMOTE,origin:Binarised,no,yes
+SMOTE-ENN / SMOTE-Tomek,origin:Class-merged,no,yes
+LS,origin:Class-merged,no,yes
+RAMOBoost,origin:Class-merged,no,yes
+MWMOTE,origin:Class-merged,no,yes
+SMOTE-IPF,origin:Class-merged,yes,no
+DLexiBoost,origin:Class-merged,no,yes
+NROMM,origin:Class-merged,yes,no
+OSS,origin:Class-resized,no,yes
+SHRINK,origin:Class-resized,no,yes
+SMOTEBoost,origin:Class-resized,no,yes
+ROS (Buda),origin:Class-resized,no,yes
+GDO,origin:Class-resized,no,yes
+SVDD-WSMOTE,origin:Class-resized,no,yes
+SMOTEBoost,origin:Undersampled,yes,no
+ADASYN,origin:Undersampled,yes,no
+MBS,origin:Undersampled,no,yes
+NBU,origin:Undersampled,no,yes
+KNNOR,origin:Undersampled,no,yes
+SVDD-WSMOTE,origin:Undersampled,no,yes
+Survey: Stop Oversampling,origin:Undersampled,yes,no
+RAMOBoost,origin:Noise-injected,no,yes
+SPIDER2,origin:Noise-injected,no,yes
+RSMOTE,origin:Noise-injected,no,yes
+KNNOR,origin:Noise-injected,no,yes
+INOS,origin:Induced profile,no,yes
+GLOS,origin:Induced profile,no,yes
+COG-OS,origin:Generated,no,yes
+ADASYN,origin:Generated,no,yes
+RAMOBoost,origin:Generated,no,yes
+INOS,origin:Generated,no,yes
+RBBoost / Random Balance,origin:Generated,no,yes
+CGMOS,origin:Generated,no,yes
+MDO,origin:Generated,no,yes
+GAMO,origin:Generated,no,yes
+MBS,origin:Generated,no,yes
+MC-CCR,origin:Generated,no,yes
+RSMOTE,origin:Generated,no,yes
+GDO,origin:Generated,no,yes
+KNNOR,origin:Generated,no,yes
+NROMM,origin:Generated,yes,no
+OREM-M,origin:Generated,no,yes
+GMMSampling,origin:Generated,yes,no
+CISO,origin:Generated,no,yes
+MLOS,origin:Generated,no,yes

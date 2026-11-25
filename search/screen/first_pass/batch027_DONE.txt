@@ -1,0 +1,11 @@
+batch 027: 200 of 200 records done; include 24, unsure 22, exclude 154
+no records remain
+
+Check first:
+- Codebook does not settle E2 vs clarification 1. These new generators target a task other than classification, so I coded them U-other, not E2: R05837 (anomaly detection), R02928 (FCM-SMOTE for load clustering), R19617 and R01989 (imbalanced regression). R01249 (survival forest, low) is a similar task-scope doubt.
+- I3 document type: R08563 proposes an improved ADASYN but is a chapter in an edited book. There is no exclusion code for document type at this stage, so it is unsure.
+- Low confidence: R07066 (raking/sampling resampler for one-class classification; unclear whether it makes synthetic examples) and R01249.
+- Borderline includes (medium): R05930 (CCR + GSVM-RU, close to clarification 3), R19280 (LLM-guided GAN inside an IDS framework), R15604 (TarDiff; aims at both scarcity and imbalance), R12638 (oversampling CutMix/Mixup for tail classes), R14314 (CGAN in ISOMAP space), R02445 (graph oversampling), R06871 (saliency oversampling), R06352 (adaptive-k SMOTE in a domain paper).
+- Borderline excludes (medium): R04704 and R04355 (existing GANs applied in a domain), R01603 (local vs global SMOTE for big data, framed as analysis), R22030 (no abstract; "SMOTE paradox" meta-research), R19896 ("adapted" SMOTE), R11492 and R02999 (cluster + SMOTE pipelines).
+- In-scope methods excluded only for language (Chinese full text, English abstract): R10921 (boundary-adaptive SMOTE) and R06869 (GAN oversampler).
+- Front matter tagged front-matter-in-scope: R19986 (lists "MC-SMOTE" for software fault prediction).

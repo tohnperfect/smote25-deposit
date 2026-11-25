@@ -1,0 +1,10 @@
+batch 086: 200 of 200 records done; include 17, unsure 16, exclude 167
+no records remain
+
+Records to look at first:
+- Unsure, I2 not stated (new SMOTE variants with theoretical analysis only, all Zenodo preprints): R17975 CB-SMOTE, R21522 ME-SMOTE, R20469 Manifold-aware SMOTE.
+- Unsure, low confidence (unclear whether the proposed balancing generates synthetic examples or is new): R01649 cluster-heads sampling, R01351 soft/hardsampling, R00656 oversampling to target IR, R04890 ROS-DBSCAN, R01588 cell-based oversampling, R09604 PSO data balancer, R15296 adaptive sampler selection, R13815 "modified SMOTE" in energy forecasting (also regression vs classification unclear). No abstract: R02526, R21291.
+- Unsure, new-or-applied (clarification 3 and similar): R11008 filtering+ADASYN+ENN, R05834 CLUBS anomaly removal + ADO oversampling, R20658 MWMOTE-MLLM (modified or plain MWMOTE?).
+- Medium-confidence includes where the oversampler sits inside a domain paper: R17986 Borderline-PC SMOTE bounded to process limits, R15069 DepAug speech decoder, R19707 cGAN-SMOTE ICD-Balancer (survival-analysis context), R20615 JSO oversampler, R01053 improved SMOTE + K-means, R02131 WSMOTE inside bagging, R10275 Argo error-sample oversampler.
+- Borderline excludes: R02626 K-means+SMOTE (E1), R17657 SVM-SMOTE+NCL module (E1, clarification 3 arguable), R12549 K-SMOTE/K-ADASYN (E1), R16221 GAN built from earlier methods (E1), R18511 cluster-wise minority injection without synthesis (E-NOGEN), R14346 MSDL mechanism not stated (E-NOGEN), R14444 "Novel Sampling Methods" title but abstract is a comparison (E-COMPARE), R09625 climate parameterization (E2).
+- Not settled by the codebook: R15141 is a Chinese-language paper proposing a covariance-based "global cost SMOTE" (coded E-LANG, otherwise in scope). Records with non-English language metadata but English titles/abstracts (R02486, R06576, R15464, R00131, R01851) were coded on content (all excluded on content, language noted in the reason); records with Indonesian titles were coded E-LANG.

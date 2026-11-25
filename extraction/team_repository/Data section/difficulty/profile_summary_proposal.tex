@@ -1,0 +1,25 @@
+% PROPOSAL (Claude, 28 Oct 2026) - not inserted into data-section-draft.tex. Source: difficulty/profile_final.py
+\begin{table}[t]
+\centering\small
+\caption{Difficulty profile of the verifiable datasets. A task can carry several flags.
+Entries count how often the corpus uses a task. One-vs-rest tasks are built by us from
+multiclass files and are shown separately.}
+\label{tab:data-difficulty}
+\begin{tabular}{lrrr}
+\toprule
+ & \multicolumn{2}{c}{Binary and binarised} & One-vs-rest\\
+\cmidrule(lr){2-3}
+ & Tasks & Entries & Tasks\\
+\midrule
+All & 238 & 703 & 347\\
+Small disjuncts (rare $\geq$ 20\%)~\citep{napierala2016types} & 33 (14\%) & 65 (9\%) & 29 (8\%)\\
+Outliers $>$ 20\%~\citep{napierala2016types} & 83 (35\%) & 198 (28\%) & 49 (14\%)\\
+Small sample ($n_{\min}/d < 10$)~\citep{jain2000statistical} & 160 (67\%) & 454 (65\%) & 162 (47\%)\\
+None of the three & 65 (27\%) & 224 (32\%) & 174 (50\%)\\
+\addlinespace
+IR $>$ 9~\citep{fernandez2008study} & 140 & 376 & 164\\
+\addlinespace
+noise index, median [P25, P75] & \multicolumn{2}{c}{0.57 [0.29, 0.77]} & 0.29 [0.07, 0.61]\\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,21 @@
+{
+ "data_key": "SplitBal",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL"
+ ],
+ "crit": "46 highly imbalanced binary data sets from the KEEL repository; these data sets have different number of instances and attributes, and also differ in class imbalance ratio (IR).",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "n.a.",
+ "notes": "crit is descriptive only (no purpose/causal wording): Sect. 4.1 states the 46 sets differ in instances, attributes and IR; coded own reason/diversity because the variety is stated in the dataset section; under a strict purposive-only rule this is 'not stated'. 'Highly imbalanced' is not tied to any written threshold (printed IRs run from 8.10 to 41.40), so no threshold rule. All sets are the KEEL imbalanced two-class files (names such as ecoli0146vs5, glass04vs5; KEEL imbalanced URL given); the paper describes the multi-class-to-binary unions in the passive and does not say the authors did it, hence binarised_by=repository and minority_rule=repository-defined. Table 3 (p.1628 = pdf p.6) prints # Attr. ('number of total attributes'), # Ins., # Min., # Maj., IR; no number of classes. # Attr. differs between ecoli variants (7 for ecoli046vs5/ecoli01vs5/ecoli0146vs5, 8 for ecoli0346vs5), as printed. IR footnote defines IR = majority/minority instances."
+}

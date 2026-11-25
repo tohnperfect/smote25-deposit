@@ -1,0 +1,28 @@
+{
+ "records": 22426,
+ "second_look": 4358,
+ "status": {
+  "exclude_single_high": 16204,
+  "to_check": 2088,
+  "include_single_high": 1864,
+  "exclude_agreed": 1502,
+  "include_agreed": 768
+ },
+ "doubtful_agreement": 0.819,
+ "doubtful_kappa": 0.72,
+ "first_to_second": {
+  "unsure->unsure": 1298,
+  "exclude->exclude": 1502,
+  "include->include": 768,
+  "unsure->exclude": 421,
+  "unsure->include": 155,
+  "include->unsure": 136,
+  "exclude->unsure": 63,
+  "include->exclude": 13,
+  "exclude->include": 2
+ },
+ "include_total": 2632,
+ "exclude_total": 17706,
+ "to_check": 2088,
+ "seed_samples": 20261114
+}

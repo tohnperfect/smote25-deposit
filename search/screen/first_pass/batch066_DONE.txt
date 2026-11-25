@@ -1,0 +1,11 @@
+batch 066: 200 of 200 records done; include 25, unsure 22, exclude 153
+
+Look at these first:
+- Cases the codebook does not settle: R12009 (NeurIPS theory of SMOTE risk bounds with tuning guidelines; no category for theory papers, likely relevant), R00006 (Batista et al. 2004, original SMOTE+Tomek / SMOTE+ENN proposal; unsure only because of rule 3, probably an include), R00416 (semi-supervised "oversampling" that pseudo-labels real unlabeled samples; are these synthetic?), R01824 (semi-supervised GAN "complementary" samples for hard attributes).
+- Rule 3 (existing generator + existing cleaning/selection, presented as new): R00006, R11265 (ROSE+Tomek), R17126 (WGAN-GP+ENN), R05576 (ROSE + k-means undersampling). R00746 (SMOTE + denoising autoencoder) is similar.
+- Rule 2 (I2 not stated in abstract): R20083 (KC-SMOTE), R20627 (Multi-view SMOTE), R18001 (context-aware generative augmentation, general purpose).
+- Rule 1 (generator built for another purpose): R15812 (image translation for source-free domain adaptation in segmentation).
+- Low-confidence include: R06454 (minority mixup augmentation inside a compositional zero-shot model). Medium includes resting on a single abstract sentence: R03118, R02461, R05115, R01353 (Spark/LSH SMOTE), R06879, R08892, R01392, R08139 (simulation-generated instances), R21425 (mutation-generated defects), R03162 and R10512 (generative, existing generator types adapted).
+- Borderline excludes: R17980 (existing CTGAN for balancing, E1; compare with R10512 included), R16270 (ensemble of SMOTE and non-SMOTE models, E1), R13419 (SMOTE+ENN pipeline called novel, E1), R01254 (SMOTEBoost-SVM applied, E1), R16416 (re-weighting + Mixup, E-NOGEN).
+- Other unsure records: R10721 (no abstract, data augmentation diagnosis framework), R01262, R05899, R01186, R21472, R20641, R19515, R09095, R12628, R20650 (cannot tell whether the resampling is new).
+- Possibly useful elsewhere: R03767 (oversampling-before-split flaw, E-COMPARE); R04056 front matter tagged front-matter-in-scope (listed paper on oversampling for fraud detection).

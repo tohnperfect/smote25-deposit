@@ -1,0 +1,12 @@
+batch 003: 200 of 200 records done; include 33, unsure 20, exclude 147
+no records remain
+
+Look at first (no low-confidence calls; 42 medium):
+- Codebook does not settle: R01872 (MASI relabels majority samples as minority, no new points; unsure), R01652 (hybrid resampler whose oversampling copies boundary minority samples; unsure), R22008 (edge-based image augmentation for minority classes; included as I1-other), R12138 (Gaussian-sampling augmentation for small, imbalanced spectra; unsure).
+- Clarification 1, purpose is fairness: R09229 (PC-SMOTE, PC-ADASYN on protected subgroups), R22151 (diffusion augmentation for underrepresented groups); both unsure.
+- Clarification 3 borderlines: R00968 (NN/DBSCAN filter + SMOTE/RUS orderings; coded E-COMPARE because it is framed as an empirical study, could be unsure), R00793 (TRkNN + SMOTE on UCI; unsure, likely include), R20467 and R16280 (SMOTE + KNN filtering, Tomek + SMOTE, called proposed; unsure, likely E1).
+- Claimed new oversampler in a domain paper, no detail: R04151 (KCV-SMOTE), R04643, R06457, R15421 (SMADASYN), R04255 (G-SMOTE), R07372 (SMOTE + FCM), R01951 (MuDIOT), R13183 (negation generation); all unsure. R04267 (WCP-SMOTE used inside an ensemble) was excluded E1 but may be the authors' own variant.
+- Feature-space SMOTE: R19246 (presented as a contribution; unsure) and R18252 (two standard ways compared; E1). Check that these two are treated consistently.
+- Medium-confidence includes where the abstract does not say how samples are made: R01564 (IOSDS), R05522 (HPACID), R19530 (Q-SYNTH). Others to check: R00182 (local PCA generation), R17210 (simulation-based SIM-GEN), R02395 (cWGAN-GP for XSS).
+- I2 not stated: R02210 (unsure). No abstract, excluded E1 from the title: R13030, R17183, R17231, R04176. Front matter with an in-scope title: R04897.
+- Language: E-LANG only where the language field is not English (7 records). R17692 (Chinese, IWGAN-GP oversampler) would otherwise be an include. Records tagged English with Indonesian titles were coded on content.

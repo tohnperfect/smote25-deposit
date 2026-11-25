@@ -1,0 +1,11 @@
+batch 054: 200 of 200 records done; include 20, unsure 20, exclude 160
+no records remain
+
+Records a person should look at first:
+- Low confidence: R16196 (Rolling SMOTE augmentation may be new, but RMSE evaluation suggests regression), R12101, R04023, R11044, R03250, R13225 (oversampling is one part of a larger method and the abstract does not show what is new), R11151 (no abstract, multi-fidelity GP classifier).
+- GAN used inside a domain pipeline, check that these calls agree: R06345, R19272, R21493 (unsure) vs R17604 (exclude E1, existing BGAN used for intrusion-detection augmentation).
+- Existing generator plus existing cleaning or selection step: R03510 (SMOTE+Tomek+cost-sensitive SVM, unsure) vs R02060 (SMOTETomek+PSO feature selection, exclude E1) are near-identical patterns; also R08087, R01179, R19935, R03973 (unsure).
+- Medium-confidence includes: R00577 (SelectSMOTEBoost, SMOTE in boosting with feature selection), R05529 (new majority reduction step + plain SMOTE), R15628 (redesigned DeepSMOTE, change not described), R12265 (template-based defect image synthesis; check that the task is classification), R09627 (OsImp).
+- Not settled by the codebook: R20864 (G-CTGAN is in scope, but the abstract is in Korean while metadata says en); R18686 and R21557 (Zenodo SMOTE-variant preprints with theoretical analysis only, I2 not stated; similar to R20500, included because it reports experiments); R18682 (GAN augmentation for non-IID federated learning).
+- In scope but excluded only for language (E-LANG): R04280 (Chinese, WGAN minority generator), R00187 (Chinese, negative-immune oversampler).
+- Borderline excludes and no-abstract records: R06780 (FCM+SMOTE+SVM wildfire), R04104 (dual evolutionary bagging); R21962 (TAD-SMOTE, no abstract, unsure, likely include); R00016 and R20240 (no abstract, excluded on title).

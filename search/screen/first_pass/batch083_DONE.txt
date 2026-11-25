@@ -1,0 +1,11 @@
+batch 083: 200 of 200 records done; include 30, unsure 16, exclude 154
+no records remain
+
+Look at these first:
+- Low confidence: R18153 (unsure). A CNN intrusion system "addresses unbalanced datasets" and is compared with systems that use SMOTE, ADASYN, ROS and GAN, but the abstract never says how it balances the data.
+- Retractions (the codebook does not cover them): R21539 is a 2026 retraction notice for a 2022 PSO/Egyptian-vulture SMOTE article; I excluded it as E-REVIEW (editorial) with the tag front-matter-in-scope. If the original article is in the corpus, it needs a retraction flag. R05192 is itself a retracted article (GA+kNN oversampler). It meets I1-I3, so I included it as I1-other.
+- E2 or clarification 1: R04138 (NNI+SMOTE augmentation for a rubber tensile-stress model) and R22154 (cWGAN-GP augmentation for snow-depth estimation) are regression-only, so I excluded them as E2. Clarification 1 (a generator built for a purpose other than imbalanced classification goes to unsure) could be read to cover them.
+- In scope except for language (E-LANG, Chinese): R13328 (GLRD-GAN graph oversampler) and R02157 (WGAN oversampler for electricity theft).
+- Borderline includes (medium): R19227 (LLM prompt augmentation in a fake-news paper), R02786 (DCGAN oversampler for crash data), R01182 (safe-screening undersampling plus an unnamed oversampler), R09549 (fuses the outputs of several SMOTE variants, then SMOTEBagging), R17592 (enhanced-PSO oversampler inside a stream ensemble; the oversampler may come from earlier work), R00023 (SPSO may have been introduced in an earlier paper), R00571 (spatiotemporal oversampling for background subtraction).
+- Borderline excludes (E1, medium): R03550, R02004, R05388, R02416, R07524, R07367. Each applies existing resampling in a domain pipeline, but wording such as "proposed", "adopts" or "novel approach" could hide a change to the generation step.
+- Unsure because I2 is not stated: R21458, R16552, R18484 and R20121 are 2026 Zenodo preprints of SMOTE variants that report theory only. All four abstracts are written in the same style, so they may be one series.

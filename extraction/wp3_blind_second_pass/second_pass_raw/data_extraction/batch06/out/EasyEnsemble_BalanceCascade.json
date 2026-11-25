@@ -1,0 +1,19 @@
+{
+ "data_key": "EasyEnsemble / BalanceCascade",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI"
+ ],
+ "crit": "not stated in paper",
+ "crit_type": "not stated",
+ "basis": [],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "No reason is given for choosing the 16 UCI data sets; the paper even says their imbalance level 'happens to be lower than 40' (p.544). The 6 'easy' vs 10 'hard' grouping (AdaBoost AUC > 0.95) is a post-hoc split of results, not a selection rule. Table II is an image-like table not present in the pdftotext layer; values read from the PDF page rendered at 300 dpi. Table II prints Size, Attribute types (e.g. '4C', '6N'), Target, #min/#maj (e.g. '49/576') and Ratio (majority/minority); no number-of-classes column. Natural = the natively two-class sets (e.g. haberman, ionosphere, pima, wdbc, wpbc, phoneme) whose Target-vs-rest split equals the native classes (the paper does not itself say which are native). housing is a regression target converted to the range [20, 23] vs rest. Results tables use 'sat' for satimage. Only link is the UCI repository; no modified data released."
+}

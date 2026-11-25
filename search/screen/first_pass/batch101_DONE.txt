@@ -1,0 +1,10 @@
+batch 101: 200 of 200 records done; include 24, unsure 15, exclude 161
+no records remain
+
+Look at first:
+- Low-confidence unsure: R08456 (boundary sampling; may not generate examples), R00660 (rotation forest + SMOTE; SMOTE may only be preprocessing), R11679 (bias-aware SMOTE-Tomek/ADASYN mix), R20019 and R07830 (no abstract; R07830 is PINN collocation sampling, likely not classification).
+- Not settled by the codebook: R08901 GOLIATH is a SMOTE generalization evaluated only on regression. I sent it to unsure under clarification 1, but I coded the regression-only generator R21384 (CopulaCalib) E2; please align the two. R15469 SMOTExT (SMOTE for text via LLM decoding) has only a qualitative and privacy evaluation.
+- Medium-confidence includes that could go to unsure: R19904 (cluster-aware oversampling in a fraud framework), R01409 (ADASYN seeded by abstained samples), R13148 (federated K-means SMOTE; compare R10677, which is unsure), R17419 (oversampler for recommender data), R04996 (back-translation augmentation), R18864 (GAN image augmentation), R10191 (density-based WGAN), R22285 (extrapolated synthetic minority points inside an estimator).
+- I2 not stated in the abstract: R02793 (TMDSMOTE), R17780 (Cluster-stable SMOTE).
+- Excluded only for language, though the methods are in scope: R01416 (SMOTE-SGA, Indonesian) and R20598 (multi-label oversampler, Chinese). R02923 is front matter tagged front-matter-in-scope.
+- Medium-confidence excludes: R01654, R04820, R00917, R03012, R14270, R19282, R00673, R02773, R04615 and R16289 (both no abstract).

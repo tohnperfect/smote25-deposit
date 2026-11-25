@@ -1,0 +1,9 @@
+{
+ "task": "promotion",
+ "source": "author-MBS",
+ "n": 23815,
+ "n_min": 1634,
+ "rows_dropped": 1185,
+ "n_categorical": 0,
+ "d_used": 4
+}

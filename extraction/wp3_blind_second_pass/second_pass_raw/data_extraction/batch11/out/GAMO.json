@@ -1,0 +1,29 @@
+{
+ "data_key": "GAMO",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "Image",
+  "UCI",
+  "KEEL",
+  "LibSVM",
+  "Synthetic"
+ ],
+ "crit": "Image datasets (MNIST, Fashion-MNIST, CIFAR10, SVHN, CelebA, LSUN, SUN397) given imbalanced variants because they 'are not significantly imbalanced in nature'; MNIST ablation uses flattened images 'to facilitate straightforward visualization of the oversampled instances'; CelebA and LSUN used 'to evaluate the performance of GAMO on images of higher resolution, as well as to assess the effects of an increase in the number of instances'; SUN397 used 'to evaluate the performance of GAMO over a large number of classes'; five non-image UCI/KEEL/LibSVM datasets (supplement) used 'for additionally validating the performance'; toy 2-D dataset used for the Fig. 1 illustration.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "method-target",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Induced profile",
+  "Generated"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "induced by authors",
+ "modified_data_released": "yes",
+ "notes": "Main text says '7 image datasets' but names only six (MNIST, Fashion-MNIST, CIFAR10, SVHN, LSUN, SUN397); CelebA is the seventh (Sec. 4.3). No dataset characteristics table in the main paper: per-class counts and IR are given in Sec. 4.1-4.4 prose (totals not printed). SUN397: 50 randomly selected classes, natively imbalanced (IR 14.21), so Natural rests on SUN397 plus the supplement's non-image sets (Chess 18 classes, Cover Type 7, IJCNN1, Magic). Abalone19 is two-class (supp Table 7) but the paper does not say who binarised it or which repository it came from; binarised_by = repository follows the KEEL-style name only. minority_rule: image sets have an author-induced long-tail profile; native multiclass non-image sets (Chess, Cover Type) never define a minority. modified_data_released = yes rests on 'Codes & data' / 'Codes and datasets' at the GitHub link; the paper does not say explicitly that the imbalanced subsets themselves are hosted, and the supplement also gives pre-processing code that produces a version 'similar to ours'. Fig. 1 toy data generator not described. Supplementary Table 8 has the non-image SMOTE+CN results. basis method-target: the method is an end-to-end deep-learning (image, multi-class) oversampler and the main benchmarks are multi-class image sets; the paper frames them as 'multiple class imbalanced image datasets' but does not state this as the selection reason in so many words."
+}

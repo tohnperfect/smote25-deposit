@@ -1,0 +1,11 @@
+batch 060: 200 of 200 records done; include 27, unsure 11, exclude 162
+no records remain
+
+Records to check first (record number in batch / rec id):
+- Low-confidence includes: 34/R05320 (repeated SMOTE for multiclass, novelty doubtful, may be E1); 53/R02308 (MASI relabels majority samples as minority: does relabeling count as generation?); 153/R02354 (SMOTE "enhanced using Orchard's algorithm", may be a speed-up only).
+- Borderline medium includes: 6/R00299 (kNN oversampling for streams); 40/R16542 (pattern-based oversampling module inside GraphSAGE+); 107/R06321 (PSO/GA-based oversampling, mechanism unclear); 112/R00393 (SMOTE inside cost-sensitive hypernetwork ensembles); 117/R19845 (class restructuring before SMOTE); 144/R22374 (K-Shape regions + DTW-SMOTE); 146/R06485 (SMOTE + bootstrap one-vs-all); 157/R16635 (SMOTE-CF + weighted ENN); 162/R04278 (extended study of the authors' C-SMOTE, possible E4 at full text).
+- Unsure, I2 not stated (theory only, same Zenodo series): 74/R21983 Temporal SMOTE, 84/R20584 Multi-agent SMOTE, 128/R20597 Multi-hop SMOTE.
+- Unsure, other: 102/R18753 (DCGAN pseudo-sample generation for membership inference attacks, purpose not imbalance); 180/R19411 (LLM-generated minority reviews vs SMOTE, Indonesian title, language doubtful); 191/R16036 (Time Series ROS, duplication or synthesis unclear); 25/R16239, 48/R08772, 55/R13703 (generator may or may not be new); 88/R01394 and 189/R12690 (no abstract).
+- Language calls the codebook does not settle from metadata: 200/R03876 (E-LANG on Korean abstract although metadata says English; in-scope method otherwise); 179/R10217 (Chinese, improved CP-SMOTE, in scope otherwise); 129/R06612 (Chinese); 68/R05842 (Thai, coded E1); 77/R14273 (Korean abstract, coded E1).
+- No code fits: 198/R01528 is the smotefamily R package (software, not a paper), coded E-REVIEW.
+- Medium-confidence E1 calls on existing generators: 71/R04219 (LMOTE applied), 78/R15578 (CTGAN + cost-sensitive distillation), 118/R12172 (DCGAN balancing), 126/R01097 (tuning of the authors' earlier hyperSMURF, a SMOTE hybrid), 81/R00869, 176/R11544, 193/R10444; plus no-abstract excludes 21/R18928, 47/R11224, 192/R16636 (E2), 169/R19550 (E2, regression).

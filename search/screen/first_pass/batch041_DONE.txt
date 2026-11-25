@@ -1,0 +1,12 @@
+batch 041: 200 of 200 records done; include 20, unsure 19, exclude 161
+no records remain
+
+Look at first:
+- Low confidence: R18972 (no abstract; title "Evaluating Diffusion-Based Synthetic Data Augmentation for Driver Inattention Detection", could be an application or a new generator).
+- E-LANG exclusions whose method looks in scope (language taken from metadata and non-English title; codebook does not say whether to seek an English version): R22205 (Spanish, Ledoit-Wolf Gaussian minority generator, emotion detection), R09844 (Chinese, prospect-theory oversampling POS), R03242 (Chinese, C4.5-guided iterative hybrid sampling ensemble).
+- Borderline includes under clarification 3: R14643 (parallel/serial ensembles of existing oversamplers with selection near minority centers), R13364 (NR-Clustering SMOTE, close to K-means SMOTE), R04121 (HABC, density-based oversampling inside bagging; not clear the oversampling is synthetic).
+- Clarification 2 (I2 not stated): R00175 (hierarchical SMOTE, multi-label), R00703 (distance-threshold SMOTE), R21979 (TCR-SMOTE, trajectories), R18471 (Dr-SMOTE, diffusion). Clarification 1 (other purpose): R19838 (limited-data GAN), R05715 (structured-data GAN, privacy and augmentation), R15345 (zero-shot feature generation).
+- Borderline excludes: R01199 (dynamic selection combined with SMOTE-type preprocessing, coded E-COMPARE but could be read as an ensemble hybrid), R12838 (LLM-generated minority samples used as a step), R10652 ("dynamic sampling" with SMOTE plus RUS in a DL intrusion model).
+- Domain papers naming a sampler whose novelty is unclear (U-new-or-applied): R20737 (SSOT, resembles SVM-SMOTE), R11313 (LCGBO), R05358 (TBSSVM), R07072 (BSGM), R16271 (SMOTE-GAN hybrids), R08362 (GAN oversampling on KEEL), R10977 (GAN for PV images), R02278 (unnamed oversampler), R10165 (undescribed two-sided sampler).
+- No-abstract unsure with in-scope titles: R16381 (potential-field oversampling), R19425 (GeoBorrow-SMOTE).
+- Front matter: R22292 (IUKM 2026 proceedings) lists "A Hybrid PSO-SMOTE Approach for Enhancing AFW-CIL in Imbalanced Data Classification" (tagged front-matter-in-scope).

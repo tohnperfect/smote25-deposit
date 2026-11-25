@@ -1,0 +1,11 @@
+batch 067: 200 of 200 records done; include 25, unsure 19, exclude 156
+no records remain
+
+Check first (low confidence or borderline):
+- Language unclear: R21881 was excluded E-LANG because the language field says zh, but the title and abstract are English and the method (a generative oversampler) is in scope. R00063 was included (MCMO-Boost), but its venue, Jisuanji gongcheng, is a Chinese journal; check the full-text language. R01192 was excluded E-LANG (Chinese) but would otherwise be in scope.
+- Cases the codebook does not settle: R20721 (theory of generative augmentation, no new generator) was coded E-COMPARE. R05203 (DIRECT trains on a smoothed minority distribution and generates no samples) was coded E-NOGEN.
+- Includes resting on thin abstracts: R06274 (novel oversampler, evaluation only implied), R16677 (CN-SMOTE inside a skin lesion framework), R13943 (TVAE plus quality-diversity post-selection).
+- Low-confidence unsure: R15697 (group-conditional oversampling for fairness in federated learning), R10277 (adaptive oversampling for object detection), R04366 (I2 not stated; graduate review), R01514 (deep over-sampling extension), R09732 (multilabel graph oversampling compared with MLSMOTE), R16316 (GAN plus SMOTE-Tomek), R12627 (SMOTE plus targeted undersampling), R01551 (SMOTE with one-vs-one in a multiclass ensemble).
+- Clarification 3 unsures (existing generator plus a cleaning or other step): R10565, R02970, R18762, R05963, R07106, R02036. Also unsure: R15955 (Bit-level SMOTE, I2 not stated), R07609 (lexicon augmentation), R20160 (ChatGPT augmentation), R08001, R10557.
+- Front matter in scope: R01157 (lists a VAE oversampling paper, CLOUD 2018) and R15934 (lists SVM-guided GraphSMOTE, PReMI 2025).
+- Low-confidence exclude: R02587 (no abstract). R12538 has a garbled abstract (two abstracts merged).

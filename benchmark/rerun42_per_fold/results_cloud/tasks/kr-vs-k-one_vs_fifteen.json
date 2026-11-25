@@ -1,0 +1,9 @@
+{
+ "task": "kr-vs-k-one_vs_fifteen",
+ "source": "KEEL(keel_ds)",
+ "n": 2244,
+ "n_min": 78,
+ "rows_dropped": 0,
+ "n_categorical": 3,
+ "d_used": 23
+}

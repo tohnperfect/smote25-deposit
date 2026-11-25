@@ -1,0 +1,73 @@
+{
+ "items": 90,
+ "groups": {
+  "must": 55,
+  "changed": 15,
+  "kept": 10,
+  "fill": 10
+ },
+ "frames": {
+  "changed": 30,
+  "kept": 137,
+  "agreed": 1275
+ },
+ "seeds": {
+  "changed": 20261125,
+  "kept": 20261126,
+  "agreed": 20261127
+ },
+ "reviewers": {
+  "an author": {
+   "must": {
+    "agree": 55
+   },
+   "changed": {
+    "agree": 15
+   },
+   "kept": {
+    "agree": 10
+   },
+   "fill": {
+    "agree": 10
+   }
+  }
+ },
+ "totals": {
+  "an author": {
+   "agree": 90
+  }
+ },
+ "items_by_form": {
+  "Use audit": {
+   "must": 53,
+   "changed": 15,
+   "kept": 10,
+   "fill": 10
+  },
+  "Coverage sample": {
+   "must": 2
+  }
+ },
+ "decided_by_form": {
+  "Use audit": {
+   "must": {
+    "agree": 53
+   },
+   "changed": {
+    "agree": 15
+   },
+   "kept": {
+    "agree": 10
+   },
+   "fill": {
+    "agree": 10
+   }
+  },
+  "Coverage sample": {
+   "must": {
+    "agree": 2
+   }
+  }
+ },
+ "records_md5": "9fb4b0b2334e9830e93f2c97373651eb"
+}

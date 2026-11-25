@@ -1,0 +1,15 @@
+d42 useaudit batch 213: blind second coding done
+n=8, fulltext=8, abstract=0, application=8
+inside_folds: stated=2, before-split=1, nr=5
+test_balanced: yes=1, no=4, nr=3
+validation: internal=6, external=1, nr=1
+vs_none yes=3; vs_weights yes=1; confidence high=1, medium=7
+
+Codes I was least sure of:
+- R04275 inside_folds=before-split: SMOTE-ENN was applied after the 70:30 split, but to the training and test sets separately (Table 5). Coded before-split because the test metrics were computed on the resampled test set (recall 0.899=178/198, accuracy 0.926=339/366) and the tuning CV apparently ran on resampled training data; not a resample-then-split case.
+- R15526 inside_folds=stated / test_balanced=no: rests on a single results sentence ("Balancing the training data with ADASYN"); the methods do not say when ADASYN was applied. Could reasonably be nr/nr.
+- R22074 validation=external: the authors call the 54-pump 2022-2025 evaluation "post-deployment", but it reads as a retrospective batch run; deployed or prospective are arguable.
+- R04991 validation=internal: the authors call the 42-patient test set external, but it comes from the same TCGA-LGG cohort.
+- R01271 validation=nr, inside_folds=nr: unsupervised clustering with no split; evaluated on the same images' original pixels. is_application=yes, although the paper is close to a comparison of resampling methods.
+- R05027 resampler=random-oversampling: the source (a meeting abstract) says only "oversampling of TxE samples"; inside_folds and test_balanced are nr because of the "equal proportion ... across all datasets" sentence.
+- Modality tabular for features extracted from images (R04275 UAV features, R04991 radiomics); image or mixed are arguable.

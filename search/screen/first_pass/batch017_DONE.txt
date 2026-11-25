@@ -1,0 +1,12 @@
+batch 017: 200 of 200 records done; include 20, unsure 17, exclude 163
+no records remain
+
+Look at first:
+- Low confidence: R13431 (unsure; BioMedBERT super-ensemble over models trained on over/under/hybrid-balanced data; does ensembling resampling strategies count as changing how oversampling is applied?).
+- Excludes that could hide a method: R11758 ("novel LightGBM hybrid" with an oversampling module; could be SMOTE inside boosting), R22133 (TriMa pseudo-label augmentation pitched as a SMOTE alternative; coded E-NOGEN), R07406 (IRF imbalance-ratio formula vs SMOTE/ADASYN; weighting or sampling unclear), R01145 (comparison that also "proposes" a way to choose the balancing level), R00633 (ensemble of ensembles, Neurocomputing 2015), R19879 (keywords mention a ChatGPT prompt; balancing may be LLM-generated), R05528 (CGAN "employed" inside a transfer-learning method), R03506 (title features most-distant undersampling + Safe-Level-SMOTE; clarification 3 may apply).
+- Consistency on ratio/allocation tuning: R16414 (Auto Balance, a standalone ratio-search algorithm) sent to unsure, while R02834, R19536, R14489 (SMOTE with tuned or per-class targets) were excluded as configuration. Please confirm the line.
+- Medium-confidence generative includes from domain papers: R18083 CropGAN, R10123 SynDroid, R04517 Dazzle (BO-tuned cWGAN-GP), R16434 GeNSDP, R01598 K-means improved WGAN, R05702 VAE-WGAN-GP.
+- Not settled by the codebook: generators built for segmentation sent to U-other (R17698 MoG-LISA, R03351 fusion over-sampling); three SMOTE variants with theoretical analysis only and no data evaluation (R21483, R16916, R17096; Zenodo 2026 preprints in a similar style; U-other per clarification 2).
+- E-LANG records that propose new oversamplers (may matter elsewhere): R07286 SMOTE-NND, R01076 improved SMOTE, R05665 VBoGMM adaptive sampler (all Chinese).
+- Data issues: R15880 title field holds an unrelated Indonesian abstract; R03191 is an off-topic ADC circuit paper coded E-NOGEN for lack of an off-topic code; R11034 is regression (RMSE) with SMOTE-NC, coded E1.
+- No abstract: R19481 unsure (generic chapter title); R03483, R04955, R07824, R01519 excluded E1 (medium) on domain titles.

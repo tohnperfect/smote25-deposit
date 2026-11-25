@@ -1,0 +1,12 @@
+batch 018: 200 of 200 records done; include 53, unsure 55, exclude 92
+
+Look at first:
+- Possible inconsistency: R22240 (WCGAN-GA-RF) was excluded E1, but similar frameworks that use an existing GAN as their balancing component (R16266, R13276, R05528) were marked unsure. Suggest moving R22240 to unsure.
+- Low-confidence includes: R19616 (improved SMOTE claimed, change not described), R05174 (augmentation-based balancing module), R14454 (bilingual Ukrainian/English abstract; check the paper's language). R00247 (ISMOTE) may be published in Chinese.
+- Low-confidence excludes: R03910 (balancing unlabeled imagery, no synthesis described), R19873 (targeted minority augmentation in a deepfake detector).
+- Codebook does not settle SMOTE parameter or ratio tuning: R14638 (OpTunedSMOTE) included I1-other, R16910 (GA-tuned ratio) unsure, R13757 (manual SMOTE ratios) E1, R01145 (empirical balancing level) E-COMPARE.
+- New oversamplers that only duplicate examples were excluded E-NOGEN because I1 requires synthetic examples: R22380 (FERS), R01610 (SPIDER3), R08048 (ROS in ensembles), R02817.
+- Theory papers: R11388 (analytical distribution of SMOTE) was excluded E-NOGEN for lack of a better code, though it may matter for background. R03516 (generalization bound that sets the resampling amount) is unsure.
+- Oversamplers built for regression (clarification 1), marked U-other: R10682, R10077, R14800. R20185 (self-consuming diffusion study) is also U-other.
+- Oversampling of unknown type (unclear whether it synthesizes or replicates), marked U-other: R18320, R02677, R07777, R00227, R00275, R00132, R02019, R03251, R01563.
+- Possible later version (E4 at full text): R04278 (extended C-SMOTE study). Book chapters (I3 lists only journal, conference or preprint): R05552, R00267, R16673. R02202 is typed Review but is a research paper.

@@ -1,0 +1,11 @@
+batch 045: 200 of 200 records done; include 19, unsure 29, exclude 152
+
+Look at first:
+- Low-confidence unsure: R02100 (GAN class-balancing, novelty and evaluation not stated), R22256 (no abstract, augmentation analysis in IDS), R12894 (oversampling + back-translation hybrid), R09561 ("Improved SMOTE-ENC"), R18320 ("timing-aware oversampling" for video), R19512 ("adaptive Borderline-SMOTE").
+- Possible inconsistency: R07093 (retracted; "Improved Random-SMOTE") was coded E1/medium, but R09561 was coded unsure for the same pattern ("Improved" variant, novelty unclear). R07093 probably should be U-new-or-applied. add_rows cannot amend rows, so it is left as E1.
+- Clarification 3 unsures (existing generator + existing cleaning/selection) that may deserve include: R05200 (RN-SMOTE: SMOTE, DBSCAN, SMOTE again), R01133 (BSMOTE-Tomek/ENN), R12749 (CP-SMOTE+RUS), R00974 (COSDF), R04930 (LeakGAN+PU labelling), R17091, R19798.
+- Borderline includes (medium): R19238 (HCAB-SMOTE-LOF; included because the abstract says LOF constrains where synthesis happens), R07134 (ADASYN within majority-partitioned ensemble), R18465 (differentially private upsampler; privacy purpose and "anomaly detection" title), R05183 ("improved CGAN" not described), R01240 (CycleGAN used as oversampler), R07762 (neural filter for synthetic samples; evaluation vague), R07208 (modified SMOTE in a domain ECG paper).
+- Borderline excludes (medium): R00200 and R05739 (unchanged SMOTE before a new classifier or DES ensemble for general imbalanced learning; E1 wording targets domain pipelines), R10868 (existing REaLTabFormer as oversampler), R16747 (existing CGAN applied).
+- Not settled by the codebook: R11228 (CRC Press book chapter proposing an extended SMOTE; I3 venue type unclear, coded U-other); R02137 (zero-shot question generator, clarification 1 boundary); retracted records R07093 and R09918; R09213 (typed Review but an original study); R11866 (title and abstract do not match).
+- Method papers excluded only on language (E-LANG): R05155 (MCDC-MF-SMOTE) and R02838 (SCF-ADASYN), both in Chinese.
+- Clarification 2 (I2 not stated): R18945 and R20496 are 2026 Zenodo preprints with the same style; their full texts may contain experiments.

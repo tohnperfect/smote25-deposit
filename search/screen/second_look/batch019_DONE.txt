@@ -1,0 +1,14 @@
+batch 019: 200 of 200 records done; include 42, unsure 71, exclude 87
+no records remain
+
+Look at these first:
+1. Low confidence: R09553, R08263, R02314 (title and abstract do not match; the abstract repeats SMOTEBoost text), R02497, R16220, R07761, R00256, R02609, R06402, R03101, R12677, R07771, R01302, R05624, R04366 (all unsure); R06384 (exclude E-NOGEN, no abstract).
+2. Codebook does not settle: standard SMOTE as preprocessing for a new classifier, with SMOTE part of the method's name or design (R07839, R02820, R00200, R03240, R00679; also R01675). All marked unsure. Where SMOTE is only a generic step in a larger framework I excluded as E-NOGEN (R02911, R21529).
+3. Codebook does not settle: document types that I3 does not list. Book chapters R11228, R00507 (venue name and wording suggest a journal), R02609, R01001, and thesis R00112 are all unsure (U-other).
+4. Metaheuristic or AutoML tuning of oversamplers, please check these as a group. Included where the record presents a new SMOTE variant (R08028, R17203, R17394). Excluded where it tunes existing samplers for a domain (R06287) or where the contribution is the optimizer (R16600). Unsure: R07450, R07771, R00718.
+5. Oversampling by replication or cloning, with no synthetic examples, excluded as E-NOGEN: R06597, R06796, R00317, R02467, R00357. Please confirm that this is out of scope.
+6. Included although the abstract does not say the oversampling is synthetic: R00519, R01273, R06514.
+7. Inconsistency to check: R06485 (SMOTE plus bootstrap in a one-versus-all scheme) is included as I1-hybrid, but R02497 (SMOTE plus bootstrapping) is unsure.
+8. Nine theoretical-only Zenodo 2026 SMOTE variants, unsure under clarification 2: R20522, R19901, R17975, R21906, R21458, R18471, R19030, R18035, R17022.
+9. Language: the metadata says English for R00317 and R00297, but both are in Chinese journals, so the full text may be in Chinese. R03242 was excluded E-LANG; apart from language it would be in scope.
+10. R21539 is a retraction notice (E-REVIEW) for an in-scope paper: the PSO and Egyptian Vulture optimized SMOTE (Information, 2022). The survey should not cite that paper as sound.

@@ -1,0 +1,11 @@
+d42 coverage batch 222 (blind second coding), 16 November 2026
+n=6; fulltext_ok=no 1; eligible=3 (Core=2, Partial=0, Not counted=1); not eligible=2 (E1 with ruling B2=1, NOT-GEN=1)
+
+Codes I was least sure of:
+- R03118 (MDGPDH-SMOTE + RF): coded as an own SMOTE variant (newly named; SMOTE candidates, then random M-N subsets redrawn until a Gaussian mean test accepts), so ruling B not applied. If read as SMOTE plus an existing filter it fails B (only SVM and RF without resampling are compared). F=yes for the acceptance test; six pairwise ADNI tasks counted as 1 dataset, class B; protocol, folds and tuning not reported.
+- R02885 (two-attribute e-commerce CNN): E1, ruling B2. Standard mixup (lambda~Beta(100,100)); the paper only sets which rare type-colour classes are paired and how many. Alternative reading: own class-aware mixup oversampler (Core). Either way it is never evaluated or compared with other resampling.
+- R10912 (SS-EGAN): NOT-GEN. Semi-supervised WGAN whose unconditional fakes only feed the critic; no minority examples reach the classifier. Alternative reading: eligible GAN augmentation (Not counted, deep-generative), since the abstract mentions imbalance and Table 6 compares with StyleGAN/DDPM augmentation.
+- R00361 (mutual-kNN-graph MST SMOTE): S=yes because isolated minority points never seed (stated); inside_folds=stated from Algorithm 1 (Train/Test inputs, 5-fold CV); tuning=test because the SVM kernel was chosen as best "after a lot of experiments" with no validation set.
+- R14384 (MTGP-SMOTE): Not counted, generator other (GP-evolved arithmetic trees; the paper calls it a departure from linear interpolation). tuning=default, although a secondary "Best of 30 runs" column is picked on the test set.
+- R00144: fulltext_ok=no; the file is a different paper by the same authors (multi-class yield visualization, AMS 2009), not the record's binary SMOTE+VDM / SMOTE+SMaRT paper.
+Note: add_codes.py requires confidence high/medium/low even for non-eligible and fulltext_ok=no rows (evidence may be na).

@@ -1,0 +1,12 @@
+rec,stratum,order,target,doi,arxiv,openalex,title,year,venue
+R00128,P1,31,reserve-coverage,10.1007/978-3-642-10677-4_44,,,Improving SVM classification with imbalance data set,2009,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+R00088,P1,32,reserve-coverage,10.1109/icme.2008.4607718,,,Learning object from small and imbalanced dataset with Boost-BFKO,2008,"2008 IEEE International Conference on Multimedia and Expo, ICME 2008 - Proceedings"
+R00385,P2,31,reserve-coverage,10.1007/978-3-642-40846-5_47,,,Borderline kernel based over-sampling,2013,Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)
+R00547,P2,32,reserve-coverage,,,W2375547256,New oversampling algorithm DB_SMOTE,2014,Computer Engineering and Applications Journal
+R00718,P3,31,reserve-coverage,10.1007/978-981-10-2098-8_16,,,A classification method of imbalanced data base on PSO algorithm,2016,Communications in Computer and Information Science
+R02836,P3,32,reserve-coverage,10.1109/access.2020.2980157,,W3010785586,SOTB: Semi-Supervised Oversampling Approach Based on Trigonal Barycenter Theory,2020,IEEE Access
+R18007,P4,31,reserve-coverage,10.48550/arxiv.2608.22804,2608.22804,W7204200502,Contrastive Representation-Guided Genetic Minority Oversampling for Imbalanced Time-Series Classification,2026,arXiv (Cornell University)
+R09560,P4,32,reserve-coverage,10.1007/s10586-024-04598-x,,W4399458455,OPSMOTE-ML: an optimized SMOTE with machine learning models for selective forwarding attack detection in low power and lossy networks of internet of things,2024,Cluster Computing
+R02100,U1,51,reserve-useaudit,10.1145/3360322.3361016,,,Towards class-balancing human comfort datasets with GANs,2019,"BuildSys 2019 - Proceedings of the 6th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation"
+R03578,U2,51,reserve-useaudit,10.48550/arxiv.2111.12776,2111.12776,W3217004569,IMBENS: Ensemble Class-imbalanced Learning in Python,2021,arXiv (Cornell University)
+R08089,U3,51,reserve-useaudit,10.1186/s12911-024-02451-0,,W4391654124,Choice of refractive surgery types for myopia assisted by machine learning based on doctors’ surgical selection data,2024,BMC Medical Informatics and Decision Making

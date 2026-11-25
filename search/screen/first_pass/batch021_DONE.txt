@@ -1,0 +1,10 @@
+batch 021: 200 of 200 records done; include 18, unsure 15, exclude 167
+no records remain
+
+Records to look at first:
+- Low confidence: R18128 (BERT+GAN, GAN novelty unclear), R11965 (TabDDPM-SMOTE may only chain imputation and SMOTE), R17637 (no abstract, "graduated imbalance training"), R01695 (new "split by over-sampling" preprocessing, undescribed), R12730 and R01413 (excluded E1 from title or a vague abstract).
+- Clarification 3 borderline (existing parts combined, sent to unsure): R15295 (Tomek-SMOTE-GA, 24 datasets, closest to include), R12738 (K-means SMOTE + centroid undersampling), R06476 (metaheuristic-tuned LSH-SMOTE), R07327 (successive four-step SMOTE).
+- Includes resting on a short abstract (medium): R04096 (improved ADASYN, change not described), R21025 (CS-SMOTE inside a crash-severity model), R04002 (BMCD multiclass SMOTE), R04154 (Tomek-CASUWO), R10912 (semi-supervised elastic GAN), R06195 (GPT-3 style-based oversampling, shared-task paper). Also R12337 (excluded E1): check whether DPB-SMOTE is introduced in this paper.
+- Codebook does not settle: R10952 (TransCTGAN balances gender subgroups, not classes), R21544 (interpolation oversampling for continual learning), R09642 (partial random over/undersampling for multilabel: are partial copies synthetic?), R00875 (SPY: abstract does not say whether it generates examples), R02652 (segmentation oversampling scheme, coded E-NOGEN).
+- In-scope content excluded on E-LANG: R02379 (CMOTE), R02706 (SMB-SMOTE), R08079 (CD-BSMOTE), all Chinese; R00188 (Indonesian). Non-English records whose content is plain E1 were coded E1, the first criterion in list order, with the language noted in the reason; the codebook sets no precedence.
+- E1 vs E-COMPARE: domain studies whose main aim is to compare existing resampling methods were coded E-COMPARE (tag comparison); R10244 was coded E1 with the comparison tag. R00560 (proceedings front matter) is tagged front-matter-in-scope for a listed paper on oversampling with bagging and boosting.

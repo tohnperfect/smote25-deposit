@@ -1,0 +1,16 @@
+batch 012: 200 of 200 records done; include 28, unsure 66, exclude 106
+
+Look at first:
+- Possible inconsistencies in my own rows (appended before I noticed; not edited): R16230 (Enhanced SMOTE in an IoT IDS framework) was excluded E1, but the similar cases R11646, R03065 and R19554 (Improved/I-/boundary-midpoint SMOTE named in domain frameworks) went to unsure U-new-or-applied, so R16230 probably belongs there too. R03960 (real-time oversampling inside spline adaptive filters for system identification) was excluded E2 (high), but under clarification 1 it may belong with the unsure U-other "generator built for another purpose" group below.
+- Low-confidence includes: R03118 (SMOTE with Gaussian density, Alzheimer's), R01053 (K-means plus improved SMOTE, IPTV), R04128 (oversampling via multiple imputation), R06454 (mixup minority augmentation, a minor part of a zero-shot vision model), R00073 (SMOTEBoostSVM, a small step from SMOTEBoost).
+- Borderline includes: R19015 (few-shot LLM generation for HAR, framed as an evaluation), R04759 (GAN oversamplers for software faults; the GANs may be existing ones), R21839 and R02906 (new oversampling or augmentation components inside larger models), and R08572, R14643 and R05691 (fusing several oversamplers' outputs). I included these three as new ways of applying SMOTE rather than as clarification-3 unsure cases.
+- Not settled by the codebook:
+  (a) Theory papers, sent to unsure U-other: R12009 (SMOTE risk bounds, NeurIPS) and R09916 (under/oversampling theory, PMLR).
+  (b) Non-synthetic oversampling by replication or reweighting, excluded E-NOGEN: R00621 (ML-BFO, multilabel), R00677 and R19859 (neighbourhood bagging).
+  (c) Not a journal paper, conference paper or preprint (I3 has no exclusion code), sent to unsure U-other: theses R00110 and R00737; book chapters R08563 (improved ADASYN) and R02682 (FN-SMOTE).
+  (d) Language metadata: R10870 (zh; SMOTE on Deep Forest output probabilities) and R18985 (tr; LSHADE-tuned WGAN-GP text generator) were excluded E-LANG, but both have English abstracts and in-scope content. R00073, R11531 and R10846 are recorded as English but appear in Chinese- or Korean-language venues.
+  (e) Retracted: R05589, excluded E1.
+- Generators built for purposes other than imbalanced classification (clarification 1, unsure U-other): R21920 (privacy), R21744 (clustering), R16490 (traffic forecasting), R04188 (count regression), R16630 (segmentation), R01205 (learning to rank), R21965 (supervised anomaly detection).
+- Six Zenodo preprints of SMOTE variants with no evaluation stated (clarification 2, unsure U-other): R17238, R17239, R20694, R18949, R18112, R21798. They look like one series.
+- Low-confidence unsure and exclude: R00233, R12994, R01369, R13710, R11199, R06297, R22108, R09614, R06096, R11151, R00567, R09773 (excluded E-REVIEW, no abstract), R20019 (excluded E2, no abstract).
+- Possibly useful elsewhere in the survey: R19450 (leakage-free benchmark showing that resampling before splitting inflates F1) and R15649 (ADASYN breaks down under extreme imbalance).

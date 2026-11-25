@@ -1,0 +1,13 @@
+d42 useaudit batch 219 (blind second coding): 8 of 8 records coded
+n=8, fulltext=8, abstract=0, application=7 (no=1)
+inside_folds: stated=2, before-split=4, nr=1, na=1
+test_balanced: yes=4, no=2, nr=1, na=1
+vs_none: yes=4, no=3, na=1; vs_weights: yes=1, no=6, na=1
+
+Least sure:
+- R05299: the record's abstract (credit-card fraud, over/undersampling) belongs to another paper; the full text matches the title and DOI (perovskite solar cells, no resampling), so is_application=no from the full text. If the record should stand for the fraud abstract, recode from the abstract.
+- R06158: before-split and test_balanced=yes rest only on ruling-D arithmetic (PC1 per-class test metrics impossible on a natural 7%-defective test set); the text never states whether SMOTE preceded the 70/30 split.
+- R03028: text says stratified split then sampling, but the reported metrics imply about 50% positive test sets (natural 5.47%); coded before-split/yes under ruling D (could instead be a separately resampled test set).
+- R10444: before-split from the stated order (oversample, then 60/20/20 split) despite the paper's claim of strict separation; the 'moderate oversampling' method is unnamed (coded other); vs_none=yes assumes Standard-XGB had no oversampling.
+- R13484: VAE-GAN treated as standard generators (B2), so application=yes; inside_folds and test_balanced nr.
+- R05566: domain coded other (materials science); validation=external rests on 6 alloys from outside the dataset, source unstated.

@@ -1,0 +1,1440 @@
+{
+ "status": "ok",
+ "message-type": "work",
+ "message-version": "1.0.0",
+ "message": {
+  "indexed": {
+   "date-parts": [
+    [
+     2026,
+     11,
+     18
+    ]
+   ],
+   "date-time": "2026-11-18T00:38:16Z",
+   "timestamp": 1794962296626,
+   "version": "4.9.1"
+  },
+  "reference-count": 136,
+  "publisher": "MDPI AG",
+  "issue": "7",
+  "license": [
+   {
+    "start": {
+     "date-parts": [
+      [
+       2026,
+       7,
+       16
+      ]
+     ],
+     "date-time": "2026-07-16T00:00:00Z",
+     "timestamp": 1784160000000
+    },
+    "content-version": "vor",
+    "delay-in-days": 0,
+    "URL": "https://creativecommons.org/licenses/by/4.0/"
+   }
+  ],
+  "content-domain": {
+   "domain": [],
+   "crossmark-restriction": false
+  },
+  "short-container-title": [
+   "MAKE"
+  ],
+  "DOI": "10.3390/make8070211",
+  "type": "journal-article",
+  "created": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     17
+    ]
+   ],
+   "date-time": "2026-07-17T00:55:59Z",
+   "timestamp": 1784249759000
+  },
+  "page": "211",
+  "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 8,
+  "title": [
+   "Data Balancing Strategies: A Systematic Survey of Resampling and Augmentation Methods"
+  ],
+  "prefix": "10.3390",
+  "volume": "8",
+  "author": [
+   {
+    "ORCID": "https://orcid.org/0009-0003-0954-635X",
+    "authenticated-orcid": false,
+    "given": "Behnam",
+    "family": "Yousefimehr",
+    "sequence": "first",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0000-0002-9558-8286",
+    "authenticated-orcid": false,
+    "given": "Mehdi",
+    "family": "Ghatee",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "ORCID": "https://orcid.org/0009-0009-5026-6521",
+    "authenticated-orcid": false,
+    "given": "Javad",
+    "family": "Fazli",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Shervin",
+    "family": "Ghaffari",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Zahra",
+    "family": "Rafei",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mohammad Amin",
+    "family": "Seifi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sajed",
+    "family": "Tavakoli",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Abolfazl",
+    "family": "Nikahd",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Mahdi",
+    "family": "Razi Gandomani",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Alireza",
+    "family": "Orouji",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Ramtin",
+    "family": "Mahmoudi Kashani",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Sarina",
+    "family": "Heshmati",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   },
+   {
+    "given": "Negin Sadat",
+    "family": "Mousavi",
+    "sequence": "additional",
+    "affiliation": [
+     {
+      "name": "Department of Computer Science, Faculty of Mathematics & Computer Science, Amirkabir University of Technology, 424 Hafez Ave., Tehran 1591634311, Iran"
+     }
+    ],
+    "role": [
+     {
+      "vocabulary": "crossref",
+      "role": "author"
+     }
+    ]
+   }
+  ],
+  "member": "1968",
+  "published-online": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     16
+    ]
+   ]
+  },
+  "reference": [
+   {
+    "key": "ref_1",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Miftahushudur, T., Sahin, H.M., Grieve, B., and Yin, H. (2025). A survey of methods for addressing imbalance data problems in agriculture applications. Remote Sens., 17.",
+    "DOI": "10.3390/rs17030454"
+   },
+   {
+    "key": "ref_2",
+    "first-page": "85",
+    "article-title": "A systematic survey and empirical comparison of hybrid methods for imbalanced fraud detection: Combining resampling and machine learning",
+    "volume": "7",
+    "author": "Yousefimehr",
+    "year": "2026",
+    "journal-title": "AUT J. Math. Comput."
+   },
+   {
+    "key": "ref_3",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Gao, X., Xie, D., Zhang, Y., Wang, Z., Chen, C., He, C., Yin, H., and Zhang, W. (2026). A comprehensive survey on imbalanced data learning. Front. Comput. Sci., 20.",
+    "DOI": "10.1007/s11704-025-50274-7"
+   },
+   {
+    "key": "ref_4",
+    "doi-asserted-by": "crossref",
+    "first-page": "321",
+    "DOI": "10.1613/jair.953",
+    "article-title": "SMOTE: Synthetic minority over-sampling technique",
+    "volume": "16",
+    "author": "Chawla",
+    "year": "2002",
+    "journal-title": "J. Artif. Intell. Res."
+   },
+   {
+    "key": "ref_5",
+    "doi-asserted-by": "crossref",
+    "first-page": "1263",
+    "DOI": "10.1109/TKDE.2008.239",
+    "article-title": "Learning from imbalanced data",
+    "volume": "21",
+    "author": "He",
+    "year": "2009",
+    "journal-title": "IEEE Trans. Knowl. Data Eng."
+   },
+   {
+    "key": "ref_6",
+    "doi-asserted-by": "crossref",
+    "first-page": "96",
+    "DOI": "10.3390/knowledge4010006",
+    "article-title": "Resampling to Classify Rare Attack Tactics in UWF-ZeekData22",
+    "volume": "4",
+    "author": "Bagui",
+    "year": "2024",
+    "journal-title": "Knowledge"
+   },
+   {
+    "key": "ref_7",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Parrales-Bravo, F., Caicedo-Quiroz, R., Tolozano-Benitez, E., Gómez-Rodríguez, V., Cevallos-Torres, L., Charco-Aguirre, J., and Vasquez-Cevallos, L. (2024). OUCH: Oversampling and undersampling cannot help improve accuracy in our bayesian classifiers that predict preeclampsia. Mathematics, 12.",
+    "DOI": "10.3390/math12213351"
+   },
+   {
+    "key": "ref_8",
+    "unstructured": "Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., and Bengio, Y. (2014). Generative adversarial nets. Adv. Neural Inf. Process. Syst., 27, Available online: https://proceedings.neurips.cc/paper_files/paper/2014/file/f033ed80deb0234979a61f95710dbe25-Paper.pdf."
+   },
+   {
+    "key": "ref_9",
+    "unstructured": "Kingma, D.P., and Welling, M. (2022). Auto-Encoding Variational Bayes. arXiv."
+   },
+   {
+    "key": "ref_10",
+    "unstructured": "Parmanto, B., Munro, P., and Doyle, H. (1995). Improving committee diagnosis with resampling techniques. Adv. Neural Inf. Process. Syst., 8, Available online: https://proceedings.neurips.cc/paper_files/paper/1995/file/46072631582fc240dd2674a7d063b040-Paper.pdf."
+   },
+   {
+    "key": "ref_11",
+    "doi-asserted-by": "crossref",
+    "first-page": "5152",
+    "DOI": "10.1038/s41598-024-55598-1",
+    "article-title": "A cluster-based SMOTE both-sampling (CSBBoost) ensemble algorithm for classifying imbalanced data",
+    "volume": "14",
+    "author": "Salehi",
+    "year": "2024",
+    "journal-title": "Sci. Rep."
+   },
+   {
+    "key": "ref_12",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hou, G., Tong, D.L., Liew, S.Y., and Choo, P.Y. (2025). Comparative analysis of resampling techniques for class imbalance in financial distress prediction using XGBOOST. Mathematics, 13.",
+    "DOI": "10.3390/math13132186"
+   },
+   {
+    "key": "ref_13",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Page, M.J., McKenzie, J.E., Bossuyt, P.M., Boutron, I., Hoffmann, T.C., Mulrow, C.D., Shamseer, L., Tetzlaff, J.M., Akl, E.A., and Brennan, S.E. (2021). The PRISMA 2020 statement: An updated guideline for reporting systematic reviews. BMJ, 372.",
+    "DOI": "10.1136/bmj.n71"
+   },
+   {
+    "key": "ref_14",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Yousefimehr, B., Ghatee, M., Ghaffari, S., Arasteh, A., Ahmadi, P., Ghane, A., and Esnaasharieh, S. (2026). A systematic review for 2019–2025 on deep learning models in the film production industry. Entertain. Comput., 56.",
+    "DOI": "10.1016/j.entcom.2025.101076"
+   },
+   {
+    "key": "ref_15",
+    "doi-asserted-by": "crossref",
+    "first-page": "81",
+    "DOI": "10.1093/biomet/30.1-2.81",
+    "article-title": "A new measure of rank correlation",
+    "volume": "30",
+    "author": "Kendall",
+    "year": "1938",
+    "journal-title": "Biometrika"
+   },
+   {
+    "key": "ref_16",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Cinelli, M., Kadziński, M., Gonzalez, M., and Słowiński, R. (2020). How to support the application of multiple criteria decision analysis? Let us start with a comprehensive taxonomy. Omega, 96.",
+    "DOI": "10.1016/j.omega.2020.102261"
+   },
+   {
+    "key": "ref_17",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Saltelli, A., Ratto, M., Andres, T., Campolongo, F., Cariboni, J., Gatelli, D., Saisana, M., and Tarantola, S. (2008). Global Sensitivity Analysis: The Primer, John Wiley & Sons.",
+    "DOI": "10.1002/9780470725184"
+   },
+   {
+    "key": "ref_18",
+    "first-page": "6651",
+    "article-title": "An investigation of SMOTE based methods for imbalanced datasets with data complexity analysis",
+    "volume": "35",
+    "author": "Azhar",
+    "year": "2023",
+    "journal-title": "IEEE Trans. Knowl. Data Eng."
+   },
+   {
+    "key": "ref_19",
+    "unstructured": "Sakho, A., Malherbe, E., and Scornet, E. (2026). Do we need rebalancing strategies? A theoretical and empirical study around SMOTE and its variants. arXiv."
+   },
+   {
+    "key": "ref_20",
+    "unstructured": "Glazkova, A. (2020). A Comparison of Synthetic Oversampling Methods for Multi-class Text Classification. arXiv."
+   },
+   {
+    "key": "ref_21",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Kachan, O., Savchenko, A., and Gusev, G. (2025, January 3–7). Simplicial SMOTE: Oversampling Solution to the Imbalanced Learning Problem. Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Toronto, ON, Canada.",
+    "DOI": "10.1145/3690624.3709268"
+   },
+   {
+    "key": "ref_22",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Kovács, G. (2019). An empirical comparison and evaluation of minority oversampling techniques on a large number of imbalanced datasets. Appl. Soft Comput., 83.",
+    "DOI": "10.1016/j.asoc.2019.105662"
+   },
+   {
+    "key": "ref_23",
+    "doi-asserted-by": "crossref",
+    "first-page": "405",
+    "DOI": "10.1016/j.eswa.2015.10.031",
+    "article-title": "Adaptive semi-unsupervised weighted oversampling (A-SUWO) for imbalanced datasets",
+    "volume": "46",
+    "author": "Nekooeimehr",
+    "year": "2016",
+    "journal-title": "Expert Syst. Appl."
+   },
+   {
+    "key": "ref_24",
+    "unstructured": "He, H., Bai, Y., Garcia, E.A., and Li, S. (2008, January 1–6). ADASYN: Adaptive synthetic sampling approach for imbalanced learning. Proceedings of the 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence), Hong Kong, China."
+   },
+   {
+    "key": "ref_25",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Tao, X., Guo, X., Zheng, Y., Zhang, X., and Chen, Z. (2023). Self-adaptive oversampling method based on the complexity of minority data in imbalanced datasets classification. Knowl.-Based Syst., 277.",
+    "DOI": "10.1016/j.knosys.2023.110795"
+   },
+   {
+    "key": "ref_26",
+    "doi-asserted-by": "crossref",
+    "first-page": "200",
+    "DOI": "10.1016/j.neucom.2020.05.030",
+    "article-title": "Local distribution-based adaptive minority oversampling for imbalanced data classification",
+    "volume": "422",
+    "author": "Wang",
+    "year": "2021",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "ref_27",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Guan, S., Zhao, X., Xue, Y., and Pan, H. (2024). AWGAN: An adaptive weighting GAN approach for oversampling imbalanced datasets. Inf. Sci., 663.",
+    "DOI": "10.1016/j.ins.2024.120311"
+   },
+   {
+    "key": "ref_28",
+    "doi-asserted-by": "crossref",
+    "first-page": "983",
+    "DOI": "10.1109/TKDE.2025.3639433",
+    "article-title": "Diffusion GAN-Based Oversampling for Imbalanced Tabular Data",
+    "volume": "38",
+    "author": "Ren",
+    "year": "2026",
+    "journal-title": "IEEE Trans. Knowl. Data Eng."
+   },
+   {
+    "key": "ref_29",
+    "doi-asserted-by": "crossref",
+    "first-page": "5808",
+    "DOI": "10.1109/TKDE.2025.3593637",
+    "article-title": "B2BGAN: A Backbone-to-Branches GAN-Based Oversampling Approach for Class-Imbalanced Tabular Data",
+    "volume": "37",
+    "author": "Wang",
+    "year": "2025",
+    "journal-title": "IEEE Trans. Knowl. Data Eng."
+   },
+   {
+    "key": "ref_30",
+    "doi-asserted-by": "crossref",
+    "first-page": "6390",
+    "DOI": "10.1109/TNNLS.2021.3136503",
+    "article-title": "DeepSMOTE: Fusing Deep Learning and SMOTE for Imbalanced Data",
+    "volume": "34",
+    "author": "Dablain",
+    "year": "2023",
+    "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+   },
+   {
+    "key": "ref_31",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Engelmann, J., and Lessmann, S. (2021). Conditional Wasserstein GAN-based oversampling of tabular data for imbalanced learning. Expert Syst. Appl., 174.",
+    "DOI": "10.1016/j.eswa.2021.114582"
+   },
+   {
+    "key": "ref_32",
+    "doi-asserted-by": "crossref",
+    "first-page": "5335",
+    "DOI": "10.1007/s10115-025-02377-7",
+    "article-title": "CTVAE: Contrastive Tabular Variational Autoencoder for imbalance data",
+    "volume": "67",
+    "author": "Wang",
+    "year": "2025",
+    "journal-title": "Knowl. Inf. Syst."
+   },
+   {
+    "key": "ref_33",
+    "doi-asserted-by": "crossref",
+    "first-page": "185",
+    "DOI": "10.1109/TSMCA.2009.2029559",
+    "article-title": "RUSBoost: A hybrid approach to alleviating class imbalance",
+    "volume": "40",
+    "author": "Seiffert",
+    "year": "2009",
+    "journal-title": "IEEE Trans. Syst. Man-Cybern.-Part A Syst. Hum."
+   },
+   {
+    "key": "ref_34",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Gurcan, F., and Soylu, A. (2024). Learning from imbalanced data: Integration of advanced resampling techniques and machine learning models for enhanced cancer diagnosis and prognosis. Cancers, 16.",
+    "DOI": "10.3390/cancers16193417"
+   },
+   {
+    "key": "ref_35",
+    "doi-asserted-by": "crossref",
+    "first-page": "463",
+    "DOI": "10.1109/TSMCC.2011.2161285",
+    "article-title": "A review on ensembles for the class imbalance problem: Bagging-, boosting-, and hybrid-based approaches",
+    "volume": "42",
+    "author": "Galar",
+    "year": "2011",
+    "journal-title": "IEEE Trans. Syst. Man Cybern. Part C (Appl. Rev.)"
+   },
+   {
+    "key": "ref_36",
+    "doi-asserted-by": "crossref",
+    "first-page": "3460",
+    "DOI": "10.1016/j.patcog.2013.05.006",
+    "article-title": "EUSBoost: Enhancing ensembles for highly imbalanced data-sets by evolutionary undersampling",
+    "volume": "46",
+    "author": "Galar",
+    "year": "2013",
+    "journal-title": "Pattern Recognit."
+   },
+   {
+    "key": "ref_37",
+    "doi-asserted-by": "crossref",
+    "first-page": "135",
+    "DOI": "10.1177/096228029900800204",
+    "article-title": "Measuring agreement in method comparison studies",
+    "volume": "8",
+    "author": "Bland",
+    "year": "1999",
+    "journal-title": "Stat. Methods Med. Res."
+   },
+   {
+    "key": "ref_38",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1016/j.ins.2018.06.056",
+    "article-title": "Improving imbalanced learning through a heuristic oversampling method based on k-means and SMOTE",
+    "volume": "465",
+    "author": "Douzas",
+    "year": "2018",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "ref_39",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Bunkhumpornpat, C., Sinapiromsaran, K., and Lursinsap, C. (2009). Safe-level-smote: Safe-level-synthetic minority over-sampling technique for handling the class imbalanced problem. Proceedings of the Pacific-Asia Conference on Knowledge Discovery and Data Mining, Bangkok, Thailand, 27–30 April 2009, Springer.",
+    "DOI": "10.1007/978-3-642-01307-2_43"
+   },
+   {
+    "key": "ref_40",
+    "doi-asserted-by": "crossref",
+    "first-page": "347",
+    "DOI": "10.1007/s13748-012-0027-5",
+    "article-title": "Surrounding neighborhood-based SMOTE for learning from imbalanced data sets",
+    "volume": "1",
+    "author": "Mollineda",
+    "year": "2012",
+    "journal-title": "Prog. Artif. Intell."
+   },
+   {
+    "key": "ref_41",
+    "doi-asserted-by": "crossref",
+    "first-page": "11",
+    "DOI": "10.1016/0167-8655(95)00093-3",
+    "article-title": "A new definition of neighborhood of a point in multi-dimensional space",
+    "volume": "17",
+    "author": "Chaudhuri",
+    "year": "1996",
+    "journal-title": "Pattern Recognit. Lett."
+   },
+   {
+    "key": "ref_42",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Sánchez, J., and Marqués, A. (2003). Enhanced Neighbourhood Specifications for Pattern Classification, Springer.",
+    "DOI": "10.1007/978-1-4613-0231-5_26"
+   },
+   {
+    "key": "ref_43",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Azizian, A., Yousefimehr, B., and Ghatee, M. (2024, January 14–15). Enhanced Multi-Modal Gas Leakage Detection with NSMOTE: A Novel Over-sampling Approach. Proceedings of the 2024 8th International Conference on Smart Cities, Internet of Things and Applications (SCIoT), Mashhad, Iran.",
+    "DOI": "10.1109/SCIoT62588.2024.10570108"
+   },
+   {
+    "key": "ref_44",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hu, S., Liang, Y., Ma, L., and He, Y. (2009, January 28–30). MSMOTE: Improving Classification Performance When Training Data is Imbalanced. Proceedings of the 2009 Second International Workshop on Computer Science and Engineering, Qingdao, China.",
+    "DOI": "10.1109/WCSE.2009.756"
+   },
+   {
+    "key": "ref_45",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Han, H., Wang, W., and Mao, B. (2005, January 23–26). Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning. Proceedings of the International Conference on Intelligent Computing, Hefei, China.",
+    "DOI": "10.1007/11538059_91"
+   },
+   {
+    "key": "ref_46",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Zhang, A., Yu, H., Zhou, S., Huan, Z., and Yang, X. (2022). Instance weighted SMOTE by indirectly exploring the data distribution. Knowl.-Based Syst., 249.",
+    "DOI": "10.1016/j.knosys.2022.108919"
+   },
+   {
+    "key": "ref_47",
+    "first-page": "1",
+    "article-title": "AWSMOTE: An SVM-Based Adaptive Weighted SMOTE for Class-Imbalance Learning",
+    "volume": "2021",
+    "author": "Wang",
+    "year": "2021",
+    "journal-title": "Sci. Program."
+   },
+   {
+    "key": "ref_48",
+    "doi-asserted-by": "crossref",
+    "first-page": "2247",
+    "DOI": "10.1007/s40747-021-00638-w",
+    "article-title": "ASN-SMOTE: A synthetic minority oversampling method with adaptive qualified synthesizer selection",
+    "volume": "8",
+    "author": "Yi",
+    "year": "2022",
+    "journal-title": "Complex Intell. Syst."
+   },
+   {
+    "key": "ref_49",
+    "doi-asserted-by": "crossref",
+    "first-page": "1412",
+    "DOI": "10.2991/ijcis.d.191114.002",
+    "article-title": "A-SMOTE: A new preprocessing approach for highly imbalanced datasets by improving SMOTE",
+    "volume": "12",
+    "author": "Hussein",
+    "year": "2019",
+    "journal-title": "Int. J. Comput. Intell. Syst."
+   },
+   {
+    "key": "ref_50",
+    "doi-asserted-by": "crossref",
+    "first-page": "184",
+    "DOI": "10.1016/j.ins.2014.08.051",
+    "article-title": "SMOTE–IPF: Addressing the noisy and borderline examples problem in imbalanced classification by a re-sampling method with filtering",
+    "volume": "291",
+    "author": "Luengo",
+    "year": "2015",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "ref_51",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Szczuka, M., Kryszkiewicz, M., Ramanna, S., Jensen, R., and Hu, Q. (2010). Learning from Imbalanced Data in Presence of Noisy and Borderline Examples. Proceedings of the Rough Sets and Current Trends in Computing, Springer.",
+    "DOI": "10.1007/978-3-642-13529-3"
+   },
+   {
+    "key": "ref_52",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Maldonado, S., Vairetti, C., Fernandez, A., and Herrera, F. (2022). FW-SMOTE: A feature-weighted oversampling approach for imbalanced classification. Pattern Recognit., 124.",
+    "DOI": "10.1016/j.patcog.2021.108511"
+   },
+   {
+    "key": "ref_53",
+    "doi-asserted-by": "crossref",
+    "first-page": "2143",
+    "DOI": "10.1109/TFUZZ.2019.2930942",
+    "article-title": "IOWA-SVM: A Density-Based Weighting Strategy for SVM Classification via OWA Operators",
+    "volume": "28",
+    "author": "Maldonado",
+    "year": "2020",
+    "journal-title": "IEEE Trans. Fuzzy Syst."
+   },
+   {
+    "key": "ref_54",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Meng, D., and Li, Y. (2022). An imbalanced learning method by combining SMOTE with Center Offset Factor. Appl. Soft Comput., 120.",
+    "DOI": "10.1016/j.asoc.2022.108618"
+   },
+   {
+    "key": "ref_55",
+    "first-page": "71",
+    "article-title": "A hybrid approach for class imbalance problem in customer churn prediction: A novel extension to under-sampling",
+    "volume": "10",
+    "author": "Salunkhe",
+    "year": "2018",
+    "journal-title": "Int. J. Intell. Syst. Appl."
+   },
+   {
+    "key": "ref_56",
+    "unstructured": "Akbani, R., Kwek, S., and Japkowicz, N. (2004). Applying support vector machines to imbalanced datasets. Proceedings of the Machine Learning: ECML 2004: 15th European Conference on Machine Learning, Pisa, Italy, 20–24 September 2004, Springer. Proceedings 15."
+   },
+   {
+    "key": "ref_57",
+    "doi-asserted-by": "crossref",
+    "first-page": "273",
+    "DOI": "10.1023/A:1022627411411",
+    "article-title": "Support-vector networks",
+    "volume": "20",
+    "author": "Cortes",
+    "year": "1995",
+    "journal-title": "Mach. Learn."
+   },
+   {
+    "key": "ref_58",
+    "doi-asserted-by": "crossref",
+    "first-page": "15781",
+    "DOI": "10.1007/s00521-021-06198-x",
+    "article-title": "ODBOT: Outlier detection-based oversampling technique for imbalanced datasets learning",
+    "volume": "33",
+    "author": "Ibrahim",
+    "year": "2021",
+    "journal-title": "Neural Comput. Appl."
+   },
+   {
+    "key": "ref_59",
+    "doi-asserted-by": "crossref",
+    "first-page": "405",
+    "DOI": "10.1109/TKDE.2012.232",
+    "article-title": "MWMOTE–majority weighted minority oversampling technique for imbalanced data set learning",
+    "volume": "26",
+    "author": "Barua",
+    "year": "2012",
+    "journal-title": "IEEE Trans. Knowl. Data Eng."
+   },
+   {
+    "key": "ref_60",
+    "doi-asserted-by": "crossref",
+    "first-page": "1672",
+    "DOI": "10.1109/TKDE.2017.2761347",
+    "article-title": "AMDO: An Over-Sampling Technique for Multi-Class Imbalanced Problems",
+    "volume": "30",
+    "author": "Yang",
+    "year": "2018",
+    "journal-title": "IEEE Trans. Knowl. Data Eng."
+   },
+   {
+    "key": "ref_61",
+    "doi-asserted-by": "crossref",
+    "first-page": "178",
+    "DOI": "10.1016/j.ins.2022.11.139",
+    "article-title": "K-means clustering algorithms: A comprehensive review, variants analysis, and advances in the era of big data",
+    "volume": "622",
+    "author": "Ikotun",
+    "year": "2023",
+    "journal-title": "Inf. Sci."
+   },
+   {
+    "key": "ref_62",
+    "unstructured": "Arjovsky, M., Chintala, S., and Bottou, L. (2017, January 6–11). Wasserstein generative adversarial networks. Proceedings of the International Conference on Machine Learning, PMLR, Sydney, NSW, Australia."
+   },
+   {
+    "key": "ref_63",
+    "unstructured": "Mirza, M., and Osindero, S. (2014). Conditional generative adversarial nets. arXiv."
+   },
+   {
+    "key": "ref_64",
+    "doi-asserted-by": "crossref",
+    "first-page": "6879",
+    "DOI": "10.1109/JSEN.2022.3152518",
+    "article-title": "Discrete wavelet transform for generative adversarial network to identify drivers using gyroscope and accelerometer sensors",
+    "volume": "22",
+    "author": "Ahmadian",
+    "year": "2022",
+    "journal-title": "IEEE Sens. J."
+   },
+   {
+    "key": "ref_65",
+    "unstructured": "Li, Y., Swersky, K., and Zemel, R. (2015, January 6–11). Generative moment matching networks. Proceedings of the International Conference on Machine Learning, PMLR, Lille, France."
+   },
+   {
+    "key": "ref_66",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Patki, N., Wedge, R., and Veeramachaneni, K. (2016, January 17–19). The synthetic data vault. Proceedings of the 2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA), Montreal, QC, Canada.",
+    "DOI": "10.1109/DSAA.2016.49"
+   },
+   {
+    "key": "ref_67",
+    "doi-asserted-by": "crossref",
+    "first-page": "5183",
+    "DOI": "10.1007/s10994-023-06416-8",
+    "article-title": "GMMSampling: A new model-based, data difficulty-driven resampling method for multi-class imbalanced data",
+    "volume": "113",
+    "author": "Naglik",
+    "year": "2024",
+    "journal-title": "Mach. Learn."
+   },
+   {
+    "key": "ref_68",
+    "first-page": "6840",
+    "article-title": "Denoising diffusion probabilistic models",
+    "volume": "33",
+    "author": "Ho",
+    "year": "2020",
+    "journal-title": "Adv. Neural Inf. Process. Syst."
+   },
+   {
+    "key": "ref_69",
+    "doi-asserted-by": "crossref",
+    "first-page": "69",
+    "DOI": "10.1016/j.neunet.2020.10.004",
+    "article-title": "CEGAN: Classification Enhancement Generative Adversarial Networks for unraveling data imbalance problems",
+    "volume": "133",
+    "author": "Suh",
+    "year": "2021",
+    "journal-title": "Neural Netw."
+   },
+   {
+    "key": "ref_70",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Wu, J., Li, W., Wu, Y., and Qiu, S. (December, January 29). Wasserstein generative adversarial network with gradient penalty for handwritten digit generation. Proceedings of the 2024 International Conference on Intelligent Robotics and Automatic Control (IRAC), Guangzhou, China.",
+    "DOI": "10.1109/IRAC63143.2024.10871435"
+   },
+   {
+    "key": "ref_71",
+    "doi-asserted-by": "crossref",
+    "first-page": "2838",
+    "DOI": "10.1007/s10489-021-02566-1",
+    "article-title": "ADA-INCVAE: Improved data generation using variational autoencoder for imbalanced classification",
+    "volume": "52",
+    "author": "Huang",
+    "year": "2022",
+    "journal-title": "Appl. Intell."
+   },
+   {
+    "key": "ref_72",
+    "unstructured": "Cremer, C., Li, X., and Duvenaud, D. (2018, January 10–15). Inference suboptimality in variational autoencoders. Proceedings of the International Conference on Machine Learning, PMLR, Stockholm, Sweden."
+   },
+   {
+    "key": "ref_73",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Geng, C., Wang, J., Chen, L., and Gao, Z. (2023). Solving the reconstruction-generation trade-off: Generative model with implicit embedding learning. Neurocomputing, 549.",
+    "DOI": "10.1016/j.neucom.2023.126428"
+   },
+   {
+    "key": "ref_74",
+    "unstructured": "Gulrajani, I., Ahmed, F., Arjovsky, M., Dumoulin, V., and Courville, A.C. (2017). Improved training of wasserstein gans. Adv. Neural Inf. Process. Syst., 30."
+   },
+   {
+    "key": "ref_75",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Xu, Y., Zhang, X., Qiu, Z., Zhang, X., Qiu, J., and Zhang, H. (2021). Oversampling imbalanced data based on convergent WGAN for network threat detection. Secur. Commun. Netw., 2021.",
+    "DOI": "10.1155/2021/9206440"
+   },
+   {
+    "key": "ref_76",
+    "unstructured": "Bharti, A., Naslidnyk, M., Key, O., Kaski, S., and Briol, F.X. (2023, January 23–29). Optimally-weighted estimators of the maximum mean discrepancy for likelihood-free inference. Proceedings of the International Conference on Machine Learning, PMLR, Honolulu, HI, USA."
+   },
+   {
+    "key": "ref_77",
+    "doi-asserted-by": "crossref",
+    "first-page": "5718",
+    "DOI": "10.1016/j.eswa.2008.06.108",
+    "article-title": "Cluster-based under-sampling approaches for imbalanced data distributions",
+    "volume": "36",
+    "author": "Yen",
+    "year": "2009",
+    "journal-title": "Expert Syst. Appl."
+   },
+   {
+    "key": "ref_78",
+    "unstructured": "Zhang, J., Mani, I., and Lin, K. (2003, January 21). Nearmiss under sampling for imbalanced dataset classification. Proceedings of the ICML Workshop on Learning from Imbalanced Datasets II, Washington, DC, USA."
+   },
+   {
+    "key": "ref_79",
+    "first-page": "731",
+    "article-title": "Under-sampling approaches for improving prediction of the minority class in an imbalanced dataset",
+    "volume": "344",
+    "author": "Yen",
+    "year": "2006",
+    "journal-title": "Lect. Notes Control. Inf. Sci."
+   },
+   {
+    "key": "ref_80",
+    "doi-asserted-by": "crossref",
+    "first-page": "225",
+    "DOI": "10.1007/s10994-013-5422-z",
+    "article-title": "An instance level analysis of data complexity",
+    "volume": "95",
+    "author": "Smith",
+    "year": "2014",
+    "journal-title": "Mach. Learn."
+   },
+   {
+    "key": "ref_81",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Braytee, A., Hussain, F.K., Anaissi, A., and Kennedy, P.J. (2015, January 9–11). ABC-sampling for Balancing Imbalanced Datasets Based on Artificial Bee Colony Algorithm. Proceedings of the 2015 IEEE 14th International Conference on Machine Learning and Applications (ICMLA), Miami, FL, USA.",
+    "DOI": "10.1109/ICMLA.2015.103"
+   },
+   {
+    "key": "ref_82",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Yousefimehr, B., and Ghatee, M. (2024). A distribution-preserving method for resampling combined with LightGBM-LSTM for sequence-wise fraud detection in credit card transactions. Expert Syst. Appl., 262.",
+    "DOI": "10.1016/j.eswa.2024.125661"
+   },
+   {
+    "key": "ref_83",
+    "doi-asserted-by": "crossref",
+    "first-page": "1443",
+    "DOI": "10.1162/089976601750264965",
+    "article-title": "Estimating the support of a high-dimensional distribution",
+    "volume": "13",
+    "author": "Platt",
+    "year": "2001",
+    "journal-title": "Neural Comput."
+   },
+   {
+    "key": "ref_84",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Laurikkala, J. (2001). Improving identification of difficult small classes by balancing class distribution. Proceedings of the Artificial Intelligence in Medicine: Proceedings of the 8th Conference on Artificial Intelligence in Medicine in Europe, AIME 2001, Springer.",
+    "DOI": "10.1007/3-540-48229-6_9"
+   },
+   {
+    "key": "ref_85",
+    "doi-asserted-by": "crossref",
+    "first-page": "408",
+    "DOI": "10.1109/TSMC.1972.4309137",
+    "article-title": "Asymptotic properties of nearest neighbor rules using edited data",
+    "volume": "SMC-2",
+    "author": "Wilson",
+    "year": "1972",
+    "journal-title": "IEEE Trans. Syst. Man Cybern."
+   },
+   {
+    "key": "ref_86",
+    "doi-asserted-by": "crossref",
+    "first-page": "515",
+    "DOI": "10.1109/TIT.1968.1054155",
+    "article-title": "The condensed nearest neighbor rule (corresp.)",
+    "volume": "14",
+    "author": "Hart",
+    "year": "1968",
+    "journal-title": "IEEE Trans. Inf. Theory"
+   },
+   {
+    "key": "ref_87",
+    "doi-asserted-by": "crossref",
+    "first-page": "20",
+    "DOI": "10.1145/1007730.1007735",
+    "article-title": "A study of the behavior of several methods for balancing machine learning training data",
+    "volume": "6",
+    "author": "Batista",
+    "year": "2004",
+    "journal-title": "ACM SIGKDD Explor. Newsl."
+   },
+   {
+    "key": "ref_88",
+    "doi-asserted-by": "crossref",
+    "first-page": "769",
+    "DOI": "10.1109/TSMC.1976.4309452",
+    "article-title": "Two Modifications of CNN",
+    "volume": "SMC-6",
+    "author": "Tomek",
+    "year": "1976",
+    "journal-title": "IEEE Trans. Syst. Man Cybern."
+   },
+   {
+    "key": "ref_89",
+    "unstructured": "Kubat, M., and Matwin, S. (1997, January 8–12). Addressing the curse of imbalanced training sets: One-sided selection. Proceedings of the 14th International Conference on Machine Learning (ICML), Nashville, TN, USA."
+   },
+   {
+    "key": "ref_90",
+    "doi-asserted-by": "crossref",
+    "first-page": "362",
+    "DOI": "10.1007/s10489-025-06236-4",
+    "article-title": "A non-parameter oversampling approach for imbalanced data classification based on hybrid natural neighbors",
+    "volume": "55",
+    "author": "Lin",
+    "year": "2025",
+    "journal-title": "Appl. Intell."
+   },
+   {
+    "key": "ref_91",
+    "doi-asserted-by": "crossref",
+    "first-page": "13595",
+    "DOI": "10.1007/s00500-024-10378-x",
+    "article-title": "An adaptive synthetic sampling and batch generation-oriented hybrid approach for addressing class imbalance problem in software defect prediction",
+    "volume": "28",
+    "author": "Taskeen",
+    "year": "2024",
+    "journal-title": "Soft Comput."
+   },
+   {
+    "key": "ref_92",
+    "doi-asserted-by": "crossref",
+    "first-page": "3081",
+    "DOI": "10.1007/s11063-022-10998-0",
+    "article-title": "A novel hybrid sampling method ESMOTE+ SSLM for handling the problem of class imbalance with overlap in financial distress detection",
+    "volume": "55",
+    "author": "Wang",
+    "year": "2023",
+    "journal-title": "Neural Process. Lett."
+   },
+   {
+    "key": "ref_93",
+    "doi-asserted-by": "crossref",
+    "first-page": "3460",
+    "DOI": "10.1038/s41598-024-84786-2",
+    "article-title": "Hybrid clustering strategies for effective oversampling and undersampling in multiclass classification",
+    "volume": "15",
+    "author": "Salehi",
+    "year": "2025",
+    "journal-title": "Sci. Rep."
+   },
+   {
+    "key": "ref_94",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Hu, J., Jiang, X., Xu, H., and Zhang, K. (2025). Fault prediction of aircraft engine based on adaptive hybrid sampling and BiLSTM. Sci. Rep., 15.",
+    "DOI": "10.1038/s41598-025-98756-9"
+   },
+   {
+    "key": "ref_95",
+    "doi-asserted-by": "crossref",
+    "first-page": "154623",
+    "DOI": "10.1109/ACCESS.2025.3600622",
+    "article-title": "Hybrid Framework Combining Diffusion Based Image Augmentation and Feature Level SMOTE for Addressing Extreme Class Imbalance",
+    "volume": "13",
+    "author": "Kumar",
+    "year": "2025",
+    "journal-title": "IEEE Access"
+   },
+   {
+    "key": "ref_96",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Wang, S. (2025). A hybrid SMOTE and Trans-CWGAN for data imbalance in real operational AHU AFDD: A case study of an auditorium building. Energy Build., 348.",
+    "DOI": "10.1016/j.enbuild.2025.116447"
+   },
+   {
+    "key": "ref_97",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Jang, J., Kim, T., Park, H., and Shin, D. (2025). A Hybrid Global-Split WGAN-GP Framework for Addressing Class Imbalance in IDS Datasets. Electronics, 14.",
+    "DOI": "10.3390/electronics14204068"
+   },
+   {
+    "key": "ref_98",
+    "unstructured": "Chen, C., Liaw, A., and Breiman, L. (2004). Using Random Forest to Learn Imbalanced Data, University of California."
+   },
+   {
+    "key": "ref_99",
+    "doi-asserted-by": "crossref",
+    "first-page": "123",
+    "DOI": "10.1023/A:1018054314350",
+    "article-title": "Bagging predictors",
+    "volume": "24",
+    "author": "Breiman",
+    "year": "1996",
+    "journal-title": "Mach. Learn."
+   },
+   {
+    "key": "ref_100",
+    "doi-asserted-by": "crossref",
+    "first-page": "529",
+    "DOI": "10.1016/j.neucom.2014.07.064",
+    "article-title": "Neighbourhood sampling in bagging for imbalanced data",
+    "volume": "150",
+    "author": "Stefanowski",
+    "year": "2015",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "ref_101",
+    "unstructured": "Wang, S., and Yao, X. (April, January 30). Diversity analysis on imbalanced data sets by using ensemble models. Proceedings of the IEEE Symposium on Computational Intelligence and Data Mining, Nashville, TN, USA."
+   },
+   {
+    "key": "ref_102",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Oliveira, D.V., Porpino, T.N., Cavalcanti, G.D., and Ren, T.I. (2015, January 12–17). A bootstrap-based iterative selection for ensemble generation. Proceedings of the 2015 International Joint Conference on Neural Networks (IJCNN), Killarney, Ireland.",
+    "DOI": "10.1109/IJCNN.2015.7280695"
+   },
+   {
+    "key": "ref_103",
+    "unstructured": "Chawla, N.V., Lazarevic, A., Hall, L.O., and Bowyer, K.W. (2003). SMOTEBoost: Improving prediction of the minority class in boosting. Proceedings of the Knowledge Discovery in Databases: PKDD 2003: 7th European Conference on Principles and Practice of Knowledge Discovery in Databases, Dubrovnik, Croatia, 22–26 September 2003, Springer. Proceedings 7."
+   },
+   {
+    "key": "ref_104",
+    "doi-asserted-by": "crossref",
+    "first-page": "1",
+    "DOI": "10.1016/j.csda.2017.01.005",
+    "article-title": "RHSBoost: Improving classification performance in imbalance data",
+    "volume": "111",
+    "author": "Gong",
+    "year": "2017",
+    "journal-title": "Comput. Stat. Data Anal."
+   },
+   {
+    "key": "ref_105",
+    "doi-asserted-by": "crossref",
+    "first-page": "92",
+    "DOI": "10.1007/s10618-012-0295-5",
+    "article-title": "Training and assessing classification rules with imbalanced data",
+    "volume": "28",
+    "author": "Menardi",
+    "year": "2014",
+    "journal-title": "Data Min. Knowl. Discov."
+   },
+   {
+    "key": "ref_106",
+    "doi-asserted-by": "crossref",
+    "first-page": "30",
+    "DOI": "10.1145/1007730.1007736",
+    "article-title": "Learning from imbalanced data sets with boosting and data generation: The databoost-im approach",
+    "volume": "6",
+    "author": "Guo",
+    "year": "2004",
+    "journal-title": "ACM SIGKDD Explor. Newsl."
+   },
+   {
+    "key": "ref_107",
+    "first-page": "1988",
+    "article-title": "Imputation-based ensemble techniques for class imbalance learning",
+    "volume": "33",
+    "author": "Wang",
+    "year": "2019",
+    "journal-title": "IEEE Trans. Knowl. Data Eng."
+   },
+   {
+    "key": "ref_108",
+    "first-page": "539",
+    "article-title": "Exploratory undersampling for class-imbalance learning",
+    "volume": "39",
+    "author": "Liu",
+    "year": "2008",
+    "journal-title": "IEEE Trans. Syst. Man Cybern. Part B (Cybern.)"
+   },
+   {
+    "key": "ref_109",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Al-Fraihat, D., Sharrab, Y., Al-Ghuwairi, A.R., Sbaih, N., and Qahmash, A. (2024). Detecting refactoring type of software commit messages based on ensemble machine learning algorithms. Sci. Rep., 14.",
+    "DOI": "10.1038/s41598-024-72307-0"
+   },
+   {
+    "key": "ref_110",
+    "unstructured": "Charte, F., Rivera, A., del Jesus, M.J., and Herrera, F. (2013). A first approach to deal with imbalance in multi-label datasets. Proceedings of the Hybrid Artificial Intelligent Systems: 8th International Conference, HAIS 2013, Salamanca, Spain, 11–13 September 2013, Springer. Proceedings 8."
+   },
+   {
+    "key": "ref_111",
+    "doi-asserted-by": "crossref",
+    "first-page": "3",
+    "DOI": "10.1016/j.neucom.2014.08.091",
+    "article-title": "Addressing imbalance in multilabel classification: Measures and random resampling algorithms",
+    "volume": "163",
+    "author": "Charte",
+    "year": "2015",
+    "journal-title": "Neurocomputing"
+   },
+   {
+    "key": "ref_112",
+    "doi-asserted-by": "crossref",
+    "first-page": "1757",
+    "DOI": "10.1016/j.patcog.2004.03.009",
+    "article-title": "Learning multi-label scene classification",
+    "volume": "37",
+    "author": "Boutell",
+    "year": "2004",
+    "journal-title": "Pattern Recognit."
+   },
+   {
+    "key": "ref_113",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Charte, F., Rivera, A., del Jesus, M.J., and Herrera, F. (2015). Resampling multilabel datasets by decoupling highly imbalanced labels. Proceedings of the International Conference on Hybrid Artificial Intelligence Systems, Bilbao, Spain, 22–24 June 2015, Springer.",
+    "DOI": "10.1007/978-3-319-19644-2_41"
+   },
+   {
+    "key": "ref_114",
+    "doi-asserted-by": "crossref",
+    "first-page": "385",
+    "DOI": "10.1016/j.knosys.2015.07.019",
+    "article-title": "MLSMOTE: Approaching imbalanced multilabel learning through synthetic instance generation",
+    "volume": "89",
+    "author": "Charte",
+    "year": "2015",
+    "journal-title": "Knowl.-Based Syst."
+   },
+   {
+    "key": "ref_115",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Dal Pozzolo, A., Caelen, O., Johnson, R.A., and Bontempi, G. (2015, January 7–10). Calibrating Probability with Undersampling for Unbalanced Classification. Proceedings of the 2015 IEEE Symposium Series on Computational Intelligence, Cape Town, South Africa.",
+    "DOI": "10.1109/SSCI.2015.33"
+   },
+   {
+    "key": "ref_116",
+    "unstructured": "Ibrahim, M. (2026, March 31). Fraud_oracle.csv. Figshare Dataset. Dataset Posted on 13 January 2024. Available online: https://figshare.com/articles/dataset/fraud_oracle_csv/24994233/1?file=44033394."
+   },
+   {
+    "key": "ref_117",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Zhu, W., Wu, O., and Yang, N. (2024). IRDA: Implicit data augmentation for deep imbalanced regression. Inf. Sci., 677.",
+    "DOI": "10.1016/j.ins.2024.120873"
+   },
+   {
+    "key": "ref_118",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Chen, Z., Chen, H., Li, A., Yao, Y., and Shi, Y. (2026). Adversarial fraud sample generation with reinforcement learning: A joint optimization framework for financial statement fraud detection. Appl. Soft Comput., 197.",
+    "DOI": "10.1016/j.asoc.2026.115192"
+   },
+   {
+    "key": "ref_119",
+    "doi-asserted-by": "crossref",
+    "first-page": "80",
+    "DOI": "10.1007/s10462-023-10652-8",
+    "article-title": "Cost-sensitive learning for imbalanced medical data: A review",
+    "volume": "57",
+    "author": "Araf",
+    "year": "2024",
+    "journal-title": "Artif. Intell. Rev."
+   },
+   {
+    "key": "ref_120",
+    "doi-asserted-by": "crossref",
+    "first-page": "5717",
+    "DOI": "10.1109/TSMC.2025.3573080",
+    "article-title": "A multiform framework for multiobjective feature selection in unbalanced classification: Combining oversampling and cost-sensitive learning",
+    "volume": "55",
+    "author": "Liang",
+    "year": "2025",
+    "journal-title": "IEEE Trans. Syst. Man Cybern. Syst."
+   },
+   {
+    "key": "ref_121",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Yousefimehr, B., Ghatee, M., and Razavi-Far, R. (2026). Multi-teacher knowledge distillation framework for lightweight anomaly detection. Neural Netw., 195.",
+    "DOI": "10.1016/j.neunet.2025.108267"
+   },
+   {
+    "key": "ref_122",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Yousefimehr, B., Ghatee, M., and Razavi-Far, R. (2026). Multi-Stage Self-Distillation for Class-Imbalanced Anomaly Detection. IEEE Trans. Emerg. Top. Comput. Intell., Early Access.",
+    "DOI": "10.1109/TETCI.2026.3671131"
+   },
+   {
+    "key": "ref_123",
+    "unstructured": "Liu, H., HaoChen, J.Z., Gaidon, A., and Ma, T. (2021). Self-supervised learning is more robust to dataset imbalance. arXiv."
+   },
+   {
+    "key": "ref_124",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Espis, A., Marzi, C., and Diciotti, S. (2025). Comparative analysis of supervised and self-supervised learning with small and imbalanced medical imaging datasets. Sci. Rep., 15.",
+    "DOI": "10.1038/s41598-025-99000-0"
+   },
+   {
+    "key": "ref_125",
+    "doi-asserted-by": "crossref",
+    "first-page": "3441",
+    "DOI": "10.1109/TETCI.2025.3526504",
+    "article-title": "Self-supervised learning for activity recognition based on datasets with imbalanced classes",
+    "volume": "9",
+    "author": "Hamad",
+    "year": "2025",
+    "journal-title": "IEEE Trans. Emerg. Top. Comput. Intell."
+   },
+   {
+    "key": "ref_126",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Han, D., Jung, H.R., Li, T., Katabi, D., Son, J., kook Kim, H., and Jeon, M. (2026). Revisiting data imbalance in token-based self-supervised learning. Neurocomputing, 682.",
+    "DOI": "10.1016/j.neucom.2026.133408"
+   },
+   {
+    "key": "ref_127",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Cong, C., Liu, S., Rana, P., Pagnucco, M., Di Ieva, A., Berkovsky, S., and Song, Y. (2024). Adaptive unified contrastive learning with graph-based feature aggregator for imbalanced medical image classification. Expert Syst. Appl., 251.",
+    "DOI": "10.1016/j.eswa.2024.123783"
+   },
+   {
+    "key": "ref_128",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Mishra, C., and Mishra, A.K. (2026). Diffusion-Based Minority Augmentation and Confidence-Calibrated Tabular Learning for Imbalanced Rare-Event Classification. Inf. Syst., 140.",
+    "DOI": "10.1016/j.is.2026.102716"
+   },
+   {
+    "key": "ref_129",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Koh, G., Oh, H.J., Noh, J., and Jeong, W.K. (2025, January 11–15). Synthetic data augmentation using pre-trained diffusion models for long-tailed food image classification. Proceedings of the Computer Vision and Pattern Recognition Conference, Nashville, TN, USA.",
+    "DOI": "10.1109/CVPRW67362.2025.00043"
+   },
+   {
+    "key": "ref_130",
+    "doi-asserted-by": "crossref",
+    "unstructured": "Zhang, F., Yuan, Q., and Zhang, X. (2025). Mamba-DDPM-BSA: Diffusion model based boundary sampling algorithm for imbalanced classification. Expert Syst. Appl., 274.",
+    "DOI": "10.1016/j.eswa.2025.126926"
+   },
+   {
+    "key": "ref_131",
+    "unstructured": "Huang, X., Khetan, A., Cvitkovic, M., and Karnin, Z. (2020). Tabtransformer: Tabular data modeling using contextual embeddings. arXiv."
+   },
+   {
+    "key": "ref_132",
+    "first-page": "18932",
+    "article-title": "Revisiting deep learning models for tabular data",
+    "volume": "34",
+    "author": "Gorishniy",
+    "year": "2021",
+    "journal-title": "Adv. Neural Inf. Process. Syst."
+   },
+   {
+    "key": "ref_133",
+    "unstructured": "Badirli, S., Liu, X., Xing, Z., Bhowmik, A., Doan, K., and Keerthi, S.S. (2020). Gradient boosting neural networks: Grownet. arXiv."
+   },
+   {
+    "key": "ref_134",
+    "unstructured": "Radford, A., Kim, J.W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., and Clark, J. (2021, January 18–24). Learning transferable visual models from natural language supervision. Proceedings of the International Conference on Machine Learning, PMLR, Virtual."
+   },
+   {
+    "key": "ref_135",
+    "unstructured": "Bommasani, R., Hudson, D.A., Adeli, E., Altman, R., Arora, S., von Arx, S., Bernstein, M.S., Bohg, J., Bosselut, A., and Brunskill, E. (2021). On the opportunities and risks of foundation models. arXiv."
+   },
+   {
+    "key": "ref_136",
+    "first-page": "17429",
+    "article-title": "Discovering symbolic models from deep learning with inductive biases",
+    "volume": "33",
+    "author": "Cranmer",
+    "year": "2020",
+    "journal-title": "Adv. Neural Inf. Process. Syst."
+   }
+  ],
+  "container-title": [
+   "Machine Learning and Knowledge Extraction"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+   {
+    "URL": "https://www.mdpi.com/2504-4990/8/7/211/pdf",
+    "content-type": "unspecified",
+    "content-version": "vor",
+    "intended-application": "similarity-checking"
+   }
+  ],
+  "deposited": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     17
+    ]
+   ],
+   "date-time": "2026-07-17T01:20:36Z",
+   "timestamp": 1784251236000
+  },
+  "score": 1,
+  "resource": {
+   "primary": {
+    "URL": "https://www.mdpi.com/2504-4990/8/7/211"
+   }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     16
+    ]
+   ]
+  },
+  "references-count": 136,
+  "journal-issue": {
+   "issue": "7",
+   "published-online": {
+    "date-parts": [
+     [
+      2026,
+      7
+     ]
+    ]
+   }
+  },
+  "alternative-id": [
+   "make8070211"
+  ],
+  "URL": "https://doi.org/10.3390/make8070211",
+  "relation": {},
+  "ISSN": [
+   "2504-4990"
+  ],
+  "issn-type": [
+   {
+    "value": "2504-4990",
+    "type": "electronic"
+   }
+  ],
+  "subject": [],
+  "published": {
+   "date-parts": [
+    [
+     2026,
+     7,
+     16
+    ]
+   ]
+  }
+ }
+}

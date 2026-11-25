@@ -1,0 +1,9 @@
+batch 105: 200 of 200 records done; include 22, unsure 13, exclude 165
+
+Look at first:
+- Low confidence: R21672 and R05481 (excluded E1, no abstract, generic titles: a book-brief results chapter and an SSRN quality-control case study); R02862 (unsure; building-damage paper whose MLOS/DAC/DAM resampling strategies may or may not be new generators).
+- Borderline includes (medium): R09865 RUEO (stream ensemble with built-in, unspecified oversampling); R12392 KODS (DGA knowledge-filtered oversampling plus stacking); R21965 TailedDiffAD (diffusion minority generator, but framed as anomaly detection, so E2 is arguable); R07500 (improved random balance sampling, multiclass, generator unspecified); R03334 DB2SM (DBSCAN cleaning plus SMOTE; under clarification 3 this could be unsure); R13132 (k-means adaptive hybrid sampling plus BiLSTM); R01862 (discourse-marker text augmentation).
+- Borderline excludes (medium): R11019 (HHOA tunes the SMOTE rate inside an IDS model; could count as changing how SMOTE is applied); R15885 (existing WGAN as oversampler in a "novel framework"); R22348 (unspecified generative AI used before model distillation).
+- The codebook does not settle these: R15442 (privacy attacks on SMOTE; excluded E-NOGEN but likely worth citing in a privacy discussion); R01496 GRE (stream oversampling that reuses past real minority examples, so no synthesis; excluded E-NOGEN); R01505 Cimap (partial-label oversampling, unsure U-other); R13325 GraphSMOTER (a SMOTE-style method for imbalanced regression, excluded E2).
+- Excluded E-LANG although they propose oversamplers: R05279, R01237, R05063 (Chinese full text). R00522 (unsure) may also have Chinese full text.
+- Metadata problems: R19680 has an LLM error message in its title field (the abstract is fine; excluded E1). R04057 is proceedings front matter tagged front-matter-in-scope (it lists a paper on sensitivity analysis of oversampling for bank credit data).

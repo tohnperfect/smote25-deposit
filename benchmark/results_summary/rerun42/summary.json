@@ -1,0 +1,167 @@
+{
+ "results_dirs": [
+  "/home/claude/work/rerun42/results_cloud",
+  "/home/claude/work/rerun42/mac_results_mac/results_mac",
+  "/home/claude/work/rerun42/mac_results_mac_kaggle/results_mac_kaggle"
+ ],
+ "fold_results": 88200,
+ "ok": 86154,
+ "duplicates_skipped": 4200,
+ "tasks": 42,
+ "families": 31,
+ "tasks_by_family": {
+  "balance": [
+   "balance [minority: B]"
+  ],
+  "banknote": [
+   "banknote-authentication"
+  ],
+  "breast-tissue": [
+   "breast_tissue4"
+  ],
+  "breast-y": [
+   "breast.cancer"
+  ],
+  "cleveland": [
+   "cleveland-0_vs_4",
+   "heart-disease-processed-cleveland [minority: 4]"
+  ],
+  "contraceptive": [
+   "contraceptive [minority: 2]"
+  ],
+  "dermatology": [
+   "dermatology-6"
+  ],
+  "ecoli": [
+   "ecoli-0-1-3-7_vs_2-6",
+   "ecoli3"
+  ],
+  "fertility": [
+   "fertility-diagnosis"
+  ],
+  "flare": [
+   "flare [minority: 5]"
+  ],
+  "glass": [
+   "glass0",
+   "glass2 (KEEL(keel_ds), N=214)"
+  ],
+  "haberman": [
+   "haberman",
+   "haberman2"
+  ],
+  "heart": [
+   "heart",
+   "heart6"
+  ],
+  "hepatitis": [
+   "hepatitis (PMLB, N=155)"
+  ],
+  "ijcnn": [
+   "ijcnn1"
+  ],
+  "iris": [
+   "iris4",
+   "iris6"
+  ],
+  "krvsk": [
+   "kr-vs-k-one_vs_fifteen"
+  ],
+  "liver": [
+   "bupa"
+  ],
+  "liver disorders": [
+   "liver_disorders6"
+  ],
+  "mammography": [
+   "mammography"
+  ],
+  "musk": [
+   "musk"
+  ],
+  "pima": [
+   "pima",
+   "pima2",
+   "pima6"
+  ],
+  "planrelax": [
+   "planning-relax"
+  ],
+  "promotion": [
+   "promotion"
+  ],
+  "segment": [
+   "segment0"
+  ],
+  "shoppers": [
+   "shoppers"
+  ],
+  "shuttle": [
+   "shuttle-c0-vs-c4"
+  ],
+  "smoke": [
+   "smoke detection"
+  ],
+  "sonar": [
+   "sonar"
+  ],
+  "wine": [
+   "wine [minority: 1]"
+  ],
+  "yeast": [
+   "yeast-0-2-5-6_vs_3-7-8-9",
+   "yeast3",
+   "yeast4",
+   "yeast5"
+  ]
+ },
+ "cells_by_status": {
+  "ok": 86154,
+  "not applicable": 1050,
+  "error": 996
+ },
+ "sampler_error_tasks": {
+  "AB-SMOTE": [],
+  "ADASYN": [
+   "banknote-authentication",
+   "dermatology-6",
+   "ecoli-0-1-3-7_vs_2-6",
+   "ijcnn1",
+   "kr-vs-k-one_vs_fifteen",
+   "shuttle-c0-vs-c4",
+   "sonar",
+   "wine [minority: 1]"
+  ],
+  "CGMOS": [],
+  "Cluster-SMOTE": [],
+  "FW-SMOTE": [],
+  "G-SMOTE": [
+   "ecoli-0-1-3-7_vs_2-6",
+   "ijcnn1"
+  ],
+  "ROS": [],
+  "RSMOTE": [],
+  "SMOM": [],
+  "SMOTE": [
+   "ecoli-0-1-3-7_vs_2-6",
+   "ijcnn1"
+  ],
+  "Safe-Level-SMOTE": [],
+  "class_weight": [],
+  "none": [],
+  "threshold": []
+ },
+ "cells_per_task": 2100,
+ "tasks_incomplete_left_out": {},
+ "rule": {
+  "rope": 0.01,
+  "learners": [
+   "RF",
+   "GB"
+  ],
+  "measures": [
+   "roc_auc",
+   "pr_auc"
+  ]
+ }
+}

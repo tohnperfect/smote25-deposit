@@ -1,0 +1,10 @@
+batch 014: 196 of 196 records done; own 150, existing-parts 38, unclear 8
+
+Look at these first:
+- B2 generator plus a new allocation or ratio (the codebook does not settle this; check the three together): R13170 FIGS coded own (low; standard GAN and SMOTE with an undescribed "novel imbalance ratio"), R19422 GENIE-IDS coded own (failure-steered sampling of a conditional generator), R19415 Elastic Oversampling coded existing-parts (standard GAN/VAE/CVAE mixed with SMOTE at a tunable ratio).
+- Generator presented as new but with no stated change, coded existing-parts and so excluded (low): R01433 O-GAN, R13306 GENNUS, R21928 class-conditional LDM, R02809 SeismoFlow, R02861 LSTM generator, R06210 EC-WGAN. By contrast, R02161 ("a novel GAN", no description) was coded own.
+- Own on thin grounds (could be existing-parts): R02612 (GAN study with auxiliary contrastive or triplet loss), R11526 CWFLAM-VAE (attention and focal loss may sit outside the VAE), R06508 (CRD, unnamed oversampler), R05258 SMOTified-GAN (SMOTE output as GAN input), R10963 MLDM ("tailored" diffusion), R08036 BGCS (binary copula).
+- Classical oversampler plus a new cleaner or filter of the paper's own, coded own (the codebook settles only existing cleaners): R05521, R04210, R12392, R07549, R15700, R00616, R02430.
+- Excluded where one call decides it: R01009 ASOBoost (compared only with "class imbalance learning methods", coded no), R03525 (benchmarks not said to be resamplers), R01474 SCUT-DS (stream windowing not counted as a scheme of its own), R03311 (clustering-improved undersampling), R05315 (undescribed text-augmentation method).
+- Unclear: R04108, R16498, R02650 (no abstract), R00529, R02438, R09622, R14280 (no abstract), R09732.
+- Generator field: a few own records with an unnamed generator are coded classical (for example R01008, R14246) where others are coded none. This does not change the outcome.

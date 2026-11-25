@@ -1,0 +1,11 @@
+d42 useaudit batch 203: blind second coding done
+n=52, fulltext=0 (all 52 coded from title and abstract), application=52, inside_folds stated=0, before-split=0 (all 52 na: no full text)
+test_balanced: 52 na; validation: internal 47, nr 5; confidence: high 23, medium 25, low 4
+
+Least sure:
+- R07180: no abstract, title only; coded as an application (software vulnerability prediction) though resampling use is not visible; modality, resampler, learner na.
+- R02682: FN-SMOTE integrated with cost-sensitive learning as a named technique, coded other-SMOTE-variant and application; it may be the authors' own earlier variant (would make it no).
+- R00672 and R02004: borderline under rule B (SMOTE in an LLE space; hierarchical clustering then SMOTE); coded application because the resampling is not both presented as the contribution and compared with another resampler (R02004 compares only with no oversampling).
+- R06560, R01140, R06327, R21056, R07566: abstract names no oversampler, so resampler na.
+- R03028: abstract metrics fit only a 1:1 test set (recall 0.975, precision 0.9976 give accuracy, AUC and G-mean 0.9863 at 1:1, 0.9909 at 2:1); test_balanced kept na as a full-text field, arithmetic in note.
+- Domain or stakes calls: R06125 (generic streaming pipeline, coded security), R02884 (truck APS failures, industry not transport), R07289 (EEG emotion, other/other), R03964 (smoking HRV study, stakes other), card-fraud records coded stakes individual.

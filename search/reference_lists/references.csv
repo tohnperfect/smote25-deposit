@@ -1,0 +1,696 @@
+review,n,identified,doi,year,title,rec,matched_by,decision,code,in_corpus
+Udu et al. (2025),1,yes,10.1142/s0218213022500373,2022,Fraud Detection Using Large-scale Imbalance Dataset,R04739,doi,exclude,E1,no
+Udu et al. (2025),2,yes,10.1016/j.eswa.2021.114750,2021,A hybrid method with dynamic weighted entropy for handling the problem of class imbalance with overlap in credit card fraud detection,,,,,no
+Udu et al. (2025),3,yes,10.3233/shti240491,2024,Balancing Acts: Tackling Data Imbalance in Machine Learning for Predicting Myocardial Infarction in Type 2 Diabetes,R08011,doi,exclude,E-COMPARE,no
+Udu et al. (2025),4,yes,10.3233/shti240563,2024,Evaluating Synthetic Data Augmentation to Correct for Data Imbalance in Realistic Clinical Prediction Settings,R08751,doi,exclude,E-COMPARE,no
+Udu et al. (2025),5,yes,10.1186/s13040-024-00384-y,2024,Processing imbalanced medical data at the data level with assisted-reproduction data as an example,R09840,doi,exclude,E-COMPARE,no
+Udu et al. (2025),6,yes,10.1007/s41870-023-01463-9,2023,A model fusion approach for severity prediction of diabetes with respect to binary and multiclass classification,,,,,no
+Udu et al. (2025),7,yes,10.1109/tr.2024.3403660,2025,A Generative Transfer Learning Method for Extreme Class Imbalance Problem and Applied to Piston Aero-Engine Fault Cross-Domain Diagnosis,,,,,no
+Udu et al. (2025),8,yes,10.1007/s42417-023-01199-7,2023,A Highly Imbalanced Assembly Vibration Prediction of Aero-engine Using Feature Selection and Data Augmentation,,,,,no
+Udu et al. (2025),9,yes,10.1016/j.measurement.2023.112709,2023,Aero-engine high speed bearing fault diagnosis for data imbalance: A sample enhanced diagnostic method based on pre-training WGAN-GP,,,,,no
+Udu et al. (2025),10,yes,10.1016/j.ress.2024.110189,2024,Addressing class-imbalanced learning in real-time aero-engine gas-path fault diagnosis via feature filtering and mapping,,,,,no
+Udu et al. (2025),11,yes,10.1002/mgea.6,2023,Toward learning steelmaking—A review on machine learning for basic oxygen furnace process,,,,,no
+Udu et al. (2025),12,yes,10.3390/ma17112549,2024,Effects of Seawater on Mechanical Performance of Composite Sandwich Structures: A Machine Learning Framework,,,,,no
+Udu et al. (2025),13,yes,10.1109/access.2022.3212410,2022,Quality Assessment of RSW Based on Transfer Learning and Imbalanced Multi-Class Classification Algorithm,,,,,no
+Udu et al. (2025),14,yes,10.1016/j.neucom.2022.01.004,2022,Deep learning approach for defective spot welds classification using small and class-imbalanced datasets,,,,,no
+Udu et al. (2025),15,yes,10.1016/j.asoc.2022.108628,2022,A cluster-based data splitting method for small sample and class imbalance problems in impact damage classification,R04067,doi,exclude,E1,no
+Udu et al. (2025),16,yes,10.1109/tpami.2020.2981890,2021,Imbalance Problems in Object Detection: A Review,,,,,no
+Udu et al. (2025),17,yes,10.1016/j.patcog.2021.107965,2021,A review of methods for imbalanced multi-label classification,,,,,no
+Udu et al. (2025),18,yes,10.1016/j.eswa.2020.113190,2020,Model validation failure in class imbalance problems,,,,,no
+Udu et al. (2025),19,yes,10.1109/control60310.2024.10531841,2024,On Chance Performance in High-Dimensional Class-Imbalance Problems,,,,,no
+Udu et al. (2025),20,yes,10.1016/j.ins.2024.121430,2025,Geometric relative margin machine for heterogeneous distribution and imbalanced classification,,,,,no
+Udu et al. (2025),21,yes,10.1016/j.conengprac.2024.106050,2024,Federated learning for decentralized fault diagnosis of a sucker-rod pumping system with class imbalance data,,,,,no
+Udu et al. (2025),22,yes,10.1007/s10462-023-10652-8,2024,Cost-sensitive learning for imbalanced medical data: a review,,,,,no
+Udu et al. (2025),23,yes,10.1016/j.knosys.2023.111272,2024,Cost-sensitive continuous ensemble kernel learning for imbalanced data streams with concept drift,,,,,no
+Udu et al. (2025),24,yes,10.1007/s00500-022-06768-8,2022,A hyper-parameter tuning approach for cost-sensitive support vector machine classifiers,,,,,no
+Udu et al. (2025),25,yes,10.1007/s12652-022-04400-z,2022,Automatic skin lesion classification using a novel densely connected convolutional network integrated with an attention module,,,,,no
+Udu et al. (2025),26,yes,10.1109/tsmcc.2011.2161285,2012,"A Review on Ensembles for the Class Imbalance Problem: Bagging-, Boosting-, and Hybrid-Based Approaches",,,,,no
+Udu et al. (2025),27,yes,10.1007/s13748-016-0094-0,2016,Learning from imbalanced data: open challenges and future directions,,,,,no
+Udu et al. (2025),28,yes,10.1109/tai.2022.3160658,2022,On Supervised Class-Imbalanced Learning: An Updated Perspective and Some Key Challenges,,,,,no
+Udu et al. (2025),29,yes,10.1016/j.jcmds.2022.100054,2022,"Deep learning, stochastic gradient descent and diffusion maps",,,,,no
+Udu et al. (2025),30,yes,10.1016/j.jcmds.2022.100030,2022,Revealing influence of meteorological conditions and flight factors on delays Using XGBoost,,,,,no
+Udu et al. (2025),31,yes,10.1007/s10462-024-10884-2,2024,Handling imbalanced medical datasets: review of a decade of research,,,,,no
+Udu et al. (2025),32,yes,10.1093/jcde/qwae075,2024,Review of imbalanced fault diagnosis technology based on generative adversarial networks,,,,,no
+Udu et al. (2025),33,yes,10.1016/j.eswa.2023.122778,2024,"A review of ensemble learning and data augmentation models for class imbalanced problems: Combination, implementation and evaluation",R07576,doi,exclude,E-COMPARE,no
+Udu et al. (2025),34,yes,10.1186/s40537-019-0192-5,2019,Survey on deep learning with class imbalance,,,,,no
+Udu et al. (2025),35,yes,10.1016/j.asoc.2023.110415,2023,A broad review on class imbalance learning techniques,,,,,no
+Udu et al. (2025),36,yes,10.1109/access.2025.3531662,2025,Imbalanced Data Problem in Machine Learning: A Review,R13571,doi,exclude,E-REVIEW,no
+Udu et al. (2025),37,yes,10.1038/s41598-022-12574-x,2022,A novel early diagnostic framework for chronic diseases with class imbalance,,,,,no
+Udu et al. (2025),38,yes,10.1016/j.compbiomed.2021.104527,2021,A multiple combined method for rebalancing medical data with class imbalances,R02980,doi,include,I1-hybrid,no
+Udu et al. (2025),39,yes,10.1109/tkde.2008.239,2009,Learning from Imbalanced Data,,,,,no
+Udu et al. (2025),40,yes,10.1007/978-981-99-8141-0_42,2023,Handling Class Imbalance in Forecasting Parkinson’s Disease Wearing-off with Fitness Tracker Dataset,R08929,doi,exclude,E-COMPARE,no
+Udu et al. (2025),41,yes,10.1016/j.jcmds.2022.100036,2022,EUPHORIA: A neural multi-view approach to combine content and behavioral features in review spam detection,,,,,no
+Udu et al. (2025),42,yes,10.1007/s11042-018-6836-1,2019,Handling missing labels and class imbalance challenges simultaneously for facial action unit recognition,,,,,no
+Udu et al. (2025),43,yes,10.1016/j.eswa.2018.01.023,2018,Progressive boosting for class imbalance and its application to face re-identification,,,,,no
+Udu et al. (2025),44,yes,10.1109/tpami.2019.2914680,2020,Deep Imbalanced Learning for Face Recognition and Attribute Prediction,,,,,no
+Udu et al. (2025),45,yes,10.1109/iwbf49977.2020.9107956,2020,Comparison-Level Mitigation of Ethnic Bias in Face Recognition,,,,,no
+Udu et al. (2025),46,yes,10.3390/electronics13122317,2024,Surveying Racial Bias in Facial Recognition: Balancing Datasets and Algorithmic Enhancements,,,,,no
+Udu et al. (2025),47,yes,10.1016/j.patcog.2011.01.017,2011,An overview of ensemble methods for binary classifiers in multi-class problems: Experimental study on one-vs-one and one-vs-all schemes,,,,,no
+Udu et al. (2025),48,yes,10.1016/j.knosys.2020.105922,2020,A hybrid scheme-based one-vs-all decision trees for multi-class classification tasks,,,,,no
+Udu et al. (2025),49,yes,10.1016/j.engappai.2020.104034,2021,A multiclass classification using one-versus-all approach with the differential partition sampling ensemble,R02979,doi,include,I1-multiclass,no
+Udu et al. (2025),50,yes,10.1016/j.ins.2013.07.007,2013,An insight into classification with imbalanced data: Empirical results and current trends on using data intrinsic characteristics,,,,,no
+Udu et al. (2025),51,yes,10.1007/s13042-022-01746-w,2022,Global-local information based oversampling for multi-class imbalanced data,R06422,doi,include,I1-multiclass,yes
+Udu et al. (2025),52,yes,10.1109/tkde.2017.2761347,2018,AMDO: An Over-Sampling Technique for Multi-Class Imbalanced Problems,R01215,doi,include,I1-multiclass,yes
+Udu et al. (2025),53,yes,10.1007/s00500-014-1291-z,2014,To combat multi-class imbalanced problems by means of over-sampling and boosting techniques,R00709,doi,include,I1-multiclass,no
+Udu et al. (2025),54,yes,10.1609/aaai.v35i11.17219,2021,Addressing Class Imbalance in Federated Learning,,,,,no
+Udu et al. (2025),55,yes,,,Learning deep representation for mood classification in microblog,,,,,no
+Udu et al. (2025),56,yes,10.1016/j.neunet.2013.02.007,2013,Dynamic class imbalance learning for incremental LPSVM,,,,,no
+Udu et al. (2025),57,yes,10.1109/tnnls.2017.2771290,2018,A Systematic Study of Online Class Imbalance Learning With Concept Drift,,,,,no
+Udu et al. (2025),58,yes,10.5555/3122009.3122026,,,,,,,no
+Udu et al. (2025),59,yes,10.1016/j.ins.2019.07.070,2019,A Comprehensive Analysis of Synthetic Minority Oversampling Technique (SMOTE) for handling class imbalance,R01535,doi,exclude,E-COMPARE,no
+Udu et al. (2025),60,yes,10.1613/jair.1.11192,2018,"SMOTE for Learning from Imbalanced Data: Progress and Challenges, Marking the 15-year Anniversary",R01478,doi,exclude,E-REVIEW,no
+Udu et al. (2025),61,yes,10.1016/j.jksuci.2021.01.014,2022,SMOTE-LOF for noise identification in imbalanced data classification,R05252,doi,include,I1-hybrid,no
+Udu et al. (2025),62,yes,10.1007/s41870-024-02129-w,2024,PPFCM-SMOTE: a novel balancing system for anomaly detection in IoT edge using probabilistic possibilistic fuzzy clustering and SMOTE,R09711,doi,exclude,E1,no
+Udu et al. (2025),63,yes,10.1016/j.neucom.2019.06.100,2019,Smote-variants: A python implementation of 85 minority oversampling techniques,R02059,doi,exclude,E-COMPARE,no
+Udu et al. (2025),64,yes,10.1504/ijkesdp.2011.039875,2011,Borderline over-sampling for imbalanced data classification,R00225,doi,include,I1-new-variant,no
+Udu et al. (2025),65,yes,10.1145/1007730.1007735,2004,A study of the behavior of several methods for balancing machine learning training data,R00006,doi,include,I1-hybrid,yes
+Udu et al. (2025),66,yes,10.1109/ijcnn.2008.4633969,2008,ADASYN: Adaptive synthetic sampling approach for imbalanced learning,R00074,doi,include,I1-new-variant,yes
+Udu et al. (2025),67,yes,10.1007/11538059_91,2005,Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning,R00018,doi,include,I1-new-variant,yes
+Udu et al. (2025),68,yes,10.1049/rpg2.13091,2024,Wind energy system fault classification using deep CNN and improved PSO‐tuned extreme gradient boosting,R10287,doi,exclude,E1,no
+Udu et al. (2025),69,yes,10.1007/s00521-024-09439-x,2024,Comparative study of ML models for IIoT intrusion detection: impact of data preprocessing and balancing,R08179,doi,include,I1-multiclass,no
+Udu et al. (2025),70,yes,10.1145/3422622,2020,Generative adversarial networks,,,,,no
+Udu et al. (2025),71,yes,10.1016/j.jjimei.2020.100004,2021,Generative adversarial network: An overview of theory and applications,,,,,no
+Udu et al. (2025),72,yes,10.1186/s40537-024-00993-8,2024,Predicting startup success using two bias-free machine learning: resolving data imbalance using generative adversarial networks,,,,,no
+Udu et al. (2025),73,yes,10.1109/access.2024.3454537,2024,Multi-Label Classification of Lung Diseases Using Deep Learning,R09481,doi,exclude,E1,no
+Udu et al. (2025),74,yes,10.1007/978-3-642-01307-2_43,2009,Safe-Level-SMOTE: Safe-Level-Synthetic Minority Over-Sampling TEchnique for Handling the Class Imbalanced Problem,R00137,doi,include,I1-new-variant,yes
+Udu et al. (2025),75,yes,10.1007/s10115-011-0465-6,2011,SMOTE-RSB *: a hybrid preprocessing approach based on oversampling and undersampling for high imbalanced data-sets using SMOTE and rough sets theory,R00344,doi,include,I1-hybrid,no
+Udu et al. (2025),76,yes,10.1007/s10489-020-01852-8,2020,SMOTE-WENN: Solving class imbalance and small sample problems by oversampling and distance scaling,R03947,doi,include,I1-hybrid,no
+Udu et al. (2025),77,yes,10.1007/s10489-024-05608-6,2024,WSMOTER: a novel approach for imbalanced regression,R10295,doi,exclude,E2,no
+Udu et al. (2025),78,yes,10.1631/fitee.2300278,2024,A novel overlapping minimization SMOTE algorithm for imbalanced classification,R07555,doi,include,I1-new-variant,no
+Udu et al. (2025),79,yes,10.1016/j.eswa.2023.121848,2024,SMOTE-kTLNN: A hybrid re-sampling method based on SMOTE and a two-layer nearest neighbor classifier,R10052,doi,exclude,E-UNSURE,no
+Udu et al. (2025),80,yes,10.7717/peerj-cs.2299,2024,Classification of imbalanced ECGs through segmentation models and augmented by conditional diffusion model,,,,,no
+Udu et al. (2025),81,yes,10.32604/csse.2023.034373,2024,A Novel Framework for Learning and Classifying the Imbalanced Multi-Label Data,,,,,no
+Udu et al. (2025),82,yes,10.1016/j.asoc.2024.112186,2024,A hierarchical heterogeneous ant colony optimization based oversampling algorithm using feature similarity for classification of imbalanced data,R07452,doi,include,I1-new-variant,no
+Udu et al. (2025),83,yes,10.1016/j.asoc.2023.110986,2024,Adaptive SV-Borderline SMOTE-SVM algorithm for imbalanced data classification,R07664,doi,include,I1-new-variant,no
+Udu et al. (2025),84,yes,10.1016/j.jrmge.2024.03.008,2025,Deciphering decision-making mechanisms for the susceptibility of different slope geohazards: A case study on a SMOTE-RF-SHAP hybrid model,,,,,no
+Udu et al. (2025),85,yes,10.1016/j.caeai.2024.100222,2024,Enhancing algorithmic assessment in education: Equi-fused-data-based SMOTE for balanced learning,R08572,doi,include,I1-other,no
+Udu et al. (2025),86,yes,10.1038/s41598-024-67550-4,2024,An imbalanced learning method based on graph tran-smote for fraud detection,R07831,doi,exclude,E-UNSURE,no
+Udu et al. (2025),87,yes,10.1007/s10489-023-05030-4,2023,OALDPC: oversampling approach based on local density peaks clustering for imbalanced classification,R06833,doi,include,I1-new-variant,no
+Udu et al. (2025),88,yes,10.1007/s10489-024-05644-2,2024,A cluster impurity-based hybrid resampling for imbalanced classification problems,,,,,no
+Udu et al. (2025),89,yes,10.1007/s10489-024-05754-x,2024,An adaptive over-sampling method for imbalanced data based on simultaneous clustering and filtering noisy,R07751,doi,include,I1-new-variant,no
+Udu et al. (2025),90,yes,10.1007/s10489-023-04650-0,2023,An imbalanced ensemble learning method based on dual clustering and stage-wise hybrid sampling,,,,,no
+Udu et al. (2025),91,yes,10.1016/j.neucom.2020.02.081,2020,An oversampling framework for imbalanced classification based on Laplacian eigenmaps,R02289,doi,exclude,E-UNSURE,no
+Udu et al. (2025),92,yes,10.1007/s00542-019-04566-1,2019,A hybrid system for imbalanced data mining,,,,,no
+Udu et al. (2025),93,yes,10.1007/s00357-024-09491-1,2024,Clustering-Based Oversampling Algorithm for Multi-class Imbalance Learning,R11826,doi,include,I1-multiclass,no
+Udu et al. (2025),94,yes,10.1007/s11071-024-10073-4,2024,Research on bearing fault diagnosis method based on cjbm with semi-supervised and imbalanced data,R09893,doi,exclude,E1,no
+Udu et al. (2025),95,yes,10.1057/s41283-024-00150-8,2024,Class-imbalanced dynamic financial distress prediction based on random forest from the perspective of concept drift,R08100,doi,exclude,E1,no
+Udu et al. (2025),96,yes,10.3390/bdcc6020041,2022,Revisiting Gradient Boosting-Based Approaches for Learning Imbalanced Data: A Case of Anomaly Detection on Power Grids,R05196,doi,exclude,E-COMPARE,no
+Udu et al. (2025),97,yes,10.1186/s13634-022-00871-6,2022,Intrusion detection system combined enhanced random forest with SMOTE algorithm,R04904,doi,exclude,E1,no
+Udu et al. (2025),98,yes,10.1080/23080477.2022.2152933,2022,GIWRF-SMOTE: Gini impurity-based weighted random forest with SMOTE for effective malware attack and anomaly detection in IoT-Edge,,,,,no
+Udu et al. (2025),99,yes,10.1007/s41870-022-01115-4,2022,A supervised machine learning-based solution for efficient network intrusion detection using ensemble learning based on hyperparameter optimization,,,,,no
+Udu et al. (2025),100,yes,10.1109/tkde.2024.3443160,2024,Imbalanced Node Classification With Synthetic Over-Sampling,R09051,doi,include,I1-new-variant,no
+Udu et al. (2025),101,yes,10.1007/s41870-022-00943-8,2022,SSHM: SMOTE-stacked hybrid model for improving severity classification of code smell,,,,,no
+Udu et al. (2025),102,yes,10.1016/j.ins.2021.02.056,2021,A cluster-based oversampling algorithm combining SMOTE and k-means for imbalanced medical data,R02927,doi,include,I1-new-variant,no
+Udu et al. (2025),103,yes,10.1007/978-3-031-68323-7_9,2024,Incremental SMOTE with Control Coefficient for Classifiers in Data Starved Medical Applications,R09181,doi,include,I1-other,no
+Udu et al. (2025),104,yes,10.1007/s42461-024-01060-9,2024,Predicting the Stability of Rock Slopes in the Presence of Diverse Joint Networks and External Factors Using Machine Learning Algorithms,R09766,doi,exclude,E1,no
+Udu et al. (2025),105,yes,10.1109/tkde.2021.3130191,2023,"A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications",,,,,no
+Udu et al. (2025),106,yes,,,Improved training of Wasserstein GANs,,,,,no
+Udu et al. (2025),107,yes,10.1109/iccv.2017.304,2017,Least Squares Generative Adversarial Networks,,,,,no
+Udu et al. (2025),108,yes,,2017,Geometric GAN,,,,,no
+Udu et al. (2025),109,yes,10.1007/s10489-024-05561-4,2024,GAN-GA: infrared and visible image fusion generative adversarial network based on global awareness,,,,,no
+Udu et al. (2025),110,yes,10.1007/s42979-024-03227-z,2024,A Novel Hybrid Resampling Approach to Address Class-Imbalanced Issues,R07545,doi,include,I1-generative,no
+Udu et al. (2025),111,yes,10.1016/j.knosys.2022.109439,2022,Data-augmented wavelet capsule generative adversarial network for rolling bearing fault diagnosis,,,,,no
+Udu et al. (2025),112,yes,10.1016/j.rcim.2023.102577,2023,Generative adversarial one-shot diagnosis of transmission faults for industrial robots,,,,,no
+Udu et al. (2025),113,yes,10.1016/j.energy.2024.132906,2024,Dual-module multi-head spatiotemporal joint network with SACGA for wind turbines fault detection,,,,,no
+Udu et al. (2025),114,yes,10.1016/j.measurement.2023.113014,2023,CSWGAN-GP: A new method for bearing fault diagnosis under imbalanced condition,,,,,no
+Udu et al. (2025),115,yes,10.1007/s41870-024-01740-1,2024,A new technique for classification method with imbalanced training data,R07518,doi,exclude,E-UNSURE,no
+Udu et al. (2025),116,yes,10.1007/978-3-030-03493-1_72,2018,Overlap-Based Undersampling for Improving Imbalanced Data Classification,,,,,yes
+Udu et al. (2025),117,yes,10.1016/j.asoc.2020.107033,2021,EUSC: A clustering-based surrogate model to accelerate evolutionary undersampling in imbalanced classification,,,,,no
+Udu et al. (2025),118,yes,10.1109/tim.2024.3396853,2024,LEGAN: Addressing Intraclass Imbalance in GAN-Based Medical Image Augmentation for Improved Imbalanced Data Classification,,,,,no
+Udu et al. (2025),119,yes,10.1016/j.eswa.2024.125171,2024,Novel imbalanced fault diagnosis method based on generative adversarial networks with balancing serial CNN and Transformer (BCTGAN),R09545,doi,include,I1-generative,no
+Udu et al. (2025),120,yes,10.1109/tase.2024.3454418,2025,Leveraging Transfer Learning for Data Augmentation in Fault Diagnosis of Imbalanced Time-Frequency Images,,,,,no
+Udu et al. (2025),121,yes,10.1109/access.2022.3205337,2022,Effect of Balancing Data Using Synthetic Data on the Performance of Machine Learning Classifiers for Intrusion Detection in Computer Networks,R04612,doi,exclude,E1,no
+Udu et al. (2025),122,yes,10.1016/j.future.2022.01.026,2022,Imbalanced data classification: A KNN and generative adversarial networks-based hybrid approach for intrusion detection,R04825,doi,include,I1-generative,no
+Udu et al. (2025),123,yes,10.3390/electronics12132851,2023,A New Data-Balancing Approach Based on Generative Adversarial Network for Network Intrusion Detection System,R05558,doi,include,I1-generative,no
+Udu et al. (2025),124,yes,10.1109/icmla58977.2023.00159,2023,Addressing Class Imbalance in Aeroengine Fault Detection,,,,,no
+Udu et al. (2025),125,yes,10.1023/a:1010920819831,2001,A Simple Generalisation of the Area Under the ROC Curve for Multiple Class Classification Problems,,,,,no
+Udu et al. (2025),126,yes,10.1016/j.softx.2024.101877,2024,IMCP: A Python package for imbalanced and multiclass data classifier performance comparison,,,,,no
+Udu et al. (2025),127,yes,10.1038/s41598-024-53491-5,2024,The effect of data resampling methods in radiomics,,,,,no
+Udu et al. (2025),128,yes,10.3390/su15097097,2023,Adversarial Approaches to Tackle Imbalanced Data in Machine Learning,R05685,doi,exclude,E1,no
+Idwan et al. (2025),1,yes,10.1613/jair.953,2002,SMOTE: Synthetic Minority Over-sampling Technique,R00002,doi,include,I1-other,yes
+Idwan et al. (2025),2,yes,10.1145/1007730.1007741,2004,Feature selection for text categorization on imbalanced data,,,,,no
+Idwan et al. (2025),3,yes,,1997,"Kubát, M., Matwin, S.: Addressing the curse of imbalanced training sets: one-sided selection. In: International Conference on Machine Learning (1997)",,,,,yes
+Idwan et al. (2025),4,yes,10.1145/312129.312220,1999,MetaCost,,,,,no
+Idwan et al. (2025),5,yes,,1994,"Pazzani, M., Merz, C., Murphy, P., Ali, K., Hume, T., Brunk, C.: Reducing misclassifcation costs: knowledge-intensive approaches to learning from noisy data. In: Proceedings of the Eleventh International Conference on Machine Learning. ML-94. New Brunswick: New Jersey, pp. 100–109 (1994)",,,,,no
+Idwan et al. (2025),6,yes,10.1145/1007730.1007735,2004,A study of the behavior of several methods for balancing machine learning training data,R00006,doi,include,I1-hybrid,yes
+Idwan et al. (2025),7,yes,10.1109/icnnb.2005.1614671,2005,An Over-sampling Expert System for Learing from Imbalanced Data Sets,R00015,close title,include,I1-hybrid,no
+Idwan et al. (2025),8,yes,10.1145/1273496.1273614,2007,Experimental perspectives on learning from imbalanced data,,,,,no
+Idwan et al. (2025),9,yes,10.1613/jair.1.11192,2018,"SMOTE for Learning from Imbalanced Data: Progress and Challenges, Marking the 15-year Anniversary",R01478,doi,exclude,E-REVIEW,no
+Idwan et al. (2025),10,yes,10.1109/icic54025.2021.9632912,2021,SMOTE for Handling Imbalanced Data Problem : A Review,R03939,doi,exclude,E-REVIEW,yes
+Idwan et al. (2025),11,yes,,2023,"Nemade, B., Bharadi, V., Alegavi, S.S., Marakarkandy, B.: A comprehensive review: smote-based oversampling methods for imbalanced classification techniques, evaluation, and result comparisons. Int. J. Intell. Syst. Appl. Eng. 11, 790–803 (2023)",R05468,title,exclude,E-REVIEW,no
+Idwan et al. (2025),12,yes,10.1007/s10994-022-06296-4,2023,A theoretical distribution analysis of synthetic minority oversampling technique (SMOTE) for imbalanced learning,R07621,doi,exclude,E-NOGEN,no
+Idwan et al. (2025),13,yes,10.56947/gjom.v19i1.2639,2025,Analytical formulation of synthetic minority oversampling technique (SMOTE) for imbalanced learning,R11388,doi,exclude,E-NOGEN,no
+Idwan et al. (2025),14,yes,10.1016/j.ins.2019.07.070,2019,A Comprehensive Analysis of Synthetic Minority Oversampling Technique (SMOTE) for handling class imbalance,R01535,doi,exclude,E-COMPARE,no
+Idwan et al. (2025),15,yes,10.1007/11538059_91,2005,Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning,R00018,doi,include,I1-new-variant,yes
+Idwan et al. (2025),16,yes,,2008,"Stefanowski, J., Wilk, S.: Selective Pre-processing of Imbalanced Data for Improving Classification Performance, pp. 283–292. Springer, Berlin (2008)",R00098,title,exclude,E-NOGEN,no
+Idwan et al. (2025),17,yes,,2011,"Fan, X., Tang, K., Weise, T.: Margin-Based Over-Sampling Method for Learning from Imbalanced Datasets, pp. 309–320. Springer, Berlin (2011)",R00251,title,include,I1-new-variant,no
+Idwan et al. (2025),18,yes,10.1109/icacsis.2014.7065849,2014,"SMOTE-Out, SMOTE-Cosine, and Selected-SMOTE: An enhancement strategy to handle imbalance in data level",R00568,doi,include,I1-new-variant,no
+Idwan et al. (2025),19,yes,10.1109/iiki.2014.14,2014,An Improved SMOTE Imbalanced Data Classification Method Based on Support Degree,R00491,doi,include,I1-new-variant,no
+Idwan et al. (2025),20,yes,10.1016/j.ins.2014.08.051,2015,SMOTE–IPF: Addressing the noisy and borderline examples problem in imbalanced classification by a re-sampling method with filtering,R00702,doi,include,I1-hybrid,yes
+Idwan et al. (2025),21,yes,10.1145/2701126.2701181,2015,An over-sampling technique with rejection for imbalanced class learning,R00616,doi,include,I1-new-variant,no
+Idwan et al. (2025),22,yes,10.1109/itab.2008.4570642,2008,The generation mechanism of synthetic minority class examples,R00101,doi,include,I1-new-variant,no
+Idwan et al. (2025),23,yes,10.1109/wcse.2009.756,2009,MSMOTE: Improving Classification Performance When Training Data is Imbalanced,R00130,doi,include,I1-new-variant,no
+Idwan et al. (2025),24,yes,10.1109/icm.2011.34,2011,A Re-sampling Method for Class Imbalance Learning with Credit Data,R00213,doi,include,I1-new-variant,no
+Idwan et al. (2025),25,yes,10.1007/s13748-012-0027-5,2012,Surrounding neighborhood-based SMOTE for learning from imbalanced data sets,R00347,doi,include,I1-new-variant,no
+Idwan et al. (2025),26,yes,,2012,"Puntumapon, K., Waiyamai, K.: A Pruning-Based Approach for Searching Precise and Generalized Region for Synthetic Minority Over-Sampling, pp. 371–382. Springer, Berlin (2012)",R00281,title,include,I1-new-variant,no
+Idwan et al. (2025),27,yes,10.1109/icpr.2014.258,2014,Handling Imbalanced Datasets by Partially Guided Hybrid Sampling for Pattern Recognition,R00519,doi,include,I1-hybrid,no
+Idwan et al. (2025),28,yes,10.5391/ijfis.2017.17.4.229,2017,Gaussian-Based SMOTE Algorithm for Solving Skewed Class Distributions,R01025,doi,include,I1-new-variant,no
+Idwan et al. (2025),29,yes,10.1109/cac51589.2020.9326603,2020,Improved SMOTE algorithm for imbalanced dataset,R02566,doi,include,I1-new-variant,no
+Idwan et al. (2025),30,yes,10.1631/fitee.2300278,2024,A novel overlapping minimization SMOTE algorithm for imbalanced classification,R07555,doi,include,I1-new-variant,no
+Idwan et al. (2025),31,yes,10.1109/access.2021.3080316,2021,Radius-SMOTE: A New Oversampling Technique of Minority Samples Based on Radius Distance for Learning From Imbalanced Data,R03865,doi,include,I1-new-variant,no
+Idwan et al. (2025),32,yes,10.1109/access.2023.3236794,2023,Two Novel SMOTE Methods for Solving Imbalanced Classification Problems,R07295,doi,include,I1-new-variant,no
+Idwan et al. (2025),33,yes,10.1007/s11063-024-11695-w,2024,ISMOTE: A More Accurate Alternative for SMOTE,R09243,doi,include,I1-new-variant,no
+Idwan et al. (2025),34,yes,10.1109/cidm.2011.5949434,2011,Local neighbourhood extension of SMOTE for mining imbalanced data,R00248,doi,include,I1-new-variant,no
+Idwan et al. (2025),35,yes,10.1109/cso.2014.104,2014,Neighborhood Triangular Synthetic Minority Over-sampling Technique for Imbalanced Prediction on Small Samples of Chinese Tourism and Hospitality Firms,R00545,doi,include,I1-new-variant,no
+Idwan et al. (2025),36,yes,10.1007/s10586-024-04980-9,2025,SMOTE oversampling algorithm based on generative adversarial network,R15463,doi,include,I1-generative,no
+Idwan et al. (2025),37,yes,,2007,"de la Calleja, J., Fuentes, O.: A distance-based over-sampling method for learning from imbalanced data sets. In: The Florida AI Research Society (2007)",R00042,title,include,I1-new-variant,no
+Idwan et al. (2025),38,yes,,2008,"He, H., Bai, Y., Garcia, E.A., Li, S.: Adasyn: adaptive synthetic sampling approach for imbalanced learning. In: 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence). IEEE (2008)",R00074,title,include,I1-new-variant,yes
+Idwan et al. (2025),39,yes,10.1109/das.2008.74,2008,New Oversampling Approaches Based on Polynomial Fitting for Imbalanced Data Sets,R00092,doi,include,I1-new-variant,no
+Idwan et al. (2025),40,yes,10.1109/iccas.2010.5669889,2010,Weight decision algorithm for oversampling technique on class-imbalanced learning,R00198,doi,include,I1-new-variant,no
+Idwan et al. (2025),41,yes,,2011,"Dong, Y., Wang, X.: A New Over-Sampling Approach: Random-SMOTE for Learning from Imbalanced Data Sets, pp. 343–352. Springer, Berlin (2011)",R00207,title,include,I1-new-variant,no
+Idwan et al. (2025),42,yes,10.1007/978-3-319-39393-3_18,2016,SMOTE-D a Deterministic Version of SMOTE,R00870,doi,include,I1-new-variant,no
+Idwan et al. (2025),43,yes,10.1109/iciii.2011.276,2011,Applying Over-sampling Technique Based on Data Density and Cost-sensitive SVM to Imbalanced Learning,R00223,doi,include,I1-new-variant,no
+Idwan et al. (2025),44,yes,10.1016/j.patcog.2011.02.019,2011,A dynamic over-sampling procedure based on sensitivity for multi-class problems,R00204,doi,include,I1-multiclass,yes
+Idwan et al. (2025),45,yes,10.1145/2857546.2857648,2016,Automatic Determination of Neighborhood Size in SMOTE,R00761,doi,include,I1-new-variant,no
+Idwan et al. (2025),46,yes,,2017,"Siriseriwan, W., Sinapiromsaran, K.: Adaptive neighbor synthetic minority oversampling technique under 1nn outcast handling. Songklanakarin J. Sci. Technol. 39, 5 (2017)",R00918,title,include,I1-new-variant,no
+Hayaeian Shirvan et al. (2025),1,yes,10.1016/j.eswa.2020.114463,2021,On oversampling imbalanced data with deep conditional generative models,R03756,doi,exclude,E-COMPARE,no
+Hayaeian Shirvan et al. (2025),2,yes,10.1016/j.eswa.2017.09.030,2018,Effective data generation for imbalanced learning using conditional generative adversarial networks,R01310,doi,exclude,E1,no
+Hayaeian Shirvan et al. (2025),3,yes,,2022,Oversampling based on generative adversarial networks to overcome imbalance data in predicting fraud insurance claim,R05055,title,exclude,E1,no
+Hayaeian Shirvan et al. (2025),4,yes,10.1613/jair.953,2002,SMOTE: Synthetic Minority Over-sampling Technique,R00002,doi,include,I1-other,yes
+Hayaeian Shirvan et al. (2025),5,yes,10.1016/j.ins.2024.121280,2024,M2GDL: Multi-manifold guided dictionary learning based oversampling and data validation for highly imbalanced classification problems,R09337,doi,include,I1-new-variant,no
+Hayaeian Shirvan et al. (2025),6,yes,10.1186/s40537-023-00832-2,2023,A multi-manifold learning based instance weighting and under-sampling for imbalanced data classification problems,,,,,no
+Hayaeian Shirvan et al. (2025),7,yes,10.1016/j.neunet.2018.07.011,2018,A systematic study of the class imbalance problem in convolutional neural networks,R01204,doi,exclude,E-COMPARE,yes
+Hayaeian Shirvan et al. (2025),8,yes,,2014,"I.J. Goodfellow et al., “Generative Adversarial Networks,” Jun. 2014, [Online]. Available: 〈http://arxiv.org/abs/1406.2661〉.",,,,,no
+Hayaeian Shirvan et al. (2025),9,yes,,2019,WiP: Generative Adversarial Network for Oversampling Data in Credit Card Fraud Detection,,,,,no
+Hayaeian Shirvan et al. (2025),10,yes,10.1016/j.eswa.2022.116694,2022,OBGAN: Minority oversampling near borderline with generative adversarial networks,R05035,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),11,yes,,2023,Optimizing AI for Mobile Malware Detection by Self-Built-Dataset GAN Oversampling and LGBM,R06858,title,exclude,E1,no
+Hayaeian Shirvan et al. (2025),12,yes,,2013,"D.P. Kingma and M. Welling, “Auto-Encoding Variational Bayes,” Dec. 2013, [Online]. Available: 〈http://arxiv.org/abs/1312.6114〉.",,,,,no
+Hayaeian Shirvan et al. (2025),13,yes,,2018,Oversampling for imbalanced time series classification based on generative adversarial networks,R01433,title,exclude,E-UNSURE,no
+Hayaeian Shirvan et al. (2025),14,yes,,2020,A Multi-Objective Genetic GAN Oversampling: Application to Intelligent Transport Anomaly Detection,R02192,title,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),15,yes,10.1109/jstars.2023.3326963,2024,Permuted KPCA and SMOTE to Guide GAN-Based Oversampling for Imbalanced HSI Classification,R09694,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),16,yes,,1907,"H. Ba, “Improving Detection of Credit Card Fraudulent Transactions using Generative Adversarial Networks,” Jul. 2019, [Online]. Available: 〈http://arxiv.org/abs/1907.03355〉.",,,,,no
+Hayaeian Shirvan et al. (2025),17,yes,10.1016/j.eswa.2020.113819,2021,Generative Adversarial Networks and Markov Random Fields for oversampling very small training sets,,,,,no
+Hayaeian Shirvan et al. (2025),18,yes,,2022,"S. Barutcu, A.K. Katsaggelos, and D. Gürsoy, “A Deep Generative Approach to Oversampling in Ptychography,” Jul. 2022, [Online]. Available: 〈http://arxiv.org/abs/2207.14392〉.",,,,,no
+Hayaeian Shirvan et al. (2025),19,yes,10.1051/epn:2008003,2008,Ptychography &amp; lensless X-ray imaging,,,,,no
+Hayaeian Shirvan et al. (2025),20,yes,10.1109/jstqe.2011.2157306,2012,Coherent X-Ray Diffraction Imaging,,,,,no
+Hayaeian Shirvan et al. (2025),21,yes,,2017,Conditional variational autoencoder for prediction and feature recovery applied to intrusion detection in iot,,,,,no
+Hayaeian Shirvan et al. (2025),22,yes,,2017,"E. Choi, S. Biswal, B. Malin, J. Duke, W.F. Stewart, and J. Sun, “Generating Multi-label Discrete Patient Records using Generative Adversarial Networks,” Mar. 2017, [Online]. Available: 〈http://arxiv.org/abs/1703.06490〉.",,,,,no
+Hayaeian Shirvan et al. (2025),23,yes,10.1109/csci51800.2020.00314,2020,New applications of an oversampling method based on generative adversarial networks,,,,,no
+Hayaeian Shirvan et al. (2025),24,yes,10.1016/j.measurement.2019.107377,2020,Machinery fault diagnosis with imbalanced data using deep generative adversarial networks,,,,,no
+Hayaeian Shirvan et al. (2025),25,yes,,2017,"M. Arjovsky and L. Bottou, “Towards Principled Methods for Training Generative Adversarial Networks,” Jan. 2017, [Online]. Available: 〈http://arxiv.org/abs/1701.04862〉.",,,,,no
+Hayaeian Shirvan et al. (2025),26,yes,,2022,Acwgan: an auxiliary classifier wasserstein gan-based oversampling approach for multi-class imbalanced learning,R04216,title,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),27,yes,,,"K. Sohn, X. Yan, and H. Lee, “Learning Structured Output Representation using Deep Conditional Generative Models.”",,,,,no
+Hayaeian Shirvan et al. (2025),28,yes,,2023,Data-driven fault detection of rotating machinery using synthetic oversampling and generative adversarial network,R06099,title,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),29,yes,10.1016/j.chemolab.2023.104775,2023,An ensemble oversampling method for imbalanced classification with prior knowledge via generative adversarial network,R05744,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),30,yes,,,"R.D. Camino, R. State, and C.A. Hammerschmidt, “Oversampling Tabular Data with Deep Generative Models: Is it worth the effort?” [Online]. Available: 〈http://archive.ics.uci.edu/ml/datasets/adult〉.",R02702,title,exclude,E-COMPARE,no
+Hayaeian Shirvan et al. (2025),31,yes,,2014,"M. Mirza and S. Osindero, “Conditional Generative Adversarial Nets,” Nov. 2014, [Online]. Available: 〈http://arxiv.org/abs/1411.1784〉.",,,,,no
+Hayaeian Shirvan et al. (2025),32,yes,10.1109/access.2023.3302339,2023,Credit Card Fraud Detection Based on Improved Variational Autoencoder Generative Adversarial Network,R06062,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),33,yes,10.1109/tgrs.2021.3052048,2022,Generative Adversarial Minority Oversampling for Spectral–Spatial Hyperspectral Image Classification,R04754,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),34,yes,10.1016/j.patcog.2022.109240,2023,A proxy learning curve for the Bayes classifier,,,,,no
+Hayaeian Shirvan et al. (2025),35,yes,10.1093/jamia/ocaa127,2020,Synthetic minority oversampling of vital statistics data with generative adversarial networks,R02856,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),36,yes,10.1117/12.2684591,2023,Oversampling algorithm based on generative adversarial network,R06876,doi,include,I1-hybrid,no
+Hayaeian Shirvan et al. (2025),37,yes,10.1613/jair.1.11192,2018,"SMOTE for Learning from Imbalanced Data: Progress and Challenges, Marking the 15-year Anniversary",R01478,doi,exclude,E-REVIEW,no
+Hayaeian Shirvan et al. (2025),38,yes,10.1016/j.eswa.2016.12.035,2017,Learning from class-imbalanced data: Review of methods and applications,,,,,no
+Hayaeian Shirvan et al. (2025),39,yes,,2020,Exploiting generative adversarial networks as an oversampling method for fault diagnosis of an industrial robotic manipulator,,,,,no
+Hayaeian Shirvan et al. (2025),40,yes,10.23919/ifipnetworking52078.2021.9472777,2021,Combating Imbalance in Network Traffic Classification Using GAN Based Oversampling,R03246,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),41,yes,10.1016/j.knosys.2013.01.018,2013,Analysing the classification of imbalanced data-sets with multiple classes: Binarization techniques and ad-hoc approaches,,,,,yes
+Hayaeian Shirvan et al. (2025),42,yes,10.1109/tkde.2008.239,2009,Learning from Imbalanced Data,,,,,no
+Hayaeian Shirvan et al. (2025),43,yes,10.1007/s10916-018-1154-8,2019,Distribution-Sensitive Unbalanced Data Oversampling Method for Medical Diagnosis,R01757,doi,include,I1-new-variant,no
+Hayaeian Shirvan et al. (2025),44,yes,,,"J. Van Hulse, T.M. Khoshgoftaar, and A. Napolitano, “Experimental Perspectives on Learning from Imbalanced Data.”",,,,,no
+Hayaeian Shirvan et al. (2025),45,no,,2012,,,,,,no
+Hayaeian Shirvan et al. (2025),46,yes,10.1007/s13748-016-0094-0,2016,Learning from imbalanced data: open challenges and future directions,,,,,no
+Hayaeian Shirvan et al. (2025),47,yes,10.1145/1007730.1007735,2004,A study of the behavior of several methods for balancing machine learning training data,R00006,doi,include,I1-hybrid,yes
+Hayaeian Shirvan et al. (2025),48,yes,10.1109/asiajcis57030.2022.00011,2022,Security-Alert Screening with Oversampling Based on Conditional Generative Adversarial Networks,R05218,doi,exclude,E1,no
+Hayaeian Shirvan et al. (2025),49,yes,,2007,Classification of imbalanced data by using the SMOTE algorithm and locally linear embedding,R00027,title,include,I1-new-variant,no
+Hayaeian Shirvan et al. (2025),50,yes,10.1109/tcyb.2016.2606104,2017,A Noise-Filtered Under-Sampling Scheme for Imbalanced Classification,,,,,no
+Hayaeian Shirvan et al. (2025),51,yes,10.1109/tcyb.2014.2372060,2015,Diversified Sensitivity-Based Undersampling for Imbalance Classification Problems,,,,,no
+Hayaeian Shirvan et al. (2025),52,yes,10.1007/11538059_91,2005,Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning,R00018,doi,include,I1-new-variant,yes
+Hayaeian Shirvan et al. (2025),53,yes,10.1007/s10618-011-0222-1,2011,Hellinger distance decision trees are robust and skew-insensitive,,,,,no
+Hayaeian Shirvan et al. (2025),54,yes,10.1504/ijkesdp.2011.039875,2011,Borderline over-sampling for imbalanced data classification,R00225,doi,include,I1-new-variant,no
+Hayaeian Shirvan et al. (2025),55,yes,,2008,ADASYN: Adaptive synthetic sampling approach for imbalanced learning,R00074,title,include,I1-new-variant,yes
+Hayaeian Shirvan et al. (2025),56,yes,10.1016/j.neucom.2019.06.100,2019,Smote-variants: A python implementation of 85 minority oversampling techniques,R02059,doi,exclude,E-COMPARE,no
+Hayaeian Shirvan et al. (2025),57,yes,10.1186/1471-2105-14-106,2013,SMOTE for high-dimensional class-imbalanced data,R00441,doi,exclude,E-COMPARE,no
+Hayaeian Shirvan et al. (2025),58,yes,10.1109/tkde.2014.2324567,2015,RACOG and wRACOG: Two Probabilistic Oversampling Techniques,R00688,doi,include,I1-generative,yes
+Hayaeian Shirvan et al. (2025),59,yes,10.1109/tpami.2021.3116668,2022,"Deep Generative Modelling: A Comparative Review of VAEs, GANs, Normalizing Flows, Energy-Based and Autoregressive Models",,,,,no
+Hayaeian Shirvan et al. (2025),60,yes,,2017,Least squares generative adversarial networks,,,,,no
+Hayaeian Shirvan et al. (2025),61,yes,10.1109/tnnls.2018.2875194,2019,Inverting the Generator of a Generative Adversarial Network,,,,,no
+Hayaeian Shirvan et al. (2025),62,yes,10.1016/j.patcog.2007.04.009,2007,Cost-sensitive boosting for classification of imbalanced data,,,,,no
+Hayaeian Shirvan et al. (2025),63,yes,10.1109/bigdata.2017.8258307,2017,Application of deep neural network and generative adversarial network to industrial maintenance: A case study of induction motor fault detection,R00947,doi,exclude,E1,no
+Hayaeian Shirvan et al. (2025),64,yes,10.1016/j.neucom.2018.09.013,2018,GAN-based synthetic medical image augmentation for increased CNN performance in liver lesion classification,,,,,no
+Hayaeian Shirvan et al. (2025),65,yes,10.1109/infoman.2018.8392662,2018,GAN-based semi-supervised for imbalanced data classification,,,,,no
+Hayaeian Shirvan et al. (2025),66,yes,10.3233/ida-220383,2023,Oversampling method based on GAN for tabular binary classification problems,R06881,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),67,yes,10.1016/j.asoc.2019.105662,2019,An empirical comparison and evaluation of minority oversampling techniques on a large number of imbalanced datasets,R01609,doi,exclude,E-COMPARE,no
+Hayaeian Shirvan et al. (2025),68,yes,10.1109/access.2019.2899467,2019,A Parameter-Free Cleaning Method for SMOTE in Imbalanced Classification,R01571,doi,include,I1-hybrid,no
+Hayaeian Shirvan et al. (2025),69,yes,10.1016/j.asoc.2014.05.023,2014,Preprocessing noisy imbalanced datasets using SMOTE enhanced with fuzzy rough prototype selection,R00558,doi,include,I1-hybrid,no
+Hayaeian Shirvan et al. (2025),70,yes,10.1016/j.asoc.2018.12.024,2019,An alternative SMOTE oversampling strategy for high-dimensional datasets,R01601,doi,include,I1-new-variant,no
+Hayaeian Shirvan et al. (2025),71,yes,10.1109/tnnls.2015.2461436,2016,Oversampling the Minority Class in the Feature Space,R00855,doi,include,I1-new-variant,no
+Hayaeian Shirvan et al. (2025),72,yes,10.1109/access.2023.3306621,2023,Ensemble Synthesized Minority Oversampling-Based Generative Adversarial Networks and Random Forest Algorithm for Credit Card Fraud Detection,R06298,doi,exclude,E-UNSURE,no
+Hayaeian Shirvan et al. (2025),73,yes,10.1109/icccbda56900.2023.10154883,2023,Tabular GAN-Based Oversampling of Imbalanced Time-to-Event Data for Survival Prediction,R07225,doi,exclude,E-COMPARE,no
+Hayaeian Shirvan et al. (2025),74,yes,10.1007/978-3-030-79728-7_23,2021,Reduced CNN Model for Face Image Detection with GAN Oversampling,R05172,doi,exclude,E1,no
+Hayaeian Shirvan et al. (2025),75,yes,10.5220/0012259600003584,2023,GANMCMCRO: A Generative Adversarial Network Markov Chain Monte Carlo Random Oversampling Algorithm for Imbalance Datasets,R06404,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),76,yes,10.1016/j.eswa.2019.05.006,2019,Oversampling method using outlier detectable generative adversarial network,R01974,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),77,yes,10.1088/1361-6501/acad20,2023,Fault diagnosis of wind turbines with generative adversarial network-based oversampling method,R06361,doi,exclude,E1,no
+Hayaeian Shirvan et al. (2025),78,yes,10.1109/access.2023.3303509,2023,CTGAN-MOS: Conditional Generative Adversarial Network Based Minority-Class-Augmented Oversampling Scheme for Imbalanced Problems,R06084,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),79,yes,10.1109/jas.2017.7510583,2017,Generative adversarial networks: introduction and outlook,,,,,no
+Hayaeian Shirvan et al. (2025),80,yes,10.1109/bigdata.2018.8622547,2018,Phishing URL Detection with Oversampling based on Text Generative Adversarial Networks,R01446,doi,exclude,E1,no
+Hayaeian Shirvan et al. (2025),81,yes,,2020,Biosignal Oversampling Using Wasserstein Generative Adversarial Network,R02331,title,exclude,E1,no
+Hayaeian Shirvan et al. (2025),82,yes,10.1016/j.eswa.2021.114582,2021,Conditional Wasserstein GAN-based oversampling of tabular data for imbalanced learning,R03281,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),83,yes,,2021,"E. Nazari, P. Branco On oversampling via generative adversarial networks under different data difficulty factors; in Proceedings of Machine Learning Research, 2021, pp. 76 – 89. [Online]. Available: https://www.scopus.com/inward/record.uri?eid= 2-s2.0-85120163757&partnerID= 40&md5= 5f4e969e9bc436314021043f34fb39fc 2021, 7689([Online]. Available).",R03757,title,exclude,E-COMPARE,no
+Hayaeian Shirvan et al. (2025),84,yes,10.1016/j.neucom.2021.04.135,2022,SA-CGAN: An oversampling method based on single attribute guided conditional GAN for multi-class imbalanced learning,R05209,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),85,yes,,2020,"J. Hao, C. Wang, H. Zhang, G. YangAnnealing Genetic GAN for Minority Oversampling 31st Br. Mach. Vis. Conf., BMVC 2020; in 31st British Machine Vision Conference, BMVC 20202020([Online]. Available:).",R02300,title,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),86,yes,,2018,"G. Mariani, F. Scheidegger, R. Istrate, C. Bekas, and C. Malossi, “BAGAN: Data Augmentation with Balancing GAN,” Mar. 2018, [Online]. Available: 〈http://arxiv.org/abs/1803.09655〉.",,,,,no
+Hayaeian Shirvan et al. (2025),87,yes,10.1038/nphys896,2008,Keyhole coherent diffractive imaging,,,,,no
+Hayaeian Shirvan et al. (2025),88,yes,,2017,Adversarially Regularized Autoencoders,,,,,no
+Hayaeian Shirvan et al. (2025),89,yes,,2017,"“Wasserstein Auto-Encoders,”",,,,,no
+Hayaeian Shirvan et al. (2025),90,yes,,2015,Adversarial Autoencoders,,,,,no
+Hayaeian Shirvan et al. (2025),91,no,,2017,,,,,,no
+Hayaeian Shirvan et al. (2025),92,yes,,2021,A GAN and feature selection-based oversampling technique for intrusion detection,R02952,title,exclude,E1,no
+Hayaeian Shirvan et al. (2025),93,yes,,2022,Imbalanced corporate bond default modeling using generative adversarial networks oversampling techniques,R04823,title,exclude,E-LANG,no
+Hayaeian Shirvan et al. (2025),94,yes,10.1016/j.oregeorev.2023.105665,2023,Prospectivity modelling of critical mineral deposits using a generative adversarial network with oversampling and positive-unlabelled bagging,,,,,no
+Hayaeian Shirvan et al. (2025),95,yes,10.1016/j.ymssp.2020.107175,2021,Oversampling adversarial network for class-imbalanced fault diagnosis,R03768,doi,include,I1-generative,no
+Hayaeian Shirvan et al. (2025),96,yes,,2019,Generative Adversarial Minority Oversampling,R01811,title,include,I1-generative,yes
+Hayaeian Shirvan et al. (2025),97,yes,10.1109/lgrs.2017.2780890,2018,Semisupervised Hyperspectral Image Classification Based on Generative Adversarial Networks,,,,,no
+Hayaeian Shirvan et al. (2025),98,yes,10.1109/icufn49451.2021.9528594,2021,OA-GAN: Overfitting Avoidance Method of GAN oversampling based on xAI,,,,,no
+Hayaeian Shirvan et al. (2025),99,yes,10.1109/icaica54878.2022.9844421,2022,Unrolled GAN-based Oversampling of Credit Card Dataset for Fraud Detection,R05382,doi,exclude,E1,no
+Hayaeian Shirvan et al. (2025),100,yes,,2023,Oversampling algorithm based on gradient penalty generative adversarial network,R06877,title,exclude,E-LANG,no
+Gao et al. (2026),1,yes,10.1109/tkde.2008.239,2009,Learning from Imbalanced Data,,,,,no
+Gao et al. (2026),2,yes,10.1007/s13748-016-0094-0,2016,Learning from imbalanced data: open challenges and future directions,,,,,no
+Gao et al. (2026),3,yes,10.1016/j.eswa.2016.12.035,2017,Learning from class-imbalanced data: Review of methods and applications,,,,,no
+Gao et al. (2026),4,yes,10.1109/tpami.2023.3268118,2023,Deep Long-Tailed Learning: A Survey,,,,,no
+Gao et al. (2026),5,yes,10.1613/jair.953,2002,SMOTE: Synthetic Minority Over-sampling Technique,R00002,doi,include,I1-other,yes
+Gao et al. (2026),6,yes,,2018,"Zhang H, Cisse M, Dauphin Y N, Lopez-Paz D. mixup: beyond empirical risk minimization. In: Proceedings of the 6th International Conference on Learning Representations. 2018",,,,,no
+Gao et al. (2026),7,yes,,2007,"de la Calleja J, Fuentes O. A distance-based over-sampling method for learning from imbalanced data sets. In: Proceedings of the 20th International Florida Artificial Intelligence Research Society Conference. 2007, 634–635",R00042,title,include,I1-new-variant,no
+Gao et al. (2026),8,yes,,2008,"García V, Sánchez J S, Mollineda R A. On the use of surrounding neighbors for synthetic over-sampling of the minority class. In: Proceedings of the 8th Conference on Simulation, Modelling and Optimization. 2008, 389–394",R00093,title,include,I1-new-variant,no
+Gao et al. (2026),9,yes,,2005,"Han H, Wang W Y, Mao B H. Borderline-SMOTE: a new over-sampling method in imbalanced data sets learning. In: Proceedings of the International Conference on Intelligent Computing. 2005, 878–887",R00018,title,include,I1-new-variant,yes
+Gao et al. (2026),10,yes,,2008,"He H, Bai Y, Garcia E A, Li S. ADASYN: adaptive synthetic sampling approach for imbalanced learning. In: Proceedings of 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence). 2008, 1322–1328",R00074,title,include,I1-new-variant,yes
+Gao et al. (2026),11,yes,,2009,"Hu S, Liang Y, Ma L, He Y. MSMOTE: improving classification performance when training data is imbalanced. In: Proceedings of the 2nd International Workshop on Computer Science and Engineering. 2009, 13–17",R00130,title,include,I1-new-variant,no
+Gao et al. (2026),12,yes,10.1016/j.asoc.2019.105662,2019,An empirical comparison and evaluation of minority oversampling techniques on a large number of imbalanced datasets,R01609,doi,exclude,E-COMPARE,no
+Gao et al. (2026),13,yes,,2020,"Chou H P, Chang S C, Pan J Y, Wei W, Juan D C. Remix: rebalanced mixup. In: Proceedings of the European Conference on Computer Vision. 2020, 95–110",,,,,no
+Gao et al. (2026),14,yes,10.1109/icdm50108.2020.00129,2020,MixBoost: Synthetic Oversampling using Boosted Mixup for Handling Extreme Imbalance,R02638,doi,include,I1-other,no
+Gao et al. (2026),15,yes,,2021,"Galdran A, Carneiro G, Gonzalez Ballester M A. Balanced-MixUp for highly imbalanced medical image classification. In: Proceedings of the 24th International Conference on Medical Image Computing and Computer Assisted Intervention. 2021, 323–333",,,,,no
+Gao et al. (2026),16,yes,,2022,"Zhang S, Chen C, Zhang X, Peng S. Label-occurrence-balanced mixup for long-tailed recognition. In: Proceedings of 2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2022, 3224–3228",,,,,no
+Gao et al. (2026),17,yes,,2015,"Mathew J, Luo M, Pang C K, Chan H L. Kernel-based SMOTE for SVM classification of imbalanced datasets. In: Proceedings of the 41st Annual Conference of the IEEE Industrial Electronics Society. 2015, 1127–1132",R00669,title,include,I1-new-variant,no
+Gao et al. (2026),18,yes,10.1109/cec.2015.7256954,2015,KernelADASYN: Kernel based adaptive synthetic data generation for imbalanced learning,R00670,doi,include,I1-new-variant,no
+Gao et al. (2026),19,yes,,2017,"Wan Z, Zhang Y, He H. Variational autoencoder based synthetic data generation for imbalanced learning. In: Proceedings of 2017 IEEE Symposium Series on Computational Intelligence (SSCI). 2017, 1–7",,,,,no
+Gao et al. (2026),20,yes,10.1145/3422622,2020,Generative adversarial networks,,,,,no
+Gao et al. (2026),21,yes,10.1016/j.eswa.2017.09.030,2018,Effective data generation for imbalanced learning using conditional generative adversarial networks,R01310,doi,exclude,E1,no
+Gao et al. (2026),22,yes,,2014,"Mirza M, Osindero S. Conditional generative adversarial nets. 2014, arXiv preprint arXiv: 1411.1784",,,,,no
+Gao et al. (2026),23,yes,,2018,"Mariani G, Scheidegger F, Istrate R, Bekas C, Malossi C. BAGAN: data augmentation with balancing GAN. 2018, arXiv preprint arXiv: 1803.09655",,,,,no
+Gao et al. (2026),24,yes,10.1109/icdm.2019.00014,2019,Supervised Class Distribution Learning for GANs-Based Imbalanced Classification,,,,,no
+Gao et al. (2026),25,yes,10.1016/j.ins.2023.01.147,2023,RVGAN-TL: A generative adversarial networks and transfer learning-based hybrid approach for imbalanced data classification,,,,,no
+Gao et al. (2026),26,yes,,2018,"Tolstikhin I O, Bousquet O, Gelly S, Schölkopf B. Wasserstein auto-encoders. In: Proceedings of the 6th International Conference on Learning Representations. 2018",,,,,no
+Gao et al. (2026),27,yes,,2019,"Ren J, Liu Y, Liu J. EWGAN: entropy-based Wasserstein GAN for imbalanced learning. In: Proceedings of the 33rd AAAI Conference on Artificial Intelligence. 2019, 10011–10012",R01791,title,include,I1-generative,no
+Gao et al. (2026),28,yes,,2017,"Arjovsky M, Chintala S, Bottou L. Wasserstein generative adversarial networks. In: Proceedings of the 34th International Conference on Machine Learning. 2017, 214–223",,,,,no
+Gao et al. (2026),29,yes,10.1109/tii.2022.3182781,2023,EID-GAN: Generative Adversarial Nets for Extremely Imbalanced Data Augmentation,,,,,no
+Gao et al. (2026),30,yes,10.1109/access.2022.3158977,2022,SMOTified-GAN for Class Imbalanced Pattern Classification Problems,R05258,doi,include,I1-generative,no
+Gao et al. (2026),31,yes,,2019,"Mullick S S, Datta S, Das S. Generative adversarial minority oversampling. In: Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV). 2019, 1695–1704",R01811,title,include,I1-generative,yes
+Gao et al. (2026),32,yes,,2020,"Ho J, Jain A, Abbeel P. Denoising diffusion probabilistic models. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 574",,,,,no
+Gao et al. (2026),33,yes,,2022,"Zhou W, Wang W, Bao J, Chen D, Chen D, Yuan L, Li H. Semantic image synthesis via diffusion models. 2022, arXiv preprint arXiv: 2207.00050",,,,,no
+Gao et al. (2026),34,yes,,2023,"Oh H J, Jeong W K. DiffMix: diffusion model-based data synthesis for nuclei segmentation and classification in imbalanced pathology image datasets. In: Proceedings of the 26th International Conference on Medical Image Computing and Computer Assisted Intervention. 2023, 337–345",,,,,no
+Gao et al. (2026),35,yes,10.1145/3583780.3615134,2023,Diffusion Augmentation for Sequential Recommendation,,,,,no
+Gao et al. (2026),36,yes,10.1007/s11263-024-02223-3,2024,MosaicFusion: Diffusion Models as Data Augmenters for Large Vocabulary Instance Segmentation,,,,,no
+Gao et al. (2026),37,yes,,2025,"Wang Z, Wei S, Huo X, Wang H. PoGDiff: product-of-Gaussians diffusion models for imbalanced text-to-image generation. 2025, arXiv preprint arXiv: 2502.08106",,,,,no
+Gao et al. (2026),38,yes,,2024,"Yan D, Qi L, Hu V T, Yang M H, Tang M. Training class-imbalanced diffusion model via overlap optimization. 2024, arXiv preprint arXiv: 2402.10821",,,,,no
+Gao et al. (2026),39,yes,,2024,"Han P, Ye C, Zhou J, Zhang J, Hong J, Li X. Latent-based diffusion model for long-tailed recognition. In: Proceedings of 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW). 2024, 2639–2648",,,,,no
+Gao et al. (2026),40,yes,10.1109/tip.2024.3485484,2024,Rethinking Noise Sampling in Class-Imbalanced Diffusion Models,,,,,no
+Gao et al. (2026),41,yes,,1997,"Kubat M, Matwin S. Addressing the curse of imbalanced training sets: one-sided selection. In: Proceedings of the 14th International Conference on Machine Learning (ICML). 1997, 179–186",,,,,yes
+Gao et al. (2026),42,yes,10.1109/tit.1968.1054155,1968,The condensed nearest neighbor rule (Corresp.),,,,,no
+Gao et al. (2026),43,yes,10.1109/tsmc.1976.4309523,1976,An Experiment with the Edited Nearest-Neighbor Rule,,,,,no
+Gao et al. (2026),44,yes,,2001,"Laurikkala J. Improving identification of difficult small classes by balancing class distribution. In: Proceedings of the 8th Conference on Artificial Intelligence in Medicine in Europe. 2001, 63–66",,,,,no
+Gao et al. (2026),45,yes,,2003,"Guo G, Wang H, Bell D, Bi Y, Greer K. KNN model-based approach in classification. In: Proceedings of the OTM Confederated International Conferences on the Move to Meaningful Internet Systems 2003. 2003, 986–996",,,,,no
+Gao et al. (2026),46,yes,,2003,"Zhang J, Mani I. kNN approach to unbalanced data distributions: a case study involving information extraction. In: Proceedings of Workshop on Learning from Imbalanced Datasets. 2003, 1–7",,,,,no
+Gao et al. (2026),47,yes,10.1016/j.ins.2019.08.062,2020,Neighbourhood-based undersampling approach for handling imbalanced and overlapped data,,,,,yes
+Gao et al. (2026),48,yes,10.1016/j.eswa.2008.06.108,2009,Cluster-based under-sampling approaches for imbalanced data distributions,,,,,yes
+Gao et al. (2026),49,yes,,2010,"Zhang Y P, Zhang L N, Wang Y C. Cluster-based majority under-sampling approaches for class imbalance learning. In: Proceedings of the 2nd IEEE International Conference on Information and Financial Engineering. 2010, 400–404",,,,,no
+Gao et al. (2026),50,yes,10.1016/j.ins.2017.05.008,2017,Clustering-based undersampling in class-imbalanced data,R00966,doi,exclude,E-NOGEN,no
+Gao et al. (2026),51,yes,10.1109/tcyb.2014.2372060,2015,Diversified Sensitivity-Based Undersampling for Imbalance Classification Problems,,,,,no
+Gao et al. (2026),52,yes,10.1016/j.neucom.2017.03.011,2017,Fast-CBUS: A fast clustering-based undersampling method for addressing the class imbalance problem,R01018,doi,exclude,E-NOGEN,no
+Gao et al. (2026),53,yes,10.1162/evco.2009.17.3.275,2009,Evolutionary Undersampling for Classification with Imbalanced Datasets: Proposals and Taxonomy,R00121,doi,exclude,E-NOGEN,no
+Gao et al. (2026),54,yes,10.1109/cec.2015.7256961,2015,Evolutionary undersampling for imbalanced big data classification,,,,,no
+Gao et al. (2026),55,yes,10.1016/j.asoc.2020.107033,2021,EUSC: A clustering-based surrogate model to accelerate evolutionary undersampling in imbalanced classification,,,,,no
+Gao et al. (2026),56,yes,10.1016/j.patcog.2013.05.006,2013,EUSBoost: Enhancing ensembles for highly imbalanced data-sets by evolutionary undersampling,,,,,no
+Gao et al. (2026),57,yes,10.1016/j.asoc.2015.08.060,2016,Evolutionary undersampling boosting for imbalanced classification of breast cancer malignancy,,,,,no
+Gao et al. (2026),58,yes,,2019,"Peng M, Zhang Q, Xing X, Gui T, Huang X, Jiang Y G, Ding K, Chen Z. Trainable undersampling for class-imbalance learning. In: Proceedings of the 33rd AAAI Conference on Artificial Intelligence. 2019, 4707–4714",,,,,no
+Gao et al. (2026),59,yes,,2023,"Yan Y, Zhu Y, Liu R, Zhang Y, Zhang Y, Zhang L. Spatial distribution-based imbalanced undersampling. IEEE Transactions on Knowledge and Data Engineering, 2023, 35(6): 6376–6391",,,,,no
+Gao et al. (2026),60,yes,10.1016/j.neucom.2021.01.033,2021,Relevant information undersampling to support imbalanced data classification,,,,,no
+Gao et al. (2026),61,yes,10.1109/tnnls.2020.2964585,2020,Entropy and Confidence-Based Undersampling Boosting Random Forests for Imbalanced Problems,,,,,no
+Gao et al. (2026),62,yes,10.1145/1007730.1007735,2004,A study of the behavior of several methods for balancing machine learning training data,R00006,doi,include,I1-hybrid,yes
+Gao et al. (2026),63,yes,10.1063/5.0008935,2020,A cluster-based hybrid sampling approach for imbalanced data classification,R02143,doi,include,I1-hybrid,no
+Gao et al. (2026),64,yes,10.1007/s10115-011-0465-6,2011,SMOTE-RSB *: a hybrid preprocessing approach based on oversampling and undersampling for high imbalanced data-sets using SMOTE and rough sets theory,R00344,doi,include,I1-hybrid,no
+Gao et al. (2026),65,yes,10.1016/j.ins.2014.08.051,2015,SMOTE–IPF: Addressing the noisy and borderline examples problem in imbalanced classification by a re-sampling method with filtering,R00702,doi,include,I1-hybrid,yes
+Gao et al. (2026),66,yes,10.1016/j.eswa.2020.113660,2020,An ensemble imbalanced classification method based on model dynamic selection driven by data partition hybrid sampling,R02276,doi,include,I1-hybrid,no
+Gao et al. (2026),67,yes,,2020,"Zhou B, Cui Q, Wei X S, Chen Z M. BBN: bilateral-branch network with cumulative learning for long-tailed visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 9716–9725",,,,,no
+Gao et al. (2026),68,yes,,2020,"Wang T, Li Y, Kang B, Li J, Liew J, Tang S, Hoi S, Feng J. The devil is in classification: a simple framework for long-tail instance segmentation. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 728–744",,,,,no
+Gao et al. (2026),69,yes,,2021,"Guo H, Wang S. Long-tailed multi-label visual recognition by collaborative training on uniform and re-balanced samplings. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 15084–15093",,,,,no
+Gao et al. (2026),70,yes,,2020,"Li Y, Wang T, Kang B, Tang S, Wang C, Li J, Feng J. Overcoming classifier imbalance for long-tail object detection with balanced group softmax. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 10988–10997",,,,,no
+Gao et al. (2026),71,yes,,2020,"Xiang L, Ding G, Han J. Learning from multiple experts: self-paced knowledge distillation for long-tailed classification. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 247–263",,,,,no
+Gao et al. (2026),72,yes,,2021,"Cai J, Wang Y, Hwang J N. ACE: ally complementary experts for solving long-tailed recognition in one-shot. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 112–121",,,,,no
+Gao et al. (2026),73,yes,,2023,"Cui J, Liu S, Tian Z, Zhong Z, Jia J. ResLT: residual learning for long-tailed recognition. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2023, 45(3): 3695–3706",,,,,no
+Gao et al. (2026),74,yes,,2022,"Zhang Y, Hooi B, Hong L, Feng J. Self-supervised aggregation of diverse experts for test-agnostic long-tailed recognition. In: Proceedings of the 36th International Conference on Neural Information Processing Systems. 2022, 2470",,,,,no
+Gao et al. (2026),75,yes,10.1016/j.patcog.2021.108114,2021,Potential Anchoring for imbalanced data classification,R03807,doi,include,I1-other,no
+Gao et al. (2026),76,yes,,2022,"Xu Y, Li Y L, Li J, Lu C. Constructing balance from imbalance for long-tailed image recognition. In: Proceedings of the 17th European Conference on Computer Vision. 2022, 38–56",,,,,no
+Gao et al. (2026),77,yes,10.1016/j.neucom.2020.08.060,2020,EHSO: Evolutionary Hybrid Sampling in overlapping scenarios for imbalanced learning,R02462,doi,exclude,E-NOGEN,no
+Gao et al. (2026),78,yes,,2018,"Pouyanfar S, Tao Y, Mohan A, Tian H, Kaseb A S, Gauen K, Dailey R, Aghajanzadeh S, Lu Y H, Chen S C, Shyu M L. Dynamic sampling in convolutional neural networks for imbalanced data classification. In: Proceedings of 2018 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR). 2018, 112–117",,,,,no
+Gao et al. (2026),79,yes,,2020,"Yang Y, Xu Z. Rethinking the value of labels for improving class-imbalanced learning. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 1618",,,,,no
+Gao et al. (2026),80,yes,,2021,"Wei C, Sohn K, Mellina C, Yuille A, Yang F. CReST: a class-rebalancing self-training framework for imbalanced semi-supervised learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 10852–10861",,,,,no
+Gao et al. (2026),81,yes,,2022,"Lai Z, Wang C, Cheung S C, Chuah C N. SaR: self-adaptive refinement on pseudo labels for multiclass-imbalanced semi-supervised learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW). 2022, 4090–4099",,,,,no
+Gao et al. (2026),82,yes,,2022,"Oh Y, Kim D J, Kweon I S. DASO: distribution-aware semantics-oriented pseudo-label for imbalanced semi-supervised learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022, 9776–9786",,,,,no
+Gao et al. (2026),83,yes,10.1145/1277741.1277927,2007,Active learning for class imbalance problem,,,,,no
+Gao et al. (2026),84,yes,10.1016/j.knosys.2021.107385,2021,Active learning with extreme learning machine for online imbalanced multiclass classification,,,,,no
+Gao et al. (2026),85,yes,,2007,"Zhu J, Hovy E. Active learning for word sense disambiguation with methods for addressing the class imbalance problem. In: Proceedings of 2007 Joint Conference on Empirical Methods in Natural Language Processing and Computational Natural Language Learning (EMNLP-CoNLL). 2007, 783–790",R00044,title,include,I1-other,no
+Gao et al. (2026),86,yes,,2021,"Aggarwal U, Popescu A, Hudelot C. Minority class oriented active learning for imbalanced datasets. In: Proceedings of the 25th International Conference on Pattern Recognition (ICPR). 2021, 9920–9927",,,,,no
+Gao et al. (2026),87,yes,10.1016/j.knosys.2021.106778,2021,A comprehensive active learning method for multiclass imbalanced data streams with concept drift,,,,,no
+Gao et al. (2026),88,yes,,2020,"Dong H, Zhu B, Zhang J. A cost-sensitive active learning for imbalance data with uncertainty and diversity combination. In: Proceedings of the 12th International Conference on Machine Learning and Computing. 2020, 218–224",,,,,no
+Gao et al. (2026),89,yes,10.1016/j.knosys.2022.109817,2022,Deep active learning models for imbalanced image classification,,,,,no
+Gao et al. (2026),90,yes,,2011,"Fu J H, Lee S L. Certainty-enhanced active learning for improving imbalanced data classification. In: Proceedings of the 11th International Conference on Data Mining Workshops. 2011, 405–412",,,,,no
+Gao et al. (2026),91,yes,10.1109/icdm.2018.00196,2018,Similarity-Based Active Learning for Image Classification Under Class Imbalance,,,,,no
+Gao et al. (2026),92,yes,,1994,"Turney P D. Cost-sensitive classification: empirical evaluation of a hybrid genetic decision tree induction algorithm. Journal of Artificial Intelligence Research, 1994, 2(1): 369–409",,,,,no
+Gao et al. (2026),93,yes,,2006,"Sheng V S, Ling C X. Thresholding for making classifiers cost-sensitive. In: Proceedings of the 21st National Conference on Artificial Intelligence - Volume 1. 2006, 476–481",,,,,no
+Gao et al. (2026),94,yes,,1999,"Domingos P. MetaCost: a general method for making classifiers cost-sensitive. In: Proceedings of the 5th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. 1999, 155–164",,,,,no
+Gao et al. (2026),95,yes,10.1109/tkde.2006.17,2006,Training cost-sensitive neural networks with methods addressing the class imbalance problem,R00037,doi,exclude,E-COMPARE,no
+Gao et al. (2026),96,yes,10.1111/j.1467-8640.2010.00358.x,2010,ON MULTI‐CLASS COST‐SENSITIVE LEARNING,,,,,yes
+Gao et al. (2026),97,yes,10.1109/tnnls.2013.2246188,2013,Novel Cost-Sensitive Approach to Improve the Multilayer Perceptron Performance on Imbalanced Data,,,,,no
+Gao et al. (2026),98,yes,,2019,"Cui Y, Jia M, Lin T Y, Song Y, Belongie S. Class-balanced loss based on effective number of samples. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019, 9260–9269",,,,,no
+Gao et al. (2026),99,yes,,2017,"Lin T Y, Goyal P, Girshick R, He K, Dollar P. Focal loss for dense object detection. In: Proceedings of the IEEE International Conference on Computer Vision. 2017, 2999–3007",,,,,no
+Gao et al. (2026),100,yes,,2021,"Park S, Lim J, Jeon Y, Choi J Y. Influence-balanced loss for imbalanced visual classification. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 715–724",,,,,no
+Gao et al. (2026),101,yes,,2020,"Ren J, Yu C, Sheng S, Ma X, Zhao H, Yi S, Li H. Balanced meta-softmax for long-tailed visual recognition. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 351",,,,,no
+Gao et al. (2026),102,yes,,2013,"Cao P, Li B, Zhao D, Zaiane O. A novel cost sensitive neural network ensemble for multiclass imbalance data learning. In: Proceedings of 2013 International Joint Conference on Neural Networks (IJCNN). 2013, 1–8",,,,,no
+Gao et al. (2026),103,yes,10.1109/tnnls.2018.2832648,2019,A Cost-Sensitive Deep Belief Network for Imbalanced Classification,,,,,no
+Gao et al. (2026),104,yes,,2021,"Chen C, Zheng S, Chen X, Dong E, Liu X, Liu H, Dou D. Generalized data weighting via class-level gradient manipulation. In: Proceedings of the 35th International Conference on Neural Information Processing Systems. 2021, 1080",,,,,no
+Gao et al. (2026),105,yes,,2020,"Tan J, Wang C, Li B, Li Q, Ouyang W, Yin C, Yan J. Equalization loss for long-tailed object recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 11659–11668",,,,,no
+Gao et al. (2026),106,yes,,2021,"Tan J, Lu X, Zhang G, Yin C, Li Q. Equalization loss v2: a new gradient balance approach for long-tailed object detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 1685–1694",,,,,no
+Gao et al. (2026),107,yes,,2022,"Guo D, Li Z, Zheng M, Zhao H, Zhou M, Zha H. Learning to re-weight examples with optimal transport for imbalanced classification. In: Proceedings of the 36th International Conference on Neural Information Processing Systems. 2022, 1850",,,,,no
+Gao et al. (2026),108,yes,,2018,"Ren M, Zeng W, Yang B, Urtasun R. Learning to reweight examples for robust deep learning. In: Proceedings of the 35th International Conference on Machine Learning. 2018, 4331–4340",,,,,no
+Gao et al. (2026),109,yes,,2019,"Shu J, Xie Q, Yi L, Zhao Q, Zhou S, Xu Z, Meng D. Meta-weight-net: learning an explicit mapping for sample weighting. In: Proceedings of the 33rd International Conference on Neural Information Processing Systems. 2019, 172",,,,,no
+Gao et al. (2026),110,yes,10.1109/tcsvt.2017.2711015,2018,Deep Localized Metric Learning,,,,,no
+Gao et al. (2026),111,yes,,2016,"Huang C, Li Y, Loy C C, Tang X. Learning deep representation for imbalanced classification. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016, 5375–5384",,,,,no
+Gao et al. (2026),112,yes,,2017,"Dong Q, Gong S, Zhu X. Class rectification hard mining for imbalanced deep learning. In: Proceedings of the IEEE International Conference on Computer Vision. 2017, 1869–1878",,,,,no
+Gao et al. (2026),113,yes,,2018,"Wang N, Zhao X, Jiang Y, Gao Y, BNRist K. Iterative metric learning for imbalance data classification. In: Proceedings of the 27th International Joint Conference on Artificial Intelligence (IJCAI). 2018, 2805–2811",,,,,no
+Gao et al. (2026),114,yes,10.1016/j.knosys.2021.107932,2022,A Quadruplet Deep Metric Learning model for imbalanced time-series fault diagnosis,,,,,no
+Gao et al. (2026),115,yes,10.1007/s10489-022-03494-4,2022,Borderline-margin loss based deep metric learning framework for imbalanced data,,,,,no
+Gao et al. (2026),116,yes,,2016,"Cheng D, Gong Y, Zhou S, Wang J, Zheng N. Person reidentification by multi-channel parts-based CNN with improved triplet loss function. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016, 1335–1344",,,,,no
+Gao et al. (2026),117,yes,,2017,"Zhang X, Fang Z, Wen Y, Li Z, Qiao Y. Range loss for deep face recognition with long-tailed training data. In: Proceedings of the IEEE International Conference on Computer Vision. 2017, 5419–5428",,,,,no
+Gao et al. (2026),118,yes,10.1109/tsmc.2018.2790914,2019,Learning a Distance Metric by Balancing KL-Divergence for Imbalanced Datasets,,,,,no
+Gao et al. (2026),119,yes,,2019,"Hayat M, Khan S, Zamir S W, Shen J, Shao L. Gaussian affinity for max-margin class imbalanced learning. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019, 6468–6478",,,,,no
+Gao et al. (2026),120,yes,10.1016/j.patrec.2020.03.008,2020,Metric Learning from Imbalanced Data with Generalization Guarantees,,,,,no
+Gao et al. (2026),121,yes,,2020,"Khosla P, Teterwak P, Wang C, Sarna A, Tian Y, Isola P, Maschinot A, Liu C, Krishnan D. Supervised contrastive learning. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 1567",,,,,no
+Gao et al. (2026),122,yes,,2009,"Weinberger K Q, Saul L K. Distance metric learning for large margin nearest neighbor classification. The Journal of Machine Learning Research, 2009, 10: 207–244",,,,,no
+Gao et al. (2026),123,yes,,2016,"Sohn K. Improved deep metric learning with multi-class N-pair loss objective. In: Proceedings of the 30th International Conference on Neural Information Processing Systems. 2016, 1857–1865",,,,,no
+Gao et al. (2026),124,yes,,2020,"Tian Y, Krishnan D, Isola P. Contrastive multiview coding. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 776–794",,,,,no
+Gao et al. (2026),125,yes,,2021,"Kang B, Li Y, Xie S, Yuan Z, Feng J. Exploring balanced feature spaces for representation learning. In: Proceedings of the 9th International Conference on Learning Representations. 2021",,,,,no
+Gao et al. (2026),126,yes,10.1016/j.knosys.2022.109437,2022,A class-aware supervised contrastive learning framework for imbalanced fault diagnosis,,,,,no
+Gao et al. (2026),127,yes,,2021,"Jiang L, Shi S, Tian Z, Lai X, Liu S, Fu C W, Jia J. Guided point contrastive learning for semi-supervised point cloud semantic segmentation. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 6403–6412",,,,,no
+Gao et al. (2026),128,yes,,2021,"Cui J, Zhong Z, Liu S, Yu B, Jia J. Parametric contrastive learning. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 695–704",,,,,no
+Gao et al. (2026),129,yes,,2022,"Zhu J, Wang Z, Chen J, Chen Y P P, Jiang Y G. Balanced contrastive learning for long-tailed visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022, 6898–6907",,,,,no
+Gao et al. (2026),130,yes,,2022,"Li T, Cao P, Yuan Y, Fan L, Yang Y, Feris R, Indyk P, Katabi D. Targeted supervised contrastive learning for long-tailed recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2022, 6908–6918",,,,,no
+Gao et al. (2026),131,yes,10.1016/j.knosys.2022.109007,2022,An ensemble contrastive classification framework for imbalanced learning with sample-neighbors pair construction,,,,,no
+Gao et al. (2026),132,yes,10.1016/j.neucom.2022.10.069,2023,An imbalanced binary classification method based on contrastive learning using multi-label confidence comparisons within sample-neighbors pair,,,,,no
+Gao et al. (2026),133,yes,,2022,"Yang Z, Pan J, Yang Y, Shi X, Zhou H Y, Zhang Z, Bian C. ProCo: prototype-aware contrastive learning for long-tailed medical image classification. In: Proceedings of the 25th International Conference on Medical Image Computing and Computer Assisted Intervention. 2022, 173–182",,,,,no
+Gao et al. (2026),134,yes,,2017,"Snell J, Swersky K, Zemel R. Prototypical networks for few-shot learning. In: Proceedings of the 31st International Conference on Neural Information Processing Systems. 2017, 4080–4090",,,,,no
+Gao et al. (2026),135,yes,,2021,"Wang P, Han K, Wei X S, Zhang L, Wang L. Contrastive learning based hybrid networks for long-tailed image classification. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 943–952",,,,,no
+Gao et al. (2026),136,yes,,2024,"Hong Y, Zhang J, Sun Z, Yan K. ProAug: prototype-based augmentation for long-tailed image classification. In: Proceedings of 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP). 2024, 3035–3039",,,,,no
+Gao et al. (2026),137,yes,,2019,"Liu Z, Miao Z, Zhan X, Wang J, Gong B, Yu S X. Large-scale long-tailed recognition in an open world. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019, 2532–2541",,,,,no
+Gao et al. (2026),138,yes,10.1145/3404835.3462867,2021,PAN,,,,,no
+Gao et al. (2026),139,yes,,2023,"Fu S, Chu H, He X, Wang H, Yang Z, Hu H. Meta-prototype decoupled training for long-tailed learning. In: Proceedings of the 16th Asian Conference on Computer Vision. 2023, 252–268",,,,,no
+Gao et al. (2026),140,yes,,2020,"Zhu L, Yang Y. Inflated episodic memory with region self-attention for long-tailed visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 4343–4352",,,,,no
+Gao et al. (2026),141,yes,,2020,"He T, Gong D, Tian Z, Shen C. Learning and memorizing representative prototypes for 3D point cloud semantic and instance segmentation. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 564–580",,,,,no
+Gao et al. (2026),142,yes,,2019,"Yin X, Yu X, Sohn K, Liu X, Chandraker M. Feature transfer learning for face recognition with under-represented data. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019, 5697–5706",,,,,no
+Gao et al. (2026),143,yes,,2020,"Liu J, Sun Y, Han C, Dou Z, Li W. Deep representation learning on long-tailed data: a learnable embedding augmentation perspective. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 2967–2976",,,,,no
+Gao et al. (2026),144,yes,,2020,"Chu P, Bian X, Liu S, Ling H. Feature space augmentation for long-tailed data. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 694–710",,,,,no
+Gao et al. (2026),145,yes,,2021,"Wang J, Lukasiewicz T, Hu X, Cai J, Xu Z. RSG: a simple but effective module for learning imbalanced datasets. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 3783–3792",,,,,no
+Gao et al. (2026),146,yes,,2020,"Kim J, Jeong J, Shin J. M2m: imbalanced classification via major-to-minor translation. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 13893–13902",,,,,no
+Gao et al. (2026),147,yes,,2022,"Hong Y, Zhang J, Sun Z, Yan K. SAFA: sample-adaptive feature augmentation for long-tailed image classification. In: Proceedings of the 17th European Conference on Computer Vision. 2022, 587–603",,,,,no
+Gao et al. (2026),148,yes,,2017,"Wang Y X, Ramanan D, Hebert M. Learning to model the tail. In: Proceedings of the 31st International Conference on Neural Information Processing Systems. 2017, 7032–7042",,,,,no
+Gao et al. (2026),149,yes,,2021,"Liu B, Li H, Kang H, Hua G, Vasconcelos N. GistNet: a geometric structure transfer network for long-tailed recognition. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 8189–8198",,,,,no
+Gao et al. (2026),150,yes,10.1145/1273496.1273521,2007,Boosting for transfer learning,,,,,no
+Gao et al. (2026),151,yes,,2020,"Lee H B, Lee H, Na D, Kim S, Park M, Yang E, Hwang S J. Learning to balance: Bayesian meta-learning for imbalanced and out-of-distribution tasks. In: Proceedings of the 8th International Conference on Learning Representations (ICLR). 2020",,,,,no
+Gao et al. (2026),152,yes,,2020,"Jamal M A, Brown M, Yang M H, Wang L, Gong B. Rethinking class-balanced methods for long-tailed visual recognition from a domain adaptation perspective. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 7607–7616",,,,,no
+Gao et al. (2026),153,yes,,2021,"Zhang Z, Pfister T. Learning fast sample re-weighting without reward data. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 705–714",,,,,no
+Gao et al. (2026),154,yes,,2022,"Liu Y, Cao B, Fan J. Improving the accuracy of learning example weights for imbalance classification. In: Proceedings of the 10th International Conference on Learning Representations. 2022",,,,,no
+Gao et al. (2026),155,yes,,2020,"Liu Z, Wei P, Jiang J, Cao W, Bian J, Chang Y. MESA: boost ensemble imbalanced learning with meta-sampler. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 1212",,,,,no
+Gao et al. (2026),156,yes,,2021,"Li S, Gong K, Liu C H, Wang Y, Qiao F, Cheng X. MetaSAug: meta semantic augmentation for long-tailed visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 5208–5217",,,,,no
+Gao et al. (2026),157,yes,,2019,"Wang Y, Pan X, Song S, Zhang H, Wu C, Huang G. Implicit semantic data augmentation for deep networks. In: Proceedings of the 33rd International Conference on Neural Information Processing Systems. 2019, 1132",,,,,no
+Gao et al. (2026),158,yes,,2020,"Kang B, Xie S, Rohrbach M, Yan Z, Gordo A, Feng J, Kalantidis Y. Decoupling representation and classifier for long-tailed recognition. In: Proceedings of the 8th International Conference on Learning Representations. 2020",,,,,no
+Gao et al. (2026),159,yes,,2019,"Cao K, Wei C, Gaidon A, Arechiga N, Ma T. Learning imbalanced datasets with label-distribution-aware margin loss. In: Proceedings of the 33rd International Conference on Neural Information Processing Systems. 2019, 140",,,,,no
+Gao et al. (2026),160,yes,10.1109/tnnls.2022.3192475,2024,A Comprehensive Framework for Long-Tailed Learning via Pretraining and Normalization,,,,,no
+Gao et al. (2026),161,yes,,2025,"Sun S, Lu H, Li J, Xie Y, Li T, Yang X, Zhang L, Yan J. Rethinking classifier re-training in long-tailed recognition: label over-smooth can balance. In: Proceedings of the 13th International Conference on Learning Representations. 2025",,,,,no
+Gao et al. (2026),162,yes,,2022,"Liu H, HaoChen J Z, Gaidon A, Ma T. Self-supervised learning is more robust to dataset imbalance. In: Proceedings of the 10th International Conference on Learning Representations. 2022",,,,,no
+Gao et al. (2026),163,yes,,2021,"Li T, Wang L, Wu G. Self supervision to distillation for long-tailed visual recognition. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021, 610–619",,,,,no
+Gao et al. (2026),164,yes,,2019,"Hendrycks D, Lee K, Mazeika M. Using pre-training can improve model robustness and uncertainty. In: Proceedings of the 36th International Conference on Machine Learning. 2019, 2712–2721",,,,,no
+Gao et al. (2026),165,yes,,2016,"Ouyang W, Wang X, Zhang C, Yang X. Factors in finetuning deep model for object detection with long-tail distribution. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016, 864–873",,,,,no
+Gao et al. (2026),166,yes,,2018,"Cui Y, Song Y, Sun C, Howard A, Belongie S. Large scale finegrained categorization and domain-specific transfer learning. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2018, 4109–4118",,,,,no
+Gao et al. (2026),167,yes,10.1109/tcbb.2020.2980831,2021,Imbalanced Breast Cancer Classification Using Transfer Learning,,,,,no
+Gao et al. (2026),168,yes,10.1145/1553374.1553380,2009,Curriculum learning,,,,,no
+Gao et al. (2026),169,yes,,2017,"Jesson A, Guizard N, Ghalehjegh S H, Goblot D, Soudan F, Chapados N. CASED: curriculum adaptive sampling for extreme data imbalance. In: Proceedings of the 20th International Conference on Medical Image Computing and Computer Assisted Intervention. 2017, 639–646",,,,,no
+Gao et al. (2026),170,yes,,2018,"Guo S, Huang W, Zhang H, Zhuang C, Dong D, Scott M R, Huang D. CurriculumNet: weakly supervised learning from large-scale web images. In: Proceedings of the 15th European Conference on Computer Vision (ECCV). 2018, 139–154",,,,,no
+Gao et al. (2026),171,yes,,2019,"Wang Y, Gan W, Yang J, Wu W, Yan J. Dynamic curriculum learning for imbalanced data classification. In: Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019, 5016–5025",,,,,no
+Gao et al. (2026),172,yes,10.1016/j.media.2021.102295,2022,Diagnosing glaucoma on imbalanced data with self-ensemble dual-curriculum learning,,,,,no
+Gao et al. (2026),173,yes,,2012,"Wallace B C, Dahabreh I J. Class probability estimates are unreliable for imbalanced data (and how to fix them). In: Proceedings of the 12th International Conference on Data Mining. 2012, 695–704",,,,,no
+Gao et al. (2026),174,yes,,2021,"Zhang S, Li Z, Yan S, He X, Sun J. Distribution alignment: a unified framework for long-tail visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021, 2361–2370",,,,,no
+Gao et al. (2026),175,yes,,2022,"Li M, Cheung Y M, Lu Y. Long-tailed visual recognition via Gaussian clouded logit adjustment. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2022, 6919–6928",,,,,no
+Gao et al. (2026),176,yes,,2021,"Hong Y, Han S, Choi K, Seo S, Kim B, Chang B. Disentangling label distribution for long-tailed visual recognition. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR). 2021, 6622–6632",,,,,no
+Gao et al. (2026),177,yes,,2021,"Menon A K, Jayasumana S, Rawat A S, Jain H, Veit A, Kumar S. Long-tail learning via logit adjustment. In: Proceedings of the 9th International Conference on Learning Representations (ICLR). 2021",,,,,no
+Gao et al. (2026),178,yes,,2001,"Ye H J, Chen H Y, Zhan D C, Chao W L. Identifying and compensating for feature deviation in imbalanced deep learning. 2020, arXiv preprint arXiv: 2001.01385",,,,,no
+Gao et al. (2026),179,yes,,2020,"Tian J, Liu Y C, Glaser N, Hsu Y C, Kira Z. Posterior re-calibration for imbalanced datasets. In: Proceedings of the 34th International Conference on Neural Information Processing Systems. 2020, 679",,,,,no
+Gao et al. (2026),180,yes,,2023,"Wang Z, Xu Q, Yang Z, He Y, Cao X, Huang Q. A unified generalization analysis of re-weighting and logit-adjustment for imbalanced learning. In: Proceedings of the 37th International Conference on Neural Information Processing Systems. 2023, 2100",,,,,no
+Gao et al. (2026),181,yes,10.1023/a:1018054314350,1996,Bagging Predictors,,,,,no
+Gao et al. (2026),182,yes,10.1109/cidm.2009.4938667,2009,Diversity analysis on imbalanced data sets by using ensemble models,R00115,doi,include,I1-hybrid,no
+Gao et al. (2026),183,yes,10.1002/sam.10061,2009,Roughly balanced bagging for imbalanced data,,,,,no
+Gao et al. (2026),184,yes,10.1016/j.neucom.2014.07.064,2015,Neighbourhood sampling in bagging for imbalanced data,R00677,doi,exclude,E-NOGEN,no
+Gao et al. (2026),185,yes,10.4310/sii.2009.v2.n3.a8,2009,Multi-class AdaBoost,,,,,no
+Gao et al. (2026),186,yes,10.1214/aos/1013203451,2001,Greedy function approximation: A gradient boosting machine.,,,,,no
+Gao et al. (2026),187,yes,10.1145/2939672.2939785,2016,XGBoost,,,,,no
+Gao et al. (2026),188,yes,,2003,"Chawla N V, Lazarevic A, Hall L O, Bowyer K W. SMOTEBoost: improving prediction of the minority class in boosting. In: Proceedings of the 7th European Conference on Principles of Data Mining and Knowledge Discovery. 2003, 107–119",R00004,title,include,I1-hybrid,yes
+Gao et al. (2026),189,yes,10.1109/tnn.2010.2066988,2010,RAMOBoost: Ranked Minority Oversampling in Boosting,R00190,doi,include,I1-hybrid,yes
+Gao et al. (2026),190,yes,10.1109/tsmca.2009.2029559,2010,RUSBoost: A Hybrid Approach to Alleviating Class Imbalance,R00192,doi,exclude,E-NOGEN,yes
+Gao et al. (2026),191,yes,10.1016/j.csda.2017.01.005,2017,RHSBoost: Improving classification performance in imbalance data,,,,,no
+Gao et al. (2026),192,yes,10.32614/rj-2014-008,2014,ROSE: a Package for Binary Imbalanced Learning,,,,,no
+Gao et al. (2026),193,yes,10.1007/978-981-13-1498-8_12,2018,LIUBoost: Locality Informed Under-Boosting for Imbalanced Data Classification,R01917,doi,exclude,E-NOGEN,no
+Gao et al. (2026),194,yes,,2018,"Popel M H, Hasib K M, Habib S A, Shah F M. A hybrid under-sampling method (HUSBoost) to classify imbalanced data. In: Proceedings of the 21st International Conference of Computer and Information Technology (ICCIT). 2018, 1–7",,,,,no
+Gao et al. (2026),195,yes,10.1007/978-0-387-30164-8_181,2011,Cost-Sensitive Learning,,,,,no
+Gao et al. (2026),196,yes,,1999,"Fan W, Stolfo S J, Zhang J, Chan P K. AdaCost: misclassification cost-sensitive boosting. In: Proceedings of the 16th International Conference on Machine Learning (ICML). 1999, 97–105",,,,,no
+Gao et al. (2026),197,yes,,2000,"Ting K M. A comparative study of cost-sensitive boosting algorithms. In: Proceedings of the 17th International Conference on Machine Learning (ICML). 2000, 983–990",,,,,no
+Gao et al. (2026),198,yes,10.1016/j.patcog.2007.04.009,2007,Cost-sensitive boosting for classification of imbalanced data,,,,,no
+Gao et al. (2026),199,yes,10.1007/s11263-021-01453-z,2021,Knowledge Distillation: A Survey,,,,,no
+Gao et al. (2026),200,yes,,2020,"Asif U, Tang J, Harrer S. Ensemble knowledge distillation for learning improved and efficient networks. In: Proceedings of the 24th European Conference on Artificial Intelligence. 2020, 953–960",,,,,no
+Gao et al. (2026),201,yes,,2016,"Chebotar Y, Waters A. Distilling knowledge from ensembles of neural networks for speech recognition. In: Proceedings of the 17th Annual Conference of the International Speech Communication Association. 2016, 3439–3443",,,,,no
+Gao et al. (2026),202,yes,,2017,"Fukuda T, Suzuki M, Kurata G, Thomas S, Cui J, Ramabhadran B. Efficient knowledge distillation from an ensemble of teachers. In: Proceedings of the 18th Annual Conference of the International Speech Communication Association. 2017, 3697–3701",,,,,no
+Gao et al. (2026),203,yes,10.1016/j.neucom.2020.07.048,2020,Adaptive multi-teacher multi-level knowledge distillation,,,,,no
+Gao et al. (2026),204,yes,,2021,"Yuan F, Shou L, Pei J, Lin W, Gong M, Fu Y, Jiang D. Reinforced multi-teacher selection for knowledge distillation. In: Proceedings of the 35th AAAI Conference on Artificial Intelligence. 2021, 14284–14291",,,,,no
+Gao et al. (2026),205,yes,10.1109/tcyb.2020.3007506,2022,Highlight Every Step: Knowledge Distillation via Collaborative Teaching,,,,,no
+Gao et al. (2026),206,yes,10.1145/3336191.3371792,2020,Model Compression with Two-stage Multi-teacher Knowledge Distillation for Web Question Answering System,,,,,no
+Gao et al. (2026),207,yes,10.1109/tcsvt.2024.3487867,2025,Collaborative Global-Local Structure Network With Knowledge Distillation for Imbalanced Data Classification,,,,,no
+Gao et al. (2026),208,yes,,2023,"Pham C, Hoang T, Do T T. Collaborative multi-teacher knowledge distillation for learning low bit-width deep neural networks. In: Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision. 2023, 6424–6432",,,,,no
+Gao et al. (2026),209,yes,,2020,"Wu T Y, Morgado P, Wang P, Ho C H, Vasconcelos N. Solving long-tailed recognition with deep realistic taxonomic classifier. In: Proceedings of the 16th European Conference on Computer Vision. 2020, 171–189",,,,,no
+Gao et al. (2026),210,yes,,2021,"Wu T, Liu Z, Huang Q, Wang Y, Lin D. Adversarial robustness under long-tailed distribution. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021, 8655–8664",,,,,no
+Gao et al. (2026),211,yes,,2023,"Du F, Yang P, Jia Q, Nan F, Chen X, Yang Y. Global and local mixture consistency cumulative learning for long-tailed visual recognitions. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023, 15814–15823",,,,,no
+Gao et al. (2026),212,yes,,2021,"Ma T, Geng S, Wang M, Shao J, Lu J, Li H, Gao P, Qiao Y. A simple long-tailed recognition baseline via vision-language model. 2021, arXiv preprint arXiv: 2111.14745",,,,,no
+Gao et al. (2026),213,yes,,2023,"Shi J X, Wei T, Zhou Z, Han X Y, Shao J J, Li Y F. Parameter-efficient long-tailed recognition. 2023, arXiv preprint arXiv: 2309.10019",,,,,no
+Gao et al. (2026),214,yes,10.1109/tpami.2020.2981890,2021,Imbalance Problems in Object Detection: A Review,,,,,no
+Gao et al. (2026),215,yes,,2014,"Girshick R, Donahue J, Darrell T, Malik J. Rich feature hierarchies for accurate object detection and semantic segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2014, 580–587",,,,,no
+Gao et al. (2026),216,yes,,2016,"Liu W, Anguelov D, Erhan D, Szegedy C, Reed S, Fu C Y, Berg A C. SSD: single shot MultiBox detector. In: Proceedings of the 14th European Conference on Computer Vision. 2016, 21–37",,,,,no
+Gao et al. (2026),217,yes,,2019,"Li B, Liu Y, Wang X. Gradient harmonized single-stage detector. In: Proceedings of the 33rd AAAI Conference on Artificial Intelligence. 2019, 8577–8584",,,,,no
+Gao et al. (2026),218,yes,,2020,"Cao Y, Chen K, Loy C C, Lin D. Prime sample attention in object detection. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020, 11580–11588",,,,,no
+Gao et al. (2026),219,yes,10.1016/j.patcog.2022.108781,2022,Residual objectness for imbalance reduction,,,,,no
+Gao et al. (2026),220,yes,,2019,"Chen K, Li J, Lin W, See J, Wang J, Duan L, Chen Z, He C, Zou J. Towards accurate one-stage object detection with AP-loss. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019, 5114–5122",,,,,no
+Gao et al. (2026),221,yes,,2017,"Wang X, Shrivastava A, Gupta A. A-fast-RCNN: hard positive generation via adversary for object detection. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017, 3039–3048",,,,,no
+Gao et al. (2026),222,yes,,2019,"Tripathi S, Chandra S, Agrawal A, Tyagi A, Rehg J M, Chari V. Learning to generate synthetic data via compositing. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2019, 461–470",,,,,no
+Gao et al. (2026),223,yes,,2017,"Lin T Y, Dollar P, Girshick R, He K, Hariharan B, Belongie S. Feature pyramid networks for object detection. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017, 936–944",,,,,no
+Gao et al. (2026),224,yes,,2017,"Sudre C H, Li W, Vercauteren T, Ourselin S, Jorge Cardoso M. Generalised dice overlap as a deep learning loss function for highly unbalanced segmentations. In: Proceedings of the 3rd International Workshop on Deep Learning in Medical Image Analysis and Multimodal Learning for Clinical Decision Support. 2017, 240–248",,,,,no
+Gao et al. (2026),225,yes,10.1109/tmi.2006.880587,2006,Generalized Overlap Measures for Evaluation and Validation in Medical Image Analysis,,,,,no
+Gao et al. (2026),226,yes,,2017,"Bulò S R, Neuhold G, Kontschieder P. Loss max-pooling for semantic image segmentation. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2017, 7082–7091",,,,,no
+Gao et al. (2026),227,yes,10.1016/j.compmedimag.2019.04.005,2019,Combo loss: Handling input and output imbalance in multi-organ segmentation,,,,,no
+Gao et al. (2026),228,yes,,2023,"Zhong Z, Cui J, Yang Y, Wu X, Qi X, Zhang X, Jia J. Understanding imbalanced semantic segmentation through neural collapse. In: Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2023, 19550–19559",,,,,no
+Gao et al. (2026),229,yes,10.18653/v1/2023.eacl-main.38,2023,A Survey of Methods for Addressing Class Imbalance in Deep-Learning Based Natural Language Processing,,,,,no
+Gao et al. (2026),230,yes,,2024,"Zhao P, Zhang H, Yu Q, Wang Z, Geng Y, Fu F, Yang L, Zhang W, Jiang J, Cui B. Retrieval-augmented generation for AI-generated content: a survey. 2024, arXiv preprint arXiv: 2402.19473",,,,,no
+Gao et al. (2026),231,yes,10.18653/v1/2025.acl-long.217,2025,QAEncoder: Towards Aligned Representation Learning in Question Answering Systems,,,,,no
+Gao et al. (2026),232,yes,,2019,"Ghosh K, Banerjee A, Chatterjee S, Sen S. Imbalanced twitter sentiment analysis using minority oversampling. In: Proceedings of the 10th International Conference on Awareness Science and Technology (iCAST). 2019, 1–5",R01863,title,exclude,E1,no
+Gao et al. (2026),233,yes,,2018,"Flores A C, Icoy R I, Pena C F, Gorro K D. An evaluation of SVM and naive Bayes with SMOTE on sentiment analysis data set. In: Proceedings of 2018 International Conference on Engineering, Applied Sciences, and Technology (ICEAST). 2018, 1–4",R01232,title,exclude,E1,no
+Gao et al. (2026),234,yes,10.21609/jiki.v13i2.885,2020,SENTIMENT ANALYSIS ON E-SPORTS FOR EDUCATION CURRICULUM USING NAIVE BAYES AND SUPPORT VECTOR MACHINE,,,,,no
+Gao et al. (2026),235,yes,10.1016/j.procs.2017.05.365,2017,Using Word Embedding and Ensemble Learning for Highly Imbalanced Data Sentiment Analysis in Short Arabic Text,R01152,doi,exclude,E1,no
+Gao et al. (2026),236,yes,10.1613/jair.4787,2016,How Translation Alters Sentiment,,,,,no
+Gao et al. (2026),237,yes,10.1145/2556195.2556261,2014,Sentiment analysis on evolving social streams,,,,,no
+Gao et al. (2026),238,yes,10.1109/access.2022.3149482,2022,Sentiment Analysis of Customers’ Reviews Using a Hybrid Evolutionary SVM-Based Approach in an Imbalanced Data Distribution,R05227,doi,exclude,E1,no
+Gao et al. (2026),239,yes,10.9781/ijimai.2022.02.002,2022,A Comparative Analysis of Machine Learning Models for Banking News Extraction by Multiclass Classification With Imbalanced Datasets of Financial News: Challenges and Solutions.,R04075,doi,exclude,E-COMPARE,no
+Gao et al. (2026),240,yes,10.3390/app10186253,2020,News Classification for Identifying Traffic Incident Points in a Spanish-Speaking Country: A Real-World Case Study of Class Imbalance Learning,R02670,doi,exclude,E1,no
+Gao et al. (2026),241,yes,,2020,"Hossain M Z, Rahman M A, Islam M S, Kar S. BanFakenews: a dataset for detecting fake news in Bangla. In: Proceedings of the 12th Language Resources and Evaluation Conference. 2020, 2862–2871",,,,,no
+Gao et al. (2026),242,yes,10.3390/app12178398,2022,AugFake-BERT: Handling Imbalance through Augmentation of Fake News Using BERT to Enhance the Performance of Fake News Classification,,,,,no
+Gao et al. (2026),243,yes,10.1016/j.engappai.2023.106688,2023,Strategies for enhancing the performance of news article classification in Bangla: Handling imbalance and interpretation,R07195,doi,exclude,E1,no
+Gao et al. (2026),244,yes,,2020,"Nazi Z A. Bangla newspaper dataset. Kaggle, 2020",,,,,no
+Gao et al. (2026),245,yes,,2020,"Raffel C, Shazeer N, Roberts A, Lee K, Narang S, Matena M, Zhou Y, Li W, Liu P J. Exploring the limits of transfer learning with a unified text-to-text transformer. The Journal of Machine Learning Research, 2020, 21(1): 140",,,,,no
+Gao et al. (2026),246,yes,,2024,"Li M, Zhang Y, Li Z, Chen J, Chen L, Cheng N, Wang J, Zhou T, Xiao J. From quantity to quality: boosting LLM performance with self-guided data selection for instruction tuning. In: Proceedings of 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers). 2024, 7602–7635",,,,,no
+Gao et al. (2026),247,yes,,2024,"Li J, Beeching E, Tunstall L, Lipkin B, Soletskyi R, Huang S, Rasul K, Yu L, Jiang A Q, Shen Z, Qin Z, Dong B, Zhou L, Fleureau Y, Lample G, Polu S. NuminaMath: the largest public dataset in AI4Maths with 860k pairs of competition math problems and solutions. 2024. Hugging Face Repository",,,,,no
+Gao et al. (2026),248,yes,,2023,"An S, Ma Z, Lin Z, Zheng N, Lou J G, Chen W. Learning from mistakes makes LLM better reasoner. 2023, arXiv preprint arXiv: 2310.20689",,,,,no
+Gao et al. (2026),249,yes,10.1145/3648358,2024,Distributed Graph Neural Network Training: A Survey,,,,,no
+Gao et al. (2026),250,yes,,2024,"Gao X, Zhang W, Yu J, Shao Y, Nguyen Q V H, Cui B, Yin H. Accelerating scalable graph neural network inference with node-adaptive propagation. In: Proceedings of the 40th International Conference on Data Engineering. 2024, 3042–3055",,,,,no
+Gao et al. (2026),251,yes,,2024,"Gao X, Li Y, Chen T, Ye G, Zhang W, Yin H. Contrastive graph condensation: advancing data versatility through self-supervised learning. 2024, arXiv preprint arXiv: 2411.17063",,,,,no
+Gao et al. (2026),252,yes,,2025,"Gao X, Ye G, Chen T, Zhang W, Yu J, Yin H. Rethinking and accelerating graph condensation: a training-free approach with class partition. In: Proceedings of the ACM on Web Conference. 2025, 4359–4373",,,,,no
+Gao et al. (2026),253,yes,10.1109/tkde.2025.3569629,2025,RobGC: Towards Robust Graph Condensation,,,,,no
+Gao et al. (2026),254,yes,,2023,"Gao X, Zhang W, Chen T, Yu J, Nguyen H Q V, Yin H. Semantic-aware node synthesis for imbalanced heterogeneous information networks. In: Proceedings of the 32nd ACM International Conference on Information and Knowledge Management. 2023, 545–555",,,,,no
+Gao et al. (2026),255,yes,10.1145/3637528.3671917,2024,Graph Condensation for Open-World Graph Learning,,,,,no
+Gao et al. (2026),256,yes,10.1109/tkde.2025.3535877,2025,Graph Condensation: A Survey,,,,,no
+Gao et al. (2026),257,yes,10.1007/978-3-031-26412-2_32,2023,GraphMixup: Improving Class-Imbalanced Node Classification by Reinforcement Mixup and Self-supervised Context Prediction,,,,,no
+Gao et al. (2026),258,yes,,2022,"Park J, Song J, Yang E. GraphENS: neighbor-aware ego network synthesis for class-imbalanced node classification. In: Proceedings of the 10th International Conference on Learning Representations. 2022",,,,,no
+Gao et al. (2026),259,yes,10.1145/3580305.3599374,2023,GraphSHA: Synthesizing Harder Samples for Class-Imbalanced Node Classification,,,,,no
+Gao et al. (2026),260,yes,10.1145/3447548.3467334,2021,ImGAGN,R03579,doi,include,I1-generative,no
+Gao et al. (2026),261,yes,,2023,"Zhou M, Gong Z. GraphSR: a data augmentation algorithm for imbalanced node classification. In: Proceedings of the 37th AAAI Conference on Artificial Intelligence. 2023, 4954–4962",R06426,title,exclude,E-NOGEN,no
+Gao et al. (2026),262,yes,,2024,"Zhang W, Gao X, Yang L, Cao M, Huang P, Shan J, Yin H, Cui B. BIM: improving graph neural networks with balanced influence maximization. In: Proceedings of the 40th International Conference on Data Engineering (ICDE). 2024, 2931–2944",,,,,no
+Gao et al. (2026),263,yes,10.1145/3511808.3557381,2022,LTE4G,,,,,no
+Gao et al. (2026),264,yes,10.1145/3447548.3467276,2021,Tail-GNN,,,,,no
+Gao et al. (2026),265,yes,,2021,"Chen D, Lin Y, Zhao G, Ren X, Li P, Zhou J, Sun X. Topology-imbalance learning for semi-supervised node classification. In: Proceedings of the 35th International Conference on Neural Information Processing Systems. 2021, 2287",,,,,no
+Gao et al. (2026),266,yes,10.1145/3511808.3557419,2022,Position-aware Structure Learning for Graph Topology-imbalance by Relieving Under-reaching and Over-squashing,,,,,no
+Gao et al. (2026),267,yes,10.1007/978-3-031-30675-4_3,2023,Few-Shot Link Prediction for Event-Based Social Networks via Meta-learning,,,,,no
+Gao et al. (2026),268,yes,10.1109/tnnls.2022.3145092,2022,Deep Graph Learning for Anomalous Citation Detection,,,,,no
+Gao et al. (2026),269,yes,10.1145/3447548.3467065,2021,Live-Streaming Fraud Detection: A Heterogeneous Graph Neural Network Approach,,,,,no
+Gao et al. (2026),270,yes,10.1145/3511808.3557356,2022,Imbalanced Graph Classification via Graph-of-Graph Neural Networks,,,,,no
+Gao et al. (2026),271,yes,10.1145/3580305.3599497,2023,Semi-Supervised Graph Imbalanced Regression,,,,,no
+Gao et al. (2026),272,yes,,2007,"Khoshgoftaar T M, Golawala M, Van Hulse J. An empirical study of learning from imbalanced data using random forest. In: Proceedings of the 19th IEEE International Conference on Tools with Artificial Intelligence (ICTAI 2007). 2007, 310–317",,,,,no
+Gao et al. (2026),273,yes,,2017,"Lemaître G, Nogueira F, Aridas C K. Imbalanced-learn: a Python toolbox to tackle the curse of imbalanced datasets in machine learning. The Journal of Machine Learning Research, 2017, 18(1): 559–563",R01046,title,exclude,E-REVIEW,no
+Gao et al. (2026),274,yes,,2024,"Miriam S. Open-source-imbalance-overlap. See github.com/miriamspsantos/open-source-imbalance-overlap website, 2024",,,,,no
+Gao et al. (2026),275,yes,,2025,"Qin J, Yuan H, Sun Q, Xu L, Yuan J, Huang P, Wang Z, Fu X, Peng H, Li J, Yu P S. IGL-bench: establishing the comprehensive benchmark for imbalanced graph learning. In: Proceedings of the 13th International Conference on Learning Representations. 2025",,,,,no
+Gao et al. (2026),276,yes,,2021,"Liu Z, Kang J, Tong H, Chang Y. IMBENS: ensemble class-imbalanced learning in Python. 2021, arXiv preprint arXiv: 2111.12776",R03578,title,exclude,E1,no
+Gao et al. (2026),277,yes,,2023,"Sarig T, Galili T, Eilat R. balance-a Python package for balancing biased data samples. 2023, arXiv preprint arXiv: 2307.06024",,,,,no
+Gao et al. (2026),278,yes,10.1016/j.patcog.2024.110358,2024,Semi-supervised imbalanced multi-label classification with label propagation,,,,,no
+Gao et al. (2026),279,yes,,2022,"Gong Y, Mori G, Tung F. RankSim: ranking similarity regularization for deep imbalanced regression. In: Proceedings of the 39th International Conference on Machine Learning. 2022, 7634–7649",,,,,no
+Gao et al. (2026),280,yes,,2021,"Yang Y, Zha K, Chen Y C, Wang H, Katabi D. Delving into deep imbalanced regression. In: Proceedings of the 38th International Conference on Machine Learning. 2021, 11842–11851",,,,,no
+Gao et al. (2026),281,yes,,2022,"Qian Y, Zhang C, Zhang Y, Wen Q, Ye Y, Zhang C. Co-modality graph contrastive learning for imbalanced node classification. In: Proceedings of the 36th International Conference on Neural Information Processing Systems. 2022, 1154",,,,,no
+Gao et al. (2026),282,yes,,2024,"Kim J, Kim T, Choo J. EPIC: effective prompting for imbalanced-class data synthesis in tabular data classification via large language models. In: Proceedings of the 38th International Conference on Neural Information Processing Systems. 2024, 990",,,,,no
+Gao et al. (2026),283,yes,,2024,"Yang J Y, Park G, Kim J, Jang H, Yang E. Language-interfaced tabular oversampling via progressive imputation and self-authentication. In: Proceedings of the 12th International Conference on Learning Representations. 2024",R09277,title,include,I1-generative,no
+Gao et al. (2026),284,yes,10.3390/electronics13132535,2024,Improving Text Classification with Large Language Model-Based Data Augmentation,,,,,no
+Gao et al. (2026),285,yes,,2023,"Vassilev A, Jin H, Hasan M. Meta learning with language models: challenges and opportunities in the classification of imbalanced text. 2023, arXiv preprint arXiv: 2310.15019",,,,,no
+Yousefimehr et al. (2026),1,yes,10.3390/rs17030454,2025,A Survey of Methods for Addressing Imbalance Data Problems in Agriculture Applications,R10852,doi,exclude,E-REVIEW,no
+Yousefimehr et al. (2026),2,yes,,2026,A systematic survey and empirical comparison of hybrid methods for imbalanced fraud detection: Combining resampling and machine learning,R16616,title,exclude,E-REVIEW,no
+Yousefimehr et al. (2026),3,yes,10.1007/s11704-025-50274-7,2026,A comprehensive survey on imbalanced data learning,,,,,no
+Yousefimehr et al. (2026),4,yes,10.1613/jair.953,2002,SMOTE: Synthetic Minority Over-sampling Technique,R00002,doi,include,I1-other,yes
+Yousefimehr et al. (2026),5,yes,10.1109/tkde.2008.239,2009,Learning from Imbalanced Data,,,,,no
+Yousefimehr et al. (2026),6,yes,10.3390/knowledge4010006,2024,Resampling to Classify Rare Attack Tactics in UWF-ZeekData22,R09887,doi,exclude,E-COMPARE,no
+Yousefimehr et al. (2026),7,yes,10.3390/math12213351,2024,OUCH: Oversampling and Undersampling Cannot Help Improve Accuracy in Our Bayesian Classifiers That Predict Preeclampsia,R09619,doi,exclude,E-COMPARE,no
+Yousefimehr et al. (2026),8,yes,,2014,"Goodfellow, I., Pouget-Abadie, J., Mirza, M., Xu, B., Warde-Farley, D., Ozair, S., Courville, A., and Bengio, Y. (2014). Generative adversarial nets. Adv. Neural Inf. Process. Syst., 27, Available online: https://proceedings.neurips.cc/paper_files/paper/2014/file/f033ed80deb0234979a61f95710dbe25-Paper.pdf.",,,,,no
+Yousefimehr et al. (2026),9,yes,,2022,"Kingma, D.P., and Welling, M. (2022). Auto-Encoding Variational Bayes. arXiv.",,,,,no
+Yousefimehr et al. (2026),10,yes,,1995,"Parmanto, B., Munro, P., and Doyle, H. (1995). Improving committee diagnosis with resampling techniques. Adv. Neural Inf. Process. Syst., 8, Available online: https://proceedings.neurips.cc/paper_files/paper/1995/file/46072631582fc240dd2674a7d063b040-Paper.pdf.",,,,,no
+Yousefimehr et al. (2026),11,yes,10.1038/s41598-024-55598-1,2024,A cluster-based SMOTE both-sampling (CSBBoost) ensemble algorithm for classifying imbalanced data,R07369,doi,exclude,E-UNSURE,no
+Yousefimehr et al. (2026),12,yes,10.3390/math13132186,2025,Comparative Analysis of Resampling Techniques for Class Imbalance in Financial Distress Prediction Using XGBoost,R11902,doi,exclude,E-COMPARE,no
+Yousefimehr et al. (2026),13,yes,10.1136/bmj.n71,2021,The PRISMA 2020 statement: an updated guideline for reporting systematic reviews,,,,,no
+Yousefimehr et al. (2026),14,yes,10.1016/j.entcom.2025.101076,2026,A systematic review for 2019–2025 on deep learning models in the film production industry,,,,,no
+Yousefimehr et al. (2026),15,yes,10.1093/biomet/30.1-2.81,1938,A NEW MEASURE OF RANK CORRELATION,,,,,no
+Yousefimehr et al. (2026),16,yes,10.1016/j.omega.2020.102261,2020,How to support the application of multiple criteria decision analysis? Let us start with a comprehensive taxonomy,,,,,no
+Yousefimehr et al. (2026),17,yes,10.1002/9780470725184,2007,Global Sensitivity Analysis. The Primer,,,,,no
+Yousefimehr et al. (2026),18,yes,,2023,An investigation of SMOTE based methods for imbalanced datasets with data complexity analysis,R05783,title,exclude,E-COMPARE,no
+Yousefimehr et al. (2026),19,yes,,2026,"Sakho, A., Malherbe, E., and Scornet, E. (2026). Do we need rebalancing strategies? A theoretical and empirical study around SMOTE and its variants. arXiv.",R08445,title,include,I1-new-variant,no
+Yousefimehr et al. (2026),20,yes,,2020,"Glazkova, A. (2020). A Comparison of Synthetic Oversampling Methods for Multi-class Text Classification. arXiv.",R02154,title,exclude,E-COMPARE,no
+Yousefimehr et al. (2026),21,yes,10.1145/3690624.3709268,2025,Simplicial SMOTE: Oversampling Solution to the Imbalanced Learning Problem,R15411,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),22,yes,10.1016/j.asoc.2019.105662,2019,An empirical comparison and evaluation of minority oversampling techniques on a large number of imbalanced datasets,R01609,doi,exclude,E-COMPARE,no
+Yousefimehr et al. (2026),23,yes,10.1016/j.eswa.2015.10.031,2016,Adaptive semi-unsupervised weighted oversampling (A-SUWO) for imbalanced datasets,R00739,doi,include,I1-new-variant,yes
+Yousefimehr et al. (2026),24,yes,,2008,"He, H., Bai, Y., Garcia, E.A., and Li, S. (2008, January 1–6). ADASYN: Adaptive synthetic sampling approach for imbalanced learning. Proceedings of the 2008 IEEE International Joint Conference on Neural Networks (IEEE World Congress on Computational Intelligence), Hong Kong, China.",R00074,title,include,I1-new-variant,yes
+Yousefimehr et al. (2026),25,yes,10.1016/j.knosys.2023.110795,2023,Self-adaptive oversampling method based on the complexity of minority data in imbalanced datasets classification,R07128,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),26,yes,10.1016/j.neucom.2020.05.030,2021,Local distribution-based adaptive minority oversampling for imbalanced data classification,R03667,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),27,yes,10.1016/j.ins.2024.120311,2024,AWGAN: An adaptive weighting GAN approach for oversampling imbalanced datasets,R08007,doi,include,I1-generative,no
+Yousefimehr et al. (2026),28,yes,10.1109/tkde.2025.3639433,2026,Diffusion GAN-Based Oversampling for Imbalanced Tabular Data,R18470,doi,include,I1-generative,yes
+Yousefimehr et al. (2026),29,yes,10.1109/tkde.2025.3593637,2025,B2BGAN: A Backbone-to-Branches GAN-Based Oversampling Approach for Class-Imbalanced Tabular Data,R11587,doi,include,I1-generative,no
+Yousefimehr et al. (2026),30,yes,10.1109/tnnls.2021.3136503,2023,DeepSMOTE: Fusing Deep Learning and SMOTE for Imbalanced Data,R06130,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),31,yes,10.1016/j.eswa.2021.114582,2021,Conditional Wasserstein GAN-based oversampling of tabular data for imbalanced learning,R03281,doi,include,I1-generative,no
+Yousefimehr et al. (2026),32,yes,10.1007/s10115-025-02377-7,2025,CTVAE: Contrastive Tabular Variational Autoencoder for imbalance data,R12111,doi,include,I1-generative,no
+Yousefimehr et al. (2026),33,yes,10.1109/tsmca.2009.2029559,2010,RUSBoost: A Hybrid Approach to Alleviating Class Imbalance,R00192,doi,exclude,E-NOGEN,yes
+Yousefimehr et al. (2026),34,yes,10.3390/cancers16193417,2024,Learning from Imbalanced Data: Integration of Advanced Resampling Techniques and Machine Learning Models for Enhanced Cancer Diagnosis and Prognosis,,,,,no
+Yousefimehr et al. (2026),35,yes,10.1109/tsmcc.2011.2161285,2012,"A Review on Ensembles for the Class Imbalance Problem: Bagging-, Boosting-, and Hybrid-Based Approaches",,,,,no
+Yousefimehr et al. (2026),36,yes,10.1016/j.patcog.2013.05.006,2013,EUSBoost: Enhancing ensembles for highly imbalanced data-sets by evolutionary undersampling,,,,,no
+Yousefimehr et al. (2026),37,yes,10.1177/096228029900800204,1999,Measuring agreement in method comparison studies,,,,,no
+Yousefimehr et al. (2026),38,yes,10.1016/j.ins.2018.06.056,2018,Improving imbalanced learning through a heuristic oversampling method based on k-means and SMOTE,R01371,doi,include,I1-new-variant,yes
+Yousefimehr et al. (2026),39,yes,10.1007/978-3-642-01307-2_43,2009,Safe-Level-SMOTE: Safe-Level-Synthetic Minority Over-Sampling TEchnique for Handling the Class Imbalanced Problem,R00137,doi,include,I1-new-variant,yes
+Yousefimehr et al. (2026),40,yes,10.1007/s13748-012-0027-5,2012,Surrounding neighborhood-based SMOTE for learning from imbalanced data sets,R00347,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),41,yes,10.1016/0167-8655(95)00093-3,1996,A new definition of neighborhood of a point in multi-dimensional space,,,,,no
+Yousefimehr et al. (2026),42,yes,10.1007/978-1-4613-0231-5_26,2003,Enhanced Neighbourhood Specifications for Pattern Classification,,,,,no
+Yousefimehr et al. (2026),43,yes,10.1109/sciot62588.2024.10570108,2024,Enhanced Multi-Modal Gas Leakage Detection with NSMOTE: A Novel Over-sampling Approach,,,,,no
+Yousefimehr et al. (2026),44,yes,10.1109/wcse.2009.756,2009,MSMOTE: Improving Classification Performance When Training Data is Imbalanced,R00130,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),45,yes,10.1007/11538059_91,2005,Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning,R00018,doi,include,I1-new-variant,yes
+Yousefimehr et al. (2026),46,yes,10.1016/j.knosys.2022.108919,2022,Instance weighted SMOTE by indirectly exploring the data distribution,R04884,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),47,yes,,2021,AWSMOTE: An SVM-Based Adaptive Weighted SMOTE for Class-Imbalance Learning,R03175,title,include,I1-new-variant,no
+Yousefimehr et al. (2026),48,yes,10.1007/s40747-021-00638-w,2022,ASN-SMOTE: a synthetic minority oversampling method with adaptive qualified synthesizer selection,R04345,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),49,yes,10.2991/ijcis.d.191114.002,2019,A-SMOTE: A New Preprocessing Approach for Highly Imbalanced Datasets by Improving SMOTE,R01584,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),50,yes,10.1016/j.ins.2014.08.051,2015,SMOTE–IPF: Addressing the noisy and borderline examples problem in imbalanced classification by a re-sampling method with filtering,R00702,doi,include,I1-hybrid,yes
+Yousefimehr et al. (2026),51,yes,10.1007/978-3-642-13529-3,2010,Rough Sets and Current Trends in Computing,,,,,yes
+Yousefimehr et al. (2026),52,yes,10.1016/j.patcog.2021.108511,2022,FW-SMOTE: A feature-weighted oversampling approach for imbalanced classification,R04745,doi,include,I1-new-variant,yes
+Yousefimehr et al. (2026),53,yes,10.1109/tfuzz.2019.2930942,2020,IOWA-SVM: A Density-Based Weighting Strategy for SVM Classification via OWA Operators,,,,,no
+Yousefimehr et al. (2026),54,yes,10.1016/j.asoc.2022.108618,2022,An imbalanced learning method by combining SMOTE with Center Offset Factor,R04284,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),55,yes,,2018,A hybrid approach for class imbalance problem in customer churn prediction: A novel extension to under-sampling,R01178,title,include,I1-hybrid,no
+Yousefimehr et al. (2026),56,yes,,2004,"Akbani, R., Kwek, S., and Japkowicz, N. (2004). Applying support vector machines to imbalanced datasets. Proceedings of the Machine Learning: ECML 2004: 15th European Conference on Machine Learning, Pisa, Italy, 20–24 September 2004, Springer. Proceedings 15.",R00007,title,include,I1-hybrid,no
+Yousefimehr et al. (2026),57,yes,10.1023/a:1022627411411,1995,Support-Vector Networks,,,,,no
+Yousefimehr et al. (2026),58,yes,10.1007/s00521-021-06198-x,2021,ODBOT: Outlier detection-based oversampling technique for imbalanced datasets learning,R03752,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),59,yes,10.1109/tkde.2012.232,2014,MWMOTE--Majority Weighted Minority Oversampling Technique for Imbalanced Data Set Learning,R00544,doi,include,I1-new-variant,yes
+Yousefimehr et al. (2026),60,yes,10.1109/tkde.2017.2761347,2018,AMDO: An Over-Sampling Technique for Multi-Class Imbalanced Problems,R01215,doi,include,I1-multiclass,yes
+Yousefimehr et al. (2026),61,yes,10.1016/j.ins.2022.11.139,2023,"K-means clustering algorithms: A comprehensive review, variants analysis, and advances in the era of big data",,,,,no
+Yousefimehr et al. (2026),62,yes,,2017,"Arjovsky, M., Chintala, S., and Bottou, L. (2017, January 6–11). Wasserstein generative adversarial networks. Proceedings of the International Conference on Machine Learning, PMLR, Sydney, NSW, Australia.",,,,,no
+Yousefimehr et al. (2026),63,yes,,2014,"Mirza, M., and Osindero, S. (2014). Conditional generative adversarial nets. arXiv.",,,,,no
+Yousefimehr et al. (2026),64,yes,10.1109/jsen.2022.3152518,2022,Discrete Wavelet Transform for Generative Adversarial Network to Identify Drivers Using Gyroscope and Accelerometer Sensors,,,,,no
+Yousefimehr et al. (2026),65,yes,,2015,"Li, Y., Swersky, K., and Zemel, R. (2015, January 6–11). Generative moment matching networks. Proceedings of the International Conference on Machine Learning, PMLR, Lille, France.",,,,,no
+Yousefimehr et al. (2026),66,yes,10.1109/dsaa.2016.49,2016,The Synthetic Data Vault,,,,,no
+Yousefimehr et al. (2026),67,yes,10.1007/s10994-023-06416-8,2023,"GMMSampling: a new model-based, data difficulty-driven resampling method for multi-class imbalanced data",,,,,yes
+Yousefimehr et al. (2026),68,yes,,2020,Denoising diffusion probabilistic models,,,,,no
+Yousefimehr et al. (2026),69,yes,10.1016/j.neunet.2020.10.004,2021,CEGAN: Classification Enhancement Generative Adversarial Networks for unraveling data imbalance problems,R03209,doi,include,I1-generative,no
+Yousefimehr et al. (2026),70,yes,10.1109/irac63143.2024.10871435,2024,Wasserstein Generative Adversarial Network with Gradient Penalty for Handwritten Digit Generation,,,,,no
+Yousefimehr et al. (2026),71,yes,10.1007/s10489-021-02566-1,2021,ADA-INCVAE: Improved data generation using variational autoencoder for imbalanced classification,,,,,no
+Yousefimehr et al. (2026),72,yes,,2018,"Cremer, C., Li, X., and Duvenaud, D. (2018, January 10–15). Inference suboptimality in variational autoencoders. Proceedings of the International Conference on Machine Learning, PMLR, Stockholm, Sweden.",,,,,no
+Yousefimehr et al. (2026),73,yes,10.1016/j.neucom.2023.126428,2023,Solving the reconstruction-generation trade-off: Generative model with implicit embedding learning,,,,,no
+Yousefimehr et al. (2026),74,yes,,2017,"Gulrajani, I., Ahmed, F., Arjovsky, M., Dumoulin, V., and Courville, A.C. (2017). Improved training of wasserstein gans. Adv. Neural Inf. Process. Syst., 30.",,,,,no
+Yousefimehr et al. (2026),75,yes,10.1155/2021/9206440,2021,Oversampling Imbalanced Data Based on Convergent WGAN for Network Threat Detection,R03774,doi,include,I1-generative,no
+Yousefimehr et al. (2026),76,yes,,2023,"Bharti, A., Naslidnyk, M., Key, O., Kaski, S., and Briol, F.X. (2023, January 23–29). Optimally-weighted estimators of the maximum mean discrepancy for likelihood-free inference. Proceedings of the International Conference on Machine Learning, PMLR, Honolulu, HI, USA.",,,,,no
+Yousefimehr et al. (2026),77,yes,10.1016/j.eswa.2008.06.108,2009,Cluster-based under-sampling approaches for imbalanced data distributions,,,,,yes
+Yousefimehr et al. (2026),78,yes,,2003,"Zhang, J., Mani, I., and Lin, K. (2003, January 21). Nearmiss under sampling for imbalanced dataset classification. Proceedings of the ICML Workshop on Learning from Imbalanced Datasets II, Washington, DC, USA.",,,,,no
+Yousefimehr et al. (2026),79,yes,,2006,Under-sampling approaches for improving prediction of the minority class in an imbalanced dataset,,,,,no
+Yousefimehr et al. (2026),80,yes,10.1007/s10994-013-5422-z,2013,An instance level analysis of data complexity,,,,,no
+Yousefimehr et al. (2026),81,yes,10.1109/icmla.2015.103,2015,ABC-sampling for Balancing Imbalanced Datasets Based on Artificial Bee Colony Algorithm,,,,,no
+Yousefimehr et al. (2026),82,yes,10.1016/j.eswa.2024.125661,2025,A distribution-preserving method for resampling combined with LightGBM-LSTM for sequence-wise fraud detection in credit card transactions,R10482,doi,include,I1-hybrid,no
+Yousefimehr et al. (2026),83,yes,10.1162/089976601750264965,2001,Estimating the Support of a High-Dimensional Distribution,,,,,no
+Yousefimehr et al. (2026),84,yes,10.1007/3-540-48229-6_9,2001,Improving Identification of Difficult Small Classes by Balancing Class Distribution,,,,,no
+Yousefimehr et al. (2026),85,yes,10.1109/tsmc.1972.4309137,1972,Asymptotic Properties of Nearest Neighbor Rules Using Edited Data,,,,,yes
+Yousefimehr et al. (2026),86,yes,10.1109/tit.1968.1054155,1968,The condensed nearest neighbor rule (Corresp.),,,,,no
+Yousefimehr et al. (2026),87,yes,10.1145/1007730.1007735,2004,A study of the behavior of several methods for balancing machine learning training data,R00006,doi,include,I1-hybrid,yes
+Yousefimehr et al. (2026),88,yes,10.1109/tsmc.1976.4309452,1976,Two Modifications of CNN,,,,,yes
+Yousefimehr et al. (2026),89,yes,,1997,"Kubat, M., and Matwin, S. (1997, January 8–12). Addressing the curse of imbalanced training sets: One-sided selection. Proceedings of the 14th International Conference on Machine Learning (ICML), Nashville, TN, USA.",,,,,yes
+Yousefimehr et al. (2026),90,yes,10.1007/s10489-025-06236-4,2025,A non-parameter oversampling approach for imbalanced data classification based on hybrid natural neighbors,R10680,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),91,yes,10.1007/s00500-024-10378-x,2024,An adaptive synthetic sampling and batch generation-oriented hybrid approach for addressing class imbalance problem in software defect prediction,R07753,doi,exclude,E1,no
+Yousefimehr et al. (2026),92,yes,10.1007/s11063-022-10998-0,2022,A Novel Hybrid Sampling Method ESMOTE+SSLM for Handling the Problem of Class Imbalance with Overlap in Financial Distress Detection,R05586,doi,include,I1-hybrid,no
+Yousefimehr et al. (2026),93,yes,10.1038/s41598-024-84786-2,2025,Hybrid clustering strategies for effective oversampling and undersampling in multiclass classification,R13435,doi,include,I1-multiclass,no
+Yousefimehr et al. (2026),94,yes,10.1038/s41598-025-98756-9,2025,Fault prediction of aircraft engine based on adaptive hybrid sampling and BiLSTM,R13132,doi,include,I1-hybrid,no
+Yousefimehr et al. (2026),95,yes,10.1109/access.2025.3600622,2025,Hybrid Framework Combining Diffusion-Based Image Augmentation and Feature Level SMOTE for Addressing Extreme Class Imbalance,R13473,doi,exclude,E1,no
+Yousefimehr et al. (2026),96,yes,10.1016/j.enbuild.2025.116447,2025,A hybrid SMOTE and Trans-CWGAN for data imbalance in real operational AHU AFDD: A case study of an auditorium building,R10573,doi,include,I1-generative,no
+Yousefimehr et al. (2026),97,yes,10.3390/electronics14204068,2025,A Hybrid Global-Split WGAN-GP Framework for Addressing Class Imbalance in IDS Datasets,,,,,no
+Yousefimehr et al. (2026),98,yes,,2004,"Chen, C., Liaw, A., and Breiman, L. (2004). Using Random Forest to Learn Imbalanced Data, University of California.",,,,,no
+Yousefimehr et al. (2026),99,yes,10.1023/a:1018054314350,1996,Bagging Predictors,,,,,no
+Yousefimehr et al. (2026),100,yes,10.1016/j.neucom.2014.07.064,2015,Neighbourhood sampling in bagging for imbalanced data,R00677,doi,exclude,E-NOGEN,no
+Yousefimehr et al. (2026),101,yes,,,"Wang, S., and Yao, X. (April, January 30). Diversity analysis on imbalanced data sets by using ensemble models. Proceedings of the IEEE Symposium on Computational Intelligence and Data Mining, Nashville, TN, USA.",R00115,title,include,I1-hybrid,no
+Yousefimehr et al. (2026),102,yes,10.1109/ijcnn.2015.7280695,2015,A bootstrap-based iterative selection for ensemble generation,R00584,doi,exclude,E-UNSURE,no
+Yousefimehr et al. (2026),103,yes,,2003,"Chawla, N.V., Lazarevic, A., Hall, L.O., and Bowyer, K.W. (2003). SMOTEBoost: Improving prediction of the minority class in boosting. Proceedings of the Knowledge Discovery in Databases: PKDD 2003: 7th European Conference on Principles and Practice of Knowledge Discovery in Databases, Dubrovnik, Croatia, 22–26 September 2003, Springer. Proceedings 7.",R00004,title,include,I1-hybrid,yes
+Yousefimehr et al. (2026),104,yes,10.1016/j.csda.2017.01.005,2017,RHSBoost: Improving classification performance in imbalance data,,,,,no
+Yousefimehr et al. (2026),105,yes,10.1007/s10618-012-0295-5,2012,Training and assessing classification rules with imbalanced data,,,,,no
+Yousefimehr et al. (2026),106,yes,10.1145/1007730.1007736,2004,Learning from imbalanced data sets with boosting and data generation,,,,,no
+Yousefimehr et al. (2026),107,yes,,2019,Imputation-based ensemble techniques for class imbalance learning,R03620,title,include,I1-hybrid,no
+Yousefimehr et al. (2026),108,yes,,2008,Exploratory undersampling for class-imbalance learning,,,,,yes
+Yousefimehr et al. (2026),109,yes,10.1038/s41598-024-72307-0,2024,Detecting refactoring type of software commit messages based on ensemble machine learning algorithms,,,,,no
+Yousefimehr et al. (2026),110,yes,,2013,"Charte, F., Rivera, A., del Jesus, M.J., and Herrera, F. (2013). A first approach to deal with imbalance in multi-label datasets. Proceedings of the Hybrid Artificial Intelligent Systems: 8th International Conference, HAIS 2013, Salamanca, Spain, 11–13 September 2013, Springer. Proceedings 8.",,,,,no
+Yousefimehr et al. (2026),111,yes,10.1016/j.neucom.2014.08.091,2015,Addressing imbalance in multilabel classification: Measures and random resampling algorithms,R00607,doi,exclude,E-NOGEN,no
+Yousefimehr et al. (2026),112,yes,10.1016/j.patcog.2004.03.009,2004,Learning multi-label scene classification,,,,,no
+Yousefimehr et al. (2026),113,yes,10.1007/978-3-319-19644-2_41,2015,Resampling Multilabel Datasets by Decoupling Highly Imbalanced Labels,,,,,no
+Yousefimehr et al. (2026),114,yes,10.1016/j.knosys.2015.07.019,2015,MLSMOTE: Approaching imbalanced multilabel learning through synthetic instance generation,R00675,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),115,yes,10.1109/ssci.2015.33,2015,Calibrating Probability with Undersampling for Unbalanced Classification,,,,,no
+Yousefimehr et al. (2026),116,yes,,2024,"Ibrahim, M. (2026, March 31). Fraud_oracle.csv. Figshare Dataset. Dataset Posted on 13 January 2024. Available online: https://figshare.com/articles/dataset/fraud_oracle_csv/24994233/1?file=44033394.",,,,,no
+Yousefimehr et al. (2026),117,yes,10.1016/j.ins.2024.120873,2024,IRDA: Implicit data augmentation for deep imbalanced regression,,,,,no
+Yousefimehr et al. (2026),118,yes,10.1016/j.asoc.2026.115192,2026,Adversarial fraud sample generation with reinforcement learning: A joint optimization framework for financial statement fraud detection,R16799,doi,include,I1-generative,no
+Yousefimehr et al. (2026),119,yes,10.1007/s10462-023-10652-8,2024,Cost-sensitive learning for imbalanced medical data: a review,,,,,no
+Yousefimehr et al. (2026),120,yes,10.1109/tsmc.2025.3573080,2025,A Multiform Framework for Multiobjective Feature Selection in Unbalanced Classification: Combining Oversampling and Cost-Sensitive Learning,R10669,doi,exclude,E-NOGEN,no
+Yousefimehr et al. (2026),121,yes,10.1016/j.neunet.2025.108267,2026,Multi-teacher knowledge distillation framework for lightweight anomaly detection,R20622,doi,exclude,E1,no
+Yousefimehr et al. (2026),122,yes,10.1109/tetci.2026.3671131,2026,Multi-Stage Self-Distillation for Class-Imbalanced Anomaly Detection,,,,,no
+Yousefimehr et al. (2026),123,yes,,2021,"Liu, H., HaoChen, J.Z., Gaidon, A., and Ma, T. (2021). Self-supervised learning is more robust to dataset imbalance. arXiv.",,,,,no
+Yousefimehr et al. (2026),124,yes,10.1038/s41598-025-99000-0,2025,Comparative analysis of supervised and self-supervised learning with small and imbalanced medical imaging datasets,,,,,no
+Yousefimehr et al. (2026),125,yes,10.1109/tetci.2025.3526504,2025,Self-Supervised Learning for Activity Recognition Based on Datasets With Imbalanced Classes,R15344,doi,include,I1-new-variant,no
+Yousefimehr et al. (2026),126,yes,10.1016/j.neucom.2026.133408,2026,Revisiting data imbalance in token-based self-supervised learning,,,,,no
+Yousefimehr et al. (2026),127,yes,10.1016/j.eswa.2024.123783,2024,Adaptive unified contrastive learning with graph-based feature aggregator for imbalanced medical image classification,,,,,no
+Yousefimehr et al. (2026),128,yes,10.1016/j.is.2026.102716,2026,Diffusion-based minority augmentation and confidence-calibrated tabular learning for imbalanced rare-event classification,R18468,doi,include,I1-generative,no
+Yousefimehr et al. (2026),129,yes,10.1109/cvprw67362.2025.00043,2025,Synthetic Data Augmentation using Pre-trained Diffusion Models for Long-tailed Food Image Classification,,,,,no
+Yousefimehr et al. (2026),130,yes,10.1016/j.eswa.2025.126926,2025,Mamba-DDPM-BSA: Diffusion model based boundary sampling algorithm for imbalanced classification,R14218,doi,include,I1-generative,no
+Yousefimehr et al. (2026),131,yes,,2020,"Huang, X., Khetan, A., Cvitkovic, M., and Karnin, Z. (2020). Tabtransformer: Tabular data modeling using contextual embeddings. arXiv.",,,,,no
+Yousefimehr et al. (2026),132,yes,,2021,Revisiting deep learning models for tabular data,,,,,no
+Yousefimehr et al. (2026),133,yes,,2020,"Badirli, S., Liu, X., Xing, Z., Bhowmik, A., Doan, K., and Keerthi, S.S. (2020). Gradient boosting neural networks: Grownet. arXiv.",,,,,no
+Yousefimehr et al. (2026),134,yes,,2021,"Radford, A., Kim, J.W., Hallacy, C., Ramesh, A., Goh, G., Agarwal, S., Sastry, G., Askell, A., Mishkin, P., and Clark, J. (2021, January 18–24). Learning transferable visual models from natural language supervision. Proceedings of the International Conference on Machine Learning, PMLR, Virtual.",,,,,no
+Yousefimehr et al. (2026),135,yes,,2021,"Bommasani, R., Hudson, D.A., Adeli, E., Altman, R., Arora, S., von Arx, S., Bernstein, M.S., Bohg, J., Bosselut, A., and Brunskill, E. (2021). On the opportunities and risks of foundation models. arXiv.",,,,,no
+Yousefimehr et al. (2026),136,yes,,2020,Discovering symbolic models from deep learning with inductive biases,,,,,no

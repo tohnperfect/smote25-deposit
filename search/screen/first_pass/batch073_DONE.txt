@@ -1,0 +1,11 @@
+batch 073: 200 of 200 records done; include 23, unsure 15, exclude 162
+no records remain
+
+Look at first (record number in batch order, rec id):
+- Low confidence: #101 R01070 (unsure; spectrum-sharing under/oversampling scheme, not clear it makes synthetic examples) and #134 R14176 (unsure; "Majority Oversampling Technique" in a fraud paper, mechanism and novelty unclear).
+- Codebook does not settle: #8 R12382 and #94 R21466 were included as a diffusion generator / new SMOTE variant (DAK-SMOTE) for supervised, labelled *anomaly detection* (E2 vs I1). #106 R09148 and #195 R00277 are unsure because the abstracts do not say whether the oversampling is synthetic or only replication/reweighting. #174 R10587 was excluded E-LANG (Chinese) although it proposes an in-scope SMOTE variant (RESMOTE). #20 R00228 (C-SMOTE) was included, but its venue looks like a Chinese-language journal (the language field says en).
+- Clarification 1, purpose other than imbalanced classification (all unsure U-other): #41 R12716 PP-SMOTE (privacy, membership inference), #103 R09842 ProSOM (uplift/causal modelling), #114 R03601 (fairness de-biasing).
+- Borderline includes (medium): #22 R01374 (new noise filters + SMOTE, education data), #131 R16801 (AE-CTGAN), #152 R06526 ("enhanced GAN", generator novelty thin), #194 R12434 (dynamic SMOTE+GAN sampling rates inside a fraud framework).
+- Borderline excludes (medium): #1 R02498 (naive oversamplers devised only as baselines), #7 R06380 (LLM oversampling comparison; generative, text), #77 R21831 (existing CTGAN then SMOTE in a GNN paper), #175 R19368 (comparison workflow of existing generators), #189 R01312 (five image generators tested; novelty not stated).
+- Other unsure (domain papers whose resampling may or may not be new): #38 R11035 BBOT, #55 R20894 Selective SMOTE, #123 R00889 K-Means+SMOTE, #154 R11781 GraphSMOTE in a stream ensemble, #180 R03065 I-SMOTE, #184 R05919 RoBERTa minority augmentation, #185 R17352 ANS-REA. #84 R05253 has no abstract (title "SMOTE, practical improvements").
+- Front matter: #87 R05417 tagged front-matter-in-scope (lists "a Novel Oversampling Technique for Imbalanced Credit Scoring Datasets").

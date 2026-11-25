@@ -1,0 +1,12 @@
+batch 009: 200 of 200 records done; include 48, unsure 75, exclude 77
+no records remain
+
+Look at these first:
+- Low-confidence includes and excludes: R07684 (E1; claims a "novel" oversampling approach for stroke but describes none), R15491 (E-NOGEN; STAS might create data, keywords say undersampling), R00179 (include; SMOTE plus class-weighted Bagging, venue may be a Chinese-language journal), R00388 (include; SVM ensembles with k-means and resampling, SMOTE only in keywords).
+- Language: R15921 is coded E-LANG because its title is Ukrainian, although the metadata says en (content: SMOTENC vs a signature-preserving adaptive balancer). R10651 is included, but its journal (JEIT) may publish in Chinese. R04783 has Indonesian language metadata.
+- The codebook does not settle metaheuristic tuning of an oversampler's parameters. R09448 and R20587 are E1 (tuning inside a domain pipeline), R13953 and R09878 are unsure, and R06476 is included (balancing is its main contribution). Please make these consistent.
+- The codebook does not settle a standard GAN/VAE/CTGAN/SeqGAN presented as a "novel" oversampler in a domain paper. I sent these to unsure: R20524, R19272, R02705, R11481, R16437, R07361, R01973, R15590, R06526, R19405, R21009. I used E1 where the generator was only a pipeline step.
+- Clarification 2 cluster: seven 2026 Zenodo SMOTE variants report theoretical analysis only (R18476, R19241, R17123, R22242, R18101, R20941, R17974); also R21574 and R00155. All are coded U-other.
+- Clarification 1 (purpose is not class balancing), all U-other: R10952 balances gender, R02807 and R05710 impute missing values, R08482 estimates treatment effects, R05531 localises faults, R20218 does object detection.
+- Other gaps: book chapters R01396 (unsure) and R00161 (E-REVIEW). The software paper R01046 (imbalanced-learn) is coded E-REVIEW for lack of a better code. R00094 is included but is a TRECVID notebook paper. R10794 and R02192 are included but framed as anomaly detection, so check E2.
+- Excluded but possibly useful elsewhere in the survey: R21941 and R22263 (E-COMPARE; critical audits of synthetic minority data), R03781 (DEBOHID parameter study), R00607 (E-NOGEN; multilabel random over- and undersampling), R12100 (E-NOGEN; oversampling with real data from related datasets).

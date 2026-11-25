@@ -1,0 +1,11 @@
+d42 coverage batch 217 (blind second coding): done, 6 of 6 records coded.
+n=6, eligible=6, Core=5, Partial=0, Not counted=1
+
+Codes I was least sure of:
+- R18541 (DualSS): Core vs Partial. Latent interpolation (seed + one of K=5 latent neighbours, rho~U(0,1)) refined by the authors' own diffusion model; coded Core with N, P, F = yes (F = best-of-K by pretrained classifier). Modality mixed (image + indicators); vs_none = no (no unresampled row in Table 2).
+- R00127 (ghost points): class B+M rests on OSU Leaf (6 classes) being run as originally imbalanced (no collapse stated). P = yes (midpoint, lambda fixed 0.5); N = yes (DTW/OSB distance space, all k neighbours). Tuning default (A, K, C fixed) although ghost points per example are not reported.
+- R00018 (Borderline-SMOTE): both variants coded together; N and P = yes only through borderline-SMOTE2 (majority partner, lambda in [0, 0.5]).
+- R00066 (SPSO): Not counted, generator perturbation (HMM-guided mutation of one sequence, Nm sets neighbourhood radius) rather than distribution; modality other (protein sequences); class B (one-vs-rest families); n_datasets 1 (GPCRDB); protocol cv from the 2-/5-fold CV runs (main ROC comparison protocol unstated); tuning test (rate chosen by best result).
+- R00006 (Batista et al. 2004): ruling B passes (SMOTE + Tomek/ENN presented as own, compared with other samplers). N = no although the kNN uses HVDM for all methods; n_datasets 15 problems from 13 UCI sources.
+- R00495 (OUPS): two-page paper; datasets taken as real and tabular; "iterative splitting" read as repeated holdout; N = yes (partner matched by propensity score).
+- inside_folds = stated for R00006, R00066, R00018 rests on wording that resampling acts on the training data/sets, not an explicit per-fold statement.

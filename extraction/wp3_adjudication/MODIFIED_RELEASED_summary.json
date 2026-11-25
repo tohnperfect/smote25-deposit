@@ -1,0 +1,101 @@
+{
+ "definition": "D36: the modified files themselves are public (code, on request, or unmodified data do not count)",
+ "papers_that_modify_data": 44,
+ "recoded_by_glos_recount": [
+  "GLOS"
+ ],
+ "publish_modified_files": 9,
+ "papers": [
+  "CTGAN / TVAE",
+  "DSRBF / Static-SMOTE",
+  "G-SMOTE",
+  "GAMO",
+  "HDE",
+  "INOS",
+  "OVO-SMOTE",
+  "SMOTE-IPF",
+  "k-means SMOTE"
+ ],
+ "scan": {
+  "papers_with_matches": 31,
+  "decided": [
+   "CTGAN / TVAE",
+   "DGOT",
+   "DLexiBoost",
+   "G-SMOTE",
+   "GAMO",
+   "GMMSampling",
+   "GOIO",
+   "HDE",
+   "INOS",
+   "MC-CCR",
+   "MC-MBRC",
+   "MC-NCLWO",
+   "NBU",
+   "OVO-SMOTE",
+   "RBO",
+   "ROS (Buda)",
+   "RSMOTE",
+   "RUSBoost",
+   "SMOM",
+   "SMOTE",
+   "SMOTE-IPF",
+   "SPE",
+   "SVDD-WSMOTE",
+   "k-means SMOTE"
+  ],
+  "cross_references_only": [
+   "A-SUWO",
+   "AMDO",
+   "COG-OS",
+   "EasyEnsemble / BalanceCascade",
+   "MWMOTE",
+   "RAMOBoost",
+   "SOUP"
+  ],
+  "decided_without_match": [
+   "DSRBF / Static-SMOTE",
+   "GLOS"
+  ]
+ },
+ "data_first_pass": [
+  "DSRBF / Static-SMOTE",
+  "HDE",
+  "k-means SMOTE"
+ ],
+ "evaluation_first_pass": [
+  "CTGAN / TVAE",
+  "DSRBF / Static-SMOTE",
+  "G-SMOTE",
+  "GAMO",
+  "HDE",
+  "INOS",
+  "KNNOR",
+  "OVO-SMOTE",
+  "SMOTE-IPF",
+  "k-means SMOTE"
+ ],
+ "second_pass": {
+  "GAMO": "yes",
+  "HDE": "yes",
+  "SMOTE-IPF": "yes",
+  "INOS": "yes",
+  "MC-MBRC": "on request",
+  "DSRBF / Static-SMOTE": "yes",
+  "G-SMOTE": "yes",
+  "k-means SMOTE": "yes"
+ },
+ "agreement_with_adjudication": {
+  "data_first_pass": "3 of 9 found, 0 wrong",
+  "evaluation_first_pass": "all 9 found; its tenth (KNNOR) modifies no data in the Data definition",
+  "second_pass": "7 of 9 found (not CTGAN, OVO-SMOTE); MC-MBRC \"on request\" not counted"
+ },
+ "decided_by": "AI adjudication (Claude Opus 5.5, 12 Nov 2026)",
+ "spot_check": {
+  "merged": "v0.31, 15 Nov 2026",
+  "marked_for_change": [
+   "RBO"
+  ],
+  "decision_changed": []
+ }
+}

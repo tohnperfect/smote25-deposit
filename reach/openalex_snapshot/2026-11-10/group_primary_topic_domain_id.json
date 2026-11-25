@@ -1,0 +1,53 @@
+{
+ "meta": {
+  "count": 34419,
+  "db_response_time_ms": 246,
+  "page": 1,
+  "per_page": 200,
+  "groups_count": 4,
+  "x_query": {
+   "oql": "get the count of works citing (W2148143831) by domain",
+   "x_new_oql": "get the count of works citing (W2148143831) by domain",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "referenced_works",
+      "value": "W2148143831"
+     }
+    ],
+    "group_by": [
+     {
+      "column_id": "primary_topic.domain.id"
+     }
+    ]
+   },
+   "url": "/works?filter=referenced_works:W2148143831&group_by=primary_topic.domain.id&per_page=200",
+   "order": "most works first",
+   "order_default": true
+  },
+  "cost_usd": 0.0001
+ },
+ "group_by": [
+  {
+   "key": "https://openalex.org/domains/3",
+   "key_display_name": "Physical Sciences",
+   "count": 22425
+  },
+  {
+   "key": "https://openalex.org/domains/4",
+   "key_display_name": "Health Sciences",
+   "count": 6021
+  },
+  {
+   "key": "https://openalex.org/domains/2",
+   "key_display_name": "Social Sciences",
+   "count": 2997
+  },
+  {
+   "key": "https://openalex.org/domains/1",
+   "key_display_name": "Life Sciences",
+   "count": 2924
+  }
+ ]
+}

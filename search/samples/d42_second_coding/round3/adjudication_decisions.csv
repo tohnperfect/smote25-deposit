@@ -1,0 +1,10 @@
+item,project,rec,field,source,first,second,adjudicated,chosen,how,confidence
+coverage:R00832:label,coverage,R00832,label,fulltext,Not counted,Core,Not counted,first,kept,medium
+coverage:R00832:generator,coverage,R00832,generator,fulltext,other,interpolation,other,first,kept,medium
+coverage:R00832:S,coverage,R00832,S,fulltext,na,no,na,first,kept,medium
+coverage:R00832:A,coverage,R00832,A,fulltext,na,no,na,first,kept,medium
+coverage:R00832:N,coverage,R00832,N,fulltext,na,no,na,first,kept,medium
+coverage:R00832:P,coverage,R00832,P,fulltext,na,yes,na,first,kept,medium
+coverage:R00832:F,coverage,R00832,F,fulltext,na,no,na,first,kept,medium
+coverage:R00832:L,coverage,R00832,L,fulltext,na,no,na,first,kept,medium
+coverage:R11455:tuning,coverage,R11455,tuning,fulltext,validation,test,validation,first,kept,medium

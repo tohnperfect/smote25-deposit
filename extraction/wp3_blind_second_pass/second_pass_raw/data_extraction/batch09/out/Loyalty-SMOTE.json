@@ -1,0 +1,25 @@
+{
+ "data_key": "Loyalty-SMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL",
+  "Kaggle"
+ ],
+ "crit": "'this paper uses four groups of commonly used imbalanced datasets' (Table 1 lists five groups): group 1 UCI/KEEL '30 real-world imbalanced datasets', group 2 Kaggle '5 popular imbalanced datasets', group 3 Kaggle '7 large-scale datasets and 2 small-scale datasets' (runtime), group 4 UCI '5 multiclass datasets' (performance in multiclass problems), group 5 Kaggle '5 high-dimensional datasets and 5 large-scale datasets' ('To evaluate the performance of the Loyalty-SMOTE algorithm on large-scale and high-dimensional datasets').",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "method-target",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "smallest class vs rest",
+ "modified_data_released": "n.a.",
+ "notes": "Text says 'four groups' but Table 1 (p.7) lists five. Table 2 (group 1) prints 31 rows although Table 1 and the abstract say 30 binary datasets; Bankruptcy (also in group 5) is in Table 2 but absent from result Tables 9-12. Table 4 (group 3) prints 8 rows although Table 1 says 9 (7 large + 2 small); runtime Table 14 lists bank-full (not in Table 4) and omits parkinson. Table 5 (group 4) header prints 'Instances' twice; the first column (10, 3, 3, 4, 9) looks like the number of classes. Name variants: bezediris (Table 2) vs bezdeiris (results), australia/Australia. Table 12 prints statlog Loyalty-SMOTE G-mean as '9100'. Several group-1/2 datasets that are multiclass in their usual form (e.g. iris, Shuttle, Fault, Obesity) are used as binary without any description of how they were binarised or by whom; only the KEEL '_vs_' files are evidently repository-binarised, so binarised_by=repository and modified_data_released=n.a. are based on what the paper states. minority_rule: the only written rule is for the multiclass group 4 (fewest instances = minority, largest = majority, not strictly 'vs rest'); for binary sets IR = N_majority/N_minority, and KEEL splits are repository-defined. No data availability statement found. All datasets split 7:3 train/test."
+}

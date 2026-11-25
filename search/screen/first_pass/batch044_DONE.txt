@@ -1,0 +1,13 @@
+batch 044: 200 of 200 records done; include 25, unsure 10, exclude 165
+no records remain
+
+Look at these first:
+- Low confidence: R21508 (DERSMOTE, unsure). It is named as a SMOTE variant but moves and reweights existing samples without adding any ("zero sample increment"). The codebook does not say whether this meets I1 or is E-NOGEN.
+- Codebook does not settle: R15971 (unsure; its novelty is tuning SMOTE's k with a metaheuristic inside a stroke pipeline). Is parameter tuning a change to how SMOTE is applied? Compare R00862 and R03759, which I excluded under E1 because they only searched for a best class ratio.
+- Other unsure records: R04014 (grouped SMOTE), R13568 (SMOTE + GA feature selection), R02170 ("improved SMOTE"), R07825 (Dual-GAN), R01299 (spatiotemporal synthetic oversampling) and R08316 (oversampling + propensity matching for uplift). In all six the abstract does not say whether the generator is new.
+- More unsure records: R15251 (U-other; RL-made synthetic data to fine-tune a vision-language model, not imbalanced classification) and R01842 (IDP-SMOTE, no abstract; the venue normally publishes in Chinese, so check the language).
+- Borderline includes: R02256 is a GAN oversampler, but the record is typed "Book chapter" in a Lecture Notes series, so check I3. R01949 (PSOSMOTE) implies an evaluation through its metrics but names no datasets (I2). R15612, R19350 and R14305: the generator is half of a framework, so check how new it is. R10053 (SMOTE-MRS) is close to the existing K-means SMOTE.
+- Borderline E1 excludes: these use an existing GAN, WGAN or GMM generator as-is in a domain pipeline: R19736, R13860, R18006, R22284, R19335. Also R12194 (MOSD, possibly the authors' own method) and R05394 (TW-SMOTE, applied to genetic association analysis rather than classification).
+- Borderline E-NOGEN: R03600 (iteratively duplicates failing test cases, so nothing synthetic) and R04098 ("oversampling" lifted to the ensemble level).
+- Excluded on title alone (no abstract): R01439, R16739.
+- E-LANG records that describe in-scope methods, for the record: R02795 (an improved SMOTE, in Chinese) and R10866 (natural-neighbour oversampling NNOA, in Chinese).

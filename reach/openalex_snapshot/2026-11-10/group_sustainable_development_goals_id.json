@@ -1,0 +1,118 @@
+{
+ "meta": {
+  "count": 34419,
+  "db_response_time_ms": 146,
+  "page": 1,
+  "per_page": 200,
+  "groups_count": 17,
+  "x_query": {
+   "oql": "get the count of works citing (W2148143831) by SDG",
+   "x_new_oql": "get the count of works citing (W2148143831) by SDG",
+   "oqo": {
+    "get_rows": "works",
+    "filter_rows": [
+     {
+      "column_id": "referenced_works",
+      "value": "W2148143831"
+     }
+    ],
+    "group_by": [
+     {
+      "column_id": "sustainable_development_goals.id"
+     }
+    ]
+   },
+   "url": "/works?filter=referenced_works:W2148143831&group_by=sustainable_development_goals.id&per_page=200",
+   "order": "most works first",
+   "order_default": true
+  },
+  "cost_usd": 0.0001
+ },
+ "group_by": [
+  {
+   "key": "https://openalex.org/sdgs/3",
+   "key_display_name": "Good health and well-being",
+   "count": 10764
+  },
+  {
+   "key": "https://openalex.org/sdgs/9",
+   "key_display_name": "Industry, innovation and infrastructure",
+   "count": 2648
+  },
+  {
+   "key": "https://openalex.org/sdgs/10",
+   "key_display_name": "Reduced inequalities",
+   "count": 2408
+  },
+  {
+   "key": "https://openalex.org/sdgs/11",
+   "key_display_name": "Sustainable cities and communities",
+   "count": 961
+  },
+  {
+   "key": "https://openalex.org/sdgs/4",
+   "key_display_name": "Quality education",
+   "count": 809
+  },
+  {
+   "key": "https://openalex.org/sdgs/2",
+   "key_display_name": "Zero hunger",
+   "count": 706
+  },
+  {
+   "key": "https://openalex.org/sdgs/13",
+   "key_display_name": "Climate action",
+   "count": 510
+  },
+  {
+   "key": "https://openalex.org/sdgs/7",
+   "key_display_name": "Affordable and clean energy",
+   "count": 508
+  },
+  {
+   "key": "https://openalex.org/sdgs/15",
+   "key_display_name": "Life on land",
+   "count": 369
+  },
+  {
+   "key": "https://openalex.org/sdgs/16",
+   "key_display_name": "Peace, justice, and strong institutions",
+   "count": 356
+  },
+  {
+   "key": "https://openalex.org/sdgs/6",
+   "key_display_name": "Clean water and sanitation",
+   "count": 296
+  },
+  {
+   "key": "https://openalex.org/sdgs/8",
+   "key_display_name": "Decent work and economic growth",
+   "count": 247
+  },
+  {
+   "key": "https://openalex.org/sdgs/14",
+   "key_display_name": "Life below water",
+   "count": 97
+  },
+  {
+   "key": "https://openalex.org/sdgs/12",
+   "key_display_name": "Responsible consumption and production",
+   "count": 96
+  },
+  {
+   "key": "https://openalex.org/sdgs/5",
+   "key_display_name": "Gender equality",
+   "count": 62
+  },
+  {
+   "key": "https://openalex.org/sdgs/1",
+   "key_display_name": "No poverty",
+   "count": 55
+  },
+  {
+   "key": "https://openalex.org/sdgs/17",
+   "key_display_name": "Partnerships for the goals",
+   "count": 7
+  }
+ ]
+}

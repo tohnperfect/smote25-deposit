@@ -1,0 +1,26 @@
+batch 061: 200 of 200 records done; include 22, unsure 11, exclude 167
+no records remain
+
+Look at first:
+- Lowest confidence: R18897 (unsure, low). It calls retrieval-augmented embedding enrichment a "dynamic oversampling strategy", but it seems to enrich features rather than generate minority examples.
+- Includes that only change how much existing oversamplers resample (I1-other): R03063 (GA-chosen sampling ratios) and R09784 (classification-intensity resampling; SMOTE is named only in the keywords). Please confirm that ratio-setting counts as "changes how SMOTE is applied".
+- Medium-confidence includes that need a full-text check:
+  - R14650: weighted oversampling; synthetic or duplicated?
+  - R00324: SwarmBoost; type of oversampling not stated.
+  - R00049 (2007): a "novel oversampling algorithm", not described.
+  - R07224 Synthetic-MixUp: the abstract's results mention only ROS and SMOTE.
+  - R10902 AdaCluCSL: close to k-means SMOTE.
+  - R19267 Fed-DiTTab: DiTTab may be prior work.
+  - R12089 SC-CTGAN, R08285 AWSMOTE-NN, R00094 ABUSVM (TRECVID notebook), R01006 (SMOTE plus a new noise filter).
+- Unsure, new or applied (clarification 3 and similar):
+  - R12937: ADASYN then CTGAN.
+  - R15562: RENN then SMOTE as "our proposed method".
+  - R17691: SMOTE plus Gaussian noise.
+  - R01363: bagging plus SMOTE; new scheme or existing SMOTEBagging?
+  - R02257: AP-SMOTE; whose method?
+  - R19693: Latin-hypercube/NN oversampler; benchmarked here, maybe proposed elsewhere.
+- Unsure, no abstract but in-scope titles: R01848 (adversarial minority over-sampling), R04223 (adaptive kernel SMOTE-SVM), R15541 (CSA-optimized SMOTE).
+- Not settled by the codebook: R21995 is a thesis (I3 names only journal, conference and preprint, and there is no exclusion code for document type), so it is unsure U-other. It designs a new semi-AI minority synthesis method.
+- Borderline E1 excludes worth a glance: R10804 and R15235 (no abstract, domain titles), R03565 ("SMOTE with SVM" called the proposed technique), R05780, R07472, R06743, R20046, R07863, R14412, R02929.
+- Front matter tagged front-matter-in-scope: R05424 lists an adaptive heterogeneous oversampling ensemble; R01465 (ICSE 2018) lists MAHAKIL.
+- Language: R03272 is Korean (E-LANG). R14700 (Indonesian title), R07344 (Ukrainian title) and R02138 (Thai title) have English abstracts and were excluded on content, but their full texts are likely not in English.

@@ -1,0 +1,12 @@
+list,rec,ai_code,person_decision,person_code,ruling
+2_includes,R21465,I1-new-variant,exclude,E-OTHER,A
+2_includes,R02455,I1-generative,exclude,E1,B
+2_includes,R15961,I1-new-variant,exclude,E1,B
+2_includes,R18475,I1-generative,exclude,E1,B
+2_includes,R05963,I1-hybrid,exclude,E1,B
+2_includes,R19288,I1-generative,exclude,E1,B
+2_includes,R02854,I1-generative,exclude,E1,B
+2_includes,R18047,I1-hybrid,exclude,E1,B
+2_includes,R01881,I1-generative,exclude,E1,B2
+2_includes,R01598,I1-generative,exclude,E1,B2
+2_includes,R08682,I1-generative,exclude,E1,B2

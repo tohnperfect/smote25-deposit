@@ -1,0 +1,343 @@
+{
+ "useaudit": {
+  "records": 300,
+  "coded": 300,
+  "missing": [],
+  "batches": [
+   "batch201_coded.csv",
+   "batch202_coded.csv",
+   "batch203_coded.csv",
+   "batch204_coded.csv",
+   "batch205_coded.csv",
+   "batch206_coded.csv",
+   "batch207_coded.csv",
+   "batch208_coded.csv",
+   "batch209_coded.csv"
+  ],
+  "records_all_fields_agree": 145,
+  "fields": {
+   "source": {
+    "n": 300,
+    "agree": 300,
+    "pct": 100.0,
+    "kappa": 1.0,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 38,
+     "pct": 100.0,
+     "kappa": null
+    }
+   },
+   "is_application": {
+    "n": 300,
+    "agree": 297,
+    "pct": 99.0,
+    "kappa": 0.819,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 38,
+     "pct": 100.0,
+     "kappa": null
+    }
+   },
+   "domain": {
+    "n": 300,
+    "agree": 291,
+    "pct": 97.0,
+    "kappa": 0.964,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 38,
+     "pct": 100.0,
+     "kappa": 1.0
+    }
+   },
+   "stakes": {
+    "n": 300,
+    "agree": 286,
+    "pct": 95.3,
+    "kappa": 0.911,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 37,
+     "pct": 97.4,
+     "kappa": 0.947
+    }
+   },
+   "modality": {
+    "n": 300,
+    "agree": 286,
+    "pct": 95.3,
+    "kappa": 0.92,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 35,
+     "pct": 92.1,
+     "kappa": 0.847
+    }
+   },
+   "resampler": {
+    "n": 300,
+    "agree": 274,
+    "pct": 91.3,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 38,
+     "pct": 100.0,
+     "kappa": null
+    }
+   },
+   "learner": {
+    "n": 300,
+    "agree": 269,
+    "pct": 89.7,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 37,
+     "pct": 97.4,
+     "kappa": null
+    }
+   },
+   "inside_folds": {
+    "n": 300,
+    "agree": 299,
+    "pct": 99.7,
+    "kappa": 0.986,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 37,
+     "pct": 97.4,
+     "kappa": 0.957
+    }
+   },
+   "vs_none": {
+    "n": 300,
+    "agree": 300,
+    "pct": 100.0,
+    "kappa": 1.0,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 38,
+     "pct": 100.0,
+     "kappa": 1.0
+    }
+   },
+   "vs_weights": {
+    "n": 300,
+    "agree": 300,
+    "pct": 100.0,
+    "kappa": 1.0,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 38,
+     "pct": 100.0,
+     "kappa": 1.0
+    }
+   },
+   "measures": {
+    "n": 300,
+    "agree": 287,
+    "pct": 95.7,
+    "kappa": null,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 37,
+     "pct": 97.4,
+     "kappa": null
+    }
+   },
+   "calibration": {
+    "n": 300,
+    "agree": 300,
+    "pct": 100.0,
+    "kappa": 1.0,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 38,
+     "pct": 100.0,
+     "kappa": 1.0
+    }
+   },
+   "validation": {
+    "n": 300,
+    "agree": 198,
+    "pct": 66.0,
+    "kappa": 0.389,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 38,
+     "pct": 100.0,
+     "kappa": 1.0
+    }
+   },
+   "test_balanced": {
+    "n": 300,
+    "agree": 297,
+    "pct": 99.0,
+    "kappa": 0.958,
+    "fulltext_counted": {
+     "n": 38,
+     "agree": 35,
+     "pct": 92.1,
+     "kappa": 0.865
+    }
+   }
+  }
+ },
+ "coverage": {
+  "records": 12,
+  "coded": 12,
+  "missing": [],
+  "batches": [
+   "batch201_coded.csv",
+   "batch202_coded.csv"
+  ],
+  "records_all_fields_agree": 8,
+  "fields": {
+   "fulltext_ok": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": null
+   },
+   "eligible": {
+    "n": 12,
+    "agree": 11,
+    "pct": 91.7,
+    "kappa": 0.625
+   },
+   "exclusion": {
+    "n": 12,
+    "agree": 11,
+    "pct": 91.7,
+    "kappa": 0.636
+   },
+   "label": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "generator": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "S": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "A": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "N": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "P": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "F": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "L": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "class": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "modality": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "n_datasets": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "vs_smote": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "vs_none": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "vs_cost": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "measures": {
+    "n": 12,
+    "agree": 9,
+    "pct": 75.0,
+    "kappa": null
+   },
+   "protocol": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "inside_folds": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "tuning": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   },
+   "stat_test": {
+    "n": 12,
+    "agree": 11,
+    "pct": 91.7,
+    "kappa": 0.815
+   },
+   "code": {
+    "n": 12,
+    "agree": 12,
+    "pct": 100.0,
+    "kappa": 1.0
+   }
+  }
+ },
+ "disagreements": {
+  "useaudit": 216,
+  "coverage": 6
+ }
+}

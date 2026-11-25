@@ -1,0 +1,10 @@
+batch 079: 200 of 200 records done; include 32, unsure 20, exclude 148
+no records remain
+
+Look at first:
+- Low confidence: R00100 (exclude E-COMPARE, no abstract, title only); R05954, R00483, R00279, R09448, R05878 (unsure).
+- Codebook does not settle: R09448 (SMOTE-Tomek sampling rate tuned by sparrow search: does tuning the amount count as changing how SMOTE is applied?); R05878 (SMOTE-Tomek-style generation used to test generalization, not to balance training); R05625 (excluded E-NOGEN: SSHR "oversamples" by pseudo-labeling unlabeled data, not synthesis); R08923 (dissertation abstract, I3 doubtful; HOVER graph oversampling).
+- Borderline includes (medium): R21964 (saliency-guided mixup for tail-class images: augmentation or oversampling?), R16720 (tiered class-dependent SMOTE amounts, simple heuristic), R03641 (log-ratio oversampling, synthetic generation not confirmed), R10190 and R12206 (domain papers with an "improved" ACGAN / SMOTE, improvement barely described), R00224 (SMOTE in bagging, close to SMOTEBagging), R16464 (dynamic SMOTE in federated learning), R21784 (SMOTE plus adversarial-autoencoder filter), R02458 (k-means cluster-based over/undersampling), R02707 (MOKCCAS, garbled abstract, may duplicate MOKAS: E4 check).
+- Borderline excludes (medium): R19895, R15174 (off-the-shelf WGAN / CGAN plus SMOTE in domain pipelines), R03742 (NNI plus SMOTE, task may be regression), R14586 (unspecified "modified SMOTE", record language Arabic), R01566 and R01931 (analyses of SMOTE / oversampling, coded E-COMPARE; useful background).
+- R01861: abstract "proposes" Geometric-SMOTE but frames it as a tool for remote sensing; check whether G-SMOTE is introduced here (E4).
+- E-LANG records that would otherwise be in scope (Chinese full text): R10478 (DPAS), R02265 (improved MSMOTE), R04237 (improved Borderline-SMOTE), R00104 (kernel SMOTE).

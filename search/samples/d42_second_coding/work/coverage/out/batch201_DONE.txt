@@ -1,0 +1,26 @@
+d42 coverage batch 201 (blind second coding, full texts): DONE
+
+Counts: n=6, fulltext_ok=6, eligible=6 (excluded=0), Core=2, Partial=0, Not counted=4.
+
+Codes I was least sure of:
+- R18850 (DIAO / DIAO-CP, segmentation): label Not counted / generator other. Copy-paste with alpha blending
+  combines two images pixel-wise, but with no seed-partner interpolation on the segment, so I did not count it as
+  interpolation. n_datasets=5 (4 Chesapeake regions run separately + OEM); it would be 2 if counted by source.
+  vs_cost=yes because the baseline uses focal loss and there are Dice/Tversky baselines. stat_test=no because
+  significance rests only on 95% CI overlap. protocol=cv (the paper says 10-fold CV despite also describing a fixed
+  4000/450/700 split). tuning=nr.
+- R00308 (OAA-DB): treated as the paper's own multiclass oversampling scheme (OAA + SMOTE + CMTNN cleaning +
+  codeword switching), so eligible. If it were read as existing parts under ruling B, the comparison has no other
+  resampler (OAA, OAO, A&O, OAHO are decomposition schemes, though the paper calls OAHO a balancing technique), so
+  it could fail B. F=yes (CMTNN cleaning). L=no (SMOTE runs once per binary subproblem before training).
+  measures include per-class accuracy (recall) and its average (balanced accuracy).
+- R01882 (ICVAE-DNN): own under B2 because of a stated change to conditioning (label in decoder only) plus a
+  reconstruction-loss filter. FPR coded as specificity. n_datasets=2 (the paper counts three because of two NSL-KDD test sets).
+- R17554 (PCT-GAN): measures include `other` for the psychometric validity indicators of the dual-axis comparison.
+  vs_cost=yes (NoAug with class-weighted RF). code=no: a public repository is claimed but no link is given.
+- R04920 (latent-preserving GAN): vs_none=no (the paper's classifier is never reported without resampling; baseline
+  results are copied from the DGC paper). inside_folds=stated, from the separate training and test sets in Table I.
+- R00007 (SDC = SMOTE + different error costs): ruling B passed (compared with SMOTE and undersampling). All six
+  decision points are `no` because the change is only in the learner's costs. tuning=test because the kernel was
+  chosen by the "best empirical results" with no validation set. inside_folds=stated is read from the parallel
+  wording "undersampled the training data" / "oversampled the data instead".

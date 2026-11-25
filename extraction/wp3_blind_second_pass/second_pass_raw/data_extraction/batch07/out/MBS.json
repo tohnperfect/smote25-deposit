@@ -1,0 +1,23 @@
+{
+ "data_key": "MBS",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Kaggle",
+  "Synthetic"
+ ],
+ "crit": "not stated in paper",
+ "crit_type": "not stated",
+ "basis": [],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Undersampled",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "not stated",
+ "modified_data_released": "no",
+ "notes": "No reason for choosing the 13 datasets; the only statement is that all are publicly available (Kaggle/UCI). Borderline: an adjudicator could read 'publicly available' as generic/replicability, but the paper does not say the data were chosen for it. Binarisation is NOT described anywhere: Table 2 shows two-class counts for UCI datasets that are multiclass at source (Satimage, E.coli, Shuttle, Vehicle) and for Kaggle 'Diabetes'; Binarised/binarised_by=authors is inferred from UCI (multiclass) source + binary counts, and the minority class is never named, hence minority_rule 'not stated'. Natural coded for natively two-class sets such as Haberman, Pima, Spambase (domain knowledge, not stated in the paper). Undersampled: Sec. 5.4 removes 20-80% of minority training samples (Fig. 10; datasets not named in text). Generated: Sec. 5.5 / Fig. 11 simulated two-feature Gaussian samples (illustration). GitHub link is for code and 'detailed introduction for each dataset'; not stated to hold modified data, so modified_data_released 'no'. Table 2 IR column prints minority:majority(minority %), e.g. 626:5809(9.7%), so n_minority is copied from it; no class counts printed. Table 2 (pdf p.7, printed 1549) and Table 3 (pdf p.8, printed 1550) checked on the PDF. Three MBS variants (MBS_linear, MBS_CART, MBS_SVR); MBS_linear is the variant the text promotes; on Satimage MBS_SVR (0.7649) beats MBS_linear (0.7645)."
+}

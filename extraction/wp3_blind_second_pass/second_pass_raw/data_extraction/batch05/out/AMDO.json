@@ -1,0 +1,24 @@
+{
+ "data_key": "AMDO",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL",
+  "Private"
+ ],
+ "crit": "Only data sets with IR>1.5 are selected and, to ensure fair comparison via cross-validation, data sets whose minimum class has fewer than 10 samples are excluded; 10 numeric and 5 nominal/mixed-type benchmarks (the second aim is to verify AMDO on mixed-type data); two additional data sets corresponding to a real-world precipitation phase recognition problem for the meteorological service are included.",
+ "crit_type": "own reason",
+ "basis": [
+  "threshold rule",
+  "method-target",
+  "application"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "?",
+ "modified_data_released": "n.a.",
+ "notes": "All 17 data sets are multi-class (3-6 classes, Table 1 p.7, which prints a class distribution per data set, not a single minority count). minority_rule coded '?': the paper gives one general rule, every class except the single largest one is a minority (footnote 1, p.3), which matches no codebook category exactly (closest: 'mean-size or IR threshold' as a written multiclass rule; alternatively 'not defined' because no per-data-set minority is named, except sleet for Pre2D/PreND). Origin: authors removed classes with fewer than 10 samples from Ecoli and Nursery and removed instances with missing values from Dermatology (p.6); no origin category covers class removal, so only Natural is coded and modified_data_released is n.a.; if the adjudicator treats class removal as a modification, released would be 'no' (no data/code availability statement found). Hayes-roth (51/51/30) and Balance (288/49/288) have two equally large classes, so the 'single majority class' rule is not well defined for them. Pre2D/PreND (CMA, 888 weather stations) use a temporal train/test split rather than CV; UCI vs KEEL origin of each benchmark is not given per data set. IR threshold 1.5 is cited to [37] and [38] (p.5)."
+}

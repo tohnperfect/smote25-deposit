@@ -1,0 +1,10 @@
+batch 095: 200 of 200 records done; include 27, unsure 13, exclude 160
+no records remain
+
+Look at first:
+- Low-confidence unsures (existing generator or step presented as a method, clarification 3): R05524 FHR-KNN hybrid resampling; R13353 SMOTE+ADASYN+ROS "combined" method; R14622 synonym replacement + oversampling; R05289 ENN then SMOTE then SVC; R15788 unspecified "improved SMOTE"; R12012 cluster-wise CGAN; R11823 C3GNN (Mixup in every subclass after splitting majority classes, not minority-specific).
+- I2 not stated in the abstract (unsure U-other): R17123 IR-SMOTE, R21011 PF-SMOTE, R02383 COSM. R10871 has no abstract (ADASYN + SVM undersampling, two-stage).
+- Medium-confidence includes to confirm: R06503 CSMOTE (is it new compared with existing cluster-SMOTE?); R09322 local resampling for LWNB; R10487 AEKS K-Means SMOTE in a stream ensemble; R22312 kernel thinning with SMOTE variants; R12883 CycleGAN-M for disease detection (the task is object detection); R08532 PEGASUS/back-translation minority text; R21449 REPEAT autoencoder oversampling; R09557 Gaussian pseudo-feature oversampling in continual learning; R00239 one-class-SVM + SMOTE SVM ensemble; R00873 ISBA swarm-tuned SMOTE; R21567 log-interpolated SMOTE targets (I1-multiclass).
+- Cases the codebook does not settle: R08048 (ROS replaces RUS inside ensembles) and R21450 RSFR (a new oversampler that explicitly generates no synthetic examples), both excluded E-NOGEN. R07071 NaN-Bicluster SMOTE is a new variant excluded only as E-LANG (Chinese). R04548 is off-topic (signal oversampling ratio), coded E-NOGEN for lack of an off-topic code.
+- Medium-confidence excludes: R16609 noise-based sampler in a solar-flare evaluation; R22134 density-aware Cluster-SMOTE+ENN inside an IDS; R18905 ChatGPT-generated images; R09134 AugOS-CNN; R17621 SMOTE-variant + GAN augmentation in a credit pipeline; R01510 SMOTE before stacking.
+- Front matter with in-scope titles: R00452 (ANNPR 2014), R00716 (PAISI 2016), R07354 (NCTCS 2023, Region-SMOTE).

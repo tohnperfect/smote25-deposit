@@ -1,0 +1,19 @@
+batch 001: 200 of 200 records done; include 35, unsure 82, exclude 83
+no records remain
+
+Look at these first:
+1. Low-confidence excludes (they will not reach full text otherwise): R01854 (plain GAN on FFT spectra for bearing faults, compared with ROS/SMOTE/PCO), R20368 (SMOTE then cWGAN chain), R12493 (SMOTE tuned by a hummingbird optimizer), R18180 (SMOTE in autoencoder latent space), R15006, R11620, R01632, R13353, R13225, R02629.
+2. Low-confidence includes: R19244 (new adversarial generation module inside a federated-RL fraud model), R02648 (clustering-SMOTE embedded in a random forest, domain paper).
+3. Cases the codebook does not settle (marked unsure unless stated):
+   - Book chapters with a new oversampler; I3 lists only journal, conference and preprint: R01341 (AEMNOST), R00741 (OUPS), R04756 (modified WGAN-GP).
+   - Theory of SMOTE, no method and no exclusion code fits: R07987, R22032 (probably related papers on SMOTE convergence).
+   - Multiclass scheme that duplicates rather than synthesizes: R00075. Minority enlarged with pseudo-labelled real data, excluded E-NOGEN: R05435.
+   - Full text may not be in English: R03618 (Indonesian title, improves MWMOTE), R01842 (IDP-SMOTE, Chinese journal, no abstract).
+   - Purpose other than imbalanced classification (clarification 1): R08817 (fairness, FAWOS), R15569, R20708, R08218, R19882, R07661, R17454, R09534; R22396 (anomaly detection) and R11523 (survival analysis) may be E2.
+4. Clarification 2 (I2 not stated): seven 2026 Zenodo SMOTE-variant preprints share one template with only "theoretical analysis" (R18543, R21486, R21495, R20496, R19265, R16060, R17103), possibly from one source; R18543 and R21495 both use the name DD-SMOTE. Also R13900, R03926, R12764, R11581.
+5. Consistency checks:
+   - R10025 (SIRSYN, 60 KEEL datasets, 13 baselines) and R07622 (RO-SMOTE) are unsure only through clarification 3; SIRSYN is a strong include candidate.
+   - R15320 (unsure) uses MOSD, which R12658 (E1) also treats as an existing technique, so R15320 is probably E1.
+   - R20205 (local-LLM augmentation, unsure) follows the same pattern as R19389, R21984 and R16092 (off-the-shelf GAN, CTGAN or TVAE, all E1); align them at the check.
+   - SMOTE+ENN or NearMiss+SMOTE claimed as novel went to unsure (R08259, R10660, R03543, R10696, R13498); unclaimed uses were E1 (R05289, R19188).
+   - R06099 (SMOTified-GAN, include) and R08817 (FAWOS) reuse names of published methods; check whether they are applications or republications.

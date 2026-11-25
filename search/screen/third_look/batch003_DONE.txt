@@ -1,0 +1,18 @@
+batch 003: 200 of 200 records done; include 41, unsure 93, exclude 66
+no records remain
+
+Look at first:
+- Probably in-scope but sent to unsure by clarification 3 (existing generator plus existing filter, generation unchanged): R00702 (SMOTE-IPF, a well-known SMOTE extension), R14388 (MWMOTE-FRIS-INFFC), R17126 (WGAN-GP-ENN), R10520 (CTGAN+K-Means), R06935 (KMeansSMOTE+NCR).
+- Low-confidence excludes that could be in scope: R00005 (multiple-resampling scheme; the abstract never says whether its oversampling is synthetic), R22032 (theory of SMOTE convergence; excluded as E-COMPARE, the closest code, and tagged comparison; likely useful as background), R01610 (SPIDER3, replication-based by the abstract), R09148 (online bagging), R04172 (the "novel" oversampler reads as a near paraphrase of ADASYN; possible integrity issue).
+- Low-confidence includes where the abstract never says whether the oversampling synthesizes or replicates (they would be E-NOGEN if it replicates): R00750, R07821, R06508, R02158, R00980, R01563, R12994, R09604, R13907, R00875, R01069, R05579, R18320, R03023, R01951, R00770, R13793.
+- Document type and language: R08563 (chapter in an edited book; unsure because no exclusion code fits), R03571 / R08923 / R00112 / R00110 (theses or dissertations, included at low confidence), R02650 (conference abstract), R15921 (Ukrainian title despite en metadata, excluded E-LANG), R00032 (venue may publish in Chinese).
+- 15 Zenodo 2026 SMOTE-variant preprints that report only theoretical analysis (clarification 2, unsure): R18471, R21011, R21499, R18157, R20941, R21906, R21601, R19455, R20627, R17240, R21358, R18686, R18956, R18035, R17111. They look like one series and may have no experiments. R19455 closely resembles the existing GraphSMOTE. R02383 (COSM) is also a clarification 2 case.
+- Pairs to check together: R13568 and R08324 (same GA feature selection + SMOTE + 1D-CNN pipeline, both unsure); R04283 (origin of TFFO, unsure) and R07520 (reuses it, E1).
+
+Cases the codebook does not settle:
+1. Instructions step 3 allows unsure only as U-no-abstract or U-new-or-applied, but codebook clarifications 1 and 2 require U-other. I followed the codebook: 29 rows are U-other (12 under clarification 1, 16 under clarification 2, and R08563 for the document-type gap).
+2. E2 and clarification 1 overlap for new SMOTE extensions built for regression, clustering or planning: R22331, R21744, R01790, R19617. I sent them to unsure under clarification 1; E2 would exclude them.
+3. There is no code for theory papers (R22032) and no exclusion code for book chapters or theses (R08563).
+4. SMOTE inside an ensemble with generation unchanged: I included the methods papers (R01755 modified SMOTEBagging, R00396 SelectSMOTEBoost) and excluded classifier fusion (R03558) and domain predictors that rerun SMOTE in an ensemble (R00326, R01317).
+5. Metaheuristic tuning of SMOTE parameters: included where it is the method (R01761), excluded where it is a preprocessing step in a domain pipeline (R09448), unsure where unclear (R13932).
+6. Combinations that already exist as named variants (SMOTE-ENN, SMOTE-Tomek, SMOTE+RUS) but are called novel were excluded as E1 rather than sent to unsure under clarification 3: R13406, R04295, R07169.

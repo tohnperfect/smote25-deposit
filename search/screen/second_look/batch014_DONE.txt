@@ -1,0 +1,18 @@
+batch 014: 200 of 200 records done; include 46, unsure 56, exclude 98
+no records remain
+
+Look at these first:
+1. Low confidence (12): R21291, R16755, R04520, R04412, R16992, R04924, R16866, R06018, R02881, R13499, R21240 (all unsure) and R17473 (exclude E1, no abstract, "under data imbalance" in title).
+2. Codebook conflicts:
+   - R15688 (SMOTE-style synthetic series for forecasting) and R09450 (LLM self-improvement sampling) are recorded E2 (no classification). Clarification 1 (generator built for another purpose -> unsure) could also apply.
+   - R09530 is a PhD thesis with several new SMOTE extensions. It meets I1 and I2 but fails I3, and no exclusion code covers theses. Recorded unsure U-other.
+   - R21605 ("proposes a hybrid sampling strategy", RUS + SMOTE-ENN, in an IDS paper) and R07023 (SMOTE + k-means cleaning, Pima dataset) are recorded E1. Under clarification 3 both may belong in unsure. Other records were split by the same rule: combos claimed as a new method -> unsure (R09494, R13499, R05178); combos only "used/incorporated" -> E1 (R15691, R19323).
+3. Questions the codebook does not settle:
+   - Does moving existing samples count as generating them? R06750 MaMiPot was included (it is also used as a SMOTE preprocessor); R21508 DERSMOTE is unsure.
+   - Does applying SMOTE in a learned embedding or latent space count as a change? R05210 SASMOTE was included; R20035 STESO and R19246 are unsure; R12533 is E1.
+   - Existing GAN/VAE models used as oversamplers in a domain were excluded E1 (R19867, R18885, R04355, R03773, R17124, R05364, R15885). R01446 (text-GAN data-space oversampling of URLs) was included as a new technique.
+4. Zenodo 2026 preprints in near-identical form, sent to unsure by clarification 2 (theory only): R18157, R17023, R17106, R17601, R21483, R19455. Check that they are genuine. R19455 "Graph SMOTE" shares its name with an earlier published method. R20204 (included) and R21508 do claim results on data.
+5. Possible language or duplicate problems at full text:
+   - Language field says en, but the venue may publish in Chinese: R00228 (included) and R07076 (unsure).
+   - R04908 is a KNNOR software paper and may be E4 against the main KNNOR article.
+   - R05757 (IGAN) may re-implement an earlier IGAN.

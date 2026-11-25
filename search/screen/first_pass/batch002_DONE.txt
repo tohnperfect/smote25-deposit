@@ -1,0 +1,11 @@
+batch 002: 200 of 200 records done; include 25, unsure 18, exclude 157
+no records remain
+
+Records a person should look at first:
+- Cases the codebook does not settle: R22258 (theory paper on when synthetic minority augmentation helps; coded E-COMPARE for lack of a theory code, may matter elsewhere in the survey); R03478 (long-tailed detection that over-samples stored instance features, coded E-NOGEN); R12989 (evaluation of GPT-4 few-shot minority text generation, coded E-COMPARE).
+- Borderline includes (medium confidence): R15468 (SMOTEHashBoost: SMOTE inside boosting vs clarification 3, evaluation only vaguely stated); R07445 (existing D2GAN plus adaptive neighbourhood cleaning, may fall under clarification 3); R03551 (novelty mainly in ACO undersampling); R09879 (relabeling augmentation that reuses majority-class readings); R03011 and R15170 (new oversamplers described in a single line); R19804 (generator built for general diversity, then used for class balancing); R13306 (GAN augmentation of sequences, possibly an existing GAN applied).
+- Borderline excludes (medium confidence): R16524 (Borderline-SMOTE + ENN inside a domain pipeline, E1 rather than clarification 3); R19418 (benchmarks six existing generative oversamplers in a domain); R03940 (plain SMOTE used to build Wi-Fi fingerprint maps); R07723 and R07508 (no abstract, domain titles).
+- Unsure, clarification 3 (existing generator + existing step presented as new): R00164, R15662, R08002, R06083.
+- Unsure, resampler of unclear novelty in a domain paper: R04609, R10553, R13128, R13899, R08942, R02662, R10911, R03722, R19416, R02345, R05845.
+- Unsure, other: R19256 (FI-SMOTE, I2 not stated in the abstract); R06884 and R02237 (no abstract, titles name new oversamplers).
+- Language note: R04918 and R14474 have Indonesian titles but language field en; both excluded E1 regardless.

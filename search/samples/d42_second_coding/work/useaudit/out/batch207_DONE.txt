@@ -1,0 +1,13 @@
+d42 useaudit batch 207 (blind second coder): done
+n=10, fulltext=10, abstract=0, application=10 (no=0)
+inside_folds: stated=4, before-split=4, nr=2
+test_balanced: yes=4, no=4, nr=2; vs_none yes=6; vs_weights yes=1; validation internal=9, external=1
+confidence: high=6, medium=4
+
+Least sure:
+- R01707 is_application=yes: the "smart sampling" contribution is plain SMOTE vs random under-sampling (Fig. 9); it is listed as a contribution and compared, so rule B could read it as own (no).
+- R00138 is_application=yes: GA-selected Dempster-Shafer fusion of SVM/KNN models on under, SMOTE and under+SMOTE data; read as a fusion pipeline of existing samplers, not an own choice-among-samplers method.
+- R01527 inside_folds=before-split, test_balanced=yes: rule D on class counts (BSIS 46,176 = whole ISIS + 10,008 Borderline-SMOTE images) and "test accuracy in BSIS"; the split itself is never described.
+- R08273 inside_folds=stated: rests on one sentence ("SMOTE applied to the training dataset"); no split described and the reported P/R/F1 are mutually inconsistent.
+- R00727 test_balanced=yes and validation=external: CV/jackknife folds were SMOTE-balanced (rule D arithmetic), but the independent test set (13/51) is natural.
+- Minor: R20299 stakes=individual (transaction fraud); R15036 domain=medicine (occupational burnout, could be business/HR).

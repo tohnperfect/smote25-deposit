@@ -1,0 +1,24 @@
+{
+ "data_key": "MDO",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL",
+  "Synthetic"
+ ],
+ "crit": "20 multi-class benchmark data sets from the UCI and KEEL repositories used to evaluate an over-sampling method 'for multi-class imbalanced problems'; 'These data sets have at least one class with significantly smaller number of instances than other classes'; abstract calls them 'wide spectrum multi-class imbalanced benchmarks' (IR 1.09-439.6, 3-26 classes, 106-20,000 instances). A five-class 2-D artificial data set is used only for illustration (Figs. 3-5).",
+ "crit_type": "own reason",
+ "basis": [
+  "method-target",
+  "diversity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Generated"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "n.a.",
+ "notes": "Table 1 (p.246) is readable in the text file; checked against the PDF. Minority definition is double: for IR and %Min the minority is the single smallest class (p.245: 'the class with minimum number of examples is the minority class'; %Min matches smallest class / size), while Table 1 lists several 'Minority Class' names per dataset (coded explicit target listed). Typos/inconsistencies: winequality-red distribution '981/638/199/53/18/10' sums to 1,899, not the printed size 1,599 (IR 68.1 implies 681); Contraceptive %Min printed '22.61' and UKM '9.3' without '%'; Abalone class list has a missing quote ('13,). Ecoli is listed with 5 classes/327 instances and Abalone with 18 classes/4,139 instances; the paper never says whether small classes were removed, so no modification coded. The five-class artificial data set (Figs. 3-5) is illustration only; its generator is not described. 'These data sets have at least one class with significantly smaller number of instances' is a qualitative criterion (not coded as threshold rule). Conclusion (p.250) notes all data sets have numeric attributes (stated as a limitation, not as a selection reason)."
+}

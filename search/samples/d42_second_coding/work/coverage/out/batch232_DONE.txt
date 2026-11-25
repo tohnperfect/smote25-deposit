@@ -1,0 +1,10 @@
+d42 coverage batch 232: n=4, eligible=4, Core=4, Partial=0, Not counted=0
+fulltext_ok=yes for all 4 (R00491, R00832, R11455, R03488); exclusions: none.
+
+Codes I was least sure of:
+- R00832 (SMOTERandRep): label Core with P=yes. The generator copies log2(a) attribute values from a k-nearest neighbour into the seed (per-attribute lambda in {0,1}, a uniform crossover), not arithmetic interpolation; Not counted with generator=other is the alternative. N=no although k=log2(a) (global rule, not per-point adaptive). Only SMOTERandRep coded; the other four proposals are random over/undersampling variants with "lax" targets.
+- S and A overlap: R00491 (SDSMOTE, support-degree selection probability, "area near the sample should produce more samples") and R11455 (ADASYN inside TaA) both coded S=yes and A=yes, for consistency with the codebook's "weighted by a score" (S) and "differs between seeds by a weight" (A).
+- R11455 (TaA = Tomek links + ADASYN): eligible under ruling B (presented as the authors' new algorithm and compared with SMOTE, ADASYN, Tomek links, TaS). F=no because the order of Tomek and ADASYN is not stated. Tuning=test: SVM settings chosen by max CV F-score/AUC, and those validation-sample scores are the main comparison (Table I); only TaA vs none has a separate test set. inside_folds=nr. Modality tabular although the data are called a "multidimensional time series" (samples are 19-parameter vectors).
+- R00491: inside_folds=before-split (datasets preprocessed, synthetic samples "participate in training and testing", then 10-fold CV).
+- R03488 (FAWOS): eligible although the oversampled group is the positive unprivileged subgroup (fairness imbalance), not the minority class. N=yes (partner restricted to same target and sensitive values, HEOM). Measures accuracy;other (ADI, AOD); tuning=test (alpha chosen by best reported AOD).
+- Provenance: the IEEE texts (R00491, R11455) carry a "Downloaded on November 14, 2026" stamp; the task said 16 November. Each text is the paper its title names.

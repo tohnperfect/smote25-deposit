@@ -1,0 +1,10 @@
+batch 048: 200 of 200 records done; include 24, unsure 19, exclude 157
+
+Look at these first:
+- Low confidence: R02779 (excluded E1; garbled abstract, SMOTE plus an unspecified clustering step), R19672, R10273, R04092, R00176 (all unsure; too little detail to tell whether the oversampling step is new or in scope).
+- Clarification 3 (existing generator plus a cleaning or selection step): R12404 DOFCM-SMOTE, R07991 AFS-O, R19907 SMOTE-IH were sent to unsure. R04190 iF-ADASYN was included as I1-hybrid because its abstract presents a new anomaly index. Check that these four are handled the same way.
+- I2 not stated in the abstract (new SMOTE variants, no experiments named): R21358 RA-SMOTE, R17106 LSG-SMOTE. Other purpose (privacy synthesizer, oversampling only a by-product): R15569.
+- Augmentation used as minority oversampling, which the codebook does not settle: R21584 (included I1-other, targeted ECG augmentation with adaptive synthetic counts); R05174, R04357, R12902, R07107, R18703 (unsure).
+- Included at medium confidence because the generator may be existing: R21623 SC-GAN, R00865 modified SMOTE, R12767, R04536, R01235.
+- Excluded on language only, otherwise in scope: R02348 (Turkish, GAN plus edited KNN oversampler), R02493 (Chinese, CNN feature-space oversampling).
+- Pointers to other papers: R03397 is a reuse note; the TSE 2021 Yedida and Menzies paper it documents may be in scope. Front matter tagged front-matter-in-scope: R04052, R01515, R07348.

@@ -1,0 +1,13 @@
+batch 016: 200 of 200 records done; include 54, unsure 67, exclude 79
+no records remain
+
+Look at these first (record number in batch order, then rec id):
+- Low-confidence excludes, decided from the title only (no abstract): 41 R17387, 113 R22241, 124 R06442.
+- Low-confidence include: 54 R02424 (batch-wise SMOTE+ENN inside LSTM training in a factory-quality paper; it could also be read as E1).
+- Language: 50 R01096 excluded E-LANG (record language zh), but its SD-ISMOTE method is in scope. 121 R00321 included (B-ISMOTE); the metadata says en, but the venue is a Chinese journal, so check the full-text language. The no-abstract records 35 R01541 and 81 R03760 are in Korean venues.
+- Document types the codebook does not settle: 141 R01596 is a doctoral thesis proposing HSBagging, marked unsure because I3 lists only journal, conference and preprint and no exclusion code fits. The book chapters 88 R16043 and 147 R03347 were excluded as E1 on content.
+- Clarification 1 (purpose other than imbalanced classification), all marked unsure: fairness 29 R03601, 32 R05574, 169 R08068, 179 R04379; EV charging planning with a SMOTE extension 182 R22331; segmentation domain adaptation 164 R15812; general augmentation 75 R12565, 148 R12138. Related case: 105 R18465 (differentially private upsampling) was included as I1-other but could be read as a privacy purpose.
+- Clarification 2 (I2 not stated), mostly new SMOTE variants that would be includes once evaluation is confirmed: 4 R04170, 53 R16068, 48 R17240, 60 R20219, 64 R17399, 178 R19899, 129 R01335, 19 R00175, 154 R02133.
+- Borderline E1 calls on existing generators applied in a domain: 59 R04502 (ACGAN feature generation, "we apply this idea"), 68 R05403, 79 R05650, 23 R18859 (CTGAN with a range constraint).
+- Possible consistency issue: 62 R20825 (SMOTE applied per region) was marked unsure, while the cluster-wise SMOTE in 117 R09155 and 65 R02544 was included.
+- 133 R02709 (parSMURF) was included, but it is a parallel version of an earlier sequential tool, so check E4 at full text. 7 R00983 (deep boosting): unclear whether SMOTE is part of the method.

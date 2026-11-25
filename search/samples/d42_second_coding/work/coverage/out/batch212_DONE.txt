@@ -1,0 +1,18 @@
+d42 coverage batch 212: n=6, eligible=5, Core=3, Partial=0, Not counted=2
+Not eligible: 1 (R01069 NOT-GEN). No exclusions under ruling B or B2.
+
+Codes I was least sure of:
+- R00194 (KDEBS): ruling B2 call. KDE sampling in PCA space, but the paper states changes (diagonal covariance, local variances
+  estimated from K-means clusters), so I took it as the paper's own and eligible. A stricter reading (standard KDE in a learned
+  space) would give E1 under ruling B2. Tuning coded nr: PCs fixed "based on different trial runs", scoring data not stated.
+- R00684 (SMOTE_mv): P=yes is borderline. A coordinate with a missing value gets the minority-class mean, i.e. a combination of
+  many instances, read like SMOTE-NC. N=yes is firm (roulette-weighted partner choice). Tuning=test: the SMOTE percentages were
+  chosen over repeated runs scored on the test folds.
+- R08349 (M2M-style translation): generator coded perturbation (an optimized perturbation of one majority seed; "other" is
+  possible). class=M because N/S/V are kept, although the classifier works in two binary steps. vs_smote=plain and vs_cost=yes
+  rest only on published results in Table V ([40] used SMOTE, [12] a batch-weighted loss).
+- R00069 (kRNN outlier removal + SMOTE + RUS): passes ruling B (presented as own, compared with SMOTE+RUS without elimination).
+  vs_smote=plain for that SMOTE+RUS competitor. The VDM metric for categorical data is used in both arms, so not coded N. The
+  test set is the entire dataset: protocol other, inside_folds before-split.
+- R02143 (CUSS): A=yes because a new distance rule sets the total synthetic count. Its "AUC" is (1+TPR-FPR)/2 (equal to
+  balanced accuracy), coded ROC-AUC as named.

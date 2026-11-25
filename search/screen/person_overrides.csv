@@ -1,0 +1,10 @@
+rec,decision,code,note
+R02563,include,I1-other,team lead D30 (12 Nov 2026): oversamples rare vehicle categories by an oversampling-and-stitching scheme of its own; ruling C keeps detection in scope
+R03286,exclude,E-OTHER,"team lead D30 (12 Nov 2026): makes features for unseen classes (generalized zero-shot learning), not minority oversampling (fails I1); not excluded for its task"
+R07337,exclude,E-OTHER,"team lead D30 (12 Nov 2026): makes features for unseen classes (zero-shot learning), not minority oversampling (fails I1); not excluded for its task"
+R13287,exclude,E-OTHER,"team lead D30 (12 Nov 2026): general image data generation for all classes, not minority oversampling (fails I1); not excluded for its task"
+R15345,exclude,E-OTHER,"team lead D30 (12 Nov 2026): makes features for unseen classes (generalized zero-shot learning), not minority oversampling (fails I1); not excluded for its task"
+R16630,include,I1-generative,team lead D30 (12 Nov 2026): a generative network of its own for the under-represented crack images; ruling C keeps segmentation in scope
+R17454,include,I1-new-variant,team lead D30 (12 Nov 2026): borderline oversampling of the rare failing tests; ruling C keeps ranking in scope
+R17698,include,I1-new-variant,team lead D30 (12 Nov 2026): latent interpolation of under-represented lesion classes; ruling C keeps segmentation in scope
+R00004,include,I1-hybrid,"the authors (23 Nov 2026): an unsure record that is a corpus paper, read in full by the authors, is decided by their reading; SMOTEBoost runs SMOTE inside each boosting round as its own method and compares it with boosting without it (rulings B and B2 met)"

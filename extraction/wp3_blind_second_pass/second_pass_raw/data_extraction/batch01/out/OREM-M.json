@@ -1,0 +1,30 @@
+{
+ "data_key": "OREM-M",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "UCR",
+  "Synthetic",
+  "Other"
+ ],
+ "crit": "Two-class experiment: '28 two-class imbalanced datasets are selected from UCI' (no reason given). Multiclass experiment: '21 multiclass real-world imbalanced datasets are selected ... They contain widely used ordinal regression benchmark datasets [39] and UCI datasets [33]'. Supplementary high-dimensional study: the main-paper datasets are low-dimensional and high-dimensional imbalanced classification is 'a more challenging problem'; group 1 = 'all the two-class datasets with imbalance degree higher than 1.5 in 2015 UCR time series repository'; group 2 = 'eight gene expression microarray datasets used for tumor classification'. Supplementary S5: a simulated imbalanced dataset 'to visually demonstrate the differences in oversampling mechanism'.",
+ "crit_type": "own reason",
+ "basis": [
+  "popularity",
+  "prior-work",
+  "threshold rule",
+  "difficulty",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "Partly: W. Chu and Z. Ghahramani, 'Gaussian processes for ordinal regression' (JMLR 2005) [39], cited as the source of the 'widely used ordinal regression benchmark datasets' among the 21 multiclass datasets (the paper does not say which ones). Otherwise not stated in paper.",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Class-merged",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Four data groups: (1) 28 two-class sets 'selected from UCI' (main Table 2, p.6174), many binarised by the authors with explicit minority/majority columns, several with merged classes ('Car'&'Con', '2'&'4'&'9' vs other classes; Win-red '4'&'7' vs '5'&'6' and Win-white '4'&'8' vs '5'&'6'&'7', where the remaining classes are left out without comment); (2) 21 multiclass sets (main Table 6, p.6177, minority classes in bold) from 'ordinal regression benchmark datasets [39] and UCI'; the paper calls all 21 'real-world' (including 'Toy') and never explains how derived sets such as Voice3/Voice6, Vowel4/Vowel5, Wisconsin5, Auto5, Stock10, Housing10 were built, so no class-merging/discretisation was coded for them; (3) supplementary S6: 8 UCR two-class time series (IR > 1.5 rule) and 8 microarray sets cited to original papers [44]-[50] (SRBCT split into pairs 'NB' vs 'EWS' and 'BL' vs 'RMS'; others several-vs-all-other-classes); (4) supplementary S5: one simulated 2-D dataset (60 minority, 584 majority, 6 'noisy minority samples' that are part of the generated design; not coded as Noise-injected). No reason is given for the 28 UCI sets nor for the 7 sets used in the q-parameter study. No dataset/code link or availability statement found (searched http, github, available, request). Inconsistencies between main Table 2 and supplementary Table S2 (n_min, n): Vehicle 'van' 199/647 vs n_min 217, n 846; Ecoli-pp 52/255 vs n_min 64, n 336; Win-red 252/1319 vs n 1599; Win-white 338/4537 vs n 4873. Typo 'Risk factor scervical cancer' as printed. For the dataset rows (Table 6), Table 6 prints only the class distribution, |C|, |F| and IR; n and n_min are printed in supplementary Table S3 (supp p.7) and were copied from there (see CSV notes). Table S24 is on supplementary p.40 (all 21 rows on that one landscape page); the page hints p.23/p.37 in the to-fill file do not match."
+}

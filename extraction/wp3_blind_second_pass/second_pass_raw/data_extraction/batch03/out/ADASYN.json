@@ -1,0 +1,23 @@
+{
+ "data_key": "ADASYN",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Synthetic"
+ ],
+ "crit": "Five 'real-world machine learning data sets' that 'are available from the UCI Machine Learning Repository'; to obtain two-class imbalanced problems the authors 'made modifications on several of the original data sets according to various literary results from similar experiments [17] [29]' (Abalone 18 vs 9 'as suggested in [17]'). No reason is given for choosing these particular data sets; an artificial Gaussian data set is used only to illustrate the effect of beta (Fig. 1).",
+ "crit_type": "cites prior work",
+ "basis": [
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "[17] Guo & Viktor, DataBoost-IM (SIGKDD Explorations 2004) and [29] Provost, Fawcett & Kohavi (ICML 1998): modifications made 'according to various literary results from similar experiments [17] [29]'; the paper does not say a whole dataset list was reused",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Printed page numbers are IJCNN 2008 proceedings pages (pdf p.3 = 1324, p.4 = 1325, p.5 = 1326). crit_type is borderline between 'cites prior work' and 'not stated': the citation of [17] [29] is attached to how the data were modified (binarised), not explicitly to why these five data sets were chosen; the two-class focus is given as the reason for the modifications (could be read as method-target, but it is not a reason for choosing the data sets, so not coded). Binarised: Vehicle (Van vs rest), Vowel (first vowel vs rest), Abalone (class 18 vs class 9, other 27 classes dropped; feature 'sex' also removed). Pima and Ionosphere used with native two classes. No link or supplement with the modified data sets; only the UCI repository URL is given. Table I has no class-count and no IR column. Table II reports five metrics (OA, Precision, Recall, F_measure, G_mean) for Decision tree, SMOTE and ADASYN; the text extraction shows 'F measure'/'G mean' but the PDF prints 'F_measure'/'G_mean'. Typo 'SMTOE' on p.1326."
+}

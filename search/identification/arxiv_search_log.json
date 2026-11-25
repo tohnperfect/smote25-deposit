@@ -1,0 +1,27 @@
+{
+ "run_utc": "2026-11-10T17:03:14Z",
+ "query": "((ti:smote OR abs:smote OR ti:oversampling OR abs:oversampling OR ti:\"over-sampling\" OR abs:\"over-sampling\" OR ti:\"synthetic minority\" OR abs:\"synthetic minority\" OR ti:\"adaptive synthetic\" OR abs:\"adaptive synthetic\" OR ti:\"synthetic samples\" OR abs:\"synthetic samples\" OR ti:\"synthetic instances\" OR abs:\"synthetic instances\") AND (ti:imbalanced OR abs:imbalanced OR ti:imbalance OR abs:imbalance OR ti:\"minority class\" OR abs:\"minority class\" OR ti:\"minority classes\" OR abs:\"minority classes\")) AND submittedDate:[200201010000 TO 202611112359]",
+ "pages": [
+  {
+   "start": 0,
+   "entries": 200,
+   "url": "http://export.arxiv.org/api/query?search_query=%28%28ti%3Asmote+OR+abs%3Asmote+OR+ti%3Aoversampling+OR+abs%3Aoversampling+OR+ti%3A%22over-sampling%22+OR+abs%3A%22over-sampling%22+OR+ti%3A%22synthetic+minority%22+OR+abs%3A%22synthetic+minority%22+OR+ti%3A%22adaptive+synthetic%22+OR+abs%3A%22adaptive+synthetic%22+OR+ti%3A%22synthetic+samples%22+OR+abs%3A%22synthetic+samples%22+OR+ti%3A%22synthetic+instances%22+OR+abs%3A%22synthetic+instances%22%29+AND+%28ti%3Aimbalanced+OR+abs%3Aimbalanced+OR+ti%3Aimbalance+OR+abs%3Aimbalance+OR+ti%3A%22minority+class%22+OR+abs%3A%22minority+class%22+OR+ti%3A%22minority+classes%22+OR+abs%3A%22minority+classes%22%29%29+AND+submittedDate%3A%5B200201010000+TO+202611112359%5D&start=0&max_results=200&sortBy=submittedDate&sortOrder=ascending"
+  },
+  {
+   "start": 200,
+   "entries": 200,
+   "url": "http://export.arxiv.org/api/query?search_query=%28%28ti%3Asmote+OR+abs%3Asmote+OR+ti%3Aoversampling+OR+abs%3Aoversampling+OR+ti%3A%22over-sampling%22+OR+abs%3A%22over-sampling%22+OR+ti%3A%22synthetic+minority%22+OR+abs%3A%22synthetic+minority%22+OR+ti%3A%22adaptive+synthetic%22+OR+abs%3A%22adaptive+synthetic%22+OR+ti%3A%22synthetic+samples%22+OR+abs%3A%22synthetic+samples%22+OR+ti%3A%22synthetic+instances%22+OR+abs%3A%22synthetic+instances%22%29+AND+%28ti%3Aimbalanced+OR+abs%3Aimbalanced+OR+ti%3Aimbalance+OR+abs%3Aimbalance+OR+ti%3A%22minority+class%22+OR+abs%3A%22minority+class%22+OR+ti%3A%22minority+classes%22+OR+abs%3A%22minority+classes%22%29%29+AND+submittedDate%3A%5B200201010000+TO+202611112359%5D&start=200&max_results=200&sortBy=submittedDate&sortOrder=ascending"
+  },
+  {
+   "start": 400,
+   "entries": 200,
+   "url": "http://export.arxiv.org/api/query?search_query=%28%28ti%3Asmote+OR+abs%3Asmote+OR+ti%3Aoversampling+OR+abs%3Aoversampling+OR+ti%3A%22over-sampling%22+OR+abs%3A%22over-sampling%22+OR+ti%3A%22synthetic+minority%22+OR+abs%3A%22synthetic+minority%22+OR+ti%3A%22adaptive+synthetic%22+OR+abs%3A%22adaptive+synthetic%22+OR+ti%3A%22synthetic+samples%22+OR+abs%3A%22synthetic+samples%22+OR+ti%3A%22synthetic+instances%22+OR+abs%3A%22synthetic+instances%22%29+AND+%28ti%3Aimbalanced+OR+abs%3Aimbalanced+OR+ti%3Aimbalance+OR+abs%3Aimbalance+OR+ti%3A%22minority+class%22+OR+abs%3A%22minority+class%22+OR+ti%3A%22minority+classes%22+OR+abs%3A%22minority+classes%22%29%29+AND+submittedDate%3A%5B200201010000+TO+202611112359%5D&start=400&max_results=200&sortBy=submittedDate&sortOrder=ascending"
+  },
+  {
+   "start": 600,
+   "entries": 93,
+   "url": "http://export.arxiv.org/api/query?search_query=%28%28ti%3Asmote+OR+abs%3Asmote+OR+ti%3Aoversampling+OR+abs%3Aoversampling+OR+ti%3A%22over-sampling%22+OR+abs%3A%22over-sampling%22+OR+ti%3A%22synthetic+minority%22+OR+abs%3A%22synthetic+minority%22+OR+ti%3A%22adaptive+synthetic%22+OR+abs%3A%22adaptive+synthetic%22+OR+ti%3A%22synthetic+samples%22+OR+abs%3A%22synthetic+samples%22+OR+ti%3A%22synthetic+instances%22+OR+abs%3A%22synthetic+instances%22%29+AND+%28ti%3Aimbalanced+OR+abs%3Aimbalanced+OR+ti%3Aimbalance+OR+abs%3Aimbalance+OR+ti%3A%22minority+class%22+OR+abs%3A%22minority+class%22+OR+ti%3A%22minority+classes%22+OR+abs%3A%22minority+classes%22%29%29+AND+submittedDate%3A%5B200201010000+TO+202611112359%5D&start=600&max_results=200&sortBy=submittedDate&sortOrder=ascending"
+  }
+ ],
+ "total_results": 693
+}

@@ -1,0 +1,23 @@
+{
+ "data_key": "DSRBF / Static-SMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Private"
+ ],
+ "crit": "Since our method is aimed to improve the accuracy for the worst classified class when dealing with imbalanced datasets, the datasets selected have a considerable imbalance rate; the selected datasets include five binary and eight multi-class problems and present different numbers of instances, features and classes.",
+ "crit_type": "own reason",
+ "basis": [
+  "method-target",
+  "diversity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "smallest class vs rest",
+ "modified_data_released": "yes",
+ "notes": "13 datasets: 12 from UCI (incl. two Yeast-derived two-class sets built by the authors: CYTvsPOX = only CYT and POX classes, ME2vsOther = one-vs-rest) + Saureus4 (food-microbiology data taken from [57,58]; [58] is co-authored by the same authors, so coded Private, although the authors post it on their group website; adjudicator may prefer Other). basis: method-target from the causal 'Since our method is aimed...' sentence; diversity from the descriptive 'present different numbers of instances, features and classes' sentence in the dataset paragraph (drop diversity under a strict purposive-only rule). Saureus4 as 'a real predictive microbiology problem' could support application; not coded (no reason wording). minority_rule: only the general definition in Sect. 2.1 (minority = class with much smaller number of patterns; Table 3's p* = minimum estimated prior, i.e. the smallest class); the multi-class sets keep native distributions and evaluation uses minimum sensitivity over all classes, so 'not defined' is a defensible alternative; for CYTvsPOX the minority class is not named. Table 3 (p.1828 = pdf p.8) prints Size, R/B/N, total #In, #Out, NPPC (class sizes) and p* (minimum prior probability, not a ratio); pdftotext renders p* as 'pn'. Modified (Yeast-derived) data and partitions are on the authors' public website, hence modified_data_released=yes."
+}

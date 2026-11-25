@@ -1,0 +1,25 @@
+batch 004: 196 of 196 records done; own 143, existing-parts 47, unclear 6
+no records remain
+
+Look at these first (record number in batch / rec id). Applying the script's logic to these facts: 157 stay, 30 E1 under B2, 9 E1 under B.
+
+1. Low confidence where the call flips to exclusion:
+   53 R10920 adaptive weighted KDE inside an online oversampler; coded existing-parts/statistical (B2) because the abstract "integrates" awKDE without saying the paper changed it.
+   77 R21621 SaVe-TAG: unchanged LLM prompted to interpolate minority texts; codebook does not say whether that is a "new conditioning" (coded existing-parts, B2).
+   172 R20206 LSG-LG: local Gaussian sampling in an autoencoder latent space, with anchor selection and support filters; anchor selection could be read as a new allocation (coded existing-parts, B2).
+   194 R08857 FincGAN: standard GAN for node features plus deep-learning edge generators; unclear whether the edge step makes it its own (coded existing-parts, B2).
+   37 R05990 WSMOTE-ensemble: "sampling methods outperform nonsampling algorithms" may or may not mean other resamplers were compared (coded compared=no, so B excludes).
+2. Low confidence, currently kept:
+   28 R05152 TRIM-SBR: pruned seeds feed standard smoothed bootstrap (KDE-like), so B2 may apply.
+   110 R00194: own undersampling plus standard KDE oversampling, a mix the codebook does not settle.
+   61 R08572 Equi-Fused SMOTE: existing parts; compared=yes rests only on "higher accuracy" next to the single oversamplers.
+   173 R05711 mean-shift then SMOTE: existing parts; compared=yes inferred because the abstract says the compared algorithms generate samples. If read as no, B excludes it.
+   190 R00465 unclear: an unnamed "undersampling technique" plus an "oversampling technique".
+3. Medium-confidence calls that set the outcome; check them as groups for consistency:
+   A standard generator with "new" but no stated change, coded existing-parts (B2): 8 R04758 (GAN), 67 R02193 (language model, named only in the title), 29 R14025 (LLMOverTab).
+   Named generators: 131 R06568 K-CGAN coded own because it is a "new model" with its change not described. Coded existing-parts because the parts the abstract describes are all standard: 166 R19240 FC-TABGAN, 33 R06407 GMM_CTGAN (called "improved"), 36 R05926 BSGAN. By contrast, 125 R06099 SMOTIFIED-GAN states a change and is coded own.
+   Multiclass: 177 R00699 SCUT coded own as a multiclass scheme; 189 R00484 BBO and 193 R04446 SMOTE+OVA coded existing-parts (B excludes, compared=no).
+   Kept as own but could be read as clustering or implementation plus a standard sampler (then B would exclude, compared=no): 3 R02392, 106 R00191, 139 R08078, 181 R01353.
+   16 R09557: continual learning with a per-class Gaussian pseudo-feature generator, coded existing-parts/statistical (B2).
+4. unclear (6): 21 R00878, 58 R00298, 124 R00049, 154 R11119, 184 R00246, 190 R00465. Each claims a new oversampler with no name or detail, a generic "neural network" or "probability distribution" basis, or unnamed techniques.
+Notes: after appending chunk 1, I changed R00878 from own to unclear directly in batch004_facts.csv (scheme and reason only) to match R00298; both are kept either way. Compared is read strictly: unnamed baselines, state-of-the-art methods or competitors count as no. Task: 194 classification, 2 continual (R09557, R09907); data-stream and concept-drift papers are coded classification.

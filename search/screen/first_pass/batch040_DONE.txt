@@ -1,0 +1,12 @@
+batch 040: 200 of 200 records done; include 27, unsure 14, exclude 159
+no records remain
+
+Look at first:
+- Low confidence: R04707 (no abstract; collaborative-filtering fault diagnosis, book chapter), R18767 (no abstract; undefined CASE/C-BAFT image techniques), R08323 (title claims BCPA-based data balancing, abstract lists GAN + SMOTE), R04797 (customized mini-batch oversampling, may be replication only).
+- Existing generator presented as the oversampling contribution, coded differently: R01973 include (SeqGAN generates minority log text) vs R04495 unsure (CTTGAN, abstract says it uses CTGAN as is) and R04664 unsure (cGAN, framed as an evaluation). Please harmonise.
+- Borderline includes: R19720 (SMOTE-guided CGAN, two existing generators combined), R16678 (AceNet, feature-level SMOTE for classifier refinement), R04566 (clustered SMOTE for discrete features inside a domain paper).
+- Borderline excludes: R16453 ("Improved SMOTE is employed", unspecified), R03114 (SMOTE + CNN ensemble, unclear if per member), R17625 and R21512 (SMOTE on embeddings, not presented as new), R22018 (covariate-shift theory; only a keyword mentions oversampling), R14234 (title says Generative AI, abstract shows only class-aware oversampling).
+- Codebook gap: feature selection + existing resampling presented as a proposed method (R00434, R01172, R09041) coded E1; I read clarification 3 as covering sample cleaning or selection, not feature selection.
+- Codebook gap: E-LANG records with English abstracts that propose oversamplers: R07339 (Thai, HIDPO improved random oversampling), R03484 (Chinese, MOLAD oversampling); also R08303 (Turkish, SMOTE vs GPT-generated data).
+- Clarifications applied: R17023 EC-SMOTE (U-other, I2 not stated; strong candidate if the full text has experiments), R16625 and R21578 (U-other; generators for data scarcity and for causal inference), R01346 (front matter, tagged front-matter-in-scope for an improved random forest for imbalanced lung nodules), R05239 (hybrid sampling for defect-number regression, E2).
+- Coding conventions: domain studies whose stated aim is the effect of resampling (R09060, R17326, R07236, R10133, R05111) coded E-COMPARE with tag comparison, other domain pipelines E1; book chapters R04707 and R16475 have no document-type exclusion code at this stage.

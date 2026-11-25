@@ -1,0 +1,527 @@
+[
+ {
+  "id": "https://openalex.org/W2148143831",
+  "doi": "https://doi.org/10.1613/jair.953",
+  "display_name": "SMOTE: Synthetic Minority Over-sampling Technique",
+  "publication_year": 2002,
+  "cited_by_count": 34720
+ },
+ {
+  "id": "https://openalex.org/W1988790447",
+  "doi": "https://doi.org/10.1006/jcss.1997.1504",
+  "display_name": "A Decision-Theoretic Generalization of On-Line Learning and an Application to Boosting",
+  "publication_year": 1997,
+  "cited_by_count": 21080
+ },
+ {
+  "id": "https://openalex.org/W2104933073",
+  "doi": "https://doi.org/10.1109/ijcnn.2008.4633969",
+  "display_name": "ADASYN: Adaptive synthetic sampling approach for imbalanced learning",
+  "publication_year": 2008,
+  "cited_by_count": 5271
+ },
+ {
+  "id": "https://openalex.org/W2132791018",
+  "doi": "https://doi.org/10.1007/11538059_91",
+  "display_name": "Borderline-SMOTE: A New Over-Sampling Method in Imbalanced Data Sets Learning",
+  "publication_year": 2005,
+  "cited_by_count": 4455
+ },
+ {
+  "id": "https://openalex.org/W1993220166",
+  "doi": "https://doi.org/10.1145/1007730.1007735",
+  "display_name": "A study of the behavior of several methods for balancing machine learning training data",
+  "publication_year": 2004,
+  "cited_by_count": 4447
+ },
+ {
+  "id": "https://openalex.org/W2767106145",
+  "doi": "https://doi.org/10.1016/j.neunet.2018.07.011",
+  "display_name": "A systematic study of the class imbalance problem in convolutional neural networks",
+  "publication_year": 2018,
+  "cited_by_count": 3339
+ },
+ {
+  "id": "https://openalex.org/W2104167780",
+  "doi": "https://doi.org/10.1109/tsmcb.2008.2007853",
+  "display_name": "Exploratory Undersampling for Class-Imbalance Learning",
+  "publication_year": 2008,
+  "cited_by_count": 2525
+ },
+ {
+  "id": "https://openalex.org/W2107686700",
+  "doi": "https://doi.org/10.1109/tsmc.1972.4309137",
+  "display_name": "Asymptotic Properties of Nearest Neighbor Rules Using Edited Data",
+  "publication_year": 1972,
+  "cited_by_count": 2193
+ },
+ {
+  "id": "https://openalex.org/W2096945460",
+  "doi": "https://doi.org/10.1109/tsmca.2009.2029559",
+  "display_name": "RUSBoost: A Hybrid Approach to Alleviating Class Imbalance",
+  "publication_year": 2009,
+  "cited_by_count": 1921
+ },
+ {
+  "id": "https://openalex.org/W1563938718",
+  "doi": "https://doi.org/10.1007/978-3-540-39804-2_12",
+  "display_name": "SMOTEBoost: Improving Prediction of the Minority Class in Boosting",
+  "publication_year": 2003,
+  "cited_by_count": 1763
+ },
+ {
+  "id": "https://openalex.org/W2766296277",
+  "doi": "https://doi.org/10.1016/j.ins.2018.06.056",
+  "display_name": "Improving imbalanced learning through a heuristic oversampling method based on k-means and SMOTE",
+  "publication_year": 2018,
+  "cited_by_count": 1409
+ },
+ {
+  "id": "https://openalex.org/W1591261915",
+  "doi": "https://doi.org/10.1109/tsmc.1976.4309452",
+  "display_name": "Two Modifications of CNN",
+  "publication_year": 1976,
+  "cited_by_count": 1368
+ },
+ {
+  "id": "https://openalex.org/W1588282782",
+  "doi": "https://doi.org/10.1023/a:1007452223027",
+  "display_name": "Machine Learning for the Detection of Oil Spills in Satellite Radar Images",
+  "publication_year": 1998,
+  "cited_by_count": 1266
+ },
+ {
+  "id": "https://openalex.org/W2087240369",
+  "doi": "https://doi.org/10.1109/tkde.2012.232",
+  "display_name": "MWMOTE--Majority Weighted Minority Oversampling Technique for Imbalanced Data Set Learning",
+  "publication_year": 2012,
+  "cited_by_count": 1188
+ },
+ {
+  "id": "https://openalex.org/W1496056137",
+  "doi": "https://doi.org/10.1007/978-3-642-01307-2_43",
+  "display_name": "Safe-Level-SMOTE: Safe-Level-Synthetic Minority Over-Sampling TEchnique for Handling the Class Imbalanced Problem",
+  "publication_year": 2009,
+  "cited_by_count": 1055
+ },
+ {
+  "id": "https://openalex.org/W2128965734",
+  "doi": "https://doi.org/10.1016/j.eswa.2008.06.108",
+  "display_name": "Cluster-based under-sampling approaches for imbalanced data distributions",
+  "publication_year": 2008,
+  "cited_by_count": 746
+ },
+ {
+  "id": "https://openalex.org/W2107138773",
+  "doi": "https://doi.org/10.1016/j.ins.2014.08.051",
+  "display_name": "SMOTE–IPF: Addressing the noisy and borderline examples problem in imbalanced classification by a re-sampling method with filtering",
+  "publication_year": 2014,
+  "cited_by_count": 660
+ },
+ {
+  "id": "https://openalex.org/W2185967890",
+  "doi": "https://doi.org/10.1109/tkde.2015.2458858",
+  "display_name": "To Combat Multi-Class Imbalanced Problems by Means of Over-Sampling Techniques",
+  "publication_year": 2015,
+  "cited_by_count": 420
+ },
+ {
+  "id": "https://openalex.org/W2091007025",
+  "doi": "https://doi.org/10.1016/j.patcog.2014.11.014",
+  "display_name": "A novel ensemble method for classifying imbalanced data",
+  "publication_year": 2014,
+  "cited_by_count": 418
+ },
+ {
+  "id": "https://openalex.org/W2164341120",
+  "doi": "https://doi.org/10.1016/j.knosys.2013.01.018",
+  "display_name": "Analysing the classification of imbalanced data-sets with multiple classes: Binarization techniques and ad-hoc approaches",
+  "publication_year": 2013,
+  "cited_by_count": 401
+ },
+ {
+  "id": "https://openalex.org/W2948219206",
+  "doi": "https://doi.org/10.1016/j.ins.2019.06.007",
+  "display_name": "Geometric SMOTE a geometrically enhanced drop-in replacement for SMOTE",
+  "publication_year": 2019,
+  "cited_by_count": 340
+ },
+ {
+  "id": "https://openalex.org/W2126996952",
+  "doi": "https://doi.org/10.1109/grc.2006.1635905",
+  "display_name": "Combating imbalance in network intrusion datasets",
+  "publication_year": 2006,
+  "cited_by_count": 314
+ },
+ {
+  "id": "https://openalex.org/W2971749073",
+  "doi": "https://doi.org/10.1016/j.ins.2019.08.062",
+  "display_name": "Neighbourhood-based undersampling approach for handling imbalanced and overlapped data",
+  "publication_year": 2019,
+  "cited_by_count": 293
+ },
+ {
+  "id": "https://openalex.org/W2172165257",
+  "doi": "https://doi.org/10.1016/j.eswa.2015.10.031",
+  "display_name": "Adaptive semi-unsupervised weighted oversampling (A-SUWO) for imbalanced datasets",
+  "publication_year": 2015,
+  "cited_by_count": 292
+ },
+ {
+  "id": "https://openalex.org/W2736435690",
+  "doi": "https://doi.org/10.1016/j.patcog.2017.07.024",
+  "display_name": "Synthetic minority oversampling technique for multiclass imbalance problems",
+  "publication_year": 2017,
+  "cited_by_count": 282
+ },
+ {
+  "id": "https://openalex.org/W2924282518",
+  "doi": "https://doi.org/10.1109/iccv.2019.00178",
+  "display_name": "Generative Adversarial Minority Oversampling",
+  "publication_year": 2019,
+  "cited_by_count": 251
+ },
+ {
+  "id": "https://openalex.org/W3031232306",
+  "doi": "https://doi.org/10.1109/icde48307.2020.00078",
+  "display_name": "Self-paced Ensemble for Highly Imbalanced Massive Data Classification",
+  "publication_year": 2020,
+  "cited_by_count": 241
+ },
+ {
+  "id": "https://openalex.org/W1592804209",
+  "doi": "https://doi.org/10.1007/978-3-642-13529-3_18",
+  "display_name": "Learning from Imbalanced Data in Presence of Noisy and Borderline Examples",
+  "publication_year": 2010,
+  "cited_by_count": 236
+ },
+ {
+  "id": "https://openalex.org/W2096235960",
+  "doi": "https://doi.org/10.1109/tnn.2010.2066988",
+  "display_name": "RAMOBoost: Ranked Minority Oversampling in Boosting",
+  "publication_year": 2010,
+  "cited_by_count": 209
+ },
+ {
+  "id": "https://openalex.org/W3093212523",
+  "doi": "https://doi.org/10.1016/j.ins.2020.10.013",
+  "display_name": "RSMOTE: A self-adaptive robust SMOTE for imbalanced problems with label noise",
+  "publication_year": 2020,
+  "cited_by_count": 180
+ },
+ {
+  "id": "https://openalex.org/W3015358651",
+  "doi": "https://doi.org/10.1016/j.knosys.2020.106223",
+  "display_name": "Combined Cleaning and Resampling algorithm for multi-class imbalanced data with label noise",
+  "publication_year": 2020,
+  "cited_by_count": 179
+ },
+ {
+  "id": "https://openalex.org/W2124710650",
+  "doi": "https://doi.org/10.1016/j.patcog.2011.02.019",
+  "display_name": "A dynamic over-sampling procedure based on sensitivity for multi-class problems",
+  "publication_year": 2011,
+  "cited_by_count": 153
+ },
+ {
+  "id": "https://openalex.org/W2914361121",
+  "doi": "https://doi.org/10.1016/j.neucom.2018.04.089",
+  "display_name": "Radial-Based oversampling for noisy imbalanced data classification",
+  "publication_year": 2019,
+  "cited_by_count": 152
+ },
+ {
+  "id": "https://openalex.org/W3015967287",
+  "doi": "https://doi.org/10.1109/tkde.2020.2985965",
+  "display_name": "Gaussian Distribution Based Oversampling for Imbalanced Data Classification",
+  "publication_year": 2020,
+  "cited_by_count": 149
+ },
+ {
+  "id": "https://openalex.org/W2015681982",
+  "doi": "https://doi.org/10.1109/tkde.2013.37",
+  "display_name": "Integrated Oversampling for Imbalanced Time Series Classification",
+  "publication_year": 2013,
+  "cited_by_count": 130
+ },
+ {
+  "id": "https://openalex.org/W2076272581",
+  "doi": "https://doi.org/10.1109/tkde.2014.2324567",
+  "display_name": "RACOG and wRACOG: Two Probabilistic Oversampling Techniques",
+  "publication_year": 2014,
+  "cited_by_count": 127
+ },
+ {
+  "id": "https://openalex.org/W2952448206",
+  "doi": "https://doi.org/10.1109/tnnls.2019.2913673",
+  "display_name": "Radial-Based Oversampling for Multiclass Imbalanced Data Classification",
+  "publication_year": 2019,
+  "cited_by_count": 126
+ },
+ {
+  "id": "https://openalex.org/W2922054794",
+  "doi": "https://doi.org/10.1109/tkde.2019.2905559",
+  "display_name": "Model-Based Synthetic Sampling for Imbalanced Data",
+  "publication_year": 2019,
+  "cited_by_count": 95
+ },
+ {
+  "id": "https://openalex.org/W3111875476",
+  "doi": "https://doi.org/10.1016/j.ins.2020.12.023",
+  "display_name": "A hybrid data-level ensemble to enable learning from highly imbalanced dataset",
+  "publication_year": 2020,
+  "cited_by_count": 90
+ },
+ {
+  "id": "https://openalex.org/W2294246171",
+  "doi": "https://doi.org/10.5220/0005595502260234",
+  "display_name": "SCUT: Multi-Class Imbalanced Data Classification using SMOTE and Cluster-based Undersampling",
+  "publication_year": 2015,
+  "cited_by_count": 106
+ },
+ {
+  "id": "https://openalex.org/W2763110968",
+  "doi": "https://doi.org/10.1109/tkde.2017.2761347",
+  "display_name": "AMDO: An Over-Sampling Technique for Multi-Class Imbalanced Problems",
+  "publication_year": 2017,
+  "cited_by_count": 84
+ },
+ {
+  "id": "https://openalex.org/W2117689108",
+  "doi": "https://doi.org/10.1109/icdm.2008.87",
+  "display_name": "Start Globally, Optimize Locally, Predict Globally: Improving Performance on Imbalanced Data",
+  "publication_year": 2008,
+  "cited_by_count": 76
+ },
+ {
+  "id": "https://openalex.org/W2900321945",
+  "doi": "https://doi.org/10.1007/978-3-030-03493-1_72",
+  "display_name": "Overlap-Based Undersampling for Improving Imbalanced Data Classification",
+  "publication_year": 2018,
+  "cited_by_count": 72
+ },
+ {
+  "id": "https://openalex.org/W2998823736",
+  "doi": "https://doi.org/10.2478/amcs-2019-0057",
+  "display_name": "Using Information on Class Interrelations to Improve Classification of Multiclass Imbalanced Data: A New Resampling Algorithm",
+  "publication_year": 2019,
+  "cited_by_count": 52
+ },
+ {
+  "id": "https://openalex.org/W2913816472",
+  "doi": "https://doi.org/10.1109/tkde.2019.2894148",
+  "display_name": "Boosting with Lexicographic Programming: Addressing Class Imbalance without Cost Tuning",
+  "publication_year": 2019,
+  "cited_by_count": 39
+ },
+ {
+  "id": "https://openalex.org/W3015143107",
+  "doi": "https://doi.org/10.18178/ijmlc.2020.10.1.894",
+  "display_name": "AB-SMOTE: An Affinitive Borderline SMOTE Approach for Imbalanced Data Binary Classification",
+  "publication_year": 2020,
+  "cited_by_count": 39
+ },
+ {
+  "id": "https://openalex.org/W2476542064",
+  "doi": "https://doi.org/10.1145/2983323.2983789",
+  "display_name": "CGMOS",
+  "publication_year": 2016,
+  "cited_by_count": 24
+ },
+ {
+  "id": "https://openalex.org/W3204058295",
+  "doi": "https://doi.org/10.3390/s21196616",
+  "display_name": "Evolutionary Mahalanobis Distance-Based Oversampling for Multi-Class Imbalanced Data Classification",
+  "publication_year": 2021,
+  "cited_by_count": 23
+ },
+ {
+  "id": "https://openalex.org/W2151779862",
+  "doi": "https://doi.org/10.1145/1281192.1281279",
+  "display_name": "Local decomposition for rare class analysis",
+  "publication_year": 2007,
+  "cited_by_count": 69
+ },
+ {
+  "id": "https://openalex.org/W2954395498",
+  "doi": "https://doi.org/10.48550/arxiv.1907.00503",
+  "display_name": "Modeling Tabular data using Conditional GAN",
+  "publication_year": 2019,
+  "cited_by_count": 1211
+ },
+ {
+  "id": "https://openalex.org/W85350352",
+  "doi": null,
+  "display_name": "Addressing the Curse of Imbalanced Training Sets: One-Sided Selection.",
+  "publication_year": 1997,
+  "cited_by_count": 2230
+ },
+ {
+  "id": "https://openalex.org/W72187777",
+  "doi": "https://doi.org/10.1111/j.1467-8640.2010.00358.x",
+  "display_name": "ON MULTI‐CLASS COST‐SENSITIVE LEARNING",
+  "publication_year": 2010,
+  "cited_by_count": 352
+ },
+ {
+  "id": "https://openalex.org/W769353746",
+  "doi": "https://doi.org/10.1016/j.knosys.2015.04.022",
+  "display_name": "Random Balance: Ensembles of variable priors classifiers for imbalanced data",
+  "publication_year": 2015,
+  "cited_by_count": 241
+ },
+ {
+  "id": "https://openalex.org/W4226084339",
+  "doi": "https://doi.org/10.1109/access.2022.3169512",
+  "display_name": "Stop Oversampling for Class Imbalance Learning: A Review",
+  "publication_year": 2022,
+  "cited_by_count": 213
+ },
+ {
+  "id": "https://openalex.org/W4200494353",
+  "doi": "https://doi.org/10.1109/icic54025.2021.9632912",
+  "display_name": "SMOTE for Handling Imbalanced Data Problem : A Review",
+  "publication_year": 2021,
+  "cited_by_count": 206
+ },
+ {
+  "id": "https://openalex.org/W4200472276",
+  "doi": "https://doi.org/10.1016/j.patcog.2021.108511",
+  "display_name": "FW-SMOTE: A feature-weighted oversampling approach for imbalanced classification",
+  "publication_year": 2021,
+  "cited_by_count": 195
+ },
+ {
+  "id": "https://openalex.org/W4200122681",
+  "doi": "https://doi.org/10.1016/j.asoc.2021.108288",
+  "display_name": "KNNOR: An oversampling technique for imbalanced datasets",
+  "publication_year": 2021,
+  "cited_by_count": 152
+ },
+ {
+  "id": "https://openalex.org/W4296311910",
+  "doi": "https://doi.org/10.1016/j.patcog.2022.109008",
+  "display_name": "Noise-robust oversampling for imbalanced data classification",
+  "publication_year": 2022,
+  "cited_by_count": 108
+ },
+ {
+  "id": "https://openalex.org/W4285140661",
+  "doi": "https://doi.org/10.1109/tkde.2022.3171706",
+  "display_name": "Oversampling with Reliably Expanding Minority Class Regions for Imbalanced Data Learning",
+  "publication_year": 2022,
+  "cited_by_count": 74
+ },
+ {
+  "id": "https://openalex.org/W4200464085",
+  "doi": "https://doi.org/10.1016/j.ins.2021.12.066",
+  "display_name": "SVDD-based weighted oversampling technique for imbalanced and overlapped dataset learning",
+  "publication_year": 2021,
+  "cited_by_count": 69
+ },
+ {
+  "id": "https://openalex.org/W4402738944",
+  "doi": "https://doi.org/10.1016/j.eswa.2024.125422",
+  "display_name": "Synthetic oversampling with Mahalanobis distance and local information for highly imbalanced class-overlapped data",
+  "publication_year": 2024,
+  "cited_by_count": 45
+ },
+ {
+  "id": "https://openalex.org/W4388817724",
+  "doi": "https://doi.org/10.1007/s10994-023-06416-8",
+  "display_name": "GMMSampling: a new model-based, data difficulty-driven resampling method for multi-class imbalanced data",
+  "publication_year": 2023,
+  "cited_by_count": 27
+ },
+ {
+  "id": "https://openalex.org/W4313017257",
+  "doi": "https://doi.org/10.1109/access.2022.3218463",
+  "display_name": "A Hybrid Sampling Approach for Imbalanced Binary and Multi-Class Data Using Clustering Analysis",
+  "publication_year": 2022,
+  "cited_by_count": 35
+ },
+ {
+  "id": "https://openalex.org/W4290876805",
+  "doi": "https://doi.org/10.1145/3534678.3539454",
+  "display_name": "SOS",
+  "publication_year": 2022,
+  "cited_by_count": 31
+ },
+ {
+  "id": "https://openalex.org/W4388599766",
+  "doi": "https://doi.org/10.1016/j.eswa.2023.122565",
+  "display_name": "A membership-based resampling and cleaning algorithm for multi-class imbalanced overlapping data",
+  "publication_year": 2023,
+  "cited_by_count": 27
+ },
+ {
+  "id": "https://openalex.org/W4312106179",
+  "doi": "https://doi.org/10.1007/s13042-022-01746-w",
+  "display_name": "Global-local information based oversampling for multi-class imbalanced data",
+  "publication_year": 2022,
+  "cited_by_count": 22
+ },
+ {
+  "id": "https://openalex.org/W4408997830",
+  "doi": "https://doi.org/10.1016/j.neucom.2025.130088",
+  "display_name": "GDHS: An efficient hybrid sampling method for multi-class imbalanced data classification",
+  "publication_year": 2025,
+  "cited_by_count": 17
+ },
+ {
+  "id": "https://openalex.org/W4405718128",
+  "doi": "https://doi.org/10.1109/access.2024.3521120",
+  "display_name": "MKC-SMOTE: A Novel Synthetic Oversampling Method for Multi-Class Imbalanced Data Classification",
+  "publication_year": 2024,
+  "cited_by_count": 12
+ },
+ {
+  "id": "https://openalex.org/W4414110570",
+  "doi": "https://doi.org/10.1109/tkde.2025.3608246",
+  "display_name": "GOIO: Generative Oversampling Approach to Class Imbalance and Overlap of Tabular Data",
+  "publication_year": 2025,
+  "cited_by_count": 7
+ },
+ {
+  "id": "https://openalex.org/W4416926020",
+  "doi": "https://doi.org/10.1109/tkde.2025.3639433",
+  "display_name": "Diffusion GAN-Based Oversampling for Imbalanced Tabular Data",
+  "publication_year": 2025,
+  "cited_by_count": 7
+ },
+ {
+  "id": "https://openalex.org/W7127314557",
+  "doi": "https://doi.org/10.1016/j.neunet.2026.108677",
+  "display_name": "Loyalty-SMOTE: Data synthesis algorithm for effective imbalanced data classification",
+  "publication_year": 2026,
+  "cited_by_count": 6
+ },
+ {
+  "id": "https://openalex.org/W4319778623",
+  "doi": "https://doi.org/10.1109/dsaa54385.2022.10032369",
+  "display_name": "Combating Mutuality with Difficulty Factors in Multi-class Imbalanced Data: A Similarity-based Hybrid Sampling",
+  "publication_year": 2022,
+  "cited_by_count": 5
+ },
+ {
+  "id": "https://openalex.org/W4413822180",
+  "doi": "https://doi.org/10.1109/access.2025.3604051",
+  "display_name": "MC-NCLWO: Newton’s Cooling Law-Based Oversampling Algorithm for Multi-Class Imbalanced Datasets With Feature Noise",
+  "publication_year": 2025,
+  "cited_by_count": 1
+ },
+ {
+  "id": "https://openalex.org/W4406883410",
+  "doi": "https://doi.org/10.48550/arxiv.2501.15790",
+  "display_name": "Certified Interpolation Oversampling: Per-Instance Safety Guarantees for Imbalanced Learning",
+  "publication_year": 2025,
+  "cited_by_count": 1
+ },
+ {
+  "id": "https://openalex.org/W7165798645",
+  "doi": "https://doi.org/10.1016/j.neucom.2026.135492",
+  "display_name": "QC-SMOTE: Quality-controlled SMOTE for imbalanced classification",
+  "publication_year": 2026,
+  "cited_by_count": 0
+ }
+]

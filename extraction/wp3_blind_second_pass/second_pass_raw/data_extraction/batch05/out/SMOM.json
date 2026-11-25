@@ -1,0 +1,23 @@
+{
+ "data_key": "SMOM",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Other"
+ ],
+ "crit": "27 multiclass imbalanced data sets that 'vary in size, class distribution, feature number and IR to ensure a reliable assessment of performance'; eight of them (housing5, SWD, LEV, machine, ESL, ERA, ERA5, housing10) are ordinal regression benchmark data 'widely used in the ordinal regression literature [13,25]', the others are available from UCI [26].",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Class-merged"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "mean-size or IR threshold",
+ "modified_data_released": "no",
+ "notes": "Pages are printed journal pages (327-340; Table 1 and the Data Sets paragraph on p.334 = pdf p.8). Class-merged is inferred from the 'Description of classes' column ('&' joins original classes); the paper never says in words 'we merged', nor who built the merged versions. Some data sets also drop original classes (e.g. yeast5 and yeast7 omit classes listed for yeast8); no origin category covers class removal. The supplementary file (pseudo code, parameter study, full result tables) holds no data sets and no data link is given, so modified_data_released 'no' (the cited supplementary-material sentence is on p.338). Internal inconsistencies in Table 1: ecoli M=327 but 143/77/52/35 sums to 307; page-blocks has L=4 and four counts but five class groups in its description; wine-red has L=4 and four counts but five classes listed; ERA5 lists ‘1’/‘2’/‘3’/‘4’/‘5’ with no '&' although its counts (92/771/88/31/18) look like ERA (92/142/181/172/158/118/88/31/18) with classes 2-6 joined; the SWD description has a malformed first label. In the pdftotext output M for SWD, LEV, ERA and ERA5 reads '10 0 0'; the PDF shows 1000. IR is the pairwise sum of Eq. (3), not max/min. Recall and precision are computed for the smallest minority class only (p.335). Table S3 (MG, C4.5 and AdaBoost) lies entirely on supplementary p.7."
+}

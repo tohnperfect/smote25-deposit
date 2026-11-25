@@ -1,0 +1,111 @@
+{
+ "tier": "nested",
+ "seed": 20261110,
+ "seed_ext": 20261111,
+ "folds": 5,
+ "repeats": 3,
+ "datasets": [
+  "abalone_17_vs_7_8_9_10",
+  "abalone_19_vs_10_11_12_13",
+  "ada",
+  "car_good",
+  "cm1",
+  "ecoli2",
+  "ecoli3",
+  "ecoli_0_vs_1",
+  "flaref",
+  "glass1",
+  "glass_0_1_2_3_vs_4_5_6",
+  "habarman",
+  "hepatitis",
+  "hypothyroid",
+  "iris0",
+  "kc1",
+  "kddcup_buffer_overflow_vs_back",
+  "led7digit_0_2_4_5_6_7_8_9_vs_1",
+  "new_thyroid1",
+  "page_blocks0",
+  "shuttle_2_vs_5",
+  "shuttle_c0_vs_c4",
+  "spectf",
+  "vehicle2",
+  "winequality_red_4",
+  "yeast1",
+  "yeast4",
+  "yeast_0_2_5_6_vs_3_7_8_9",
+  "yeast_1_4_5_8_vs_7",
+  "yeast_1_vs_7"
+ ],
+ "methods": [
+  "none",
+  "class_weight",
+  "threshold",
+  "ROS",
+  "SMOTE",
+  "ADASYN",
+  "Borderline-SMOTE",
+  "G-SMOTE",
+  "Safe-Level-SMOTE",
+  "Cluster-SMOTE",
+  "k-means SMOTE",
+  "MWMOTE",
+  "SMOTE-IPF",
+  "A-SUWO"
+ ],
+ "learners": [
+  "LR",
+  "kNN",
+  "RF",
+  "GB"
+ ],
+ "grid": {
+  "LR": [
+   "C",
+   [
+    0.1,
+    1.0,
+    10.0
+   ]
+  ],
+  "kNN": [
+   "n_neighbors",
+   [
+    3,
+    5,
+    11
+   ]
+  ],
+  "RF": [
+   "min_samples_leaf",
+   [
+    1,
+    5,
+    20
+   ]
+  ],
+  "GB": [
+   "learning_rate",
+   [
+    0.03,
+    0.1,
+    0.3
+   ]
+  ],
+  "SVM": [
+   "C",
+   [
+    0.3,
+    1.0,
+    3.0
+   ]
+  ],
+  "CART": [
+   "max_depth",
+   [
+    null,
+    8,
+    4
+   ]
+  ]
+ }
+}

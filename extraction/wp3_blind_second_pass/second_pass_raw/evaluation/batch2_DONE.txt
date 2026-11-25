@@ -1,0 +1,13 @@
+Evaluation form, batch 2 (blind second coder): 5 of 5 rows filled -> eval/batch2_filled.csv
+Coded only from /home/claude/work/blind2/papers/<safe>.txt and the PDFs in /home/claude/work/blind2/pdf/; no first-coder files opened.
+
+Look at these first (least certain codes):
+1. E11 MKC-SMOTE, data modified = y. The paper says nothing. The code comes from comparing Table 1 (p.196933) with the standard UCI versions (Letter Recognition 10 classes/10,723 rows, Chess KRK 8 classes, Poker Hand 4 classes, Covertype 5,781 rows). Table 1 also has Cardiotocography N=1728 but class counts that sum to 2126. A strict "never inferred" reading would give n / not stated.
+2. E02 CGMOS, settings = not said. Classifier hyper-parameters were "determined by cross validation", but the paper does not say on which data (p.1626). CGMOS q and sigma are not reported. Another coder could read this as "tuned inside training".
+3. E02 CGMOS, measure defined wrongly = y. Gscore = sqrt(Precision x Recall) is described as the G-mean of positive and negative accuracy [19] (p.1627). The formula and the description disagree.
+4. E11 MKC-SMOTE, measure defined wrongly = y. Eq. 4 (p.196934) prints G-mean as sqrt(TP/(TP+FN) x TP/(TN+FP)). Binary G-mean is not used in the results; MG and MAUC are correct.
+5. Plain-SMOTE baseline. E05 EasyEnsemble = y, but its "SMOTE" baseline also undersamples the majority to 2|P| before AdaBoost (p.543). E14 RBBoost = n, because SMOTE appears only inside ensembles (ESM100/200/500, BAGSM, SMOTEBoost).
+6. Resampling inside training folds = y for E05 and E14. In both, the sampling is built into each ensemble's training, so it is implicit rather than an explicit leakage statement.
+7. E14 RBBoost, data modified = n. The KEEL and HDDT sets were used as distributed; the binary KEEL versions were derived by the repository (fn 7, p.101). Modified data released is therefore coded n/a.
+8. Reason for data = y for E08 GOIO and E14 RBBoost covers the synthetic or simulated data only; neither gives a reason for its real data. For E02 CGMOS the reason is "randomly chosen" from UCI.
+9. E08 GOIO, settings = fixed, except that SVM C is listed as a grid {10^-3..10^4} with no selection rule (Table III, p.6458).

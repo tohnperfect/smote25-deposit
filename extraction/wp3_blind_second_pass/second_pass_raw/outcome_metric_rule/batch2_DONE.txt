@@ -1,0 +1,19 @@
+batch2 outcome rows (metric rule) - blind second coder - DONE
+Output: outrule/batch2_filled.csv (48 rows, same columns and order). Every value read from the PDF page image, not only from the text layer.
+NR rows: 0.  '?' rows: 0.
+
+Look at first (judgement calls):
+1. DGOT R015-R018: Table V does not say which of the five classifiers (XGBoost, KNN, DTC, Logit, RFC) produced the values or whether they are averaged; values filled from Table V, classifier ambiguity left in the note. Table V's proposed column is headed "BTDG" (Table IV: "DGOT"); taken as DGOT. Closest candidate for '?'.
+2. Several proposed-method variants; the choice is stated in the note:
+   - AB-SMOTE R004/R005: four AB-SMOTE settings; the best AB-SMOTE F-measure is setting 4.0 (M=5,k=5) in both tables, so either rule gives the same value.
+   - MBS R043/R044: took MBS_linear (paper's main variant). On Satimage, MBS_SVR is higher (0.7649); SMOTE (0.7613) loses either way.
+   - SOS R092: took VE (0.675), the value the text names for Shoppers; VP 0.658, Sub-VP 0.673; all are above SMOTE 0.648.
+3. Metric step: G-mean (or the multi-class MG) is step 1 for CBHSID, GDO, INOS, MKC-SMOTE, MWMOTE, OREM-M, RAMOBoost, SMOM, SVDD-WSMOTE. Step 2 (AUC/A-ROC) for MBS, RUSBoost, SMOTE-IPF. Step 3 (F-measure/F1/weighted F1) for AB-SMOTE, DGOT, SOS.
+4. SMOTE-IPF: Table 6 is the unperturbed condition (original data); the added-noise results (x=20%/40%) are only in Table 9.
+
+Formatting: means copied exactly as printed; the +/- SD is left out of the value columns but quoted in the note. INOS values have no leading zero (".945"), as printed. MKC-SMOTE (MG) and SMOTE-IPF (AUC) are printed as percentages. SMOM robot: both printed "1".
+
+Rows where SMOTE >= proposed method: R004, R005 (tie), R016, R031, R063, R064, R068, R069, R082 (tie), R084.
+
+Location fixes (input pdf_page_hint wrong): CBHSID Table 3 is pdf p.9; INOS Table 2 pdf p.9; MKC-SMOTE Table 4 pdf p.7; OREM-M Table S24 is supp p.40; RAMOBoost Abalone/Yeast pdf p.10, PID pdf p.9; RUSBoost Table IV pdf p.9; SVDD-WSMOTE Yeast3/Yeast pdf p.25 (printed 37), Pima/Balance pdf p.24 (printed 36).
+Note: the pdf folder also has SMOM__journal.pdf (later timestamp than the other files). I did not open it; the SMOM values come from SMOM__supp1.pdf p.7.

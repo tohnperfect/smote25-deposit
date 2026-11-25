@@ -1,0 +1,207 @@
+{
+ "protocol": "10 runs x StratifiedKFold(10, shuffle=True, random_state=run); resampling on the training fold only; Weka-equivalent NaiveBayes -D (useBetterEncoding=False); MG, MAUC, recall and precision averaged over the test folds; MG_pooled_per_run: MG of the pooled predictions of each run, averaged over runs",
+ "results": {
+  "vowel7": {
+   "NONE": {
+    "MG": 0.6896660607770093,
+    "MAUC": 0.9551917989417987,
+    "MG_pooled_per_run": 0.7008322027251359,
+    "MG_sd_over_runs": 0.013853888015292356,
+    "seconds": 2.3
+   },
+   "SMOTE": {
+    "MG": 0.7402067543342936,
+    "MAUC": 0.9615395355673136,
+    "MG_pooled_per_run": 0.749213208361873,
+    "MG_sd_over_runs": 0.011320541441697314,
+    "seconds": 4.3
+   },
+   "SMOM": {
+    "MG": 0.7419012214926536,
+    "MAUC": 0.9611603468547913,
+    "MG_pooled_per_run": 0.7504472753783693,
+    "MG_sd_over_runs": 0.010218069601754904,
+    "seconds": 5.8
+   },
+   "SMOM:round": {
+    "MG": 0.744567052031495,
+    "MAUC": 0.9614704585537919,
+    "MG_pooled_per_run": 0.7524696791741197,
+    "MG_sd_over_runs": 0.007092317953710119,
+    "seconds": 5.7
+   }
+  },
+  "vowel5": {
+   "NONE": {
+    "MG": 0.6957623592084964,
+    "MAUC": 0.9551856995884775,
+    "MG_pooled_per_run": 0.7191228148011284,
+    "MG_sd_over_runs": 0.03472747850564529,
+    "seconds": 2.0
+   },
+   "SMOTE": {
+    "MG": 0.7833209844553185,
+    "MAUC": 0.961832304526749,
+    "MG_pooled_per_run": 0.7895090090732276,
+    "MG_sd_over_runs": 0.009917080472777685,
+    "seconds": 5.8
+   },
+   "SMOM": {
+    "MG": 0.7780588894764489,
+    "MAUC": 0.9629807098765433,
+    "MG_pooled_per_run": 0.7848124056488492,
+    "MG_sd_over_runs": 0.012500064110662713,
+    "seconds": 6.8
+   },
+   "SMOM:round": {
+    "MG": 0.7840466892500715,
+    "MAUC": 0.9628382201646093,
+    "MG_pooled_per_run": 0.7904447938333763,
+    "MG_sd_over_runs": 0.008023263043958262,
+    "seconds": 6.3
+   }
+  },
+  "vehicle": {
+   "NONE": {
+    "MG": 0.7802434983178348,
+    "MAUC": 0.9267396490698205,
+    "recall_smallest": 0.9658684210526316,
+    "precision_smallest": 0.6293872629688423,
+    "MG_pooled_per_run": 0.7824039877862036,
+    "MG_sd_over_runs": 0.006394460063623211,
+    "seconds": 2.3
+   },
+   "SMOTE": {
+    "MG": 0.7882118126540469,
+    "MAUC": 0.9308332977881634,
+    "recall_smallest": 0.9608947368421054,
+    "precision_smallest": 0.625045631127732,
+    "MG_pooled_per_run": 0.790093379375566,
+    "MG_sd_over_runs": 0.005007952179854107,
+    "seconds": 13.8
+   },
+   "SMOM": {
+    "MG": 0.7847705763810854,
+    "MAUC": 0.9299191488675882,
+    "recall_smallest": 0.9593684210526315,
+    "precision_smallest": 0.6254305763364557,
+    "MG_pooled_per_run": 0.7867813295141077,
+    "MG_sd_over_runs": 0.00535689107187435,
+    "seconds": 6.5
+   },
+   "SMOM:round": {
+    "MG": 0.7850655650833707,
+    "MAUC": 0.9303661320319827,
+    "recall_smallest": 0.962421052631579,
+    "precision_smallest": 0.6277918754482277,
+    "MG_pooled_per_run": 0.7871888760497185,
+    "MG_sd_over_runs": 0.005689041180800919,
+    "seconds": 5.8
+   }
+  }
+ },
+ "paper": {
+  "vowel5": {
+   "MG": {
+    "A": {
+     "NONE": 0.9512,
+     "SMOTE": 0.9453,
+     "SMOM": 0.9474
+    },
+    "B": {
+     "NONE": 0.7105,
+     "SMOTE": 0.7736,
+     "SMOM": 0.7783
+    }
+   },
+   "MAUC": {
+    "A": {
+     "NONE": 0.9943,
+     "SMOTE": 0.9881,
+     "SMOM": 0.9894
+    },
+    "B": {
+     "NONE": 0.9544,
+     "SMOTE": 0.9616,
+     "SMOM": 0.9638
+    }
+   }
+  },
+  "vowel7": {
+   "MG": {
+    "A": {
+     "NONE": 0.8343,
+     "SMOTE": 0.857,
+     "SMOM": 0.8584
+    },
+    "B": {
+     "NONE": 0.6435,
+     "SMOTE": 0.717,
+     "SMOM": 0.7188
+    }
+   },
+   "MAUC": {
+    "A": {
+     "NONE": 0.9603,
+     "SMOTE": 0.9688,
+     "SMOM": 0.9719
+    },
+    "B": {
+     "NONE": 0.9547,
+     "SMOTE": 0.962,
+     "SMOM": 0.9629
+    }
+   }
+  },
+  "vehicle": {
+   "MG": {
+    "A": {
+     "NONE": 0.9719,
+     "SMOTE": 0.9754,
+     "SMOM": 0.9749
+    },
+    "B": {
+     "NONE": 0.7768,
+     "SMOTE": 0.7832,
+     "SMOM": 0.7849
+    }
+   },
+   "MAUC": {
+    "A": {
+     "NONE": 0.9986,
+     "SMOTE": 0.9986,
+     "SMOM": 0.9983
+    },
+    "B": {
+     "NONE": 0.9255,
+     "SMOTE": 0.9297,
+     "SMOM": 0.9299
+    }
+   },
+   "recall_smallest": {
+    "A": {
+     "NONE": 0.9659,
+     "SMOTE": 0.9754,
+     "SMOM": 0.9763
+    },
+    "B": {
+     "NONE": 0.9607,
+     "SMOTE": 0.9614,
+     "SMOM": 0.9608
+    }
+   },
+   "precision_smallest": {
+    "A": {
+     "NONE": 0.9547,
+     "SMOTE": 0.9459,
+     "SMOM": 0.9433
+    },
+    "B": {
+     "NONE": 0.6267,
+     "SMOTE": 0.6242,
+     "SMOM": 0.6246
+    }
+   }
+  }
+ }
+}

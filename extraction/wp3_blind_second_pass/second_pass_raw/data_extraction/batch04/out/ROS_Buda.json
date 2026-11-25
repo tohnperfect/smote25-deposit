@@ -1,0 +1,24 @@
+{
+ "data_key": "ROS (Buda)",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "Image"
+ ],
+ "crit": "'three benchmark datasets of increasing complexity, MNIST, CIFAR-10 and ImageNet'; datasets and models 'of increasing complexity' so conclusions drawn 'on simple task' can be verified on 'how they scale to more complex ones'; ILSVRC-2012 'widely used as a benchmark'; imbalance is induced artificially (step and linear imbalance, 'representatives of most of the real-world cases').",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "difficulty",
+  "popularity",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Class-resized",
+  "Induced profile"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "induced by authors",
+ "modified_data_released": "no",
+ "notes": "Multi-class image benchmarks (10, 10 and 1000 classes); nothing binarised. Step imbalance (rho, mu) and linear imbalance (rho) are induced on the training sets only; test sets stay balanced. Minority classes: random subset per repetition (MNIST), lowest label values (CIFAR-10), classes with <1000 cases plus randomized selection for the highest imbalance (ILSVRC-2012). 'Natural' not coded: the original (unmodified) datasets are only used to report the test error of the training setup (MNIST <1%, CIFAR-10 9.75%, ILSVRC-2012 top-1 62.56%), not in the imbalance experiments; adjudicator may consider it. No link to data or code. Supplementary Appendix A repeats CIFAR-10 step-imbalance experiments with reshuffled stratified train/test splits; Appendices B-C are plots/confusion matrices only."
+}

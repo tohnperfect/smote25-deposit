@@ -1,0 +1,21 @@
+batch 010: 196 of 196 records done; own 146, existing-parts 42, unclear 8
+no records remain
+
+Look at these first. All are borderline calls where the inclusion outcome depends on one reading. Record positions in the batch are in brackets.
+
+A. existing-parts calls that the script will exclude, but where an `own` reading is defensible:
+- R11669 [44] PCAForest/EmbedForest/AttentionForest: tree-based flow-matching diffusion in PCA, learned or attention-augmented latent spaces. I applied "existing sampler in a latent space", but the attention embedding could count as a new architecture. low
+- R02377 [45] CWGAN-GP (early oversampling paper): I read class conditioning added to WGAN-GP as a standard conditional GAN, not a new conditioning. low. R06578 [52] "Improved VAE" (class conditioning in the encoder) got the same reading. low
+- R00553 [64] PDFOS: the abstract shows plain Parzen-window KDE sampling under a new name, so B2 applies, although PDFOS is a well-known named oversampler. medium
+- R21954 [78] TabDDPM-Med ("adapted" TabDDPM, no stated change); R18295 [92] jitter and mixup in segment-wise PCA space; R03775 [164] GK-Means (Gaussian sampling per K-means cluster). low
+- Standard generator plus a new allocation or filter step, treated as B2 (generator unchanged): R20089 [17] KG-CTGAN, R10123 [30] SynDroid (KS-CIR class allocation), R21584 [133] and R15787 [137] (adaptive or closed-loop per-class augmentation amounts), R06654 [158] KGA. The codebook calls "a new allocation" own for SMOTE but does not settle it for B2 generators. medium
+- R18985 [7] LSHADE-tuned WGAN-GP and R11601 [154] POA-tuned STDA/DAGAN: I treated tuning as no change. R14319 [138] (CWGAN-GP with a GRU-attention generator) went the other way, coded own, because the abstract presents the architecture as its change. Check that these are consistent.
+- Named only, or standard parts with presented=yes and compared=no (excluded under B): R06503 [99] CSMOTE, R06383 [25] DS-SMOTE, R00521 [93] CLUSS, R01360 [192], R13524 [175] HyperSMOTE-MC, R08513 [184] EGAGN (graph GAN), R02885 [15] mixup oversampling.
+- R00440 [3] safe level graph (a choice between Borderline-SMOTE and Safe-Level-SMOTE): I coded compared=yes because the success rate implies the two SMOTEs were compared. If it is no, the record is excluded. low
+- R00396 [125] SelectRUSBoost/SelectSMOTEBoost: kept only because presented=yes, and the contribution is arguably feature selection. low
+
+B. own calls that are soft (if recoded as existing-parts, some would be excluded): R04969 [31] MCBC-SMOTE allocation, R03119 [35] ACC-SMOTE (only the clustering is "improved"), R01857 [66] AdaSRoF (differentiated SMOTE rates in an ensemble), R20201 [67] (anchors plus a Gaussian kernel, close to KDE), R03187 [14] BCGAN (borderline class as the conditioning), R21931 [6] ("novel inpainting diffusion"), R18040 [26] (self-supervised WCGAN plus ADASYN), R19485 [9] HAPMA (includes GMM sampling), R16677 [76] CN-SMOTE, R01182 [88] (safe screening as undersampler), R14293 [91] SMOTE NC-GAN ("modified GAN"), R03644 [111] CMSOT, R05296 [119] SVD-CLAHE, R18009 [120] ConDiff (feedback-guided diffusion), R06660 [161] KNNGAN ("designed GAN").
+
+C. unclear (kept by the script): R03537 [50] HCBST (oversampler "derived from" SNOCC), R16715 [70] APOEA (oversampling step undescribed, presented=no), R00227 [71], R02547 [131] (garbled abstract), R00686 [37], R06835 [39], and two records with no abstract: R01848 [65] and R13906 [75].
+
+Notes: R05190 [135] is a retracted record. I coded generator=none when an own method names no generator, and coded SMOTE in a latent space (DeepSMOTE-type) as classical. I coded R16757 [106] tractography as segmentation. Essay-score and star-rating classes are coded as classification.

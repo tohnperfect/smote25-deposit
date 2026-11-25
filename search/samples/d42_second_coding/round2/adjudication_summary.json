@@ -1,0 +1,342 @@
+{
+ "useaudit": {
+  "items": 41,
+  "kept": 25,
+  "corrected": 16,
+  "chosen": {
+   "first": 25,
+   "second": 15,
+   "other": 1
+  },
+  "records_corrected": 13,
+  "by_field": {
+   "calibration": {
+    "kept": 1
+   },
+   "domain": {
+    "kept": 2
+   },
+   "inside_folds": {
+    "corrected": 1,
+    "kept": 3
+   },
+   "is_application": {
+    "kept": 1
+   },
+   "learner": {
+    "corrected": 4,
+    "kept": 3
+   },
+   "measures": {
+    "kept": 2,
+    "corrected": 3
+   },
+   "modality": {
+    "kept": 1
+   },
+   "resampler": {
+    "corrected": 2,
+    "kept": 3
+   },
+   "stakes": {
+    "corrected": 1,
+    "kept": 1
+   },
+   "test_balanced": {
+    "corrected": 3,
+    "kept": 4
+   },
+   "validation": {
+    "kept": 1
+   },
+   "vs_none": {
+    "corrected": 1,
+    "kept": 1
+   },
+   "vs_weights": {
+    "kept": 2,
+    "corrected": 1
+   }
+  },
+  "low_confidence": 5,
+  "spot_check_overrides": 0
+ },
+ "coverage": {
+  "items": 92,
+  "kept": 46,
+  "corrected": 46,
+  "chosen": {
+   "second": 46,
+   "first": 46
+  },
+  "records_corrected": 15,
+  "by_field": {
+   "A": {
+    "kept": 1,
+    "corrected": 3
+   },
+   "F": {
+    "kept": 2,
+    "corrected": 2
+   },
+   "L": {
+    "kept": 1,
+    "corrected": 3
+   },
+   "N": {
+    "kept": 1,
+    "corrected": 3
+   },
+   "P": {
+    "kept": 2,
+    "corrected": 3
+   },
+   "S": {
+    "kept": 2,
+    "corrected": 2
+   },
+   "class": {
+    "corrected": 1,
+    "kept": 1
+   },
+   "code": {
+    "corrected": 1,
+    "kept": 1
+   },
+   "eligible": {
+    "corrected": 1,
+    "kept": 1
+   },
+   "exclusion": {
+    "corrected": 1,
+    "kept": 1
+   },
+   "generator": {
+    "kept": 2,
+    "corrected": 2
+   },
+   "inside_folds": {
+    "kept": 8,
+    "corrected": 1
+   },
+   "label": {
+    "kept": 2,
+    "corrected": 2
+   },
+   "measures": {
+    "corrected": 5,
+    "kept": 3
+   },
+   "modality": {
+    "corrected": 1,
+    "kept": 1
+   },
+   "n_datasets": {
+    "corrected": 3,
+    "kept": 1
+   },
+   "protocol": {
+    "corrected": 5,
+    "kept": 4
+   },
+   "stat_test": {
+    "corrected": 1,
+    "kept": 1
+   },
+   "tuning": {
+    "corrected": 3,
+    "kept": 7
+   },
+   "vs_cost": {
+    "corrected": 1,
+    "kept": 2
+   },
+   "vs_none": {
+    "corrected": 1,
+    "kept": 1
+   },
+   "vs_smote": {
+    "corrected": 1,
+    "kept": 1
+   }
+  },
+  "low_confidence": 6,
+  "spot_check_overrides": 0
+ },
+ "in_force": {
+  "useaudit": {
+   "items": 185,
+   "kept": 118,
+   "corrected": 67,
+   "chosen": {
+    "second": 65,
+    "first": 118,
+    "other": 2
+   },
+   "records_corrected": 55,
+   "by_field": {
+    "calibration": {
+     "kept": 1
+    },
+    "domain": {
+     "corrected": 3,
+     "kept": 4
+    },
+    "inside_folds": {
+     "kept": 4,
+     "corrected": 1
+    },
+    "is_application": {
+     "corrected": 1,
+     "kept": 1
+    },
+    "learner": {
+     "kept": 15,
+     "corrected": 15
+    },
+    "measures": {
+     "corrected": 5,
+     "kept": 9
+    },
+    "modality": {
+     "corrected": 7,
+     "kept": 5
+    },
+    "resampler": {
+     "kept": 10,
+     "corrected": 9
+    },
+    "stakes": {
+     "corrected": 6,
+     "kept": 4
+    },
+    "test_balanced": {
+     "kept": 5,
+     "corrected": 5
+    },
+    "validation": {
+     "kept": 57,
+     "corrected": 13
+    },
+    "vs_none": {
+     "corrected": 1,
+     "kept": 1
+    },
+    "vs_weights": {
+     "kept": 2,
+     "corrected": 1
+    }
+   },
+   "low_confidence": 26,
+   "spot_check_overrides": 0,
+   "round1_items_replaced": 72,
+   "round1_records_replaced": 46,
+   "round1_corrections_replaced": 32
+  },
+  "coverage": {
+   "items": 98,
+   "kept": 50,
+   "corrected": 48,
+   "chosen": {
+    "first": 50,
+    "second": 48
+   },
+   "records_corrected": 17,
+   "by_field": {
+    "A": {
+     "kept": 1,
+     "corrected": 3
+    },
+    "F": {
+     "kept": 2,
+     "corrected": 2
+    },
+    "L": {
+     "kept": 1,
+     "corrected": 3
+    },
+    "N": {
+     "kept": 1,
+     "corrected": 3
+    },
+    "P": {
+     "kept": 2,
+     "corrected": 3
+    },
+    "S": {
+     "kept": 2,
+     "corrected": 2
+    },
+    "class": {
+     "corrected": 1,
+     "kept": 1
+    },
+    "code": {
+     "corrected": 1,
+     "kept": 1
+    },
+    "eligible": {
+     "kept": 2,
+     "corrected": 1
+    },
+    "exclusion": {
+     "kept": 2,
+     "corrected": 1
+    },
+    "generator": {
+     "kept": 2,
+     "corrected": 2
+    },
+    "inside_folds": {
+     "kept": 8,
+     "corrected": 1
+    },
+    "label": {
+     "kept": 2,
+     "corrected": 2
+    },
+    "measures": {
+     "kept": 4,
+     "corrected": 7
+    },
+    "modality": {
+     "corrected": 1,
+     "kept": 1
+    },
+    "n_datasets": {
+     "corrected": 3,
+     "kept": 1
+    },
+    "protocol": {
+     "corrected": 5,
+     "kept": 4
+    },
+    "stat_test": {
+     "kept": 2,
+     "corrected": 1
+    },
+    "tuning": {
+     "corrected": 3,
+     "kept": 7
+    },
+    "vs_cost": {
+     "corrected": 1,
+     "kept": 2
+    },
+    "vs_none": {
+     "corrected": 1,
+     "kept": 1
+    },
+    "vs_smote": {
+     "corrected": 1,
+     "kept": 1
+    }
+   },
+   "low_confidence": 8,
+   "spot_check_overrides": 0,
+   "round1_items_replaced": 0,
+   "round1_records_replaced": 0,
+   "round1_corrections_replaced": 0
+  }
+ }
+}

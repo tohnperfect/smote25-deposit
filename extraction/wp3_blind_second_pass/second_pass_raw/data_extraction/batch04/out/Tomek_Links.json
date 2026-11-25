@@ -1,0 +1,21 @@
+{
+ "data_key": "Tomek Links",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "Synthetic"
+ ],
+ "crit": "'For illustration and comparison with other methods, an example presented in [4] has been repeated': 2 classes of 200 two-dimensional samples, uniform distribution with irregular decision boundaries.",
+ "crit_type": "own reason",
+ "basis": [
+  "analytic",
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "[4] G. L. Ritter et al., 'An algorithm for a selective nearest neighbor decision rule', IEEE Trans. Inform. Theory, IT-21, 1975 (example repeated)",
+ "origin": [
+  "Generated"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "n.a.",
+ "modified_data_released": "n.a.",
+ "notes": "Single illustrative experiment on a balanced synthetic 2-D set (2 x 200, uniform, irregular boundary) repeated from [4]; results only as scatter plots of the retained points (Fig. 6), no numbers. Not an imbalance experiment: no minority class. crit_type: 'for illustration' read as an own (analytic) reason; if read only as reuse of [4]'s example, the code would be 'cites prior work'. The PDF pages also hold the end of a preceding fuzzy-logic correspondence and the start of a following one (Kerr); ignored."
+}

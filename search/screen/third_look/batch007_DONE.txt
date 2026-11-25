@@ -1,0 +1,20 @@
+batch 007: 200 of 200 records done; include 29, unsure 113, exclude 58
+By code: U-new-or-applied 65, U-other 37, U-no-abstract 11; E1 43, E-COMPARE 6, E-NOGEN 6, E2 1, E-REVIEW 1, E-LANG 1; I1-generative 14, I1-hybrid 10, I1-new-variant 2, I1-other 2, I1-multiclass 1. Confidence: high 24, medium 127, low 49.
+
+Look at first:
+- R00006 (Batista et al. 2004, origin of SMOTE+Tomek and SMOTE+ENN): marked unsure only because clarification 3 sends an existing generator plus existing cleaning to the person. The survey almost certainly needs it.
+- Language conflicts: R18985 was included although its language field says tr, because its title and abstract are English. R05311 was excluded E-LANG because its title is Turkish, although the field says en; its content is a new Heinz-mean oversampler. These may have non-English full texts behind English metadata: R16145, R09143, R00350.
+- Theory papers the codebook does not cover, sent to unsure: R12009 (NeurIPS 2025 risk bounds for SMOTE), R09916 (theory of under- and oversampling), R06411 (GOLIATH, a kernel-density generalisation of SMOTE evaluated only on regression).
+- Decisions that went against both screeners, mostly low confidence:
+  - Included: R04153, R17457, R07296, R02966, R00736, R04970, R04554, R03290, R00888, R20068.
+  - Excluded: R09587, R08602, R00103, R00120, R06801, R03925, R13484, R05171, R04389, R07364, R10677, R04968, R16414, R12902, R18677, R05311.
+
+Cases the codebook does not settle:
+- Step 3 of the instructions allows unsure only for U-no-abstract and U-new-or-applied. Codebook clarifications 1 and 2 require U-other, and no exclusion code fits those cases, so I followed the codebook (37 U-other). Eighteen of them are 2026 Zenodo preprints of named SMOTE variants that report only theoretical analysis: R17601, R19899, R21520, R19256, R21743, R20219, R15954, R22155, R21470, R21666, R21483, R21005, R17444, R20501, R21439, R21495, R21983, R17100. One policy decision would settle all of them.
+- Book chapters: I3 does not list book chapters and no exclusion code covers them, so I decided on content. R00351 is unsure for this reason alone. The other chapters are R01396, R05788, R01001, R11086, R18677 and R04620.
+- Scope of clarification 3: I read it as covering cleaning, instance or feature selection, outlier removal and quality filters, but not plain random undersampling, so R09587 and R04389 went to E1. I applied it only when the combination is presented as the paper's own resampling method. Existing resampling used as one step of a domain pipeline went to E1.
+- Tuning SMOTE's sampling rate by search or metaheuristic was not counted as changing how SMOTE is applied: R06801, R16414, R04620, R01550.
+- Generators:
+  - A named existing generator (WCGAN-GP, CTGAN, WGAN, CGAN) said to be "proposed" with no change described went to U-new-or-applied.
+  - A generator that is merely used went to E1.
+  - SMOTE-plus-generator hybrids and generators with a described design were included.

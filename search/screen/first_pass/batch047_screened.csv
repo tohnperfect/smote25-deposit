@@ -1,0 +1,201 @@
+rec,decision,reason_code,reason,tags,confidence
+R15912,exclude,E1,Rainfall forecasting with deep models; standard SMOTE used only as preprocessing.,time-series,high
+R13363,exclude,E-COMPARE,Empirical study of existing sampling methods with PCA on big multiclass data; proposes no new resampling method.,comparison;multiclass,high
+R05443,exclude,E1,Stroke prediction comparing classifiers; random oversampling applied as a preprocessing step.,medical,high
+R07751,include,I1-new-variant,"New oversampler with noise-filtering density-peak clustering, adaptive per-cluster allocation and within-cluster generation, tested on 32 datasets.",,high
+R13630,unsure,U-new-or-applied,Landslide domain paper proposes a gridded hyperspace sampling technique combined with SMOTE; unclear whether it changes synthetic generation or is only sample selection.,,medium
+R10494,exclude,E1,Federated learning pipeline for IoMT sensor faults; SMOTE applied as preprocessing.,,high
+R13603,exclude,E1,Heart disease prediction with LDA; SMOTE is one preprocessing step.,medical,high
+R09872,exclude,E1,Leukocyte image classification with deep features; plain oversampling by replication used to balance classes.,image;medical;deep-learning,high
+R16759,exclude,E1,Clinical prediction model for adolescent metabolic syndrome; standard SMOTE used for imbalance correction.,medical,high
+R21994,exclude,E1,Pump prognostics framework; PCA and SMOTE used only as preprocessing.,,high
+R03265,exclude,E1,Fall risk detection comparing classifiers with existing oversampling methods; no new resampling method.,medical,high
+R13136,exclude,E1,IIoT attack detection pipeline; standard SMOTE used to balance classes before feature selection and classification.,,high
+R09227,include,I1-other,Proposes a new guided oversampling strategy (strategic NaN introduction plus interpolation) for alloy processing classification and evaluates it.,multiclass,medium
+R09503,exclude,E-NOGEN,"No abstract; the title names knowledge distillation for imbalanced multimodal sentiment, which suggests no synthetic example generation.",no-abstract;text,medium
+R11109,exclude,E-LANG,Article in Chinese (DDPM-based sample generation for aircraft maneuver recognition).,generative;time-series;image;deep-learning,high
+R12386,exclude,E2,"No abstract; title indicates soil salinity mapping with zero-inflated, skewed targets, which points to regression.",no-abstract,medium
+R11563,exclude,E1,Maritime incident report severity classification; SMOTE applied before a voting ensemble.,text;multiclass,high
+R18145,exclude,E1,"Dance motion recognition pipeline using an existing TimeGAN for augmentation; novelty is the overall combination, not the generator.",generative;time-series;deep-learning,medium
+R20922,exclude,E-LANG,Article in Indonesian; also only applies SMOTE to compare classifiers for stroke prediction.,medical,high
+R00762,exclude,E1,"Traffic accident severity analysis applying existing under-, over- and mixed sampling with Bayes classifiers.",,high
+R10968,exclude,E1,Android malware detection with CNN+LSTM; SMOTE used as preprocessing.,deep-learning,high
+R09801,exclude,E1,Hematoma expansion prediction with stacked models; standard SMOTE used to oversample.,medical,high
+R04335,exclude,E1,HCV patient classification comparing classifiers; SMOTE applied to balance data.,medical,high
+R06893,exclude,E-LANG,Article in Chinese; also only applies Random-SMOTE in a histopathology classifier.,image;medical;deep-learning,high
+R14413,exclude,E1,OCD prediction ensemble; SMOTE applied for class imbalance.,medical,high
+R12699,include,I1-new-variant,"Proposes MOPSO-SMOTE, which optimizes synthetic sample generation with multi-objective PSO, evaluated against five resampling baselines on fraud data.",,high
+R08542,exclude,E1,Vulnerability description categorization; standard SMOTE applied to improve accuracy.,text,high
+R16022,exclude,E1,Comparison of classifiers for Android malware; existing oversampling techniques applied.,multiclass,high
+R02785,exclude,E1,Acoustic depression detection; SMOTE used as preprocessing for SVM.,medical,high
+R15176,exclude,E1,"ECG classification pipeline with wavelet denoising and random forest; an existing oversampling technique is selected, not proposed.",medical;time-series,high
+R13299,exclude,E-COMPARE,Investigates the efficacy of existing GAN/VAE augmentation against baselines; no new generator is described.,generative;comparison,medium
+R15113,exclude,E1,"Heart disease deep model; an existing proximity-weighted synthetic sampling technique is a pipeline step, not the contribution.",medical;deep-learning,high
+R22137,exclude,E1,"Earnings growth forecasting framework evaluating existing balancing methods (SMOTE, ADASYN, Tomek, RENN).",,high
+R04004,exclude,E-LANG,"Article in Chinese; otherwise in scope (proposes cluster-structure-based adaptive synthetic sampling, CSbADASYN).",,high
+R12450,exclude,E1,Fetal health CTG classification comparing classifiers; SMOTE applied.,medical;multiclass,high
+R19949,exclude,E1,Clinical decision support system; existing KMeans-SMOTE used in preprocessing.,medical,high
+R04080,exclude,E-COMPARE,Compares existing resampling techniques with logistic regression on a bank marketing dataset.,comparison,high
+R03168,include,I1-generative,"Proposes adversarial perturbation in an autoencoder latent space to generate augmented samples for imbalanced time-series, with experiments.",generative;time-series;deep-learning,medium
+R01174,exclude,E1,Healthcare incident detection framework combining existing rebalancing strategies; LR with SMOTE performs best.,medical;text,high
+R21408,exclude,E1,Mental health detection from social media text; SMOTE applied before ensemble classifiers.,text;medical,high
+R06640,exclude,E1,EEG seizure detection on edge hardware; SMOTE used with a random forest.,medical;time-series,high
+R13374,exclude,E1,Introduces an HBV clinical dataset; pipeline applies SMOTE for balancing.,medical,high
+R15077,exclude,E1,Twitter sentiment analysis with SVM; SMOTE applied as one scenario.,text,high
+R15920,exclude,E-LANG,"Article in Thai; also only compares classifiers and existing resampling (SMOTE, ADASYN, undersampling) for news classification.",text;comparison;multiclass,high
+R06574,exclude,E1,SQL injection detection comparing rules and classifiers; SMOTE applied to the minority class.,text,high
+R11486,exclude,E1,Open banking fraud detection system; SMOTE used as preprocessing.,,high
+R17157,exclude,E1,CKD prediction with hybrid feature selection and ensembles; SMOTE used in preprocessing.,medical,high
+R01387,exclude,E-REVIEW,"Proceedings front matter listing 57 papers; one listed title combines SMOTE, RUS and bagging.",front-matter-in-scope,high
+R22085,exclude,E1,"Federated evolutionary fuzzy system for rare disease; synthetic oversampling is a pipeline step, not the contribution.",medical,high
+R17284,exclude,E1,Aspect-based sentiment analysis of reviews; SMOTE combined with slang normalization as preprocessing.,text,high
+R15187,exclude,E1,Smart grid attack identification with mRMR and XGBoost; existing K-means SMOTE used as preprocessing.,multiclass,high
+R01911,exclude,E-COMPARE,Experimental comparison of six existing imbalance learning methods with six classifiers on software defect data.,comparison,high
+R21682,exclude,E1,Sentiment analysis of policy comments with Naive Bayes; SMOTE applied.,text,high
+R01079,include,I1-new-variant,Modifies SMOTE-IPF with Hamamoto's bootstrap and evaluates it with an SVM on real radar interference data.,,high
+R20669,exclude,E1,Lightweight XGBoost intrusion detection; SMOTE in the preprocessing pipeline.,,high
+R20366,exclude,E1,WSN intrusion detection framework; existing ADASYN applied before feature selection and XGBoost.,multiclass,high
+R11415,exclude,E1,"HTTP status anomaly prediction with boosting; existing resampling methods (CNN, RUS, CC, SMOTE) compared.",,high
+R18967,exclude,E-LANG,Article in Indonesian; also only evaluates existing SMOTE and SMOTE+Tomek for stunting prediction.,medical;multiclass;comparison,high
+R15721,exclude,E1,Diabetes prediction with ML and XAI; SMOTE used in preprocessing.,medical,high
+R00588,exclude,E-COMPARE,"Compares existing imbalance methods (weighted RF, down-sampling, SMOTE) for obesity classification; nothing new proposed.",comparison;medical,high
+R20303,exclude,E1,Multiclass thalassemia carrier classification; SMOTE applied to the training set.,medical;multiclass,high
+R17358,exclude,E1,Thyroid classification with a backpropagation network; random oversampling used as preprocessing (language field says Indonesian).,medical,high
+R17947,exclude,E1,Sentiment classification of skincare reviews comparing NB and SVM; SMOTE applied.,text,high
+R13912,exclude,E1,Churn prediction with XGBoost and Boruta-SHAP; SMOTE used for balancing.,,high
+R15705,exclude,E1,Thyroid disease ensemble with feature selection; SMOTE applied as preprocessing.,medical,high
+R18904,exclude,E-COMPARE,Evaluates existing SMOTE and random undersampling with several classifiers for wearable authentication; nothing new proposed.,comparison,high
+R14648,unsure,U-new-or-applied,Respiratory radar paper uses a two-stage augmentation with DTW-based SMOTE-TS; unclear whether this oversampler is new or an existing one applied.,time-series;medical;deep-learning,medium
+R06837,exclude,E1,"School dropout prediction; compares many existing resampling techniques, contribution is the predictive model.",comparison,high
+R18628,exclude,E1,Facial age and gender estimation; SMOTE used for the gender classifier.,image;deep-learning,high
+R15622,exclude,E1,Churn prediction framework and web app; SMOTE used for balancing.,,high
+R00354,exclude,E-REVIEW,MLSP 2013 proceedings front matter; lists an in-scope oversampling paper (MOGT).,front-matter-in-scope,high
+R14596,exclude,E1,"IoMT intrusion detection study comparing ANN designs with existing SMOTE, hybrid sampling and weighted loss.",comparison;deep-learning,high
+R21549,exclude,E1,Orthodontic extraction prediction with nested CV; existing SMOTENC placed inside the training pipeline.,medical,high
+R05448,exclude,E1,Comparison of classifiers for credit card fraud; plain oversampling applied.,,high
+R12071,exclude,E1,Credit card fraud detection system using existing oversampling and cost-sensitive learning.,,high
+R09690,exclude,E1,Bank deposit prediction comparing statistical and ML models; standard SMOTE applied (language field says Arabic).,,high
+R03675,exclude,E1,MRSA screening prediction with XGBoost; standard synthetic minority oversampling used to build balanced sets.,medical,high
+R13829,include,I1-generative,"Proposes a physics-aware conditional VAE to augment imbalanced failure-mode classes, compared against established oversamplers with eight classifiers.",generative;multiclass;deep-learning,high
+R11207,exclude,E1,Eye anemia diagnosis with a multi-branch CNN; SMOTE and augmentation applied.,image;medical;deep-learning,high
+R04785,exclude,E1,MI detection with CNN-LSTM; balancing uses the existing SMOTE-Tomek combination although the abstract calls it novel.,medical;time-series;deep-learning,medium
+R05520,exclude,E1,Breast cancer survivability classification; existing SMOTE-ENN employed with random forest.,medical,high
+R09317,exclude,E1,"Liver disease classification with XAI; GANs used as an existing oversampling step, not the contribution.",medical;generative;deep-learning,high
+R04018,exclude,E-COMPARE,Exploratory comparison of existing under- and over-sampling and penalized models for non-technical loss detection.,comparison,high
+R17583,exclude,E1,Student loan discontinuity prediction with a bioinspired DNN; SMOTE used for balancing.,,high
+R09916,unsure,U-other,Theoretical analysis of under/oversampling for linear classifiers with experiments; unclear whether it proposes a new resampling method or only analyses existing ones.,,medium
+R12679,exclude,E1,Smartphone pothole detection algorithm; SMOTE is one preprocessing step.,time-series,high
+R07468,exclude,E1,Frailty classification pipeline; existing SMOTE-ENN applied before optimized CatBoost.,medical,high
+R00736,unsure,U-other,New instance-transfer method rebalances reviews with source-domain instances and adds a SMOTE-based step for feature inconsistency; unclear if it counts as synthetic generation.,text,medium
+R17882,exclude,E-COMPARE,Benchmark of eleven classifiers with SMOTE and random undersampling on three loan datasets; nothing new proposed.,comparison,high
+R03486,exclude,E1,Optical fiber fault prediction with SVM; SMOTE applied.,,high
+R21785,exclude,E1,Software defect prediction; standard SMOTE applied before tree classifiers.,,high
+R10260,exclude,E1,No abstract; title describes a clinical application (severe dengue identification) with no sign of a new resampling method.,no-abstract;medical,medium
+R10420,exclude,E1,Fraud detection CNN combined with existing ADASYN.,deep-learning,high
+R11581,unsure,U-other,I2 not stated in the abstract; RL framework that selects oversampling rates and synthetic generation parameters is only outlined.,,medium
+R08780,exclude,E1,Bangla hate speech detection; SMOTE used to balance data.,text;deep-learning,high
+R11217,exclude,E1,Ovarian cancer subtype classification with CNNs; random oversampling and augmentation applied.,image;medical;deep-learning;multiclass,high
+R11041,exclude,E2,Machining size prediction is regression; existing SMOGN applied.,,high
+R12142,include,I1-generative,"Proposes a diffusion-based hierarchical VAE that learns minority (damage) data from majority distribution, compared with oversamplers on MNIST and wind turbine data.",generative;deep-learning;image,high
+R02098,exclude,E-NOGEN,Long-tailed training scheme with class-balanced sampling and an auxiliary task; no synthetic examples generated.,image;deep-learning;multiclass,high
+R11689,exclude,E1,Bovine brucellosis prediction; SMOTE applied before training classifiers.,medical,high
+R00780,exclude,E1,"Activity recognition comparing HMM, LDA, SVM and SVM with standard SMOTE; no new resampling method.",time-series,high
+R00507,include,I1-new-variant,"Two new algorithms improving SMOTE are created and tested; record is typed as a book chapter though the venue looks like a journal series, so I3 needs a check.",,medium
+R12651,exclude,E-NOGEN,"Regularized polynomial XGBoost for fair cardiovascular prediction; addresses imbalance in the model, no synthetic generation described.",medical,high
+R11636,exclude,E1,IDS with XGBoost and feature selection; standard SMOTE applied before boosting.,,high
+R11839,exclude,E1,"No abstract; title describes a hybrid LSTM-SVM classifier for electricity theft, no sign of a new resampling method.",no-abstract,medium
+R01689,include,I1-new-variant,"Proposes WESMOTE, which synthesizes minority examples from word-embedding sentence representations, compared with other imbalance methods on two ADR datasets.",text;medical,high
+R08631,exclude,E1,Heart disease prediction comparing feature selection with XGBoost; SMOTE applied.,medical,high
+R11344,exclude,E1,Tweet sentiment analysis comparing NB and SVM; SMOTE applied.,text,high
+R19354,exclude,E1,"No abstract; title describes applying ML to fraud transaction detection, no sign of a new resampling method.",no-abstract,medium
+R16704,unsure,U-new-or-applied,IoMT graph IDS includes Attention-Weighted Graph Synthetic Oversampling; unclear whether this oversampler is the authors' new method or an existing one.,multiclass;deep-learning,medium
+R08734,exclude,E1,"Turbulence prediction with TabNet-SHAP; existing augmentation methods compared, SVM-SMOTE best.",,high
+R11487,exclude,E1,Credit card fraud CNN with random forest feature selection; SMOTE preprocessing.,deep-learning,high
+R10074,include,I1-hybrid,"Proposes ILMNN, metric learning that builds a latent space for oversampling with reweighting and a KL safeguard, tested on many imbalanced datasets.",,high
+R01501,exclude,E-NOGEN,Contribution is feature selection for skewed multiclass sentiment data; oversampling used is existing.,text;multiclass,high
+R14859,exclude,E1,Hemophilia A inhibitor prediction; random oversampling employed in preprocessing.,medical,high
+R08625,exclude,E1,"Firewall packet classification with ANN using existing SMOTE, ADASYN and BorderlineSMOTE.",multiclass,high
+R13689,exclude,E1,Hepatitis B outcome prediction with ensembles; SMOTE applied.,medical,high
+R01198,exclude,E-NOGEN,Bagging with threshold-moving that keeps the natural class distribution; no synthetic examples.,multiclass,high
+R21356,exclude,E1,Quantum SVC framework for heart disease; SMOTE applied to balance data.,medical,high
+R06002,exclude,E-COMPARE,Empirical comparison of existing resampling techniques for drug-target interaction prediction.,comparison,high
+R15501,exclude,E1,Cardiovascular prediction with dual-guided deep tabular distillation; existing SMOTE-ENN used for balancing.,medical;deep-learning,high
+R13799,exclude,E1,Credit default stacking ensemble; existing Borderline-SMOTE applied.,,high
+R13527,exclude,E1,Hypertension risk stacking ensemble; SMOTE in preprocessing.,medical,high
+R18691,exclude,E1,AQI classification with GA-optimized RBF-ELM; standard SMOTE applied.,multiclass,high
+R13548,exclude,E-LANG,"Article in Chinese; also compares existing CTGAN, CopulaGAN, SMOTE and ADASYN for accident cause analysis.",generative;comparison,high
+R08941,exclude,E1,Mortality risk in chronic kidney failure with voting classifiers; SMOTE applied.,medical,high
+R08385,unsure,U-new-or-applied,MANET intrusion detection framework with an 'adaptive synthetic auto-encoder' component; cannot tell whether this is ADASYN applied or a new generator.,deep-learning,low
+R06549,exclude,E-COMPARE,Evaluates existing resampling methods and ratios across classifiers on medical data; nothing new proposed.,comparison;medical,high
+R20291,exclude,E1,AML gene signature classification; SMOTE employed.,medical,high
+R00284,unsure,U-other,"Proposes a rule for choosing sampling strategy and class distribution plus a new metric; unclear whether it generates synthetic examples, and no evaluation on data is named.",,low
+R14541,exclude,E1,Rock mass classification with optimized random forests; existing Borderline-SMOTE applied.,multiclass,high
+R16166,exclude,E-NOGEN,Autoencoder features plus random forest for fraud; no synthetic generation described.,,high
+R18963,exclude,E1,Rainfall classification comparing four classifiers; standard SMOTE applied.,,high
+R01206,exclude,E-LANG,Article in Chinese (hyperplane-distance instance transfer for imbalanced sentiment texts).,text,high
+R15659,exclude,E1,"Student achievement prediction; existing RUSBoost, SMOTE and their combination employed.",,high
+R06562,exclude,E2,Aircraft trajectory prediction is regression; SMOTE used to augment GMM-identified trajectory patterns.,time-series;deep-learning,medium
+R07146,include,I1-new-variant,Modified SMOTE finds boundary support vectors in kernel space and adaptively interpolates or extrapolates; evaluated against comparison methods.,deep-learning,medium
+R02726,exclude,E1,Power system fault classification comparing ML methods; standard SMOTE used.,multiclass,high
+R17873,exclude,E-COMPARE,Comparative evaluation of temporal deep models with existing oversamplers for crop classification.,comparison;multiclass;time-series;deep-learning,high
+R02152,exclude,E-COMPARE,Compares existing over- and under-sampling techniques on an autism screening dataset.,comparison;medical,high
+R21301,exclude,E1,"mmWave ergonomic scoring framework; an oversampling strategy is implemented as a step, not proposed as a method.",deep-learning,high
+R05989,include,I1-hybrid,"Combines SMOTE with a new intuitionistic fuzzy rough instance selection for cleaning, plus feature selection, with an experimental study.",,high
+R03841,exclude,E1,PPI site prediction with KPCA and XGBoost; SMOTE used in preprocessing.,,high
+R12553,exclude,E1,E-learning prediction framework with feature selection and boosting; SMOTE used for balancing.,,high
+R14808,exclude,E1,Lecturer promotion prediction comparing classifiers; SMOTE applied.,,high
+R10821,exclude,E-NOGEN,Contribution is binary Harris Hawks feature selection; SMOTE is used unchanged alongside it.,,medium
+R13875,exclude,E1,IDS pipeline with ML and DL models; SMOTE in preprocessing.,multiclass,high
+R01665,exclude,E1,Chili price class prediction with KNN; existing ADASYN applied.,,high
+R19196,exclude,E1,Pediatric postoperative risk model; SMOTE applied within training folds.,medical,high
+R09025,include,I1-new-variant,"Improves SMOTE by combining k-means SMOTE with RBFNN, an FCM minority resampling link and RUS, compared with existing SMOTE variants.",,high
+R13737,exclude,E1,Racism detection in tweets with XGBoost; SMOTE applied.,text,high
+R06118,exclude,E1,SDN intrusion detection with CNN autoencoder and MLP; SMOTE applied.,multiclass;deep-learning,high
+R20804,unsure,U-new-or-applied,SDN intrusion paper claims a novel approach using GAN-based synthesis against SMOTE; cannot tell whether the GAN generator is new or an existing one applied.,generative;deep-learning,medium
+R19276,exclude,E1,Federated cloud intrusion detection with transfer learning; SMOTE used for augmentation.,deep-learning,high
+R16880,exclude,E1,CNN-LSTM intrusion detection; existing SMOTE and focal loss used for imbalance.,deep-learning,high
+R12509,exclude,E-COMPARE,No abstract; title describes an empirical study of the effect of sampling techniques on fraud detection with XGBoost.,no-abstract;comparison,medium
+R16455,exclude,E1,Breast cancer prediction with multi-estimator feature selection; SMOTE applied for balancing.,medical,high
+R07877,include,I1-new-variant,"Proposes KTE-SMOTE with k-means seeding, Tomek links, edge smoothing during generation and ENN cleaning, evaluated against SMOTE.",,high
+R05465,exclude,E1,Automated essay grading comparing classifiers; random oversampling applied.,text;multiclass,high
+R14556,exclude,E1,Breast cancer classification comparing four classifiers with and without SMOTE.,medical,high
+R11876,exclude,E1,Academic performance prediction comparing six classifiers with existing oversampling.,multiclass,high
+R00734,exclude,E1,Mobile snoring-sound OSA screening; SMOTE applied to the minority class.,medical,high
+R16157,exclude,E1,"Hierarchical random forest IDS with GA feature selection; SMOTE applied selectively as a component, not proposed as a new resampling method.",multiclass,medium
+R03875,exclude,E1,Credit card fraud classifier comparison; SMOTE used to balance data.,,high
+R20772,exclude,E1,Stunting classification with SVM and chi-square feature selection; SMOTE applied.,medical,high
+R10832,exclude,E1,Multi-view stacking for refactoring prediction; standard SMOTE applied to the combined features.,,high
+R17661,exclude,E1,Cascade framework for software fault prediction; SMOTE used for rebalancing.,,high
+R13663,exclude,E-COMPARE,"Compares existing SMOTE, Borderline-SMOTE and SVM-SMOTE for stroke prediction.",comparison;medical,high
+R08170,exclude,E-COMPARE,Large comparative study ranking 66 existing imbalance handling methods on 50 datasets.,comparison,high
+R02966,unsure,U-other,Proposes a class-distribution alignment technique for imbalanced medical images; abstract does not say whether it generates synthetic examples.,image;medical,medium
+R21925,include,I1-other,"Statistical theory of synthetic minority augmentation proposing a validation-tuned rule for how many synthetic samples to add, with simulations and real data.",,medium
+R12419,exclude,E1,Glycemic change regression and prediabetes classifier; existing SMOTE-Tomek applied.,medical,high
+R17313,exclude,E1,Hospital reimbursement outcome prediction comparing RF and XGBoost; no resampling method proposed.,medical,high
+R00229,include,I1-hybrid,"Proposes integrated over- and under-sampling inside an SVM ensemble, with extensive experiments against other classifiers.",,medium
+R03605,exclude,E1,Applies the existing K-means SMOTE to land cover classification and compares it with other oversamplers.,multiclass;comparison,medium
+R14147,exclude,E1,Multiclass CKD risk classification; existing under- and oversampling strategies applied.,medical;multiclass,high
+R04152,include,I1-new-variant,"Proposes SMOID, an instance-density-based synthetic minority oversampler using PCA/FAMD mapping and kNN typing of minority instances, tested on several datasets.",,high
+R19417,include,I1-generative,"Proposes a framework whose simplified diffusion augmentor generates minority-class images, evaluated on coronary angiography classification.",generative;image;medical;deep-learning,medium
+R06963,exclude,E1,Multitarget internet usage prediction with VGAM; existing SMOTE-NC applied.,multiclass,high
+R21456,exclude,E-COMPARE,Factorial study comparing six existing resampling strategies for software effort risk detection.,comparison,high
+R10943,exclude,E-COMPARE,Comparative study of existing resampling techniques with classifiers for student outcome prediction.,comparison;multiclass,high
+R21097,exclude,E1,Air quality health impact classification comparing ML models; no resampling method proposed.,multiclass,high
+R02754,exclude,E1,Rock mass classification with AdaBoost-CART; standard SMOTE applied.,multiclass,high
+R12693,exclude,E1,Study of preprocessing steps (including SMOTE) for medical dataset classification.,medical,high
+R11300,exclude,E1,Software defect prediction hybrid model; existing SMOTE plus RUS used for balancing.,deep-learning,high
+R03473,exclude,E-COMPARE,Systematic experimental comparison of existing imbalance classification algorithms.,comparison,high
+R21401,exclude,E1,Real-time emotion recognition from wearable signals; SMOTE-based augmentation applied.,time-series;multiclass,high
+R11924,exclude,E1,Breast cancer classifier comparison; SMOTE used in preprocessing.,medical,high
+R02893,exclude,E1,"Software maintainability prediction applying existing ADASYN, Borderline-SMOTE, SMOTE and Safe-Level SMOTE.",comparison,high
+R00282,include,I1-new-variant,"Oversamples the minority class in kernel space and maps synthetic samples back via pre-images for SVM, with experiments on real data.",,high
+R06873,include,I1-generative,"Proposes SA-GAN, a supervised-autoencoder GAN that oversamples minority lung ultrasound classes, evaluated on 5500 images.",generative;image;medical;deep-learning;multiclass,high
+R04141,exclude,E1,Rice blast severity prediction with linear SVM; existing k-means SMOTE and SMOTE applied.,multiclass,high
+R13754,exclude,E1,fMRI emotion prediction pipeline; ADASYN applied.,multiclass,high
+R01907,unsure,U-new-or-applied,Combines the authors' earlier SSOMaj-SMOTE-SSOMin resampling with learned data space transformations; generation itself is not described as changed.,,medium
+R04683,exclude,E-NOGEN,"Exhaustive search for weighted classifier ensembles on German credit; resampling is existing, contribution is the ensemble.",,high
+R06757,exclude,E1,HRV stress classification with feature optimization; existing SMOTE and ADASYN used.,medical;multiclass,high
+R21324,unsure,U-new-or-applied,"Random forest tree pruning combined with existing under-, over- and hybrid resampling presented as a new method; unclear whether oversampling is synthetic or changed.",,medium
+R04636,exclude,E1,Heart murmur classification with 1-D CNN; existing ADASYN applied.,medical;time-series;deep-learning,high
+R14854,exclude,E1,Essential gene prediction with an MLP; existing ADASYN applied.,deep-learning,high
+R10990,exclude,E1,Chronic liver disease stacking classifier; SMOTE in preprocessing.,medical,high

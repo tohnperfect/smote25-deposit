@@ -1,0 +1,161 @@
+{
+ "entry_level": {
+  "entries_total": 1756,
+  "instances": {
+   "reported": 1325,
+   "q25_q50_q75": [
+    306.0,
+    800.0,
+    2310.0
+   ],
+   "lt_1000": 758,
+   "1000_9999": 446,
+   "ge_10000": 121
+  },
+  "features": {
+   "reported": 1271,
+   "q25_q50_q75": [
+    7.0,
+    9.0,
+    18.0
+   ],
+   "lt_20": 998,
+   "20_99": 214,
+   "ge_100": 59
+  },
+  "classes": {
+   "eq_2": 969,
+   "gt_2": 407,
+   "not_reported": 380
+  },
+  "category_counts": {
+   "original": 537,
+   "repository-defined": 470,
+   "modified": 341,
+   "synthetic": 213,
+   "not stated": 195
+  },
+  "category_by_classes": {
+   "modified": {
+    "more": 40,
+    "not_reported": 90,
+    "two": 211
+   },
+   "not stated": {
+    "more": 0,
+    "not_reported": 100,
+    "two": 95
+   },
+   "original": {
+    "more": 348,
+    "not_reported": 98,
+    "two": 91
+   },
+   "repository-defined": {
+    "more": 4,
+    "not_reported": 69,
+    "two": 397
+   },
+   "synthetic": {
+    "more": 15,
+    "not_reported": 23,
+    "two": 175
+   }
+  }
+ },
+ "task_level": {
+  "all_tasks": {
+   "n_tasks": 585,
+   "task_types": {
+    "ovr": 347,
+    "binary": 205,
+    "binarized": 33
+   },
+   "spearman_with_IR": {
+    "noise_index": 0.167,
+    "rare": 0.112,
+    "kDN_min": 0.235,
+    "n_min_per_feature": -0.351,
+    "safe": -0.209
+   },
+   "by_IR_bin": {
+    "(3.0, 9.0]": {
+     "n": 178,
+     "noise_median": 0.318,
+     "safe_median": 0.67,
+     "rare_median": 0.013
+    },
+    "(0.0, 3.0]": {
+     "n": 103,
+     "noise_median": 0.364,
+     "safe_median": 0.607,
+     "rare_median": 0.02
+    },
+    "(50.0, inf]": {
+     "n": 52,
+     "noise_median": 0.45,
+     "safe_median": 0.45,
+     "rare_median": 0.062
+    },
+    "(9.0, 20.0]": {
+     "n": 144,
+     "noise_median": 0.406,
+     "safe_median": 0.526,
+     "rare_median": 0.026
+    },
+    "(20.0, 50.0]": {
+     "n": 108,
+     "noise_median": 0.502,
+     "safe_median": 0.423,
+     "rare_median": 0.007
+    }
+   }
+  },
+  "binary_and_binarized": {
+   "n_tasks": 238,
+   "task_types": {
+    "binary": 205,
+    "binarized": 33
+   },
+   "spearman_with_IR": {
+    "noise_index": 0.245,
+    "rare": 0.151,
+    "kDN_min": 0.321,
+    "n_min_per_feature": -0.518,
+    "safe": -0.293
+   },
+   "by_IR_bin": {
+    "(3.0, 9.0]": {
+     "n": 52,
+     "noise_median": 0.501,
+     "safe_median": 0.413,
+     "rare_median": 0.041
+    },
+    "(0.0, 3.0]": {
+     "n": 46,
+     "noise_median": 0.414,
+     "safe_median": 0.557,
+     "rare_median": 0.023
+    },
+    "(9.0, 20.0]": {
+     "n": 72,
+     "noise_median": 0.609,
+     "safe_median": 0.333,
+     "rare_median": 0.059
+    },
+    "(20.0, 50.0]": {
+     "n": 47,
+     "noise_median": 0.684,
+     "safe_median": 0.073,
+     "rare_median": 0.061
+    },
+    "(50.0, inf]": {
+     "n": 21,
+     "noise_median": 0.667,
+     "safe_median": 0.059,
+     "rare_median": 0.074
+    }
+   }
+  }
+ }
+}

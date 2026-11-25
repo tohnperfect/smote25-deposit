@@ -1,0 +1,10 @@
+batch 004: 200 of 200 records done; include 29, unsure 19, exclude 152
+no records remain
+
+Look at these first:
+- Low confidence (all unsure): R12654 (GloVe "semantically-aware oversampling" for text, new or existing?), R05322 (sports-culture paper that claims to "optimize SMOTE"; vague), R17228 ("modified ADYVASAN-SMOTE" in a GWO-SVM pipeline), R17120 (unexplained "Ch-SMOTE" in a brain tumour framework).
+- Clarification 3 sent to unsure (existing generator plus existing cleaning step, presented as new): R00315 HYBS (Borderline-SMOTE + Tomek), R10675 (SMOTE + CLNI/ENN), R08312 (DBSCAN + SMOTE), R08977 HSS, R15778 two-stage sampling.
+- Borderline excludes: R05745 (SmoteENN + RF on CTG called "novel"; I coded E1 because SMOTE-ENN is an existing variant, not clarification 3), R17439 (ADASYN + OSS as a preprocessing step in a DL IDS), R03360 (HMM + "modified DBSCAN" + SMOTE), R06236 (ASMOTE-CFR, ASMOTE assumed existing), R07598 (SMOTified ELM), R07838 (ROS + RUS hybrid, coded E-NOGEN).
+- Borderline includes (medium): R01189 and R18766 (SMOTE plus a new post-generation cleaning step, coded I1-hybrid, not clarification 3), R11634 (SMOTE inside each member of an NN ensemble), R13446 and R18096 (VAE / GAN minority generation inside a pipeline paper), R19711 ("novel cluster-based oversampling" inside an IDS), R08928 (SMOTE seeded on confident pseudo-labels in domain adaptation), R00032 (venue may publish in Chinese, so E-LANG may apply at full text).
+- Not settled by the codebook: R15932 (software paper packaging existing oversamplers, no evaluation; coded E-REVIEW for lack of a better code), R08817 (FAWOS fairness oversampler, unsure U-other under clarification 1; may also be a re-publication of earlier FAWOS work), R00825 and R00679 (new ensemble/hybrid schemes, abstract does not say whether SMOTE or synthetic generation is inside), R22317 and R04531 (excluded E2 as regression; R04531 has no abstract).
+- Four Zenodo preprints of similar style propose SMOTE variants but name no evaluation (clarification 2, unsure): R17974 CBS-SMOTE, R17399 ARG-SMOTE, R21439 R-SMOTE, R17100 Hard-sample SMOTE.

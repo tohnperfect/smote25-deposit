@@ -1,0 +1,85 @@
+form,item,field,result,where,note
+Data handling,CGMOS,minority_rule,confirmed,main p.5,"""we convert such datasets to a binary classification problem by keeping the class with the least data and merging all other classes"""
+Data handling,CISO,minority_rule,confirmed,main p.16,"Table 1, scale suite: ""smallest class"" as the positive class of the converted UCI sets; the KEEL suite is binary"
+Data handling,DLexiBoost,crit_type,confirmed,main p.9-10,"factorial artificial design (IR, size) and real KEEL, hyperspectral and ImageNet sets chosen for their imbalance: a reason of the authors"
+Data handling,FW-SMOTE,crit_type,confirmed,main p.7,"benchmark sets with a wide range of sizes and IRs, low- and high-dimensional because the method weights features"
+Data handling,FW-SMOTE,minority_rule,confirmed,main p.7,KEEL and UCI two-class files used as distributed
+Data handling,Global-CS (AAAI),minority_rule,confirmed,main p.4,multiclass cost-sensitive study; no class is designated minority (costs set from the smallest and largest classes)
+Data handling,KNNOR,minority_rule,confirmed,main p.11,KEEL two-class files
+Data handling,MC-MBRC,crit_type,confirmed,main,"20 multiclass sets spanning IR 1.9 to 853, chosen for overlap and noise, the problems the method targets"
+Data handling,MKC-SMOTE,crit_type,confirmed,main p.5,21 UCI multiclass sets with a wide range of overall and per-class IR
+Data handling,MLOS,crit_type,confirmed,main,"16 sets selected with IR above 10 and overlap above 30%, the setting the method targets"
+Data handling,OREM-M,minority_rule,confirmed,main p.11,"""The minority classes are highlighted in bold in Class Distribution"""
+Data handling,OVO-SMOTE,minority_rule,confirmed,main p.5,IR above 1.5 defines an imbalanced data set; no class is designated minority (all pairs are decomposed)
+Data handling,RBO,minority_rule,confirmed,main p.6,"""datasets were taken from the KEEL imbalanced data repository"""
+Data handling,RUSBoost,crit_type,confirmed,main p.5,"sets chosen to represent a wide variety of sizes, imbalance levels and domains"
+Data handling,SCUT,minority_rule,confirmed,main p.3,"classes below the mean class size m are oversampled, above it undersampled"
+Data handling,SHRINK,crit_type,confirmed,main,"application data from the oil-spill system, acquired to maximise positives"
+Data handling,SHSampler,crit_type,confirmed,main,"""the datasets vary widely in ... imbalanced degree (Id) and Fisher's discriminant ratio (Fdr)"""
+Data handling,SMOTE-ENN / SMOTE-Tomek,crit_type,confirmed,main p.6,"""we have selected thirteen data sets from UCI which have different degrees of imbalance"""
+Data handling,SOUP,minority_rule,confirmed,main p.7,"""assigning particular classes into minority ones"" (Table 2 lists them)"
+Data handling,SPE,minority_rule,confirmed,main p.7,"KDDCUP: ""taking the majority class (i.e., DOS) and a minority class (i.e., PRB and R2L)"""
+Data handling,SplitBal,minority_rule,confirmed,main p.5,"46 KEEL binary files (""union of one or more classes labeled as the minority"" by KEEL)"
+Method,CISO,F,confirmed,main p.14,Alg. 1 returns the data with the synthetic set; no removal step
+Method,EMDO,F,confirmed,main p.12,no synthetic point is discarded; out-of-ellipsoid candidates are moved inside (placement)
+Method,EMDO,N,confirmed,main pp.12-13,partners are the m nearest neighbours inside the same ellipsoid by Mahalanobis distance
+Method,EMDO,class,confirmed,main,multiclass sets with all classes kept
+Method,KNNOR,L,confirmed,main p.11,"oversampling once, then the classifiers under repeated stratified 5-fold CV"
+Method,KNNOR,class,confirmed,main p.11,KEEL two-class files only
+Method,Loyalty-SMOTE,link,confirmed,main p.6,SMOTE interpolation on the boundary set
+Method,NROMM,A,confirmed,supp p.6,"per-seed allocation proportional to (1 - local density), Alg. 3"
+Method,RAMOBoost,S,confirmed,main p.1627,seeds sampled with r_i = 1/(1 + exp(-alpha delta_i))
+Method,RSMOTE,A,confirmed,main pp.402-403,"total split over safe and borderline clusters, then per seed by w_i"
+Method,RSMOTE,F,confirmed,main pp.402-403,nothing removed after generation
+Method,RSMOTE,S,confirmed,main pp.402-403,minority points whose neighbours are all majority get no synthetic points
+Method,SMOM,class,confirmed,main p.335,"multiclass only, all classes kept"
+Method,SMOM,link,confirmed,main p.330,"the generator is Eq. (1), interpolation between a seed and a same-class neighbour"
+Method,"SMOTE-Tomek, SMOTE-ENN",A,confirmed,main p.25,Smote amount set until the classes are balanced; per-seed rule unchanged
+Method,Safe-Level-SMOTE,N,confirmed,main pp.479-480,one of the k = 5 nearest positive neighbours drawn at random
+Method,Safe-Level-SMOTE,P,confirmed,main pp.478-479,gap range set by the safe-level ratio
+Evaluation,AMDO-2018,plain SMOTE baseline,confirmed,main p.7,SMOTE only inside SSMOTE (Static-SMOTE) and OSMOTE (after OVO decomposition)
+Evaluation,CISO-2025,a measure defined wrongly,confirmed,main p.17,"G-mean = sqrt(TPR x TNR), Eq. 16; PR-AUC as average precision"
+Evaluation,DLexiBoost-2020,how settings were chosen,confirmed,main p.10,"results for ""the best parameter settings for each contending algorithm"" over grids"
+Evaluation,DLexiBoost-2020,no-resampling baseline,confirmed,main p.9,"AdaBoost on the original data ""serves as a baseline"""
+Evaluation,DLexiBoost-2020,real datasets (n),confirmed,main pp.10-12,"15 two-class + 10 multiclass KEEL sets, 5 hyperspectral images, 3 ImageNet subsets = 33"
+Evaluation,EasyEnsemble-BalanceCascade-2009,any statistical test,confirmed,main p.6,"""t-test (significance level at 0.05)"""
+Evaluation,GMMSampling-2024,no-resampling baseline,confirmed,main pp.13-14,Tables 2-4 compare resampling methods only; no column without resampling
+Evaluation,GOIO-2025,code released,confirmed,main p.8,"""The source code of GOIO is available at https://github.com/MLneuers/GOIO"""
+Evaluation,GOIO-2025,how settings were chosen,confirmed,main p.9,"baselines ""according to their papers or codes""; GOIO parameters fixed (m = 0.5, k = 0.7, ...)"
+Evaluation,GOIO-2025,resampling inside folds stated,confirmed,main p.9,"resampling ""to balance the class distribution within the training set"", models ""evaluated on the test set"""
+Evaluation,Global-CS-2006,plain SMOTE baseline,confirmed,main,SMOTE is only cited; the comparisons are rescaling methods
+Evaluation,INOS-2013,resampling inside folds stated,confirmed,main p.8,training and test parts divided at random; oversampling applied to the training positives
+Evaluation,MKC-SMOTE-2024,resampling inside folds stated,confirmed,main p.6,"""obtained using 5-fold cross-validation""; where oversampling runs is not said"
+Evaluation,OSS-1997,any statistical test,confirmed,main p.6,"no test; ""significantly"" used without one"
+Evaluation,OSS-1997,real datasets (n),confirmed,main p.5 (image table),"seven data files (oil1, oil2, kr, br, g7, vw0, veh1)"
+Evaluation,RACOG-2015,code released,confirmed,main,no code or link
+Evaluation,RACOG-2015,how settings were chosen,confirmed,main p.7,classifier parameters tuned on the unsampled versions of the same data sets
+Evaluation,RBBoost-2015,code released,confirmed,main p.6,Weka named; no code or link
+Evaluation,RBBoost-2015,no-resampling baseline,confirmed,main p.9,"Bagging, AdaBoost.M1 and MultiBoost without rebalancing"
+Evaluation,RBBoost-2015,plain SMOTE baseline,confirmed,main p.9,"SMOTE only inside ensembles (ESM, BAGSM, SMOTEBagging, SMOTEBoost)"
+Evaluation,SOUP-2019,any statistical test,confirmed,main p.9,Friedman test with post-hoc analysis; Wilcoxon signed rank
+Evaluation,SOUP-2019,no-resampling baseline,confirmed,main p.9,"""baseline"": the classifier without preprocessing"
+Evaluation,SOUP-2019,plain SMOTE baseline,confirmed,"main pp.3,6,9",only Static-SMOTE
+Evaluation,SOUP-2019,real datasets (n),confirmed,main p.8,"15 UCI sets, two of them class-aggregated variants of cleveland"
+Evaluation,SOUP-2019,resampling inside folds stated,confirmed,main p.7,"""stratified 10-fold cross-validation""; where resampling runs is not said"
+Data extraction,D134 MC-NCLWO / dermatology,n_features,value printed (read on the rendered page),"Table 1, p.10","Table 1, p.10: dermatology 358, 34, 6, 5.55"
+Data extraction,D135 MC-NCLWO / led7digit,n_instances,value printed (read on the rendered page),"Table 1, p.10","Table 1, p.10: led7digit 500, 7, 10, 1.54"
+Data extraction,D136 MC-NCLWO / car,ir_as_printed,value printed (read on the rendered page),"Table 1, p.10","Table 1, p.10: car 1728, 6, 4, 18.62"
+Data extraction,D151 MWMOTE / Breast-cancer-original,n_minority,value printed (read on the rendered page),"Table 5, p.12","Table 5, p.12: Minority 239"
+Data extraction,D217 RUSBoost / SOLARFLAREF,n_features,value printed (read on the rendered page),"Table I, p.5","Table I, p.5: # attr 13 (includes the class attribute, as the paper says)"
+Data extraction,D250 SPIDER2 / paw-BC,n_instances,value printed (read on the rendered page),main p.4,"main p.4: ""a group of data sets with 800 examples"""
+Data extraction,R004 AB-SMOTE / Sales: Win Loss (Table XI),proposed,value printed (read on the rendered page),"Table XI, p.5","Table XI, p.5: 4.0 AB-SMOTE F-measure 0.826"
+Data extraction,R034 GOIO / avila_0vs6,smote,value printed (read on the rendered page),"Table V, p.10","Table V, p.10: SMOTE 0.7202"
+Data extraction,D014 CGMOS / PlatesFaults,n_classes,"fill: 2, inferred (D32)",,CGMOS reduces every multiclass set to two classes (p.5)
+Data extraction,D079 GDO / Chesscking-Rook vs. King,n_classes,"fill: 2, inferred (D32)",,smallest class against the rest (p.8)
+Data extraction,D081 GDO / parkinsons telemonitoring,n_classes,"fill: 2, inferred (D32)",,smallest class against the rest (p.8)
+Data extraction,D127 MBS / Haberman’s Survival,n_classes,"fill: 2, inferred (D32)",,"two-class set (81:225), class count not printed"
+Data extraction,D152 MWMOTE / Libra,n_classes,"fill: 2, inferred (D32)",,"two-class version (72/288), class count not printed"
+Data extraction,D259 SVDD-WSMOTE / Yeast8,n_classes,"fill: 2, inferred (D32)",,"two-class version (35/1449, ""7:others""), class count not printed"
+Data extraction,D119 Loyalty-SMOTE / australia,n_classes,"fill: 2, inferred (D32)",,"two-class set, class count not printed"
+Data extraction,D120 Loyalty-SMOTE / toxicity,n_classes,"fill: 2, inferred (D32)",,"two-class set, class count not printed"
+Data extraction,D123 Loyalty-SMOTE / AIDS_15000,n_classes,"fill: 2, inferred (D32)",,"two-class set, class count not printed"
+Data extraction,D176 OSS / oil2,n_instances,"fill: 371, derived (D33)",,Table 3 prints 21 minority and 350 majority examples
+Data extraction,D243 SMOTEBoost / Phoneme,n_instances,"fill: 5404, derived (D33)",,Table 2 prints 3818 and 1586 examples per class
+Data extraction,D247 SOUP / art2,n_instances,"fill: 1200, derived (D33)",,"Table 2 prints 120, 240 and 840 examples per class"
+Data extraction,D244 SOS / Shoppers,ir_as_printed,"fill: 15.5% / 84.5%, printed (D33)",,"text p.6 prints 1,908 (15.5%) and 10,422 (84.5%), as for D233 and D010"

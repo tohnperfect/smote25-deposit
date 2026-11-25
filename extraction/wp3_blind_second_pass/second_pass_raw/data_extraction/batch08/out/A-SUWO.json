@@ -1,0 +1,17 @@
+{
+ "data_key": "A-SUWO",
+ "evaluates_on_data": "yes",
+ "sources": [],
+ "crit": "not stated in paper",
+ "crit_type": "not stated",
+ "basis": [],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Scope = Chapter 3 of the PhD thesis (A-SUWO; published as ESWA 2015 per chapter footnote). Chapter 3 never names a repository: it says only '16 publicly available datasets' (UCI is named only in Chapter 4 for the ordinal-regression datasets), so sources left empty; adjudicator may prefer 'Other'. crit coded 'not stated': the only wording is descriptive ('16 publicly available datasets with different imbalance ratios', conclusions p.46); a lenient reading could make it own reason/diversity. Native two-class sets used as distributed: Pima, Liver, Heart, Haberman. Binarised by authors (Table 3.1 lists the minority class per dataset, 'All other' as majority). Some minority sides merge several classes (Breast Tissue 'car' and 'fad'; Libra '1','2','3'; Heating '6','7','8'), coded as Binarised, not Class-merged; check. No link/repository/supplement for the modified data (grep for http/github/download/request found only the thesis repository URL). Table oddities as printed: Ecoli 52 minority + 259 majority = 311, not the printed 336 instances; Libra IR printed '1:4:00'; LEV majority printed 'All. other'; Breast Tissue minority printed with a missing closing quote. Table 3.1 is on printed p.35 = PDF p.47 and Table 3.2 on printed p.38 = PDF p.50 (the pdf_page_hint p.5 given for Segment/Seg. does not match this PDF). No synthetic-data experiment in Ch.3 (Figures 3.1-3.3 are schematic)."
+}

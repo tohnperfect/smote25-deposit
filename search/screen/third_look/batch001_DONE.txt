@@ -1,0 +1,16 @@
+batch 001: 200 of 200 records done; include 29, unsure 123, exclude 48
+
+Look at these first:
+- E-LANG given because the title is in Indonesian, even though the language field says en: R11534, R20894. Check what language the full text is in.
+- Low-confidence includes where the new resampling may only copy existing instances (the abstract does not say whether it makes synthetic ones): R04195, R15154, R00368, R00222, R01313, R00044, R03052, R01853, R12101, R11037, R01716. Also includes that count relabelled or pseudo-labelled real samples as new minority examples: R02308 and R01405 (MASI; probably two versions of one work), R00416.
+- Other borderline includes: R15103 (the imbalance handling is a side part of an LLM router), R20462 (MAGA; the authors call it a procedure, not a new generator).
+- Excludes inferred from thin descriptions: R00981 (CSS; also a useful comparison), R02340, R01366, R04144, R18649, R03524; no-abstract excludes R06379, R17703.
+- Possible inconsistencies in my own calls: R07490 (VR-SMOTE "applied") is unsure, while R01632 (oversampling "adopted") is E1. R13815 (modified SMOTE in a forecasting model) is E1, while other undescribed improved/enhanced SMOTEs are unsure (R12628, R21492, R18245, R09561, R11846, R04618, R13533).
+- Clarification 3 sends established variants to unsure, e.g. SMOTE-IPF (R00540), SMOTE-NCL (R01127).
+
+Cases the codebook does not settle:
+- Book chapters: I3 does not list them and no exclusion code fits. R11228 and R19848 are unsure; R18528 is included as a chapter in a proceedings series; R16043, R09853 and R01366 are excluded on content.
+- SMOTE extensions for regression or clustering: I applied E2 rather than clarification 1 (R10295 WSMOTER, R04188 SMOTE-P, R02928 FCM-SMOTE).
+- Existing SMOTE run in a learned feature or latent space (R19246, R17646, R05675, R03327), and an oversampler paired with a cost-sensitive classifier (R07839, R09786): left unsure.
+- Generative oversamplers that the paper presents as its own but that are built from a standard GAN, VAE or language model: left unsure (e.g. R11481, R13275, R08532, R05652, R03912, R07631, R03520). Standard generators used as one step in a domain pipeline: excluded E1 (e.g. R02008, R18865, R15174, R20368, R12276).
+- Tuning a global ratio or a generator's hyperparameters is treated as not changing how SMOTE is applied (R16910 E1, R16600 E-NOGEN). Per-class allocation by a stated rule is included (R16740).

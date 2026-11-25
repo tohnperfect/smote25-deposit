@@ -1,0 +1,373 @@
+{
+ "run_utc": "2026-11-10T17:08:47+00:00",
+ "filter": "title_and_abstract.search:(SMOTE OR oversampling OR \"over-sampling\" OR \"synthetic minority\" OR \"adaptive synthetic\" OR \"synthetic samples\" OR \"synthetic instances\") AND (imbalanced OR imbalance OR \"minority class\" OR \"minority classes\"),publication_year:2002-2026,type:article|preprint|book-chapter|review",
+ "pages": [
+  {
+   "page": 1,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=%2A&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 2,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=Ils0MS4zMjk4OCwgMTY2MjMzNjAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mjk2NDY1NDAyJ10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 3,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszNS45ODUyNzUsIDE2MDk2MzIwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzExODc1NDMwMCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 4,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszMi45OTEyMSwgMTc0NTUzOTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDA5ODAxOTgwJ10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 5,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszMS4xMDAxOTEsIDE2MTcxNDg4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzE2MzMxMTM4MyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 6,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyOS4yOTAwNSwgMTYwMzA2NTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMTEwMDA5MTM4J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 7,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyNy42ODYwMTYsIDE0MjI4MzUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMTk5NjIxNjI1MyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 8,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyNi4yMzA0MzgsIDE3NzU2MDY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MzEzMjk1NCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 9,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyNC44OTUxNTksIDE1NDYzMDA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjk2MzAxMDc5MCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 10,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyMy42NTcwOTMsIDE3MTI5NjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5NTA0ODczMyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 11,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyMi42OTkyNzgsIDE3Nzc5MzkyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2Mjk0NzcwMyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 12,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyMS44NDE5NTMsIDE2MTgwMTI4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzE2MTI5MjEzOCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 13,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyMS4xMTQyNDQsIDE1MTc0NDMyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjk0MTExMTk1NSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 14,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyMC40MTMxNywgMTc3NTg2NTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTU0MDg0MzY3J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 15,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxOS44MzQ0MjcsIDE3NDI4NjA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwODkzNTI3OSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 16,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxOS4yMDk3MTcsIDE3ODI4NjQwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2Njc5NzQ1NCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 17,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxOC43MDMyOTMsIDE3MDcxNzc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5MTU4OTY2MCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 18,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxOC4xNjc2MTgsIDE3OTM0MDQ4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MTczMjIxOSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 19,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxNy42MzQ2OTMsIDE3ODc2MTYwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIwNDIwMzg5MCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 20,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxNy4wOTcwNzYsIDE3MDg5OTIwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5MjE5MTM2OSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 21,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxNi40NzUzODQsIDE3MjM4NTI4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwMTY1OTI0MSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 22,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxNS45MTg0MjY1LCAxNzg1NDU2MDAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcyMDM2ODM4ODMnXSI%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 23,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxNS4yMzc5NDQsIDE2NDA5OTUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDI5NzgyMTcwOSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 24,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxNC40Nzc2MzgsIDE3NjIyMTQ0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNTkwODIwMiddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 25,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxMy42OTA4OTUsIDE2NzI1MzEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5MTE4NTUyNSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 26,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxMi45ODY3ODksIDE2ODY2MTQ0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM4MjQ2NjM1MCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 27,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxMi4xOTU1MDEsIDEzMjUzNzYwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjM4NTM5NjkxOCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 28,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxMC45NzE0NzcsIDE3NjgwODk2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzEyMjg1Mjc2NCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 29,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=Ils2Ljg0NDIxOSwgMTc2NzIyNTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY2ODA2Njk0J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 30,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=Ils1LjczODQ2LCAxNzcxMTEzNjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzcxNjA0MTU2NjYnXSI%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 31,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=Ils1LjIxOTQ0NCwgMTQwODU3OTIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1cyMDE4MDYxNzU0J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 32,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=Ils0Ljg3Nzc2MywgMTYzMzU2NDgwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1czMjA2MzM3NDgxJ10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 33,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=Ils0LjYyMTIyMjUsIDE2MDk0NTkyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzE1NTM5NjE4MiddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 34,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=Ils0LjQzNDkxNjUsIDE3MDkxNjQ4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5MjI5NzY4NyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 35,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=Ils0LjI4NzcwMjYsIDE3NzEyODY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzEyOTE5NzM2NSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 36,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=Ils0LjE0OTY5ODMsIDE3NTM2NjA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxMjY5NDYzMiddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 37,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=Ils0LjA0MDYyMTMsIDE1NzQ4MTI4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjk0NDE2ODAxNiddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 38,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjkyODY0OSwgMTc1NDAwNjQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MjAyMDg1MTE2J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 39,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjgzMTcwODcsIDE3NDg2NDk2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxMTE4MzYwMiddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 40,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjc0OTQxNDcsIDE3NjcyMjU2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE3MDE1Nzc3MyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 41,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjY2NDM4MzIsIDE2NTg5NjY0MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDI4ODA3MDEyMyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 42,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjU4MTY3NTgsIDE1NTQ3NjgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjkzOTg5NDY3OCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 43,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjQ5NTc0NjQsIDE3NTk3OTUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNDkwODczMCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 44,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjQwMzkzMjgsIDE2NzI1MzEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM4NTI4MzM1NSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 45,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjMzMzA0NiwgMTc2MzA3ODQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTA4NDQ2MzM3J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 46,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjIzNDg1NDUsIDE3NDg1NjMyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxMDg5NDc1NSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 47,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjE2MDgyODQsIDE3Mzk1Nzc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwNzU5ODU5MSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 48,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlszLjA2MzI3OCwgMTc4NDUwNTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTY5Nzc4OTg0J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 49,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjk4MzM1OCwgMTc3NDIyNDAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTQwMDg2NDIwJ10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 50,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjkwNjIyMSwgMTc2MjM4NzIwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0NDE1OTczNDU4J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 51,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjgyNjg3NywgMTc2NjAxNjAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTE1ODg2ODgyJ10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 52,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjczNzM0MDUsIDE3Njk3MzEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzEyNjA1NTU1MyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 53,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjY3MjY4MjMsIDE3ODg2NTI4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIxMjA3NTUyMCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 54,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjYwMjA0NTgsIDE2NzI1MzEyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM3NTkyODgxMyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 55,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjUzMDg4MjQsIDE3Nzg4MDMyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzE2MTI2NjcwNiddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 56,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjQ1OTcwNjUsIDE3NjAzMTM2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNjEyNzA3MyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 57,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjM5MDYxMjYsIDE3NzM1MzI4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIyMTE4OTQyOSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 58,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjMzMTQxNSwgMTc2NzIyNTYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTI0ODc3MDA0J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 59,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjI3MzQ5MTQsIDE3NTM0ODgwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxMjY2MDAzOCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 60,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjIxMDk0MTMsIDE3NjA2NTkyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNTI5MjU1OSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 61,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjE1MTQxNCwgMTY2ODM4NDAwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0MzA5MDQzMDk0J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 62,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjA5MjQwMiwgMTY5OTU3NDQwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c0Mzg4NTYyNTgxJ10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 63,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsyLjAzOTkwNywgMTc3NzU5MzYwMDAwMCwgJ2h0dHBzOi8vb3BlbmFsZXgub3JnL1c3MTYxNjAzNTc0J10i&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 64,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxLjk5MjQ4OTEsIDE1NDYzMDA4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMzE3NTU2NTAyNSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 65,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxLjkzODY4MDIsIDE3MDQ0MTI4MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5MDYwODUxMyddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 66,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxLjkwMDU5MDMsIDE1NDA5NDQwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XMjg5OTM4MjQ4MSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 67,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxLjg2Nzk0MDQsIDE3MDM3MjE2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM5MDM4MDIxNiddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 68,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxLjc5NjEwNDMsIDE3ODI3Nzc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIxOTg1NDE3OSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 69,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxLjczMDgwNzUsIDE2ODYwMDk2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDM3OTUxMzc3NCddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 70,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxLjY4MDA4OTgsIDE3NTkwMTc2MDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQxNDU4MTcxNiddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 71,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxLjYxNDIzMTMsIDE2NzkxODQwMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDMyNzk3MjI1MiddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 72,
+   "n": 200,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxLjUwNTc0ODQsIDE3ODM1NTUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNzIxNzM3NzczOSddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  },
+  {
+   "page": 73,
+   "n": 45,
+   "url": "https://api.openalex.org/works?filter=title_and_abstract.search%3A%28SMOTE+OR+oversampling+OR+%22over-sampling%22+OR+%22synthetic+minority%22+OR+%22adaptive+synthetic%22+OR+%22synthetic+samples%22+OR+%22synthetic+instances%22%29+AND+%28imbalanced+OR+imbalance+OR+%22minority+class%22+OR+%22minority+classes%22%29%2Cpublication_year%3A2002-2026%2Ctype%3Aarticle%7Cpreprint%7Cbook-chapter%7Creview&per-page=200&cursor=IlsxLjE3NjY3MTEsIDE3MjczOTUyMDAwMDAsICdodHRwczovL29wZW5hbGV4Lm9yZy9XNDQwMjkwNzEzNiddIg%3D%3D&select=id%2Cdoi%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Clanguage%2Cprimary_location%2Cauthorships%2Ccited_by_count%2Cabstract_inverted_index%2Cids%2Cprimary_topic"
+  }
+ ],
+ "count": 14448,
+ "finished_utc": "2026-11-10T17:11:01+00:00"
+}

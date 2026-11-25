@@ -1,0 +1,16 @@
+batch 096: 200 of 200 records done; include 30, unsure 18, exclude 152
+
+Records to look at first:
+- Low confidence. Excludes with no abstract, decided as E1 from the title only: R08662, R16803, R13848. Unsure: R01956 (NILM appliance method compared with SMOTE; unclear whether it generates samples), R04211 (wTLCL-O has an unnamed oversampling strategy), R09245 (no abstract; iterative stacking for imbalance).
+- Medium-confidence includes that could be challenged: R07130 (PSMOTE is one component of a domain framework), R05494 (layer oversampling may duplicate samples rather than synthesize them), R02523 (HIBoost puts SMOTE inside boosting, but the novelty is the hubness weighting), R03200 (16 DE strategies; could be read as a comparison), R08617 (Thai text oversampling by keyword removal and synonym replacement), R18448 (latent node interpolation inside a GCN).
+- Medium-confidence excludes: R00468 (standard SMOTE plus cost-sensitive SVM), R03184 (standard SMOTE on BERT embeddings for PoS tagging), R13660 and R06412 (existing GANs applied), R06004 (one ensemble per oversampled copy, framed as a comparison), R04008, R16458, R11559, R22002.
+- Cases the codebook does not settle:
+  - R18367 is a book chapter. I3 names only journal papers, conference papers and preprints, and no exclusion code covers book chapters, so it is marked unsure.
+  - R03489 and R07874 are multi-label oversamplers, coded I1-other because the codebook names multiclass schemes only.
+  - Generators not based on SMOTE coded I1-other: R06673 (adversarial samples with triplet loss), R19382 (GA crossover and mutation), R00066 (synthetic protein sequences).
+  - R17937 has language "ar" but an English title and abstract. It is coded E-LANG, and E1 would also apply.
+  - R14482 and R20931 have Indonesian titles and language "en". Both are coded E1.
+- Unsure under clarification 2 (no evaluation named in the abstract; all Zenodo preprints): R18949, R17112, R19293.
+- Unsure under clarification 3 (existing generators combined, change to generation not shown): R06575, R05406, R00388, R09155, R16356, R18367.
+- Unsure because a named variant in a domain paper may be new or existing: R17193 (DC-SMOTE), R12094 (enhanced SMOTE), R08179 (SMOTE-based multiclass balancing), R16160 (no abstract; AE-WGAN-HCBOU).
+- Unsure because the abstract does not say whether synthetic examples are generated: R11476 (ART), R06297 (EPS).

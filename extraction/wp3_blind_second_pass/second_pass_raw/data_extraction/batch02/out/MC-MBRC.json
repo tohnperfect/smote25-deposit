@@ -1,0 +1,26 @@
+{
+ "data_key": "MC-MBRC",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL",
+  "Synthetic"
+ ],
+ "crit": "Real data: none given ('Our experiment used 20 multi-class imbalanced datasets from UCI and KEEL repositories'; contributions only say 'Based on different benchmark datasets'). Synthetic data: 'To generate various overlapping scenes in our experiment, we followed the method of Pattaramon et al. (2020)' (60 two-class sets, IR {3,...,200} x overlap {0,...,90}); label noise added to the real datasets to ask 'How does label noise affect the performance of MC-MBRC?'.",
+ "crit_type": "own reason",
+ "basis": [
+  "difficulty",
+  "analytic",
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "not stated in paper (real datasets); synthetic overlap datasets generated 'according to the method of the study (Pattaramon et al., 2020)' (Neighbourhood-based undersampling approach for handling imbalanced and overlapped data, Information Sciences 509)",
+ "origin": [
+  "Natural",
+  "Noise-injected",
+  "Generated"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "not defined",
+ "modified_data_released": "on request",
+ "notes": "Real benchmark = 20 natively multi-class datasets (Table 2, p.7), no selection reason; own reasons apply only to the synthetic overlap experiments (Exp. 2 and ablation Exp. 4) and the label-noise experiment (Exp. 3, noise injected into the real datasets; Fig. 6 panels titled with the real dataset names, 'CONTRACEPTIVE' appears twice and Dry_Bean has no panel). Minority: the method treats each class as minority relative to all larger classes; no per-dataset minority is designated (coded 'not defined'); in the synthetic two-class sets the generated positive class is the minority. Data release: Data availability says 'on request'; p.1 footnote also says 'The code (and data) in this article has been certified as Reproducible by Code Ocean: (https://codeocean.com/)' with only the generic homepage link, no capsule; adjudicator may want to check. Table 2 prints cleveland with Feature = 6. Outcome rows: Appendix A.1 says Tables 9-12 report SMOTE, random oversampling, BLSMOTE, SMOTE-IPF and BoostOBU with RF, but Tables 9-12 (p.10-11) print the same column headers as Tables 3-6 (MDO, CURE_SMOTE, NRAS, kmeans_SMOTE, MC-CCR, MC-MBRC); no column is labelled SMOTE, so smote_value coded '?'. Table 1 (p.6) lists the proposed method's parameters under 'MC-MBCR' (typo)."
+}

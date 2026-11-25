@@ -1,0 +1,14 @@
+d42 useaudit batch 217 (blind second coding): done
+n=8, fulltext=8, abstract=0, application=7 (no=1)
+inside_folds: stated=3, before-split=2, nr=2, na=1
+test_balanced: yes=2, no=4, nr=1, na=1
+vs_none: yes=3, no=4; vs_weights: yes=1, no=6; validation: internal=6, external=1
+confidence: high=3, medium=4, low=1
+
+Least sure:
+- R04903 inside_folds=nr, test_balanced=no (low): the text says SMOTE was applied to the whole data before the split and the CV, but every reported test count is natural (Table III: U2R 15, R2L 298, 37,791 = 30% of KDDTrain+), and CV recall 90.15 sits far below accuracy 99.79. A literal reading of the text would give before-split.
+- R14731 inside_folds=before-split, test_balanced=yes (medium): Sec II.6 says SMOTE was applied only to the training portion, but under Rule D all 42 Table V cells fit a 50/50 test set (mean F1 error 0.013 vs 0.184 at natural prevalence). A literal reading of the text would give stated/no.
+- R01735 is_application=no (medium): under Rule B, the hybrid sampling chain (SMOTE + grouped NCL) is presented as part of the contribution and compared with SMOTE alone (Table IV). If it is read as a pipeline step, it would be yes, stated, no.
+- R07043 inside_folds=stated (medium): rests on Sec 2.3.1 "applied in the training data" plus Table 2 TPR denominators (36/27/43) that show a natural test set; there is no explicit "after the split" sentence.
+- R04368 inside_folds=nr, vs_none=yes (medium): the split is narrated before SMOTE, but Algorithm 1 balances the whole dataset D. vs_none comes only from an all-preprocessing ablation. The metrics are impossible (accuracy above both sensitivity and specificity).
+- R18088 validation=external rests on the zero-shot test on the Cleveland site (same UCI family; the authors flag this).

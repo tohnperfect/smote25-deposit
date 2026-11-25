@@ -1,0 +1,21 @@
+{
+ "data_key": "SCUT",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL",
+  "UCI"
+ ],
+ "crit": "The number of classes in the datasets varies from three (3) to ten (10) and the number of training examples range from 148 to 6497; the levels of imbalance and numbers of classes with majority and minority instances vary considerably.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "mean-size or IR threshold",
+ "modified_data_released": "n.a.",
+ "notes": "No printed page numbers (IEEE Xplore copy of a conference paper); pages given as pdf p.N. crit is descriptive only (no purpose/causal wording): Sect. 3.1 highlights that the classes, sizes and imbalance levels vary considerably; coded own reason/diversity because the variety is stated in the dataset section; under a strict purposive-only rule this is 'not stated'. All eight sets are multi-class, matching the method's multi-class target, but no reason says so (method-target not coded). All datasets used with native class distributions (KEEL multi-class versions, e.g. Pageblocks 548, Thyroid 720). minority_rule: no per-dataset minority; the algorithm oversamples classes below the mean class size and the Lymphography example calls the two classes below the mean (2 and 4 instances; mean 37) the minority classes; 'not defined' is a defensible alternative. Table 1 prints Size, # Class and Class distribution only (no features, no IR). Table 1 says 'Wine Quality'; results tables say 'Wine'."
+}

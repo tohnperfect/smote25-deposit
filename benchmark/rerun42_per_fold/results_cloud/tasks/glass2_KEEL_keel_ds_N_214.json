@@ -1,0 +1,9 @@
+{
+ "task": "glass2 (KEEL(keel_ds), N=214)",
+ "source": "KEEL(keel_ds)",
+ "n": 214,
+ "n_min": 17,
+ "rows_dropped": 0,
+ "n_categorical": 0,
+ "d_used": 9
+}

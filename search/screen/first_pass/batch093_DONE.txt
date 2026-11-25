@@ -1,0 +1,10 @@
+batch 093: 200 of 200 records done; include 21, unsure 18, exclude 161
+no records remain
+
+Records to look at first:
+- Low confidence: R04831 (book chapter proposing VDB-SLSMOTE, evaluated on gearbox data; meets I1 and I2 but not I3, and no exclusion code covers document type, so unsure); R05184, R06402, R16521 (unsure; cannot tell whether the resampling is new).
+- Cases the codebook does not settle: R00455 and R00777 (existing resampling plus a new twin SVM presented as one method, sent to unsure); compare R09906 and R00824 (SMOTE unchanged before a tuned or new classifier, excluded E1). R00161 (2010 book chapter, tutorial-style, coded E-REVIEW for lack of a document-type code).
+- Oversampling that may not synthesize: R04003 (random oversampling schemes for hierarchical classification, E-NOGEN); R02158 and R05076 (new multilabel and multiclass balancing methods, unsure); R06426 (GraphSR pseudo-labels real unlabelled nodes instead of synthesizing, E-NOGEN). The includes R05163 and R00227 do not state whether their oversampling is synthetic.
+- Possibly new resampler inside a domain paper, excluded E1 at medium confidence: R08343 (WSMOTE), R04200 (weakly supervised oversampling), R12251 and R03518 (off-the-shelf WGAN variants).
+- Clarification 3 unsures that could be I1-hybrid: R04160 (SMOTE-RUS-NC embedded in a balanced random forest), R01858, R13444.
+- Other: R04166 COSMOTE (I2 not stated in the abstract); R05283 (no abstract; title is a critique of oversampling, excluded E-REVIEW); R02921 (proceedings front matter, tagged front-matter-in-scope).

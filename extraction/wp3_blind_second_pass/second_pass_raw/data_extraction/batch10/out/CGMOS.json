@@ -1,0 +1,23 @@
+{
+ "data_key": "CGMOS",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Synthetic"
+ ],
+ "crit": "30 real-world datasets were randomly chosen from the UCI machine learning repository for empirical testing of CGMOS; most of the datasets were released within the past 10 years.",
+ "crit_type": "own reason",
+ "basis": [
+  "random draw"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "smallest class vs rest",
+ "modified_data_released": "no",
+ "notes": "Synthetic/Generated rest only on the Fig. 1 demonstration (Gaussian data, 2000 majority vs 400 minority) of the weighting; all reported experiments use the 30 UCI datasets. Table 1 IR column 'R' is defined as #minority/#majority (values < 1, e.g. 0.03). Table 1 prints no number of classes and no minority count. Dataset name 'UKnowledge' in Table 1 is printed 'UserKnowledge' in Table 3. A sentence on p.1626 says 'The datasets used in this paper cover topics ranging from financial applications to medical treatments', but it is given in the metric discussion, not as a selection reason, so diversity was not coded. Table 3 values are AUC averaged over the 6 base classifiers."
+}

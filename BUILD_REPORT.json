@@ -1,0 +1,1416 @@
+{
+ "copied": 2119,
+ "skipped": [
+  "scripts/__pycache__/check_numbers.cpython-313.pyc (excluded)",
+  "scripts/__pycache__/gen_coverage_table.cpython-313.pyc (excluded)",
+  "scripts/__pycache__/rulings.cpython-313.pyc (excluded)",
+  "scripts/__pycache__/table_rows.cpython-313.pyc (excluded)",
+  "figures/fig_coverage.pdf (.pdf not deposited)",
+  "figures/fig_decision_points.pdf (.pdf not deposited)",
+  "figures/fig_pipeline.pdf (.pdf not deposited)",
+  "figures/fig_prisma.pdf (.pdf not deposited)",
+  "figures/fig_reach.pdf (.pdf not deposited)",
+  "figures/fig_smote_vs_none.pdf (.pdf not deposited)",
+  "figures/fig_standard.pdf (.pdf not deposited)",
+  "figures/fig_wins_metric.pdf (.pdf not deposited)",
+  "figures/fig_workflow.pdf (.pdf not deposited)",
+  "data/search/screening_full_2026-11-11/final/SMOTE25_screening_check_2026-11-11.xlsx (.xlsx not deposited)",
+  "data/search/screening_full_2026-11-11/rule_b/rule_b_manifest_PRIVATE.json (excluded)",
+  "data/search/screening_full_2026-11-11/d42/adjudication_log.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/adjudication_raw/adj301_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/adjudication_raw/adj302_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/adjudication_raw/adj303_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/adjudication_raw/adj304_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/adjudication_raw/adj305_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/adjudication_raw/adj306_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/check_page/README.md (excluded)",
+  "data/search/screening_full_2026-11-11/d42/check_page/exports/smote25_d42_check_2026-11-14.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/check_page/index.html (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/adjudication_log.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/adjudication_raw/adj311_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/adjudication_raw/adj312_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/adjudication_raw/adj313_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/adjudication_raw/adj314_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/adjudication_raw/adj315_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/adjudication_raw/adj316_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/adjudication_raw/adj317_decisions.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/check_page/README.md (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/check_page/exports/smote25_d42_check_round2_2026-11-16.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round2/check_page/index.html (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round3/adjudication_log.csv (excluded)",
+  "data/search/screening_full_2026-11-11/d42/round3/adjudication_raw/adj321_decisions.csv (excluded)",
+  "benchmark/rerun42/methods/VALIDATION_SUMMARIES.pdf (.pdf not deposited)",
+  "benchmark/rerun42/methods/cgmos/results/run_fixed.log (.log not deposited)",
+  "benchmark/rerun42/methods/cgmos/results/run_partsBC.log (.log not deposited)",
+  "benchmark/rerun42/methods/cgmos/results/run_tuned.log (.log not deposited)",
+  "benchmark/results_summary/rerun42/tabpfn/cells.json (excluded)",
+  "benchmark/results_summary/rerun42/tabpfn/config_tabpfn_mac.json (excluded)",
+  "benchmark/results_summary/rerun42/tabpfn/per_family_means.csv (excluded)",
+  "benchmark/results_summary/rerun42/tabpfn/per_task_means.csv (excluded)",
+  "benchmark/results_summary/rerun42/tabpfn/summary.json (excluded)",
+  "benchmark/results_summary/rerun42/tabpfn/tabpfn_comparisons.csv (excluded)",
+  "Method section/binary-multiclass-summary.html (.html not deposited)",
+  "Method section/build/overview_template.html (.html not deposited)",
+  "Method section/build/summary_template2.html (.html not deposited)",
+  "Method section/manuscript/figures/smote-decision-points.pdf (.pdf not deposited)",
+  "Method section/manuscript/figures/smote-dp-equations.pdf (.pdf not deposited)",
+  "Method section/manuscript/method-section-draft-preview.pdf (.pdf not deposited)",
+  "Method section/smote-family-overview.html (.html not deposited)",
+  "Data section/SMOTE25_data_extraction.xlsx (.xlsx not deposited)",
+  "Data section/_archive/ai-draft/Data_Section_Explorer.html (.html not deposited)",
+  "Data section/blind/blind_sheet.xlsx (.xlsx not deposited)",
+  "Data section/build/atlas_template.html (.html not deposited)",
+  "Data section/manuscript/data-section-draft-preview.pdf (.pdf not deposited)",
+  "Data section/manuscript/data-section-jair.pdf (.pdf not deposited)",
+  "Data section/out/dataset-atlas.html (.html not deposited)",
+  "Data section/out/handoff.html (.html not deposited)",
+  "Evaluation section/SMOTE25_Evaluation_Primer.html (.html not deposited)",
+  "Evaluation section/SMOTE25_Evaluation_Roadmap.html (.html not deposited)",
+  "Evaluation section/SMOTE25_Evaluation_Section.pdf (.pdf not deposited)",
+  "Evaluation section/SMOTE25_Paper_Picker.html (.html not deposited)",
+  "Evaluation section/handoff/section07-handoff.html (.html not deposited)",
+  "Evaluation section/handoff/smote25-section7-workspace-2026-11-09.zip (.zip not deposited)",
+  "Evaluation section/latex/figures/empirical-absorption.pdf (.pdf not deposited)",
+  "Evaluation section/latex/figures/empirical-corpus.pdf (.pdf not deposited)",
+  "Evaluation section/latex/figures/empirical-pipeline.pdf (.pdf not deposited)",
+  "Evaluation section/latex/figures/empirical-reporting.pdf (.pdf not deposited)",
+  "Evaluation section/latex/figures/empirical-smote-vs-none.pdf (.pdf not deposited)",
+  "Evaluation section/latex/figures/empirical-tests.pdf (.pdf not deposited)",
+  "Evaluation section/latex/figures/empirical-toolchain.pdf (.pdf not deposited)",
+  "Evaluation section/latex/figures/empirical-tuning.pdf (.pdf not deposited)",
+  "Evaluation section/section07-build-source.zip (.zip not deposited)",
+  "Evaluation section/section07-pass2-verification.xlsx (.xlsx not deposited)"
+ ],
+ "dropped_columns": {
+  "/home/claude/work/deposit_v64/search/identification/arxiv_records.csv": [
+   "abstract"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass_result/screen_all.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch001_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch002_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch003_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch004_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch005_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch006_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch007_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch008_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch009_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch010_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch011_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch012_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch013_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch014_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch015_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch016_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch017_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch018_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch019_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch020_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch021_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch022_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch023_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch024_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch025_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch026_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch027_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch028_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch029_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch030_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch031_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch032_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch033_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch034_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch035_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch036_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch037_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch038_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch039_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch040_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch041_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch042_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch043_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch044_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch045_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch046_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch047_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch048_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch049_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch050_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch051_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch052_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch053_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch054_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch055_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch056_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch057_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch058_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch059_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch060_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch061_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch062_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch063_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch064_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch065_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch066_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch067_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch068_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch069_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch070_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch071_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch072_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch073_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch074_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch075_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch076_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch077_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch078_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch079_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch080_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch081_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch082_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch083_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch084_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch085_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch086_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch087_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch088_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch089_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch090_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch091_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch092_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch093_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch094_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch095_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch096_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch097_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch098_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch099_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch100_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch101_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch102_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch103_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch104_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch105_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch106_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch107_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch108_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch109_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch110_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch111_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch112_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass/batch113_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch001_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch002_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch003_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch004_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch005_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch006_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch007_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch008_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch009_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch010_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch011_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch012_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch013_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch014_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch015_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch016_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch017_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch018_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch019_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch020_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch021_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/second_look/batch022_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch001_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch002_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch003_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch004_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch005_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch006_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch007_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch008_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch009_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch010_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/third_look/batch011_screened.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/coverage_sample.csv": [
+   "abstract"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/useaudit_sample.csv": [
+   "abstract"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/reserves.csv": [
+   "abstract"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/coverage/coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/useaudit/coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/coverage_coded_adjudicated.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/round2/second_codes_coverage.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/round2/second_codes_useaudit.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/round3/second_codes_coverage.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/second_codes_coverage.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/second_codes_useaudit.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/useaudit_coded_adjudicated.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch201_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch202_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch211_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch212_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch213_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch214_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch215_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch216_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch217_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch218_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch219_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch220_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch221_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch222_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch223_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch224_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch231_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/coverage/out/batch232_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch201_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch202_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch203_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch204_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch205_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch206_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch207_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch208_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch209_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch211_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch212_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch213_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch214_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch215_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch216_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch217_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch218_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch219_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/work/useaudit/out/batch220_coded.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/harm_search/harm_search_records.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_adjudication/DATA_handling_adjudicated.csv": [
+   "second_pass_evidence",
+   "first_pass_quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_adjudication/EVALUATION_adjudicated.csv": [
+   "second_pass_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_adjudication/METHOD_adjudicated.csv": [
+   "second_pass_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_adjudication/MODIFIED_RELEASED_adjudicated.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/DATA_handling_disagreements_for_adjudication.csv": [
+   "second_pass_evidence",
+   "first_pass_quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/EVALUATION_comparison_for_adjudication.csv": [
+   "second_pass_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/METHOD_comparison_for_adjudication.csv": [
+   "second_pass_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/evaluation/batch1_filled.csv": [
+   "reason given for the data? (y/n, quote)"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/evaluation/batch2_filled.csv": [
+   "reason given for the data? (y/n, quote)"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/evaluation/batch3_filled.csv": [
+   "reason given for the data? (y/n, quote)"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/method/batch1_filled.csv": [
+   "evidence for the category (page, table)"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/method/batch2_filled.csv": [
+   "evidence for the category (page, table)"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/smom_check/smom_filled.csv": [
+   "evidence for the category (page, table)"
+  ],
+  "/home/claude/work/deposit_v64/extraction/d35_recomputation/out/modification_purpose_by_paper.csv": [
+   "quotes"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/baseline_provenance_papers.csv": [
+   "provenance_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/benchmark_candidates.csv": [
+   "difficulty_evidence",
+   "diversity_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/claim_evidence_matrix.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/data_handling_matrix.csv": [
+   "src_text",
+   "crit_text",
+   "prep_text",
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/difficulty_candidates.csv": [
+   "snippet"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/modification_purpose_by_paper.csv": [
+   "quotes"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/modification_purpose_quotes.csv": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/outcome_mapping_audit.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/synthetic_availability.csv": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/verify_quotes.csv": [
+   "quote"
+  ]
+ },
+ "dropped_keys": {
+  "/home/claude/work/deposit_v64/search/identification/wp4_records_merged_summary.json": [
+   "unique_without_abstract"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/decisions/screen_decisions_summary.json": [
+   "U-no-abstract"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/decisions/search_numbers.json": [
+   "no_abstract"
+  ],
+  "/home/claude/work/deposit_v64/search/screen/first_pass_result/screen_summary.json": [
+   "U-no-abstract"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/samples_summary.json": [
+   "Abstract mentions class imbalance but na",
+   "fulltext",
+   "validation_abstract_level"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/agreement.json": [
+   "fulltext"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/round2/agreement.json": [
+   "fulltext"
+  ],
+  "/home/claude/work/deposit_v64/search/samples/d42_second_coding/round3/agreement.json": [
+   "fulltext"
+  ],
+  "/home/claude/work/deposit_v64/search/reference_lists/reflist_numbers.json": [
+   "author_generator_string_in_title_or_abstract",
+   "author_generator_with_abstract",
+   "unmatched_generator_string_in_title_or_abstract",
+   "unmatched_generator_with_abstract"
+  ],
+  "/home/claude/work/deposit_v64/search/reference_lists/crossref/10.1007_s11704-025-50274-7.json": [
+   "abstract"
+  ],
+  "/home/claude/work/deposit_v64/search/reference_lists/crossref/10.3390_make8070211.json": [
+   "abstract"
+  ],
+  "/home/claude/work/deposit_v64/reach/openalex_snapshot/2026-11-10/smote_work.json": [
+   "abstract_inverted_index"
+  ],
+  "/home/claude/work/deposit_v64/reach/openalex_snapshot/2026-11-10/wp5_tag_sample_raw.json": [
+   "abstract_inverted_index"
+  ],
+  "/home/claude/work/deposit_v64/harm_search/decisions/batch_01.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/harm_search/decisions/batch_02.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/harm_search/decisions/batch_03.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/harm_search/decisions/batch_04.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/harm_search/decisions/batch_05.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/harm_search/decisions/batch_06.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/harm_search/summary.json": [
+   "U-abstract"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_adjudication/GLOS_recount.json": [
+   "quote_page"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch01/out/ENN_Wilson.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch01/out/OREM-M.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch01/out/OSS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch01/out/OVO-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch01/out/Survey_Stop_Oversampling.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch02/out/EMDO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch02/out/MC-MBRC.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch02/out/MC-NCLWO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch02/out/RBBoost_Random_Balance.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch02/out/SPIDER2.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch02/out/Safe-Level-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch03/out/ADASYN.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch03/out/DGOT.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch03/out/NBU.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch03/out/OBU.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch03/out/QC-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch03/out/SMOTE-ENN_SMOTE-Tomek.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch04/out/AdaBoost.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch04/out/COG-OS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch04/out/MLOS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch04/out/ROS_Buda.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch04/out/RSMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch04/out/RUSBoost.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch04/out/Tomek_Links.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch05/out/AMDO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch05/out/ClusterCentroids.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch05/out/GDHS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch05/out/GLOS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch05/out/SMOM.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch05/out/SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch06/out/Borderline-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch06/out/CTGAN_TVAE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch06/out/EasyEnsemble_BalanceCascade.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch06/out/INOS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch06/out/MWMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch06/out/RBO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch06/out/SVDD-WSMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch07/out/AB-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch07/out/FW-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch07/out/MBS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch07/out/RAMOBoost.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch07/out/SHSampler.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch07/out/SOS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch08/out/A-SUWO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch08/out/CBHSID.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch08/out/DSRBF_Static-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch08/out/RACOG_wRACOG.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch08/out/SCUT.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch08/out/SplitBal.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch09/out/HDE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch09/out/KNNOR.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch09/out/Loyalty-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch09/out/SHRINK.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch09/out/SMOTE-IPF.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch09/out/SMOTEBoost.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch09/out/SOUP.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch10/out/CGMOS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch10/out/G-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch10/out/Global-CS_AAAI.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch10/out/Global-CS_journal.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch10/out/MC-RBO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch10/out/Survey_SMOTE_Review.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch10/out/k-means_SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch11/out/CISO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch11/out/Cluster-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch11/out/GAMO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch11/out/GDO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch11/out/LS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch11/out/MC-CCR.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch11/out/SPE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch12/out/DLexiBoost.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch12/out/GMMSampling.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch12/out/GOIO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch12/out/MDO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch12/out/MKC-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/wp3_blind_second_pass/second_pass_raw/data_extraction/batch12/out/NROMM.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Method section/pdf-check/P06_P07_P35_P39.json": [
+   "class_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Method section/pdf-check/P08_P09.json": [
+   "class_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Method section/pdf-check/P10_P12.json": [
+   "class_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Method section/pdf-check/P13_P15.json": [
+   "class_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Method section/pdf-check/P22_P24_P52_P55_P67_P68.json": [
+   "class_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Method section/pdf-check/P26_P27.json": [
+   "class_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Method section/pdf-check/P40_P43.json": [
+   "class_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Method section/pdf-check/P75.json": [
+   "class_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Method section/pdf-check/rest.json": [
+   "class_evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/difficulty/evidence.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/A-SUWO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/AB-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/ADASYN.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/AMDO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/Borderline-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/CBHSID.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/CGMOS.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/CISO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/COG-OS.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/CTGAN.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/Cluster-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/ClusterCentroids.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/DGOT.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/DLexiBoost.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/DSRBF.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/EMDO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/EasyEnsemble.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/FW-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/G-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/GAMO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/GDHS.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/GDO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/GLOS.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/GMMSampling.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/GOIO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/Global-CS-AAAI.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/Global-CS-journal.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/HDE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/INOS.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/KNNOR.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/LS.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/Loyalty-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/MBS.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/MC-CCR.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/MC-MBRC.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/MC-NCLWO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/MC-RBO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/MDO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/MKC-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/MLOS.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/MWMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/NBU.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/NROMM.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/OBU.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/OREM-M.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/OSS.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/OVO-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/QC-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/RACOG.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/RAMOBoost.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/RBBoost.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/RBO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/ROS-Buda.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/RSMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/RUSBoost.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SCUT.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SHRINK.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SHSampler.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SMOM.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SMOTE-ENN.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SMOTE-IPF.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SMOTEBoost.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SOS.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SOUP.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SPE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SPIDER2.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SVDD-WSMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/Safe-Level-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/SplitBal.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/Stop-Oversampling.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/full/k-means-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/new7/DGOT.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/new7/GOIO.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/new7/HDE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/new7/INOS.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/new7/Loyalty-SMOTE.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/new7/NROMM.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/new7/SMOTE-IPF.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/outcome/ADASYN.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/outcome/Borderline-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/outcome/CISO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/outcome/G-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/outcome/GOIO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/outcome/KNNOR.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/outcome/MC-CCR.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/outcome/MDO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/outcome/RBO.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/ai-draft/outcome/Safe-Level-SMOTE.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/claim_evidence_summary.json": [
+   "insufficient evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/difficulty_evidence.json": [
+   "ai-draft/difficulty/evidence.json",
+   "quote",
+   "quote_found_pdf_pages"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/explorer_data.json": [
+   "difficulty_evidence",
+   "diversity_evidence",
+   "evidence",
+   "insufficient evidence",
+   "provenance_evidence",
+   "quote",
+   "quote_found_pdf_pages",
+   "quotes",
+   "supported by indirect evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/full_summary.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/modified_operations_summary.json": [
+   "supported by indirect evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/name_level_extras.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/outcome_pilot_summary.json": [
+   "quote"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Data section/out/synthetic_availability.json": [
+   "evidence"
+  ],
+  "/home/claude/work/deposit_v64/extraction/team_repository/Evaluation section/section07-coded-data.json": [
+   "data_quote",
+   "evidence",
+   "learner_quote",
+   "measure_quote",
+   "ms_quote",
+   "tuning_evidence"
+  ]
+ },
+ "missing": [],
+ "split": [],
+ "problems": [],
+ "anonymized": [
+  "library_pdfs_2026-11-16.csv",
+  "spot_check_changes.csv",
+  "spot_check_summary.json",
+  "spot_check_changes.csv",
+  "spot_check_summary.json",
+  "WP3_count_check_changes.csv",
+  "WP3_count_check_summary.json",
+  "WP3_spot_check_changes.csv",
+  "WP3_spot_check_summary.json",
+  "AGREEMENTS_spot_check_sample.csv"
+ ],
+ "home_paths_redacted": {
+  "files": 30,
+  "names": 1
+ },
+ "emails_redacted": 14,
+ "names_replaced": 185
+}

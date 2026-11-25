@@ -1,0 +1,22 @@
+{
+ "data_key": "Global-CS (journal)",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Synthetic"
+ ],
+ "crit": "Twenty multi-class data sets are used, the first 10 without class-imbalance and the remaining ones imbalanced (14 UCI, 6 synthetic); because it is interesting to see whether RESCALEnew works on imbalanced multi-class data, the class-imbalance experiment uses the ten imbalanced data sets. No other reason for the choice of data sets is given.",
+ "crit_type": "own reason",
+ "basis": [
+  "method-target"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Generated"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "not defined",
+ "modified_data_released": "n.a.",
+ "notes": "Journal extension of the AAAI 2006 paper (same 20 data sets, same Table 2 values), with seven cost-sensitive learners; it says it extends the preliminary work (Zhou and Liu 2006a) but does not say the data list was taken from it, so benchmark_inherited_from is 'not stated in paper'. All data sets are multi-class with native class distributions; no binarisation, resizing or minority definition. The method-target reason is explicit only for the pure class-imbalance experiment (Section 4.4, Table 24); for the cost experiments the paper only describes the balanced/imbalanced split. connect4 and splice are excluded for the neural-network and ensemble learners, and splice for PETs, because of training cost (p.245, p.247, p.249). Synthetic sets are balanced. No IR column, no minority column, no SMOTE comparison."
+}

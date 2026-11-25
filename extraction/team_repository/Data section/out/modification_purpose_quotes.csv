@@ -1,0 +1,42 @@
+paper_key,theme,pdf_page
+ADASYN,two-class scope,p.3
+ADASYN,basis: earlier work,p.3
+ADASYN,basis: earlier work,p.4
+Borderline-SMOTE,two-class scope,p.6
+Safe-Level-SMOTE,two-class scope,p.6
+MWMOTE,two-class scope,p.13
+RAMOBoost,two-class scope,p.7
+RAMOBoost,basis: earlier work,p.7
+RAMOBoost,robustness test,p.16
+RUSBoost,two-class scope,p.5
+SMOTE,two-class scope,p.13
+SMOTE-IPF,two-class scope,p.8
+SMOTE-IPF,robustness test,p.3
+SMOTE-IPF,basis: earlier work,p.8
+Cluster-SMOTE,two-class scope,p.2
+NBU,create/raise imbalance,p.18
+NBU,two-class scope,p.33
+G-SMOTE,create/raise imbalance,p.3
+HDE,create/raise imbalance,p.9
+HDE,publishes modified data,p.9
+k-means SMOTE,create/raise imbalance,p.14
+k-means SMOTE,publishes modified data,p.14
+RSMOTE,create/raise imbalance,p.12
+RSMOTE,robustness test,p.12
+ROS (Buda),create/raise imbalance,p.10
+SVDD-WSMOTE,create/raise imbalance,p.22
+SVDD-WSMOTE,basis: stated rule,p.22
+GAMO,create/raise imbalance,p.5
+COG-OS,create/raise imbalance,p.5
+COG-OS,practical,p.7
+SMOTEBoost,practical,p.6
+SMOTEBoost,practical,p.6
+SMOTEBoost,basis: earlier work,p.6
+CISO,basis: stated rule,p.15
+GMMSampling,basis: earlier work,p.11
+DSRBF / Static-SMOTE,publishes modified data,p.7
+SPE,robustness test,p.10
+RBO,robustness test,p.8
+MC-CCR,robustness test,p.9
+MC-MBRC,robustness test,p.10
+MC-NCLWO,robustness test,p.15

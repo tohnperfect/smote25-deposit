@@ -1,0 +1,16 @@
+batch 009: 200 of 200 records done; include 36, unsure 118, exclude 46
+no records remain
+
+Look at first, the low-confidence excludes, which leave the pipeline unless checked:
+- E-NOGEN where the abstract never says whether the method synthesizes: R02803, R04065, R15491, R07777, R04924, R21508, R20531, R00132, R08830, R11476, R01362, R03179.
+- E1: R02762, R13510, R17616, R00679, R12656, R05845, R19512, R12493.
+- Also R02280 (E1, medium), which pairs SMOTE with semi-supervised self-training. Check it against R01292 and R00631, which are similar and which I included.
+
+Cases the codebook does not settle:
+- Relabelling or moving existing samples instead of synthesizing new ones. R05509 relabels majority samples as minority (excluded). R09879 relabels matched beacon signals into new minority samples (included). R21508, DERSMOTE, repositions samples without adding any (excluded).
+- Tuning an existing oversampler's hyperparameters or ratios. Excluded when it is a step in a domain pipeline (R21583, R02283, R12493). Included when the tuning method is the paper's contribution (R09878, R12982). Unsure for an Optuna-tuned GAN and for curve-fitted sample quantities (R05044, R13746).
+- Document types that I3 does not list. Book chapters and a thesis (R04756, R21995, R03321, R03945) are unsure. R00507 is typed as a book chapter but its abstract calls it an article (included). R07093 is a retracted paper (unsure on its content).
+- Tasks next to plain classification. Segmentation and detection: R11047 and R17698 are unsure under clarification 1, and R19720 is included, read as per-voxel classification. R22396 is autoencoder anomaly detection (unsure).
+- A standard generator (GAN, WGAN, DDPM) put forward as the paper's oversampler. When the abstract says "proposed" I marked it unsure (R17977, R03740, R01745, R18820). When it says used or applied I marked it E1 (R05676, R02067, R16664, R07329, R13510, R12656).
+- SMOTE run in a learned feature space that the classifier also uses: R20035 and R18881 (included, low confidence). GAN samples that are not labelled minority: R01824 (included, low) and R03179 (excluded). Prototype generation: R01762 (included, low).
+- 16 Zenodo preprints from 2026 propose SMOTE variants supported by theory only. All are unsure under clarification 2: R21798, R17239, R17103, R16552, R22242, R16056, R15955, R21518, R17399, R17780, R17105, R21624, R21602, R17094, R16709, R22233.

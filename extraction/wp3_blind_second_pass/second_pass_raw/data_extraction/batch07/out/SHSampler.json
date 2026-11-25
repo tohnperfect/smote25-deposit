@@ -1,0 +1,23 @@
+{
+ "data_key": "SHSampler",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "KEEL"
+ ],
+ "crit": "20 multi-class imbalanced datasets selected as benchmarks from the KEEL repository; 'To ensure thorough assessments, the datasets vary widely in the properties including imbalanced degree (Id) and Fisher's discriminant ratio (Fdr)', where Fdr measures the overlapping degree of the dataset.",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "difficulty",
+  "method-target",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural"
+ ],
+ "binarised_by": "n.a.",
+ "minority_rule": "mean-size or IR threshold",
+ "modified_data_released": "n.a.",
+ "notes": "PDF has no printed page numbers (pdf pages used). The dataset table is 'TABLE III Supplymentary Material: Basic Information of Multi-class Datasets' at the end of the main PDF, pdf p.10 (the dataset rows' 'where: none' / hint p.7 are wrong). It prints #Instances, #Features, #Class, Class distribution, Id (imbalanced degree [30]) and Fdr; no IR and no minority count, so ir_as_printed and n_minority are NR (Id and class distribution given in row notes). Table oddities: vertebralColumn #Class 4 but only three counts (60/100/150); led7digit #Class 10 but nine counts summing to 448, not 500; title typos 'Supplymentary', 'distributrion'. The paper also calls them '20 typical benchmark datasets' (pdf p.2); this generic phrase is coded as popularity in basis (borderline). method-target = the data are multi-class imbalanced, the setting the method is built for. minority_rule: the method's own rule (classes below average size are oversampled; pairwise 'relative minority'); datasets keep their native multi-class distributions. SMOTE enters only as OVO-SMOTE; results in Tables I-II (DT) and supplementary Tables IV-V (RF, NB), metrics MAUC and mGM. No outcome rows in this batch."
+}

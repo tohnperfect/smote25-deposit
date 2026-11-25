@@ -1,0 +1,9 @@
+batch 059: 200 of 200 records done; include 29, unsure 16, exclude 155
+no records remain
+
+Records to look at first:
+- Low confidence: R05002 (copy-paste minority augmentation, but the task is instance segmentation/detection, not classification); R15353 ("Enhanced SMOTE" appears only in the keywords, not the abstract); R06207 (no abstract, improved SVM + oversampling); R15270 ("enhanced hybrid ADASYN-SMOTE" in an IDS; check together with R16724, excluded E1 at medium confidence, which is a similar ADASYN + SMOTE-ENN hybrid).
+- Cases the codebook does not settle: R05311 (in-scope Heinz-mean oversampler, but the Turkish title suggests a non-English full text although metadata says en); R03571 (arXiv PhD thesis summarizing 12 resampling papers, so document type and E4 overlap need checking); R16486 (included FL-SMOTE: privacy/federated setting, but the purpose is imbalanced fraud classification, so clarification 1 was not applied).
+- Borderline includes (medium): R03455 and R06672 (new hybrid sampling ensembles whose oversampler is not named, so it may be random duplication); R01885 (active learning + oversampling); R04042 (SMOTE + GA); R05564 (improved SCUT, where the change may only be in undersampling); R20684 (existing LLM generator + new filtering, a clarification 3 boundary); R21003, R16437, R04410 (generators embedded in larger frameworks).
+- Unsure, existing generator + other step (clarification 3): R02413, R08453, R05312, R00179, R15760, R00124, R07103. Unsure for other reasons: R12764 (I2 not stated); R10884 and R21970 (no abstract, titles suggest generative oversamplers).
+- Exclusions worth a glance: R21546 (unfamiliar "LSMOST" oversampler used, but not presented as the contribution); R20026 and R02038 (E-LANG, Chinese records that also only apply SMOTE).

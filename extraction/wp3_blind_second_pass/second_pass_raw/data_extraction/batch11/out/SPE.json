@@ -1,0 +1,24 @@
+{
+ "data_key": "SPE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "Other",
+  "Synthetic"
+ ],
+ "crit": "'We choose several real-life datasets with highly skewed class distribution to assess the effectiveness of our proposed learning framework on realistic tasks' (Credit Fraud, two KDDCUP-99 pairs, Record Linkage, Payment Simulation); a synthetic 4x4 checkerboard of 16 Gaussian components is used 'to provide more insights of our framework', with the covariance varied to control class overlap and test robustness; Fig. 2 generated Gaussian datasets (disjoint vs overlapped) show that hardness, not IR, reflects task difficulty.",
+ "crit_type": "own reason",
+ "basis": [
+  "method-target",
+  "analytic"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Real data sources are described but no repository is named (no UCI/Kaggle mention), hence 'Other'. Payment Simulation is itself a simulated dataset from an external source, used as distributed (Natural). KDDCUP binarised by the authors as one-vs-one pairs (DOS vs PRB, DOS vs R2L); other classes dropped. Minority named per dataset (frauds, matches, PRB/R2L). GitHub link (footnotes 1 and 4) is for code and extra results, not the derived KDDCUP subsets. Credit Fraud IR printed 578.88:1 equals #Sample/frauds (284,807/492), whereas the Record Linkage and Payment Simulation IRs match majority/minority; copied as printed. Table IV: each real dataset is paired with its own classifier(s) (Table III 'Model' column); SMOTE and Clean results are missing ('---') for all datasets except Credit Fraud. 60/20/20 train/validation/test split."
+}

@@ -1,0 +1,11 @@
+batch 018: 200 of 200 records done; include 19, unsure 26, exclude 155
+
+Look at first:
+- Low confidence (all unsure, each probably exclude): R00867 (SMOTE with DECORATE for multiclass microarray, may be plain preprocessing, E1), R17572 (replay-sample generator for lifelong person re-ID; clarification 1 applied literally, almost surely out of scope), R16073 (Telugu NLP "targeted minority oversampling" plus de-duplication, probably E1).
+- Codebook gap, book chapters or theses with in-scope methods (I3 unmet, but no exclusion code for these document types): R00965 (CBROSE, CRC Press), R01341 (AEMNOST, CRC Press), R00737 (thesis abstract, HMM used for class balancing). All coded unsure U-other.
+- Codebook gap, new cluster-based oversamplers whose abstracts do not say whether they make synthetic examples or duplicate: R00813, R02993 (and swarm rebalancing R00738). Coded unsure U-other.
+- Codebook gap, mixup-style long-tail augmentation (does mixup count as synthetic minority generation?): R15300.
+- Clarification 1 (generator built for another purpose): R19805 (vision-language model images for data scarcity), R10682 (ISCOTE for tool-life regression), R17572. Clarification 2 (I2 not stated): R13311.
+- Borderline consistency calls on existing GANs in domain pipelines: E1 for R12110 and R21984 (CTGAN), R12069 (WGAN) and R11023 (GAN as one component); unsure for R12276 (title stresses GAN design) and R10081 (SNGAN plus screening of generated samples).
+- Medium-confidence includes worth a second look: R01000, R15204, R08825, R07808 (framed as anomaly detection but classifier-based), R22067, R01407, R02926, R12014 (could re-implement an existing CWGAN-GP oversampler).
+- Excluded only for language although the method is in scope: R06802 and R00462 (both Chinese). Front matter with an in-scope title: R09211.

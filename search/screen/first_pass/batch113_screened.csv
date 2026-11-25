@@ -1,0 +1,27 @@
+rec,decision,reason_code,reason,tags,confidence
+R03905,exclude,E1,Applies existing SMOTE and NearMiss as preprocessing in a Parkinson's disease classifier comparison; no new resampling method.,medical,high
+R21968,include,I1-generative,"Proposes a conditional residual diffusion generator with sample filtering that synthesizes scarce defect (minority) images to train a classification-segmentation detector under imbalance, evaluated on KSDD2.",generative;deep-learning;image,medium
+R08187,exclude,E-COMPARE,Simulation study comparing existing oversampling and hybrid resampling across classifiers; proposes nothing new.,comparison,high
+R17305,exclude,E-LANG,Article in Indonesian (sentiment analysis with oversampling applied).,text,high
+R03003,exclude,E1,"Standard random oversampling plus augmentation used for melanoma data; the contribution is the BES-optimized CNN, not the resampling.",medical;image;deep-learning,high
+R09979,exclude,E1,Existing oversampling used with Random Forest for credit card fraud detection; no new method.,,high
+R17029,exclude,E1,SMOTE is a preprocessing step in a lung CT classification pipeline; contribution is the feature/ensemble/XAI design.,medical;image;deep-learning,high
+R00831,unsure,U-new-or-applied,New semi-supervised algorithm (OS-YATSI) that includes an oversampling strategy; the abstract does not say whether the oversampling itself or how it is applied is new.,multiclass,medium
+R14334,exclude,E1,"Compares existing balancing methods (undersampling, ROS, MLSMOTE) for art emotion classification; no new method.",image;deep-learning;comparison,high
+R14122,exclude,E1,Existing oversamplers (best SMOTE-ENN) applied before modelling heart-failure mortality; no new resampling.,medical,high
+R16177,exclude,E1,SMOTE used for class balancing in a CKD prediction model; contribution is the attention CNN-SVM architecture.,medical;deep-learning,high
+R07585,unsure,U-other,I2 not stated in the abstract; 3D rendering plus CycleGAN generator of synthetic defect images built to augment object-detection training data rather than clearly for imbalanced classification.,generative;deep-learning;image,medium
+R06800,exclude,E1,SMOTE applied as a preprocessing step in an evolutionary deep intrusion detection model; no new resampling.,deep-learning,high
+R17791,include,I1-generative,"Proposes a collaborative GAN framework whose conditional GAN generates minority-class samples for software defect prediction, evaluated on ten PROMISE projects.",generative;deep-learning;text,medium
+R15542,exclude,E1,SMOTE applied as preprocessing for fetal chromosomal abnormality classification with regression models.,medical,high
+R05764,exclude,E1,SMOTE applied as preprocessing in a DCNN intrusion detector for IoMT networks.,deep-learning,high
+R11604,include,I1-new-variant,"Proposes a GA-improved multiclass genetic SMOTE that optimizes the sampling rate before generating samples, evaluated on landslide monitoring data.",multiclass,high
+R14267,include,I1-generative,"Proposes a class-conditional 3D latent diffusion model generating MRI to address scarcity and imbalance in IDH classification, evaluated on real data.",generative;deep-learning;image;medical,medium
+R07979,exclude,E1,SMOTE with XGBoost applied to COVID-19 mental health survey data; no new method.,medical,high
+R03796,include,I1-new-variant,"Proposes perceptual-borderline oversampling and Perceptual Borderline SMOTE in an arousal-valence space for multiclass emotion data, evaluated on three datasets.",multiclass,high
+R19794,exclude,E1,SMOTE applied in a study of sequence encodings for HCV genotype classification; no new resampling.,medical,high
+R08186,unsure,U-new-or-applied,New cluster-based undersampling followed by existing ADASYN/SMOTETomek/NearMiss-2 on crash data; unclear whether the hybrid is presented as a new resampling method or the novelty is undersampling only.,comparison,low
+R12534,exclude,E1,SMOTE is one preprocessing step in a PCA plus neural network fault detection pipeline; no new method.,time-series,high
+R06733,exclude,E1,No abstract; the title indicates a domain application of ML models to bad-loan prediction with no sign of a new resampling method.,no-abstract,medium
+R16558,unsure,U-no-abstract,No abstract; the title proposes a new MOPSO-based oversampling strategy (likely I1-new-variant) but evaluation on data cannot be checked.,no-abstract,medium
+R06905,exclude,E-LANG,Article in Indonesian (random oversampling applied to phishing website classification with LightGBM).,,high

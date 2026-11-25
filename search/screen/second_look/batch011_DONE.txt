@@ -1,0 +1,16 @@
+batch 011: 200 of 200 records done; include 25, unsure 71, exclude 104
+no records remain
+
+Look at first (low-confidence excludes are final, so these come first):
+1. Low-confidence excludes: R02100 (GANs to balance comfort data, E1), R20732 (stream ensemble with inverse random under/oversampling, E-NOGEN), R09148 (online bagging with neighbourhood oversampling, E-NOGEN).
+2. Consistency check: R05382 (Unrolled-GAN oversampling for fraud) was coded unsure. Later records with an existing GAN/WGAN/VAE used as an oversampler on a domain dataset were coded E1: R09894, R02848, R03770, R06880, R02100. Please apply one rule to all of them.
+3. Low-confidence includes: R00747 (cost-driven oversampling + denoising AE; synthetic?), R03606 (SAC per-class generation; generator unnamed), R00804 (EMOTE applied to churn; EMOTE itself is R00930), R16677 (CN-SMOTE inside a skin-lesion framework), R17713 (metaheuristic-set SMOTE rates).
+4. Cases the codebook does not settle:
+   - Metaheuristic tuning of SMOTE rate/k as "changing how SMOTE is applied": included R05335, R04679, R17713; unsure R05050, R09971, R15541 (no abstract).
+   - New ensembles whose oversampling may only replicate examples: unsure R01028, R03455, R00927, R05406; E-NOGEN R20732, R09148, R02539.
+   - "Oversampling" that adds real instances (retrieval, unlabeled pool, instance transfer), coded E-NOGEN: R16561, R01797, R01260.
+   - Generators for segmentation or other purposes (clarification 1, unsure): R15157, R19720, R20472 (dataset distillation), R04984 (fairness), R13147 (privacy), R21919 (privacy), R22325 (majority-class oversampling).
+   - Language: R00173 and R00339 are from Chinese-language journals but the metadata says en. Included on substance; check the full-text language (E-LANG).
+   - Book chapters (I3 fails, no dedicated code): R13753, R21672, R19836 coded E1; R19261 coded E-REVIEW.
+   - SMOTE with a filter before generation, judged as a change to the seed pool: R19907 SMOTE-IH and R07267 included (clarification 3 could instead give unsure).
+5. Clarification 2 (I2 not stated), mostly 2026 Zenodo theory-only SMOTE variants, all unsure: R21518, R17094, R20121, R21505, R21451, R21979, R20135, R20584, R18087, R09036.

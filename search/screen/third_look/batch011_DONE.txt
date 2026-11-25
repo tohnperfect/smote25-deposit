@@ -1,0 +1,14 @@
+batch 011: 88 of 88 records done; include 16, unsure 59, exclude 13
+no records remain
+
+Look at first
+- Includes where both earlier screeners said unsure: R17976 (CoDSA, diffusion aimed at under-sampled regions), R13947 (class-specific GANs in an autoencoder latent space), R10249 (CTGAN with relaxed bounds and silhouette filter, low), R01514 (extension of deep over-sampling, low), R10206 (under- and oversampling inside ensembles, low), R02872 (garbled pattern-sampling abstract, indexed as Review, low).
+- Other low-confidence include: R05320 (repeated SMOTE for multiclass; novelty doubtful).
+- Debatable excludes: R01854 (standard GAN on FFT spectra, a comparative study, E1), R10302 (thesis with a Greek title, E-COMPARE), R14800 (new oversampler for RUL regression, E2), R19481 (book chapter with no abstract, E-REVIEW).
+- Low-confidence unsure: R06113, R05100, R18767.
+
+Cases the codebook does not settle
+1. Step 3 of the instructions allows unsure only as U-no-abstract or U-new-or-applied, but codebook clarifications 1 and 2 prescribe U-other, and no exclude code fits those cases. I followed the codebook. I2 not stated (9): R20861 R16928 R02210 R13311 R20611 R18203 R17238 R20222 R20997. Purpose other than imbalanced classification (9): R08293 R13287 R05710 R12385 R20185 R07337 R05715 R21791 R04876. Where an abstract did not say whether the paper's own sampling method makes synthetic examples, I used U-new-or-applied instead (R04690 R00256 R00208 R06403 R00656 R01070 R01695 R00831 R11589).
+2. E1 names only SMOTE-family resamplers. I treated GAN, CGAN, CTGAN and CVAE oversamplers used unchanged in domain pipelines as E1 (R05404 R01854 R19389 R13276 R18530 R06126). I kept the ones the authors call tailored or innovative as unsure (R13697 R13277) and included the latent-space design (R13947). Please confirm where this line should be drawn.
+3. I3 has no exclude code for a thesis (R10302) or a book chapter (R19481). R01541 (Korean venue, no abstract) and R10302 need a language check.
+4. R14800 is coded E2 rather than U-other under clarification 1. Segmentation and detection have no exclude code, so R08293 and R13287 were sent to clarification 1.

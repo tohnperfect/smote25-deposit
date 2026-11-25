@@ -1,0 +1,10 @@
+d42 coverage batch 218: n=6, eligible=5, Core=1, Partial=0, Not counted=4
+Not eligible: 1 (R00640, E1, ruling B).
+
+Codes I was least sure of:
+- R14443 (MCSO, Core): N=yes is clear, since the partner comes from the same pure maximal clique. S=no and A=no were judgment calls: seeds are visited clique by clique, so a point that sits in several cliques seeds more often, and synthetic points rejoin later passes, but no seed score or allocation rule is stated. P=no although the formula is printed as Xi + lambda(Xi - Xj); I read it as a sign typo because the text calls it "SMOTE interpolation".
+- R02694 (RFO, Not counted, deep-generative): tuning=test because gamma and the SVM parameters were "searched for the best classification performance" with no validation set named. inside_folds=nr because the "training set" is never tied to the 10-fold CV.
+- R02145 (IQMOT, Not counted): coded generator=distribution because it samples values from empirical 25th/50th/75th percentile groups ("other" is also possible). Eligible because IQMOT is a stated contribution compared with SMOTE in Table 8, although the paper's main contribution is the classifier. Resampled before the split.
+- R19707 (ICD-Balancer, Not counted): SMOTE samples are only an input to the cGAN generator, so I coded Not counted rather than Partial. Not B2, because the SMOTE input and the new Gumbel-Sigmoid are stated changes. protocol=other because it mixes an 80/20 split with 3-fold CV. stat_test=no because significance is claimed but no test is shown. For measures I took F1/AUROC/AUPRC plus sensitivity/specificity (Table 8 and the baseline in Fig. 8).
+- R00640: ruling B. OVA decomposition plus unchanged SMOTE (the MapReduce design follows Rio et al.), compared only with OVA/base without resampling.
+- R01804 (FF-SMOTE, Not counted): the paper says the firefly algorithm replaces interpolation ("derives from SMOTE but drops its generator"). Coded generator=other rather than perturbation. Its "AUC" is the single-point (1+TPR-FPR)/2 but I coded it ROC-AUC as named. The pseudo-code is garbled.

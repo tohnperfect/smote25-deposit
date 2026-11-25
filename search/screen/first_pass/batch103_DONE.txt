@@ -1,0 +1,10 @@
+batch 103: 200 of 200 records done; include 26, unsure 16, exclude 158
+no records remain
+
+Look at first:
+- Low confidence: R22322 (include; federated BiGAN minority generator for intrusion detection, framed as anomaly detection, abstract partly boilerplate); R17662 (exclude; no abstract, cascade CAD model "under class imbalance"); R00874 (unsure; SMOTE inside AdaBoost-SVM ensemble with multiclass decomposition).
+- Not settled by the codebook: R07232 (new equally-weighted random over/undersampling across classes; duplicates rather than synthesizes; does a ROS-based multiclass scheme meet I1?); R20472 (dataset distillation that synthesizes prototypes; sent to U-other under clarification 1).
+- Pipelines of existing generators, check together for consistency: R11601 (STDA+DAGAN stacked with optimizer tuning, included because the abstract describes changes to how the generators are tuned) vs R10697 (AraBART+AraGPT2+Borderline-SMOTE, unsure) and R21894 (SMOTE+CTGAN combined, unsure).
+- Borderline includes (medium): R03244 and R03339 (new resampling, but the abstract does not say the samples are synthetic); R17436 (domain-specific generative augmentation for rare transients); R05315 (text-augmentation oversampling, no details); R04046 (WSMOTE inside a liver disease pipeline, no details); R00270 (Journal of Xiamen University; the record says English but the full text may be Chinese).
+- Possibly useful elsewhere: R06828 (correction note on a published theoretical analysis of SMOTE, excluded E-REVIEW); R21955 (ablation finding SMOTE counter-productive with class weighting, E-COMPARE).
+- In-scope methods excluded only for language (E-LANG): R02806 (SSCMIO multi-class oversampler), R05792 (bootstrap/maximum-entropy oversampler).

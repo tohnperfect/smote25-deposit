@@ -1,0 +1,6 @@
+measure,pairs,datasets,smote_better,tie,none_better,pct_smote_better,median_diff
+G-mean,636,106,531,45,60,83.5,0.0556
+F1,636,106,393,45,198,61.8,0.0129
+ROC-AUC,636,106,316,77,243,49.7,0.0
+PR-AUC,636,106,218,78,340,34.3,-0.0013
+Brier score,636,106,146,20,470,23.0,0.0073

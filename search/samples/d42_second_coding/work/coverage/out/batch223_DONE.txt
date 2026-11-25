@@ -1,0 +1,9 @@
+d42 coverage batch 223: n=6, eligible=5, Core=4, Partial=0, Not counted=1
+Excluded: 1 (R21735, E1). fulltext_ok = yes for all 6.
+
+Codes I was least sure of:
+- R02354 (OSMOTE + CMVO feature selection): eligible or E1. Coded eligible: OSMOTE is a named SMOTE variant in the title, presented as the authors' own, and compared with RUS, ROS, SMOTE and SMOTE-RS (Table 14). Ruling B passes either way. Its only change is Orchard's fast nearest-neighbour search, which gives the same partners, so all six decision points are no. Protocol coded other because the paper states both a 70/30 split and tenfold CV, and the test sets in Tables 8-10 are 30% of N. before-split is stated ("pre-processed rebalanced data was split").
+- R21735 (SHAVA, SoftwareX): E1, not eligible. MASV-weighted SMOTE comes from the authors' companion paper [9], and this paper says it is the software implementation. OTHER would also fit. Not a ruling B or B2 case.
+- R05755 (AT-KSMOTE, student grades): N = yes taken from per-cluster SMOTE on the kmeans-smote framework (Step 3 loops "for x in c"); the text never says outright that neighbours stay inside the cluster. inside_folds = before-split: the whole data set was expanded, and the confusion-matrix counts are larger than the original classes. tuning = test: k and ratio were picked by the best reported accuracy (Tables V-VI). protocol = nr.
+- R19804 (M-VAEGAN): n_datasets = 1 counts only the imbalanced brain-MRI classification. CIFAR-10, TU-Berlin sketches and CelebA are generation-only benchmarks; counting them would give 4. vs_none = yes rests only on the 72.6% no-augmentation accuracy in the Conclusion. Not a B2 case: the prior and loss of the generator are changed.
+- R00682 (SNOCC): Core with P = yes, because a random convex combination of three instances counts as interpolation. protocol = repeated-cv: 3-fold CV run 100 times, and the RAW column has an SD.

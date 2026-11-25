@@ -1,0 +1,11 @@
+batch 104: 200 of 200 records done; include 24, unsure 21, exclude 155
+no records remain
+
+Check first:
+- Low confidence (5): R01610 (SPIDER3: a new oversampler, but the abstract suggests it copies existing examples rather than making synthetic ones), R13295 (GAN-made transactions for fraud anomaly detection; unclear if they are minority oversamples), R04931 ("one-sided gradient oversampling" inside an IDS), R07946 (no abstract: outlier analysis plus oversampling for landslides), R05874 (compensated over-sampling in continual learning).
+- In scope but excluded only for language (E-LANG); check whether English versions exist: R13643, R03903, R09898, R13530 (Chinese), R07340 (Thai, GANs2T).
+- Language coding: E-LANG was used where the record shows a non-English title or the content would otherwise be included. Where only the language field is non-English and the content is clearly out, I used the content code and noted the language in the reason: R22164 (tr), R11609 (ru), R00501 (ko), R02552 (zh). Bilingual Chinese titles tagged English, coded E1: R11531, R22149. R00073 (included, journal "Systems Engineering" 2008) may be in Chinese; check at full text.
+- Includes that are weak on novelty or detail (medium): R00073 (SMOTEBoostSVM, close to SMOTEBoost), R10099 (MRF-SMOTE, mechanism not described), R03062 (an "improved SMOTE" inside AutoML credit scoring), R01128 ("hybrid probabilistic oversampling", not described), R20512 (synthetic-data generation plus fidelity-index selection; the generator may be existing), R09262 (KNN-SMOTE; book chapter, so check I3).
+- Rule I applied for GANs used in domain papers: unsure when GAN oversampling is the headline contribution (R13274); E1 when the GAN is an off-the-shelf part of a pipeline (R22220, R22149). Same idea for KDE sampling (R22146, E1).
+- Clarification 2 (I2 not stated in the abstract): R21346 (QJ-SMOTE, theory only), R15574 (conditional WGAN for ALS EEG, only qualitative checks). Clarification 1 (purpose other than imbalanced classification): R16630 (GAN augmentation for crack segmentation).
+- R03810 is a case study that applies C-SMOTE (coded E1); check that the original C-SMOTE paper is in the corpus.

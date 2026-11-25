@@ -1,0 +1,935 @@
+{
+ "source": "build/name_level_types.py; inputs out/dataset_records.csv, difficulty/verifiability_entries.csv, difficulty/difficulty_profile_final.csv",
+ "unit": "normalized dataset name (R1 placeholders removed)",
+ "names": 866,
+ "entries": 1755,
+ "precedence": [
+  "modified",
+  "synthetic",
+  "repository-defined",
+  "original",
+  "not stated"
+ ],
+ "by_type": {
+  "modified": 242,
+  "synthetic": 194,
+  "repository-defined": 164,
+  "original": 150,
+  "not stated": 116
+ },
+ "entry_level_by_category": {
+  "modified": 341,
+  "synthetic": 212,
+  "repository-defined": 470,
+  "original": 537,
+  "not stated": 195
+ },
+ "names_single_type": 752,
+ "names_mixed_type": 114,
+ "not_stated_single_paper": 111,
+ "difficulty_order": [
+  "none",
+  "small_sample",
+  "outlier_flag",
+  "small_sample + outlier_flag",
+  "small_disjuncts + outlier_flag",
+  "small_disjuncts + small_sample",
+  "small_disjuncts + small_sample + outlier_flag",
+  "varies",
+  "multiclass",
+  "not measured"
+ ],
+ "by_difficulty": {
+  "none": 87,
+  "small_sample": 116,
+  "outlier_flag": 12,
+  "small_sample + outlier_flag": 56,
+  "small_disjuncts + outlier_flag": 2,
+  "small_disjuncts + small_sample": 4,
+  "small_disjuncts + small_sample + outlier_flag": 35,
+  "varies": 5,
+  "multiclass": 66,
+  "not measured": 483
+ },
+ "type_by_difficulty": {
+  "modified": {
+   "none": 32,
+   "small_sample": 34,
+   "outlier_flag": 3,
+   "small_sample + outlier_flag": 22,
+   "small_disjuncts + outlier_flag": 1,
+   "small_disjuncts + small_sample": 2,
+   "small_disjuncts + small_sample + outlier_flag": 15,
+   "varies": 3,
+   "multiclass": 24,
+   "not measured": 106
+  },
+  "synthetic": {
+   "none": 0,
+   "small_sample": 0,
+   "outlier_flag": 0,
+   "small_sample + outlier_flag": 0,
+   "small_disjuncts + outlier_flag": 0,
+   "small_disjuncts + small_sample": 0,
+   "small_disjuncts + small_sample + outlier_flag": 0,
+   "varies": 0,
+   "multiclass": 0,
+   "not measured": 194
+  },
+  "repository-defined": {
+   "none": 29,
+   "small_sample": 72,
+   "outlier_flag": 0,
+   "small_sample + outlier_flag": 24,
+   "small_disjuncts + outlier_flag": 0,
+   "small_disjuncts + small_sample": 0,
+   "small_disjuncts + small_sample + outlier_flag": 18,
+   "varies": 0,
+   "multiclass": 1,
+   "not measured": 20
+  },
+  "original": {
+   "none": 13,
+   "small_sample": 7,
+   "outlier_flag": 5,
+   "small_sample + outlier_flag": 3,
+   "small_disjuncts + outlier_flag": 0,
+   "small_disjuncts + small_sample": 1,
+   "small_disjuncts + small_sample + outlier_flag": 0,
+   "varies": 1,
+   "multiclass": 41,
+   "not measured": 79
+  },
+  "not stated": {
+   "none": 13,
+   "small_sample": 3,
+   "outlier_flag": 4,
+   "small_sample + outlier_flag": 7,
+   "small_disjuncts + outlier_flag": 1,
+   "small_disjuncts + small_sample": 1,
+   "small_disjuncts + small_sample + outlier_flag": 2,
+   "varies": 1,
+   "multiclass": 0,
+   "not measured": 84
+  }
+ },
+ "source_order": [
+  "KEEL",
+  "UCI",
+  "group-level",
+  "other repository",
+  "other paper/author",
+  "private",
+  "synthetic",
+  "multiple",
+  "not stated"
+ ],
+ "by_source": {
+  "KEEL": 151,
+  "UCI": 207,
+  "group-level": 20,
+  "other repository": 81,
+  "other paper/author": 34,
+  "private": 23,
+  "synthetic": 191,
+  "multiple": 77,
+  "not stated": 82
+ },
+ "source_by_type": {
+  "KEEL": {
+   "modified": 8,
+   "synthetic": 0,
+   "repository-defined": 133,
+   "original": 9,
+   "not stated": 1
+  },
+  "UCI": {
+   "modified": 125,
+   "synthetic": 0,
+   "repository-defined": 0,
+   "original": 54,
+   "not stated": 28
+  },
+  "group-level": {
+   "modified": 1,
+   "synthetic": 0,
+   "repository-defined": 0,
+   "original": 6,
+   "not stated": 13
+  },
+  "other repository": {
+   "modified": 26,
+   "synthetic": 0,
+   "repository-defined": 8,
+   "original": 10,
+   "not stated": 37
+  },
+  "other paper/author": {
+   "modified": 4,
+   "synthetic": 0,
+   "repository-defined": 0,
+   "original": 19,
+   "not stated": 11
+  },
+  "private": {
+   "modified": 2,
+   "synthetic": 0,
+   "repository-defined": 0,
+   "original": 9,
+   "not stated": 12
+  },
+  "synthetic": {
+   "modified": 2,
+   "synthetic": 189,
+   "repository-defined": 0,
+   "original": 0,
+   "not stated": 0
+  },
+  "multiple": {
+   "modified": 49,
+   "synthetic": 4,
+   "repository-defined": 3,
+   "original": 18,
+   "not stated": 3
+  },
+  "not stated": {
+   "modified": 25,
+   "synthetic": 1,
+   "repository-defined": 20,
+   "original": 25,
+   "not stated": 11
+  }
+ },
+ "source_by_difficulty": {
+  "KEEL": {
+   "none": 24,
+   "small_sample": 63,
+   "outlier_flag": 0,
+   "small_sample + outlier_flag": 22,
+   "small_disjuncts + outlier_flag": 0,
+   "small_disjuncts + small_sample": 0,
+   "small_disjuncts + small_sample + outlier_flag": 17,
+   "varies": 1,
+   "multiclass": 8,
+   "not measured": 16
+  },
+  "UCI": {
+   "none": 23,
+   "small_sample": 25,
+   "outlier_flag": 5,
+   "small_sample + outlier_flag": 16,
+   "small_disjuncts + outlier_flag": 1,
+   "small_disjuncts + small_sample": 3,
+   "small_disjuncts + small_sample + outlier_flag": 13,
+   "varies": 1,
+   "multiclass": 28,
+   "not measured": 92
+  },
+  "group-level": {
+   "none": 4,
+   "small_sample": 1,
+   "outlier_flag": 2,
+   "small_sample + outlier_flag": 0,
+   "small_disjuncts + outlier_flag": 0,
+   "small_disjuncts + small_sample": 0,
+   "small_disjuncts + small_sample + outlier_flag": 0,
+   "varies": 0,
+   "multiclass": 3,
+   "not measured": 10
+  },
+  "other repository": {
+   "none": 16,
+   "small_sample": 3,
+   "outlier_flag": 3,
+   "small_sample + outlier_flag": 10,
+   "small_disjuncts + outlier_flag": 1,
+   "small_disjuncts + small_sample": 1,
+   "small_disjuncts + small_sample + outlier_flag": 3,
+   "varies": 0,
+   "multiclass": 2,
+   "not measured": 42
+  },
+  "other paper/author": {
+   "none": 0,
+   "small_sample": 0,
+   "outlier_flag": 1,
+   "small_sample + outlier_flag": 0,
+   "small_disjuncts + outlier_flag": 0,
+   "small_disjuncts + small_sample": 0,
+   "small_disjuncts + small_sample + outlier_flag": 0,
+   "varies": 0,
+   "multiclass": 0,
+   "not measured": 33
+  },
+  "private": {
+   "none": 0,
+   "small_sample": 0,
+   "outlier_flag": 0,
+   "small_sample + outlier_flag": 1,
+   "small_disjuncts + outlier_flag": 0,
+   "small_disjuncts + small_sample": 0,
+   "small_disjuncts + small_sample + outlier_flag": 0,
+   "varies": 0,
+   "multiclass": 0,
+   "not measured": 22
+  },
+  "synthetic": {
+   "none": 0,
+   "small_sample": 0,
+   "outlier_flag": 0,
+   "small_sample + outlier_flag": 0,
+   "small_disjuncts + outlier_flag": 0,
+   "small_disjuncts + small_sample": 0,
+   "small_disjuncts + small_sample + outlier_flag": 0,
+   "varies": 0,
+   "multiclass": 0,
+   "not measured": 191
+  },
+  "multiple": {
+   "none": 16,
+   "small_sample": 15,
+   "outlier_flag": 1,
+   "small_sample + outlier_flag": 4,
+   "small_disjuncts + outlier_flag": 0,
+   "small_disjuncts + small_sample": 0,
+   "small_disjuncts + small_sample + outlier_flag": 2,
+   "varies": 3,
+   "multiclass": 22,
+   "not measured": 14
+  },
+  "not stated": {
+   "none": 4,
+   "small_sample": 9,
+   "outlier_flag": 0,
+   "small_sample + outlier_flag": 3,
+   "small_disjuncts + outlier_flag": 0,
+   "small_disjuncts + small_sample": 0,
+   "small_disjuncts + small_sample + outlier_flag": 0,
+   "varies": 0,
+   "multiclass": 3,
+   "not measured": 63
+  }
+ },
+ "multiple_source_combos": {
+  "KEEL + UCI": 44,
+  "UCI + other repository": 15,
+  "other repository + synthetic": 4,
+  "KEEL + UCI + other repository": 4,
+  "other repository + other paper/author": 3,
+  "other paper/author + private": 2,
+  "KEEL + other repository": 2,
+  "UCI + other paper/author": 1,
+  "other repository + other paper/author + private": 1,
+  "UCI + other repository + other paper/author": 1
+ },
+ "entry_level_by_source": {
+  "KEEL": 491,
+  "UCI": 432,
+  "group-level": 65,
+  "other repository": 120,
+  "other paper/author": 45,
+  "private": 26,
+  "synthetic": 211,
+  "not stated": 365
+ },
+ "source_map": {
+  "KEEL": "KEEL",
+  "Kaggle": "other repository",
+  "LibSVM": "other repository",
+  "UCI": "UCI",
+  "UCR": "other repository",
+  "imbalanced-learn": "other repository",
+  "not stated in paper": "not stated",
+  "other: CIFAR-10 benchmark (Krizhevsky & Hinton, 2009)": "other repository",
+  "other: Compustat North America financial database": "other repository",
+  "other: Crowd Analytix": "other repository",
+  "other: ELENA project": "other repository",
+  "other: GitHub (sisinflab-swot/mafalda, ref [64])": "other repository",
+  "other: HDDT collection of Cieslak et al. [37] (http://www.nd.edu/dial/hddt/)": "other repository",
+  "other: IBM Analytics": "other repository",
+  "other: ImageNet 2011 Fall Release": "other repository",
+  "other: ImageNet ILSVRC-2012 (Russakovsky et al., 2015)": "other repository",
+  "other: KDD Cup 2008": "other repository",
+  "other: KDD'99 Challenge [16]": "other repository",
+  "other: KDD-Cup 1999 (ref [20], http://kdd.ics.uci.edu/databases/kddcup99/task.html)": "UCI",
+  "other: MNIST": "other repository",
+  "other: MNIST (LeCun)": "other repository",
+  "other: MNIST benchmark (LeCun, Bottou, Bengio, & Haffner, 1998)": "other repository",
+  "other: NASA Metrics Data Program": "other repository",
+  "other: PROMISE": "other repository",
+  "other: TREC": "other repository",
+  "other: UCI KDD Archive": "UCI",
+  "other: UCI or ELENA project (paper names both; per-dataset source not stated in paper)": "group-level",
+  "other: UCI or KEEL (paper says 'from the UCI and KEEL repositories', not per dataset)": "group-level",
+  "other: UCI/KEEL (group-level; per dataset not stated)": "group-level",
+  "other: USF Intelligent Systems Lab (Woods et al., 1993)": "other paper/author",
+  "other: WebACE": "other repository",
+  "other: biological datasets [20] (Radivojac et al.)": "other paper/author",
+  "other: cited as ref [42] (Zhang et al., KRNN, Pattern Recognit. 2017); repository not named in Table 2": "other paper/author",
+  "other: generated from Can ExodusII data (AVATAR version of Mustafa Visualization tool)": "other paper/author",
+  "other: hyperspectral image source [53] as cited in main paper Sec 4.4": "other paper/author",
+  "other: hyperspectral image source [54] as cited in main paper Sec 4.4": "other paper/author",
+  "other: hyperspectral image source [55] as cited in main paper Sec 4.4": "other paper/author",
+  "other: microarray datasets reported in Maldonado et al. [6]": "other paper/author",
+  "other: multi-imbalance library (artificial datasets repository)": "other repository",
+  "other: ordinal regression benchmark data (refs [13,25])": "other paper/author",
+  "other: provided by Dr. N. Chawla": "other paper/author",
+  "other: provided by [17] (Kubat et al.)": "other paper/author",
+  "other: provided by authors of [45]": "other paper/author",
+  "other: real predictive microbiology data (S. aureus growth/no growth) from refs [57,58]": "other paper/author",
+  "other: real-world dataset originally considered in [6]": "other paper/author",
+  "other: real-world dataset originally considered in [6] (NCI Yeast AntiCancer drug screen)": "other paper/author",
+  "other: ref [1] (Chawla et al., SMOTE, JAIR 2002)": "other paper/author",
+  "other: ref [23] (Provost, Fawcett, Kohavi, ICML 1998)": "other paper/author",
+  "other: software defect detection datasets from ref [46] (Akritidis & Bozanis)": "other paper/author",
+  "private": "private",
+  "synthetic": "synthetic"
+ },
+ "measured_names": 317,
+ "rules": {
+  "source": "แหล่งตามที่ paper เขียน จัดเป็น 8 กลุ่มด้วยการจับข้อความ (source_map) · ระดับชื่อ: ถ้า paper ที่ระบุแหล่งรายชุดระบุตรงกันแหล่งเดียว ใช้แหล่งนั้น · ระบุต่างกัน = multiple · ไม่มี paper ระบุรายชุด แต่มีระดับกลุ่ม (เช่น UCI หรือ KEEL) = group-level · ไม่มีเลย = not stated",
+  "type": "ชื่อหนึ่งได้ชนิดเดียว: ถ้ามี entry ใดเป็นชนิดที่มาก่อนตามลำดับ precedence ใช้ชนิดนั้น (เคยดัดแปลง = modified)",
+  "difficulty": "โปรไฟล์ของ task สองคลาสที่วัดแล้ว (ธงจาก difficulty/profile_final.py) · หลาย task ต่างโปรไฟล์ = varies · มีแต่ไฟล์หลายคลาส = multiclass · ไม่มีไฟล์ที่ตรวจได้ = not measured"
+ },
+ "modified_ops": {
+  "order": [
+   "CS",
+   "US",
+   "IM",
+   "SF",
+   "FM",
+   "NI",
+   "LC",
+   "IS"
+  ],
+  "entries": 341,
+  "papers": 43,
+  "names": 242,
+  "by_op": {
+   "CS": {
+    "entries": 175,
+    "papers": 29,
+    "names": 113
+   },
+   "US": {
+    "entries": 148,
+    "papers": 11,
+    "names": 124
+   },
+   "IM": {
+    "entries": 147,
+    "papers": 9,
+    "names": 123
+   },
+   "SF": {
+    "entries": 18,
+    "papers": 9,
+    "names": 17
+   },
+   "FM": {
+    "entries": 15,
+    "papers": 6,
+    "names": 14
+   },
+   "NI": {
+    "entries": 12,
+    "papers": 8,
+    "names": 12
+   },
+   "LC": {
+    "entries": 3,
+    "papers": 2,
+    "names": 3
+   },
+   "IS": {
+    "entries": 0,
+    "papers": 0,
+    "names": 0
+   }
+  },
+  "purpose_papers": 15,
+  "purpose_themes": {
+   "two-class problems": 7,
+   "more extreme imbalance": 1,
+   "extreme imbalance": 1,
+   "higher imbalance": 4,
+   "imbalance study": 1,
+   "data-set size": 1
+  },
+  "source": "out/modified_operations_audit.csv (build/modified_operations.py); ชื่อ = normalized_name ที่มี entry modified อย่างน้อย 1"
+ },
+ "distinct_sources": {
+  "n": 50,
+  "by_group": {
+   "KEEL": 1,
+   "UCI": 1,
+   "other repository": 20,
+   "other paper/author": 17,
+   "private": 11
+  },
+  "named_public": 22,
+  "rows": [
+   {
+    "source": "UCI",
+    "group": "UCI",
+    "names": 272,
+    "entries": 432,
+    "papers": 38,
+    "paper_list": "AB-SMOTE; ADASYN; Borderline-SMOTE; CGMOS; CISO; COG-OS; CTGAN / TVAE; ClusterCentroids; DGOT; DSRBF / Static-SMOTE; EMDO; EasyEnsemble / BalanceCascade; GDO; GMMSampling; Global-CS (AAAI); Global-CS (journal); LS; Loyalty-SMOTE; MBS; MKC-SMOTE; MLOS; MWMOTE; OSS; RACOG / wRACOG; RAMOBoost; RSMOTE; RUSBoost; SCUT; SMOM; SMOTE; SMOTE-ENN / SMOTE-Tomek; SMOTEBoost; SOUP; SPE; SPIDER2; SVDD-WSMOTE; Safe-Level-SMOTE; k-means SMOTE",
+    "as_reported": "UCI | other: KDD-Cup 1999 (ref [20], http://kdd.ics.uci.edu/databases/kddcup99/task.html) | other: UCI KDD Archive"
+   },
+   {
+    "source": "KEEL",
+    "group": "KEEL",
+    "names": 201,
+    "entries": 491,
+    "papers": 21,
+    "paper_list": "AB-SMOTE; CISO; DLexiBoost; GDHS; GDO; HDE; KNNOR; MC-CCR; MC-MBRC; MC-NCLWO; MC-RBO; MLOS; NROMM; OVO-SMOTE; RBBoost / Random Balance; RBO; SCUT; SHSampler; SMOTE-IPF; SplitBal; k-means SMOTE",
+    "as_reported": "KEEL"
+   },
+   {
+    "source": "Kaggle",
+    "group": "other repository",
+    "names": 28,
+    "entries": 28,
+    "papers": 3,
+    "paper_list": "CTGAN / TVAE; Loyalty-SMOTE; MBS",
+    "as_reported": "Kaggle"
+   },
+   {
+    "source": "HDDT collection (Cieslak et al.)",
+    "group": "other repository",
+    "names": 20,
+    "entries": 20,
+    "papers": 1,
+    "paper_list": "RBBoost / Random Balance",
+    "as_reported": "other: HDDT collection of Cieslak et al. [37] (http://www.nd.edu/dial/hddt/)"
+   },
+   {
+    "source": "LibSVM",
+    "group": "other repository",
+    "names": 17,
+    "entries": 22,
+    "papers": 3,
+    "paper_list": "COG-OS; HDE; LS",
+    "as_reported": "LibSVM"
+   },
+   {
+    "source": "microarray (Maldonado et al.)",
+    "group": "other paper/author",
+    "names": 12,
+    "entries": 12,
+    "papers": 1,
+    "paper_list": "FW-SMOTE",
+    "as_reported": "other: microarray datasets reported in Maldonado et al. [6]"
+   },
+   {
+    "source": "imbalanced-learn",
+    "group": "other repository",
+    "names": 10,
+    "entries": 10,
+    "papers": 1,
+    "paper_list": "DGOT",
+    "as_reported": "imbalanced-learn"
+   },
+   {
+    "source": "ordinal regression benchmark (SMOM refs [13,25])",
+    "group": "other paper/author",
+    "names": 8,
+    "entries": 8,
+    "papers": 1,
+    "paper_list": "SMOM",
+    "as_reported": "other: ordinal regression benchmark data (refs [13,25])"
+   },
+   {
+    "source": "UCR",
+    "group": "other repository",
+    "names": 7,
+    "entries": 7,
+    "papers": 1,
+    "paper_list": "INOS",
+    "as_reported": "UCR"
+   },
+   {
+    "source": "private: SVDD-WSMOTE",
+    "group": "private",
+    "names": 7,
+    "entries": 7,
+    "papers": 1,
+    "paper_list": "SVDD-WSMOTE",
+    "as_reported": "private"
+   },
+   {
+    "source": "software defect (Akritidis & Bozanis)",
+    "group": "other paper/author",
+    "names": 6,
+    "entries": 6,
+    "papers": 1,
+    "paper_list": "GDHS",
+    "as_reported": "other: software defect detection datasets from ref [46] (Akritidis & Bozanis)"
+   },
+   {
+    "source": "MNIST",
+    "group": "other repository",
+    "names": 5,
+    "entries": 5,
+    "papers": 3,
+    "paper_list": "CTGAN / TVAE; NBU; ROS (Buda)",
+    "as_reported": "other: MNIST | other: MNIST (LeCun) | other: MNIST benchmark (LeCun, Bottou, Bengio, & Haffner, 1998)"
+   },
+   {
+    "source": "PROMISE",
+    "group": "other repository",
+    "names": 5,
+    "entries": 5,
+    "papers": 1,
+    "paper_list": "MLOS",
+    "as_reported": "other: PROMISE"
+   },
+   {
+    "source": "ImageNet",
+    "group": "other repository",
+    "names": 4,
+    "entries": 4,
+    "papers": 2,
+    "paper_list": "DLexiBoost; ROS (Buda)",
+    "as_reported": "other: ImageNet 2011 Fall Release | other: ImageNet ILSVRC-2012 (Russakovsky et al., 2015)"
+   },
+   {
+    "source": "multi-imbalance library",
+    "group": "other repository",
+    "names": 4,
+    "entries": 4,
+    "papers": 1,
+    "paper_list": "GMMSampling",
+    "as_reported": "other: multi-imbalance library (artificial datasets repository)"
+   },
+   {
+    "source": "private: OSS",
+    "group": "private",
+    "names": 4,
+    "entries": 4,
+    "papers": 1,
+    "paper_list": "OSS",
+    "as_reported": "private"
+   },
+   {
+    "source": "IBM Analytics",
+    "group": "other repository",
+    "names": 3,
+    "entries": 3,
+    "papers": 1,
+    "paper_list": "AB-SMOTE",
+    "as_reported": "other: IBM Analytics"
+   },
+   {
+    "source": "biological (Radivojac et al.)",
+    "group": "other paper/author",
+    "names": 3,
+    "entries": 3,
+    "papers": 1,
+    "paper_list": "LS",
+    "as_reported": "other: biological datasets [20] (Radivojac et al.)"
+   },
+   {
+    "source": "private: RUSBoost",
+    "group": "private",
+    "names": 3,
+    "entries": 3,
+    "papers": 1,
+    "paper_list": "RUSBoost",
+    "as_reported": "private"
+   },
+   {
+    "source": "NASA Metrics Data Program",
+    "group": "other repository",
+    "names": 2,
+    "entries": 2,
+    "papers": 1,
+    "paper_list": "RUSBoost",
+    "as_reported": "other: NASA Metrics Data Program"
+   },
+   {
+    "source": "hyperspectral source [53] (DLexiBoost)",
+    "group": "other paper/author",
+    "names": 2,
+    "entries": 2,
+    "papers": 1,
+    "paper_list": "DLexiBoost",
+    "as_reported": "other: hyperspectral image source [53] as cited in main paper Sec 4.4"
+   },
+   {
+    "source": "hyperspectral source [55] (DLexiBoost)",
+    "group": "other paper/author",
+    "names": 2,
+    "entries": 2,
+    "papers": 1,
+    "paper_list": "DLexiBoost",
+    "as_reported": "other: hyperspectral image source [55] as cited in main paper Sec 4.4"
+   },
+   {
+    "source": "private: AMDO",
+    "group": "private",
+    "names": 2,
+    "entries": 2,
+    "papers": 1,
+    "paper_list": "AMDO",
+    "as_reported": "private"
+   },
+   {
+    "source": "private: Cluster-SMOTE",
+    "group": "private",
+    "names": 2,
+    "entries": 2,
+    "papers": 1,
+    "paper_list": "Cluster-SMOTE",
+    "as_reported": "private"
+   },
+   {
+    "source": "private: GDO",
+    "group": "private",
+    "names": 2,
+    "entries": 2,
+    "papers": 1,
+    "paper_list": "GDO",
+    "as_reported": "private"
+   },
+   {
+    "source": "private: SMOTE",
+    "group": "private",
+    "names": 2,
+    "entries": 2,
+    "papers": 1,
+    "paper_list": "SMOTE",
+    "as_reported": "private"
+   },
+   {
+    "source": "ref [6] (LS)",
+    "group": "other paper/author",
+    "names": 2,
+    "entries": 2,
+    "papers": 1,
+    "paper_list": "LS",
+    "as_reported": "other: real-world dataset originally considered in [6] | other: real-world dataset originally considered in [6] (NCI Yeast AntiCancer drug screen)"
+   },
+   {
+    "source": "ELENA",
+    "group": "other repository",
+    "names": 1,
+    "entries": 2,
+    "papers": 2,
+    "paper_list": "LS; SMOTE",
+    "as_reported": "other: ELENA project"
+   },
+   {
+    "source": "CIFAR-10",
+    "group": "other repository",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "ROS (Buda)",
+    "as_reported": "other: CIFAR-10 benchmark (Krizhevsky & Hinton, 2009)"
+   },
+   {
+    "source": "Can ExodusII (AVATAR)",
+    "group": "other paper/author",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "SMOTE",
+    "as_reported": "other: generated from Can ExodusII data (AVATAR version of Mustafa Visualization tool)"
+   },
+   {
+    "source": "Compustat",
+    "group": "other repository",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "LS",
+    "as_reported": "other: Compustat North America financial database"
+   },
+   {
+    "source": "Crowd Analytix",
+    "group": "other repository",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "AB-SMOTE",
+    "as_reported": "other: Crowd Analytix"
+   },
+   {
+    "source": "GitHub sisinflab-swot/mafalda",
+    "group": "other repository",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "EMDO",
+    "as_reported": "other: GitHub (sisinflab-swot/mafalda, ref [64])"
+   },
+   {
+    "source": "KDD Cup 1999",
+    "group": "other repository",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "LS",
+    "as_reported": "other: KDD'99 Challenge [16]"
+   },
+   {
+    "source": "KDD Cup 2008",
+    "group": "other repository",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "NBU",
+    "as_reported": "other: KDD Cup 2008"
+   },
+   {
+    "source": "Kubat et al.",
+    "group": "other paper/author",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "LS",
+    "as_reported": "other: provided by [17] (Kubat et al.)"
+   },
+   {
+    "source": "Provost et al. 1998",
+    "group": "other paper/author",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "SMOTEBoost",
+    "as_reported": "other: ref [23] (Provost, Fawcett, Kohavi, ICML 1998)"
+   },
+   {
+    "source": "SMOTE paper (Chawla et al. 2002)",
+    "group": "other paper/author",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "SMOTEBoost",
+    "as_reported": "other: ref [1] (Chawla et al., SMOTE, JAIR 2002)"
+   },
+   {
+    "source": "TREC",
+    "group": "other repository",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "COG-OS",
+    "as_reported": "other: TREC"
+   },
+   {
+    "source": "USF Intelligent Systems Lab (Woods et al.)",
+    "group": "other paper/author",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "SMOTE",
+    "as_reported": "other: USF Intelligent Systems Lab (Woods et al., 1993)"
+   },
+   {
+    "source": "WebACE",
+    "group": "other repository",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "COG-OS",
+    "as_reported": "other: WebACE"
+   },
+   {
+    "source": "Zhang et al. (KRNN)",
+    "group": "other paper/author",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "KNNOR",
+    "as_reported": "other: cited as ref [42] (Zhang et al., KRNN, Pattern Recognit. 2017); repository not named in Table 2"
+   },
+   {
+    "source": "hyperspectral source [54] (DLexiBoost)",
+    "group": "other paper/author",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "DLexiBoost",
+    "as_reported": "other: hyperspectral image source [54] as cited in main paper Sec 4.4"
+   },
+   {
+    "source": "predictive microbiology refs [57,58]",
+    "group": "other paper/author",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "DSRBF / Static-SMOTE",
+    "as_reported": "other: real predictive microbiology data (S. aureus growth/no growth) from refs [57,58]"
+   },
+   {
+    "source": "private: ClusterCentroids",
+    "group": "private",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "ClusterCentroids",
+    "as_reported": "private"
+   },
+   {
+    "source": "private: RACOG / wRACOG",
+    "group": "private",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "RACOG / wRACOG",
+    "as_reported": "private"
+   },
+   {
+    "source": "private: SHRINK",
+    "group": "private",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "SHRINK",
+    "as_reported": "private"
+   },
+   {
+    "source": "private: SPIDER2",
+    "group": "private",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "SPIDER2",
+    "as_reported": "private"
+   },
+   {
+    "source": "ผู้เขียน ref [45] (SMOTE-IPF)",
+    "group": "other paper/author",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "SMOTE-IPF",
+    "as_reported": "other: provided by authors of [45]"
+   },
+   {
+    "source": "ให้โดย N. Chawla",
+    "group": "other paper/author",
+    "names": 1,
+    "entries": 1,
+    "papers": 1,
+    "paper_list": "RUSBoost",
+    "as_reported": "other: provided by Dr. N. Chawla"
+   }
+  ],
+  "papers": 72,
+  "sources_per_paper": {
+   "0": 12,
+   "1": 28,
+   "2": 21,
+   "3": 5,
+   "4+": 6
+  },
+  "names_with_a_source": 573,
+  "rule": "1 แหล่ง = 1 คลังหรือ benchmark, 1 งานหรือผู้ให้ข้อมูลที่อ้าง, หรือข้อมูลเฉพาะของ 1 paper · ชื่อที่เขียนต่างกันแต่เป็นแหล่งเดียวกันรวมกัน (ตาราง _ID ใน build/name_level_types.py) · ไม่นับ synthetic, ระบุแค่ระดับกลุ่ม และไม่ระบุ",
+  "source": "out/name_level_sources.csv"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "data_key": "ENN (Wilson)",
+ "evaluates_on_data": "no",
+ "sources": [],
+ "crit": "n.a.",
+ "crit_type": "n.a.",
+ "basis": [],
+ "benchmark_inherited_from": "n.a.",
+ "origin": [],
+ "binarised_by": "n.a.",
+ "minority_rule": "n.a.",
+ "modified_data_released": "n.a.",
+ "notes": "Borderline case for the adjudicator. Wilson (1972) is a theory paper: the only 'results' are asymptotic risks (N -> infinity) computed analytically for four pairs of univariate distributions with equal priors (logistic centred at -1/+1; N(0,1) vs N(1,1); N(0,1) vs N(0,4); N(2,1) vs N(-2,1)), Figs. 1-4, plus analytic local-risk curves (Figs. 5-10). No samples are drawn, no dataset (real or generated) is used, no imbalance is involved (eta1 = eta2 = 0.5). The finite-sample 'example calculations' on p.410 are not shown ('to be presented in a following paper on conversion rates'). Coded evaluates_on_data = no under the codebook definition (no evaluation on datasets, no generated data). If the adjudicator treats analytic curves on theoretical distributions as a synthetic illustration, the alternative coding would be: sources [Synthetic], origin [Generated], crit_type own reason, basis [analytic]. The text file also contains the start of the next article in the journal issue (lines ~1120-1144), which was ignored."
+}

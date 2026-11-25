@@ -1,0 +1,352 @@
+{
+ "Pageblocks": {
+  "status": "error",
+  "printed": {
+   "N": 5476,
+   "min": 231,
+   "maj": 5245,
+   "feat": 10
+  },
+  "source": {
+   "N": 5473,
+   "min": 231,
+   "maj": 5242,
+   "feat": 10,
+   "ref": "Page Blocks Classification"
+  },
+  "delta": [
+   0,
+   3,
+   3,
+   0
+  ]
+ },
+ "Abalone": {
+  "status": "error",
+  "printed": {
+   "N": 731,
+   "min": 42,
+   "maj": 689,
+   "feat": 7
+  },
+  "source": {
+   "N": 731,
+   "min": 42,
+   "maj": 689,
+   "feat": 8,
+   "ref": "UCI Abalone, rings as classes (OpenML 183 copy of the UCI table)"
+  },
+  "delta": [
+   0,
+   0,
+   0,
+   -1
+  ]
+ },
+ "CTG": {
+  "status": "pending",
+  "need": "ต้องการจำนวนต่อคลาสของชุด label CLASS 10 แบบ ตรวจสมมติฐานว่า คลาส 3 + คลาส 4 = 134"
+ },
+ "OCR": {
+  "status": "error",
+  "printed": {
+   "N": 3826,
+   "min": 376,
+   "maj": 3447,
+   "feat": 64
+  },
+  "source": {
+   "N": 3823,
+   "min": 376,
+   "maj": 3447,
+   "feat": 64,
+   "ref": "optdigits.tra (training split)"
+  },
+  "delta": [
+   0,
+   0,
+   3,
+   0
+  ]
+ },
+ "Statlandsat": {
+  "status": "error",
+  "printed": {
+   "N": 4435,
+   "min": 415,
+   "maj": 4435,
+   "feat": 37
+  },
+  "source": {
+   "N": 4435,
+   "min": 415,
+   "maj": 4020,
+   "feat": 36,
+   "ref": "Statlog Landsat, sat.trn (training split)"
+  },
+  "delta": [
+   0,
+   415,
+   0,
+   1
+  ]
+ },
+ "Semeion": {
+  "status": "pending",
+  "need": "ต้องการจำนวนต่อ digit ตรวจว่า digit 4 = 161"
+ },
+ "Segment": {
+  "status": "ok",
+  "printed": {
+   "N": 2310,
+   "min": 330,
+   "maj": 1980,
+   "feat": 19
+  },
+  "source": {
+   "N": 2310,
+   "min": 330,
+   "maj": 1980,
+   "feat": 19,
+   "ref": "UCI Image Segmentation, 7 classes, 30 train + 300 test per class"
+  },
+  "delta": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "Libra": {
+  "status": "ok",
+  "printed": {
+   "N": 360,
+   "min": 72,
+   "maj": 288,
+   "feat": 90
+  },
+  "source": {
+   "N": 360,
+   "min": 72,
+   "maj": 288,
+   "feat": 90,
+   "ref": "UCI Libras Movement, 15 classes of 24 instances each"
+  },
+  "delta": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "Yeast": {
+  "status": "pending",
+  "need": "ต้องการจำนวนต่อคลาส ตรวจว่า ME3+ME2+EXC+VAC+POX+ERL = 304"
+ },
+ "Robot": {
+  "status": "pending",
+  "need": "ต้องการจำนวนต่อคลาส ตรวจว่า Slight-Left-Turn + Slight-Right-Turn = 1154"
+ },
+ "Ecoli": {
+  "status": "ok",
+  "printed": {
+   "N": 336,
+   "min": 77,
+   "maj": 259,
+   "feat": 7
+  },
+  "source": {
+   "N": 336,
+   "min": 77,
+   "maj": 259,
+   "feat": 7,
+   "ref": "UCI Ecoli class distribution"
+  },
+  "delta": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "Glass": {
+  "status": "ok",
+  "printed": {
+   "N": 214,
+   "min": 51,
+   "maj": 163,
+   "feat": 9
+  },
+  "source": {
+   "N": 214,
+   "min": 51,
+   "maj": 163,
+   "feat": 9,
+   "ref": "UCI Glass Identification class distribution"
+  },
+  "delta": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "Vehicle": {
+  "status": "error",
+  "printed": {
+   "N": 940,
+   "min": 219,
+   "maj": 721,
+   "feat": 18
+  },
+  "source": {
+   "N": 846,
+   "min": 212,
+   "maj": 634,
+   "feat": 18,
+   "ref": "Statlog Vehicle Silhouettes"
+  },
+  "delta": [
+   7,
+   87,
+   94,
+   0
+  ]
+ },
+ "Wine": {
+  "status": "ok",
+  "printed": {
+   "N": 178,
+   "min": 48,
+   "maj": 130,
+   "feat": 13
+  },
+  "source": {
+   "N": 178,
+   "min": 48,
+   "maj": 130,
+   "feat": 13,
+   "ref": "UCI Wine class distribution"
+  },
+  "delta": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "Texture": {
+  "status": "error",
+  "printed": {
+   "N": 5477,
+   "min": 1500,
+   "maj": 3977,
+   "feat": 40
+  },
+  "source": {
+   "N": 5500,
+   "min": 1500,
+   "maj": 4000,
+   "feat": 40,
+   "ref": "Texture (11 classes x 500)"
+  },
+  "delta": [
+   0,
+   -23,
+   -23,
+   0
+  ]
+ },
+ "Phoneme": {
+  "status": "error",
+  "printed": {
+   "N": 5227,
+   "min": 1520,
+   "maj": 3707,
+   "feat": 5
+  },
+  "source": {
+   "N": 5404,
+   "min": 1586,
+   "maj": 3818,
+   "feat": 5,
+   "ref": "Phoneme (ELENA)"
+  },
+  "delta": [
+   -66,
+   -111,
+   -177,
+   0
+  ]
+ },
+ "Satimage": {
+  "status": "ok",
+  "printed": {
+   "N": 6435,
+   "min": 2036,
+   "maj": 4399,
+   "feat": 36
+  },
+  "source": {
+   "N": 6435,
+   "min": 2036,
+   "maj": 4399,
+   "feat": 36,
+   "ref": "Statlog Landsat, full (sat.trn + sat.tst)"
+  },
+  "delta": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "Breast-tissue": {
+  "status": "pending",
+  "need": "ต้องการจำนวนต่อคลาส ตรวจว่า car + fad = 36"
+ },
+ "Breast-cancer-original": {
+  "status": "ok",
+  "printed": {
+   "N": 683,
+   "min": 239,
+   "maj": 444,
+   "feat": 9
+  },
+  "source": {
+   "N": 683,
+   "min": 239,
+   "maj": 444,
+   "feat": 9,
+   "ref": "UCI Breast Cancer Wisconsin Original, 699 total, 683 without missing"
+  },
+  "delta": [
+   0,
+   0,
+   0,
+   0
+  ]
+ },
+ "Pima": {
+  "status": "ok",
+  "printed": {
+   "N": 768,
+   "min": 268,
+   "maj": 500,
+   "feat": 8
+  },
+  "source": {
+   "N": 768,
+   "min": 268,
+   "maj": 500,
+   "feat": 8,
+   "ref": "Pima Indians Diabetes class distribution"
+  },
+  "delta": [
+   0,
+   0,
+   0,
+   0
+  ]
+ }
+}

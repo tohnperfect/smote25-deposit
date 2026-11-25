@@ -1,0 +1,26 @@
+{
+ "data_key": "MWMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "Synthetic"
+ ],
+ "crit": "Real-world: 'These sets are chosen in such a way that they have a different number of samples, features, classes, and imbalanced ratios.' Multiclass sets are transformed to two-class problems 'because of our interest'. Artificial: a two-class problem domain 'motivated from [12]' with two complexity levels (C = 3, C = 5) and two imbalance ratios, 1:3 (moderate) and 1:10 (high).",
+ "crit_type": "own reason",
+ "basis": [
+  "diversity",
+  "analytic",
+  "prior-work"
+ ],
+ "benchmark_inherited_from": "Only the artificial domain: 'motivated from [12]' ([12] = Japkowicz and Stephen, The Class Imbalance Problem: A Systematic Study, IDA 2002); real-world list not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised",
+  "Class-merged",
+  "Generated"
+ ],
+ "binarised_by": "authors",
+ "minority_rule": "explicit target listed",
+ "modified_data_released": "no",
+ "notes": "Class-merged coded because several minority classes are unions of original classes (e.g. Pageblocks 'Graphic','Vert.line','Picture'; Libra '1','2','3'; Yeast six classes; Glass '5','6','7'); Abalone uses class '18' vs class '9' only (other classes dropped). Natural: Breast-cancer-original (Malignant vs Benign) and Pima ('1' vs '0'). Table 5 and Table 6 are not in the pdftotext layer; read from PDF pages 12-14 at 300 dpi. Table 5 sums that do not add up: OCR Minority 376 + Majority 3447 vs Instances 3826; Statlandsat Majority printed 4435, equal to Instances 4435 with Minority 415. Yeast %Minority 21% but IR 0.20:0.80. Table 5 prints both %Minority and an 'Imbalance Ratio' in the form 0.xx:0.yy; no number-of-classes column. Data sets are abbreviated in Table 6 (Bcancerorig, Btissue, Page-blocks). Table 6 reports F-measure, G-mean, AUC and Std of AUC per classifier; outcome rows filled with F-measure (first column); the paper's significance tests (Tables 7-8) use AUC. No release of the transformed data."
+}

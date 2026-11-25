@@ -1,0 +1,14 @@
+{
+ "core": {
+  "families": 36,
+  "families_with_smote": 34
+ },
+ "highdim": {
+  "families": 5,
+  "families_with_smote": 5
+ },
+ "nested": {
+  "families": 21,
+  "families_with_smote": 21
+ }
+}

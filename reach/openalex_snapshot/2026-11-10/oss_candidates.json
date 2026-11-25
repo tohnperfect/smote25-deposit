@@ -1,0 +1,57 @@
+{
+ "url": "https://api.openalex.org/works?filter=title.search:curse%20of%20imbalanced%20training%20sets,publication_year:1996-1998&select=id,display_name,publication_year,cited_by_count,doi&per-page=20",
+ "response": {
+  "meta": {
+   "count": 2,
+   "db_response_time_ms": 20,
+   "page": 1,
+   "per_page": 20,
+   "groups_count": null,
+   "x_query": {
+    "oql": "get works from 1996–1998 with (curse of imbalanced training sets) in the title",
+    "x_new_oql": "get works from 1996–1998 with (curse of imbalanced training sets) in the title",
+    "oqo": {
+     "get_rows": "works",
+     "filter_rows": [
+      {
+       "column_id": "display_name.search",
+       "value": "curse of imbalanced training sets",
+       "operator": "has"
+      },
+      {
+       "column_id": "publication_year",
+       "value": 1996,
+       "operator": ">="
+      },
+      {
+       "column_id": "publication_year",
+       "value": 1998,
+       "operator": "<="
+      }
+     ]
+    },
+    "url": "/works?filter=display_name.search:curse of imbalanced training sets,publication_year:1996-1998&per_page=20",
+    "order": "best matches first",
+    "order_default": true
+   },
+   "cost_usd": 0.001
+  },
+  "results": [
+   {
+    "id": "https://openalex.org/W85350352",
+    "display_name": "Addressing the Curse of Imbalanced Training Sets: One-Sided Selection.",
+    "publication_year": 1997,
+    "cited_by_count": 2230,
+    "doi": null
+   },
+   {
+    "id": "https://openalex.org/W2979832949",
+    "display_name": "Adressing the curse of imbalanced training sets: one-sided selection",
+    "publication_year": 1997,
+    "cited_by_count": 329,
+    "doi": null
+   }
+  ],
+  "group_by": []
+ }
+}

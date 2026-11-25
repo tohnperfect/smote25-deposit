@@ -1,0 +1,25 @@
+{
+ "data_key": "AB-SMOTE",
+ "evaluates_on_data": "yes",
+ "sources": [
+  "UCI",
+  "KEEL",
+  "Other"
+ ],
+ "crit": "Datasets chosen with the imbalance threshold adopted from [12] (Fernandez et al. 2013): a dataset is considered unbalanced and chosen if the minority count is less than 40% of the majority count; the real-life datasets are described as widely used in machine learning research, downloaded from Crowd analytics, UCI, KEEL and IBM.",
+ "crit_type": "own reason",
+ "basis": [
+  "threshold rule",
+  "prior-work",
+  "popularity"
+ ],
+ "benchmark_inherited_from": "not stated in paper",
+ "origin": [
+  "Natural",
+  "Binarised"
+ ],
+ "binarised_by": "repository",
+ "minority_rule": "repository-defined",
+ "modified_data_released": "n.a.",
+ "notes": "Table I (Datasets used) is on printed p.34 = pdf p.4 (the to-fill hint says printed p.33; pdf p.4 is correct). Table I prints Total, Minority, Majority, 'IR Ratio' (minority/majority as %), Source; no feature or class counts. Wine Quality row does not add up: Minority 53 + Majority 1546 = 1599, but Total printed 1493. Flare: 43 + 1066 = 1109 (adds up). IR printed differently in results tables (Table X I.R.= 3.43% vs Table I 3.4%; Table IV 6.1% vs Table I 6%). Binarised coded only from the KEEL file name Abalone9-18 (two-class KEEL split); Wine Quality [4] and Flare [18] are also from KEEL but the paper does not say how/if they were binarised. No minority class named per dataset. Selection threshold borrowed from [12] but no dataset list inherited. Results: 4 AB-SMOTE variants (4.0-4.3) and two metrics (Recall, F-measure); 'We bolded the best obtained values' but bolding ignores SMOTE: in Table XI SMOTE (0.816/0.838) beats the bolded AB-SMOTE 4.0 (0.804/0.826), contradicting the text 'BSMOTE and AB-SMOTE managed to provide better results than the original SMOTE approach except in one case in Table V'. Table VII BSMOTE 3.1 F-measure 0.871 looks like a typo (others about 0.59). Spelling: 'Harberman', 'Employe Attrition'."
+}
