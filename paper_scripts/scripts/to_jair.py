@@ -37,6 +37,11 @@ def conv(text):
 
 for f in sorted((src / 'sec').glob('*.tex')):
     (out / 'sec' / f.name).write_text(conv(f.read_text(encoding='utf-8')), encoding='utf-8')
+# v0.67: in the JAIR build the reproducibility checklist starts on a page of its own, so that the screening finds it
+_a = out / 'sec' / '11-appendix.tex'
+_t = _a.read_text(encoding='utf-8')
+assert _t.count('\\section{Reproducibility Checklist for JAIR}') == 1
+_a.write_text(_t.replace('\\section{Reproducibility Checklist for JAIR}', '\\clearpage\n\\section{Reproducibility Checklist for JAIR}'), encoding='utf-8')
 for f in sorted((src / 'gen').glob('*.tex')):
     (out / 'gen' / f.name).write_text(conv(f.read_text(encoding='utf-8')), encoding='utf-8')
 
@@ -68,9 +73,9 @@ pre = pre.replace('\\newcommand{\\TODO}[1]{\\textcolor{red}{[TODO: #1]}}', r"""\
 % v0.39: the reference style puts a literal period before the year, which doubled the dot of "et al." (et al..);
 % \addperiod lets biblatex merge the two
 \xpatchbibmacro{date+extradate}{\setunit*{.\space}}{\setunit*{\addperiod\space}}{}{}
-% v0.62 (team lead, 23 Nov 2026): the first submission does not print the lines "JAIR Associate Editor" and "JAIR
-% Reference Format" (placeholders that JAIR fills at acceptance). For the camera-ready version remove this line.
-\settopmatter{printacmref=false}""")
+% v0.67 (team lead, 26 Nov 2026, "Restore them"): the build prints the template as it is, with the lines "JAIR
+% Associate Editor" and "JAIR Reference Format", the DOI line, the footer and the running head; v0.62 and v0.65 had
+% removed them. JAIR screens submissions automatically, and its kit allows no change of the style.""")
 body = team[team.index('\\begin{document}'):]
 body = re.sub(r'\\title\[[^\]]*\]\{[^}]*\}',
               lambda m: r'\title[SMOTE 25 Years of Magic]{SMOTE 25 Years of Magic: What Has Been Done, What the Evidence Shows, and Whom It Reached}',

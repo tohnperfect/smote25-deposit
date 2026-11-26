@@ -108,7 +108,7 @@
  },
  {
   "file": "05-data.tex",
-  "marker": "the proposed method wins 1,102, ties 100 and loses 293",
+  "marker": "the proposed method wins 1,102, ties 100, and loses 293",
   "values": [
    "1102",
    "1395",
@@ -360,7 +360,7 @@
  },
  {
   "file": "11-appendix.tex",
-  "marker": "On the Data values the two passes agreed on 84.2",
+  "marker": "On the Data values, the two passes agreed on 84.2",
   "values": [
    "84.2",
    "13",
@@ -868,7 +868,7 @@
  },
  {
   "file": "05-data.tex",
-  "marker": "On this scale two splits of one source lie",
+  "marker": "On this scale, two splits of one source lie",
   "values": [
    "0",
    "1"

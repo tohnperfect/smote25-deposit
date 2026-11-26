@@ -22,7 +22,7 @@ for non-commercial purposes only, while the data of this deposit carry CC BY 4.0
 
 ## How to cite
 
-Please cite the paper: Thanapong Intharah, Pharamut Makjaroen, Kanvara Thawarorit, Supawit Chaingam. SMOTE 25 Years of Magic: What Has Been Done, What the Evidence Shows, and Whom It Reached. arXiv preprint (identifier to be added when it is posted). Journal version: to be added when the paper is published.
+Please cite the paper: Thanapong Intharah, Pharamut Makjaroen, Kanvara Thawarorit, Supawit Chaingam. SMOTE 25 Years of Magic: What Has Been Done, What the Evidence Shows, and Whom It Reached. arXiv:2611.34511. Journal version: to be added when the paper is published.
 To cite these files: Thanapong Intharah, Pharamut Makjaroen, Kanvara Thawarorit, Supawit Chaingam. SMOTE25: data and code for "SMOTE 25 Years of Magic: What Has Been Done, What the Evidence Shows, and Whom It Reached". Zenodo, https://doi.org/10.5281/zenodo.24212321. The same
 files are in the GitHub repository https://github.com/tohnperfect/smote25-deposit.
 

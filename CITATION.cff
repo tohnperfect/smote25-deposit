@@ -31,3 +31,6 @@ preferred-citation:
       given-names: "Kanvara"
     - family-names: "Chaingam"
       given-names: "Supawit"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.34511"

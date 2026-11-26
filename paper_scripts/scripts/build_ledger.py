@@ -155,8 +155,8 @@ for _f, _marker, _vals, _src, _fld in (
         ('11-appendix.tex', 'In the nested tier, to test whether', ('3', '5'), _KN + ' and benchmark/run_ext.py', 'inner 3-fold; folds = 5, repeats = 3'),
         ('11-appendix.tex', 'In the nested tier, to test whether', ('0.012', '0.009'), _N, 'median_diff_vs_smote, PR-AUC, RF: none and G-SMOTE'),
         ('11-appendix.tex', 'Nested tier of the benchmark: median difference', ('20', '21'), _N, 'n_families, RF and GB'),
-        ('12-checklist.tex', 'The number of algorithm runs', ('5',), _K + ' and ' + _KN, 'folds = 5, repeats = 5 (3 nested)'),
-        ('12-checklist.tex', 'The number and range of (hyper-) parameter', ('3',), _KN + ' and benchmark/run_ext.py', 'grid of three values; inner 3-fold')):
+        ('12-checklist.tex', 'Experiments, item 10.', ('5',), _K + ' and ' + _KN, 'folds = 5, repeats = 5 (3 nested)'),
+        ('12-checklist.tex', 'Experiments, item 14.', ('3',), _KN + ' and benchmark/run_ext.py', 'grid of three values; inner 3-fold')):
     for _v in _vals:
         BENCH.setdefault((_f, _v), []).append((_marker, _src, _fld))
 
